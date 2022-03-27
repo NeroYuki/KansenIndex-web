@@ -22,3 +22,25 @@
   color: white;
 }
 
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dddddd;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .75em;
+}
+
+
+.apply-shadow {
+  box-shadow: 0 0 10px rgb(0,0,0);
+  -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+}
