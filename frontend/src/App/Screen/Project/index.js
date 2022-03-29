@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, SlideFade, Text} from "@chakra-ui/react"
+import { Box, Flex, Heading, Skeleton, SlideFade, Text} from "@chakra-ui/react"
 import {
     Accordion,
     AccordionItem,
@@ -7,8 +7,22 @@ import {
     AccordionIcon,
 } from '@chakra-ui/react'
 import { NavigationTop, SiteFooter, SiteHeader } from "../../Component"
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import data_source from "./datasource.md";
+import changelog from "./changelog.md"
+import { useEffect, useState } from "react"
 
 export const Project = () => {
+
+    const [data_source_md, setDataSource] = useState("")
+    const [changelog_md, setChangelog] = useState("") 
+
+    useEffect(() => {
+        fetch(data_source).then((res) => res.text()).then((text) => setDataSource(text))
+        fetch(changelog).then((res) => res.text()).then((text) => setChangelog(text))
+    }, [])
+
     return (
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
@@ -39,10 +53,7 @@ export const Project = () => {
                                     <AccordionIcon />
                                 </AccordionButton>
                                 <AccordionPanel pb={4}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                    {data_source_md ? <ReactMarkdown children={data_source_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
                                 </AccordionPanel>
                             </AccordionItem>
 
@@ -54,10 +65,7 @@ export const Project = () => {
                                     <AccordionIcon />
                                 </AccordionButton>
                                 <AccordionPanel pb={4}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                    {changelog_md ? <ReactMarkdown children={changelog_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
                                 </AccordionPanel>
                             </AccordionItem>
 
