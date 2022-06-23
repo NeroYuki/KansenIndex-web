@@ -44,3 +44,29 @@
   box-shadow: 0 0 10px rgb(0,0,0);
   -webkit-box-shadow: 0 0 10px rgb(0,0,0);
 }
+
+.markdown-content p, a, li {
+  font-size: 12px;
+}
+
+.markdown-content a {
+  color: blue;
+}
+.markdown-content li {
+  margin-top: 10px;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0)
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+  border: 1px solid darkgray;
+}

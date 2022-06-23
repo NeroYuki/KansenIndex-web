@@ -13,7 +13,7 @@ export const ShipIndex = () => {
                         <Text fontSize={14} marginBottom='10px' fontWeight={500}>Ship Index Search</Text>
                         <Box display={'flex'} flexDirection={'row'} alignItems="center" marginBottom='10px' >
                             <FaSearch scale={2} />
-                            <Input marginLeft='10px' placeholder="Enter keyword" color='black' size='lg' variant='flushed' pX='20px'></Input>
+                            <Input marginLeft='10px' placeholder="Enter keyword" color='black' size='lg' variant='flushed' paddingX='20px'></Input>
                         </Box>
                         <Stack direction={'row'} spacing='10px' marginBottom='10px'>
                             <Text fontWeight={500}>Keyword in:</Text>
@@ -29,7 +29,7 @@ export const ShipIndex = () => {
                             <Select size={'lg'} placeholder="Select franchise"></Select>
                         </Stack>
 
-                        <Accordion allowToggle  marginBottom='20px'>
+                        <Accordion allowToggle marginBottom='20px'>
                             <AccordionItem>
                                 <AccordionButton>
                                     <Box flex='1' textAlign='left'>

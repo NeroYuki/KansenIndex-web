@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { About, GameIndex, Home, Project, ShipIndex } from "../Screen"
+import { About, GameIndex, GameInfo, Home, Project, ShipIndex, ShipInfo } from "../Screen"
 
 export const TopNavigation = () => {
     return (
@@ -9,6 +9,8 @@ export const TopNavigation = () => {
             <Route path="/about" element={<About />} />
             <Route path="/ship_list" element={<ShipIndex />} />
             <Route path="/project" element={<Project />} />
+            <Route path="/game_info" element={<GameInfo />}/>
+            <Route path="/ship_info" element={<ShipInfo />} />
         </Routes>
     )
 }

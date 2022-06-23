@@ -15,7 +15,7 @@ export const About = () => {
             <SlideFade in={true} offsetY='-80px'>
                 <Box bg='green.200' p='40px'>
                     <Box bg='gray.300' p='32px' className="apply-shadow">
-                        <Accordion>
+                        <Accordion allowToggle>
                             <AccordionItem>
                                 <AccordionButton>
                                     <Box flex='1' textAlign='left'>
