@@ -12,7 +12,7 @@ export const FranchiseCardView = (props) => {
                     <Text fontSize={16} fontWeight={500}>{props.title ? props.title : 'Placeholder'}</Text>
                     <Divider my={'10px'}></Divider>
                     <Text>{props.content ? props.content : 'Content'}</Text>
-                    <Button mt={'10px'} onClick={() => {props.onExplore ? props.onExplore(props.title) : console.log("FranchiseCardView:Button: default")}} >Explore</Button>
+                    <Button mt={'10px'} onClick={() => {props.onExplore ? props.onExplore(props.id) : console.log("FranchiseCardView:Button: default")}} >Explore</Button>
                 </div>
             </Flex>
         </Box>

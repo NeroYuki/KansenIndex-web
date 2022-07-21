@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Azur Lane",
+        "optionName": "al",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "default",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Akushizu Senki",
+        "optionName": "as",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "1",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Arpeggio of Blue Steel",
+        "optionName": "abs",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "default",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Battleship Girl",
+        "optionName": "bgsm",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "base",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Black Surgenights",
+        "optionName": "bsn",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "normal",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Blue Oath",
+        "optionName": "bo",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "base",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Kantai Collection",
+        "optionName": "kc",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "base",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Warship Girls R",
+        "optionName": "wg",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "base",
+        "alias": [
+
+        ]
+    }
+]

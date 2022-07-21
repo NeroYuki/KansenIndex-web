@@ -1,4 +1,4 @@
-import { Divider, Box, Text, Tag, TagLabel, TagLeftIcon, Button} from "@chakra-ui/react"
+import { Divider, Box, Text, Tag, TagLabel, TagLeftIcon, Button, Skeleton} from "@chakra-ui/react"
 import { MdCheck, MdArrowRightAlt } from 'react-icons/md'
 import {
     Accordion,
@@ -7,6 +7,8 @@ import {
     AccordionPanel,
     AccordionIcon,
 } from '@chakra-ui/react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 const InfoSectionList = (props) => {
     const data = props.data
@@ -37,6 +39,7 @@ const InfoSectionList = (props) => {
 }
 
 const InfoSectionDesc = (props) => {
+    const data = props.data ? props.data.replace(/\\n/g, '\n\n') : ""
     return (
         <AccordionItem>
             <AccordionButton>
@@ -46,36 +49,53 @@ const InfoSectionDesc = (props) => {
                 <AccordionIcon />
             </AccordionButton>
             <AccordionPanel pb={4}>
-                {props.content || "Placeholder"}
+                {data ? <ReactMarkdown children={data} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
+            </AccordionPanel>
+        </AccordionItem>
+    )
+}
+
+const InfoSectionGallery = (props) => {
+
+    const imageList = (props.data) ? props.data.map((val) => {
+        return <img src={val} alt="gallery screenshot"></img> 
+    }) : <Skeleton height={'50px'} />
+    return (
+        <AccordionItem>
+            <AccordionButton>
+                <Box flex='1' textAlign='left'>
+                    <Text fontSize={16} fontWeight={500} marginY='12px'>{props.title || "Placeholder"}</Text>
+                </Box>
+                <AccordionIcon />
+            </AccordionButton>
+            <AccordionPanel pb={4}>
+                {imageList}
             </AccordionPanel>
         </AccordionItem>
     )
 }
 
 export const FranchiseDetailView = (props) => {
-    const mock_info = [
-        {name: "China", value: new Date().toLocaleDateString('vi-VN')},
-        {name: "Japan", value: new Date().toLocaleDateString('vi-VN')},
-        {name: "Global", value: new Date().toLocaleDateString('vi-VN')},
-    ]
 
-    const mock_info2 = [
-        {name: "Genre", value: "Gacha, Bullet-Hell, Action"},
-        {name: "Platform", value: "Android, iOS"},
-        {name: "Publisher", value: "A Publisher"},
-        {name: "Developer", value: "Definitely a Game Studio"},
-    ]
+    const general_info = props.data.general_info || []
+    const release_date = (props.data.release_date || []).map((val) => {
+        return {name: val.region, value: new Date(Date.parse(val.date)).toLocaleDateString()}
+    })
+    const title = props.data.display_name
+    const icon_image = props.data.icon_image
+    const extra_info = props.data.extra_info
+    const screenshot = props.data.screenshot
 
     return (
         <div style={{padding: "16px 0 16px 0"}}>
             <div style={{height: 160, display: 'flex'}}>
                 <div style={{flex: 2, display: 'flex', justifyContent: 'center', alignItems: 'center', padding: 10}}>
-                    {props.image_link ? <img src={props.image_link} alt="title logo"></img>  : 'Insert logo here'}
+                    {icon_image ? <img src={icon_image} alt="title logo"></img>  : 'Insert logo here'}
                 </div>
                 <Divider orientation="vertical"></Divider>
                 <div style={{flex: 6, padding: '12px', paddingLeft: '32px'}}>
                     <div style={{display: 'flex', alignItems: 'center'}}>
-                        <Text fontSize={20} fontWeight={500} marginY='12px' paddingRight='20px' display={"inline"}>{"Game Title"}</Text> 
+                        <Text fontSize={20} fontWeight={500} marginY='12px' paddingRight='20px' display={"inline"}>{title || "Placeholder"}</Text> 
                         <Tag colorScheme='green'>
                             <TagLabel>Active</TagLabel>
                             <TagLeftIcon as={MdCheck} />
@@ -87,10 +107,10 @@ export const FranchiseDetailView = (props) => {
                 </div>
             </div>
             <Accordion allowToggle allowMultiple>
-                <InfoSectionList title="General Info" data={mock_info2}/>
-                <InfoSectionList title="Release Date" data={mock_info}/>
-                <InfoSectionDesc title="Extra Info"/>
-                <InfoSectionDesc title="Screenshot"/>
+                <InfoSectionList title="General Info" data={general_info}/>
+                <InfoSectionList title="Release Date" data={release_date}/>
+                <InfoSectionDesc title="Extra Info" data={extra_info}/>
+                <InfoSectionGallery title="Screenshot" data={screenshot}/>
             </Accordion>
             <Divider />
             

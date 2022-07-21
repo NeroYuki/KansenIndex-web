@@ -1,7 +1,8 @@
 import { Box, Flex, Heading, HStack, SlideFade, Stack, Wrap, Modal, 
-    ModalHeader, ModalBody, ModalFooter, ModalOverlay, ModalContent, ModalCloseButton, useDisclosure, Button} from "@chakra-ui/react"
-import { useState } from "react"
+    ModalHeader, ModalBody, ModalFooter, ModalOverlay, ModalContent, ModalCloseButton, useDisclosure, Button, useToast} from "@chakra-ui/react"
+import { useEffect, useState } from "react"
 import { FranchiseCardView, NavigationTop, SiteHeader, SiteFooter, FranchiseDetailView } from "../../Component"
+import { GET_info, GET_list_all } from "../../Service/game"
 
 export const WrapCardView = (props) => {
     const { ...rest } = props
@@ -14,54 +15,65 @@ export const WrapCardView = (props) => {
 
 export const GameIndex = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const [gameInfo, setGameInfo] = useState({
-        title: "",
-        desc: "",
-    })
+    const toast = useToast()
+    const [gameList, setGameList] = useState([])
+    const [gameInfo, setGameInfo] = useState({})
+
+    function showErrorToast(e) {
+        toast({
+            title: 'Error',
+            description: e,
+            status: 'error',
+            duration: 5000,
+            isClosable: true,
+        })
+    }
+
+    useEffect(() => {
+        async function fetchData() {
+            let res = await GET_list_all().catch(e => showErrorToast(e))
+            if (!res) return
+            setGameList(res)
+        }
+        fetchData()
+    }, [])
 
     const onExplore = (id) => {
         onOpen()
+        //console.log(id)
+        if (gameInfo.id && gameInfo.id === id) return
+        async function fetchData(id) {
+            let res = await GET_info(id).catch(e => showErrorToast(e))
+            if (!res) return
+            console.log(res)
+            setGameInfo(res)
+        }
+        fetchData(id)
     }
+
+    const cardList = gameList.map((val) => {
+        return (
+            <WrapCardView key={val.id} id={val.id} title={val.name} content={val.desc} onExplore={onExplore} image_link={val.icon_image}></WrapCardView>
+        )
+    })
 
     return (
         <Flex direction={'column'} height={'100%'}>
-
             <SiteHeader />
-
             <Modal isOpen={isOpen} onClose={onClose} closeOnOverlayClick={true} size={'6xl'}>
                 <ModalOverlay />
                 <ModalContent>
                     <ModalHeader>Game Detail</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
-                        <FranchiseDetailView image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Azur Lane.png`}/>
+                        <FranchiseDetailView data={gameInfo}/>
                     </ModalBody>
                 </ModalContent>
             </Modal>
 
             <SlideFade in={true} offsetY='-80px'>
                 <Flex bg='yellow.200' direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
-                    <WrapCardView title="Abyss Horizon" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Abyss Horizon.webp`}></WrapCardView>
-                    <WrapCardView title="Akushizu Senki" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Akizuki Senki.jpg`}></WrapCardView>
-                    <WrapCardView title="Arpeggio of Blue Steel" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Aoki_Hagane.webp`}></WrapCardView>
-                    <WrapCardView title="Azur Lane" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Azur Lane.png`}></WrapCardView>
-                    <WrapCardView title="Battleship Bishoujo Puzzle" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Puzzle girls.png`}></WrapCardView>
-                    <WrapCardView title="Battleship Girl -鋼鉄少女-" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Battleship Girls.png`}></WrapCardView>
-                    <WrapCardView title="Battleship War Girl" onExplore={onExplore} ></WrapCardView>
-                    <WrapCardView title="Black Surgenights" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Black surgenight_dark.png`}></WrapCardView>
-                    <WrapCardView title="Blue Oath" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Blue oath.webp`}></WrapCardView>
-                    <WrapCardView title="Codename: Coastline" onExplore={onExplore} ></WrapCardView>
-                    <WrapCardView title="Counter Arms" onExplore={onExplore} ></WrapCardView>
-                    <WrapCardView title="Deep Sea Desire" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Deep Sea Desire.jpg`}></WrapCardView>
-                    <WrapCardView title="Guardian Project" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Guardian Project.png`}></WrapCardView>
-                    <WrapCardView title="Kantai Collection" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Kantai Collection.png`}></WrapCardView>
-                    <WrapCardView title="Lane Girls" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Lane Girl.png`}></WrapCardView>
-                    <WrapCardView title="Moe Moe World War II" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Moe moe ww2 3.jpg`}></WrapCardView>
-                    <WrapCardView title="Shipgirl Collection"onExplore={onExplore} ></WrapCardView>
-                    <WrapCardView title="Velvet Code" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Velvet Code.jpg`}></WrapCardView>
-                    <WrapCardView title="Victory Belles" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Victory Belles.webp`}></WrapCardView>
-                    <WrapCardView title="Warship Collection"onExplore={onExplore} ></WrapCardView>
-                    <WrapCardView title="Warship Girls R" onExplore={onExplore} image_link={`${process.env.PUBLIC_URL}/assets/shipgirls/Franchise logo/Warship Girl R.jpg`}></WrapCardView>
+                    {cardList}
                 </Flex>
             </SlideFade>
             <SiteFooter></SiteFooter>

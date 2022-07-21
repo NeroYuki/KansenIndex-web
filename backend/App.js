@@ -3,7 +3,7 @@ const path = require('path');
 const cors = require("cors")
 
 const game_route = require('./routes/game')
-const ship_route = require('./routes/ship')
+const shipgirl_route = require('./routes/shipgirl')
 
 const app = express()
 const port = 5000
@@ -13,13 +13,18 @@ app.use(cors({
 }));
 
 app.use(express.static(path.join(__dirname, '/../frontend/build')));
+app.use('/data/assets', express.static(path.join(__dirname, '/data/assets')))
 
 app.get('/api/test', (req, res) => {
     res.send('Hello World! From neroyuki\'s droplet')
 })
 
-app.use('/api/ship', ship_route)
+app.use('/api/shipgirl', shipgirl_route)
 app.use('/api/game', game_route)
+
+app.get('/api*', (req, res) => {
+    res.send('Unknown API call')
+})
 
 app.get('*', (req, res) => {
 	res.sendFile(path.join(__dirname + '/../frontend/build/index.html'));

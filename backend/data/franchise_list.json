@@ -1,0 +1,337 @@
+[
+  {
+    "id": "c3d52a87fe68b2dfb3287913eba00da86c005d8ededaaf813b423bf874960dd2",
+    "name": "Abyss Horizon",
+    "display_name": "Abyss Horizon",
+    "desc": "Gacha game with some 3D element",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Abyss Horizon.webp",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "db1497d4c1d2eca61a37e46a05130d9e6c27a88550dc4af9aa5d4bc4861452e4",
+    "name": "Akushizu Senki",
+    "display_name": "Akushizu Senki",
+    "desc": "Military-theme gacha RPG",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Akizuki Senki.jpg",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "dd180dbb54a5113d18ce454b5617fe384e094c20795408ba3304244fe5e9bf88",
+    "name": "Arpeggio of Blue Steel",
+    "display_name": "Arpeggio of Blue Steel",
+    "desc": "Franchise start from a naval-theme manga",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Aoki_Hagane.webp",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "04a57191f59ab720a3eb3babce90503264028fcb62b1da03f5f358102ed773db",
+    "name": "Artist Original Content",
+    "display_name": "Artist Original Content",
+    "desc": "Original illustration by artists",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "ad984e86c1464dcdeb55387298294204405fef22330e5e57ab228b8efd08f5f0",
+    "name": "Azur Lane",
+    "display_name": "Azur Lane",
+    "desc": "Gacha game with 2D bullet hell shooter element",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Azur Lane.png",
+    "general_info": [
+      {"name": "Developer", "value": "Shanghai Manjuu, Xiamen Yongshi"},
+      {"name": "Publisher", "value": "CHN: Bilibili - JP/WW: Shanghai Yostar - KR: XD Global - HK/MAC/TW: PWB Play"},
+      {"name": "Genre", "value": "Shoot 'em up, construction and management simulation, role-playing video game"},
+      {"name": "Engine", "value": "Unity"},
+      {"name": "Platform", "value": "Android, iOS"}
+    ],
+    "release_date": [
+      { "region": "Mainland China", "date": "2017-05-27T00:00:00Z"},
+      { "region": "Japan", "date": "2017-09-14T00:00:00Z"},
+      { "region": "Korea", "date": "2018-02-27T00:00:00Z"},
+      { "region": "Global", "date": "2019-05-20T00:00:00Z"},
+      { "region": "Hongkong/Macau/Taiwan", "date": "2019-10-04T00:00:00Z"}
+    ],
+    "extra_info": "Azur Lane (Chinese: 碧蓝航线; pinyin: Bìlán Hángxiàn) is a side-scrolling shoot 'em up video game created by Chinese developers Shanghai Manjuu and Xiamen Yongshi, released in 2017 for the iOS and Android operating systems. Set in an alternate timeline of World War II, players engage in side-scrolling shooter gameplay, using female moe anthropomorphic characters based on warships from the war's major participants. Other gameplay elements, like customizing a dorm and in-game characters, are also present.\nFirst launched in China in May and in Japan in September 2017, Azur Lane quickly became popular, especially in Japan where the player count reached five million within four months after its release. Players have voted the game among the top five on Google Play's Best Game of 2017 list for the region. Critics have attributed the game's popularity to its original and well-designed gameplay system. An English version started open beta in August 2018 and was formally released in May 2019. Later, in December 2019, the English version was expanded to Latin American region. PWB Play simultaneously released it to Hong Kong, Macau, and Taiwan in October 2019.\nThe game has been adapted into several manga and novelizations. Azur Lane Crosswave, a 3D adaptation for PlayStation 4, was published by Compile Heart in August 2019 with mixed reception. Crosswave's English localization was released in February 2020 for PlayStation 4 and PC. A Nintendo Switch port of the game was released in Japan in September 2020, and in February 2021 in North America and in February 2021 in Europe.\nAn anime television series adaptation by Bibury Animation Studios was announced in 2018, and was aired from October 2019 to March 2020. Funimation licensed this series for a SimulDub.[5] An anime television series adaptation of the Azur Lane: Slow Ahead! manga by studios CANDYBOX and Yostar Pictures aired from January to March 2021. An anime adaptation of the Azur Lane Queen's Orders manga has been announced.",
+    "screenshot": [
+      "https://upload.wikimedia.org/wikipedia/en/1/1d/Azur_Lane_main_screen.png",
+      "https://upload.wikimedia.org/wikipedia/en/d/d4/Azur_Lane_Formation_screen.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/41/Azur_Lane_battle_screen.png"
+    ]
+  },
+  {
+    "id": "1e2b61f631d7190caead4a9d1c60d00803e2ceb125dcdcc056f116efd2b12277",
+    "name": "Battleship Bishoujo Puzzle",
+    "display_name": "Battleship Bishoujo Puzzle",
+    "desc": "Gacha game with match-3 RPG gameplay",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Puzzle girls.png",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "88b234763889f9d723e6552f50848e7c7397bf0939b3c304ae8338cad26bfd7a",
+    "name": "Battleship Girl",
+    "display_name": "Battleship Girl",
+    "desc": "Manga series by ZECO",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Battleship Girls.png",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "bf69a5c3048cf278882f12b7c54de7bcdfc65ea737ca66381c64dad7b08bfefc",
+    "name": "Battleship War Girl",
+    "display_name": "Battleship War Girl",
+    "desc": "Gacha game with RPG element",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "ddc81304322eb1488468fd8208c018fda433f7d05cada4aadb7bda78036538f9",
+    "name": "Black Surgenights",
+    "display_name": "Black Surgenights",
+    "desc": "Gacha game with turn-based RPG gameplay",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Black surgenight_dark.png",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "01ca31aacf2dd64595db9724b08e04198f252ef54948a42ac4033fd3c0c5d8c2",
+    "name": "Blue Oath",
+    "display_name": "Blue Oath",
+    "desc": "Gacha game with 3D 3rd person RPG gameplay",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Blue oath.webp",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "2cc6a7026759d2ee627aeeed115eccfda975f4142552d10e4f17e56e58888f72",
+    "name": "Codename Coastline",
+    "display_name": "Codename Coastline",
+    "desc": "Gacha game with 3D RTS gameplay element",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "7de316ffd5dfaf0e7ce6ed86b34de7a42d29e9abffd9fd382f73f923ed9aca43",
+    "name": "Counter Arms",
+    "display_name": "Counter Arms",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "ae72562f0ccb077069181be50fe457e202d4df08e560180242fe094f794c7ce0",
+    "name": "Deep Sea Desire",
+    "display_name": "Deep Sea Desire",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Deep Sea Desire.jpg",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "001e4344fa8abc910c36b8e87f25ed5f04ab858feaeef059930debf82e882fed",
+    "name": "Goddess Fleet",
+    "display_name": "Goddess Fleet",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "221beb70292cc2aac846c0d88957a11fd0c7cd453d14e2037c0b992f656f261e",
+    "name": "Guardian Project",
+    "display_name": "Guardian Project",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Guardian Project.png",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "8b50ad1d3dd7f388e58efe5de35c1bc0472afcdb1beb9e883d60cb963b573950",
+    "name": "Kantai Collection",
+    "display_name": "Kantai Collection",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Kantai Collection.png",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "5bc60113bd87f545195d01fc2fd58020da77e3c484abcd32fa9041a5dc93c783",
+    "name": "Lane Girls",
+    "display_name": "Lane Girls",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Lane Girl.png",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "8b4462ba942086db0c756e34b1f117e38eb03373c386bb71736755e52a9df312",
+    "name": "Maiden Fleet",
+    "display_name": "Maiden Fleet",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "43ca14c3746d852305548ea55f3afd7157e1bdadf400596bc3e8ece16914bba5",
+    "name": "Mirage of Steelblue",
+    "display_name": "Mirage of Steelblue",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "a8ac433d309e9713672d664a0b1698eb14f1d753f90ff91d859405b36aa2dc6d",
+    "name": "Moe Moe World War II",
+    "display_name": "Moe Moe World War II",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Moe moe ww2 3.jpg",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "e2e484832cf78ea408660cb2a860c3aa678c681584cfdcddd87b0c976d987229",
+    "name": "Shipgirls Collection",
+    "display_name": "Shipgirls Collection",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "c0f5c0eef74bee397b02f537a18dede0d30b0f65ff85dbde26620b9476248d9d",
+    "name": "Shipgirls GO",
+    "display_name": "Shipgirls GO",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "86284bb718bb686a1f200f2a525c51b2c8df4be89323935fbe63dab2018ea189",
+    "name": "Shoujo Heiki",
+    "display_name": "Shoujo Heiki",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "88e11197c6cffa26028164dae3d158a77618310ed257c4e5151bf5b276a5138c",
+    "name": "Tales of Abyss",
+    "display_name": "Tales of Abyss",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "2ad0119f16e69febbbd4b1c86515e2a1bc66a19c279f7dde93b4ed1f1ac7ae3f",
+    "name": "The Cute Warship",
+    "display_name": "The Cute Warship",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "3b22c4d799cfb9791110b04398fc5423c97381bd725f0cdd0f6692ad4c2d8b89",
+    "name": "Velvet Code",
+    "display_name": "Velvet Code",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Velvet Code.jpg",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "766e656899f6bbc4bafa3ad36d1c704a540b84c459f39d74243b3c75d12d7e6e",
+    "name": "Victory Belles",
+    "display_name": "Victory Belles",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Victory Belles.webp",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "796689da91d6666d8bec5d7dd9e70ca35ee8abb34746e31fde464c5468cd05ac",
+    "name": "Warship Collection",
+    "display_name": "Warship Collection",
+    "desc": "",
+    "icon_image": "",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  },
+  {
+    "id": "a3fc2c05b18c281ccc9763fb862541400f2456e8343e0c496a48df353fdcfac7",
+    "name": "Warship Girls R",
+    "display_name": "Warship Girls R",
+    "desc": "",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Warship Girl R.jpg",
+    "general_info": [],
+    "release_date": [],
+    "extra_info": "",
+    "screenshot": []
+  }
+]
