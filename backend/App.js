@@ -2,11 +2,14 @@ const express = require('express')
 const path = require('path');
 const cors = require("cors")
 
+const databaseConn = require('./database/database_connection')
+
 const game_route = require('./routes/game')
 const shipgirl_route = require('./routes/shipgirl')
 
 const app = express()
 const port = 5000
+
 
 app.use(cors({
     origin: ['https://kansenindex.xyz', 'https://www.kansenindex.xyz']
@@ -32,4 +35,5 @@ app.get('*', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Application listening at http://localhost:${port}`)
+    databaseConn.initConnection(() => {}) 
 })

@@ -46,7 +46,8 @@ function main_shipgirl () {
                 char: char_name,
                 filename: BASE_PATH + '/' + dir + '/' + file,
                 is_base: isBase,
-                file_hash: file_hash
+                file_hash: file_hash,
+                
             })
         })
 
@@ -57,6 +58,52 @@ function main_shipgirl () {
     })
 
     fs.writeFileSync('data/shipgirl_list.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
+}
+
+function main_shipgirl_db() {
+
+    let dirs = fs.readdirSync(BASE_PATH)
+
+    let list = []
+
+    dirs.forEach((dir) => {
+        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt"].includes(dir)) return
+
+        let entry_config = config.find(val => val.name === dir) || {}
+
+        let base_count = 0
+        let count = 0
+
+        let files = fs.readdirSync(BASE_PATH + '/' + dir)
+        files.forEach((file, index) => {
+            if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) return
+            let comp = file.slice(0, file.lastIndexOf('.')).split('_')
+            let char_name = comp[0]
+
+            const isBase = (!comp[1] || (comp[1].toLowerCase() === entry_config.baseArtSuffix && !comp[2]))
+            
+            count += 1
+            if (isBase) base_count += 1
+
+            console.log(`(${dir} - ${index + 1}/${files.length}) Adding ${file}`)
+            let file_hash = hashFile.sync({
+                files: [BASE_PATH + '/' + dir + '/' + file]
+            })
+
+            list.push({
+                char: char_name,
+                full_dir: BASE_PATH + '/' + dir + '/' + file,
+                filename: file,
+                is_base: isBase,
+                file_hash: file_hash,
+                folder: dir
+            })
+        })
+
+        //list.push(list_entry)
+    })
+
+    fs.writeFileSync('data/shipgirl_list_db.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
 function main_franchise() {
@@ -86,4 +133,5 @@ function main_franchise() {
     fs.writeFileSync('data/franchise_list_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
-main_franchise()
+main_shipgirl_db()
+//main_franchise()
