@@ -73,12 +73,9 @@
 
 /* Tooltip container */
 .tooltip {
-  position: relative;
-  display: inline-block;
+  /* position: relative; */
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-
-  overflow-y: visible;
-  overflow-x: visible;
+  display: contents;
 }
 
 /* Tooltip text */
@@ -93,15 +90,50 @@
   position: absolute;
   z-index: 10;
   width: 300px;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -300px; 
+  margin-top: -320px;
+  margin-left: -360px
 
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
-
   overflow: visible;
+}
+
+.expand-button {
+  display: none;
+}
+
+.expanded-nav-container {
+  display: none
+}
+
+.nav-button {
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-button-container:not(:first-child) {
+    display: none;
+  }
+
+  .nav-button-container:first-child {
+    width: calc(100vw - 80px);
+  }
+  
+  .nav-button {
+    justify-content: left;
+  }
+
+  .expanded-nav-container {
+    display: block;
+    transition: height 0.5s linear;
+    height: 0;
+    overflow: hidden
+  }
+
+  .expand-button {
+    display: flex;
+  }
 }

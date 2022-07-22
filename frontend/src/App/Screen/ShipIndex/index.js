@@ -75,7 +75,7 @@ export const ShipIndex = () => {
                 <Td>{val.char}</Td>
                 <Td>{val.folder}</Td>
                 <Td>{val.filename}</Td>
-                <Td><Checkbox defaultChecked={val.is_base} isDisabled></Checkbox></Td>
+                <Td><Checkbox isChecked={val.is_base} isDisabled></Checkbox></Td>
                 <Td><a href={val.full_dir} className="tooltip">View here
                     <span className="tooltiptext"><img style={{height: 300, margin: 'auto', objectFit: 'scale-down'}} src={thumb_dir} alt="hover_img"></img></span>
                 </a></Td>
@@ -118,7 +118,7 @@ export const ShipIndex = () => {
                                     <AccordionIcon />
                                 </AccordionButton>
                                 <AccordionPanel pb={4}>
-                                <Stack direction={'row'} spacing='10px' marginBottom='10px'>
+                                <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
                                     <Text fontWeight={500}>Construction Status: </Text>
                                     <CheckboxGroup>
                                         <Checkbox>Fictional</Checkbox>
@@ -142,7 +142,9 @@ export const ShipIndex = () => {
                             <p style={{marginLeft: 20, marginRight: 20}}>{`Page ${page}`}</p>
                             <Button disabled={shiplist.length === 0 || blocked} onClick={() => {setPage(page + 1)}}>Next Page</Button>
                         </Box>
+                        <div style={{zIndex: 0, width: "100%", overflowX: 'scroll' }}>
                         <Table variant='simple' width={"100%"}>
+                            <TableCaption>{`Displaying ${shiplist.length} entries`}</TableCaption>
                             <Thead>
                                 <Tr>
                                     <Th>Character</Th>
@@ -156,6 +158,7 @@ export const ShipIndex = () => {
                                 {tableRows}
                             </Tbody>
                         </Table>
+                        </div>
                     </Box>
                 </Box>
             </SlideFade>
