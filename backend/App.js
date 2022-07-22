@@ -17,6 +17,7 @@ app.use(cors({
 
 app.use(express.static(path.join(__dirname, '/../frontend/build')));
 app.use('/data/assets', express.static(path.join(__dirname, '/data/assets')))
+app.use('/data/thumbs', express.static(path.join(__dirname, '/data/thumbs')))
 
 app.get('/api/test', (req, res) => {
     res.send('Hello World! From neroyuki\'s droplet')

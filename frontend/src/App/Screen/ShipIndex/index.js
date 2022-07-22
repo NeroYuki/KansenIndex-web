@@ -68,6 +68,8 @@ export const ShipIndex = () => {
     }
 
     const tableRows = shiplist.map(val => {
+        let thumb_dir = val.full_dir.replace('./data/assets/', './data/thumbs/')
+        thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
         return (
             <Tr>
                 <Td>{val.char}</Td>
@@ -75,7 +77,7 @@ export const ShipIndex = () => {
                 <Td>{val.filename}</Td>
                 <Td><Checkbox defaultChecked={val.is_base} isDisabled></Checkbox></Td>
                 <Td><a href={val.full_dir} className="tooltip">View here
-                    <span className="tooltiptext"><img style={{height: 300, margin: 'auto', objectFit: 'scale-down'}} src={val.full_dir} alt="hover_img"></img></span>
+                    <span className="tooltiptext"><img style={{height: 300, margin: 'auto', objectFit: 'scale-down'}} src={thumb_dir} alt="hover_img"></img></span>
                 </a></Td>
             </Tr>
         )

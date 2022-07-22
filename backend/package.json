@@ -15,6 +15,7 @@
     "express": "^4.17.2",
     "express-rate-limit": "^6.4.0",
     "hash-files": "^1.1.1",
-    "mongodb": "^4.8.0"
+    "mongodb": "^4.8.0",
+    "sharp": "^0.30.7"
   }
 }
