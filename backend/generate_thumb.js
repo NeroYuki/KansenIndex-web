@@ -6,7 +6,7 @@ const crypto = require('crypto')
 
 const BASE_PATH = './data/assets/shipgirls'
 
-function thumb_gen () {
+function thumb_gen (add_mode = false) {
 
     let dirs = fs.readdirSync(BASE_PATH)
 
@@ -25,6 +25,11 @@ function thumb_gen () {
 
             let target_dir = './data/thumbs/shipgirls/' + dir + '/' + file.slice(0, file.lastIndexOf('.')) + '.png'
             console.log("target:", target_dir)
+
+            if(add_mode && fs.existsSync(target_dir)) {
+                console.log('skipped')
+                return
+            }
             img = await sharp(BASE_PATH + '/' + dir + '/' + file)
 				.resize({height: 512})
 				.png()
@@ -36,4 +41,4 @@ function thumb_gen () {
     console.log('done')
 }
 
-thumb_gen()
+thumb_gen(true)

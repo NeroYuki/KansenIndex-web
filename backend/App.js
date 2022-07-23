@@ -1,6 +1,7 @@
 const express = require('express')
 const path = require('path');
 const cors = require("cors")
+const compression = require("compression")
 
 const databaseConn = require('./database/database_connection')
 
@@ -15,6 +16,7 @@ app.set('trust proxy', 2)
 app.use(cors({
     origin: ['https://kansenindex.xyz', 'https://www.kansenindex.xyz']
 }));
+app.use(compression());
 
 app.use(express.static(path.join(__dirname, '/../frontend/build')));
 app.use('/data/assets', express.static(path.join(__dirname, '/data/assets')))
