@@ -5,7 +5,11 @@ export function GET_query(query) {
         }
         let url = '/api/shipgirl/query?' 
         if (query.keyword) url += `keyword=${query.keyword}&`
-        if (query.page > 0) url += `page=${query.page}&`
+        if (query.keywordMod) url += `keyword_mod=${query.keywordMod}&`
+        if (query.page > 1) url += `page=${query.page}&`
+        if (query.constructMod) url += `construct_mod=${query.constructMod}&`
+        if (query.altOutfitMod) url += `alt_outfit_mod=${query.altOutfitMod}&`
+        if (query.selectedFranchise) url += `folder=${query.selectedFranchise}&`
 
         let res = await fetch(url, option).catch(e => reject("error when fetch"))
 

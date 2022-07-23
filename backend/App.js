@@ -10,6 +10,7 @@ const shipgirl_route = require('./routes/shipgirl')
 const app = express()
 const port = 5000
 
+app.set('trust proxy', 2)
 
 app.use(cors({
     origin: ['https://kansenindex.xyz', 'https://www.kansenindex.xyz']
@@ -25,6 +26,8 @@ app.get('/api/test', (req, res) => {
 
 app.use('/api/shipgirl', shipgirl_route)
 app.use('/api/game', game_route)
+
+app.get('/api/ip', (request, response) => response.send(request.ip))
 
 app.get('/api*', (req, res) => {
     res.send('Unknown API call')

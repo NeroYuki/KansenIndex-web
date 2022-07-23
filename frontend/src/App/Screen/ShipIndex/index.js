@@ -22,6 +22,41 @@ export const ShipIndex = () => {
     const [page, setPage] = useState(1)
     const [shiplist, setShipList] = useState([])
     const [blocked, setBlocked] = useState(false)
+    const [keywordMod, setKeywordMod] = useState(0)
+    const [constructMod, setConstructMod] = useState(0)
+    const [altOutfitMod, setAltOutfitMod] = useState(0)
+    const [franchiseSelection, setFranchiseSelection] = useState([
+        "Abyss Horizon",
+        "Akushizu Senki",
+        "Arpeggio of Blue Steel",
+        "Artist Original Content",
+        "Azur Lane",
+        "Battleship Bishoujo Puzzle",
+        "Battleship Girl",
+        "Battleship War Girl",
+        "Black Surgenights",
+        "Blue Oath",
+        "Codename Coastline",
+        "Counter Arms",
+        "Deep Sea Desire",
+        "Goddess Fleet",
+        "Guardian Project",
+        "Kantai Collection",
+        "Lane Girls",
+        "Maiden Fleet",
+        "Mirage of Steelblue",
+        "Moe Moe World War II",
+        "Shipgirls Collection",
+        "Shipgirls GO",
+        "Shoujo Heiki",
+        "Tales of Abyss",
+        "The Cute Warship",
+        "Velvet Code",
+        "Victory Belles",
+        "Warship Collection",
+        "Warship Girls R"
+    ])
+    const [selectedFranchise, setSelectedFranchise] = useState("")
     const toast = useToast()
 
     function showErrorToast(e) {
@@ -37,8 +72,13 @@ export const ShipIndex = () => {
     async function reloadData() {
         let query = {
             keyword: keyword,
-            page: page
+            keywordMod: keywordMod,
+            page: page,
+            constructMod: constructMod,
+            altOutfitMod: altOutfitMod,
+            selectedFranchise: selectedFranchise
         }
+
         setBlocked(true)
         let res = await GET_query(query).catch(e => showErrorToast(e))
         setBlocked(false)
@@ -83,6 +123,17 @@ export const ShipIndex = () => {
         )
     })
 
+    const franchiseOption = franchiseSelection.map(val => {
+        return (
+            <option key={val} value={val}>{val}</option>
+        )
+    })
+
+    function toggleModifierValue(value, key) {
+        const mod_val = 1 << key
+        return value ^ mod_val
+    }
+
     return (
         <Flex direction={'column'}>
             <SiteHeader />
@@ -98,15 +149,17 @@ export const ShipIndex = () => {
                         <Stack direction={'row'} spacing='10px' marginBottom='10px'>
                             <Text fontWeight={500}>Keyword in:</Text>
                             <CheckboxGroup>
-                                <Checkbox>Ship name</Checkbox>
-                                <Checkbox>Ship hull number</Checkbox>
-                                <Checkbox>Illustrator</Checkbox>
+                                <Checkbox onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
+                                <Checkbox onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
                         </Stack>
                         <Stack direction={'row'} spacing='10px' marginBottom='20px'>
                             <Select size={'lg'} placeholder="Select ship nationality"></Select>
                             <Select size={'lg'} placeholder="Select ship hull type"></Select>
-                            <Select size={'lg'} placeholder="Select franchise"></Select>
+                            <Select size={'lg'} placeholder="Select franchise" value={selectedFranchise} onChange={(e) => setSelectedFranchise(e.target.value)}>
+                                <option key="All" value="">All Franchise</option>
+                                {franchiseOption}
+                            </Select>
                         </Stack>
 
                         <Accordion allowToggle marginBottom='20px'>
@@ -121,11 +174,22 @@ export const ShipIndex = () => {
                                 <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
                                     <Text fontWeight={500}>Construction Status: </Text>
                                     <CheckboxGroup>
-                                        <Checkbox>Fictional</Checkbox>
-                                        <Checkbox>Planned</Checkbox>
-                                        <Checkbox>Blueprint Completed</Checkbox>
-                                        <Checkbox>Partially Constructed</Checkbox>
-                                        <Checkbox>Constructed</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 0))}>Fictional</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 1))}>Planned</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 2))}>Blueprint Completed</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 3))}>Partially Constructed</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 4))}>Constructed</Checkbox>
+                                    </CheckboxGroup>
+                                </Stack>
+                                <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
+                                    <Text fontWeight={500}>Alternative Outfit: </Text>
+                                    <CheckboxGroup>
+                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 0))}>Base only</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 1))}>Oath</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 2))}>Retrofit</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 3))}>Damage</Checkbox>
+                                        <Checkbox isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 4))}>Themed</Checkbox>
+                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 5))}>Others</Checkbox>
                                     </CheckboxGroup>
                                 </Stack>
                                 </AccordionPanel>
