@@ -80,7 +80,13 @@ function main_shipgirl_db() {
             let comp = file.slice(0, file.lastIndexOf('.')).split('_')
             let char_name = comp[0]
 
+            //special case for kc cuz im an idiot
+            if (dir === "Kantai Collection") comp = [comp[0], ...(comp[1].split(" "))]
+
             const isBase = (!comp[1] || (comp[1].toLowerCase() === entry_config.baseArtSuffix && !comp[2]))
+            const isDamage = (comp[1] && entry_config.damageArtSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.damageArtSuffix) !== -1) || false
+            const isOath = (comp[1] && entry_config.oathArtSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.oathArtSuffix) !== -1) || false
+            const isRetrofit = (comp[1] && entry_config.retrofitArtSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.retrofitArtSuffix) !== -1) || false
             
             count += 1
             if (isBase) base_count += 1
@@ -95,6 +101,9 @@ function main_shipgirl_db() {
                 full_dir: BASE_PATH + '/' + dir + '/' + file,
                 filename: file,
                 is_base: isBase,
+                is_damage: isDamage,
+                is_oath: isOath,
+                is_retrofit: isRetrofit,
                 file_hash: file_hash,
                 folder: dir
             })
@@ -103,7 +112,7 @@ function main_shipgirl_db() {
         //list.push(list_entry)
     })
 
-    fs.writeFileSync('data/shipgirl_list_db.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
+    fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
 function main_franchise() {

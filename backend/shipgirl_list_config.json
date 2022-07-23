@@ -1,10 +1,33 @@
 [
     {
+        "name": "Abyss Horizon",
+        "optionName": "ah",
+        "allowAlt": true,
+        "allowSilhouette": false,
+        "oathArtSuffix": "oath",
+        "retrofitArtSuffix": "kai",
+        "alias": [
+
+        ]
+    },
+    {
         "name": "Azur Lane",
         "optionName": "al",
         "allowAlt": true,
         "allowSilhouette": true,
         "baseArtSuffix": "default",
+        "oathArtSuffix": "wedding",
+        "retrofitArtSuffix": "retrofit",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Artist Original Content",
+        "optionName": "al",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "damageArtSuffix": "damage",
         "alias": [
 
         ]
@@ -35,6 +58,8 @@
         "allowAlt": true,
         "allowSilhouette": true,
         "baseArtSuffix": "base",
+        "retrofitArtSuffix": "kai",
+        "damageArtSuffix": "damaged",
         "alias": [
 
         ]
@@ -55,6 +80,18 @@
         "allowAlt": true,
         "allowSilhouette": true,
         "baseArtSuffix": "base",
+        "retrofitArtSuffix": "retrofit",
+        "damageArtSuffix": "damage",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Counter Arms",
+        "optionName": "ca",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "oathArtSuffix": "oath",
         "alias": [
 
         ]
@@ -65,6 +102,59 @@
         "allowAlt": true,
         "allowSilhouette": true,
         "baseArtSuffix": "base",
+        "damageArtSuffix": "damaged",
+        "retrofitArtSuffix": "kai",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Mirage of Steelblue",
+        "optionName": "mist",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "damageArtSuffix": "damaged",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Shipgirls Collection",
+        "optionName": "sc",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "damageArtSuffix": "damage",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Shipgirls GO",
+        "optionName": "sg",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "damageArtSuffix": "heavydmg",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "The Cute Warship",
+        "optionName": "cw",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "retrofitArtSuffix": "ad",
+        "damageArtSuffix": "brk",
+        "alias": [
+
+        ]
+    },
+    {
+        "name": "Velvet Code",
+        "optionName": "vc",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "retrofitArtSuffix": "retrofit",
         "alias": [
 
         ]
@@ -75,6 +165,8 @@
         "allowAlt": true,
         "allowSilhouette": true,
         "baseArtSuffix": "base",
+        "retrofitArtSuffix": "retrofit",
+        "damageArtSuffix": "damage",
         "alias": [
 
         ]

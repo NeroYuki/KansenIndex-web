@@ -39,6 +39,15 @@ router.get('/query', async (req, res) => {
         if ((val >> 0) & 1) {   //base form only
             db_query.is_base = true
         }
+        if ((val >> 1) & 1) {   //oath form only
+            db_query.is_oath = true
+        }
+        if ((val >> 2) & 1) {   //retrofit form only
+            db_query.is_retrofit = true
+        }
+        if ((val >> 3) & 1) {   //damage form only
+            db_query.is_damage = true
+        }
         if ((val >> 5) & 1) {   //alt form only
             db_query.is_base = false
         }
