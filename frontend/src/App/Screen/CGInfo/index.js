@@ -34,12 +34,12 @@ export const CGInfo = (props) => {
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
                 <Flex direction={'row'} wrap={'wrap'}>
-                <Box p='16px' flex='1' minW={'532px'}>
+                <Box p='16px' flex='1' minW={'360px'}>
                     <Center >
                         <img style={{height: 500, margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
                     </Center>
                 </Box>
-                <Box bg='blue.100' p="40px" flex='1' minW={'532px'}>
+                <Box bg='blue.100' p="32px" flex='1' minW={'360px'}>
                     <Flex bg='blue.200' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                         <Text flex='1' fontSize="lg" fontWeight={"semibold"}>Character Name</Text>
                         <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
