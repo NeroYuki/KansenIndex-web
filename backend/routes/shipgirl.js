@@ -7,7 +7,7 @@ router.get('/query', async (req, res) => {
 
     let db_query = {}
     let skip = 0
-    const ENTRY_PER_PAGE = 20
+    const ENTRY_PER_PAGE = Math.min(query.limit ? parseInt(query.limit) : 20, 20)
 
     //console.log(query)
 
@@ -67,6 +67,16 @@ router.get('/query', async (req, res) => {
 
 router.get('/get_info/:id', (req, res) => {
     return res.status(501).send("Not implemented") 
+})
+
+router.get('/random', async (req, res) => {
+    const db_agg = [
+        {$match: {}},
+        {$sample: {size: 1}}
+    ]
+    let random_res = await db.aggregateRecord('shipgirl', db_agg)
+
+    return res.status(200).send(random_res)
 })
 
 module.exports = router

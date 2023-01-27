@@ -7,7 +7,7 @@ export const SubmissionPanel = (props) => {
 
     return (
         <Box display={'flex'} flexDirection={'column'}>
-            <div class="separator" style={{paddingBottom: '20px'}}>Info section</div>
+            <div className="separator" style={{paddingBottom: '20px'}}>Info section</div>
             <FormControl isRequired paddingBottom={'10px'}>
                 <FormLabel htmlFor='ship_name'>Ship name</FormLabel>
                 <Input id='ship_name' type='text' />
@@ -43,13 +43,13 @@ export const SubmissionPanel = (props) => {
                 <FormHelperText>Optional - Accessible url to artist's creation sharing platform (i.e: Pixiv, Twitter, DevianArt, etc.)</FormHelperText>
             </FormControl>
             
-            <div class="separator" style={{paddingBottom: '20px'}}>Content section</div>
+            <div className="separator" style={{paddingBottom: '20px'}}>Content section</div>
             <FormControl isRequired paddingBottom={'10px'}>
                 <FormLabel htmlFor='illust'>Illustration File</FormLabel>
                 <Input id='illust' type='file' />
                 <FormHelperText color={'red.500'}>Required - Please read our CG quality assessment to know how we grade them</FormHelperText>
             </FormControl>
-            <div class="separator" style={{padding: '20px 0 20px 0'}}>Contact section</div>
+            <div className="separator" style={{padding: '20px 0 20px 0'}}>Contact section</div>
             <FormControl paddingBottom={'10px'}>
                 <FormLabel htmlFor='email'>Email address</FormLabel>
                 <Input id='email' type='email' />

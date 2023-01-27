@@ -11,7 +11,7 @@ function thumb_gen (add_mode = false) {
     let dirs = fs.readdirSync(BASE_PATH)
 
     dirs.forEach((dir) => {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt"].includes(dir)) return
+        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) return
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)
         files.forEach(async (file, index) => {

@@ -5,6 +5,7 @@ import { About } from "./About";
 import { Project } from "./Project";
 import { GameInfo } from "./GameInfo";
 import { ShipInfo } from "./ShipInfo";
+import { CGInfo } from "./CGInfo";
 
 export {
     ShipIndex,
@@ -14,4 +15,5 @@ export {
     Project,
     GameInfo,
     ShipInfo,
+    CGInfo,
 }

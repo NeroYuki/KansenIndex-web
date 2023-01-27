@@ -1,19 +1,18 @@
-import { Box, Flex, Text, Icon, Input, InputGroup, InputLeftAddon, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
+import { Box, Flex, Text, Input, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
     Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast } from "@chakra-ui/react"
 import {
     Table,
     Thead,
     Tbody,
-    Tfoot,
     Tr,
     Th,
     Td,
     TableCaption,
-    TableContainer,
 } from '@chakra-ui/react'
 import { useEffect, useState } from "react"
-import { FaSearch, FaSpinner } from "react-icons/fa"
-import { NavigationTop, SiteHeader, SiteFooter } from "../../Component"
+import { FaSearch } from "react-icons/fa"
+import { useLocation } from "react-router-dom"
+import { SiteHeader, SiteFooter } from "../../Component"
 import { GET_query } from "../../Service/shipgirl"
 
 export const ShipIndex = () => {
@@ -25,6 +24,7 @@ export const ShipIndex = () => {
     const [keywordMod, setKeywordMod] = useState(0)
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
+    const [loadedDefault, setLoadedDefault] = useState(false)
     const [franchiseSelection, setFranchiseSelection] = useState([
         "Abyss Horizon",
         "Akushizu Senki",
@@ -58,6 +58,7 @@ export const ShipIndex = () => {
     ])
     const [selectedFranchise, setSelectedFranchise] = useState("")
     const toast = useToast()
+    const location = useLocation()
 
     function showErrorToast(e) {
         toast({
@@ -69,7 +70,7 @@ export const ShipIndex = () => {
         })
     }
 
-    async function reloadData() {
+    async function reloadData(overrideQuery = null) {
         let query = {
             keyword: keyword,
             keywordMod: keywordMod,
@@ -78,6 +79,11 @@ export const ShipIndex = () => {
             altOutfitMod: altOutfitMod,
             selectedFranchise: selectedFranchise
         }
+
+        if (overrideQuery) {
+            query = overrideQuery
+        }
+        console.log(query)
 
         setBlocked(true)
         let res = await GET_query(query).catch(e => showErrorToast(e))
@@ -88,7 +94,30 @@ export const ShipIndex = () => {
     }
 
     useEffect(() => {
-        reloadData()
+        if (location.state?.searchData && !loadedDefault) {
+            console.log(location.state.searchData)
+            setKeyword(location.state.searchData.keyword || "")
+            setKeywordMod(location.state.searchData.keywordMod || 0)
+            setConstructMod(location.state.searchData.constructMod || 0)
+            setAltOutfitMod(location.state.searchData.altOutfitMod || 0)
+            setSelectedFranchise(location.state.searchData.selectedFranchise || "")
+
+            const query = {
+                keyword: "",
+                keywordMod: 0,
+                page: 1,
+                constructMod: 0,
+                altOutfitMod: 0,
+                selectedFranchise: "",
+                ...location.state.searchData
+            } 
+
+            reloadData(query)
+            setLoadedDefault(true)
+        }
+        else {
+            reloadData()
+        }
     }, [page])
 
     function onSearch() {
@@ -134,6 +163,12 @@ export const ShipIndex = () => {
         return value ^ mod_val
     }
 
+    function getModifierValue(value, key) {
+        const mod_val = 1 << key
+        console.log((value & mod_val) === mod_val)
+        return (value & mod_val) === mod_val
+    }
+
     return (
         <Flex direction={'column'}>
             <SiteHeader />
@@ -144,13 +179,13 @@ export const ShipIndex = () => {
                         <Text fontSize={14} marginBottom='10px' fontWeight={500}>Ship Index Search</Text>
                         <Box display={'flex'} flexDirection={'row'} alignItems="center" marginBottom='10px' >
                             <FaSearch scale={2}/>
-                            <Input marginLeft='10px' placeholder="Enter keyword" color='black' size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
+                            <Input value={keyword} marginLeft='10px' placeholder="Enter keyword" color='black' size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
                         </Box>
                         <Stack direction={'row'} spacing='10px' marginBottom='10px'>
                             <Text fontWeight={500}>Keyword in:</Text>
                             <CheckboxGroup>
-                                <Checkbox onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
-                                <Checkbox onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
+                                <Checkbox isChecked={getModifierValue(keywordMod, 0)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
+                                <Checkbox isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
                         </Stack>
                         <Stack direction={'row'} spacing='10px' marginBottom='20px'>
@@ -174,22 +209,22 @@ export const ShipIndex = () => {
                                 <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
                                     <Text fontWeight={500}>Construction Status: </Text>
                                     <CheckboxGroup>
-                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 0))}>Fictional</Checkbox>
-                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 1))}>Planned</Checkbox>
-                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 2))}>Blueprint Completed</Checkbox>
-                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 3))}>Partially Constructed</Checkbox>
-                                        <Checkbox isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 4))}>Constructed</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(constructMod, 0)} isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 0))}>Fictional</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(constructMod, 1)} isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 1))}>Planned</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(constructMod, 2)} isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 2))}>Blueprint Completed</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(constructMod, 3)} isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 3))}>Partially Constructed</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(constructMod, 4)} isDisabled onChange={(e) => setConstructMod(toggleModifierValue(constructMod, 4))}>Constructed</Checkbox>
                                     </CheckboxGroup>
                                 </Stack>
                                 <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
                                     <Text fontWeight={500}>Alternative Outfit: </Text>
                                     <CheckboxGroup>
-                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 0))}>Base only</Checkbox>
-                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 1))}>Oath</Checkbox>
-                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 2))}>Retrofit</Checkbox>
-                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 3))}>Damage</Checkbox>
-                                        <Checkbox isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 4))}>Themed</Checkbox>
-                                        <Checkbox onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 5))}>Others</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 0)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 0))}>Base only</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 1)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 1))}>Oath</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 2)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 2))}>Retrofit</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 3)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 3))}>Damage</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 4)} isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 4))}>Themed</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 5)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 5))}>Others</Checkbox>
                                     </CheckboxGroup>
                                 </Stack>
                                 </AccordionPanel>

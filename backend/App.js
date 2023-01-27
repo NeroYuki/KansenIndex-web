@@ -14,7 +14,7 @@ const port = 5000
 app.set('trust proxy', 2)
 
 app.use(cors({
-    origin: ['https://kansenindex.xyz', 'https://www.kansenindex.xyz']
+    origin: ['https://kansenindex.dev', 'https://www.kansenindex.dev']
 }));
 app.use(compression());
 
