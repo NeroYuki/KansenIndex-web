@@ -39,3 +39,22 @@ export function GET_random(query) {
         }
     })
 }
+
+export function POST_submission(data) {
+    return new Promise(async (resolve, reject) => {
+        let option = {
+            method: "POST",
+            body: data
+        }
+        fetch('/api/shipgirl/submission', option)
+            .then(async (res) => {
+                if (!res.ok) {
+                    reject(await res.text())
+                }
+                else {
+                    resolve(await res.json())
+                }
+            })
+            .catch(e => reject("error when fetch"))
+    })
+}
