@@ -1,5 +1,5 @@
 import { Divider, Box, Text, Tag, TagLabel, TagLeftIcon, Button, Skeleton} from "@chakra-ui/react"
-import { MdCheck, MdArrowRightAlt } from 'react-icons/md'
+import { MdCheck, MdArrowRightAlt, MdClose } from 'react-icons/md'
 import {
     Accordion,
     AccordionItem,
@@ -9,16 +9,25 @@ import {
 } from '@chakra-ui/react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import './styles.css'
+import { useCallback } from "react"
+import { useNavigate } from "react-router-dom"
+import { FaQuestion } from "react-icons/fa"
 
 const InfoSectionList = (props) => {
     const data = props.data
 
     const render_info = data.map(val => {
+        const lineBreak = (
+            <Text style={{flex: 6, padding: 8}}>
+                {val.value.split('\\n').map(line => (<p>{line}</p>))}
+            </Text>
+        )
         return (
             <div style={{display: 'flex', padding: 8}}>
                 <div style={{flex: 2, padding: 8}}>{val.name}</div>
                 <Divider orientation="vertical" style={{height: '30px'}}></Divider>
-                <div style={{flex: 6, padding: 8}}>{val.value}</div>
+                {lineBreak}
             </div>
         )
     })
@@ -49,7 +58,9 @@ const InfoSectionDesc = (props) => {
                 <AccordionIcon />
             </AccordionButton>
             <AccordionPanel pb={4}>
-                {data ? <ReactMarkdown children={data} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
+                <div style={{textAlign: 'justify'}} >
+                    {data ? <ReactMarkdown className='react-md-container' children={data} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
+                </div>
             </AccordionPanel>
         </AccordionItem>
     )
@@ -75,16 +86,45 @@ const InfoSectionGallery = (props) => {
     )
 }
 
+const StatusIconMapping = {
+    "Active": MdCheck,
+    "End of Service": MdClose,
+    "Unknown": FaQuestion,
+    "Released": MdCheck,
+    "Unreleased": MdClose,
+    "Work in Progress": MdArrowRightAlt,
+}
+
+const StatusColorMapping = {
+    "Active": "green",
+    "End of Service": "red",
+    "Unknown": "gray",
+    "Released": "green",
+    "Unreleased": "red",
+    "Work in Progress": "orange",
+}
+
 export const FranchiseDetailView = (props) => {
 
     const general_info = props.data.general_info || []
     const release_date = (props.data.release_date || []).map((val) => {
-        return {name: val.region, value: new Date(Date.parse(val.date)).toLocaleDateString()}
+        return {name: val.region, value: `${new Date(Date.parse(val.date)).toLocaleDateString()} ${val.end_date ? ` - ${new Date(Date.parse(val.end_date)).toLocaleDateString()}` : ''}`}
     })
     const title = props.data.display_name
     const icon_image = props.data.icon_image
     const extra_info = props.data.extra_info
     const screenshot = props.data.screenshot
+    const status = props.data.status || "Unknown"
+
+    const navigate = useNavigate()
+
+    const navigateToShipIndex = useCallback(() => {
+        navigate('/ship_list', {state: {
+            searchData: {
+                selectedFranchise: props.data.name
+            }
+        }})
+    }, [navigate, props.data.name])
 
     return (
         <div style={{padding: "16px 0 16px 0"}}>
@@ -96,12 +136,12 @@ export const FranchiseDetailView = (props) => {
                 <div style={{flex: 6, padding: '12px', paddingLeft: '32px'}}>
                     <div style={{display: 'flex', alignItems: 'center'}}>
                         <Text fontSize={20} fontWeight={500} marginY='12px' paddingRight='20px' display={"inline"}>{title || "Placeholder"}</Text> 
-                        <Tag colorScheme='green'>
-                            <TagLabel>Active</TagLabel>
-                            <TagLeftIcon as={MdCheck} />
+                        <Tag colorScheme={StatusColorMapping[status] || "gray"}>
+                            <TagLabel margin={"4px 4px 4px 8px"}>{status}</TagLabel>
+                            <TagLeftIcon as={StatusIconMapping[status] || FaQuestion} />
                         </Tag>
                     </div>
-                    <Button leftIcon={<MdArrowRightAlt />} colorScheme='blue' variant='solid'>
+                    <Button leftIcon={<MdArrowRightAlt />} colorScheme='blue' variant='solid' onClick={navigateToShipIndex}>
                         Go to Ship Index
                     </Button>
                 </div>
