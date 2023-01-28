@@ -83,7 +83,7 @@ export const ShipIndex = () => {
         if (overrideQuery) {
             query = overrideQuery
         }
-        console.log(query)
+        // console.log(query)
 
         setBlocked(true)
         let res = await GET_query(query).catch(e => showErrorToast(e))
@@ -95,7 +95,7 @@ export const ShipIndex = () => {
 
     useEffect(() => {
         if (location.state?.searchData && !loadedDefault) {
-            console.log(location.state.searchData)
+            // console.log(location.state.searchData)
             setKeyword(location.state.searchData.keyword || "")
             setKeywordMod(location.state.searchData.keywordMod || 0)
             setConstructMod(location.state.searchData.constructMod || 0)
@@ -165,7 +165,7 @@ export const ShipIndex = () => {
 
     function getModifierValue(value, key) {
         const mod_val = 1 << key
-        console.log((value & mod_val) === mod_val)
+        // console.log((value & mod_val) === mod_val)
         return (value & mod_val) === mod_val
     }
 

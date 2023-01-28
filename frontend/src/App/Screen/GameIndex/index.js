@@ -45,7 +45,7 @@ export const GameIndex = () => {
         async function fetchData(id) {
             let res = await GET_info(id).catch(e => showErrorToast(e))
             if (!res) return
-            console.log(res)
+            // console.log(res)
             setGameInfo(res)
         }
         fetchData(id)

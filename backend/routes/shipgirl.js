@@ -1,6 +1,29 @@
 const express = require('express')
 const router = express.Router()
 const db = require('../database/database_interaction')
+const multer  = require('multer')
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, '../uploaded_image/')
+    },
+    filename: function (req, file, cb) {
+        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E6)
+        cb(null, uniqueSuffix + '-' + file.originalname)
+    }
+})
+
+function fileFilter (req, file, cb) {
+    // only allow image file to go through
+    if (file.mimetype.startsWith('image/')) {
+        cb(null, true)
+    }
+    else {
+        cb(null, false)
+    }
+}
+
+const upload = multer({ storage: storage, limits: {fileSize: 20 * 1000 * 1000}, fileFilter: fileFilter })
 
 router.get('/query', async (req, res) => {
     let query = req.query
@@ -78,5 +101,44 @@ router.get('/random', async (req, res) => {
 
     return res.status(200).send(random_res)
 })
+
+router.post('/submission', upload.single('file'), async (req, res) => {
+    let file = req.file
+    let body = req.body
+
+    if (!file || !body) {
+        return res.status(400).send("Bad request")
+    }
+
+    // count number of submission entry in submission collection
+    let count_res = await db.aggregateRecord('submission', [
+        {$match: {}},
+        {$count: "count"}
+    ]).catch(e => {
+        res.status(500).send("Internal server error")
+    })
+
+    if (!count_res) return
+    if (count_res[0].count > 100) {
+        return res.status(400).send("Too many submission")
+    }
+
+    let db_res = await db.addRecord('submission', {
+        filename: file.filename,
+        folder: body.source,
+        char: body.ship_name,
+        uploader: body.email,
+        creator: body.creator,
+    }).catch(e => {
+        res.status(500).send("Internal server error")
+    })
+
+    if (!db_res) return
+
+    return res.status(200).send({
+        status: "submitted"
+    })
+})
+
 
 module.exports = router
