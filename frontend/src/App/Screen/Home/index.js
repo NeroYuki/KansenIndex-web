@@ -120,15 +120,15 @@ export const Home = () => {
                 </Box>
                 <Box bg='gray.300' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Reach out to us at</Heading>
-                    <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
-                        <Box display={'flex'} flexDirection={'column'}>
+                    <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" flexWrap={'wrap'} >
+                        <Box display={'flex'} flexDirection={'column'} minW={'300px'}>
                             <Text mb="16px" fontSize={"20px"} fontWeight={"semibold"}>Discord</Text>
                             <a href="https://discord.gg/km7PvVFXyv" target="_blank" rel="noreferrer">
                                 <img src="https://discord.com/api/guilds/947526480081072158/widget.png?style=banner2" alt="Discord Banner"/>
                             </a>
                             <Text fontSize={"16px"} mt="16px">-Nero Yuki-#4084</Text>
                         </Box>
-                        <Box display={'flex'} flexDirection={'column'}>
+                        <Box display={'flex'} flexDirection={'column'} minW={'300px'}>
                             <Text mb="16px" fontSize={"20px"} fontWeight={"semibold"}>Twitter</Text>
                             <Center>
                                 <Avatar size={'xl'} src="https://pbs.twimg.com/profile_images/1477702926013399042/N5sRzoq0_400x400.jpg"></Avatar>
