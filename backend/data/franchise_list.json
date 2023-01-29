@@ -7,6 +7,7 @@
     "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Abyss Horizon.webp",
     "general_info": [
+      {"name": "Alternative Name", "value": "- ZH: 深渊地平线 \\n- JP: アビス・ホライズン"},
       {"name": "Developer", "value": "MorningTec Japan Inc."},
       {"name": "Publisher", "value": "Illusion Studios Limited"},
       {"name": "Genre", "value": "Action role-playing game"},
@@ -22,8 +23,7 @@
     ],
     "extra_info": "Abyss Horizon is a 3D online anime game based on naval warfare. Feature a co-operative battle mode and AR (Augmented Reality) mode. Immediately after release it run into a legal battle with Sega who claim on the game's premise. The game survived the legal allegation after a change of operator. ",
     "screenshot": [
-      "https://image.winudf.com/v2/image1/Y29tLmFieXNzaG9yaXpvbmx0X3NjcmVlbl8xXzE2MDI1NzI3NzZfMDM3/screen-1.jpg?fakeurl=1&type=.jpg",
-      "https://gamehot24h.com/wp-content/uploads/2019/12/Abyss-Horizon_1577438491.png"
+      "https://image.winudf.com/v2/image1/Y29tLmFieXNzaG9yaXpvbmx0X3NjcmVlbl8xXzE2MDI1NzI3NzZfMDM3/screen-1.jpg?fakeurl=1&type=.jpg"
     ]
   },
   {
@@ -34,6 +34,7 @@
     "status":"End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Akizuki Senki.jpg",
     "general_info": [
+      {"name": "Alternative Name", "value": "- JP:  あくしず戦姫攻略"},
       {"name": "Developer", "value": "Donuts Co. Ltd."},
       {"name": "Publisher", "value": "IKAROS Publications LTD."},
       {"name": "Genre", "value": "Role-playing game"},
@@ -43,8 +44,11 @@
     "release_date": [
       { "region": "Japan", "date": "2016-07-01T00:00:00Z", "end_date": "2019-10-01T00:00:00Z"}
     ],
-    "extra_info": "",
-    "screenshot": []
+    "extra_info": "Spin off games of the magazine MC☆あくしず published by IKAROS Publications LTD. ",
+    "screenshot": [
+      "https://cdn.amz.appget.com/c/wp-content/uploads/2017/11/69172_screen_2.jpg",
+      "https://cdn.amz.appget.com/c/wp-content/uploads/2017/11/69172_screen_3.jpg"
+    ]
   },
   {
     "id": "dd180dbb54a5113d18ce454b5617fe384e094c20795408ba3304244fe5e9bf88",
@@ -53,10 +57,20 @@
     "desc": "Franchise start from a naval-theme manga",
     "status":"End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Aoki_Hagane.webp",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
-    "screenshot": []
+    "general_info": [
+      {"name": "Alternative Name", "value": "- JP: 蒼き鋼のアルペジオ"},
+      {"name": "Publisher", "value": "DMM Games"},
+      {"name": "Genre", "value": "Role-playing game"},
+      {"name": "Engine", "value": "Unity"},
+      {"name": "Platform", "value": "Android, iOS"}
+    ],
+    "release_date": [
+      { "region": "Japan", "date": "2019-05-01T00:00:00Z", "end_date": "2020-01-31T00:00:00Z"}
+    ],
+    "extra_info": "This particular entries focus on The Ars Nova Re:birth game which is published by DMM games, same publisher as Kantai Collection. However the original manga has been published since November 2009 and has been adapted into an anime in 2013.",
+    "screenshot": [
+      "https://techkalzen.com/wp-content/uploads/2020/01/arpeggio-of-blue-steel-ars-nova-rebirth-2.jpg"
+    ]
   },
   {
     "id": "04a57191f59ab720a3eb3babce90503264028fcb62b1da03f5f358102ed773db",
@@ -233,7 +247,7 @@
       {"name": "Genre", "value": "Auto-battler, resource management"}
     ],
     "release_date": [
-      {"region": "Japan", "date": "2013-04-23"}
+      {"region": "Japan", "date": "2013-04-23T00:00:00Z"}
     ],
     "extra_info": "Kantai Collection (Japanese: 艦隊これくしょん, Hepburn: Kantai Korekushon, lit. 'Fleet Collection'), abbreviated as KanColle (艦これ, KanKore), is a Japanese free-to-play web browser game developed by Kadokawa Games and published by DMM.com.\\nThe central theme of the game is the representation of World War II warships personified as teenage girls and young adult women with personality characteristics reflecting the history of each ship. Originally, all of these were Japanese, but ships from other nations have also been added as the game has developed. Gameplay involves all aspects of naval warfare, including not only combat but also maintenance, repair, upgrading, resupply, morale, logistics and mission planning.\\nThe game was launched on April 23, 2013. As of April 2015, the game is available in Japan only and has 3 million registered players. An Android client of the original game was released in 2016. The game has developed into a much larger media franchise; various media including multiple manga series and light novels have been released, in addition to an officially licensed tabletop role-playing game. A PlayStation Vita game was released in February 2016, and an anime television series aired its first season from January to March 2015, with an animated film released in November 2016, and a second season that will premiere in November 2022.",
     "screenshot": [
@@ -393,9 +407,22 @@
     "desc": "Gacha auto-battler game",
     "status":"Active",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Warship Girl R.jpg",
-    "general_info": [],
-    "release_date": [],
+    "general_info": [
+      {"name": "Alternative Name", "value": "- ZH: 战舰少女R"},
+      {"name": "Developer", "value": "株式会社moe fantasy"},
+      {"name": "Genre", "value": "Gacha Auto-Battler"},
+      {"name": "Platform", "value": "Android, iOS"},
+      {"name": "Engine", "value": "Unity"}
+    ],
+    "release_date": [
+      {"region": "Mainland China", "date": "2014-09-01T00:00:00Z"},
+      {"region": "Japan", "date": "2016-10-01T00:00:00Z"},
+      {"region": "Global", "date": "2018-07-26T00:00:00Z", "end_date": "2020-08-01T00:00:00Z"}
+    ],
     "extra_info": "",
-    "screenshot": []
+    "screenshot": [
+      "https://pm1.narvii.com/6699/3542e85901e9d83ef6c4299d4b0799fda7480110_hq.jpg",
+      "https://pm1.narvii.com/6699/8ffbc70b4bd126ae59650ab0cb9d463de3d66d2d_hq.jpg"
+    ]
   }
 ]
