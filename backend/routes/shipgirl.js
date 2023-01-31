@@ -2,6 +2,9 @@ const express = require('express')
 const router = express.Router()
 const db = require('../database/database_interaction')
 const multer  = require('multer')
+const { ObjectId } = require('mongodb')
+
+const jsonParser = express.json()
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -25,6 +28,10 @@ function fileFilter (req, file, cb) {
 
 const upload = multer({ storage: storage, limits: {fileSize: 20 * 1000 * 1000}, fileFilter: fileFilter })
 
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+}
+
 router.get('/query', async (req, res) => {
     let query = req.query
 
@@ -35,7 +42,7 @@ router.get('/query', async (req, res) => {
     //console.log(query)
 
     if (query.keyword) {
-        db_query.filename = {$regex: query.keyword, $options: 'i'}
+        db_query.filename = {$regex: escapeRegExp(query.keyword), $options: 'i'}
     }
     if (query.folder) {
         db_query.folder = query.folder
@@ -48,10 +55,10 @@ router.get('/query', async (req, res) => {
         let val = parseInt(query.keyword_mod) || 0
         if ((val >> 0) & 1) {   //char name only
             delete db_query.filename
-            db_query.char = {$regex: query.keyword, $options: 'i'}
+            db_query.char = {$regex: escapeRegExp(query.keyword), $options: 'i'}
         }
         if ((val >> 1) & 1) {   //modifier name only
-            db_query.filename = {$regex: "_.*" + query.keyword, $options: 'i'}
+            db_query.filename = {$regex: "_.*" + escapeRegExp(query.keyword), $options: 'i'}
         }
     }
     if (query.construct_mod) {
@@ -88,8 +95,19 @@ router.get('/query', async (req, res) => {
     return res.status(200).send(query_res)
 })
 
-router.get('/get_info/:id', (req, res) => {
-    return res.status(501).send("Not implemented") 
+router.get('/cg/:id', (req, res) => {
+    let id = req.params.id
+
+    db.queryRecord('shipgirl', {_id: ObjectId(id)})
+        .then(db_res => {
+            if (!db_res || !db_res.length) {
+                return res.status(404).send("Not found")
+            }
+            return res.status(200).send(db_res[0])
+        })
+        .catch(e => {
+            res.status(500).send("Internal server error")
+        })
 })
 
 router.get('/random', async (req, res) => {
@@ -100,6 +118,53 @@ router.get('/random', async (req, res) => {
     let random_res = await db.aggregateRecord('shipgirl', db_agg)
 
     return res.status(200).send(random_res)
+})
+
+router.post('/get_fav', jsonParser, async (req, res) => {
+    const { char, folder, fav } = req.body
+
+    if (!char || !folder) {
+        return res.status(400).send("Bad request")
+    }
+
+    let db_res = await db.queryRecord('favorite', {char: char, folder: folder})
+
+    if (!db_res || !db_res.length) {
+        // create new entry
+        db_create_res = await db.addRecord('favorite', {char: char, folder: folder, fav: []})
+    }
+
+    return res.status(200).send({
+        count: db_res[0]?.fav.length || 0,
+        is_fav: db_res[0]?.fav.findIndex(e => e.id === fav) > -1
+    })
+})
+
+router.post('/toggle_fav', jsonParser, async (req, res) => {
+    const { char, folder, fav } = req.body
+
+    if (!char || !folder || !fav) {
+        return res.status(400).send("Bad request")
+    }
+
+    let db_res = await db.queryRecord('favorite', {char: char, folder: folder})
+
+    let fav_list = db_res[0]?.fav || []
+    const index = fav_list.findIndex(e => e.id === fav)
+    const isFav =  index > -1
+    if (isFav) {
+        fav_list.splice(index, 1)
+    }
+    else {
+        fav_list.push({id: fav, date: new Date()})
+    }
+
+    await db.editRecords('favorite', {char: char, folder: folder}, {$set: {fav: fav_list}}, {upsert: true})
+
+    return res.status(200).send({
+        count: fav_list.length || 0,
+        is_fav: !isFav
+    })
 })
 
 router.post('/submission', upload.single('file'), async (req, res) => {
@@ -113,7 +178,7 @@ router.post('/submission', upload.single('file'), async (req, res) => {
     // count number of submission entry in submission collection
     let count_res = await db.aggregateRecord('submission', [
         {$match: {}},
-        {$count: "count"}
+        {$count: "_id"}
     ]).catch(e => {
         res.status(500).send("Internal server error")
     })
@@ -138,6 +203,42 @@ router.post('/submission', upload.single('file'), async (req, res) => {
     return res.status(200).send({
         status: "submitted"
     })
+})
+
+// TODO: cache the result
+router.get('/bote_fav_lb', async (req, res) => {
+    let db_res = await db.aggregateRecord('favorite', [
+        { $match: {} },
+        {
+            $project: {
+                char: 1,
+                folder: 1,
+                fav: { $size: '$fav' }
+            }
+        },
+        { $sort: { fav: -1 } },
+        { $limit: 20 }
+    ]).catch(e => {
+        res.status(500).send("Internal server error")
+    })
+
+    if (!db_res) return []
+
+    const db_res_final = []
+
+    // get base cg of each bote
+    for (let e of db_res) {
+        const base_cg = await db.queryRecord('shipgirl', {char: e.char, folder: e.folder, is_base: true}).catch(err => {})
+        if (base_cg && base_cg.length) {
+            // mutate db_res entry to include base cg
+            db_res_final.push({
+                ...e,
+                base_cg: base_cg[0].full_dir
+            }) 
+        }
+    }
+
+    return res.status(200).send(db_res_final)
 })
 
 

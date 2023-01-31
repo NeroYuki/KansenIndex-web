@@ -66,7 +66,7 @@ module.exports.queryRecordLimit = (colName, query, limit, projection = {}, mysor
         let col = databaseConn.getConnection().collection(colName)
         col.find(query).sort(mysort).project(projection).limit(limit).skip(skip).toArray(function(err, res) {
             if (err) {
-                console.err(err)
+                console.log(err)
                 reject()
             }
             else {
@@ -81,7 +81,7 @@ module.exports.aggregateRecord = (colName, pipeline) => {
         let col = databaseConn.getConnection().collection(colName)
         col.aggregate(pipeline).toArray(function (err, res) {
             if (err) {
-                console.err(err)
+                console.log(err)
                 reject()
             }
             else {
