@@ -1,3 +1,5 @@
+import browserId from 'browser-id'
+
 export function GET_query(query) {
     return new Promise(async (resolve, reject) => {
         let option = {
@@ -47,6 +49,96 @@ export function POST_submission(data) {
             body: data
         }
         fetch('/api/shipgirl/submission', option)
+            .then(async (res) => {
+                if (!res.ok) {
+                    reject(await res.text())
+                }
+                else {
+                    resolve(await res.json())
+                }
+            })
+            .catch(e => reject("error when fetch"))
+    })
+}
+
+export function POST_getFav(char, folder) {
+    return new Promise(async (resolve, reject) => {
+        let option = {
+            method: "POST",
+            body: JSON.stringify({
+                char: char,
+                folder: folder,
+                fav: browserId()
+            }),
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        }
+        fetch('/api/shipgirl/get_fav', option)
+            .then(async (res) => {
+                if (!res.ok) {
+                    reject(await res.text())
+                }
+                else {
+                    resolve(await res.json())
+                }
+            })
+            .catch(e => reject("error when fetch"))
+    })
+}
+
+export function POST_toggleFav(char, folder) {
+    return new Promise(async (resolve, reject) => {
+        let option = {
+            method: "POST",
+            body: JSON.stringify({
+                char: char,
+                folder: folder,
+                fav: browserId()
+            }),
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        }
+        fetch('/api/shipgirl/toggle_fav', option)
+            .then(async (res) => {
+                if (!res.ok) {
+                    reject(await res.text())
+                }
+                else {
+                    resolve(await res.json())
+                }
+            })
+            .catch(e => reject("error when fetch"))
+    })
+}
+
+export function GET_getTopFav() {
+    return new Promise(async (resolve, reject) => {
+        let option = {
+            method: "GET"
+        }
+        fetch('/api/shipgirl/bote_fav_lb', option)
+            .then(async (res) => {
+                if (!res.ok) {
+                    reject(await res.text())
+                }
+                else {
+                    resolve(await res.json())
+                }
+            })
+            .catch(e => reject("error when fetch"))
+    })
+}
+
+export function GET_cgById(id) {
+    return new Promise(async (resolve, reject) => {
+        let option = {
+            method: "GET"
+        }
+        fetch('/api/shipgirl/cg/' + id, option)
             .then(async (res) => {
                 if (!res.ok) {
                     reject(await res.text())

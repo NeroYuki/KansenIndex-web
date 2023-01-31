@@ -1,0 +1,75 @@
+import { Box, Flex, Heading, SlideFade, Text} from "@chakra-ui/react"
+import { useEffect, useState } from "react"
+import { SiteFooter, SiteHeader } from "../../Component"
+import { GET_getTopFav } from "../../Service/shipgirl"
+
+// function to turn number to ordinal string
+function ordinal_suffix_of(i) {
+    let j = i % 10,
+        k = i % 100;
+    if (j == 1 && k != 11) {
+        return i + "st";
+    }
+    if (j == 2 && k != 12) {
+        return i + "nd";
+    }
+    if (j == 3 && k != 13) {
+        return i + "rd";
+    }
+    return i + "th";
+}
+
+const SimpleCharCard = (props) => {
+    const { char, folder, image_link, fav_count, pos} = props
+
+    let thumb_dir = (image_link) ? image_link.replace('./data/assets/', './data/thumbs/') : ''
+    thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
+
+    return (
+        <Box position={'relative'} bg='white' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' m='10px'>
+            <img src={thumb_dir} alt={char} style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} />
+            <Flex position={'absolute'} top={0} left={0} direction={'column'} height={'100%'} justify={'space-between'} >
+                <Flex direction={'row'} justify={'space-between'} style={{backgroundColor: '#FFFFFF22'}} width={'332px'}>
+                    <Flex direction={'column'} justify={'space-between'}  p='10px' >
+                        <Heading size={'md'}>{char}</Heading>
+                        <Text mt={1}>{folder}</Text>
+                    </Flex>
+                    <Flex p='10px' style={{backgroundColor: '#44FF4422'}} justifyContent="center" alignItems="center">
+                        <Text fontWeight="bold" float={'right'}>{ordinal_suffix_of(pos)}</Text>
+                    </Flex>
+                </Flex>
+                <Box style={{backgroundColor: '#FFFFFF22'}} p='10px' width={'332px'} >
+                    <Text fontWeight="bold" float={'right'}>❤️ {fav_count}</Text>
+                </Box>
+            </Flex>
+        </Box>
+    )
+}
+
+export const BoteLB = () => {
+    const [topBoteList, setTopBoteList] = useState([])
+
+    useEffect(() => {
+        GET_getTopFav().then(res => setTopBoteList(res))
+    }, [])
+
+    const cardList = topBoteList.map((val, index) => {
+        return (
+            <SimpleCharCard key={val._id} char={val.char} folder={val.folder} image_link={val.base_cg} fav_count={val.fav} pos={index + 1}/>
+        )
+    })
+
+    return (
+        <Flex direction={'column'} height={'100%'}>
+            <SiteHeader />
+            <SlideFade in={true} offsetY='-80px'>
+                <Box bg='green.200' p='24px'>
+                    <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
+                        {cardList}
+                    </Flex>
+                </Box>
+            </SlideFade>
+            <SiteFooter></SiteFooter>
+        </Flex>
+    )
+}

@@ -6,6 +6,7 @@ import { Project } from "./Project";
 import { GameInfo } from "./GameInfo";
 import { ShipInfo } from "./ShipInfo";
 import { CGInfo } from "./CGInfo";
+import { BoteLB } from "./BoteLB";
 
 export {
     ShipIndex,
@@ -16,4 +17,5 @@ export {
     GameInfo,
     ShipInfo,
     CGInfo,
+    BoteLB,
 }

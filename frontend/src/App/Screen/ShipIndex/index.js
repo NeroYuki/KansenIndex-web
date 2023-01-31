@@ -9,9 +9,9 @@ import {
     Td,
     TableCaption,
 } from '@chakra-ui/react'
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useState } from "react"
 import { FaSearch } from "react-icons/fa"
-import { useLocation } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import { SiteHeader, SiteFooter } from "../../Component"
 import { GET_query } from "../../Service/shipgirl"
 
@@ -59,6 +59,7 @@ export const ShipIndex = () => {
     const [selectedFranchise, setSelectedFranchise] = useState("")
     const toast = useToast()
     const location = useLocation()
+    const navigate = useNavigate()
 
     function showErrorToast(e) {
         toast({
@@ -136,12 +137,18 @@ export const ShipIndex = () => {
         }
     }
 
+    const navigateToCG = useCallback((val) => {
+        navigate('/cg_info', {state: {
+            data: val
+        }})
+    }, [navigate])
+
     const tableRows = shiplist.map(val => {
         let thumb_dir = val.full_dir.replace('./data/assets/', './data/thumbs/')
         thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
         return (
-            <Tr>
-                <Td>{val.char}</Td>
+            <Tr key={val.filename}>
+                <Td><Text onClick={() => navigateToCG(val)} style={{backgroundColor: 'white', padding: '4px 8px 4px 8px', borderRadius: 4}}>{val.char}</Text></Td>
                 <Td>{val.folder}</Td>
                 <Td>{val.filename}</Td>
                 <Td><Checkbox isChecked={val.is_base} isDisabled></Checkbox></Td>

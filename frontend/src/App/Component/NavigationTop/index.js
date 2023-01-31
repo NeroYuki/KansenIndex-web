@@ -1,6 +1,6 @@
 import { Box, Stack, Icon } from '@chakra-ui/react';
 import { useState } from 'react';
-import { FaClipboard, FaGamepad, FaHome, FaInfo, FaRegPlusSquare, FaShip, FaBars} from 'react-icons/fa'
+import { FaClipboard, FaGamepad, FaHome, FaInfo, FaRegPlusSquare, FaShip, FaBars, FaHeart} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const NavigationEntry = (props) => {
@@ -37,7 +37,7 @@ export const NavigationTop = (props) => {
                     <NavigationEntry icon={FaHome} title='Home' to="/" />
                     <NavigationEntry icon={FaShip} title='Ship Index' to="/ship_list" />
                     <NavigationEntry icon={FaGamepad} title='Game Index' to="/game_list" />
-                    <NavigationEntry icon={FaInfo} title='About' to="/about" />
+                    <NavigationEntry icon={FaHeart} title='Top Favorite' to="/top_fav" />
                     <NavigationEntry icon={FaClipboard} title='Project' to="/project" />
                 </Stack>
                 <NavigationEntry icon={FaRegPlusSquare} title='Submission' onClick={props.onSubmissionOpen ? props.onSubmissionOpen : () => {}}/>
@@ -49,7 +49,7 @@ export const NavigationTop = (props) => {
             <div className='expanded-nav-container expand' style={{height: (expand)? 'auto' : 0}}>
                 <ExpandedNavigationEntry icon={FaShip} title='Ship Index' to="/ship_list" />
                 <ExpandedNavigationEntry icon={FaGamepad} title='Game Index' to="/game_list" />
-                <ExpandedNavigationEntry icon={FaInfo} title='About' to="/about" />
+                <ExpandedNavigationEntry icon={FaHeart} title='Top Favorite' to="/top_fav"  />
                 <ExpandedNavigationEntry icon={FaClipboard} title='Project' to="/project" />
                 <ExpandedNavigationEntry icon={FaRegPlusSquare} title='Submission' onClick={props.onSubmissionOpen ? props.onSubmissionOpen : () => {}}/>
             </div>
