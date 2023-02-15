@@ -11,16 +11,25 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import data_source from "./datasource.md";
 import changelog from "./changelog.md"
+import disclaimer from "./disclaimer.md"
+import overall from "./overall.md"
+import special_thanks from "./specialthanks.md"
 import { useEffect, useState } from "react"
 
 export const Project = () => {
 
     const [data_source_md, setDataSource] = useState("")
     const [changelog_md, setChangelog] = useState("") 
+    const [disclaimer_md, setDisclaimer] = useState("")
+    const [overall_md, setOverall] = useState("")
+    const [special_thanks_md, setSpecialThanks] = useState("")
 
     useEffect(() => {
         fetch(data_source).then((res) => res.text()).then((text) => setDataSource(text))
         fetch(changelog).then((res) => res.text()).then((text) => setChangelog(text))
+        fetch(disclaimer).then((res) => res.text()).then((text) => setDisclaimer(text))
+        fetch(overall).then((res) => res.text()).then((text) => setOverall(text))
+        fetch(special_thanks).then((res) => res.text()).then((text) => setSpecialThanks(text))
     }, [])
 
     return (
@@ -38,10 +47,7 @@ export const Project = () => {
                                     <AccordionIcon />
                                 </AccordionButton>
                                 <AccordionPanel pb={4} p='20px' className="markdown-content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                    {overall_md ? <ReactMarkdown children={overall_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
                                 </AccordionPanel>
                             </AccordionItem>
 
@@ -77,10 +83,7 @@ export const Project = () => {
                                     <AccordionIcon />
                                 </AccordionButton>
                                 <AccordionPanel pb={4} p='20px' className="markdown-content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                    {special_thanks_md ? <ReactMarkdown children={special_thanks_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
                                 </AccordionPanel>
                             </AccordionItem>
 
@@ -92,10 +95,7 @@ export const Project = () => {
                                     <AccordionIcon />
                                 </AccordionButton>
                                 <AccordionPanel pb={4} p='20px' className="markdown-content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.
+                                    {disclaimer_md ? <ReactMarkdown children={disclaimer_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
                                 </AccordionPanel>
                             </AccordionItem>
                         </Accordion>
