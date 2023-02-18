@@ -11,11 +11,11 @@ async function thumb_gen (add_mode = false) {
     let dirs = fs.readdirSync(BASE_PATH)
 
     for (let dir of dirs) {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) return
+        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) continue
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)
         for (let [index, file] of files.entries()) {
-            if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) return
+            if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) continue
 
             if (!fs.existsSync('./data/thumbs/shipgirls/' + dir)) {
                 fs.mkdirSync('./data/thumbs/shipgirls/' + dir, {recursive: true})
@@ -28,7 +28,7 @@ async function thumb_gen (add_mode = false) {
 
             if(add_mode && fs.existsSync(target_dir)) {
                 console.log('skipped')
-                return
+                continue
             }
             img = await sharp(BASE_PATH + '/' + dir + '/' + file)
 				.resize({height: 512})
