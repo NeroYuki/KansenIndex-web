@@ -6,15 +6,15 @@ const crypto = require('crypto')
 
 const BASE_PATH = './data/assets/shipgirls'
 
-function thumb_gen (add_mode = false) {
+async function thumb_gen (add_mode = false) {
 
     let dirs = fs.readdirSync(BASE_PATH)
 
-    dirs.forEach((dir) => {
+    for (let dir of dirs) {
         if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) return
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)
-        files.forEach(async (file, index) => {
+        for (let [index, file] of files.entries()) {
             if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) return
 
             if (!fs.existsSync('./data/thumbs/shipgirls/' + dir)) {
@@ -35,10 +35,10 @@ function thumb_gen (add_mode = false) {
 				.png()
                 .toFile(target_dir)
 
-        })
-    })
+        }
+    }
 
     console.log('done')
 }
 
-thumb_gen(true)
+thumb_gen()
