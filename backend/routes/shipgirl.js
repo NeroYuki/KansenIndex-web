@@ -26,7 +26,7 @@ function fileFilter (req, file, cb) {
     }
 }
 
-const upload = multer({ storage: storage, limits: {fileSize: 20 * 1000 * 1000}, fileFilter: fileFilter })
+const upload = multer({ storage: storage, limits: {fileSize: 20 * 1000 * 1000 * 1000}, fileFilter: fileFilter })
 
 function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
