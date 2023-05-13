@@ -9,9 +9,11 @@ const BASE_PATH = './data/assets/shipgirls'
 async function thumb_gen (add_mode = false) {
 
     let dirs = fs.readdirSync(BASE_PATH)
+    let whitelist_dir = ["Azur Lane"]
 
     for (let dir of dirs) {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) continue
+        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", "Rubbish"].includes(dir)) continue
+        if (whitelist_dir.length > 0 && !whitelist_dir.includes(dir)) continue
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)
         for (let [index, file] of files.entries()) {
@@ -30,15 +32,15 @@ async function thumb_gen (add_mode = false) {
                 console.log('skipped')
                 continue
             }
-            img = await sharp(BASE_PATH + '/' + dir + '/' + file)
+            await sharp(BASE_PATH + '/' + dir + '/' + file)
 				.resize({height: 512})
 				.png()
                 .toFile(target_dir)
-
+                .catch(err => {})
         }
     }
 
     console.log('done')
 }
 
-thumb_gen()
+thumb_gen(true)

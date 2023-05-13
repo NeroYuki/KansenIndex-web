@@ -104,7 +104,7 @@ export const CGInfo = (props) => {
     }
 
     const onCopyLink = () => {
-        navigator.clipboard.writeText('kansenindex.dev/cg_info?id=' + data._id)
+        navigator.clipboard.writeText('https://kansenindex.dev/cg_info?id=' + data._id)
         showSuccessToast('Link copied to clipboard')
     }
 

@@ -4,6 +4,7 @@ const cors = require("cors")
 const compression = require("compression")
 
 const databaseConn = require('./database/database_connection')
+const { injectOpenGraph }= require('./utils/inject_opengraph')
 
 const game_route = require('./routes/game')
 const shipgirl_route = require('./routes/shipgirl')
@@ -35,11 +36,15 @@ app.get('/api*', (req, res) => {
     res.send('Unknown API call')
 })
 
+
 app.get('*', (req, res) => {
-	res.sendFile(path.join(__dirname + '/../frontend/build/index.html'));
+    // get sub path and query param
+    const path = req.path
+    res.send(injectOpenGraph(path))
 });
 
 app.listen(port, () => {
     console.log(`Application listening at http://localhost:${port}`)
     databaseConn.initConnection(() => {}) 
+    
 })

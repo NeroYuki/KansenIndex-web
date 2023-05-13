@@ -14,6 +14,7 @@ import changelog from "./changelog.md"
 import disclaimer from "./disclaimer.md"
 import overall from "./overall.md"
 import special_thanks from "./specialthanks.md"
+import fulldata from "./fulldata.md"
 import { useEffect, useState } from "react"
 
 export const Project = () => {
@@ -23,6 +24,7 @@ export const Project = () => {
     const [disclaimer_md, setDisclaimer] = useState("")
     const [overall_md, setOverall] = useState("")
     const [special_thanks_md, setSpecialThanks] = useState("")
+    const [fulldata_md, setFullData] = useState("")
 
     useEffect(() => {
         fetch(data_source).then((res) => res.text()).then((text) => setDataSource(text))
@@ -30,6 +32,7 @@ export const Project = () => {
         fetch(disclaimer).then((res) => res.text()).then((text) => setDisclaimer(text))
         fetch(overall).then((res) => res.text()).then((text) => setOverall(text))
         fetch(special_thanks).then((res) => res.text()).then((text) => setSpecialThanks(text))
+        fetch(fulldata).then((res) => res.text()).then((text) => setFullData(text))
     }, [])
 
     return (
@@ -96,6 +99,17 @@ export const Project = () => {
                                 </AccordionButton>
                                 <AccordionPanel pb={4} p='20px' className="markdown-content">
                                     {disclaimer_md ? <ReactMarkdown children={disclaimer_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
+                                </AccordionPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Box flex='1' textAlign='left'>
+                                        <Text fontSize={18} fontWeight={500} marginY='20px'>Full Data Download</Text>
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                                <AccordionPanel pb={4} p='20px' className="markdown-content">
+                                    {fulldata_md ? <ReactMarkdown children={fulldata_md} remarkPlugins={[remarkGfm]} /> : <Skeleton height={'50px'} />}
                                 </AccordionPanel>
                             </AccordionItem>
                         </Accordion>
