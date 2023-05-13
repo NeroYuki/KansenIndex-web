@@ -98,6 +98,7 @@ function main_shipgirl_db() {
 
             list.push({
                 char: char_name,
+                modifier: comp[1] ? comp.slice(1).join(' ') : "",
                 full_dir: BASE_PATH + '/' + dir + '/' + file,
                 filename: file,
                 is_base: isBase,
