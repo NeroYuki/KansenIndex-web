@@ -97,7 +97,9 @@ router.get('/query', async (req, res) => {
 
 router.get('/cg/:id', (req, res) => {
     let id = req.params.id
-
+    if (!ObjectId.isValid(id))
+       return res.status(404).send("Not found")
+       
     db.queryRecord('shipgirl', {_id: ObjectId(id)})
         .then(db_res => {
             if (!db_res || !db_res.length) {

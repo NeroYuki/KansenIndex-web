@@ -19,9 +19,13 @@ app.use(cors({
 }));
 app.use(compression());
 
-app.use(express.static(path.join(__dirname, '/../frontend/build')));
-app.use('/data/assets', express.static(path.join(__dirname, '/data/assets')))
-app.use('/data/thumbs', express.static(path.join(__dirname, '/data/thumbs')))
+app.use(async (req, res, next) => {
+  if (req.path === "/") {
+    res.send(await injectOpenGraph("", {}))
+    return
+  }
+  next();
+});
 
 app.get('/api/test', (req, res) => {
     res.send('Hello World! From neroyuki\'s droplet')
@@ -36,11 +40,16 @@ app.get('/api*', (req, res) => {
     res.send('Unknown API call')
 })
 
+app.use(express.static(path.join(__dirname, '/../frontend/build')));
+app.use('/data/assets', express.static(path.join(__dirname, '/data/assets')))
+app.use('/data/thumbs', express.static(path.join(__dirname, '/data/thumbs')))
 
-app.get('*', (req, res) => {
+app.get('*', async (req, res) => {
     // get sub path and query param
     const path = req.path
-    res.send(injectOpenGraph(path))
+    const query = req.query
+    console.log(path,query)
+    res.send(await injectOpenGraph(path,query))
 });
 
 app.listen(port, () => {
