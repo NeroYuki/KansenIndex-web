@@ -1,5 +1,14 @@
 [
     {
+        "name": "*",
+        "alias": [
+            {"originalName": "Köln", "value": ["Cologne"]},
+            {"originalName": "Cologne", "value": ["Köln"]},
+            {"originalName": "Ying Rui", "value": ["Ying Swei"]},
+            {"originalName": "Ying Swei", "value": ["Ying Rui"]}
+        ]
+    },
+    {
         "name": "Abyss Horizon",
         "optionName": "ah",
         "allowAlt": true,
@@ -7,7 +16,19 @@
         "oathArtSuffix": "oath",
         "retrofitArtSuffix": "kai",
         "alias": [
-
+            {"originalName": "Admiral Hipper μ", "value": ["Admiral Hipper muse"]},
+            {"originalName": "Akagi μ", "value": ["Akagi muse"]},
+            {"originalName": "Albacore μ", "value": ["Albacore muse"]},
+            {"originalName": "Baltimore μ", "value": ["Baltimore muse"]},
+            {"originalName": "Cleveland μ", "value": ["Cleveland muse"]},
+            {"originalName": "Dido µ", "value": ["Dido muse"]},
+            {"originalName": "Gascogne μ", "value": ["Gascogne muse"]},
+            {"originalName": "Illustrious μ", "value": ["Illustrious muse"]},
+            {"originalName": "Le Malin μ", "value": ["Le Malin muse"]},
+            {"originalName": "Roon μ", "value": ["Roon muse"]},
+            {"originalName": "Sheffield μ", "value": ["Sheffield muse"]},
+            {"originalName": "Taihou μ", "value": ["Taihou muse"]},
+            {"originalName": "Tashkent μ", "value": ["Tashkent muse"]}
         ]
     },
     {

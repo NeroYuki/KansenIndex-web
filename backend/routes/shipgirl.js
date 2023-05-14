@@ -42,7 +42,10 @@ router.get('/query', async (req, res) => {
     //console.log(query)
 
     if (query.keyword) {
-        db_query.filename = {$regex: escapeRegExp(query.keyword), $options: 'i'}
+        db_query.$or = [
+            {filename: {$regex: escapeRegExp(query.keyword), $options: 'i'}},
+            {alias: {$regex: escapeRegExp(query.keyword), $options: 'i'}}
+        ]
     }
     if (query.folder) {
         db_query.folder = query.folder
@@ -54,10 +57,14 @@ router.get('/query', async (req, res) => {
     if (query.keyword_mod) {
         let val = parseInt(query.keyword_mod) || 0
         if ((val >> 0) & 1) {   //char name only
-            delete db_query.filename
-            db_query.char = {$regex: escapeRegExp(query.keyword), $options: 'i'}
+            delete db_query.$or
+            db_query.$or = [
+                {char: {$regex: escapeRegExp(query.keyword), $options: 'i'}},
+                {alias: {$regex: escapeRegExp(query.keyword), $options: 'i'}}
+            ]
         }
         if ((val >> 1) & 1) {   //modifier name only
+            delete db_query.$or
             db_query.filename = {$regex: "_.*" + escapeRegExp(query.keyword), $options: 'i'}
         }
     }

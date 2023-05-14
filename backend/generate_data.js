@@ -2,63 +2,64 @@ const fs = require('fs')
 const config = require('./shipgirl_list_config.json')
 const hashFile = require('hash-files')
 const crypto = require('crypto')
+const asciiFolder = require('fold-to-ascii')
 
 const BASE_PATH = './data/assets/shipgirls'
 
-function main_shipgirl () {
+// function main_shipgirl () {
 
-    let dirs = fs.readdirSync(BASE_PATH)
+//     let dirs = fs.readdirSync(BASE_PATH)
 
-    let list = []
+//     let list = []
 
-    dirs.forEach((dir) => {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt"].includes(dir)) return
+//     dirs.forEach((dir) => {
+//         if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt"].includes(dir)) return
 
-        let list_entry = {
-            name: dir,
-            count: 0,
-            base_count: 0,
-            img: [],
-        }
+//         let list_entry = {
+//             name: dir,
+//             count: 0,
+//             base_count: 0,
+//             img: [],
+//         }
 
-        let entry_config = config.find(val => val.name === dir) || {}
+//         let entry_config = config.find(val => val.name === dir) || {}
 
-        let base_count = 0
-        let count = 0
+//         let base_count = 0
+//         let count = 0
 
-        let files = fs.readdirSync(BASE_PATH + '/' + dir)
-        files.forEach((file, index) => {
-            if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) return
-            let comp = file.slice(0, file.lastIndexOf('.')).split('_')
-            let char_name = comp[0]
+//         let files = fs.readdirSync(BASE_PATH + '/' + dir)
+//         files.forEach((file, index) => {
+//             if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) return
+//             let comp = file.slice(0, file.lastIndexOf('.')).split('_')
+//             let char_name = comp[0]
 
-            const isBase = (!comp[1] || (comp[1].toLowerCase() === entry_config.baseArtSuffix && !comp[2]))
+//             const isBase = (!comp[1] || (comp[1].toLowerCase() === entry_config.baseArtSuffix && !comp[2]))
             
-            count += 1
-            if (isBase) base_count += 1
+//             count += 1
+//             if (isBase) base_count += 1
 
-            console.log(`(${dir} - ${index + 1}/${files.length}) Adding ${file}`)
-            let file_hash = hashFile.sync({
-                files: [BASE_PATH + '/' + dir + '/' + file]
-            })
+//             console.log(`(${dir} - ${index + 1}/${files.length}) Adding ${file}`)
+//             let file_hash = hashFile.sync({
+//                 files: [BASE_PATH + '/' + dir + '/' + file]
+//             })
 
-            list_entry.img.push({
-                char: char_name,
-                filename: BASE_PATH + '/' + dir + '/' + file,
-                is_base: isBase,
-                file_hash: file_hash,
+//             list_entry.img.push({
+//                 char: char_name,
+//                 filename: BASE_PATH + '/' + dir + '/' + file,
+//                 is_base: isBase,
+//                 file_hash: file_hash,
                 
-            })
-        })
+//             })
+//         })
 
-        list_entry.count = count
-        list_entry.base_count = base_count
+//         list_entry.count = count
+//         list_entry.base_count = base_count
 
-        list.push(list_entry)
-    })
+//         list.push(list_entry)
+//     })
 
-    fs.writeFileSync('data/shipgirl_list.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
-}
+//     fs.writeFileSync('data/shipgirl_list.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
+// }
 
 function main_shipgirl_db() {
 
@@ -66,10 +67,14 @@ function main_shipgirl_db() {
 
     let list = []
 
+    let global_config = config.find(val => val.name === "*") || {}
+
     dirs.forEach((dir) => {
         if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) return
 
         let entry_config = config.find(val => val.name === dir) || {}
+        let alias_config = [...global_config.alias]
+        if (entry_config.alias) alias_config = [...alias_config, ...entry_config.alias]
 
         let base_count = 0
         let count = 0
@@ -96,6 +101,10 @@ function main_shipgirl_db() {
                 files: [BASE_PATH + '/' + dir + '/' + file]
             })
 
+            const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).map(f => f.value) || []
+            const folded_name = asciiFolder.foldReplacing(char_name)
+            if (folded_name !== char_name) alias.push(folded_name)
+
             list.push({
                 char: char_name,
                 modifier: comp[1] ? comp.slice(1).join(' ') : "",
@@ -106,7 +115,8 @@ function main_shipgirl_db() {
                 is_oath: isOath,
                 is_retrofit: isRetrofit,
                 file_hash: file_hash,
-                folder: dir
+                folder: dir,
+                alias: alias,
             })
         })
 
