@@ -101,9 +101,15 @@ function main_shipgirl_db() {
                 files: [BASE_PATH + '/' + dir + '/' + file]
             })
 
-            const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).map(f => f.value) || []
-            const folded_name = asciiFolder.foldReplacing(char_name)
+            const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).flatMap(f => f.value)
+            const folded_name = asciiFolder.foldMaintaining(char_name)
             if (folded_name !== char_name) alias.push(folded_name)
+
+            // fold all name in current alias list
+            alias.forEach((val) => {
+                const folded_val = asciiFolder.foldMaintaining(val)
+                if (folded_val !== val) alias.push(folded_val)
+            })
 
             list.push({
                 char: char_name,

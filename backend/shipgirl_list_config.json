@@ -16,6 +16,18 @@
         "oathArtSuffix": "oath",
         "retrofitArtSuffix": "kai",
         "alias": [
+
+        ]
+    },
+    {
+        "name": "Azur Lane",
+        "optionName": "al",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "default",
+        "oathArtSuffix": "wedding",
+        "retrofitArtSuffix": "retrofit",
+        "alias": [
             {"originalName": "Admiral Hipper μ", "value": ["Admiral Hipper muse"]},
             {"originalName": "Akagi μ", "value": ["Akagi muse"]},
             {"originalName": "Albacore μ", "value": ["Albacore muse"]},
@@ -29,18 +41,6 @@
             {"originalName": "Sheffield μ", "value": ["Sheffield muse"]},
             {"originalName": "Taihou μ", "value": ["Taihou muse"]},
             {"originalName": "Tashkent μ", "value": ["Tashkent muse"]}
-        ]
-    },
-    {
-        "name": "Azur Lane",
-        "optionName": "al",
-        "allowAlt": true,
-        "allowSilhouette": true,
-        "baseArtSuffix": "default",
-        "oathArtSuffix": "wedding",
-        "retrofitArtSuffix": "retrofit",
-        "alias": [
-
         ]
     },
     {
