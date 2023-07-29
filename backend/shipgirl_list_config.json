@@ -179,7 +179,8 @@
         "retrofitArtSuffix": "retrofit",
         "alias": [
 
-        ]
+        ],
+        "live2dmapping": "./data/vc_l2d_mapping.json"
     },
     {
         "name": "Warship Girls R",
