@@ -7,6 +7,7 @@ import { GameInfo } from "./GameInfo";
 import { ShipInfo } from "./ShipInfo";
 import { CGInfo } from "./CGInfo";
 import { BoteLB } from "./BoteLB";
+import { TestPage } from "./TestPage";
 
 export {
     ShipIndex,
@@ -18,4 +19,5 @@ export {
     ShipInfo,
     CGInfo,
     BoteLB,
+    TestPage
 }

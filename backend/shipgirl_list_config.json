@@ -41,16 +41,17 @@
             {"originalName": "Sheffield μ", "value": ["Sheffield muse"]},
             {"originalName": "Taihou μ", "value": ["Taihou muse"]},
             {"originalName": "Tashkent μ", "value": ["Tashkent muse"]}
-        ]
+        ],
+        "live2dmapping": "./data/l2d_dir_mapping.json"
     },
     {
         "name": "Artist Original Content",
-        "optionName": "al",
+        "optionName": "aoc",
         "allowAlt": false,
         "allowSilhouette": false,
         "damageArtSuffix": "damage",
         "alias": [
-
+            
         ]
     },
     {

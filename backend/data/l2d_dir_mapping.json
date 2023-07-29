@@ -1,0 +1,522 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/abeikelongbi_3/abeikelongbi_3.model3.json",
+        "name": "Abercrombie_Mischief on the Rocks"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/adaerbote_2/adaerbote_2.model3.json",
+        "name": "Prinz Adalbert_After-Hours Service"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aidang_2/aidang_2.model3.json",
+        "name": "Atago_Summer March"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aierdeliqi_4/aierdeliqi_4.model3.json",
+        "name": "Eldridge_New Year's Outing"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aierdeliqi_5/aierdeliqi_5.model3.json",
+        "name": "Eldridge_Kitty Idol"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aijier_2/aijier_2.model3.json",
+        "name": "\u00c4gir_Iron Blood's Dragon Maid"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aijier_3/aijier_3.model3.json",
+        "name": "\u00c4gir_Golden Dragon Among Auspicious Clouds"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ailunsamuna_2/ailunsamuna_2.model3.json",
+        "name": "Allen M. Sumner_Charming Rabbit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aimierbeierding_2/aimierbeierding_2.model3.json",
+        "name": "\u00c9mile Bertin_C\u00f4te d'Azur"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aimierbeierding_3/aimierbeierding_3.model3.json",
+        "name": "\u00c9mile Bertin_Maid Fantastique"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aimudeng_2/aimudeng_2.model3.json",
+        "name": "Emden_White-Black Partita"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aisaikesi_4/aisaikesi_4.model3.json",
+        "name": "Essex_Craft Fairytail"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ankeleiqi_2/ankeleiqi_2.model3.json",
+        "name": "Anchorage_Dolphins and Swim Lessons"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/baerdimo_5/baerdimo_5.model3.json",
+        "name": "Baltimore_Evening Breeze Minuet"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/baerdimo_6/baerdimo_6.model3.json",
+        "name": "Baltimore_Finish Line Flagbearer"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/banrenma_2/banrenma_2.model3.json",
+        "name": "Centaur_Beachside Undine"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/beianpudunii_2/beianpudunii_2.model3.json",
+        "name": "Northampton II_Swimming Star"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/beierfasite_2/beierfasite_2.model3.json",
+        "name": "Belfast_Iridescent Rosa"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/beikaluolaina_2/beikaluolaina_2.model3.json",
+        "name": "North Carolina_The Heart's Desire"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/biaoqiang/biaoqiang.model3.json",
+        "name": "Javelin_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/biaoqiang_3/biaoqiang_3.model3.json",
+        "name": "Javelin_Beach Picnic!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bisimai_2/bisimai_2.model3.json",
+        "name": "Bismarck_Beacon of the Iron Blood"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bola_2/bola_2.model3.json",
+        "name": "Pola_Seaside Coincidence"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/boyixi_2/boyixi_2.model3.json",
+        "name": "Boise_Sheepish Sapphire"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bulaimodun_2/bulaimodun_2.model3.json",
+        "name": "Bremerton_Day-Off Date"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bulaimodun_4/bulaimodun_4.model3.json",
+        "name": "Bremerton_Kung Fu Cruiser"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bulaimodun_5/bulaimodun_5.model3.json",
+        "name": "Bremerton_Relaxation Consultation"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/buleisite_2/buleisite_2.model3.json",
+        "name": "Brest_Marine Muse"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chaijun_3/chaijun_3.model3.json",
+        "name": "Cheshire_Cait Sith Crooner"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chaijun_4/chaijun_4.model3.json",
+        "name": "Cheshire_The Cat and the White Steed"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chicheng_5/chicheng_5.model3.json",
+        "name": "Akagi_Dawn-Phoenix's Summons"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chuixue_3/chuixue_3.model3.json",
+        "name": "Fubuki_Music Pixy"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dafeng_2/dafeng_2.model3.json",
+        "name": "Taihou_Forbidden Fruit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dafeng_3/dafeng_3.model3.json",
+        "name": "Taihou_Sweet Time After School"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dafeng_4/dafeng_4.model3.json",
+        "name": "Taihou_Phoenix's Spring Song"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dafeng_6/dafeng_6.model3.json",
+        "name": "Taihou_Seaside Daydreams"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/daofeng_4/daofeng_4.model3.json",
+        "name": "Shimakaze_World's Speediest Bunny Waitress"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/daofeng_5/daofeng_5.model3.json",
+        "name": "Shimakaze_The White Rabbit of Wonderland"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/deyizhi_3/deyizhi_3.model3.json",
+        "name": "Deutschland_Service Time!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dujiaoshou_4/dujiaoshou_4.model3.json",
+        "name": "Unicorn_Long-Awaited Date"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dujiaoshou_6/dujiaoshou_6.model3.json",
+        "name": "Unicorn_Angelic Night"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dunkeerke_2/dunkeerke_2.model3.json",
+        "name": "Dunkerque_Summer Sucr\u00e9"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/edu_3/edu_3.model3.json",
+        "name": "Le Malin_Mercredi at the Secret Base"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/edu_4/edu_4.model3.json",
+        "name": "Le Malin_Listless Lapin"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/genaisennao_2/genaisennao_2.model3.json",
+        "name": "Gneisenau_Nightmarish Succubus"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/guangrong_3/guangrong_3.model3.json",
+        "name": "Glorious_Pungent Plum"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/haiyinlixi_2/haiyinlixi_2.model3.json",
+        "name": "Prinz Heinrich_Rabbit on Watch"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/heitaizi_2/heitaizi_2.model3.json",
+        "name": "Black Prince_White Princess"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/hemin_2/hemin_2.model3.json",
+        "name": "Hermione_Pure White Holiday"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/hemin_3/hemin_3.model3.json",
+        "name": "Hermione_Pure White Angel"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/huangjiafangzhou_3/huangjiafangzhou_3.model3.json",
+        "name": "Ark Royal_Guardian of the Ball"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/huonululu_3/huonululu_3.model3.json",
+        "name": "Honolulu_Summer Accident!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/huonululu_5/huonululu_5.model3.json",
+        "name": "Honolulu_Among the Stalls"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jialisuoniye_3/jialisuoniye_3.model3.json",
+        "name": "La Galissonni\u00e8re_Black Cat of All Hallows' Eve"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jialisuoniye_4/jialisuoniye_4.model3.json",
+        "name": "La Galissonni\u00e8re_Lush Spring Dreams"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jianye_2/jianye_2.model3.json",
+        "name": "Kashino_Hot Springs Relaxation"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jianye_3/jianye_3.model3.json",
+        "name": "Kashino_Maid for Mayhem"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jiluofu_3/jiluofu_3.model3.json",
+        "name": "Kirov_Drifting Justice"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jiuyun_2/jiuyun_2.model3.json",
+        "name": "Sakawa_The Colors of Love"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/junhe_4/junhe_4.model3.json",
+        "name": "Suruga_Uneventful Holiday Greetings"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/junhe_5/junhe_5.model3.json",
+        "name": "Suruga_Hundred Flowers' Auspice"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kalangshitade_2/kalangshitade_2.model3.json",
+        "name": "Kronshtadt_Begin the Rush!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kalvbudisi_2/kalvbudisi_2.model3.json",
+        "name": "Charybdis_Red Chamber of Healing"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kelifulan_3/kelifulan_3.model3.json",
+        "name": "Cleveland_Gentry Knight"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kubo_2/kubo_2.model3.json",
+        "name": "Cooper_Blazing Tennis Battle"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kuersike_2/kuersike_2.model3.json",
+        "name": "Kursk_Lone Wolf Amid the Steam"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lafei/lafei.model3.json",
+        "name": "Laffey_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lafei_4/lafei_4.model3.json",
+        "name": "Laffey_White Rabbit Welcomes the Spring"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/leigensibao_2/leigensibao_2.model3.json",
+        "name": "Regensburg_Dark Dragon, Brilliant Beach"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lingbo/lingbo.model3.json",
+        "name": "Ayanami_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lingbo_10/lingbo_10.model3.json",
+        "name": "Ayanami_Nightfall Raiment"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/linuo_3/linuo_3.model3.json",
+        "name": "Reno_Reno Bunnino"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lisailiu_2/lisailiu_2.model3.json",
+        "name": "Richelieu_Fleuron of the Waves"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lisailiu_3/lisailiu_3.model3.json",
+        "name": "Richelieu_Evergreen Prophecy"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/longfeng_2/longfeng_2.model3.json",
+        "name": "Ryuuhou_Firebird's New Year Dance"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/luoen_4/luoen_4.model3.json",
+        "name": "Roon_Viridescent Lullaby"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/luoma_2/luoma_2.model3.json",
+        "name": "Roma_White Heron of Darkest Night"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lupuleixite_2/lupuleixite_2.model3.json",
+        "name": "Prinz Rupprecht_The Gate Dragon's Advent"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/luyijiushi_2/luyijiushi_2.model3.json",
+        "name": "Saint Louis_Holy Knight's Resplendence"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/lvzuofu_2/lvzuofu_2.model3.json",
+        "name": "L\u00fctzow_Everlasting Blood Banquet"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/maliluosi_3_doa/maliluosi_3_doa.model3.json",
+        "name": "Marie Rose_Steamy Venus"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/mingshi/mingshi.model3.json",
+        "name": "Akashi_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/nengdai_2/nengdai_2.model3.json",
+        "name": "Noshiro_Uncharted Festival Grounds"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/nengdai_3/nengdai_3.model3.json",
+        "name": "Noshiro_Unwinding in the Sunshine"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ninghai_4/ninghai_4.model3.json",
+        "name": "Ning Hai_Dragon Sisters! -N"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ougen_5/ougen_5.model3.json",
+        "name": "Prinz Eugen_Final Lap"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ougen_6/ougen_6.model3.json",
+        "name": "Prinz Eugen_Kindred Evening Spirits"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ouruola_4/ouruola_4.model3.json",
+        "name": "Aurora_Heritage of Yu City"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/pinghai_4/pinghai_4.model3.json",
+        "name": "Ping Hai_Dragon Sisters! -P"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/pinghai_6/pinghai_6.model3.json",
+        "name": "Ping Hai_Delicious Crimson"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/qianwei_2/qianwei_2.model3.json",
+        "name": "Vanguard_Half-Hearted Masquerade"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/qibolin_2/qibolin_2.model3.json",
+        "name": "Graf Zeppelin_Beachside Urd"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/qiye_7/qiye_7.model3.json",
+        "name": "Enterprise_Wind Catcher"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/rangbaer_3/rangbaer_3.model3.json",
+        "name": "Jean Bart_Private Apr\u00e8s Midi"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/rangbaer_4/rangbaer_4.model3.json",
+        "name": "Jean Bart_First Snow Upon the Cutlass's Edge"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/shengluyisi_2/shengluyisi_2.model3.json",
+        "name": "St. Louis_Blue and White Pottery"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/shengluyisi_3/shengluyisi_3.model3.json",
+        "name": "St. Louis_Spirits in the Snow"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/shengluyisi_4/shengluyisi_4.model3.json",
+        "name": "St. Louis_Luxurious Wheels"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/shitelasai_2/shitelasai_2.model3.json",
+        "name": "Peter Strasser_Chronos's Kalendae"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/sipeibojue_5/sipeibojue_5.model3.json",
+        "name": "Admiral Graf Spee_World's\u2665Cutest"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/taiyuan_2/taiyuan_2.model3.json",
+        "name": "Tai Yuan_The Golden Dragon's Festivities"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/tiancheng_3/tiancheng_3.model3.json",
+        "name": "Amagi_Red Kite Respite"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/tianlangxing_3/tianlangxing_3.model3.json",
+        "name": "Sirius_Scorching-Hot Seirios"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/tierbici_2/tierbici_2.model3.json",
+        "name": "Tirpitz_Snow-Melting Summer"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/weineituo_2/weineituo_2.model3.json",
+        "name": "Vittorio Veneto_The Flower of La Spezia"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/weixi_2/weixi_2.model3.json",
+        "name": "Weser_Urbane Onyx"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/weiyan_2/weiyan_2.model3.json",
+        "name": "Grozny_Bad Bunny Behind Bars"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/weiyan_4/weiyan_4.model3.json",
+        "name": "Grozny_Shadowy Syndicate Showdown"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/weiyan_6/weiyan_6.model3.json",
+        "name": "Grozny_Bunny in the Banya"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/wuerlixi_2/wuerlixi_2.model3.json",
+        "name": "Ulrich von Hutten_Mayhem Maid"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/wuqi_2/wuqi_2.model3.json",
+        "name": "Azuma_Soft Voice of Spring"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xianghe_2/xianghe_2.model3.json",
+        "name": "Shoukaku_The Crane that Dances With the Wind"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_3/xinnong_3.model3.json",
+        "name": "Shinano_Moonlit Chrome"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinzexi_3/xinzexi_3.model3.json",
+        "name": "New Jersey_Midsummer Leisure"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xixuegui_4/xixuegui_4.model3.json",
+        "name": "Vampire_Night Princess's Regalia"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xuefeng/xuefeng.model3.json",
+        "name": "Yukikaze_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xuefeng_3/xuefeng_3.model3.json",
+        "name": "Yukikaze_Winter's Snowy Wind"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xukufu_2/xukufu_2.model3.json",
+        "name": "Surcouf_Shopping Time!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xukufu_3/xukufu_3.model3.json",
+        "name": "Surcouf_Loisirs Baln\u00e9aires"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yanusi_3/yanusi_3.model3.json",
+        "name": "Janus_Fright-Night Scaredy-Cat"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yibei_3/yibei_3.model3.json",
+        "name": "Elbe_Pure-Hearted Bad Girl"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yichui_2/yichui_2.model3.json",
+        "name": "Ibuki_Winter Sylph's Reverie"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yilishabai_6/yilishabai_6.model3.json",
+        "name": "Queen Elizabeth_Yes, Your Maidness!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yingrui_3/yingrui_3.model3.json",
+        "name": "Ying Swei_Frolicking Flowers, Verse I"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/z23/z23.model3.json",
+        "name": "Z23_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/z46_2/z46_2.model3.json",
+        "name": "Z46_Her First Summer"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/z46_3/z46_3.model3.json",
+        "name": "Z46_Girls' Relay"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/z46_4/z46_4.model3.json",
+        "name": "Z46_Star-Lit\u2605Chocolate"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhala_2/zhala_2.model3.json",
+        "name": "Zara_Poolside Coincidence"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhaohe_3/zhaohe_3.model3.json",
+        "name": "Chao Ho_Frolicking Flowers, Verse II"
+    }
+]

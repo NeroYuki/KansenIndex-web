@@ -1,4 +1,4 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, IconButton, Icon, useToast } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaCopy, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
@@ -6,6 +6,8 @@ import { SiteFooter, SiteHeader } from "../../Component"
 import { debounce } from "lodash"
 import { GET_cgById, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
+import { Live2DModel } from 'pixi-live2d-display/cubism4';
+import * as PIXI from 'pixi.js';
 
 function useQuery() {
     const { search } = useLocation();
@@ -37,6 +39,7 @@ export const CGInfo = (props) => {
         is_damage: true,
         is_oath: true,
         is_retrofit: true,
+        l2d: null,
         _id: '0'
     })
     
@@ -79,7 +82,7 @@ export const CGInfo = (props) => {
         }})
     }, [navigate, data.folder])
 
-    useEffect(() => {
+    useEffect(async () => {
         // get fav count
         if (data.char === 'Placeholder Character' || data.folder === 'Placeholder Folder') return
         setIsLoading(true)
@@ -88,7 +91,57 @@ export const CGInfo = (props) => {
             setIsFav(res.is_fav)
             setIsLoading(false)
         })
-    }, [data])      
+
+        // load live2d model
+        // expose PIXI to window so that this plugin is able to
+        // reference window.PIXI.Ticker to automatically update Live2D models
+
+        if (!data.l2d) return
+
+        window.PIXI = PIXI;
+        // init PIXI
+        const app = new PIXI.Application({
+            view: document.getElementById('l2d-canvas'),
+        });
+
+        const model = await Live2DModel.from(data.l2d.dir, { autoInteract: false });
+        
+    
+        app.stage.addChild(model);
+
+        const orig_size = [model.width, model.height]
+
+        //scale to 500
+        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
+        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+
+        // transforms
+        model.rotation = Math.PI;
+        model.skew.x = Math.PI;
+        model.scale.set(target_width / model.width * 1.5, target_height / model.height * 1.5);
+        model.anchor.set(0.5, 0.5);
+        model.x = (app.screen.width) / 2;
+        model.y = (app.screen.height) / 2 ;
+
+        model.internalModel.motionManager.startRandomMotion('');
+
+        setInterval(() => {
+            if (!model.internalModel.motionManager.playing) {
+                model.internalModel.motionManager.startRandomMotion('');
+            }
+            
+        }, 500)
+        
+    }, [data])   
+
+    // unload the model and remove PIXI app when unmount
+    useEffect(() => {
+        return () => {
+            if (data.l2d) {
+                PIXI.Application.destroy()
+            }
+        }
+    }, [])
 
     const onToggleFavoriteDebounce = useRef(debounce((char, folder) => {
         setIsLoading(true)
@@ -114,9 +167,27 @@ export const CGInfo = (props) => {
             <SlideFade in={true} offsetY='-80px'>
                 <Flex direction={'row'} wrap={'wrap'}>
                     <Box p='16px' flex='1' minW={'360px'}>
-                        <Center >
-                            <img style={{height: 500, margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
-                        </Center>
+                        <Tabs>
+                            <TabList>
+                                <Tab>Image</Tab>
+                                { data.l2d &&
+                                    <Tab>Live2D <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>
+                                }
+                            </TabList>
+                            <TabPanels>
+                                <TabPanel>
+                                    <Center >
+                                        <img style={{height: 500, margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
+                                    </Center>
+                                </TabPanel>
+                                <TabPanel>
+                                    <Center>
+                                        <canvas id="l2d-canvas" height={500}></canvas>
+                                    </Center>
+                                </TabPanel>
+                            </TabPanels>
+                        </Tabs>
+                        
                     </Box>
                     <Box bg='blue.100' p="32px" flex='1' minW={'360px'}>
                         <Flex bg='blue.200' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>

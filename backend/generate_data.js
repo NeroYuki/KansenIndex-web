@@ -74,7 +74,11 @@ function main_shipgirl_db() {
 
         let entry_config = config.find(val => val.name === dir) || {}
         let alias_config = [...global_config.alias]
+        let l2d_config = []
         if (entry_config.alias) alias_config = [...alias_config, ...entry_config.alias]
+        if (entry_config.live2dmapping) {
+            l2d_config = JSON.parse(fs.readFileSync(entry_config.live2dmapping, {encoding: 'utf-8'}) || "[]")
+        }
 
         let base_count = 0
         let count = 0
@@ -102,6 +106,7 @@ function main_shipgirl_db() {
             })
 
             const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).flatMap(f => f.value)
+            const l2d = l2d_config.find(val => file.toLowerCase().includes(val.name.toLowerCase())) || null
             const folded_name = asciiFolder.foldMaintaining(char_name)
             if (folded_name !== char_name) alias.push(folded_name)
 
@@ -123,6 +128,7 @@ function main_shipgirl_db() {
                 file_hash: file_hash,
                 folder: dir,
                 alias: alias,
+                l2d: l2d
             })
         })
 

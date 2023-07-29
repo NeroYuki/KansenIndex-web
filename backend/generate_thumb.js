@@ -9,7 +9,7 @@ const BASE_PATH = './data/assets/shipgirls'
 async function thumb_gen (add_mode = false) {
 
     let dirs = fs.readdirSync(BASE_PATH)
-    let whitelist_dir = ["Victory Belles"]
+    let whitelist_dir = []
 
     for (let dir of dirs) {
         if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", "Rubbish"].includes(dir)) continue
