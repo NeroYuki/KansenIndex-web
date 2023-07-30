@@ -1,0 +1,370 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/achilles/sd/SD_achilles/SD_achilles.skel",
+        "name": "achilles.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/agano/sd/SD_agano/SD_agano.skel",
+        "name": "agano.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/akagi/sd/SD_akagi/SD_akagi.skel",
+        "name": "akagi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/aphrora/sd/SD_aphrora/SD_aphrora.skel",
+        "name": "avrora.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/aquila/sd/SD_aquila/SD_aquila.skel",
+        "name": "aquila.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/argonauts/sd/SD_argonauts/SD_argonauts.skel",
+        "name": "argo.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/aria/sd/SD_aria/SD_aria.skel",
+        "name": "aria.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/arizona/sd/SD_arizona/SD_arizona.skel",
+        "name": "arizona.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ark/sd/SD_ark/SD_ark.skel",
+        "name": "ark.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/arkroyal/sd/SD_arkRoyal/SD_arkRoyal.skel",
+        "name": "arkroyal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/charon/sd/SD_charon/SD_charon.skel",
+        "name": "charon.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/choukai/sd/SD_choukai/SD_choukai.skel",
+        "name": "choukai.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/colbert/sd/SD_colbert/SD_colbert.skel",
+        "name": "colbert.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/cussi/sd/SD_cussI/SD_cussI.skel",
+        "name": "cussi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/delphinus/sd/SD_delphinus/SD_delphinus.skel",
+        "name": "delphinus.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/dummy/sd/SD_dummy/SD_dummy.skel",
+        "name": "dummy.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/dunkerque/sd/SD_dunkerque/SD_dunkerque.skel",
+        "name": "dunkerque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/enterprise/sd/SD_enterprise/SD_enterprise.skel",
+        "name": "enterprise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/fletcher/sd/SD_fletcher/SD_fletcher.skel",
+        "name": "fletcher.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/fuyutsuki/sd/SD_fuyutsuki/SD_fuyutsuki.skel",
+        "name": "fuyutsuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/gangut/sd/SD_gangut/SD_gangut.skel",
+        "name": "gangut.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/gemini/sd/SD_gemini/SD_gemini.skel",
+        "name": "gemini.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ghostomega/sd/SD_ghostOmega/SD_ghostOmega.skel",
+        "name": "ghostomega.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ghostx/sd/SD_ghostX_new/SD_ghostX_new.skel",
+        "name": "ghostx.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/grafspee/sd/SD_grafSpee/SD_grafSpee.skel",
+        "name": "grafspee.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/grafzeppelin/sd/SD_grafZeppelin/SD_grafZeppelin.skel",
+        "name": "grafzeppelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/hana/sd/SD_hana/SD_hana.skel",
+        "name": "hana.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/haruna/sd/SD_haruna/SD_haruna.skel",
+        "name": "haruna.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/hatsuharu/sd/SD_hatsuharu/SD_hatsuharu.skel",
+        "name": "hatsuharu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/helena/sd/SD_helena/SD_helena.skel",
+        "name": "helena.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/helgoland/sd/SD_helgoland/SD_helgoland.skel",
+        "name": "helgoland.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/hermes/sd/SD_hermes/SD_hermes.skel",
+        "name": "hermes.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/hibiki/sd/SD_hibiki/SD_hibiki.skel",
+        "name": "hibiki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/hood/sd/SD_hood/SD_hood.skel",
+        "name": "hood.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ifrit/sd/SD_ifrit/SD_ifrit.skel",
+        "name": "ifrit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/indomitable/sd/SD_indomitable/SD_indomitable.skel",
+        "name": "indomitable.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/isuzu/sd/SD_isuzu/SD_isuzu.skel",
+        "name": "isuzu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ithacawind/sd/SD_ithacaWind/SD_ithacaWind.skel",
+        "name": "ithacawind.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/izumo/sd/SD_izumo/SD_izumo.skel",
+        "name": "izumo.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/jeanbart/sd/SD_jeanBart/SD_jeanBart.skel",
+        "name": "jeanbart.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/jintsuu/sd/SD_jintsuu/SD_jintsuu.skel",
+        "name": "jintsuu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/jupiter/sd/SD_jupiter/SD_jupiter.skel",
+        "name": "jupiter.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/kongou/sd/SD_kongou/SD_kongou.skel",
+        "name": "kongou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/latona/sd/SD_latona/SD_latona.skel",
+        "name": "latona.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/lefantasque/sd/SD_leFantasque/SD_leFantasque.skel",
+        "name": "lefantasque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/leipzig/sd/SD_leipzig/SD_leipzig.skel",
+        "name": "leipzig.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/lexington/sd/SD_lexington/SD_lexington.skel",
+        "name": "lexington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/lira/sd/SD_lira/SD_lira.skel",
+        "name": "lira.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/lucifer/sd/SD_lucifer/SD_lucifer.skel",
+        "name": "lucifer.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/massachusetts/sd/SD_massachusetts/SD_massachusetts.skel",
+        "name": "massachusetts.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/maya/sd/SD_maya/SD_maya.skel",
+        "name": "maya.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/mesektet/sd/SD_mesektet/SD_mesektet.skel",
+        "name": "mesektet.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/morris/sd/SD_morris/SD_morris.skel",
+        "name": "morris.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/mutsuki/sd/SD_mutsuki/SD_mutsuki.skel",
+        "name": "mutsuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/myokou/sd/SD_myokou/SD_myokou.skel",
+        "name": "myokou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/nagato/sd/SD_nagato/SD_nagato.skel",
+        "name": "nagato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/naglfar/sd/SD_naglfar/SD_naglfar.skel",
+        "name": "naglfar.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/newjersey/sd/SD_newJersey/SD_newJersey.skel",
+        "name": "newjersey.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/nicholas/sd/SD_nicholas/SD_nicholas.skel",
+        "name": "nicholas.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/osprey/sd/SD_osprey/SD_osprey.skel",
+        "name": "osprey.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/pegasus/sd/SD_pegasus/SD_pegasus.skel",
+        "name": "pegasus.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/pequod/sd/SD_pequod/SD_pequod.skel",
+        "name": "pequod.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/phoenix/sd/SD_phoenix/SD_phoenix.skel",
+        "name": "phoenix.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/prinzeugen/sd/SD_prinzEugen/SD_prinzEugen.skel",
+        "name": "prinzeugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ptolemy/sd/SD_ptolemy/SD_ptolemy.skel",
+        "name": "ptolemy.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/queenannerevenge/sd/SD_queenAnneRevenge/SD_queenAnneRevenge.skel",
+        "name": "queenannerevenge.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ranger/sd/SD_ranger/SD_ranger.skel",
+        "name": "ranger.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/renown/sd/SD_renown/SD_renown.skel",
+        "name": "renown.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/richelieu/sd/SD_richelieu/SD_richelieu.skel",
+        "name": "richelieu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ryuho/sd/SD_ryuho/SD_ryuho.skel",
+        "name": "ryuho.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/scorpio/sd/SD_scorpio/SD_scorpio.skel",
+        "name": "scorpio.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/seehund/sd/SD_seehund/SD_seehund.skel",
+        "name": "seehund.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/shimotsuki/sd/SD_shimotsuki/SD_shimotsuki.skel",
+        "name": "shimotsuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/shiratsuyu/sd/SD_shiratsuyu/SD_shiratsuyu.skel",
+        "name": "shiratsuyu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/souryuu/sd/SD_souryuu/SD_souryuu.skel",
+        "name": "souryuu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/sylph/sd/SD_sylph/SD_sylph.skel",
+        "name": "sylph.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/temeraire/sd/SD_temeraire/SD_temeraire.skel",
+        "name": "temeraire.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/tirpitz/sd/SD_tirpitz/SD_tirpitz.skel",
+        "name": "tirpitz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/undine/sd/SD_undine/SD_undine.skel",
+        "name": "undine.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/ural/sd/SD_ural/SD_ural.skel",
+        "name": "ural.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/veneto/sd/SD_veneto/SD_veneto.skel",
+        "name": "veneto.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/victory/sd/SD_victory/SD_victory.skel",
+        "name": "victory.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/warrior/sd/SD_warrior/SD_warrior.skel",
+        "name": "warrior.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/warspite/sd/SD_warspite/SD_warspite.skel",
+        "name": "warspite.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/washington/sd/SD_washington/SD_washington.skel",
+        "name": "washington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/whisky/sd/SD_whisky/SD_whisky.skel",
+        "name": "whisky.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/wichita/sd/SD_wichita/SD_wichita.skel",
+        "name": "wichita.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/yamato/sd/SD_yamato/SD_yamato.skel",
+        "name": "yamato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/yubari/sd/SD_yubari/SD_yubari.skel",
+        "name": "yuubari.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/yukikaze/sd/SD_yukikaze/SD_yukikaze.skel",
+        "name": "yukikaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/z-39/sd/SD_z-39/SD_z-39.skel",
+        "name": "z-39.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Battleship Bishoujo Puzzle/server/zara/sd/SD_zara/SD_zara.skel",
+        "name": "zara.png"
+    }
+]

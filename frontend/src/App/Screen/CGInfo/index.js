@@ -1,6 +1,6 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { FaCopy, FaSearch, FaSpinner } from "react-icons/fa"
+import { FaCopy, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
 import { SiteFooter, SiteHeader } from "../../Component"
 import { debounce } from "lodash"
@@ -8,11 +8,21 @@ import { GET_cgById, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
 import { Live2DModel } from 'pixi-live2d-display/cubism4';
 import * as PIXI from 'pixi.js';
+import {Spine} from 'pixi-spine';
 
 function useQuery() {
     const { search } = useLocation();
   
     return useMemo(() => new URLSearchParams(search), [search]);
+}
+
+const SoundCard = (props) => {
+    // make a card component for playing the sound effect with a play button and the sound filename
+    return (
+        <Box width={'30%'} style={{ margin: '12px' }}>
+            <Button onClick={() => props.onClick(props.filename)} isLoading={props.isLoading} leftIcon={<Icon as={FaPlay} />} width={'100%'} colorScheme='blue' variant='outline' size='lg' mr='2'>{props.filename.slice(props.filename.lastIndexOf('/'))}</Button>
+        </Box>
+    )
 }
 
 export const CGInfo = (props) => {
@@ -92,45 +102,129 @@ export const CGInfo = (props) => {
             setIsLoading(false)
         })
 
-        // load live2d model
-        // expose PIXI to window so that this plugin is able to
-        // reference window.PIXI.Ticker to automatically update Live2D models
+        if (data.spine) {
+            const spine_app = new PIXI.Application({
+                view: document.getElementById('spine-canvas-full'),
+            });
 
-        if (!data.l2d) return
+            spine_app.loader
+                .add('spineCharacter', data.spine.dir)
+                .load(function (loader, resources) {
+                    const animation = new Spine(resources.spineCharacter.spineData);
+                    const orig_size = [animation.width, animation.height]
 
-        window.PIXI = PIXI;
-        // init PIXI
-        const app = new PIXI.Application({
-            view: document.getElementById('l2d-canvas'),
-        });
+                    //scale to 500
+                    if (orig_size[0] > 500 || orig_size[1] > 500) {
+                        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
+                        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+                        
+                        animation.height = target_height;
+                        animation.width = target_width;
+                    }
 
-        const model = await Live2DModel.from(data.l2d.dir, { autoInteract: false });
-        
-    
-        app.stage.addChild(model);
+                    animation.x = (spine_app.screen.width) /2;
+                    animation.y = (spine_app.screen.height) /2;
 
-        const orig_size = [model.width, model.height]
+                    // add the animation to the scene and render...
+                    spine_app.stage.addChild(animation);
 
-        //scale to 500
-        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
-        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+                    // full_normal_loop for normal spine
+                    if (animation.state.hasAnimation("fullBg_normal_loop")) {
+                        animation.state.setAnimation(0, "fullBg_normal_loop", true);
+                    }
+                    else if (animation.state.hasAnimation("full_normal_loop")) {
+                        animation.state.setAnimation(0, "full_normal_loop", true);
+                    }
+                    else {
+                        const anim_names = animation.spineData.animations.map((anim) => anim.name)
+                        const random_anim = anim_names[Math.floor(Math.random() * anim_names.length)]
+                        animation.state.setAnimation(0, random_anim, true);
+                    }
+                    // dont run too fast
+                    animation.state.timeScale = 1;
+                    
+                    spine_app.start();
+                });
+        }
 
-        // transforms
-        model.rotation = Math.PI;
-        model.skew.x = Math.PI;
-        model.scale.set(target_width / model.width * 1.5, target_height / model.height * 1.5);
-        model.anchor.set(0.5, 0.5);
-        model.x = (app.screen.width) / 2;
-        model.y = (app.screen.height) / 2 ;
+        if (data.chibi) {
+            const chibi_spine_app = new PIXI.Application({
+                view: document.getElementById('spine-canvas'),
+            });
 
-        model.internalModel.motionManager.startRandomMotion('');
+            chibi_spine_app.loader
+                .add('chibiSpineCharacter', data.chibi.dir)
+                .load(function (loader, resources) {
+                    const animation = new Spine(resources.chibiSpineCharacter.spineData);
 
-        setInterval(() => {
-            if (!model.internalModel.motionManager.playing) {
-                model.internalModel.motionManager.startRandomMotion('');
-            }
+                    const orig_size = [animation.width, animation.height]
+
+                    //scale to 500
+                    if (orig_size[0] > 500 || orig_size[1] > 500) {
+                        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
+                        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+                        
+                        animation.height = target_height;
+                        animation.width = target_width;
+                    }
+
+                    animation.x = (chibi_spine_app.screen.width) /2;
+                    animation.y = (chibi_spine_app.screen.height + animation.height) /2;
+
+                    // add the animation to the scene and render...
+                    chibi_spine_app.stage.addChild(animation);
+
+                    // full_normal_loop for normal spine
+                    if (animation.state.hasAnimation("idle")) {
+                        animation.state.setAnimation(0, "idle", true);
+                    }
+                    else {
+                        const anim_names = animation.spineData.animations.map((anim) => anim.name)
+                        const random_anim = anim_names[Math.floor(Math.random() * anim_names.length)]
+                        animation.state.setAnimation(0, random_anim, true);
+                    }
+                    // dont run too fast
+                    animation.state.timeScale = 1;
+                    
+                    chibi_spine_app.start();
+                });
+        }
+
+        if (data.l2d) {
+            window.PIXI = PIXI;
+            // init PIXI
+            const app = new PIXI.Application({
+                view: document.getElementById('l2d-canvas'),
+            });
+
+            const model = await Live2DModel.from(data.l2d.dir, { autoInteract: false });
             
-        }, 500)
+        
+            app.stage.addChild(model);
+
+            const orig_size = [model.width, model.height]
+
+            //scale to 500
+            const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
+            const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+
+            // transforms
+            model.rotation = Math.PI;
+            model.skew.x = Math.PI;
+            const scale_mul = (data.folder == "Azur Lane") ? 1.4 : 1
+            model.scale.set(target_width / model.width * scale_mul, target_height / model.height * scale_mul);
+            model.anchor.set(0.5, 0.5);
+            model.x = (app.screen.width) / 2;
+            model.y = (app.screen.height) / 2 ;
+
+            model.internalModel.motionManager.startRandomMotion('');
+
+            setInterval(() => {
+                if (!model.internalModel.motionManager.playing) {
+                    model.internalModel.motionManager.startRandomMotion('');
+                }
+            }, 66)
+        }
         
     }, [data])   
 
@@ -161,6 +255,17 @@ export const CGInfo = (props) => {
         showSuccessToast('Link copied to clipboard')
     }
 
+    const onSoundPlay = (sound) => {
+        const audio = new Audio(sound)
+        audio.play()
+    }
+
+    const soundCardList = (data.voice?.files || []).map((sound, index) => {
+        return (
+            <SoundCard key={index} onClick={onSoundPlay} isLoading={false} filename={sound} />
+        )
+    })
+
     return (
         <Flex direction={'column'}>
             <SiteHeader />
@@ -170,21 +275,51 @@ export const CGInfo = (props) => {
                         <Tabs>
                             <TabList>
                                 <Tab>Image</Tab>
-                                { data.l2d &&
-                                    <Tab>Live2D <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>
-                                }
+                                {data.l2d && <Tab>Live2D <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
+                                {data.chibi && <Tab>Spine (Chibi)<Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
+                                {data.spine && <Tab>Spine <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
+                                {data.m3d && <Tab>3D <Tag ml={3} size={'md'} bg={'red.200'}>Soon</Tag></Tab>}
+                                {data.voice && <Tab>Sound <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
                             </TabList>
                             <TabPanels>
                                 <TabPanel>
                                     <Center >
+                                        {/* Image */}
                                         <img style={{height: 500, margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
                                     </Center>
                                 </TabPanel>
-                                <TabPanel>
+                                {data.l2d && <TabPanel>
                                     <Center>
+                                        {/* Live2D */}
                                         <canvas id="l2d-canvas" height={500}></canvas>
                                     </Center>
-                                </TabPanel>
+                                </TabPanel>}
+                                {data.chibi && <TabPanel>
+                                    <Center>
+                                        {/* Spine (Chibi) */}
+                                        <canvas id="spine-canvas" height={500}></canvas>
+                                    </Center>
+                                </TabPanel>}
+                                {data.spine && <TabPanel>
+                                    <Center>
+                                        {/* Spine */}
+                                        <canvas id="spine-canvas-full" height={500}></canvas>
+                                    </Center>
+                                </TabPanel>}
+                                {data.m3d && <TabPanel>
+                                    <Center>
+                                        {/* 3D */}
+                                        <div></div>
+                                    </Center>
+                                </TabPanel>}
+                                {data.voice && <TabPanel>
+                                    <Center>
+                                        {/* Sound */}
+                                        <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
+                                            {soundCardList}
+                                        </Flex>
+                                    </Center>
+                                </TabPanel>}
                             </TabPanels>
                         </Tabs>
                         

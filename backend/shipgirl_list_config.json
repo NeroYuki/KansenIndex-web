@@ -109,6 +109,20 @@
         ]
     },
     {
+        "name": "Battleship Bishoujo Puzzle",
+        "optionName": "bbp",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "",
+        "retrofitArtSuffix": "retrofit",
+        "alias": [
+
+        ],
+        "chibispinemapping": "./data/bbp_heroSD.json",
+        "fullspinemapping": "./data/bbp_heroFigureAni.json",
+        "voicemapping": "./data/bbp_heroVoice.json"
+    },
+    {
         "name": "Counter Arms",
         "optionName": "ca",
         "allowAlt": true,

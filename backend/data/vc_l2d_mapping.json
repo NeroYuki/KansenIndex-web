@@ -144,6 +144,10 @@
         "name": "Richelieu_retrofit.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1025-sandiego_l2d/1025-sandiego_l2d.model3.json",
+        "name": "San Diego.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11011-saratoga_r_l2d/11011-saratoga_r_l2d.model3.json",
         "name": "Saratoga_retrofit.png"
     },
