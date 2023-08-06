@@ -67,7 +67,7 @@ function main_shipgirl_db() {
 
     let list = []
 
-    let whitelist_dir = ["Blue Oath"]
+    let whitelist_dir = []
 
     let global_config = config.find(val => val.name === "*") || {}
 

@@ -39,7 +39,7 @@ router.get('/query', async (req, res) => {
     let skip = 0
     const ENTRY_PER_PAGE = Math.min(query.limit ? parseInt(query.limit) : 20, 20)
 
-    //console.log(query)
+    // console.log(query)
 
     if (query.keyword) {
         db_query.$or = [
@@ -59,8 +59,8 @@ router.get('/query', async (req, res) => {
         if ((val >> 0) & 1) {   //char name only
             delete db_query.$or
             db_query.$or = [
-                {char: {$regex: escapeRegExp(query.keyword), $options: 'i'}},
-                {alias: {$regex: escapeRegExp(query.keyword), $options: 'i'}}
+                {char: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.keyword) + (query.strict ? "$" : ""), $options: 'i'}},
+                {alias: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.keyword) + (query.strict ? "$" : ""), $options: 'i'}}
             ]
         }
         if ((val >> 1) & 1) {   //modifier name only
@@ -90,7 +90,7 @@ router.get('/query', async (req, res) => {
         }
     }
 
-    //console.log(db_query, skip)
+    // console.dir(db_query, {depth: null})
 
     let query_res = await db.queryRecordLimit('shipgirl', db_query, ENTRY_PER_PAGE, {}, {}, skip)
         .catch(e => {

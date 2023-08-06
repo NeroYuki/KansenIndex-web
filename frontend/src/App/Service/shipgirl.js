@@ -13,6 +13,7 @@ export function GET_query(query) {
         if (query.altOutfitMod) url += `alt_outfit_mod=${query.altOutfitMod}&`
         if (query.selectedFranchise) url += `folder=${query.selectedFranchise}&`
         if (query.limit) url += `limit=${query.limit}&`
+        if (query.strict) url += `strict=${query.strict}&`
 
         let res = await fetch(url, option).catch(e => reject("error when fetch"))
 

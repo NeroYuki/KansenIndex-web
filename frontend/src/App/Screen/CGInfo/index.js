@@ -47,11 +47,11 @@ function loadLegacyThreeJSLibrary() {
 
     head.appendChild(script[0])
     script[0].addEventListener('load', () => {
-        console.log('legacy threejs loaded')
+        // console.log('legacy threejs loaded')
         head.appendChild(script[1])
         script[1].addEventListener('load', () => {
             // zlib loaded
-            console.log('zlib loaded')
+            // console.log('zlib loaded')
             head.appendChild(script[2])
             head.appendChild(script[3])
         })
@@ -68,6 +68,16 @@ export const CGInfo = (props) => {
             title: 'Success',
             description: msg,
             status: 'success',
+            duration: 5000,
+            isClosable: true,
+        })
+    }
+
+    function showErrorToast(e) {
+        toast({
+            title: 'Error',
+            description: e,
+            status: 'error',
             duration: 5000,
             isClosable: true,
         })
@@ -132,7 +142,6 @@ export const CGInfo = (props) => {
     }, [navigate, data.folder])
 
     const navigateToCG = useCallback((val) => {
-        console.log(val)
         navigate('/cg_info', {state: {
             data: val
         }})
@@ -142,11 +151,15 @@ export const CGInfo = (props) => {
         if (data.char === 'Placeholder Character' || data.folder === 'Placeholder Folder') return
         let query = {
             keyword: data.char,
+            keywordMod: 1,
             page: 1,
-            selectedFranchise: data.folder
+            selectedFranchise: data.folder,
+            strict: true,
         }
 
-        let res = await GET_query(query).catch(e => console.log(e))
+        let res = await GET_query(query).catch(e => {
+            showErrorToast(e)
+        })
         if (!res) return
         // remove the current cg from the list
         res = res.filter((val) => val._id !== data._id)
@@ -210,7 +223,7 @@ export const CGInfo = (props) => {
 
                         const animation = new Spine(resources.spineCharacter.spineData);
                         const orig_size = [animation.width, animation.height]
-                        console.log(animation)
+                        // console.log(animation)
 
                         //calculate the scale so that animation fit a 500x500 canvas
                         scale = Math.min(500 / orig_size[0], 500 / orig_size[1])
@@ -308,13 +321,13 @@ export const CGInfo = (props) => {
                     },
                     error: function (err) {
                         console.log(err)
+                        showErrorToast("Fail to load chibi spine animation")
                     }
                 });
             }
             else {
                 const chibi_spine_app = new PIXI.Application({
                     view: document.getElementById('spine-canvas'),
-                    backgroundColor: 0xffffffff
                 });
     
                 chibi_spine_app.loader
@@ -410,6 +423,7 @@ export const CGInfo = (props) => {
 
                     if (waiting_time > 5000) {
                         console.log("Failed to load THREE.js")
+                        showErrorToast("Failed to load 3D model")
                         return;
                     }
                 }
@@ -421,6 +435,7 @@ export const CGInfo = (props) => {
 
                     if (waiting_time > 10000) {
                         console.log("Failed to load auxiliary lib")
+                        showErrorToast("Failed to load 3D model")
                         return;
                     }
                 }
@@ -478,6 +493,7 @@ export const CGInfo = (props) => {
                     },
                     (error) => {
                         console.log(error)
+                        showErrorToast("Failed to load 3D model")
                     }
                 )
             }
