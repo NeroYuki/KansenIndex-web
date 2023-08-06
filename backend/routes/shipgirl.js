@@ -226,7 +226,7 @@ router.get('/bote_fav_lb', async (req, res) => {
             }
         },
         { $sort: { fav: -1 } },
-        { $limit: 20 }
+        { $limit: 40 }
     ]).catch(e => {
         res.status(500).send("Internal server error")
     })
@@ -237,6 +237,7 @@ router.get('/bote_fav_lb', async (req, res) => {
 
     // get base cg of each bote
     for (let e of db_res) {
+        if (db_res_final.length >= 20) break
         const base_cg = await db.queryRecord('shipgirl', {char: e.char, folder: e.folder, is_base: true}).catch(err => {})
         if (base_cg && base_cg.length) {
             // mutate db_res entry to include base cg

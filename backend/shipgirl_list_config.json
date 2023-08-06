@@ -17,7 +17,9 @@
         "retrofitArtSuffix": "kai",
         "alias": [
 
-        ]
+        ],
+        "voicemapping": "./data/ah_voiceMapping.json",
+        "m3dmapping": "./data/ah_m3dMapping.json"
     },
     {
         "name": "Azur Lane",
@@ -42,7 +44,9 @@
             {"originalName": "Taihou μ", "value": ["Taihou muse"]},
             {"originalName": "Tashkent μ", "value": ["Tashkent muse"]}
         ],
-        "live2dmapping": "./data/l2d_dir_mapping.json"
+        "live2dmapping": "./data/l2d_dir_mapping.json",
+        "chibispinemapping": "./data/al_spineChibi.json",
+        "fullspinemapping": "./data/al_spineFull.json"
     },
     {
         "name": "Artist Original Content",
@@ -62,7 +66,9 @@
         "baseArtSuffix": "1",
         "alias": [
 
-        ]
+        ],
+        "chibispinemapping": "./data/as_chibiMapping.json",
+        "voicemapping": "./data/as_soundMapping.json"
     },
     {
         "name": "Arpeggio of Blue Steel",
@@ -94,7 +100,10 @@
         "baseArtSuffix": "normal",
         "alias": [
 
-        ]
+        ],
+        "chibispinemapping": "./data/bsn_spineChibi.json",
+        "fullspinemapping": "./data/bsn_spineFull.json",
+        "voicemapping": "./data/bsn_voiceMapping.json"
     },
     {
         "name": "Blue Oath",
@@ -106,7 +115,8 @@
         "damageArtSuffix": "damage",
         "alias": [
 
-        ]
+        ],
+        "voicemapping": "./data/bo_voiceMapping.json"
     },
     {
         "name": "Battleship Bishoujo Puzzle",
@@ -143,6 +153,19 @@
         "alias": [
 
         ]
+    },
+    {
+        "name": "Lane Girls",
+        "optionName": "lg",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "baseArtSuffix": "",
+        "alias": [
+
+        ],
+        "fullspinemapping": "./data/lg_spineMapping.json",
+        "voicemapping": "./data/lg_voiceMapping.json",
+        "m3dmapping": "./data/lg_m3dMapping.json"
     },
     {
         "name": "Mirage of Steelblue",

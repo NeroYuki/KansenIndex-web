@@ -67,7 +67,7 @@ function main_shipgirl_db() {
 
     let list = []
 
-    let whitelist_dir = []
+    let whitelist_dir = ["Blue Oath"]
 
     let global_config = config.find(val => val.name === "*") || {}
 
@@ -81,6 +81,7 @@ function main_shipgirl_db() {
         let chibi_config = []
         let spine_config = []
         let voice_config = []
+        let m3d_config = []
         if (entry_config.alias) alias_config = [...alias_config, ...entry_config.alias]
         if (entry_config.live2dmapping) {
             l2d_config = JSON.parse(fs.readFileSync(entry_config.live2dmapping, {encoding: 'utf-8'}) || "[]")
@@ -94,11 +95,14 @@ function main_shipgirl_db() {
         if (entry_config.voicemapping) {
             voice_config = JSON.parse(fs.readFileSync(entry_config.voicemapping, {encoding: 'utf-8'}) || "[]")
         }
+        if (entry_config.m3dmapping) {
+            m3d_config = JSON.parse(fs.readFileSync(entry_config.m3dmapping, {encoding: 'utf-8'}) || "[]")
+        }
 
         let base_count = 0
         let count = 0
 
-        console.log(chibi_config)
+        //console.log(chibi_config)
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)
         files.forEach((file, index) => {
@@ -124,9 +128,43 @@ function main_shipgirl_db() {
 
             const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).flatMap(f => f.value)
             const l2d = l2d_config.find(val => file.toLowerCase().includes(val.name.toLowerCase())) || null
-            const chibi = chibi_config.find(val => file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase())) || null
-            const spine = spine_config.find(val => file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase())) || null
-            const voice = voice_config.find(val => file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase())) || null
+            const chibi_candidate = chibi_config.filter(val => 
+                dir === "Battleship Bishoujo Puzzle" ?
+                    file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
+                    file.toLowerCase().includes(val.name.toLowerCase())
+            ) || []
+            // pick the one with the longest name
+            const chibi = chibi_candidate.reduce((prev, curr) => {
+                if ((prev?.name.length || 0) > curr.name.length) return prev
+                return curr
+            }, null)
+            const spine_candidate = spine_config.filter(val =>
+                dir === "Battleship Bishoujo Puzzle" ?
+                    file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
+                    file.toLowerCase().includes(val.name.toLowerCase())
+            ) || []
+            // pick the one with the longest name
+            const spine = spine_candidate.reduce((prev, curr) => {
+                if ((prev?.name.length || 0) > curr.name.length) return prev
+                return curr
+            }, null)
+            const voice_candidate = voice_config.filter(val =>
+                dir === "Battleship Bishoujo Puzzle" || dir === "Blue Oath" ?
+                    file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
+                    file.toLowerCase().includes(val.name.toLowerCase())
+            ) || null
+            const voice = voice_candidate.reduce((prev, curr) => {
+                if ((prev?.name.length || 0) > curr.name.length) return prev
+                return curr
+            }, null)
+            const m3d_candidate = m3d_config.filter(val =>
+                file.toLowerCase().includes(val.name.toLowerCase())
+            ) || null
+            const m3d = m3d_candidate.reduce((prev, curr) => {
+                if ((prev?.name.length || 0) > curr.name.length) return prev
+                return curr
+            }, null)
+
             const folded_name = asciiFolder.foldMaintaining(char_name)
             if (folded_name !== char_name) alias.push(folded_name)
 
@@ -151,7 +189,8 @@ function main_shipgirl_db() {
                 l2d: l2d,
                 chibi: chibi,
                 spine: spine,
-                voice: voice
+                voice: voice,
+                m3d: m3d
             })
         })
 
@@ -160,28 +199,35 @@ function main_shipgirl_db() {
             if (l2d_config.length > 0) {
                 l2d_config.forEach((val) => {
                     if (list.findIndex(v => v.l2d && v.l2d.name === val.name) === -1) {
-                        console.log(`Orphaned live2d config found: ${val.name}`)
+                        console.log(`Orphaned live2d config found: |${val.name}|`)
                     }
                 })
             }
             if (chibi_config.length > 0) {
                 chibi_config.forEach((val) => {
                     if (list.findIndex(v => v.chibi && v.chibi.name === val.name) === -1) {
-                        console.log(`Orphaned chibi config found: ${val.name}`)
+                        console.log(`Orphaned chibi config found: |${val.name}|`)
                     }
                 })
             }
             if (spine_config.length > 0) {
                 spine_config.forEach((val) => {
                     if (list.findIndex(v => v.spine && v.spine.name === val.name) === -1) {
-                        console.log(`Orphaned spine config found: ${val.name}`)
+                        console.log(`Orphaned spine config found: |${val.name}|`)
                     }
                 })
             }
             if (voice_config.length > 0) {
                 voice_config.forEach((val) => {
                     if (list.findIndex(v => v.voice && v.voice.name === val.name) === -1) {
-                        console.log(`Orphaned voice config found: ${val.name}`)
+                        console.log(`Orphaned voice config found: |${val.name}|`)
+                    }
+                })
+            }
+            if (m3d_config.length > 0) {
+                m3d_config.forEach((val) => {
+                    if (list.findIndex(v => v.m3d && v.m3d.name === val.name) === -1) {
+                        console.log(`Orphaned m3d config found: |${val.name}|`)
                     }
                 })
             }

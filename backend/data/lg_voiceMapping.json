@@ -1,0 +1,846 @@
+[
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/101_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/101_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/101_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/101_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/101_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/101_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/101_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/101_ss.wav"
+        ],
+        "name": "101"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/102_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/102_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/102_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/102_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/102_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/102_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/102_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/102_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/102_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/102_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/102_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/102_sr.wav"
+        ],
+        "name": "Enterprise"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/103_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/103_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/103_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/103_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/103_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/103_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/103_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/103_ss.wav"
+        ],
+        "name": "U-995"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/104_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/104_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/104_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/104_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/104_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/104_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/104_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/104_ss.wav"
+        ],
+        "name": "I-401"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/105_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/105_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/105_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/105_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/105_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/105_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/105_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/105_ss.wav"
+        ],
+        "name": "Ajax"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/106_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/106_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/106_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/106_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/106_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/106_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/106_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/106_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/106_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/106_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/106_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/106_sr.wav"
+        ],
+        "name": "Missouri"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/107_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/107_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/107_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/107_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/107_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/107_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/107_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/107_ss.wav"
+        ],
+        "name": "Fletcher"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/108_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/108_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/108_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/108_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/108_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/108_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/108_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/108_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/108_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/108_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/108_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/108_sr.wav"
+        ],
+        "name": "Yamato"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/109_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/109_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/109_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/109_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/109_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/109_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/109_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/109_ss.wav"
+        ],
+        "name": "Vittorio Veneto"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/110_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/110_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/110_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/110_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/110_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/110_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/110_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/110_ss.wav"
+        ],
+        "name": "Nagato"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/111_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/111_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/111_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/111_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/111_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/111_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/111_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/111_ss.wav"
+        ],
+        "name": "Akagi"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/112_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/112_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/112_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/112_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/112_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/112_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/112_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/112_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/112_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/112_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/112_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/112_sr.wav"
+        ],
+        "name": "Ark Royal"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/113_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/113_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/113_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/113_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/113_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/113_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/113_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/113_ss.wav"
+        ],
+        "name": "Zuikaku"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/114_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/114_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/114_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/114_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/114_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/114_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/114_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/114_ss.wav"
+        ],
+        "name": "Tribal"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/115_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/115_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/115_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/115_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/115_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/115_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/115_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/115_ss.wav"
+        ],
+        "name": "Le Fantastique"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/116_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/116_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/116_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/116_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/116_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/116_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/116_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/116_ss.wav"
+        ],
+        "name": "Yukikaze"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/117_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/117_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/117_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/117_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/117_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/117_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/117_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/117_ss.wav"
+        ],
+        "name": "Z1"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/118_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/118_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/118_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/118_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/118_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/118_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/118_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/118_ss.wav"
+        ],
+        "name": "Silversides"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/119_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/119_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/119_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/119_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/119_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/119_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/119_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/119_ss.wav"
+        ],
+        "name": "Jeanne d'Arc"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/120_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/120_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/120_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/120_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/120_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/120_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/120_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/120_ss.wav"
+        ],
+        "name": "120"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/121_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/121_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/121_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/121_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/121_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/121_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/121_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/121_ss.wav"
+        ],
+        "name": "Sheffield"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/122_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/122_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/122_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/122_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/122_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/122_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/122_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/122_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/122_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/122_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/122_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/122_sr.wav"
+        ],
+        "name": "Bismarck"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/123_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/123_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/123_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/123_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/123_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/123_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/123_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/123_ss.wav"
+        ],
+        "name": "Köln"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/124_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/124_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/124_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/124_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/124_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/124_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/124_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/124_ss.wav"
+        ],
+        "name": "Hood"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/125_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/125_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/125_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/125_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/125_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/125_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/125_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/125_ss.wav"
+        ],
+        "name": "C-13"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/126_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/126_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/126_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/126_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/126_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/126_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/126_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/126_ss.wav"
+        ],
+        "name": "Krasny Kavkaz"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/127_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/127_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/127_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/127_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/127_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/127_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/127_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/127_ss.wav"
+        ],
+        "name": "U-552"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/128_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/128_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/128_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/128_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/128_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/128_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/128_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/128_ss.wav"
+        ],
+        "name": "Farragut"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/129_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/129_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/129_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/129_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/129_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/129_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/129_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/129_ss.wav"
+        ],
+        "name": "Washington"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/130_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/130_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/130_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/130_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/130_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/130_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/130_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/130_ss.wav"
+        ],
+        "name": "Lexington"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/131_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/131_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/131_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/131_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/131_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/131_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/131_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/131_ss.wav"
+        ],
+        "name": "King George V"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/132_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/132_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/132_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/132_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/132_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/132_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/132_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/132_ss.wav"
+        ],
+        "name": "Graf Zeppelin"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/133_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/133_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/133_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/133_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/133_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/133_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/133_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/133_ss.wav"
+        ],
+        "name": "Dunkerque"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/134_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/134_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/134_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/134_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/134_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/134_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/134_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/134_ss.wav"
+        ],
+        "name": "Augusta"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/135_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/135_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/135_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/135_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/135_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/135_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/135_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/135_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/135_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/135_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/135_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/135_sr.wav"
+        ],
+        "name": "Fubuki"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/136_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/136_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/136_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/136_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/136_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/136_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/136_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/136_ss.wav"
+        ],
+        "name": "U-511"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/137_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/137_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/137_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/137_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/137_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/137_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/137_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/137_ss.wav"
+        ],
+        "name": "Yuudachi"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/138_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/138_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/138_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/138_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/138_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/138_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/138_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/138_ss.wav"
+        ],
+        "name": "Lance"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/139_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/139_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/139_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/139_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/139_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/139_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/139_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/139_ss.wav"
+        ],
+        "name": "Aquilla"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/140_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/140_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/140_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/140_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/140_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/140_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/140_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/140_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/140_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/140_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/140_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/140_sr.wav"
+        ],
+        "name": "Prinz Eugen"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/141_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/141_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/141_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/141_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/141_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/141_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/141_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/141_ss.wav"
+        ],
+        "name": "Helena"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/142_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/142_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/142_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/142_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/142_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/142_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/142_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/142_ss.wav"
+        ],
+        "name": "Shakespeare"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/143_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/143_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/143_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/143_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/143_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/143_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/143_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/143_ss.wav"
+        ],
+        "name": "Albacore"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/144_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/144_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/144_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/144_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/144_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/144_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/144_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/144_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/144_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/144_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/144_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/144_sr.wav"
+        ],
+        "name": "Archerfish"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/145_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/145_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/145_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/145_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/145_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/145_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/145_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/145_ss.wav"
+        ],
+        "name": "Illustrious"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/146_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/146_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/146_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/146_ss.wav"
+        ],
+        "name": "London"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/147_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/147_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/147_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/147_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/147_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/147_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/147_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/147_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/147_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/147_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/147_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/147_sr.wav"
+        ],
+        "name": "U-81"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/148_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/148_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/148_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/148_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/148_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/148_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/148_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/148_ss.wav"
+        ],
+        "name": "Z43"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/150_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/150_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/150_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/150_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/150_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/150_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/150_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/150_ss.wav"
+        ],
+        "name": "Zara"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/151_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/151_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/151_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/151_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/151_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/151_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/151_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/151_ss.wav"
+        ],
+        "name": "Loud"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/153_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/153_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/153_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/153_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/153_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/153_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/153_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/153_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/153_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/153_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/153_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/153_sr.wav"
+        ],
+        "name": "William D. Porter"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/154_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/154_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/154_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/154_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/154_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/154_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/154_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/154_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/154_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/154_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/154_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/154_sr.wav"
+        ],
+        "name": "Surcouf"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/155_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/155_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/155_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/155_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/155_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/155_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/155_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/155_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/155_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/155_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/155_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/155_sr.wav"
+        ],
+        "name": "Essex"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/157_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/157_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/157_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/157_ss.wav"
+        ],
+        "name": "Tirpitz"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/158_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/158_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/158_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/158_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/158_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/158_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/158_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/158_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/158_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/158_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/158_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/158_sr.wav"
+        ],
+        "name": "Richelieu"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/159_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/159_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/159_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/159_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/159_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/159_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/159_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/159_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/159_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/159_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/159_sr.wav"
+        ],
+        "name": "Gremyashchiy"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/160_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/160_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/160_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/160_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/160_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/160_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/160_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/160_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/160_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/160_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/160_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/160_sr.wav"
+        ],
+        "name": "Shandong"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/170_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/170_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/170_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/170_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/170_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/170_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/170_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/170_ss.wav"
+        ],
+        "name": "Anna"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_death/171_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_go/171_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_hi/171_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_cnvoice/talk_skill/171_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/171_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/171_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/171_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/171_ss.wav"
+        ],
+        "name": "Haruka"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/163_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/163_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/163_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/163_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/163_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/163_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/163_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/163_sr.wav"
+        ],
+        "name": "Luoyang"
+    },
+    {
+        "files": [
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_death/167_sb.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_go/167_sg.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/167_sh.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/167_sh1.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/167_sh2.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_hi/167_sh3.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_skill/167_ss.wav",
+            "./data/assets/shipgirls/Lane Girls/sound/cn_jpvoice/talk_sr/167_sr.wav"
+        ],
+        "name": "Taihou"
+    }
+]

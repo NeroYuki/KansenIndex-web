@@ -1,0 +1,446 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/101/101.fbx",
+        "name": "101_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/102/102.fbx",
+        "name": "Enterprise_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/103/103.fbx",
+        "name": "U-995_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/104/104.fbx",
+        "name": "I-401_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/105/105.fbx",
+        "name": "Ajax_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/106/106.fbx",
+        "name": "Missouri_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/107/107.fbx",
+        "name": "Fletcher_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/108/108.fbx",
+        "name": "Yamato_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/112/112.fbx",
+        "name": "Ark Royal_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/113/113.fbx",
+        "name": "Zuikaku_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/114/114.fbx",
+        "name": "Tribal_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/115/115.fbx",
+        "name": "Le Fantastique_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/116/116.fbx",
+        "name": "Yukikaze_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/117/117.fbx",
+        "name": "Z1_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/118/118.fbx",
+        "name": "Silversides_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/119/119.fbx",
+        "name": "Jeanne d'Arc_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/120/120.fbx",
+        "name": "120_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/121/121.fbx",
+        "name": "Sheffield_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/122/122.fbx",
+        "name": "Bismarck_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/123/123.fbx",
+        "name": "Köln_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/124/124.fbx",
+        "name": "Hood_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/125/125.fbx",
+        "name": "C-13_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/126/126.fbx",
+        "name": "Krasny Kavkaz_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/127/127.fbx",
+        "name": "U-552_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/128/128.fbx",
+        "name": "Farragut_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/129/129.fbx",
+        "name": "Washington_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/130/130.fbx",
+        "name": "Lexington_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/131/131.fbx",
+        "name": "King George V_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/132/132.fbx",
+        "name": "Graf Zeppelin_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/133/133.fbx",
+        "name": "Dunkerque_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/134/134.fbx",
+        "name": "Augusta_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/135/135.fbx",
+        "name": "Fubuki_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/136/136.fbx",
+        "name": "U-511_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/137/137.fbx",
+        "name": "Yuudachi_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/138/138.fbx",
+        "name": "Lance_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/139/139.fbx",
+        "name": "Aquilla_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/140/140.fbx",
+        "name": "Prinz Eugen_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/141/141.fbx",
+        "name": "Helena_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/142/142.fbx",
+        "name": "Shakespeare_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/143/143.fbx",
+        "name": "Albacore_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/144/144.fbx",
+        "name": "Archerfish_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/145/145.fbx",
+        "name": "Illustrious_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/146/146.fbx",
+        "name": "London_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/147/147.fbx",
+        "name": "U-81_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/148/148.fbx",
+        "name": "Z43_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/150/150.fbx",
+        "name": "Zara_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/151/151.fbx",
+        "name": "Loud_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/153/153.fbx",
+        "name": "William D. Porter_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/154/154.fbx",
+        "name": "Surcouf_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/155/155.fbx",
+        "name": "Essex_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/157/157.fbx",
+        "name": "Tirpitz_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/158/158.fbx",
+        "name": "Richelieu_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/159/159.fbx",
+        "name": "Gremyashchiy_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/160/160.fbx",
+        "name": "Shandong_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/163/163.fbx",
+        "name": "Luoyang_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/167/167.fbx",
+        "name": "Taihou_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/168/168.fbx",
+        "name": "Mogami_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/170/170.fbx",
+        "name": "Anna_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/171/171.fbx",
+        "name": "Haruka_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_aisaikesi/M_hang_aisaikesi.fbx",
+        "name": "Essex.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_dafeng/M_hang_dafeng.fbx",
+        "name": "Taihou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_guanghui/M_hang_guanghui.fbx",
+        "name": "Illustrious.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_huangjiafangzhou/M_hang_huangjiafangzhou.fbx",
+        "name": "Ark Royal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_qibolin/M_hang_qibolin.fbx",
+        "name": "Graf Zeppelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_ruihe/M_hang_ruihe.fbx",
+        "name": "Zuikaku.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_shandong/M_hang_shandong.fbx",
+        "name": "Shandong.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_ying/M_hang_ying.fbx",
+        "name": "Aquilla.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_hang_yuekecheng/M_hang_yuekecheng.fbx",
+        "name": "Enterprise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_chengchunxiang/M_qian_chengchunxiang.fbx",
+        "name": "Haruka.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_daqinghuayu/M_qian_daqinghuayu.fbx",
+        "name": "Albacore.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_sheshuiyu/M_qian_sheshuiyu.fbx",
+        "name": "Archerfish.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_suergufu/M_qian_suergufu.fbx",
+        "name": "Surcouf.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_u511/M_qian_u511.fbx",
+        "name": "U-511.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_U81/M_qian_U81.fbx",
+        "name": "U-81.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_u99/M_qian_u99.fbx",
+        "name": "U-995.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_yi401/M_qian_yi401.fbx",
+        "name": "I-401.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qian_yinhanyu/M_qian_yinhanyu.fbx",
+        "name": "Silversides.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_chuixue/M_qu_chuixue.fbx",
+        "name": "Fubuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_fulaiqie/M_qu_fulaiqie.fbx",
+        "name": "Fletcher.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_hongming/M_qu_hongming.fbx",
+        "name": "Loud.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_kongxiang/M_qu_kongxiang.fbx",
+        "name": "Le Fantastique.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_luoyang/M_qu_luoyang.fbx",
+        "name": "Luoyang.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_qiangqibing/M_qu_qiangqibing.fbx",
+        "name": "Lance.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_shashibiya/M_qu_shashibiya.fbx",
+        "name": "Shakespeare.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_shizongdawang/M_qu_shizongdawang.fbx",
+        "name": "Anna.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_weilianbote/M_qu_weilianbote.fbx",
+        "name": "William D. Porter.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_xili/M_qu_xili.fbx",
+        "name": "Yuudachi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_xuefenghao/M_qu_xuefenghao.fbx",
+        "name": "Yukikaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_Z1/M_qu_Z1.fbx",
+        "name": "Z1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_qu_Z43/M_qu_Z43.fbx",
+        "name": "Z43.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_ajks/M_xun_ajks.fbx",
+        "name": "Ajax.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_aogusita/M_xun_aogusita.fbx",
+        "name": "Augusta.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_gaoxiong/M_xun_gaoxiong.fbx",
+        "name": "120.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_hailunna/M_xun_hailunna.fbx",
+        "name": "Helena.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_hongsegaojiasuohao/M_xun_hongsegaojiasuohao.fbx",
+        "name": "Krasny Kavkaz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_kelong/M_xun_kelong.fbx",
+        "name": "Köln.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_lundun/M_xun_lundun.fbx",
+        "name": "London.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_ougenqinwang/M_xun_ougenqinwang.fbx",
+        "name": "Prinz Eugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_shengnvzhende/M_xun_shengnvzhende.fbx",
+        "name": "Jeanne d'Arc.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_xiefeierde/M_xun_xiefeierde.fbx",
+        "name": "Sheffield.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_zhala/M_xun_zhala.fbx",
+        "name": "Zara.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_xun_zuishang/M_xun_zuishang.fbx",
+        "name": "Mogami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_bisimai/M_zhan_bisimai.fbx",
+        "name": "Bismarck.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_changmen/M_zhan_changmen.fbx",
+        "name": "Nagato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_dunkeerke/M_zhan_dunkeerke.fbx",
+        "name": "Dunkerque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_huashengdun/M_zhan_huashengdun.fbx",
+        "name": "Washington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_hudeji/M_zhan_hudeji.fbx",
+        "name": "Hood.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_lisailiu/M_zhan_lisailiu.fbx",
+        "name": "Richelieu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_misuli/M_zhan_misuli.fbx",
+        "name": "Missouri.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_qiaozhiwushi/M_zhan_qiaozhiwushi.fbx",
+        "name": "King George V.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/char3d/M_zhan_weituoliao/M_zhan_weituoliao.fbx",
+        "name": "Vittorio Veneto.png"
+    }
+]

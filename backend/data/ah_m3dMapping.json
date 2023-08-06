@@ -1,0 +1,1030 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100000/100000.fbx",
+        "name": "Slava.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10000002/10000002.fbx",
+        "name": "Slava_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100010/100010.fbx",
+        "name": "Forbin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100020/100020.fbx",
+        "name": "Vauquelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100030/100030.fbx",
+        "name": "Hibiki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10003002/10003002.fbx",
+        "name": "Hibiki_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10003004/10003004.fbx",
+        "name": "Hibiki_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100040/100040.fbx",
+        "name": "Akatsuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10004004/10004004.fbx",
+        "name": "Akatsuki_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100050/100050.fbx",
+        "name": "Ikazuchi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10005004/10005004.fbx",
+        "name": "Ikazuchi_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100060/100060.fbx",
+        "name": "Inazuma.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10006004/10006004.fbx",
+        "name": "Inazuma_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100070/100070.fbx",
+        "name": "Chafee.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100080/100080.fbx",
+        "name": "Mason.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100100/100100.fbx",
+        "name": "Brandenburg.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10010001/10010001.fbx",
+        "name": "Brandenburg_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100120/100120.fbx",
+        "name": "Diamond.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100130/100130.fbx",
+        "name": "Monsoor.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10013001/10013001.fbx",
+        "name": "Monsoor_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10013002/10013002.fbx",
+        "name": "Monsoor_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10013005/10013005.fbx",
+        "name": "Monsoor_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100140/100140.fbx",
+        "name": "Z1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100150/100150.fbx",
+        "name": "Mogador.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10015005/10015005.fbx",
+        "name": "Mogador_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100160/100160.fbx",
+        "name": "Amazon.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100170/100170.fbx",
+        "name": "Ambush.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100230/100230.fbx",
+        "name": "Le Fantasque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100240/100240.fbx",
+        "name": "Atago (DDG-177).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10024002/10024002.fbx",
+        "name": "Atago (DDG-177)_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10024005/10024005.fbx",
+        "name": "Atago (DDG-177)_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100250/100250.fbx",
+        "name": "Kagerou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100260/100260.fbx",
+        "name": "Shiranui.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100270/100270.fbx",
+        "name": "Shigure.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100290/100290.fbx",
+        "name": "Ashigara (DDG-178).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10029001/10029001.fbx",
+        "name": "Ashigara (DDG-178)_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10029002/10029002.fbx",
+        "name": "Ashigara (DDG-178)_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100340/100340.fbx",
+        "name": "Le Terrible.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10034005/10034005.fbx",
+        "name": "Le Terrible_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100350/100350.fbx",
+        "name": "Maury.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100360/100360.fbx",
+        "name": "Ushio.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100410/100410.fbx",
+        "name": "Akizuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10041002/10041002.fbx",
+        "name": "Akizuki_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100420/100420.fbx",
+        "name": "Fuyuzuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/10042003/10042003.fbx",
+        "name": "Fuyuzuki_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100430/100430.fbx",
+        "name": "Sovremenny.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/100460/100460.fbx",
+        "name": "Daring.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110000/110000.fbx",
+        "name": "Ticonderoga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11000002/11000002.fbx",
+        "name": "Ticonderoga_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110010/110010.fbx",
+        "name": "Varyag.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11001001/11001001.fbx",
+        "name": "Varyag_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11001002/11001002.fbx",
+        "name": "Varyag_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11001005/11001005.fbx",
+        "name": "Varyag_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110020/110020.fbx",
+        "name": "Yuubari.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11002002/11002002.fbx",
+        "name": "Yuubari_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110030/110030.fbx",
+        "name": "Dido.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110040/110040.fbx",
+        "name": "Ping Hai.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11004003/11004003.fbx",
+        "name": "Ping Hai_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110050/110050.fbx",
+        "name": "Ning Hai.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11005003/11005003.fbx",
+        "name": "Ping Hai_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110060/110060.fbx",
+        "name": "Noshiro.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11006003/11006003.fbx",
+        "name": "Noshiro_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110070/110070.fbx",
+        "name": "Yahagi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11007003/11007003.fbx",
+        "name": "Yahagi_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110080/110080.fbx",
+        "name": "Sakawa.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11008003/11008003.fbx",
+        "name": "Sakawa_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110090/110090.fbx",
+        "name": "Leander.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110100/110100.fbx",
+        "name": "Agano.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11010001/11010001.fbx",
+        "name": "Agano_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11010003/11010003.fbx",
+        "name": "Agano_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110110/110110.fbx",
+        "name": "Königsberg.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110120/110120.fbx",
+        "name": "Mikhail Frunze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110130/110130.fbx",
+        "name": "Tsukigami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110140/110140.fbx",
+        "name": "Achilles.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110160/110160.fbx",
+        "name": "Jeanne d'Arc.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11016001/11016001.fbx",
+        "name": "Jeanne d'Arc_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/11016002/11016002.fbx",
+        "name": "Jeanne d'Arc_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110170/110170.fbx",
+        "name": "Maxim Gorky.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110180/110180.fbx",
+        "name": "Dmitriy Ustinov.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110190/110190.fbx",
+        "name": "Mississippi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110200/110200.fbx",
+        "name": "Lepzig.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/110210/110210.fbx",
+        "name": "Ukrayina.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120000/120000.fbx",
+        "name": "Minneapolis.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120010/120010.fbx",
+        "name": "Admiral Hipper.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/12001001/12001001.fbx",
+        "name": "Admiral Hipper_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120020/120020.fbx",
+        "name": "Texas.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120030/120030.fbx",
+        "name": "Arkansas.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/12003001/12003001.fbx",
+        "name": "Arkansas_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120040/120040.fbx",
+        "name": "Furutaka.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120050/120050.fbx",
+        "name": "Indianapolis.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/12005001/12005001.fbx",
+        "name": "Indianapolis_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120060/120060.fbx",
+        "name": "Portland.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/12006001/12006001.fbx",
+        "name": "Portland_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/12006005/12006005.fbx",
+        "name": "Portland_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120070/120070.fbx",
+        "name": "Kirov.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120080/120080.fbx",
+        "name": "Mikhail Kalinin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120100/120100.fbx",
+        "name": "Alaska.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120130/120130.fbx",
+        "name": "Fiume.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120170/120170.fbx",
+        "name": "Prinz Eugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120180/120180.fbx",
+        "name": "Des Moines.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120200/120200.fbx",
+        "name": "Long Beach.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/12020005/12020005.fbx",
+        "name": "Long Beach_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120210/120210.fbx",
+        "name": "Mogami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/120260/120260.fbx",
+        "name": "New Orleans.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130000/130000.fbx",
+        "name": "Minsk.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130010/130010.fbx",
+        "name": "Kiev.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130020/130020.fbx",
+        "name": "Dunkerque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13002002/13002002.fbx",
+        "name": "Dunkerque_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130030/130030.fbx",
+        "name": "Admiral Graf Spee.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130040/130040.fbx",
+        "name": "Missouri.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13004001/13004001.fbx",
+        "name": "Missouri_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13004002/13004002.fbx",
+        "name": "Missouri_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130050/130050.fbx",
+        "name": "New Jersey.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13005001/13005001.fbx",
+        "name": "New Jersey_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13005002/13005002.fbx",
+        "name": "New Jersey_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13005005/13005005.fbx",
+        "name": "New Jersey_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130060/130060.fbx",
+        "name": "Iowa.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13006001/13006001.fbx",
+        "name": "Iowa_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13006002/13006002.fbx",
+        "name": "Iowa_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13006005/13006005.fbx",
+        "name": "Iowa_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130070/130070.fbx",
+        "name": "Littorio.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13007001/13007001.fbx",
+        "name": "Littorio_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13007002/13007002.fbx",
+        "name": "Littorio_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13007005/13007005.fbx",
+        "name": "Littorio_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130080/130080.fbx",
+        "name": "Nelson.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130090/130090.fbx",
+        "name": "Lorraine.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130100/130100.fbx",
+        "name": "Richelieu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130110/130110.fbx",
+        "name": "Warspite.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13011002/13011002.fbx",
+        "name": "Warspite_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13011005/13011005.fbx",
+        "name": "Warspite_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130120/130120.fbx",
+        "name": "Yamashiro.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13012002/13012002.fbx",
+        "name": "Yamashiro_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130130/130130.fbx",
+        "name": "Yamato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13013004/13013004.fbx",
+        "name": "Yamato_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13013005/13013005.fbx",
+        "name": "Yamato_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130140/130140.fbx",
+        "name": "Musashi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13014002/13014002.fbx",
+        "name": "Musashi_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13014003/13014003.fbx",
+        "name": "Musashi_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13014004/13014004.fbx",
+        "name": "Musashi_alt_3.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13014005/13014005.fbx",
+        "name": "Musashi_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130150/130150.fbx",
+        "name": "Brittany.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13015001/13015001.fbx",
+        "name": "Brittany_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13015005/13015005.fbx",
+        "name": "Brittany_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130160/130160.fbx",
+        "name": "Sovetsky Soyuz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13016002/13016002.fbx",
+        "name": "Sovetsky Soyuz_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13016005/13016005.fbx",
+        "name": "Sovetsky Soyuz_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130170/130170.fbx",
+        "name": "Vanguard.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13017003/13017003.fbx",
+        "name": "Vanguard_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13017005/13017005.fbx",
+        "name": "Vanguard_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130180/130180.fbx",
+        "name": "Hiei.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13018003/13018003.fbx",
+        "name": "Hiei_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13021003/13021003.fbx",
+        "name": "Nagato_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13021004/13021004.fbx",
+        "name": "Nagato_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13021005/13021005.fbx",
+        "name": "Nagato_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130220/130220.fbx",
+        "name": "Mutsu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13022003/13022003.fbx",
+        "name": "Mutsu_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130230/130230.fbx",
+        "name": "Queen Anne's Revenge.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130240/130240.fbx",
+        "name": "Washington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130250/130250.fbx",
+        "name": "Duke of York.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13025003/13025003.fbx",
+        "name": "Duke of York_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130260/130260.fbx",
+        "name": "King George V.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/13026003/13026003.fbx",
+        "name": "King George V_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/130270/130270.fbx",
+        "name": "North Carolina.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140000/140000.fbx",
+        "name": "Cabot.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14000002/14000002.fbx",
+        "name": "Cabot_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140010/140010.fbx",
+        "name": "Bataan.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140020/140020.fbx",
+        "name": "Avenger.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140030/140030.fbx",
+        "name": "Charger.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14003002/14003002.fbx",
+        "name": "Charger_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140050/140050.fbx",
+        "name": "Giuseppe Garibaldi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14005005/14005005.fbx",
+        "name": "Giuseppe Garibaldi_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140060/140060.fbx",
+        "name": "Prince of Wales.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14006002/14006002.fbx",
+        "name": "Prince of Wales_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140070/140070.fbx",
+        "name": "Theseus.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14007002/14007002.fbx",
+        "name": "Theseus_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14007003/14007003.fbx",
+        "name": "Theseus_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14007005/14007005.fbx",
+        "name": "Theseus_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140100/140100.fbx",
+        "name": "Ranger.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/140130/140130.fbx",
+        "name": "Cavour.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14013002/14013002.fbx",
+        "name": "Cavour_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/14013005/14013005.fbx",
+        "name": "Cavour_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150000/150000.fbx",
+        "name": "Midway.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15000005/15000005.fbx",
+        "name": "Midway_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150010/150010.fbx",
+        "name": "Shinano.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15001002/15001002.fbx",
+        "name": "Shinano_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15001005/15001005.fbx",
+        "name": "Shinano_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150020/150020.fbx",
+        "name": "Queen Elizabeth (R08).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15002005/15002005.fbx",
+        "name": "Queen Elizabeth (R08)_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150030/150030.fbx",
+        "name": "Essex.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150040/150040.fbx",
+        "name": "Bearn.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150060/150060.fbx",
+        "name": "Zuikaku.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150070/150070.fbx",
+        "name": "Kaga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15007002/15007002.fbx",
+        "name": "Kaga_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15007005/15007005.fbx",
+        "name": "Kaga_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150090/150090.fbx",
+        "name": "Enterprise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15009003/15009003.fbx",
+        "name": "Enterprise_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150100/150100.fbx",
+        "name": "Graf Zeppelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150110/150110.fbx",
+        "name": "Yorktown.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15011002/15011002.fbx",
+        "name": "Yorktown_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/150130/150130.fbx",
+        "name": "Hornet.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/15013001/15013001.fbx",
+        "name": "Hornet_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/170000/170000.fbx",
+        "name": "Ise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/17000005/17000005.fbx",
+        "name": "Ise_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/200000/200000.fbx",
+        "name": "Vestal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/20000003/20000003.fbx",
+        "name": "Vestal_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/300000/300000.fbx",
+        "name": "Yukikaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/30000002/30000002.fbx",
+        "name": "Yukikaze_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/30000005/30000005.fbx",
+        "name": "Yukikaze_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/310000/310000.fbx",
+        "name": "Cologne.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/320000/320000.fbx",
+        "name": "Wichita.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/330000/330000.fbx",
+        "name": "Maryland.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/33000003/33000003.fbx",
+        "name": "Maryland_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/340000/340000.fbx",
+        "name": "Unicorn.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/34000003/34000003.fbx",
+        "name": "Unicorn_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/350000/350000.fbx",
+        "name": "Illustrious.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360010/360010.fbx",
+        "name": "Hyuuga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36001002/36001002.fbx",
+        "name": "Hyuuga_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36001005/36001005.fbx",
+        "name": "Hyuuga_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360020/360020.fbx",
+        "name": "Vittorio Veneto.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36002005/36002005.fbx",
+        "name": "Vittorio Veneto_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360030/360030.fbx",
+        "name": "Jean Bart.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360040/360040.fbx",
+        "name": "Mikasa.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36004002/36004002.fbx",
+        "name": "Mikasa_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360050/360050.fbx",
+        "name": "Wisconsin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360060/360060.fbx",
+        "name": "Bismarck.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360070/360070.fbx",
+        "name": "Gangut.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360080/360080.fbx",
+        "name": "Marat.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360090/360090.fbx",
+        "name": "Mikasa_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360100/360100.fbx",
+        "name": "Yat Sen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36010005/36010005.fbx",
+        "name": "Yat Sen_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360110/360110.fbx",
+        "name": "Glorious.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360120/360120.fbx",
+        "name": "Kongou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36012002/36012002.fbx",
+        "name": "Kongou_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36012003/36012003.fbx",
+        "name": "Kongou_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360130/360130.fbx",
+        "name": "Ryujo.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360140/360140.fbx",
+        "name": "Yat Sen_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/36014005/36014005.fbx",
+        "name": "Akagi_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360150/360150.fbx",
+        "name": "Tashkent.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/360160/360160.fbx",
+        "name": "Habakkuk.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/800000/800000.fbx",
+        "name": "Yukikaze_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/810000/810000.fbx",
+        "name": "Cologne_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/820000/820000.fbx",
+        "name": "Wichita_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/830000/830000.fbx",
+        "name": "Maryland_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/840000/840000.fbx",
+        "name": "Unicorn_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/850000/850000.fbx",
+        "name": "Illustrious_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860060/860060.fbx",
+        "name": "Hyuuga_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860070/860070.fbx",
+        "name": "Vittorio Veneto_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860100/860100.fbx",
+        "name": "Wisconsin_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860110/860110.fbx",
+        "name": "Bismarck_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860120/860120.fbx",
+        "name": "Gangut_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860121/860121.fbx",
+        "name": "Marat_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860130/860130.fbx",
+        "name": "Aoba_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860150/860150.fbx",
+        "name": "Glorious_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860160/860160.fbx",
+        "name": "Kongou_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860180/860180.fbx",
+        "name": "Akagi_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860190/860190.fbx",
+        "name": "Tashkent.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Abyss Horizon/char3d/860200/860200.fbx",
+        "name": "Habakkuk_abyssal.png"
+    }
+]

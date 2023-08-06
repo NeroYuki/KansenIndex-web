@@ -9,6 +9,14 @@ import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
 import { Live2DModel } from 'pixi-live2d-display/cubism4';
 import * as PIXI from 'pixi.js';
 import {Spine} from 'pixi-spine';
+import * as THREE from 'three'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js'
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+const LEGACY_THREEJS_REQUIRED_FOLDERS = ["Lane Girls", "Abyss Horizon"]
+const LEGACY_CHIBI_REQUIRED_FOLDERS = ["Black Surgenights", "Azur Lane"]
+const LEGACY_SPINE_REQUIRED_FOLDER = ["Black Surgenights"]
 
 function useQuery() {
     const { search } = useLocation();
@@ -19,14 +27,37 @@ function useQuery() {
 const SoundCard = (props) => {
     // make a card component for playing the sound effect with a play button and the sound filename
     return (
-        <Box width={'30%'} style={{ margin: '12px' }}>
-            <Button onClick={() => props.onClick(props.filename)} isLoading={props.isLoading} leftIcon={<Icon as={FaPlay} />} width={'100%'} colorScheme='blue' variant='outline' size='lg' mr='2'>{props.filename.slice(props.filename.lastIndexOf('/'))}</Button>
+        <Box width={'30%'} style={{ margin: '12px', minWidth: '320px' }}>
+            <Button onClick={() => props.onClick(props.filename)} isLoading={props.isLoading} leftIcon={<Icon as={FaPlay} />} width={'100%'} textOverflow={'ellipsis'} color='blue.400' variant='outline' size='lg' mr='2'>{props.filename.slice(props.filename.lastIndexOf('/'))}</Button>
         </Box>
     )
 }
 
-export const CGInfo = (props) => {
+function loadLegacyThreeJSLibrary() {
+    const script = []
+    for (let i = 0; i < 4; i++) {
+        script.push(document.createElement('script'))
+    }
+    const head = document.getElementsByTagName('head')[0]
+    script[0].src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.js'
+    script[1].src = 'https://cdn.jsdelivr.net/npm/zlibjs@0.3.1/bin/zlib.min.js'
+    script[2].src = '/lib/orbit-control.js'
+    script[3].src = '/lib/fbx-loader.js'
 
+    head.appendChild(script[0])
+    script[0].addEventListener('load', () => {
+        console.log('legacy threejs loaded')
+        head.appendChild(script[1])
+        script[1].addEventListener('load', () => {
+            // zlib loaded
+            console.log('zlib loaded')
+            head.appendChild(script[2])
+            head.appendChild(script[3])
+        })
+    })
+}
+
+export const CGInfo = (props) => {
     const location = useLocation()
     const query = useQuery()
     const toast = useToast()
@@ -57,9 +88,15 @@ export const CGInfo = (props) => {
         if (location.state && location.state.data) {
             console.log(location.state.data)
             setCgInfoState(location.state.data)
+            if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(location.state.data.folder)) {
+                loadLegacyThreeJSLibrary()
+            }
         }
         else if (query.get("id")) {
             GET_cgById(query.get("id")).then((res) => {
+                if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(res.folder)) {
+                    loadLegacyThreeJSLibrary()
+                }
                 setCgInfoState(res)
             })
         }
@@ -103,91 +140,203 @@ export const CGInfo = (props) => {
         })
 
         if (data.spine) {
-            const spine_app = new PIXI.Application({
-                view: document.getElementById('spine-canvas-full'),
-            });
-
-            spine_app.loader
-                .add('spineCharacter', data.spine.dir)
-                .load(function (loader, resources) {
-                    const animation = new Spine(resources.spineCharacter.spineData);
-                    const orig_size = [animation.width, animation.height]
-
-                    //scale to 500
-                    if (orig_size[0] > 500 || orig_size[1] > 500) {
-                        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
-                        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
-                        
-                        animation.height = target_height;
-                        animation.width = target_width;
+            if (LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder)) {
+                new global.spine.SpineWidget("spine-widget-full", {
+                    skel: data.spine.dir,
+                    atlas: data.spine.dir.replace('.skel', '.atlas'),
+                    animation: "",
+                    backgroundColor: "#000000FF",
+                    fitToCanvas: true,
+                    success: function (widget) {
+                        let animations = widget.skeleton.data.animations;
+                        // search for index of move animation
+                        let animIndex = 0
+                        let moveAnimIndex = animations.findIndex((anim) => anim.name.includes('idle'))
+                        widget.setAnimation(animations[ moveAnimIndex !== -1 ?  moveAnimIndex : 0].name);
+                        widget.canvas.onclick = function () {
+                            animIndex++
+                            var animations = widget.skeleton.data.animations;
+                            if (animIndex >= animations.length) animIndex = 0
+                            widget.setAnimation(animations[animIndex].name);
+                        }
                     }
-
-                    animation.x = (spine_app.screen.width) /2;
-                    animation.y = (spine_app.screen.height) /2;
-
-                    // add the animation to the scene and render...
-                    spine_app.stage.addChild(animation);
-
-                    // full_normal_loop for normal spine
-                    if (animation.state.hasAnimation("fullBg_normal_loop")) {
-                        animation.state.setAnimation(0, "fullBg_normal_loop", true);
-                    }
-                    else if (animation.state.hasAnimation("full_normal_loop")) {
-                        animation.state.setAnimation(0, "full_normal_loop", true);
-                    }
-                    else {
-                        const anim_names = animation.spineData.animations.map((anim) => anim.name)
-                        const random_anim = anim_names[Math.floor(Math.random() * anim_names.length)]
-                        animation.state.setAnimation(0, random_anim, true);
-                    }
-                    // dont run too fast
-                    animation.state.timeScale = 1;
-                    
-                    spine_app.start();
                 });
+            }
+            else {
+                const spine_app = new PIXI.Application({
+                    view: document.getElementById('spine-canvas-full'),
+                });
+
+                // synchroneously load extra files
+                const extra_layer = []
+                if (data.spine.extra_file && data.spine.extra_file.length !== 0) {
+                    for (const file of data.spine.extra_file) {
+                        spine_app.loader.add(file.slice(file.lastIndexOf('/') + 1), file)
+                        extra_layer.push(file.slice(file.lastIndexOf('/') + 1))
+                    }
+                }
+
+                spine_app.loader
+                    .add('spineCharacter', data.spine.dir)
+                    .load(function (loader, resources) {
+                        let scale = 1
+                        let animation_index = -1
+
+                        const animation = new Spine(resources.spineCharacter.spineData);
+                        const orig_size = [animation.width, animation.height]
+                        console.log(animation)
+
+                        //calculate the scale so that animation fit a 500x500 canvas
+                        scale = Math.min(500 / orig_size[0], 500 / orig_size[1])
+                        if (data.folder === "Azur Lane") scale *= 1.4
+                        animation.height *= scale;
+                        animation.width *= scale;
+
+                        animation.x = (spine_app.screen.width) / 2
+                        animation.y = (spine_app.screen.height) / 2
+
+                        if (data.folder === "Azur Lane") animation.y += animation.height / 3
+
+                        animation_index = Math.floor(Math.random() * animation.spineData.animations.length)
+                        
+                        // add extra layers
+                        for (const layer of extra_layer) {
+                            const extra_layer = new Spine(resources[layer].spineData)
+                            extra_layer.x = (spine_app.screen.width) / 2
+                            extra_layer.y = (spine_app.screen.height) / 2
+                            // azur lane only
+                            extra_layer.y += animation.height / 3
+                            extra_layer.height *= scale;
+                            extra_layer.width *= scale;
+                            spine_app.stage.addChild(extra_layer);
+
+                            // set animation
+                            if (extra_layer.state.hasAnimation("fullBg_normal_loop")) {
+                                extra_layer.state.setAnimation(0, "fullBg_normal_loop", true);
+                            }
+                            else if (extra_layer.state.hasAnimation("full_normal_loop")) {
+                                extra_layer.state.setAnimation(0, "full_normal_loop", true);
+                            }
+                            else {
+                                const random_anim = extra_layer.spineData.animations[animation_index].name
+                                extra_layer.state.setAnimation(0, random_anim, true);
+                            }
+                        }
+
+                        // add the animation to the scene and render...
+                        spine_app.stage.addChild(animation);
+
+                        // full_normal_loop for normal spine
+                        if (animation.state.hasAnimation("fullBg_normal_loop")) {
+                            animation.state.setAnimation(0, "fullBg_normal_loop", true);
+                        }
+                        else if (animation.state.hasAnimation("full_normal_loop")) {
+                            animation.state.setAnimation(0, "full_normal_loop", true);
+                        }
+                        else {
+                            const random_anim = animation.spineData.animations[animation_index].name
+                            animation.state.setAnimation(0, random_anim, true);
+                        }
+                        // dont run too fast
+                        animation.state.timeScale = 1;
+
+                        spine_app.view.onclick = function () {
+                            animation_index++
+                            if (animation_index >= animation.spineData.animations.length) animation_index = 0
+                            animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+
+                            // set extra layers
+                            for (const layer of extra_layer) {
+                                const next_anim = layer.spineData.animations[animation_index].name
+                                layer.state.setAnimation(0, next_anim, true);
+                            }
+                        };
+                        
+                        spine_app.start();
+                    });
+            }
         }
 
         if (data.chibi) {
-            const chibi_spine_app = new PIXI.Application({
-                view: document.getElementById('spine-canvas'),
-            });
-
-            chibi_spine_app.loader
-                .add('chibiSpineCharacter', data.chibi.dir)
-                .load(function (loader, resources) {
-                    const animation = new Spine(resources.chibiSpineCharacter.spineData);
-
-                    const orig_size = [animation.width, animation.height]
-
-                    //scale to 500
-                    if (orig_size[0] > 500 || orig_size[1] > 500) {
-                        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
-                        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
-                        
-                        animation.height = target_height;
-                        animation.width = target_width;
+            if (LEGACY_CHIBI_REQUIRED_FOLDERS.includes(data.folder)) {
+                new global.spine.SpineWidget("spine-widget", {
+                    skel: data.chibi.dir,
+                    atlas: data.chibi.dir.replace('.skel', '.atlas'),
+                    animation: "",
+                    backgroundColor: "#000000FF",
+                    fitToCanvas: true,
+                    success: function (widget) {
+                        //console.log(widget)
+                        // widget.canvas.onclick = function () {
+                        let animations = widget.skeleton.data.animations;
+                        // search for index of move animation
+                        let animIndex = 0
+                        let moveAnimIndex = animations.findIndex((anim) => anim.name.includes('move'))
+                        widget.setAnimation(animations[ moveAnimIndex !== -1 ?  moveAnimIndex : 0].name);
+                        widget.canvas.onclick = function () {
+                            animIndex++
+                            var animations = widget.skeleton.data.animations;
+                            if (animIndex >= animations.length) animIndex = 0
+                            widget.setAnimation(animations[animIndex].name);
+                        }
+                    },
+                    error: function (err) {
+                        console.log(err)
                     }
-
-                    animation.x = (chibi_spine_app.screen.width) /2;
-                    animation.y = (chibi_spine_app.screen.height + animation.height) /2;
-
-                    // add the animation to the scene and render...
-                    chibi_spine_app.stage.addChild(animation);
-
-                    // full_normal_loop for normal spine
-                    if (animation.state.hasAnimation("idle")) {
-                        animation.state.setAnimation(0, "idle", true);
-                    }
-                    else {
-                        const anim_names = animation.spineData.animations.map((anim) => anim.name)
-                        const random_anim = anim_names[Math.floor(Math.random() * anim_names.length)]
-                        animation.state.setAnimation(0, random_anim, true);
-                    }
-                    // dont run too fast
-                    animation.state.timeScale = 1;
-                    
-                    chibi_spine_app.start();
                 });
+            }
+            else {
+                const chibi_spine_app = new PIXI.Application({
+                    view: document.getElementById('spine-canvas'),
+                    backgroundColor: 0xffffffff
+                });
+    
+                chibi_spine_app.loader
+                    .add('chibiSpineCharacter', data.chibi.dir)
+                    .load(function (loader, resources) {
+                        const animation = new Spine(resources.chibiSpineCharacter.spineData);
+    
+                        const orig_size = [animation.width, animation.height]
+
+                        let animation_index = 0
+    
+                        //scale to 500
+                        if (orig_size[0] > 500 || orig_size[1] > 500) {
+                            const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
+                            const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+                            
+                            animation.height = target_height;
+                            animation.width = target_width;
+                        }
+    
+                        animation.x = (chibi_spine_app.screen.width) /2;
+                        animation.y = (chibi_spine_app.screen.height + animation.height) /2;
+    
+                        // add the animation to the scene and render...
+                        chibi_spine_app.stage.addChild(animation);
+    
+                        // full_normal_loop for normal spine
+                        if (animation.state.hasAnimation("idle")) {
+                            animation.state.setAnimation(0, "idle", true);
+                        }
+                        else {
+                            animation_index = Math.floor(Math.random() * animation.spineData.animations.length)
+                            const random_anim = animation.spineData.animations[animation_index].name
+                            animation.state.setAnimation(0, random_anim, true);
+                        }
+                        // dont run too fast
+                        animation.state.timeScale = 1;
+
+                        chibi_spine_app.view.onclick = function () {
+                            animation_index++
+                            if (animation_index >= animation.spineData.animations.length) animation_index = 0
+                            animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+                        };
+                        
+                        chibi_spine_app.start();
+                    });
+            }
+
         }
 
         if (data.l2d) {
@@ -211,7 +360,7 @@ export const CGInfo = (props) => {
             // transforms
             model.rotation = Math.PI;
             model.skew.x = Math.PI;
-            const scale_mul = (data.folder == "Azur Lane") ? 1.4 : 1
+            const scale_mul = (data.folder === "Azur Lane") ? 1.3 : 1
             model.scale.set(target_width / model.width * scale_mul, target_height / model.height * scale_mul);
             model.anchor.set(0.5, 0.5);
             model.x = (app.screen.width) / 2;
@@ -225,12 +374,165 @@ export const CGInfo = (props) => {
                 }
             }, 66)
         }
+
+        if (data.m3d) {
+            if (LEGACY_THREEJS_REQUIRED_FOLDERS.includes(data.folder)) {
+                let waiting_time = 0;
+                while(!global.THREE) {
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    waiting_time += 500;
+
+                    if (waiting_time > 5000) {
+                        console.log("Failed to load THREE.js")
+                        return;
+                    }
+                }
+                const THREE_LEGACY = global.THREE;
+
+                while(!THREE_LEGACY.OrbitControls || !THREE_LEGACY.FBXLoader) {
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    waiting_time += 500;
+
+                    if (waiting_time > 10000) {
+                        console.log("Failed to load auxiliary lib")
+                        return;
+                    }
+                }
+                
+                // use legacy three bundles
+                const canvas = document.getElementById('m3d-viewer');
+                const MODEL_SCALE = data.folder === "Abyss Horizon" ? 100 : 12
+                
+                const scene = new THREE_LEGACY.Scene();
+                const camera = new THREE_LEGACY.PerspectiveCamera(70, 800 / 550, 1, 10000);
+                const clock = new THREE_LEGACY.Clock()
+                let mixer = null;
+
+                scene.background = new THREE_LEGACY.Color( 0xbfe3dd );
+                camera.position.set(-96, 120, 96)
+                camera.lookAt(new THREE_LEGACY.Vector3(0,120,0))
+
+                const light = new THREE_LEGACY.AmbientLight( 0xffffffff ); // soft white light
+                scene.add( light );
+
+                const renderer = new THREE_LEGACY.WebGLRenderer({canvas, antialias: true});
+                renderer.setSize(800, 550);
+
+                const controls = new THREE_LEGACY.OrbitControls(camera, renderer.domElement);
+                controls.enableDamping = true;
+                controls.dampingFactor = 0.09;
+                controls.rotateSpeed = 0.09;
+
+                function animate() {
+                    requestAnimationFrame( animate );
+                    if (mixer) mixer.update(clock.getDelta());
+                    renderer.render( scene, camera );
+                }
+
+                const fbxLoader = new THREE_LEGACY.FBXLoader()
+                fbxLoader.load(
+                    data.m3d.dir,
+                    (object) => {
+                        if (object.animations?.length) {
+                            mixer = new THREE_LEGACY.AnimationMixer( object );
+                            const showAnim = object.animations.findIndex((anim) => anim.name === "show")
+                            let action = mixer.clipAction(object.animations[showAnim !== -1 ? showAnim : 0]);
+                            action.play();
+                        }
+                        // reset position, scale and rotation
+                        object.position.set(0, -MODEL_SCALE / 2, 0);
+                        object.rotation.set(0, 0, 0);
+                        object.scale.set(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
+                            
+                        scene.add(object)
+                        animate();
+                    },
+                    (xhr) => {
+                        console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
+                    },
+                    (error) => {
+                        console.log(error)
+                    }
+                )
+            }
+            else {
+                // use new three bundles
+                const canvas = document.getElementById('m3d-viewer');
+
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(70, 880 / 500, 1, 100);
+
+                const clock = new THREE.Clock()
+                let mixer = null;
+
+                scene.background = new THREE.Color( 0xbfe3dd );
+                camera.position.set(-6, 12, 6)
+                camera.lookAt(new THREE.Vector3(0,0,0))
+
+                const light = new THREE.AmbientLight( 0xffffffff ); // soft white light
+                scene.add( light );
+
+                const renderer = new THREE.WebGLRenderer({canvas, antialias: true});
+                renderer.setSize(880, 550);
+
+                const controls = new OrbitControls(camera, renderer.domElement);
+
+                function animate() {
+                    requestAnimationFrame( animate );
+                    if (mixer) mixer.update(clock.getDelta());
+                    renderer.render( scene, camera );
+                }
+
+                const gltfLoader = new GLTFLoader()
+
+                gltfLoader.load( './data/assets/shipgirls/Abyss Horizon/char3d/100030/gltf/100030.gltf', function ( gltf ) {
+                    gltf.scene.position.set(0, 0, 0);
+                    gltf.scene.rotation.set(0, 0, 0);
+                    gltf.scene.scale.set(1000, 1000, 1000);
+                    scene.add( gltf.scene );
+
+                    animate()
+                }, undefined, function ( error ) {
+                    console.error( error );
+                } );
+
+                // const fbxLoader = new FBXLoader()
+                // fbxLoader.load(
+                //     './data/assets/shipgirls/Abyss Horizon/char3d/100030/100030.fbx',
+                //     (object) => {
+                //         if (object.animations.length !== 0) {
+                //             mixer = new THREE.AnimationMixer( object );
+                //             const showAnim = object.animations.findIndex((anim) => anim.name === "idle")
+                //             let action = mixer.clipAction(object.animations[showAnim !== -1 ? showAnim : 0]);
+                //             action.play();
+                //         }
+                //         else {
+                //             console.log("No animation found")
+                //         }
+                //         // reset position, scale and rotation
+                //         object.position.set(0, 0, 0);
+                //         object.rotation.set(0, 0, 0);
+                //         object.scale.set(3, 3, 3);
+                            
+                //         scene.add(object)
+                //         animate();
+                //     },
+                //     (xhr) => {
+                //         console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
+                //     },
+                //     (error) => {
+                //         console.log(error)
+                //     }
+                // )
+            }
+        }
         
     }, [data])   
 
     // unload the model and remove PIXI app when unmount
     useEffect(() => {
         return () => {
+            global.THREE = null
             if (data.l2d) {
                 PIXI.Application.destroy()
             }
@@ -275,11 +577,11 @@ export const CGInfo = (props) => {
                         <Tabs>
                             <TabList>
                                 <Tab>Image</Tab>
-                                {data.l2d && <Tab>Live2D <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
-                                {data.chibi && <Tab>Spine (Chibi)<Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
-                                {data.spine && <Tab>Spine <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
-                                {data.m3d && <Tab>3D <Tag ml={3} size={'md'} bg={'red.200'}>Soon</Tag></Tab>}
-                                {data.voice && <Tab>Sound <Tag ml={3} size={'md'} bg={'green.200'}>New</Tag></Tab>}
+                                {data.l2d && <Tab>Live2D</Tab>}
+                                {data.chibi && <Tab>Spine (Chibi)</Tab>}
+                                {data.spine && <Tab>Spine</Tab>}
+                                {data.m3d && <Tab>3D <Tag ml={3} size={'md'} bg={'yellow.200'}>WIP</Tag></Tab>}
+                                {data.voice && <Tab>Sound</Tab>}
                             </TabList>
                             <TabPanels>
                                 <TabPanel>
@@ -291,25 +593,25 @@ export const CGInfo = (props) => {
                                 {data.l2d && <TabPanel>
                                     <Center>
                                         {/* Live2D */}
-                                        <canvas id="l2d-canvas" height={500}></canvas>
+                                        <canvas id="l2d-canvas" height={500} style={{imageRendering: 'crisp-edges'}}></canvas>
                                     </Center>
                                 </TabPanel>}
                                 {data.chibi && <TabPanel>
                                     <Center>
                                         {/* Spine (Chibi) */}
-                                        <canvas id="spine-canvas" height={500}></canvas>
+                                        {(LEGACY_CHIBI_REQUIRED_FOLDERS.includes(data.folder)) ? <div style={{height: 500, width: '100%'}} id="spine-widget"></div> : <canvas id="spine-canvas" height={500}></canvas>}
                                     </Center>
                                 </TabPanel>}
                                 {data.spine && <TabPanel>
                                     <Center>
                                         {/* Spine */}
-                                        <canvas id="spine-canvas-full" height={500}></canvas>
+                                        {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : <canvas id="spine-canvas-full" height={500}></canvas>}
                                     </Center>
                                 </TabPanel>}
-                                {data.m3d && <TabPanel>
-                                    <Center>
+                                {data.m3d && <TabPanel width={'100%'}>
+                                    <Center width={'100%'}>
                                         {/* 3D */}
-                                        <div></div>
+                                        <canvas height={500} style={{width: '100%', height: 500, imageRendering: 'crisp-edges'}} id="m3d-viewer"></canvas>
                                     </Center>
                                 </TabPanel>}
                                 {data.voice && <TabPanel>

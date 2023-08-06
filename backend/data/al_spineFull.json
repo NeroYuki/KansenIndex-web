@@ -1,0 +1,299 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierB.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierM.skel"
+        ],
+        "name": "\u00c4gir_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aisaikesi_7/aisaikesi_7T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/aisaikesi_7/aisaikesi_7B.skel"
+        ],
+        "name": "Essex_Crossbones Especial"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongB.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongM.skel"
+        ],
+        "name": "Hakuryuu_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz/bisimaiZT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz/bisimaiZB.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz/bisimaiZM.skel"
+        ],
+        "name": "Bismarck Zwei_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz_2/bisimaiZ_2T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz_2/bisimaiZ_2B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz_2/bisimaiZ_2M.skel"
+        ],
+        "name": "Bismarck Zwei_Crystal-Clear Holiday"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/buleisite/buleisite_T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/buleisite/buleisite_B.skel"
+        ],
+        "name": "Brest_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/buleisite/buleisite_T_hx.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/buleisite/buleisite_B.skel"
+        ],
+        "name": "Brest_Default_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/buli_super/buli_super.skel",
+        "extra_file": [],
+        "name": "Specialized Bulin Custom MKIII_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/dahuangfengii_2/dahuangfengII_2_T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/dahuangfengii_2/dahuangfengII_2_B.skel"
+        ],
+        "name": "Hornet II_Racing Across the Waves!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/dahuangfengii_2/dahuangfengII_2_T_hx.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/dahuangfengii_2/dahuangfengII_2_B.skel"
+        ],
+        "name": "Hornet II_Racing Across the Waves!_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/daofeng/daofengT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/daofeng/daofengB.skel"
+        ],
+        "name": "Shimakaze_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/deleike/deleike.skel",
+        "extra_file": [],
+        "name": "Drake_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/diliyasite_3/diliyasite_3T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/diliyasite_3/diliyasite_3B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/diliyasite_3/diliyasite_3M.skel"
+        ],
+        "name": "Trieste_Amore Termico"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/feiteliedadi/feiteliedadi.skel",
+        "extra_file": [],
+        "name": "Friedrich der Gro\u00dfe_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/feiteliedadi/feiteliedadi_hx.skel",
+        "extra_file": [],
+        "name": "Friedrich der Gro\u00dfe_Default_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fengyun_2/fengyun_2_T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/fengyun_2/fengyun_2_B.skel"
+        ],
+        "name": "Kazagumo_Placid Waves, Passionate Heart"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fuluoxiluofu_2/fuluoxiluofu_2.skel",
+        "extra_file": [],
+        "name": "Voroshilov_Devoted as the Warm Snow"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2M.skel"
+        ],
+        "name": "Hwah Jah_The Festive Undead"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2T_hx.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2M.skel"
+        ],
+        "name": "Hwah Jah_The Festive Undead_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huangjiacaifu_3/huangjiacaifu_3T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/huangjiacaifu_3/huangjiacaifu_3B.skel"
+        ],
+        "name": "Royal Fortune_Eyes on the Prize"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kalangshitade/kalangshitade.skel",
+        "extra_file": [],
+        "name": "Kronshtadt_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lafei_12/lafei_12T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/lafei_12/lafei_12B.skel"
+        ],
+        "name": "Laffey_Lazy Days"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/luna_2_doa/luna_2_doa.skel",
+        "extra_file": [],
+        "name": "Luna_Venus of the Beach"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lundun_3/lundun_3.skel",
+        "extra_file": [],
+        "name": "London_The Sterling Secretary"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mabuerheide_5/mabuerheide_5T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/mabuerheide_5/mabuerheide_5B.skel"
+        ],
+        "name": "Marblehead_Not-So-Serendipitous Rain"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/pulimaosi/pulimaosi_T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/pulimaosi/pulimaosi_B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/pulimaosi/pulimaosi_M.skel"
+        ],
+        "name": "Plymouth_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/qianwei/qianweiT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/qianwei/qianweiB.skel"
+        ],
+        "name": "Vanguard_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/shengdiyage_g/shengdiyage_g.skel",
+        "extra_file": [],
+        "name": "San Diego_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuerlixi/wuerlixi.skel",
+        "extra_file": [],
+        "name": "Ulrich von Hutten_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuqi/wuqi.skel",
+        "extra_file": [],
+        "name": "Azuma_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuzang/wuzang.skel",
+        "extra_file": [],
+        "name": "Musashi_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuzang/wuzang3_hx.skel",
+        "extra_file": [],
+        "name": "Musashi_Default_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xiafei_3/xiafei_3T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/xiafei_3/xiafei_3B.skel"
+        ],
+        "name": "Joffre_Sublime Elysium"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xili_g/xili_g.skel",
+        "extra_file": [],
+        "name": "Yuudachi_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xili_g/xili_g_hx.skel",
+        "extra_file": [],
+        "name": "Yuudachi_Retrofit_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xinnong/xinnongT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/xinnong/xinnongB.skel"
+        ],
+        "name": "Shinano_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xinzexi/xinzexi.skel",
+        "extra_file": [],
+        "name": "New Jersey_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanusi_4/yanusi_4.skel",
+        "extra_file": [],
+        "name": "Janus_Fear of Changing... Clothes"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanusi_4/yanusi_4_hx.skel",
+        "extra_file": [],
+        "name": "Janus_Fear of Changing... Clothes_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanzhan_g/yanzhan_g.skel",
+        "extra_file": [],
+        "name": "Warspite_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yixian_2/yixian_2T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yixian_2/yixian_2B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yixian_2/yixian_2M.skel"
+        ],
+        "name": "Yat Sen_Paragon of Celestial Grace"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou/yuanchouT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou/yuanchouB.skel"
+        ],
+        "name": "Implacable_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou/yuanchouT_hx.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou/yuanchouB.skel"
+        ],
+        "name": "Implacable_Default_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou_2/yuanchou_2.skel",
+        "extra_file": [],
+        "name": "Implacable_Shepherd of the Lost"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou_2/yuanchou_2_hx.skel",
+        "extra_file": [],
+        "name": "Implacable_Shepherd of the Lost_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekechengii/yukechengIIT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekechengii/yukechengIIB.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekechengii/yukechengIIM.skel"
+        ],
+        "name": "Yorktown II_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekechengii_2/yuekechengII_2T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekechengii_2/yuekechengII_2B.skel"
+        ],
+        "name": "Yorktown II_Bright-Sky Mermaid"
+    }
+]

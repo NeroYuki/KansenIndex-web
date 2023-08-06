@@ -1,0 +1,654 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/101/skeleton.json",
+        "name": "101.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/101_s/skeleton.json",
+        "name": "101_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/102/skeleton.json",
+        "name": "Enterprise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/102_h/skeleton.json",
+        "name": "Enterprise_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/102_jf/skeleton.json",
+        "name": "Enterprise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/102_s/skeleton.json",
+        "name": "Enterprise_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/103/skeleton.json",
+        "name": "U-995.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/103_s/skeleton.json",
+        "name": "U-995_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/104/skeleton.json",
+        "name": "I-401.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/104_s/skeleton.json",
+        "name": "I-401_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/105/skeleton.json",
+        "name": "Ajax.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/105_s/skeleton.json",
+        "name": "Ajax_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/106/skeleton.json",
+        "name": "Missouri.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/106_h/skeleton.json",
+        "name": "Missouri_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/106_s/skeleton.json",
+        "name": "Missouri_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/106_tnl/skeleton.json",
+        "name": "Missouri.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/107/skeleton.json",
+        "name": "Fletcher.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/107_s/skeleton.json",
+        "name": "Fletcher_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/108/skeleton.json",
+        "name": "Yamato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/108_cs/skeleton.json",
+        "name": "Yamato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/108_h/skeleton.json",
+        "name": "Yamato_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/108_s/skeleton.json",
+        "name": "Yamato_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/108_ss/skeleton.json",
+        "name": "Yamato_alt_SN.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/109/skeleton.json",
+        "name": "Vittorio Veneto.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/109_s/skeleton.json",
+        "name": "Vittorio Veneto_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/110/skeleton.json",
+        "name": "Nagato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/110_s/skeleton.json",
+        "name": "Nagato_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/111/skeleton.json",
+        "name": "Akagi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/111_s/skeleton.json",
+        "name": "Akagi_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/112/skeleton.json",
+        "name": "Ark Royal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/112_h/skeleton.json",
+        "name": "Ark Royal_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/112_np/skeleton.json",
+        "name": "Ark Royal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/112_s/skeleton.json",
+        "name": "Ark Royal_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/113/skeleton.json",
+        "name": "Zuikaku.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/113_s/skeleton.json",
+        "name": "Zuikaku_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/114/skeleton.json",
+        "name": "Tribal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/114_s/skeleton.json",
+        "name": "Tribal_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/115/skeleton.json",
+        "name": "Le Fantastique.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/115_hf/skeleton.json",
+        "name": "Le Fantastique.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/115_s/skeleton.json",
+        "name": "Le Fantastique_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/116/skeleton.json",
+        "name": "Yukikaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/116_s/skeleton.json",
+        "name": "Yukikaze_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/117/skeleton.json",
+        "name": "Z1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/117_s/skeleton.json",
+        "name": "Z1_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/118/skeleton.json",
+        "name": "Silversides.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/118_s/skeleton.json",
+        "name": "Silversides_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/119/skeleton.json",
+        "name": "Jeanne d'Arc.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/119_s/skeleton.json",
+        "name": "Jeanne d'Arc_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/120/skeleton.json",
+        "name": "120.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/120_s/skeleton.json",
+        "name": "120_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/121/skeleton.json",
+        "name": "Sheffield.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/121_s/skeleton.json",
+        "name": "Sheffield_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/122/skeleton.json",
+        "name": "Bismarck.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/122_h/skeleton.json",
+        "name": "Bismarck_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/122_hs/skeleton.json",
+        "name": "Bismarck.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/122_s/skeleton.json",
+        "name": "Bismarck_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/123/skeleton.json",
+        "name": "Köln.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/123_s/skeleton.json",
+        "name": "Köln_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/124/skeleton.json",
+        "name": "Hood.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/124_cs/skeleton.json",
+        "name": "Hood.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/124_s/skeleton.json",
+        "name": "Hood_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/125/skeleton.json",
+        "name": "C-13.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/125_s/skeleton.json",
+        "name": "C-13_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/126/skeleton.json",
+        "name": "Krasny Kavkaz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/126_s/skeleton.json",
+        "name": "Krasny Kavkaz_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/127/skeleton.json",
+        "name": "U-552.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/127_s/skeleton.json",
+        "name": "U-552_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/128/skeleton.json",
+        "name": "Farragut.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/128_s/skeleton.json",
+        "name": "Farragut_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/128_sy/skeleton.json",
+        "name": "Farragut.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/129/skeleton.json",
+        "name": "Washington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/129_s/skeleton.json",
+        "name": "Washington_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/129_yd/skeleton.json",
+        "name": "Washington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/130/skeleton.json",
+        "name": "Lexington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/130_s/skeleton.json",
+        "name": "Lexington_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/131/skeleton.json",
+        "name": "King George V.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/131_s/skeleton.json",
+        "name": "King George V_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/132/qibolin.json",
+        "name": "Graf Zeppelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/132_s/skeleton.json",
+        "name": "Graf Zeppelin_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/133/skeleton.json",
+        "name": "Dunkerque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/133_s/skeleton.json",
+        "name": "Dunkerque_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/134/skeleton.json",
+        "name": "Augusta.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/134_s/skeleton.json",
+        "name": "Augusta_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/135/skeleton.json",
+        "name": "Fubuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/135_s/skeleton.json",
+        "name": "Fubuki_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/136/skeleton.json",
+        "name": "U-511.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/136_s/skeleton.json",
+        "name": "U-511_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/137/skeleton.json",
+        "name": "Yuudachi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/137_s/skeleton.json",
+        "name": "Yuudachi_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/138/skeleton.json",
+        "name": "Lance.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/138_s/skeleton.json",
+        "name": "Lance_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/139/skeleton.json",
+        "name": "Aquilla.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/139_s/skeleton.json",
+        "name": "Aquilla_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/140/skeleton.json",
+        "name": "Prinz Eugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/140_h/skeleton.json",
+        "name": "Prinz Eugen_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/140_hf/skeleton.json",
+        "name": "Prinz Eugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/140_s/skeleton.json",
+        "name": "Prinz Eugen_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/141/skeleton.json",
+        "name": "Helena.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/141_s/skeleton.json",
+        "name": "Helena_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/142/skeleton.json",
+        "name": "Shakespeare.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/142_s/skeleton.json",
+        "name": "Shakespeare_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/143/skeleton.json",
+        "name": "Albacore.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/143_s/skeleton.json",
+        "name": "Albacore_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/144/skeleton.json",
+        "name": "Archerfish.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/144_h/skeleton.json",
+        "name": "Archerfish_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/144_hf/skeleton.json",
+        "name": "Archerfish.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/144_s/skeleton.json",
+        "name": "Archerfish_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/145/skeleton.json",
+        "name": "Illustrious.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/145_s/skeleton.json",
+        "name": "Illustrious_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/146/skeleton.json",
+        "name": "London.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/146_h/skeleton.json",
+        "name": "London_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/146_s/skeleton.json",
+        "name": "London_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/146_tnl/skeleton.json",
+        "name": "London.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/147/skeleton.json",
+        "name": "U-81.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/147_h/skeleton.json",
+        "name": "U-81_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/147_np/skeleton.json",
+        "name": "U-81.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/147_s/skeleton.json",
+        "name": "U-81_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/148/skeleton.json",
+        "name": "148.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/148_s/skeleton.json",
+        "name": "148_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/150/skeleton.json",
+        "name": "150.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/150_s/skeleton.json",
+        "name": "150_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/151/skeleton.json",
+        "name": "Loud.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/151_h/skeleton.json",
+        "name": "Loud_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/151_s/skeleton.json",
+        "name": "Loud_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/153/skeleton.json",
+        "name": "William D. Porter.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/153_h/skeleton.json",
+        "name": "William D. Porter_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/153_hf/skeleton.json",
+        "name": "William D. Porter_alt_HF.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/153_s/skeleton.json",
+        "name": "William D. Porter_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/154/skeleton.json",
+        "name": "Surcouf.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/154_h/skeleton.json",
+        "name": "Surcouf_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/154_s/skeleton.json",
+        "name": "Surcouf_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/155/skeleton.json",
+        "name": "Essex.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/155_h/skeleton.json",
+        "name": "Essex_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/155_s/skeleton.json",
+        "name": "Essex_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/157/skeleton.json",
+        "name": "Tirpitz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/157_h/skeleton.json",
+        "name": "Tirpitz_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/157_s/skeleton.json",
+        "name": "Tirpitz_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/158/skeleton.json",
+        "name": "Richelieu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/158_h/skeleton.json",
+        "name": "Richelieu_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/158_s/skeleton.json",
+        "name": "Richelieu_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/159/skeleton.json",
+        "name": "Gremyashchiy.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/159_h/skeleton.json",
+        "name": "Gremyashchiy_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/159_s/skeleton.json",
+        "name": "Gremyashchiy_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/160/skeleton.json",
+        "name": "Shandong.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/160_h/skeleton.json",
+        "name": "Shandong_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/160_s/skeleton.json",
+        "name": "Shandong_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/160_yd/skeleton.json",
+        "name": "Shandong.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/163/skeleton.json",
+        "name": "Luoyang.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/163_h/skeleton.json",
+        "name": "Luoyang_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/163_s/skeleton.json",
+        "name": "Luoyang_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/163_yzy/skeleton.json",
+        "name": "Luoyang.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/167/skeleton.json",
+        "name": "Taihou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/167_h/skeleton.json",
+        "name": "Taihou_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/167_ox/skeleton.json",
+        "name": "Taihou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/167_s/skeleton.json",
+        "name": "Taihou_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/168/skeleton.json",
+        "name": "Mogami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/168_h/skeleton.json",
+        "name": "Mogami_oath.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/168_s/skeleton.json",
+        "name": "Mogami_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/170/skeleton.json",
+        "name": "Anna.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/170_hs/skeleton.json",
+        "name": "Anna.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/170_s/skeleton.json",
+        "name": "Anna_alt_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/171/skeleton.json",
+        "name": "Haruka.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Lane Girls/spine/171_s/skeleton.json",
+        "name": "Haruka_alt_SS.png"
+    }
+]
