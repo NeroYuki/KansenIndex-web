@@ -14,6 +14,7 @@ import { FaSearch } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
 import { SiteHeader, SiteFooter } from "../../Component"
 import { GET_query } from "../../Service/shipgirl"
+import { SimpleCharCard } from "../../Component/SimpleCGCard"
 
 export const ShipIndex = () => {
 
@@ -25,6 +26,7 @@ export const ShipIndex = () => {
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
     const [loadedDefault, setLoadedDefault] = useState(false)
+    const [resultView, setResultView] = useState('card')
     const [franchiseSelection, setFranchiseSelection] = useState([
         "Abyss Horizon",
         "Akushizu Senki",
@@ -159,6 +161,12 @@ export const ShipIndex = () => {
         )
     })
 
+    const cardList = shiplist.map((val, index) => {
+        return (
+            <SimpleCharCard style={{margin: '10px'}} key={val._id} data={val} onCardClick={navigateToCG} />
+        )
+    })
+
     const franchiseOption = franchiseSelection.map(val => {
         return (
             <option key={val} value={val}>{val}</option>
@@ -174,6 +182,10 @@ export const ShipIndex = () => {
         const mod_val = 1 << key
         // console.log((value & mod_val) === mod_val)
         return (value & mod_val) === mod_val
+    }
+
+    function onResultViewChange(e) {
+        setResultView(e.target.value)
     }
 
     return (
@@ -242,29 +254,40 @@ export const ShipIndex = () => {
 
                     </Box>
                     {/* result here as a table? */}
+                    <Select defaultValue={'card'} size='md' mt={'40px'} width={'300px'} bgColor={'whiteAlpha.700'} onChange={onResultViewChange}>
+                        <option key='table' value='table'>Table</option>
+                        <option key='card' value='card'>Cards</option>
+                    </Select>
+
                     <Box bg="gray.300" p='32px' marginTop='40px' className="apply-shadow" height='auto' display='flex' flexDirection='column' alignItems='center'>
                         <Box bg="gray.300" marginBottom={10} height='auto' display='flex' flexDirection='row' alignItems='center' justifyContent={'left'}>
                             <Button disabled={page <= 1 || blocked} onClick={() => {setPage(page - 1)}}>Prev. Page</Button>
                             <p style={{marginLeft: 20, marginRight: 20}}>{`Page ${page}`}</p>
                             <Button disabled={shiplist.length === 0 || blocked} onClick={() => {setPage(page + 1)}}>Next Page</Button>
                         </Box>
-                        <div style={{zIndex: 0, width: "100%", overflowX: 'scroll' }}>
-                        <Table variant='simple' width={"100%"}>
-                            <TableCaption>{`Displaying ${shiplist.length} entries`}</TableCaption>
-                            <Thead>
-                                <Tr>
-                                    <Th>Character</Th>
-                                    <Th>Franchise</Th>
-                                    <Th>Filename</Th>
-                                    <Th>Base Variant</Th>
-                                    <Th>Image Link</Th>
-                                </Tr>
-                            </Thead>
-                            <Tbody>
-                                {tableRows}
-                            </Tbody>
-                        </Table>
-                        </div>
+                        {resultView === 'card' ? 
+                            <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
+                                {cardList}
+                            </Flex>
+                            :
+                            <div style={{zIndex: 0, width: "100%", overflowX: 'scroll' }}>
+                                <Table variant='simple' width={"100%"}>
+                                    <TableCaption>{`Displaying ${shiplist.length} entries`}</TableCaption>
+                                    <Thead>
+                                        <Tr>
+                                            <Th>Character</Th>
+                                            <Th>Franchise</Th>
+                                            <Th>Filename</Th>
+                                            <Th>Base Variant</Th>
+                                            <Th>Image Link</Th>
+                                        </Tr>
+                                    </Thead>
+                                    <Tbody>
+                                        {tableRows}
+                                    </Tbody>
+                                </Table>
+                            </div>
+                        }
                     </Box>
                 </Box>
             </SlideFade>

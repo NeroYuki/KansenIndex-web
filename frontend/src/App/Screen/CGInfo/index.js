@@ -4,7 +4,7 @@ import { FaCopy, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
 import { SiteFooter, SiteHeader } from "../../Component"
 import { debounce } from "lodash"
-import { GET_cgById, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
+import { GET_cgById, GET_query, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
 import { Live2DModel } from 'pixi-live2d-display/cubism4';
 import * as PIXI from 'pixi.js';
@@ -13,6 +13,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { SimpleCharCard } from "../../Component/SimpleCGCard"
 
 const LEGACY_THREEJS_REQUIRED_FOLDERS = ["Lane Girls", "Abyss Horizon"]
 const LEGACY_CHIBI_REQUIRED_FOLDERS = ["Black Surgenights", "Azur Lane"]
@@ -107,6 +108,7 @@ export const CGInfo = (props) => {
     const [favCount, setFavCount] = useState(0)
     const [isFav, setIsFav] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
+    const [relateCGs, setRelateCGs] = useState([])
 
     const data = cgInfoState
 
@@ -129,6 +131,29 @@ export const CGInfo = (props) => {
         }})
     }, [navigate, data.folder])
 
+    const navigateToCG = useCallback((val) => {
+        console.log(val)
+        navigate('/cg_info', {state: {
+            data: val
+        }})
+    }, [navigate])
+
+    const searchRelateCG = useCallback(async () => {
+        if (data.char === 'Placeholder Character' || data.folder === 'Placeholder Folder') return
+        let query = {
+            keyword: data.char,
+            page: 1,
+            selectedFranchise: data.folder
+        }
+
+        let res = await GET_query(query).catch(e => console.log(e))
+        if (!res) return
+        // remove the current cg from the list
+        res = res.filter((val) => val._id !== data._id)
+        //console.log(res)
+        setRelateCGs(res)
+    }, [data])
+
     useEffect(async () => {
         // get fav count
         if (data.char === 'Placeholder Character' || data.folder === 'Placeholder Folder') return
@@ -138,6 +163,7 @@ export const CGInfo = (props) => {
             setIsFav(res.is_fav)
             setIsLoading(false)
         })
+        searchRelateCG()
 
         if (data.spine) {
             if (LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder)) {
@@ -568,6 +594,12 @@ export const CGInfo = (props) => {
         )
     })
 
+    const relatedCGsList = (relateCGs || []).map((cg, index) => {
+        return (
+            <SimpleCharCard key={index} data={cg} onCardClick={navigateToCG} />
+        )
+    })
+
     return (
         <Flex direction={'column'}>
             <SiteHeader />
@@ -671,6 +703,15 @@ export const CGInfo = (props) => {
                                 <Text ml={2}>Copy Link</Text>
                             </Button>
                         </Flex>
+
+                        <Flex mt={12}>
+                            <Text flex="1" fontSize="md" fontWeight={'bold'} >
+                                Related CG
+                            </Text>
+                        </Flex>
+                        <HStack mt={6} spacing={'6px'} overflowX={'scroll'}>
+                            {relatedCGsList}
+                        </HStack>
                     </Box>
                 </Flex>
             </SlideFade>
