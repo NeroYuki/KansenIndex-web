@@ -106,11 +106,11 @@ export const Home = () => {
                     <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Illustration</p>
-                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>10624</p>
+                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>10910</p>
                         </Box>
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Ships</p>
-                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>1469</p>
+                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>1487</p>
                         </Box>
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Franchise</p>
@@ -126,7 +126,7 @@ export const Home = () => {
                             <a href="https://discord.gg/km7PvVFXyv" target="_blank" rel="noreferrer">
                                 <img src="https://discord.com/api/guilds/947526480081072158/widget.png?style=banner2" alt="Discord Banner"/>
                             </a>
-                            <Text fontSize={"16px"} mt="16px">-Nero Yuki-#4084</Text>
+                            <Text fontSize={"16px"} mt="16px">@neroyuki</Text>
                         </Box>
                         <Box display={'flex'} flexDirection={'column'} minW={'300px'}>
                             <Text mb="16px" fontSize={"20px"} fontWeight={"semibold"}>Twitter</Text>
