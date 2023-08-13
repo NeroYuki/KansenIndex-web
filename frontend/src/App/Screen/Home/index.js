@@ -65,7 +65,7 @@ export const Home = () => {
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
-                <Box bg='gray.300' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
+                <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'} marginTop={140}>
                     <Heading as='h3' size='2xl' style={{fontWeight: '100'}} p='40px'>Welcome to the KansenIndex</Heading>
                     <p style={{fontSize: 18}}>The all-in-one index of (almost) all franchise involving anthropomorphic warships</p>
                     <AutoComplete onSelectOption={(res) => navigateToCG(res.item.originalValue)} 
@@ -95,13 +95,17 @@ export const Home = () => {
                         </Center>
                     </AutoComplete>
                     <Center mt={"-16px"} mb={"16px"}>
-                        <Button p="16px" onClick={navigateToRandomCG}>
+                        <Button p="16px" onClick={navigateToRandomCG} 
+                            style={{border: '1px solid #888888'}}
+                            // _selected={{ bg: "blue.50" }}
+                            // _focus={{ bg: "blue.100" }}
+                        >
                             <Icon boxSize={8} as={FaDice} />
                             <Text fontSize={"xl"} ml={"16px"}>Go to Random CG </Text>
                         </Button>
                     </Center>
                 </Box>
-                <Box bg='gray.400' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
+                <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Current Database contains...</Heading>
                     <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
                         <Box display={'flex'} flexDirection={'column'}>
@@ -118,7 +122,7 @@ export const Home = () => {
                         </Box>
                     </Box>
                 </Box>
-                <Box bg='gray.300' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
+                <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Reach out to us at</Heading>
                     <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" flexWrap={'wrap'} >
                         <Box display={'flex'} flexDirection={'column'} minW={'300px'}>

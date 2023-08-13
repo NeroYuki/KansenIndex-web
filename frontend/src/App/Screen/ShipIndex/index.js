@@ -192,13 +192,13 @@ export const ShipIndex = () => {
         <Flex direction={'column'}>
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
-                <Box bg='blue.100' p="40px">
+                <Box bg='backdrop' p="40px" marginTop={140}>
                     {/* filter box here */}
-                    <Box bg="gray.300" p='32px' className="apply-shadow" height='auto'>
+                    <Box bg="muted" p='32px' className="apply-shadow" height='auto'>
                         <Text fontSize={14} marginBottom='10px' fontWeight={500}>Ship Index Search</Text>
                         <Box display={'flex'} flexDirection={'row'} alignItems="center" marginBottom='10px' >
                             <FaSearch scale={2}/>
-                            <Input value={keyword} marginLeft='10px' placeholder="Enter keyword" color='black' size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
+                            <Input value={keyword} marginLeft='10px' placeholder="Enter keyword" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
                         </Box>
                         <Stack direction={'row'} spacing='10px' marginBottom='10px'>
                             <Text fontWeight={500}>Keyword in:</Text>
@@ -254,13 +254,13 @@ export const ShipIndex = () => {
 
                     </Box>
                     {/* result here as a table? */}
-                    <Select defaultValue={'card'} size='md' mt={'40px'} width={'300px'} bgColor={'whiteAlpha.700'} onChange={onResultViewChange}>
+                    <Select defaultValue={'card'} size='md' mt={'40px'} width={'300px'} bgColor={'muted'} onChange={onResultViewChange}>
                         <option key='table' value='table'>Table</option>
                         <option key='card' value='card'>Cards</option>
                     </Select>
 
-                    <Box bg="gray.300" p='32px' marginTop='40px' className="apply-shadow" height='auto' display='flex' flexDirection='column' alignItems='center'>
-                        <Box bg="gray.300" marginBottom={10} height='auto' display='flex' flexDirection='row' alignItems='center' justifyContent={'left'}>
+                    <Box bg="muted" p='32px' marginTop='40px' className="apply-shadow" height='auto' display='flex' flexDirection='column' alignItems='center'>
+                        <Box bg="muted" marginBottom={10} height='auto' display='flex' flexDirection='row' alignItems='center' justifyContent={'left'}>
                             <Button disabled={page <= 1 || blocked} onClick={() => {setPage(page - 1)}}>Prev. Page</Button>
                             <p style={{marginLeft: 20, marginRight: 20}}>{`Page ${page}`}</p>
                             <Button disabled={shiplist.length === 0 || blocked} onClick={() => {setPage(page + 1)}}>Next Page</Button>
