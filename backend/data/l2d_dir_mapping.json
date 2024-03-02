@@ -60,6 +60,10 @@
         "name": "Baltimore_Finish Line Flagbearer"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bailong_3/bailong_3.model3.json",
+        "name": "Hakuryuu_Flash of Silk and Strings"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/banrenma_2/banrenma_2.model3.json",
         "name": "Centaur_Beachside Undine"
     },
@@ -128,6 +132,10 @@
         "name": "Fubuki_Music Pixy"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chuyue_2/chuyue_2.model3.json",
+        "name": "Hatsuzuki_August's First Romance"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/dafeng_2/dafeng_2.model3.json",
         "name": "Taihou_Forbidden Fruit"
     },
@@ -176,12 +184,20 @@
         "name": "Le Malin_Listless Lapin"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/geliqiya_2/geliqiya_2.model3.json",
+        "name": "Gorizia_Unrequited Office Love"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/genaisennao_2/genaisennao_2.model3.json",
         "name": "Gneisenau_Nightmarish Succubus"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/guangrong_3/guangrong_3.model3.json",
         "name": "Glorious_Pungent Plum"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/hailunna_4/hailunna_4.model3.json",
+        "name": "Helena_Shimmering Triangle Wave"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/haiyinlixi_2/haiyinlixi_2.model3.json",
@@ -228,6 +244,10 @@
         "name": "Kashino_Maid for Mayhem"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jianye_4/jianye_4.model3.json",
+        "name": "Kashino_Robust Floral Strings"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jiluofu_3/jiluofu_3.model3.json",
         "name": "Kirov_Drifting Justice"
     },
@@ -250,6 +270,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kalvbudisi_2/kalvbudisi_2.model3.json",
         "name": "Charybdis_Red Chamber of Healing"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kelaimengsuo_2/kelaimengsuo_2.model3.json",
+        "name": "Clemenceau_Splendid Breeze"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kelifulan_3/kelifulan_3.model3.json",
@@ -372,6 +396,10 @@
         "name": "Enterprise_Wind Catcher"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/qiye_9/qiye_9.model3.json",
+        "name": "Enterprise_Diving Under Blue Skies"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/rangbaer_3/rangbaer_3.model3.json",
         "name": "Jean Bart_Private Apr\u00e8s Midi"
     },
@@ -440,6 +468,10 @@
         "name": "Ulrich von Hutten_Mayhem Maid"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/wuerlixi_3/wuerlixi_3.model3.json",
+        "name": "Ulrich von Hutten_Ignition Matrician"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/wuqi_2/wuqi_2.model3.json",
         "name": "Azuma_Soft Voice of Spring"
     },
@@ -450,6 +482,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_3/xinnong_3.model3.json",
         "name": "Shinano_Moonlit Chrome"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_4/xinnong_4.model3.json",
+        "name": "Shinano_Dreamy White Sands"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinzexi_3/xinzexi_3.model3.json",
@@ -494,6 +530,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yingrui_3/yingrui_3.model3.json",
         "name": "Ying Swei_Frolicking Flowers, Verse I"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yunxian_2/yunxian_2.model3.json",
+        "name": "Unzen_Sojourn Through Clear Seas"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/z23/z23.model3.json",
