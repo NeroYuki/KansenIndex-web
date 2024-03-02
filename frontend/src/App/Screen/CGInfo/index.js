@@ -111,6 +111,20 @@ export const CGInfo = (props) => {
                 setCgInfoState(res)
             })
         }
+        const container = document.getElementById("related-container");
+        // where "container" is the id of the container
+        container.addEventListener("wheel", function (e) {
+            if (e.deltaY > 0) {
+                container.scrollLeft += 100;
+                e.preventDefault();
+                // prevenDefault() will help avoid worrisome 
+                // inclusion of vertical scroll 
+            }
+            else {
+                container.scrollLeft -= 100;
+                e.preventDefault();
+            }
+        });
     }, [location])
 
 
@@ -620,7 +634,7 @@ export const CGInfo = (props) => {
         <Flex direction={'column'}>
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
-                <Flex direction={'row'} wrap={'wrap'}>
+                <Flex direction={'row'} wrap={'wrap'} marginTop={140}>
                     <Box p='16px' flex='1' minW={'360px'}>
                         <Tabs>
                             <TabList>
@@ -635,7 +649,7 @@ export const CGInfo = (props) => {
                                 <TabPanel>
                                     <Center >
                                         {/* Image */}
-                                        <img style={{height: 500, margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
+                                        <img style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
                                     </Center>
                                 </TabPanel>
                                 {data.l2d && <TabPanel>
@@ -674,8 +688,8 @@ export const CGInfo = (props) => {
                         </Tabs>
                         
                     </Box>
-                    <Box bg='blue.100' p="32px" flex='1' minW={'360px'}>
-                        <Flex bg='blue.200' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                    <Box bg='secondary' p="32px" flex='1' minW={'360px'}>
+                        <Flex bg='primary' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                             <Text flex='1' fontSize="lg" fontWeight={"semibold"}>Character Name</Text>
                             <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
                                 <Text flex="1" fontSize="xl" fontWeight={"semibold"} >
@@ -684,22 +698,22 @@ export const CGInfo = (props) => {
                                 <IconButton aria-label="search character" icon={<FaSearch />} onClick={onCharacterSearch} />
                             </Flex>
                         </Flex>
-                        <Flex bg='blue.200' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                        <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                             <Text flex="1" fontSize="md">Modifier Name</Text>
                             <Flex flex="3" bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                                 <Text flex="1" fontSize="md">
                                     {modifierName}
                                 </Text>
                                 <HStack spacing={'6px'}>
-                                    {data.is_base && <Tag size={'lg'} bg={'green.200'}>Base</Tag>}
-                                    {data.is_damage && <Tag bg={'red.200'}>Damaged</Tag>}
-                                    {(!data.is_base && !data.is_retrofit && !data.is_damage) && <Tag bg={'orange.200'}>Outfit</Tag>}
-                                    {data.is_retrofit && <Tag bg={'yellow.200'}>Retrofit</Tag>}
-                                    {data.is_oath && <Tag bg={'pink.200'}>Oath</Tag>}
+                                    {data.is_base && <Tag size={'lg'} bg={'green'}>Base</Tag>}
+                                    {data.is_damage && <Tag bg={'red'}>Damaged</Tag>}
+                                    {(!data.is_base && !data.is_retrofit && !data.is_damage) && <Tag bg={'orange'}>Outfit</Tag>}
+                                    {data.is_retrofit && <Tag bg={'yellow'}>Retrofit</Tag>}
+                                    {data.is_oath && <Tag bg={'pink'}>Oath</Tag>}
                                 </HStack>
                             </Flex>
                         </Flex>
-                        <Flex bg='blue.200' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                        <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                             <Text flex='1' fontSize="md">Source</Text>
                             <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
                                 <Text flex="1" fontSize="md" >
@@ -725,7 +739,7 @@ export const CGInfo = (props) => {
                                 Related CG
                             </Text>
                         </Flex>
-                        <HStack mt={6} spacing={'6px'} overflowX={'scroll'}>
+                        <HStack mt={6} spacing={'6px'} overflowX={'scroll'} id="related-container">
                             {relatedCGsList}
                         </HStack>
                     </Box>

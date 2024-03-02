@@ -2,7 +2,7 @@ import { Box, Button, Divider, Flex, Text } from "@chakra-ui/react"
 
 export const FranchiseCardView = (props) => {
     return (
-        <Box className="apply-shadow" h='180px' w='400px' bg='yellow.100' style={{borderRadius: '10px'}}>
+        <Box className="apply-shadow" h='180px' w='400px' bg='card' style={{borderRadius: '10px'}}>
             <Flex direction={"row"}>
                 <div style={{flex: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', padding: 10}}>{props.image_link ? <img src={props.image_link} alt="title logo"></img>  : 'Insert logo here'}</div>
                 <Flex height='180px'>

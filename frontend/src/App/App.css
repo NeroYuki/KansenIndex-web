@@ -49,9 +49,14 @@
   font-size: 12px;
 }
 
+.chakra-ui-dark .markdown-content a {
+  color: cyan;
+}
+
 .markdown-content a {
   color: blue;
 }
+
 .markdown-content li {
   margin-top: 10px;
 }

@@ -25,16 +25,16 @@ export const SimpleCharCard = (props) => {
     thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
 
     return (
-        <Box style={{...style}} position={'relative'} bg='white' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' onClick={() => {if (props.onCardClick) props.onCardClick(data)}}>
+        <Box style={{...style}} position={'relative'} bg='card' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' onClick={() => {if (props.onCardClick) props.onCardClick(data)}}>
             <img src={thumb_dir} alt={data.filename} style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} />
             <Flex position={'absolute'} top={0} left={0} direction={'column'} height={'100%'} justify={'space-between'} >
-                <Flex direction={'row'} justify={'space-between'} style={{backgroundColor: '#FFFFFF22'}} width={'332px'}>
+                <Flex direction={'row'} justify={'space-between'} width={'332px'}>
                     <Flex direction={'column'} justify={'space-between'}  p='10px' >
                         <Heading size={'md'}>{data.char}</Heading>
                         <Text mt={1}>{data.folder}</Text>
                     </Flex>
                 </Flex>
-                <Box style={{backgroundColor: '#FFFFFF22'}} p='10px' width={'332px'} >
+                <Box p='10px' width={'332px'} >
                     <Text float={'right'}>{modifierName}</Text>
                 </Box>
             </Flex>

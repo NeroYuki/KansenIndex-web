@@ -18,6 +18,7 @@ export const GameIndex = () => {
     const toast = useToast()
     const [gameList, setGameList] = useState([])
     const [gameInfo, setGameInfo] = useState({})
+    const [isReady, setIsReady] = useState(false)
 
     function showErrorToast(e) {
         toast({
@@ -34,6 +35,7 @@ export const GameIndex = () => {
             let res = await GET_list_all().catch(e => showErrorToast(e))
             if (!res) return
             setGameList(res)
+            setIsReady(true)
         }
         fetchData()
     }, [])
@@ -71,8 +73,8 @@ export const GameIndex = () => {
                 </ModalContent>
             </Modal>
 
-            <SlideFade in={true} offsetY='-80px'>
-                <Flex bg='yellow.200' direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
+            <SlideFade in={isReady} offsetY='-80px'>
+                <Flex bg='backdrop' direction={'row'} wrap={'wrap'} justify={'space-evenly'} marginTop={140}>
                     {cardList}
                 </Flex>
             </SlideFade>

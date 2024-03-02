@@ -26,19 +26,19 @@ const SimpleCharCard = (props) => {
     thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
 
     return (
-        <Box position={'relative'} bg='white' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' m='10px'>
+        <Box position={'relative'} bg='card' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' m='10px'>
             <img src={thumb_dir} alt={char} style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} />
             <Flex position={'absolute'} top={0} left={0} direction={'column'} height={'100%'} justify={'space-between'} >
-                <Flex direction={'row'} justify={'space-between'} style={{backgroundColor: '#FFFFFF22'}} width={'332px'}>
+                <Flex direction={'row'} justify={'space-between'} width={'332px'}>
                     <Flex direction={'column'} justify={'space-between'}  p='10px' >
                         <Heading size={'md'}>{char}</Heading>
                         <Text mt={1}>{folder}</Text>
                     </Flex>
-                    <Flex p='10px' style={{backgroundColor: '#44FF4422'}} justifyContent="center" alignItems="center">
+                    <Flex p='10px' style={{backgroundColor: '#44FF4422', borderRadius: '0px 10px 0px 0px'}} justifyContent="center" alignItems="center">
                         <Text fontWeight="bold" float={'right'}>{ordinal_suffix_of(pos)}</Text>
                     </Flex>
                 </Flex>
-                <Box style={{backgroundColor: '#FFFFFF22'}} p='10px' width={'332px'} >
+                <Box p='10px' width={'332px'} >
                     <Text fontWeight="bold" float={'right'}>❤️ {fav_count}</Text>
                 </Box>
             </Flex>
@@ -48,9 +48,13 @@ const SimpleCharCard = (props) => {
 
 export const BoteLB = () => {
     const [topBoteList, setTopBoteList] = useState([])
+    const [isReady, setIsReady] = useState(false)
 
     useEffect(() => {
-        GET_getTopFav().then(res => setTopBoteList(res))
+        GET_getTopFav().then(res => {
+            setTopBoteList(res)
+            setIsReady(true)
+        })
     }, [])
 
     const cardList = topBoteList.map((val, index) => {
@@ -62,8 +66,8 @@ export const BoteLB = () => {
     return (
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
-            <SlideFade in={true} offsetY='-80px'>
-                <Box bg='green.200' p='24px'>
+            <SlideFade in={isReady} offsetY='-80px'>
+                <Box bg='backdrop' p='24px' marginTop={140}>
                     <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
                         {cardList}
                     </Flex>
