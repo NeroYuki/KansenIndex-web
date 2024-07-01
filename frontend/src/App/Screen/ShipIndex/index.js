@@ -1,5 +1,5 @@
 import { Box, Flex, Text, Input, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
-    Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast } from "@chakra-ui/react"
+    Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem } from "@chakra-ui/react"
 import {
     Table,
     Thead,
@@ -30,6 +30,7 @@ export const ShipIndex = () => {
     const [franchiseSelection, setFranchiseSelection] = useState([
         "Abyss Horizon",
         "Akushizu Senki",
+        "Arms Amory",
         "Arpeggio of Blue Steel",
         "Artist Original Content",
         "Azur Lane",
@@ -48,6 +49,7 @@ export const ShipIndex = () => {
         "Maiden Fleet",
         "Mirage of Steelblue",
         "Moe Moe World War II",
+        "Monster Strike",
         "Shipgirls Collection",
         "Shipgirls GO",
         "Shoujo Heiki",
@@ -97,7 +99,20 @@ export const ShipIndex = () => {
     }
 
     useEffect(() => {
-        if (location.state?.searchData && !loadedDefault) {
+        // decode query string if available
+        if (location.search && !loadedDefault) {
+            const query = new URLSearchParams(location.search)
+            setKeyword(query.get('keyword') || "")
+            setKeywordMod(query.get('keywordMod') || 0)
+            setConstructMod(query.get('constructMod') || 0)
+            setAltOutfitMod(query.get('altOutfitMod') || 0)
+            setSelectedFranchise(query.get('selectedFranchise') || "")
+            setPage(parseInt(query.get('page')) || 1)
+
+            reloadData()
+            setLoadedDefault(true)
+        }
+        else if (location.state?.searchData && !loadedDefault) {
             // console.log(location.state.searchData)
             setKeyword(location.state.searchData.keyword || "")
             setKeywordMod(location.state.searchData.keywordMod || 0)
@@ -150,7 +165,7 @@ export const ShipIndex = () => {
         thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
         return (
             <Tr key={val.filename}>
-                <Td><Text onClick={() => navigateToCG(val)} style={{backgroundColor: 'white', padding: '4px 8px 4px 8px', borderRadius: 4}}>{val.char}</Text></Td>
+                <Td><Text onClick={() => navigateToCG(val)} bg="card" style={{padding: '4px 8px 4px 8px', borderRadius: 4}}>{val.char}</Text></Td>
                 <Td>{val.folder}</Td>
                 <Td>{val.filename}</Td>
                 <Td><Checkbox isChecked={val.is_base} isDisabled></Checkbox></Td>
@@ -207,14 +222,20 @@ export const ShipIndex = () => {
                                 <Checkbox isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
                         </Stack>
-                        <Stack direction={'row'} spacing='10px' marginBottom='20px'>
-                            <Select size={'lg'} placeholder="Select ship nationality"></Select>
-                            <Select size={'lg'} placeholder="Select ship hull type"></Select>
+                        <Wrap direction={'row'} justifyContent={'space-between'} wrap="wrap" spacing={5} marginBottom={5}>
+                            <WrapItem  marginBottom='20px' flex={'1 0 250px'}> 
+                                <Select size={'lg'} placeholder="Select ship nationality"></Select>
+                            </WrapItem>
+                            <WrapItem  marginBottom='20px' flex={'1 0 250px'}>
+                                <Select size={'lg'} placeholder="Select ship hull type"></Select>
+                            </WrapItem>
+                            <WrapItem  marginBottom='20px' flex={'1 0 250px'}>
                             <Select size={'lg'} placeholder="Select franchise" value={selectedFranchise} onChange={(e) => setSelectedFranchise(e.target.value)}>
                                 <option key="All" value="">All Franchise</option>
                                 {franchiseOption}
                             </Select>
-                        </Stack>
+                            </WrapItem>
+                        </Wrap >
 
                         <Accordion allowToggle marginBottom='20px'>
                             <AccordionItem>
@@ -250,7 +271,7 @@ export const ShipIndex = () => {
                             </AccordionItem>
                         </Accordion>
 
-                        <Button bg="blue.200" size={'lg'} justifySelf='right' onClick={onSearch}>Search</Button>
+                        <Button bg={'primary'} size={'lg'} justifySelf='right' onClick={onSearch}>Search</Button>
 
                     </Box>
                     {/* result here as a table? */}

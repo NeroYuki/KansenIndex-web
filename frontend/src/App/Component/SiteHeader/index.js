@@ -27,9 +27,9 @@ export const SiteHeader = (props) => {
                         </Link>
                     </Box>
                     <Flex flex='1' direction={'row'} justifyContent={'right'}>
-                        <Icon color={'yellow.100'} as={FaMoon} boxSize='20px' mr="12px"/>
+                        <Icon color={'yellow.400'} as={FaSun} boxSize='20px' mr="12px"/>
                         <Switch size='md' onChange={toggleColorMode} isChecked={colorMode !== 'light'}/>
-                        <Icon color={'yellow.400'} as={FaSun} boxSize='20px' ml="12px"/>
+                        <Icon color={'yellow.100'} as={FaMoon} boxSize='20px' ml="12px"/>
                     </Flex>
                 </Flex>
             </Box>

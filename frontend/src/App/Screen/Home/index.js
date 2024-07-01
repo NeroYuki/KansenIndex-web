@@ -107,7 +107,7 @@ export const Home = () => {
                 </Box>
                 <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Current Database contains...</Heading>
-                    <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
+                    <Box bg="card" display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Illustration</p>
                             <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>10910</p>
@@ -124,7 +124,7 @@ export const Home = () => {
                 </Box>
                 <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Reach out to us at</Heading>
-                    <Box display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" flexWrap={'wrap'} >
+                    <Box bg="card" display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" flexWrap={'wrap'} >
                         <Box display={'flex'} flexDirection={'column'} minW={'300px'}>
                             <Text mb="16px" fontSize={"20px"} fontWeight={"semibold"}>Discord</Text>
                             <a href="https://discord.gg/km7PvVFXyv" target="_blank" rel="noreferrer">

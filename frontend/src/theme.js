@@ -24,11 +24,11 @@ const style = {
                 _light: "blue.200"
             },
             muted: {
-                _dark: "gray.800",
+                _dark: "gray.700",
                 _light: "gray.300"
             },
             card: {
-                _dark: "gray.700",
+                _dark: "gray.600",
                 _light: "white"
             },
             backdrop: {
