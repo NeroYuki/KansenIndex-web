@@ -1,11 +1,43 @@
 [
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1001000/char_action_1001000.skel",
+        "name": "Midway_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1001001/char_action_1001001.skel",
         "name": "Midway_alt_1.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1001100/char_action_1001100.skel",
+        "name": "Midway_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1001101/char_action_1001101.skel",
         "name": "Midway_alt_101.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1002000/char_action_1002000.skel",
+        "name": "Shokaku_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1002001/char_action_1002001.skel",
+        "name": "Shokaku_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1002099/char_action_1002099.skel",
+        "name": "Shokaku_alt_99.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1002100/char_action_1002100.skel",
+        "name": "Shokaku_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1003000/char_action_1003000.skel",
+        "name": "Zuikaku_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1003100/char_action_1003100.skel",
+        "name": "Zuikaku_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1004000/char_action_1004000.skel",
@@ -14,6 +46,18 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1004100/char_action_1004100.skel",
         "name": "Mizuho_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1005000/char_action_1005000.skel",
+        "name": "Wasp_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1005099/char_action_1005099.skel",
+        "name": "Wasp_alt_99.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1005100/char_action_1005100.skel",
+        "name": "Wasp_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1006000/char_action_1006000.skel",
@@ -40,6 +84,14 @@
         "name": "Langley_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1009000/char_action_1009000.skel",
+        "name": "Shangri-la_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1009100/char_action_1009100.skel",
+        "name": "Shangri-la_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1010000/char_action_1010000.skel",
         "name": "Enterprise_normal.png"
     },
@@ -56,6 +108,14 @@
         "name": "Enterprise_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1011000/char_action_1011000.skel",
+        "name": "Bon Homme Richard_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1011100/char_action_1011100.skel",
+        "name": "Bon Homme Richard_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1012000/char_action_1012000.skel",
         "name": "Unicorn_normal.png"
     },
@@ -70,6 +130,14 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1014100/char_action_1014100.skel",
         "name": "Souryuu_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1015000/char_action_1015000.skel",
+        "name": "Essex_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1015100/char_action_1015100.skel",
+        "name": "Essex_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1016000/char_action_1016000.skel",
@@ -100,6 +168,10 @@
         "name": "Hornet_normal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1018100/char_action_1018100.skel",
+        "name": "Hornet_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1019000/char_action_1019000.skel",
         "name": "Indefatigable_normal.png"
     },
@@ -120,8 +192,24 @@
         "name": "Akagi_normal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1021100/char_action_1021100.skel",
+        "name": "Akagi_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1021101/char_action_1021101.skel",
+        "name": "Akagi_alt_101.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1022000/char_action_1022000.skel",
         "name": "Kaga_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1022100/char_action_1022100.skel",
+        "name": "Kaga_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1022101/char_action_1022101.skel",
+        "name": "Kaga_alt_101.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_1023000/char_action_1023000.skel",
@@ -184,6 +272,26 @@
         "name": "Hiyo_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_2002000/char_action_2002000.skel",
+        "name": "Hermes_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_2002001/char_action_2002001.skel",
+        "name": "Hermes_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_2002100/char_action_2002100.skel",
+        "name": "Hermes_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_2003000/char_action_2003000.skel",
+        "name": "Chitose_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_2003100/char_action_2003100.skel",
+        "name": "Chitose_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_2004000/char_action_2004000.skel",
         "name": "Argus_normal.png"
     },
@@ -216,6 +324,10 @@
         "name": "Shizuka Rin_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3001000/char_action_3001000.skel",
+        "name": "Atlanta_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3001100/char_action_3001100.skel",
         "name": "Atlanta_abyssal.png"
     },
@@ -224,8 +336,24 @@
         "name": "Leander_normal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3002100/char_action_3002100.skel",
+        "name": "Leander_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3004000/char_action_3004000.skel",
+        "name": "Cleveland_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3004001/char_action_3004001.skel",
+        "name": "Cleveland_alt_1.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3004100/char_action_3004100.skel",
         "name": "Cleveland_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3005000/char_action_3005000.skel",
+        "name": "Sendai_normal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3005100/char_action_3005100.skel",
@@ -240,8 +368,16 @@
         "name": "San Diego_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3010000/char_action_3010000.skel",
+        "name": "Leipzig_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3010001/char_action_3010001.skel",
         "name": "Leipzig_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3010100/char_action_3010100.skel",
+        "name": "Leipzig_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3012000/char_action_3012000.skel",
@@ -256,8 +392,24 @@
         "name": "Neptune_normal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3013100/char_action_3013100.skel",
+        "name": "Neptune_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3014000/char_action_3014000.skel",
+        "name": "Flint_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3014100/char_action_3014100.skel",
         "name": "Flint_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3015000/char_action_3015000.skel",
+        "name": "Königsberg_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3015100/char_action_3015100.skel",
+        "name": "Königsberg_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3016000/char_action_3016000.skel",
@@ -288,8 +440,24 @@
         "name": "Helena_normal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3018001/char_action_3018001.skel",
+        "name": "Helena_alt_1.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3018100/char_action_3018100.skel",
         "name": "Helena_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3019000/char_action_3019000.skel",
+        "name": "Juneau_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3019100/char_action_3019100.skel",
+        "name": "Juneau_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3019101/char_action_3019101.skel",
+        "name": "Juneau_alt_101.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3021000/char_action_3021000.skel",
@@ -326,6 +494,10 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3027100/char_action_3027100.skel",
         "name": "Kitakami_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3033000/char_action_3033000.skel",
+        "name": "Columbia_normal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_3033100/char_action_3033100.skel",
@@ -392,6 +564,10 @@
         "name": "Haguro_alt_1.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4005100/char_action_4005100.skel",
+        "name": "Haguro_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4006000/char_action_4006000.skel",
         "name": "Ashigara_normal.png"
     },
@@ -402,6 +578,14 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4006100/char_action_4006100.skel",
         "name": "Ashigara_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4007000/char_action_4007000.skel",
+        "name": "Hipper_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4007001/char_action_4007001.skel",
+        "name": "Hipper_alt_1.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4007100/char_action_4007100.skel",
@@ -428,16 +612,44 @@
         "name": "Seydlitz_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4010000/char_action_4010000.skel",
+        "name": "Lützow_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4010001/char_action_4010001.skel",
         "name": "Lützow_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4010100/char_action_4010100.skel",
+        "name": "Lützow_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4010199/char_action_4010199.skel",
         "name": "Lützow_alt_199.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4013000/char_action_4013000.skel",
+        "name": "Pensacola_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4013100/char_action_4013100.skel",
+        "name": "Pensacola_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4015000/char_action_4015000.skel",
+        "name": "Northampton_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4015100/char_action_4015100.skel",
+        "name": "Northampton_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4016000/char_action_4016000.skel",
         "name": "Mogami_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4016100/char_action_4016100.skel",
+        "name": "Mogami_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4019000/char_action_4019000.skel",
@@ -448,12 +660,48 @@
         "name": "Kako_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4020000/char_action_4020000.skel",
+        "name": "Takao_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4020001/char_action_4020001.skel",
         "name": "Takao_alt_1.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4020100/char_action_4020100.skel",
+        "name": "Takao_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4021000/char_action_4021000.skel",
+        "name": "Atago_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4021001/char_action_4021001.skel",
         "name": "Atago_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4021100/char_action_4021100.skel",
+        "name": "Atago_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4023000/char_action_4023000.skel",
+        "name": "Choukai_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4023001/char_action_4023001.skel",
+        "name": "Choukai_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4023100/char_action_4023100.skel",
+        "name": "Choukai_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4030000/char_action_4030000.skel",
+        "name": "Norfolk_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4030100/char_action_4030100.skel",
+        "name": "Norfolk_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_4031000/char_action_4031000.skel",
@@ -520,6 +768,26 @@
         "name": "Gridley_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5006000/char_action_5006000.skel",
+        "name": "Kagero_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5006100/char_action_5006100.skel",
+        "name": "Kagero_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5008000/char_action_5008000.skel",
+        "name": "Shiranui_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5008001/char_action_5008001.skel",
+        "name": "Shiranui_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5008100/char_action_5008100.skel",
+        "name": "Shiranui_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5009000/char_action_5009000.skel",
         "name": "Mahan_normal.png"
     },
@@ -528,12 +796,32 @@
         "name": "Mahan_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5010000/char_action_5010000.skel",
+        "name": "Beagle_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5010001/char_action_5010001.skel",
         "name": "Beagle_alt_1.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5010100/char_action_5010100.skel",
+        "name": "Beagle_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5011000/char_action_5011000.skel",
         "name": "Battleaxe_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5011100/char_action_5011100.skel",
+        "name": "Battleaxe_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5012000/char_action_5012000.skel",
+        "name": "Cassin_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5012100/char_action_5012100.skel",
+        "name": "Cassin_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5013000/char_action_5013000.skel",
@@ -552,8 +840,24 @@
         "name": "Hibiki_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5015000/char_action_5015000.skel",
+        "name": "Shiratsuyu_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5015100/char_action_5015100.skel",
+        "name": "Shiratsuyu_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5017000/char_action_5017000.skel",
+        "name": "Fortune_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5017001/char_action_5017001.skel",
         "name": "Fortune_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5017100/char_action_5017100.skel",
+        "name": "Fortune_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5019000/char_action_5019000.skel",
@@ -590,6 +894,10 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5025000/char_action_5025000.skel",
         "name": "Vampire_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5025100/char_action_5025100.skel",
+        "name": "Vampire_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5026000/char_action_5026000.skel",
@@ -644,8 +952,20 @@
         "name": "Acheron_alt_101.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5033000/char_action_5033000.skel",
+        "name": "Z26_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5033100/char_action_5033100.skel",
         "name": "Z26_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5034000/char_action_5034000.skel",
+        "name": "Yudachi_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5034100/char_action_5034100.skel",
+        "name": "Yudachi_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5034101/char_action_5034101.skel",
@@ -660,6 +980,18 @@
         "name": "Ayanami_alt_1.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5036100/char_action_5036100.skel",
+        "name": "Ayanami_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5040000/char_action_5040000.skel",
+        "name": "Downes_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5040100/char_action_5040100.skel",
+        "name": "Downes_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5042000/char_action_5042000.skel",
         "name": "Javelin_normal.png"
     },
@@ -670,6 +1002,18 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5042100/char_action_5042100.skel",
         "name": "Javelin_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5043000/char_action_5043000.skel",
+        "name": "Oyashio_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5043100/char_action_5043100.skel",
+        "name": "Oyashio_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5043101/char_action_5043101.skel",
+        "name": "Oyashio_alt_101.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5044000/char_action_5044000.skel",
@@ -694,6 +1038,10 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5046100/char_action_5046100.skel",
         "name": "Amazon_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5047000/char_action_5047000.skel",
+        "name": "Fletcher_normal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_5047001/char_action_5047001.skel",
@@ -792,6 +1140,14 @@
         "name": "Mutsu_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6005000/char_action_6005000.skel",
+        "name": "Hood_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6005001/char_action_6005001.skel",
+        "name": "Hood_alt_1.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6005100/char_action_6005100.skel",
         "name": "Hood_abyssal.png"
     },
@@ -802,6 +1158,10 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6006100/char_action_6006100.skel",
         "name": "New York_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6007000/char_action_6007000.skel",
+        "name": "Scharnhorst_normal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6007100/char_action_6007100.skel",
@@ -848,6 +1208,10 @@
         "name": "Warspite_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6012000/char_action_6012000.skel",
+        "name": "Prince of Wales_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6012001/char_action_6012001.skel",
         "name": "Prince of Wales_alt_1.png"
     },
@@ -868,8 +1232,16 @@
         "name": "Vanguard_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6014000/char_action_6014000.skel",
+        "name": "South Dakota_normal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6014001/char_action_6014001.skel",
         "name": "South Dakota_alt_1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6014100/char_action_6014100.skel",
+        "name": "South Dakota_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6015000/char_action_6015000.skel",
@@ -880,12 +1252,48 @@
         "name": "Rodney_abyssal.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6016000/char_action_6016000.skel",
+        "name": "Nelson_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6016100/char_action_6016100.skel",
+        "name": "Nelson_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6017000/char_action_6017000.skel",
+        "name": "Pennsylvania_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6017100/char_action_6017100.skel",
+        "name": "Pennsylvania_abyssal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6018000/char_action_6018000.skel",
         "name": "Bismarck_normal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6018100/char_action_6018100.skel",
         "name": "Bismarck_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6021000/char_action_6021000.skel",
+        "name": "North Carolina_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6021100/char_action_6021100.skel",
+        "name": "North Carolina_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6023000/char_action_6023000.skel",
+        "name": "Yamato_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6023099/char_action_6023099.skel",
+        "name": "Yamato_alt_99.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6023100/char_action_6023100.skel",
+        "name": "Yamato_abyssal.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6025000/char_action_6025000.skel",
@@ -906,6 +1314,30 @@
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6029100/char_action_6029100.skel",
         "name": "Hiei_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6031000/char_action_6031000.skel",
+        "name": "King George V_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6031100/char_action_6031100.skel",
+        "name": "King George V_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6034000/char_action_6034000.skel",
+        "name": "Wyoming_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6034100/char_action_6034100.skel",
+        "name": "Wyoming_abyssal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6038000/char_action_6038000.skel",
+        "name": "Colorado_normal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6038001/char_action_6038001.skel",
+        "name": "Colorado_alt_1.png"
     },
     {
         "dir": "./data/assets/shipgirls/Black Surgenights/bsn_spine/chibi/char_action_6038100/char_action_6038100.skel",

@@ -129,3 +129,4 @@ dist
 data/assets/*
 data/thumbs/*
 data/shipgirl_list_db_new.json
+ws

@@ -4,6 +4,8 @@
         "alias": [
             {"originalName": "Köln", "value": ["Cologne"]},
             {"originalName": "Cologne", "value": ["Köln"]},
+            {"originalName": "Chokai", "value": ["Choukai"]},
+            {"originalName": "Choukai", "value": ["Chokai"]},
             {"originalName": "Ying Rui", "value": ["Ying Swei"]},
             {"originalName": "Ying Swei", "value": ["Ying Rui"]}
         ]
@@ -229,6 +231,7 @@
         "damageArtSuffix": "damage",
         "alias": [
 
-        ]
+        ],
+        "chibispinemapping": "./data/wg_spineChibi.json"
     }
 ]

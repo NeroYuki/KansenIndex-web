@@ -51,6 +51,27 @@
     ]
   },
   {
+    "id": "db1497d4c1d2eca61a37e46a05130d9e6c27a88550dc4af9aa5d4bc4861452e5",
+    "name": "Arms Amory",
+    "display_name": "Arms Amory",
+    "desc": "Military-theme gacha RPG",
+    "status":"Active",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Arms Amory.png",
+    "general_info": [
+      {"name": "Alternative Name", "value": "- JP:  アームズアーモリー"},
+      {"name": "Developer", "value": "MIKAGE LLC."},
+      {"name": "Publisher", "value": "EXNOA LLC."},
+      {"name": "Genre", "value": "Role-playing game"},
+      {"name": "Platform", "value": "Browser"}
+    ],
+    "release_date": [
+      { "region": "Japan", "date": "2023-09-12T00:00:00Z"}
+    ],
+    "extra_info": "",
+    "screenshot": [
+    ]
+  },
+  {
     "id": "dd180dbb54a5113d18ce454b5617fe384e094c20795408ba3304244fe5e9bf88",
     "name": "Arpeggio of Blue Steel",
     "display_name": "Arpeggio of Blue Steel",
@@ -303,6 +324,28 @@
     "release_date": [],
     "extra_info": "",
     "screenshot": []
+  },
+  {
+    "id": "a8ac433d309e9713672d664a0b1698eb14f1d753f90ff91d859405b36aa2dc6e",
+    "name": "Monster Strike",
+    "display_name": "Monster Strike",
+    "desc": "All-start gacha game with 2D action RPG gameplay",
+    "status": "Active",
+    "icon_image": "/data/assets/shipgirls/Franchise logo/Monster Strike.png",
+    "general_info": [
+      {"name": "Alternative Name", "value": "- JP:  モンスターストライク"},
+      {"name": "Developer", "value": "MIXI, Inc."},
+      {"name": "Publisher", "value": " MIXI Inc, XFLAG"},
+      {"name": "Genre", "value": "Role-playing game"},
+      {"name": "Platform", "value": "Android, iOS"}
+    ],
+    "release_date": [
+      { "region": "Japan", "date": "2013-08-08T00:00:00Z"},
+      { "region": "Global", "date": "2014-10-20T00:00:00Z"}
+    ],
+    "extra_info": "",
+    "screenshot": [
+    ]
   },
   {
     "id": "e2e484832cf78ea408660cb2a860c3aa678c681584cfdcddd87b0c976d987229",
