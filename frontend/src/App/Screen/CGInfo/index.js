@@ -343,10 +343,29 @@ export const CGInfo = (props) => {
                 const chibi_spine_app = new PIXI.Application({
                     view: document.getElementById('spine-canvas'),
                 });
+
+                let spineLoaderOptions = {}
+                if (data.folder === "Warship Girls R") {
+                    // get index of the spine file
+                    let index = data.chibi.dir.slice(data.chibi.dir.lastIndexOf('/') + 1, data.chibi.dir.lastIndexOf('.')).replace('Ship_girl_', '')
+                    console.log(index)
+
+                    spineLoaderOptions = {
+                        metadata: {
+                            image: PIXI.BaseTexture.from(data.chibi.dir.replace('.skel', '.png').replace('.json', '.png')),
+                            spineAtlasFile: data.chibi.dir.replace('.skel', '.atlas').replace('.json', '.atlas')
+                        }
+                    };
+
+                    // adjust alpha mode for certain spine
+                    if (index !== '40')
+                        spineLoaderOptions.metadata.image.alphaMode = PIXI.ALPHA_MODES.PMA
+                }
     
                 chibi_spine_app.loader
-                    .add('chibiSpineCharacter', data.chibi.dir)
+                    .add('chibiSpineCharacter', data.chibi.dir, spineLoaderOptions)
                     .load(function (loader, resources) {
+                        console.log(resources.chibiSpineCharacter)
                         const animation = new Spine(resources.chibiSpineCharacter.spineData);
     
                         const orig_size = [animation.width, animation.height]
@@ -369,6 +388,15 @@ export const CGInfo = (props) => {
                         chibi_spine_app.stage.addChild(animation);
     
                         // full_normal_loop for normal spine
+                        if (animation.skeleton.data.skins) {
+                            if (animation.skeleton.data.findSkin('normal') != null) {
+                                animation.skeleton.setSkinByName('normal');
+                            }
+                            else {
+                                animation.skeleton.setSkinByName(animation.skeleton.data.skins[0].name);
+                            }
+                        }
+
                         if (animation.state.hasAnimation("idle")) {
                             animation.state.setAnimation(0, "idle", true);
                         }

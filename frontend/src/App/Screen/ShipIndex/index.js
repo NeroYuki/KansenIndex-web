@@ -29,8 +29,8 @@ export const ShipIndex = () => {
     const [resultView, setResultView] = useState('card')
     const [franchiseSelection, setFranchiseSelection] = useState([
         "Abyss Horizon",
-        "Akushizu Senki",
-        "Arms Amory",
+        "Axis Senki",
+        "Arms Armory",
         "Arpeggio of Blue Steel",
         "Artist Original Content",
         "Azur Lane",
