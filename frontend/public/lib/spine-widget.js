@@ -10107,40 +10107,48 @@ var spine;
                     else
                         throw new Error("Failed to load assets: " + JSON.stringify(assetManager.getErrors()));
                 }
-                var atlasContent = config.atlasContent === undefined ? this.assetManager.get(this.config.atlas) : config.atlasContent;
-                var atlas = new spine.TextureAtlas(atlasContent, function (path) {
-                    var texture = assetManager.get(path);
-                    return texture;
-                });
-                var atlasLoader = new spine.AtlasAttachmentLoader(atlas);
-                var skeletonJson = new spine.SkeletonJson(atlasLoader);
-                var skeletonBinary = new spine.SkeletonBinary(atlasLoader);
-                skeletonJson.scale = config.scale;
-                var jsonContent = config.jsonContent === undefined ? assetManager.get(config.json) : config.jsonContent;
-                var binaryContent = config.skelContent === undefined ? assetManager.get(config.skel) : config.skelContent;
-                var skeletonData;
-                if (jsonContent)
-                    skeletonData = skeletonJson.readSkeletonData(jsonContent);
-                else
-                    skeletonData = skeletonBinary.readSkeletonData(binaryContent);
-                var skeleton = this.skeleton = new spine.Skeleton(skeletonData);
-                var bounds = this.bounds;
-                skeleton.setSkinByName(config.skin);
-                skeleton.setToSetupPose();
-                skeleton.updateWorldTransform();
-                skeleton.getBounds(bounds.offset, bounds.size, []);
-                if (!config.fitToCanvas) {
-                    skeleton.x = config.x;
-                    skeleton.y = config.y;
-                }
-                if (!config.animation) {
-                    if (skeletonData.animations.length > 0) {
-                        config.animation = skeletonData.animations[0].name;
+                try {
+                    var atlasContent = config.atlasContent === undefined ? this.assetManager.get(this.config.atlas) : config.atlasContent;
+                    var atlas = new spine.TextureAtlas(atlasContent, function (path) {
+                        var texture = assetManager.get(path);
+                        return texture;
+                    });
+                    var atlasLoader = new spine.AtlasAttachmentLoader(atlas);
+                    var skeletonJson = new spine.SkeletonJson(atlasLoader);
+                    var skeletonBinary = new spine.SkeletonBinary(atlasLoader);
+                    skeletonJson.scale = config.scale;
+                    var jsonContent = config.jsonContent === undefined ? assetManager.get(config.json) : config.jsonContent;
+                    var binaryContent = config.skelContent === undefined ? assetManager.get(config.skel) : config.skelContent;
+                    var skeletonData;
+                    if (jsonContent)
+                        skeletonData = skeletonJson.readSkeletonData(jsonContent);
+                    else
+                        skeletonData = skeletonBinary.readSkeletonData(binaryContent);
+                    var skeleton = this.skeleton = new spine.Skeleton(skeletonData);
+                    var bounds = this.bounds;
+                    skeleton.setSkinByName(config.skin);
+                    skeleton.setToSetupPose();
+                    skeleton.updateWorldTransform();
+                    skeleton.getBounds(bounds.offset, bounds.size, []);
+                    if (!config.fitToCanvas) {
+                        skeleton.x = config.x;
+                        skeleton.y = config.y;
                     }
+                    if (!config.animation) {
+                        if (skeletonData.animations.length > 0) {
+                            config.animation = skeletonData.animations[0].name;
+                        }
+                    }
+                    var animationState = this.state = new spine.AnimationState(new spine.AnimationStateData(skeleton.data));
+                    animationState.setAnimation(0, config.animation, config.loop);
+                    this.loaded = true;
                 }
-                var animationState = this.state = new spine.AnimationState(new spine.AnimationStateData(skeleton.data));
-                animationState.setAnimation(0, config.animation, config.loop);
-                this.loaded = true;
+                catch (e) {
+                    if (config.error)
+                        config.error(this, e.message);
+                    else
+                        throw e;
+                }
                 if (config.success)
                     config.success(this);
                 requestAnimationFrame(function () { _this.render(); });

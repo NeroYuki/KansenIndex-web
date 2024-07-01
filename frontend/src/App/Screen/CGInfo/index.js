@@ -83,6 +83,16 @@ export const CGInfo = (props) => {
         })
     }
 
+    function showWarningToast(msg) {
+        toast({
+            title: 'Warning',
+            description: msg,
+            status: 'warning',
+            duration: 5000,
+            isClosable: true,
+        })
+    }
+
     const [cgInfoState, setCgInfoState] = useState({
         char: 'Placeholder Character',
         filename: 'Placeholder Filename.png',
@@ -133,6 +143,7 @@ export const CGInfo = (props) => {
     const [isFav, setIsFav] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     const [relateCGs, setRelateCGs] = useState([])
+    const [useLegacySpine, setUseLegacySpine] = useState(false)
 
     const data = cgInfoState
 
@@ -180,6 +191,125 @@ export const CGInfo = (props) => {
         //console.log(res)
         setRelateCGs(res)
     }, [data])
+
+    async function loadChibiSpine(retry = false) {
+        if (LEGACY_CHIBI_REQUIRED_FOLDERS.includes(data.folder) && !retry) {
+            try {
+                new global.spine.SpineWidget("spine-widget", {
+                    skel: data.chibi.dir,
+                    atlas: data.chibi.dir.replace('.skel', '.atlas'),
+                    animation: "",
+                    backgroundColor: "#000000FF",
+                    fitToCanvas: true,
+                    success: function (widget) {
+                        //console.log(widget)
+                        // widget.canvas.onclick = function () {
+                        let animations = widget.skeleton.data.animations;
+                        // search for index of move animation
+                        let animIndex = 0
+                        let moveAnimIndex = animations.findIndex((anim) => anim.name.includes('move'))
+                        widget.setAnimation(animations[ moveAnimIndex !== -1 ?  moveAnimIndex : 0].name);
+                        widget.canvas.onclick = function () {
+                            animIndex++
+                            var animations = widget.skeleton.data.animations;
+                            if (animIndex >= animations.length) animIndex = 0
+                            widget.setAnimation(animations[animIndex].name);
+                        }
+
+                        setUseLegacySpine(true)
+                    },
+                    error: function (err) {
+                        console.log(err)
+                        showWarningToast("Failed to load chibi spine animation, retrying...")
+                        loadChibiSpine(true)
+                    },
+                })
+            }
+            catch (e) {
+                console.log(e)
+                showErrorToast("Critical failed to load chibi spine animation.")
+            }
+        }
+        else {
+            const chibi_spine_app = new PIXI.Application({
+                view: document.getElementById('spine-canvas'),
+            });
+
+            let spineLoaderOptions = {}
+            if (data.folder === "Warship Girls R") {
+                // get index of the spine file
+                let index = data.chibi.dir.slice(data.chibi.dir.lastIndexOf('/') + 1, data.chibi.dir.lastIndexOf('.')).replace('Ship_girl_', '')
+                console.log(index)
+
+                spineLoaderOptions = {
+                    metadata: {
+                        image: PIXI.BaseTexture.from(data.chibi.dir.replace('.skel', '.png').replace('.json', '.png')),
+                        spineAtlasFile: data.chibi.dir.replace('.skel', '.atlas').replace('.json', '.atlas')
+                    }
+                };
+
+                // adjust alpha mode for certain spine
+                if (index !== '40')
+                    spineLoaderOptions.metadata.image.alphaMode = PIXI.ALPHA_MODES.PMA
+            }
+
+            chibi_spine_app.loader
+                .add('chibiSpineCharacter', data.chibi.dir, spineLoaderOptions)
+                .load(function (loader, resources) {
+                    console.log(resources.chibiSpineCharacter)
+                    const animation = new Spine(resources.chibiSpineCharacter.spineData);
+
+                    const orig_size = [animation.width, animation.height]
+
+                    let animation_index = 0
+
+                    //scale to 500
+                    if (orig_size[0] > 500 || orig_size[1] > 500) {
+                        const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
+                        const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
+                        
+                        animation.height = target_height;
+                        animation.width = target_width;
+                    }
+
+                    animation.x = (chibi_spine_app.screen.width) /2;
+                    animation.y = (chibi_spine_app.screen.height + animation.height) /2;
+
+                    // add the animation to the scene and render...
+                    chibi_spine_app.stage.addChild(animation);
+
+                    // full_normal_loop for normal spine
+                    if (animation.skeleton.data.skins) {
+                        if (animation.skeleton.data.findSkin('normal') != null) {
+                            animation.skeleton.setSkinByName('normal');
+                        }
+                        else {
+                            animation.skeleton.setSkinByName(animation.skeleton.data.skins[0].name);
+                        }
+                    }
+
+                    if (animation.state.hasAnimation("idle")) {
+                        animation.state.setAnimation(0, "idle", true);
+                    }
+                    else {
+                        animation_index = Math.floor(Math.random() * animation.spineData.animations.length)
+                        const random_anim = animation.spineData.animations[animation_index].name
+                        animation.state.setAnimation(0, random_anim, true);
+                    }
+                    // dont run too fast
+                    animation.state.timeScale = 1;
+
+                    chibi_spine_app.view.onclick = function () {
+                        animation_index++
+                        if (animation_index >= animation.spineData.animations.length) animation_index = 0
+                        animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+                    };
+                    
+                    chibi_spine_app.start();
+                });
+        }
+    }
+
 
     useEffect(async () => {
         // get fav count
@@ -311,113 +441,7 @@ export const CGInfo = (props) => {
         }
 
         if (data.chibi) {
-            if (LEGACY_CHIBI_REQUIRED_FOLDERS.includes(data.folder)) {
-                new global.spine.SpineWidget("spine-widget", {
-                    skel: data.chibi.dir,
-                    atlas: data.chibi.dir.replace('.skel', '.atlas'),
-                    animation: "",
-                    backgroundColor: "#000000FF",
-                    fitToCanvas: true,
-                    success: function (widget) {
-                        //console.log(widget)
-                        // widget.canvas.onclick = function () {
-                        let animations = widget.skeleton.data.animations;
-                        // search for index of move animation
-                        let animIndex = 0
-                        let moveAnimIndex = animations.findIndex((anim) => anim.name.includes('move'))
-                        widget.setAnimation(animations[ moveAnimIndex !== -1 ?  moveAnimIndex : 0].name);
-                        widget.canvas.onclick = function () {
-                            animIndex++
-                            var animations = widget.skeleton.data.animations;
-                            if (animIndex >= animations.length) animIndex = 0
-                            widget.setAnimation(animations[animIndex].name);
-                        }
-                    },
-                    error: function (err) {
-                        console.log(err)
-                        showErrorToast("Fail to load chibi spine animation")
-                    }
-                });
-            }
-            else {
-                const chibi_spine_app = new PIXI.Application({
-                    view: document.getElementById('spine-canvas'),
-                });
-
-                let spineLoaderOptions = {}
-                if (data.folder === "Warship Girls R") {
-                    // get index of the spine file
-                    let index = data.chibi.dir.slice(data.chibi.dir.lastIndexOf('/') + 1, data.chibi.dir.lastIndexOf('.')).replace('Ship_girl_', '')
-                    console.log(index)
-
-                    spineLoaderOptions = {
-                        metadata: {
-                            image: PIXI.BaseTexture.from(data.chibi.dir.replace('.skel', '.png').replace('.json', '.png')),
-                            spineAtlasFile: data.chibi.dir.replace('.skel', '.atlas').replace('.json', '.atlas')
-                        }
-                    };
-
-                    // adjust alpha mode for certain spine
-                    if (index !== '40')
-                        spineLoaderOptions.metadata.image.alphaMode = PIXI.ALPHA_MODES.PMA
-                }
-    
-                chibi_spine_app.loader
-                    .add('chibiSpineCharacter', data.chibi.dir, spineLoaderOptions)
-                    .load(function (loader, resources) {
-                        console.log(resources.chibiSpineCharacter)
-                        const animation = new Spine(resources.chibiSpineCharacter.spineData);
-    
-                        const orig_size = [animation.width, animation.height]
-
-                        let animation_index = 0
-    
-                        //scale to 500
-                        if (orig_size[0] > 500 || orig_size[1] > 500) {
-                            const target_width = Math.min(500, 500 * (orig_size[0] / orig_size[1]))
-                            const target_height = Math.min(500, 500 * (orig_size[1] / orig_size[0]))
-                            
-                            animation.height = target_height;
-                            animation.width = target_width;
-                        }
-    
-                        animation.x = (chibi_spine_app.screen.width) /2;
-                        animation.y = (chibi_spine_app.screen.height + animation.height) /2;
-    
-                        // add the animation to the scene and render...
-                        chibi_spine_app.stage.addChild(animation);
-    
-                        // full_normal_loop for normal spine
-                        if (animation.skeleton.data.skins) {
-                            if (animation.skeleton.data.findSkin('normal') != null) {
-                                animation.skeleton.setSkinByName('normal');
-                            }
-                            else {
-                                animation.skeleton.setSkinByName(animation.skeleton.data.skins[0].name);
-                            }
-                        }
-
-                        if (animation.state.hasAnimation("idle")) {
-                            animation.state.setAnimation(0, "idle", true);
-                        }
-                        else {
-                            animation_index = Math.floor(Math.random() * animation.spineData.animations.length)
-                            const random_anim = animation.spineData.animations[animation_index].name
-                            animation.state.setAnimation(0, random_anim, true);
-                        }
-                        // dont run too fast
-                        animation.state.timeScale = 1;
-
-                        chibi_spine_app.view.onclick = function () {
-                            animation_index++
-                            if (animation_index >= animation.spineData.animations.length) animation_index = 0
-                            animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
-                        };
-                        
-                        chibi_spine_app.start();
-                    });
-            }
-
+            loadChibiSpine()
         }
 
         if (data.l2d) {
@@ -689,7 +713,8 @@ export const CGInfo = (props) => {
                                 {data.chibi && <TabPanel>
                                     <Center>
                                         {/* Spine (Chibi) */}
-                                        {(LEGACY_CHIBI_REQUIRED_FOLDERS.includes(data.folder)) ? <div style={{height: 500, width: '100%'}} id="spine-widget"></div> : <canvas id="spine-canvas" height={500}></canvas>}
+                                        <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none'}} id="spine-widget"></div> 
+                                        <canvas style={{display: (!useLegacySpine) ? 'block' : 'none'}} id="spine-canvas" height={500}></canvas>
                                     </Center>
                                 </TabPanel>}
                                 {data.spine && <TabPanel>
