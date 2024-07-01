@@ -152,8 +152,8 @@ function main_shipgirl_db() {
                 dir === "Battleship Bishoujo Puzzle" || dir === "Blue Oath" ?
                     file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
                 dir === "Azur Lane" ?
-                    char_name.toLowerCase().includes(val.name.toLowerCase()) :
-                    file.toLowerCase().includes(val.name.toLowerCase())
+                    (file.toLowerCase().includes(val.name.toLowerCase()) || file.toLowerCase().replace(' ', ' ').includes(val.name.toLowerCase())) :
+                    file.toLowerCase().includes(val.name.toLowerCase()) 
             ) || null
             const voice = voice_candidate.reduce((prev, curr) => {
                 if ((prev?.name.length || 0) > curr.name.length) return prev
@@ -182,38 +182,38 @@ function main_shipgirl_db() {
                 temp_voice = {...voice}
             }
 
-            if (dir === "Azur Lane" && temp_voice) {
-                // if isBase, filter out any voice files which filename contain Skin<number>
-                // if (isBase) {
-                //     voice.files = voice.files.filter(val => !val.match(/Skin\d+/))
-                // }
-                // otherwise, check its dir field in chibi variable if not null
-                if (isOath) {
-                    temp_voice.files = temp_voice.files.filter(val => val.includes("Pledge"))
-                }
-                else if (isRetrofit) {
-                    temp_voice.files = temp_voice.files.filter(val => val.includes("Skin9"))
-                }
-                else if (!isBase && chibi) {
-                    // ./data/assets/shipgirls/Azur Lane/al_spine/chibi/qiansui_2/qiansui_2.skel, extract the number in qiansui_2 and filter out any voice files which filename DOES NOT contain Skin<number>
-                    const chibi_dir = chibi.dir.split('/').pop()
-                    const skin_number = chibi_dir.match(/\d+/)
+            // if (dir === "Azur Lane" && temp_voice) {
+            //     // if isBase, filter out any voice files which filename contain Skin<number>
+            //     // if (isBase) {
+            //     //     voice.files = voice.files.filter(val => !val.match(/Skin\d+/))
+            //     // }
+            //     // otherwise, check its dir field in chibi variable if not null
+            //     if (isOath) {
+            //         temp_voice.files = temp_voice.files.filter(val => val.includes("Pledge"))
+            //     }
+            //     else if (isRetrofit) {
+            //         temp_voice.files = temp_voice.files.filter(val => val.includes("Skin9"))
+            //     }
+            //     else if (!isBase && chibi) {
+            //         // ./data/assets/shipgirls/Azur Lane/al_spine/chibi/qiansui_2/qiansui_2.skel, extract the number in qiansui_2 and filter out any voice files which filename DOES NOT contain Skin<number>
+            //         const chibi_dir = chibi.dir.split('/').pop()
+            //         const skin_number = chibi_dir.match(/\d+/)
 
-                    // console.log(skin_number)
-                    if (skin_number) {
-                        temp_voice.files = temp_voice.files?.filter(val => val.includes(`Skin${parseInt(skin_number[0])-1}`)) ?? []
-                    }
-                    else {
-                        temp_voice.files = []    
-                    }
-                } 
-                else if (!isBase) {
-                    // if chibi is null, filter out all voice files
-                    temp_voice.files = []
-                }
+            //         // console.log(skin_number)
+            //         if (skin_number) {
+            //             temp_voice.files = temp_voice.files?.filter(val => val.includes(`Skin${parseInt(skin_number[0])-1}`)) ?? []
+            //         }
+            //         else {
+            //             temp_voice.files = []    
+            //         }
+            //     } 
+            //     else if (!isBase) {
+            //         // if chibi is null, filter out all voice files
+            //         temp_voice.files = []
+            //     }
 
-                // console.log(temp_voice.files)
-            }
+            //     // console.log(temp_voice.files)
+            // }
 
             list.push({
                 char: char_name,

@@ -1,11 +1,29 @@
 [
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aerhangeersike_3/aerhangeersike_3.skel",
+        "extra_file": [],
+        "name": "Arkhangelsk_Supporting Sorceress"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aersasi/aersasi.skel",
+        "extra_file": [],
+        "name": "Alsace_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierT.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierB.skel",
             "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierM.skel"
         ],
         "name": "\u00c4gir_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aimudeng_4/aimudeng_4T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/aimudeng_4/aimudeng_4B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/aimudeng_4/aimudeng_4M.skel"
+        ],
+        "name": "Emden_Duet of Guiding Stars"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aisaikesi_7/aisaikesi_7T.skel",
@@ -21,6 +39,11 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongM.skel"
         ],
         "name": "Hakuryuu_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/banerwei_2/banerwei_2.skel",
+        "extra_file": [],
+        "name": "Painlev\u00e9_Team Stretching"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz/bisimaiZT.skel",
@@ -114,6 +137,25 @@
         "name": "Voroshilov_Devoted as the Warm Snow"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/gaoxiong_6/gaoxiong_6T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/gaoxiong_6/gaoxiong_6B.skel"
+        ],
+        "name": "Takao_Divine Exorcist's Blade"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/guandao/guandaoT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/guandao/guandaoB.skel"
+        ],
+        "name": "Guam_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/haerbin_3/haerbin_3.skel",
+        "extra_file": [],
+        "name": "Harbin_Set Sail for Summer Treasure"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2B.skel",
@@ -122,12 +164,11 @@
         "name": "Hwah Jah_The Festive Undead"
     },
     {
-        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2T_hx.skel",
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huanchang_2/huanchang_2T.skel",
         "extra_file": [
-            "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2B.skel",
-            "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2M.skel"
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/huanchang_2/huanchang_2B.skel"
         ],
-        "name": "Hwah Jah_The Festive Undead_cn"
+        "name": "Huan Ch'ang_Dance Beneath the Moonlight"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huangjiacaifu_3/huangjiacaifu_3T.skel",
@@ -137,9 +178,29 @@
         "name": "Royal Fortune_Eyes on the Prize"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huben_2/huben_2.skel",
+        "extra_file": [],
+        "name": "Hu Pen_Prancing Tiger Welcomes the Spring"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jingang_5/jingang_5.skel",
+        "extra_file": [],
+        "name": "Kongou_Troubled Seas"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kaiersheng_2/kaiersheng_2.skel",
+        "extra_file": [],
+        "name": "Kersaint_Reverent Runner"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kalangshitade/kalangshitade.skel",
         "extra_file": [],
         "name": "Kronshtadt_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lafeiii/lafeiii.skel",
+        "extra_file": [],
+        "name": "Laffey II_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lafei_12/lafei_12T.skel",
@@ -159,11 +220,31 @@
         "name": "London_The Sterling Secretary"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/luyisiweier_2/luyisiweier_2.skel",
+        "extra_file": [],
+        "name": "Louisville_An Order of Dreams"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mabuerheide_5/mabuerheide_5T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/mabuerheide_5/mabuerheide_5B.skel"
         ],
         "name": "Marblehead_Not-So-Serendipitous Rain"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/masaiqu_2/masaiqu_2.skel",
+        "extra_file": [],
+        "name": "Marseillaise_Fighting Angel's Regimen"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mojiaduoer/mojiaduoer.skel",
+        "extra_file": [],
+        "name": "Mogador_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/ougen_7/ougen_7.skel",
+        "extra_file": [],
+        "name": "Prinz Eugen_Brilliant Touchdown"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/pulimaosi/pulimaosi_T.skel",
@@ -181,9 +262,41 @@
         "name": "Vanguard_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/qiershazhi/qiershazhi.skel",
+        "extra_file": [],
+        "name": "Kearsarge_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/shengdiyage_g/shengdiyage_g.skel",
         "extra_file": [],
         "name": "San Diego_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/suweiaitongmengnew/suweiaitongmengnew.skel",
+        "extra_file": [],
+        "name": "Sovetsky Soyuz_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tashigan_4/tashigan_4.skel",
+        "extra_file": [],
+        "name": "Tashkent_The Sprite's Snapshot"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tuzuo_3/tuzuo_3.skel",
+        "extra_file": [],
+        "name": "Tosa_A Glimpse of Greatness"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/weida_2/weida_2.skel",
+        "extra_file": [],
+        "name": "Whydah_Lazy Pirate Angel"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/weizhang_2/weizhang_2T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/weizhang_2/weizhang_2B.skel"
+        ],
+        "name": "Owari_Shimmering Forsythia"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuerlixi/wuerlixi.skel",
@@ -218,9 +331,14 @@
         "name": "Yuudachi_Retrofit"
     },
     {
-        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xili_g/xili_g_hx.skel",
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xingdengbao/xingdengbao.skel",
         "extra_file": [],
-        "name": "Yuudachi_Retrofit_cn"
+        "name": "Hindenburg_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xingzuo_2/xingzuo_2.skel",
+        "extra_file": [],
+        "name": "Constellation_Galaxy's Finest"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xinnong/xinnongT.skel",
@@ -235,14 +353,14 @@
         "name": "New Jersey_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yaerweite_2/yaerweite_2.skel",
+        "extra_file": [],
+        "name": "Alvitr_Muspel's Torrid Secrets"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanusi_4/yanusi_4.skel",
         "extra_file": [],
         "name": "Janus_Fear of Changing... Clothes"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanusi_4/yanusi_4_hx.skel",
-        "extra_file": [],
-        "name": "Janus_Fear of Changing... Clothes_cn"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanzhan_g/yanzhan_g.skel",
@@ -295,5 +413,20 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekechengii_2/yuekechengII_2B.skel"
         ],
         "name": "Yorktown II_Bright-Sky Mermaid"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuekegongjue_4/yuekegongjue_4.skel",
+        "extra_file": [],
+        "name": "Duke of York_The Chic Counselor"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yueke_ger_3/yueke_ger_3.skel",
+        "extra_file": [],
+        "name": "Yorck_Late-Night Companion"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yunxian/yunxian.skel",
+        "extra_file": [],
+        "name": "Unzen_Default"
     }
 ]
