@@ -110,15 +110,15 @@ export const Home = () => {
                     <Box bg="card" display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Illustration</p>
-                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>10910</p>
+                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>12930</p>
                         </Box>
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Ships</p>
-                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>1487</p>
+                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>1544</p>
                         </Box>
                         <Box display={'flex'} flexDirection={'column'}>
                             <p>Number of Franchise</p>
-                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>29</p>
+                            <p style={{paddingTop: 20, fontSize: 24, fontWeight: 400}}>30</p>
                         </Box>
                     </Box>
                 </Box>

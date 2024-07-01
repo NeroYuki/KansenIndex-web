@@ -1,4 +1,4 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaCopy, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
@@ -28,8 +28,14 @@ function useQuery() {
 const SoundCard = (props) => {
     // make a card component for playing the sound effect with a play button and the sound filename
     return (
-        <Box width={'30%'} style={{ margin: '12px', minWidth: '320px' }}>
-            <Button onClick={() => props.onClick(props.filename)} isLoading={props.isLoading} leftIcon={<Icon as={FaPlay} />} width={'100%'} textOverflow={'ellipsis'} color='blue.400' variant='outline' size='lg' mr='2'>{props.filename.slice(props.filename.lastIndexOf('/'))}</Button>
+        <Box width={'25%'} style={{ margin: '8px', minWidth: '250px' }}>
+            <ButtonGroup size='md' isAttached variant='outline' onClick={() => props.onClick(props.filename)} width={'100%'}> 
+                <IconButton isLoading={props.isLoading || props.isPlaying} aria-label="Play sound" icon={<Icon as={FaPlay} />} />
+                {/* make button background move with props.progress (0-1) */}
+                <Button isLoading={props.isLoading} width={'100%'} textOverflow={'ellipsis'} overflow={'hidden'} color='blue.400' size='md' mr='2' background={`linear-gradient(to right, #3182ce33 ${props.progress * 100}%, #00000000 ${props.progress * 100}%)`}>
+                    <Text fontSize='sm'>{props.filename.slice(props.filename.lastIndexOf('/') + 1, props.filename.lastIndexOf('.'))}</Text>
+                </Button>
+            </ButtonGroup>
         </Box>
     )
 }
@@ -142,6 +148,7 @@ export const CGInfo = (props) => {
     const [favCount, setFavCount] = useState(0)
     const [isFav, setIsFav] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
+    const [isPlaying, setIsPlaying] = useState({})
     const [relateCGs, setRelateCGs] = useState([])
     const [useLegacySpine, setUseLegacySpine] = useState(false)
 
@@ -668,11 +675,29 @@ export const CGInfo = (props) => {
     const onSoundPlay = (sound) => {
         const audio = new Audio(sound)
         audio.play()
+        setIsPlaying({
+            ...isPlaying,
+            [sound]: 0,
+        })
+        audio.onended = () => {
+            // remove the key from isPlaying
+            let newPlaying = {...isPlaying}
+            delete newPlaying[sound]
+            setIsPlaying(newPlaying)
+        }
+        // update progress
+        audio.addEventListener('timeupdate', function() {
+            // console.log(audio.currentTime / audio.duration * 100)
+            setIsPlaying({
+                ...isPlaying,
+                [sound]: audio.currentTime / audio.duration
+            })
+        })
     }
 
     const soundCardList = (data.voice?.files || []).map((sound, index) => {
         return (
-            <SoundCard key={index} onClick={onSoundPlay} isLoading={false} filename={sound} />
+            <SoundCard key={index} onClick={onSoundPlay} isLoading={false} filename={sound} isPlaying={isPlaying[sound] !== undefined} progress={isPlaying[sound] ?? 0} shouldDisable={Object.keys(isPlaying).length} />
         )
     })
 
@@ -709,6 +734,7 @@ export const CGInfo = (props) => {
                                         {/* Live2D */}
                                         <canvas id="l2d-canvas" height={500} style={{imageRendering: 'crisp-edges'}}></canvas>
                                     </Center>
+                                    <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                 </TabPanel>}
                                 {data.chibi && <TabPanel>
                                     <Center>
@@ -716,18 +742,21 @@ export const CGInfo = (props) => {
                                         <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none'}} id="spine-widget"></div> 
                                         <canvas style={{display: (!useLegacySpine) ? 'block' : 'none'}} id="spine-canvas" height={500}></canvas>
                                     </Center>
+                                    <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                 </TabPanel>}
                                 {data.spine && <TabPanel>
                                     <Center>
                                         {/* Spine */}
                                         {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : <canvas id="spine-canvas-full" height={500}></canvas>}
                                     </Center>
+                                    <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                 </TabPanel>}
                                 {data.m3d && <TabPanel width={'100%'}>
                                     <Center width={'100%'}>
                                         {/* 3D */}
                                         <canvas height={500} style={{width: '100%', height: 500, imageRendering: 'crisp-edges'}} id="m3d-viewer"></canvas>
                                     </Center>
+                                    <Center margin={12}><Text as='b' fontSize='sm'>Use left mouse to control camera view</Text></Center>
                                 </TabPanel>}
                                 {data.voice && <TabPanel>
                                     <Center>
@@ -775,6 +804,14 @@ export const CGInfo = (props) => {
                                 <IconButton size={'sm'} aria-label="search source" icon={<FaSearch />} onClick={onFranchiseSearch}/>
                             </Flex>
                         </Flex>
+                        {data.voice?.voice_actor && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                            <Text flex='1' fontSize="md">Voice Actor</Text>
+                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                <Text flex="1" fontSize="md" >
+                                    {data.voice?.voice_actor}
+                                </Text>
+                            </Flex>
+                        </Flex>}
 
                         <Flex direction={'row'} justifyContent={'space-between'}>
                             <Button mt={2} onClick={onToggleFavorite} disabled={isLoading} bgColor={isFav ? 'pink' : 'lightgray'} color={isFav ? 'purple' : 'black'}>
