@@ -67,7 +67,7 @@ function main_shipgirl_db() {
 
     let list = []
 
-    let whitelist_dir = ["Azur Lane"]
+    let whitelist_dir = []
 
     let global_config = config.find(val => val.name === "*") || {}
 
@@ -177,7 +177,10 @@ function main_shipgirl_db() {
             })
 
             // copy data voice to temp variable (not reference)
-            let temp_voice = {...voice}
+            let temp_voice = null
+            if (voice) {
+                temp_voice = {...voice}
+            }
 
             if (dir === "Azur Lane" && temp_voice) {
                 // if isBase, filter out any voice files which filename contain Skin<number>
@@ -198,7 +201,7 @@ function main_shipgirl_db() {
 
                     // console.log(skin_number)
                     if (skin_number) {
-                        temp_voice.files = temp_voice.files.filter(val => val.includes(`Skin${parseInt(skin_number[0])-1}`))
+                        temp_voice.files = temp_voice.files?.filter(val => val.includes(`Skin${parseInt(skin_number[0])-1}`)) ?? []
                     }
                     else {
                         temp_voice.files = []    

@@ -1,334 +1,334 @@
 [
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c004/akagi.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c004/akagi.json",
         "name": "Akagi"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c006/sd01.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c006/sd01.json",
         "name": "I-17"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c007/hyuga.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c007/hyuga.json",
         "name": "Hyuuga (16DDH)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c009/hms_wales.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c009/hms_wales.json",
         "name": "Prince of Wales"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c016/arizona.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c016/arizona.json",
         "name": "Arizona"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c023/dorsetshire.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c023/dorsetshire.json",
         "name": "Dorsetshire"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c027/marato.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c027/marato.json",
         "name": "Malat"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c034/kuznetsov.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c034/kuznetsov.json",
         "name": "Admiral Kuznetsov"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c035/USS_CV-5.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c035/USS_CV-5.json",
         "name": "Yorktown"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c036/illustrious.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c036/illustrious.json",
         "name": "Illustrious (R06)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c037/sanfrancisco.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c037/sanfrancisco.json",
         "name": "San Francisco"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c042/isuzu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c042/isuzu.json",
         "name": "Isuzu"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c043/sd0093.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c043/sd0093.json",
         "name": "Choukai"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c044/soryu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c044/soryu.json",
         "name": "Soryuu"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c045/undefined",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c045/undefined",
         "name": "Cavour"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c046/vittorio.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c046/vittorio.json",
         "name": "Vittorio Veneto"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c047/musasi.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c047/musasi.json",
         "name": "Musashi"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c051/takanami.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c051/takanami.json",
         "name": "Takanami"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c054/lsm-1.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c054/lsm-1.json",
         "name": "LSM-1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c056/jinkou.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c056/jinkou.json",
         "name": "Jintsuu"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c057/warspite.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c057/warspite.json",
         "name": "Warspite"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c058/Charles_de_Gaulle.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c058/Charles_de_Gaulle.json",
         "name": "Charles de Gaulle"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c059/souryu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c059/souryu.json",
         "name": "Soryuu (SS-501)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c063/bismarck.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c063/bismarck.json",
         "name": "Bismarck"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c074/washington.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c074/washington.json",
         "name": "George Washington (CVN-73)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c078/i19.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c078/i19.json",
         "name": "I-19"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c079/ryounei.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c079/ryounei.json",
         "name": "Liaoning"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c080/Canberra.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c080/Canberra.json",
         "name": "Canberra"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c081/kaga.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c081/kaga.json",
         "name": "Kaga"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c082/junyo.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c082/junyo.json",
         "name": "Junyou"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c083/mutu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c083/mutu.json",
         "name": "Mutsu"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c084/mizu-ri.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c084/mizu-ri.json",
         "name": "Missouri"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c085/kongo.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c085/kongo.json",
         "name": "Kongou (DDG-173)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c086/i58.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c086/i58.json",
         "name": "I-58"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c087/hiryu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c087/hiryu.json",
         "name": "Hiryuu"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c088/bavaria.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c088/bavaria.json",
         "name": "Bayern"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c089/ise.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c089/ise.json",
         "name": "Ise"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1007/nagato.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1007/nagato.json",
         "name": "Nagato_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1016/elizabeth.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1016/elizabeth.json",
         "name": "Queen Elizabeth_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1023/skeleton.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1023/skeleton.json",
         "name": "Washington_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1024/yamato.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1024/yamato.json",
         "name": "Yamato_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1035/taiho.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1035/taiho.json",
         "name": "Taihou_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1037/princeton.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1037/princeton.json",
         "name": "Princeton_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c104/i8.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c104/i8.json",
         "name": "I-8"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1042/mutu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1042/mutu.json",
         "name": "Mutsu_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c105/richelieu.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c105/richelieu.json",
         "name": "Richelieu"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1058/ise.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1058/ise.json",
         "name": "Ise_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1063/SouthDakota.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1063/SouthDakota.json",
         "name": "South Dakota_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1097/sinyou.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1097/sinyou.json",
         "name": "Shinyou_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1098/taiho.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1098/taiho.json",
         "name": "Taihou_alt2"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1110/yamato.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1110/yamato.json",
         "name": "Yamato_alt2"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1113/bavaria.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1113/bavaria.json",
         "name": "Bayern_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1117/danton.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1117/danton.json",
         "name": "Danton_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c1118/musasi.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c1118/musasi.json",
         "name": "Musashi_alt1"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c117/princeton.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c117/princeton.json",
         "name": "Princeton"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c118/akitusima.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c118/akitusima.json",
         "name": "Akitsushima"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c124/shinano.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c124/shinano.json",
         "name": "Shinano"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c125/nagato.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c125/nagato.json",
         "name": "Nagato"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c126/skeleton.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c126/skeleton.json",
         "name": "Katsuragi"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c127/yamato.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c127/yamato.json",
         "name": "Yamato"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c133/zuikaku.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c133/zuikaku.json",
         "name": "Zuikaku"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c135/elizabeth.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c135/elizabeth.json",
         "name": "Queen Elizabeth"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c136/printu-oigen.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c136/printu-oigen.json",
         "name": "Prinz Eugen"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c137/taiho.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c137/taiho.json",
         "name": "Taihou"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c141/california.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c141/california.json",
         "name": "California"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c148/graf_zeppelin.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c148/graf_zeppelin.json",
         "name": "Graf Zeppelin"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c150/class_h_battleship.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c150/class_h_battleship.json",
         "name": "H-39"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c153/ise.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c153/ise.json",
         "name": "Ise (DDH-182)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c154/ddh-143.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c154/ddh-143.json",
         "name": "Shirane (DDH-143)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c155/misaka.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c155/misaka.json",
         "name": "Mikasa"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c158/ddh141.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c158/ddh141.json",
         "name": "Haruna (DDH-141)"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c159/sourhdakota.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c159/sourhdakota.json",
         "name": "South Dakota"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c164/skeleton.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c164/skeleton.json",
         "name": "Takao"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c166/sinyou.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c166/sinyou.json",
         "name": "Shinyou"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c168/zara.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c168/zara.json",
         "name": "Zara"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c169/atago.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c169/atago.json",
         "name": "Atago"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c174/Suffren.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c174/Suffren.json",
         "name": "Suffren"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c176/gongo.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c176/gongo.json",
         "name": "Kongou"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c178/washington.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c178/washington.json",
         "name": "Washington"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c186/SDC036.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c186/SDC036.json",
         "name": "Saratoga"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c188/chitose.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c188/chitose.json",
         "name": "Chitose"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c191/CV-8.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c191/CV-8.json",
         "name": "Hornet"
     },
     {
-        "dir": "./data/assets/shipgirls/Akushizu Senki/chibi/c199/dreadnought.json",
+        "dir": "./data/assets/shipgirls/Axis Senki/chibi/c199/dreadnought.json",
         "name": "Dreadnought"
     }
 ]
