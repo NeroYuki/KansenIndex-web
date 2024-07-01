@@ -185,15 +185,11 @@ router.post('/submission', upload.single('file'), async (req, res) => {
     }
 
     // count number of submission entry in submission collection
-    let count_res = await db.aggregateRecord('submission', [
-        {$match: {}},
-        {$count: "_id"}
-    ]).catch(e => {
-        res.status(500).send("Internal server error")
-    })
+    let check_res = await db.queryRecord('submission', {})
 
-    if (!count_res) return
-    if (count_res[0].count > 100) {
+    let count_res = check_res?.length ?? 0
+
+    if (count_res > 100) {
         return res.status(400).send("Too many submission")
     }
 
