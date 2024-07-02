@@ -1,5 +1,5 @@
 import { Box, Flex, Text, Input, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
-    Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem } from "@chakra-ui/react"
+    Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem, Avatar } from "@chakra-ui/react"
 import {
     Table,
     Thead,
@@ -20,6 +20,7 @@ export const ShipIndex = () => {
 
     const [keyword, setKeyword] = useState("")
     const [page, setPage] = useState(1)
+    const [limitPerPage, setLimitPerPage] = useState(20)
     const [shiplist, setShipList] = useState([])
     const [blocked, setBlocked] = useState(false)
     const [keywordMod, setKeywordMod] = useState(0)
@@ -60,7 +61,42 @@ export const ShipIndex = () => {
         "Warship Collection",
         "Warship Girls R"
     ])
+    const [countrySelection, setCountrySelection] = useState([
+        "United Kingdom",
+        "United State",
+        "Japan",
+        "Germany",
+        "Soviet Union",
+        "Italy",
+        "Free France",
+        "Vichy France",
+        "China",
+        "Fictional",
+        "Unknown"
+    ])
+    const [shipTypeSelection, setShipTypeSelection] = useState([
+        "Destroyer",
+        "Light Cruiser",
+        "Heavy Cruiser",
+        "Battlecruiser",
+        "Battleship",
+        "Light Carrier",
+        "Aircraft Carrier",
+        "Submarine",
+        "Aviation Battleship",
+        "Repair Ship",
+        "Monitor",
+        "Aviation Submarine",
+        "Large Cruiser",
+        "Munition Ship",
+        "Guided Missile Cruiser",
+        "Sailing Frigate",
+        "Unknown",
+    ])
+
     const [selectedFranchise, setSelectedFranchise] = useState("")
+    const [selectedCountry, setSelectedCountry] = useState("")
+    const [selectedShipType, setSelectedShipType] = useState("")
     const toast = useToast()
     const location = useLocation()
     const navigate = useNavigate()
@@ -82,7 +118,10 @@ export const ShipIndex = () => {
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
-            selectedFranchise: selectedFranchise
+            selectedFranchise: selectedFranchise,
+            selectedCountry: selectedCountry,
+            selectedType: selectedShipType,
+            limit: limitPerPage,
         }
 
         if (overrideQuery) {
@@ -107,6 +146,8 @@ export const ShipIndex = () => {
             setConstructMod(query.get('constructMod') || 0)
             setAltOutfitMod(query.get('altOutfitMod') || 0)
             setSelectedFranchise(query.get('selectedFranchise') || "")
+            setSelectedCountry(query.get('selectedCountry') || "")
+            setSelectedShipType(query.get('selectedType') || "")
             setPage(parseInt(query.get('page')) || 1)
 
             reloadData()
@@ -119,6 +160,8 @@ export const ShipIndex = () => {
             setConstructMod(location.state.searchData.constructMod || 0)
             setAltOutfitMod(location.state.searchData.altOutfitMod || 0)
             setSelectedFranchise(location.state.searchData.selectedFranchise || "")
+            setSelectedCountry(location.state.searchData.selectedCountry || "")
+            setSelectedShipType(location.state.searchData.selectedType || "")
 
             const query = {
                 keyword: "",
@@ -127,6 +170,8 @@ export const ShipIndex = () => {
                 constructMod: 0,
                 altOutfitMod: 0,
                 selectedFranchise: "",
+                selectedCountry: "",
+                selectedType: "",
                 ...location.state.searchData
             } 
 
@@ -188,6 +233,18 @@ export const ShipIndex = () => {
         )
     })
 
+    const countryOption = countrySelection.map(val => {
+        return (
+            <option key={val} value={val}>{val}</option>
+        )
+    })
+
+    const shipTypeOption = shipTypeSelection.map(val => {
+        return (
+            <option key={val} value={val}>{val}</option>
+        )
+    })
+
     function toggleModifierValue(value, key) {
         const mod_val = 1 << key
         return value ^ mod_val
@@ -201,6 +258,21 @@ export const ShipIndex = () => {
 
     function onResultViewChange(e) {
         setResultView(e.target.value)
+    }
+
+    function onLimitPerPageChange(e) {
+        setLimitPerPage(e.target.value)
+        reloadData({
+            keyword: keyword,
+            keywordMod: keywordMod,
+            page: page,
+            constructMod: constructMod,
+            altOutfitMod: altOutfitMod,
+            selectedFranchise: selectedFranchise,
+            selectedCountry: selectedCountry,
+            selectedType: selectedShipType,
+            limit: e.target.value,
+        })
     }
 
     return (
@@ -224,16 +296,22 @@ export const ShipIndex = () => {
                         </Stack>
                         <Wrap direction={'row'} justifyContent={'space-between'} wrap="wrap" spacing={5} marginBottom={5}>
                             <WrapItem  marginBottom='20px' flex={'1 0 250px'}> 
-                                <Select size={'lg'} placeholder="Select ship nationality"></Select>
+                                <Select size={'lg'} placeholder="Select ship nationality" value={selectedCountry} onChange={(e) => setSelectedCountry(e.target.value)}>
+                                    <option key="All" value="">All Country</option>
+                                    {countryOption}
+                                </Select>
                             </WrapItem>
                             <WrapItem  marginBottom='20px' flex={'1 0 250px'}>
-                                <Select size={'lg'} placeholder="Select ship hull type"></Select>
+                                <Select size={'lg'} placeholder="Select ship hull type" value={selectedShipType} onChange={(e) => setSelectedShipType(e.target.value)}>
+                                    <option key="All" value="">All Ship Type</option>
+                                    {shipTypeOption}
+                                </Select>
                             </WrapItem>
                             <WrapItem  marginBottom='20px' flex={'1 0 250px'}>
-                            <Select size={'lg'} placeholder="Select franchise" value={selectedFranchise} onChange={(e) => setSelectedFranchise(e.target.value)}>
-                                <option key="All" value="">All Franchise</option>
-                                {franchiseOption}
-                            </Select>
+                                <Select size={'lg'} placeholder="Select franchise" value={selectedFranchise} onChange={(e) => setSelectedFranchise(e.target.value)}>
+                                    <option key="All" value="">All Franchise</option>
+                                    {franchiseOption}
+                                </Select>
                             </WrapItem>
                         </Wrap >
 
@@ -276,10 +354,17 @@ export const ShipIndex = () => {
 
                     </Box>
                     {/* result here as a table? */}
-                    <Select defaultValue={'card'} size='md' mt={'40px'} width={'300px'} bgColor={'muted'} onChange={onResultViewChange}>
-                        <option key='table' value='table'>Table</option>
-                        <option key='card' value='card'>Cards</option>
-                    </Select>
+                    <Flex direction={'row'} wrap={'wrap'} justify={'space-between'} alignItems={'center'}>
+                        <Select defaultValue={'card'} size='md' mt={'40px'} width={'300px'} bgColor={'muted'} onChange={onResultViewChange}>
+                            <option key='table' value='table'>Table</option>
+                            <option key='card' value='card'>Cards</option>
+                        </Select>
+                        <Select size='md' mt={'40px'} width={'300px'} value={limitPerPage} bgColor={'muted'} onChange={onLimitPerPageChange}>
+                            <option key='20' value={20}>20 Entries</option>
+                            <option key='40' value={40}>40 Entries</option>
+                            <option key='100' value={100}>100 Entries</option>
+                        </Select>
+                    </Flex>
 
                     <Box bg="muted" p='32px' marginTop='40px' className="apply-shadow" height='auto' display='flex' flexDirection='column' alignItems='center'>
                         <Box bg="muted" marginBottom={10} height='auto' display='flex' flexDirection='row' alignItems='center' justifyContent={'left'}>

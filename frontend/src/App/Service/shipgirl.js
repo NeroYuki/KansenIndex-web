@@ -12,6 +12,8 @@ export function GET_query(query) {
         if (query.constructMod) url += `construct_mod=${query.constructMod}&`
         if (query.altOutfitMod) url += `alt_outfit_mod=${query.altOutfitMod}&`
         if (query.selectedFranchise) url += `folder=${query.selectedFranchise}&`
+        if (query.selectedCountry) url += `nation=${query.selectedCountry}&`
+        if (query.selectedType) url += `type=${query.selectedType}&`
         if (query.limit) url += `limit=${query.limit}&`
         if (query.strict) url += `strict=${query.strict}&`
 

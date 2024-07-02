@@ -37,7 +37,7 @@ router.get('/query', async (req, res) => {
 
     let db_query = {}
     let skip = 0
-    const ENTRY_PER_PAGE = Math.min(query.limit ? parseInt(query.limit) : 20, 20)
+    const ENTRY_PER_PAGE = Math.max(query.limit ? Math.min(parseInt(query.limit), 100) : 20, 10)
 
     // console.log(query)
 
@@ -49,6 +49,22 @@ router.get('/query', async (req, res) => {
     }
     if (query.folder) {
         db_query.folder = query.folder
+    }
+    if (query.nation) {
+        if (query.nation === "Unknown") {
+            db_query.nation = null
+        }
+        else {
+            db_query.nation = query.nation
+        }
+    }
+    if (query.type) {
+        if (query.type === "Unknown") {
+            db_query.ship_type = null
+        }
+        else {
+            db_query.ship_type = query.type
+        }
     }
     if (query.page) {
         let pageParse = parseInt(query.page) || 0
@@ -102,7 +118,9 @@ router.get('/query', async (req, res) => {
         .catch(e => {
             res.status(500).send("Internal server error")
         })
-    if (!query_res) return
+    if (!query_res) {
+        return res.status(404).send("Not Found")
+    }
 
     //if (query)
     return res.status(200).send(query_res)

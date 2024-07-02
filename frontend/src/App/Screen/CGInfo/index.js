@@ -14,52 +14,22 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
+import { nation_name_to_twemoji_flag, type_name_to_icon } from "../../Utils/data_mapping"
 
 const LEGACY_THREEJS_REQUIRED_FOLDERS = ["Lane Girls", "Abyss Horizon"]
 const LEGACY_CHIBI_REQUIRED_FOLDERS = ["Black Surgenights", "Azur Lane"]
-const LEGACY_SPINE_REQUIRED_FOLDER = ["Black Surgenights"]
-
-const nation_name_to_twemoji_flag = (name) => {
-    // if not found, get question mark
-    return {
-        "United Kingdom": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1ec-1f1e7.svg",
-        "United State": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1fa-1f1f8.svg",
-        "Japan": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1ef-1f1f5.svg",
-        "Germany": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1e9-1f1ea.svg",
-        "Soviet Union": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1f7-1f1fa.svg",
-        "Italy": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1ee-1f1f9.svg",
-        "Free France": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1eb-1f1f7.svg",
-        "Vichy France": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1eb-1f1f7.svg",
-        "China": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1e8-1f1f3.svg",
-    }[name] || "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/2753.svg"
-} 
-
-const type_name_to_icon = (name) => {
-    return {
-        "Destroyer": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/1.png",
-        "Light Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/2.png",
-        "Heavy Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/3.png",
-        "Battlecruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/4.png",
-        "Battleship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/5.png",
-        "Light Carrier": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/6.png",
-        "Aircraft Carrier": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/7.png",
-        "Submarine": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/8.png",
-        "Aviation Battleship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/10.png",
-        "Repair Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/12.png",
-        "Monitor": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/13.png",
-        "Aviation Submarine": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/17.png",
-        "Large Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/18.png",
-        "Munition Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/19.png",
-        "Guided Missile Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/20.png",
-        "Sailing Frigate": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/22.png",
-    }[name] || "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/2753.svg"
-}
-    
+const LEGACY_SPINE_REQUIRED_FOLDER = ["Black Surgenights"] 
 
 function useQuery() {
     const { search } = useLocation();
   
     return useMemo(() => new URLSearchParams(search), [search]);
+}
+
+function colorSchemeFromName(name) {
+    // from name, get a random color scheme from "gray" | "red" | "orange" | "yellow" | "green" | "teal" | "blue" | "cyan" | "purple" | "pink"
+    const colorSchemes = ["gray", "red", "orange", "yellow", "green", "teal", "blue", "cyan", "purple", "pink"]
+    return colorSchemes[name.split().reduce((acc, val) => acc + val.charCodeAt(0), 0) % colorSchemes.length]
 }
 
 const SoundCard = (props) => {
@@ -212,6 +182,22 @@ export const CGInfo = (props) => {
             }
         }})
     }, [navigate, data.folder])
+
+    const onCountrySearch = useCallback(() => {
+        navigate('/ship_list', {state: {
+            searchData: {
+                selectedCountry: data.nation
+            }
+        }})
+    }, [navigate, data.nation])
+
+    const onTypeSearch = useCallback(() => {
+        navigate('/ship_list', {state: {
+            searchData: {
+                selectedType: data.ship_type
+            }
+        }})
+    }, [navigate, data.ship_type])
 
     const navigateToCG = useCallback((val) => {
         navigate('/cg_info', {state: {
@@ -863,7 +849,7 @@ export const CGInfo = (props) => {
                         {data.nation && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                             <Text flex='1' fontSize="md">Nation</Text>
                             <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Tag bg={'orange'}>
+                                <Tag colorScheme={colorSchemeFromName(data.nation)}>
                                     <Avatar
                                         src={nation_name_to_twemoji_flag(data.nation)}
                                         bg={'transparent'}
@@ -874,13 +860,16 @@ export const CGInfo = (props) => {
                                     />
                                     {data.nation}
                                 </Tag>
-                                {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                <Flex alignItems={'center'} >
+                                    {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                    <IconButton size='xs' aria-label="search country" icon={<FaSearch />} onClick={onCountrySearch} />
+                                </Flex>
                             </Flex>
                         </Flex>}
                         {data.ship_type && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                             <Text flex='1' fontSize="md">Ship Type</Text>
-                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Tag bg={'yellow'}>
+                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                <Tag colorScheme={colorSchemeFromName(data.ship_type)}>
                                     <Avatar
                                         src={type_name_to_icon(data.ship_type)}
                                         bg={'transparent'}
@@ -891,7 +880,10 @@ export const CGInfo = (props) => {
                                     />
                                     {data.ship_type}
                                 </Tag>
-                                {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                <Flex alignItems={'center'} >
+                                    {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                    <IconButton size='xs' aria-label="search ship type" icon={<FaSearch />} onClick={onTypeSearch} />
+                                </Flex>
                             </Flex>
                         </Flex>}
 
