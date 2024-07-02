@@ -1,4 +1,4 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaCopy, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
@@ -18,6 +18,43 @@ import { SimpleCharCard } from "../../Component/SimpleCGCard"
 const LEGACY_THREEJS_REQUIRED_FOLDERS = ["Lane Girls", "Abyss Horizon"]
 const LEGACY_CHIBI_REQUIRED_FOLDERS = ["Black Surgenights", "Azur Lane"]
 const LEGACY_SPINE_REQUIRED_FOLDER = ["Black Surgenights"]
+
+const nation_name_to_twemoji_flag = (name) => {
+    // if not found, get question mark
+    return {
+        "United Kingdom": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1ec-1f1e7.svg",
+        "United State": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1fa-1f1f8.svg",
+        "Japan": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1ef-1f1f5.svg",
+        "Germany": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1e9-1f1ea.svg",
+        "Soviet Union": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1f7-1f1fa.svg",
+        "Italy": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1ee-1f1f9.svg",
+        "Free France": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1eb-1f1f7.svg",
+        "Vichy France": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1eb-1f1f7.svg",
+        "China": "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/1f1e8-1f1f3.svg",
+    }[name] || "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/2753.svg"
+} 
+
+const type_name_to_icon = (name) => {
+    return {
+        "Destroyer": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/1.png",
+        "Light Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/2.png",
+        "Heavy Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/3.png",
+        "Battlecruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/4.png",
+        "Battleship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/5.png",
+        "Light Carrier": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/6.png",
+        "Aircraft Carrier": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/7.png",
+        "Submarine": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/8.png",
+        "Aviation Battleship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/10.png",
+        "Repair Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/12.png",
+        "Monitor": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/13.png",
+        "Aviation Submarine": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/17.png",
+        "Large Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/18.png",
+        "Munition Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/19.png",
+        "Guided Missile Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/20.png",
+        "Sailing Frigate": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/22.png",
+    }[name] || "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/2753.svg"
+}
+    
 
 function useQuery() {
     const { search } = useLocation();
@@ -107,13 +144,16 @@ export const CGInfo = (props) => {
         is_damage: true,
         is_oath: true,
         is_retrofit: true,
+        is_outfit: true,
+        include_bg: true,
+        is_censored: true,
         l2d: null,
         _id: '0'
     })
     
     useEffect(() => {
         if (location.state && location.state.data) {
-            console.log(location.state.data)
+            // console.log(location.state.data)
             setCgInfoState(location.state.data)
             if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(location.state.data.folder)) {
                 loadLegacyThreeJSLibrary()
@@ -243,10 +283,11 @@ export const CGInfo = (props) => {
             });
 
             let spineLoaderOptions = {}
+            let default_skin = "normal"
             if (data.folder === "Warship Girls R") {
                 // get index of the spine file
                 let index = data.chibi.dir.slice(data.chibi.dir.lastIndexOf('/') + 1, data.chibi.dir.lastIndexOf('.')).replace('Ship_girl_', '')
-                console.log(index)
+                // console.log(index)
 
                 spineLoaderOptions = {
                     metadata: {
@@ -258,12 +299,16 @@ export const CGInfo = (props) => {
                 // adjust alpha mode for certain spine
                 if (index !== '40')
                     spineLoaderOptions.metadata.image.alphaMode = PIXI.ALPHA_MODES.PMA
+
+                if (data.is_damage) {
+                    default_skin = "damage"
+                }
             }
 
             chibi_spine_app.loader
                 .add('chibiSpineCharacter', data.chibi.dir, spineLoaderOptions)
                 .load(function (loader, resources) {
-                    console.log(resources.chibiSpineCharacter)
+                    //console.log(resources.chibiSpineCharacter)
                     const animation = new Spine(resources.chibiSpineCharacter.spineData);
 
                     const orig_size = [animation.width, animation.height]
@@ -287,8 +332,9 @@ export const CGInfo = (props) => {
 
                     // full_normal_loop for normal spine
                     if (animation.skeleton.data.skins) {
-                        if (animation.skeleton.data.findSkin('normal') != null) {
-                            animation.skeleton.setSkinByName('normal');
+                        // console.log(default_skin)
+                        if (animation.skeleton.data.findSkin(default_skin) != null) {
+                            animation.skeleton.setSkinByName(default_skin);
                         }
                         else {
                             animation.skeleton.setSkinByName(animation.skeleton.data.skins[0].name);
@@ -788,10 +834,12 @@ export const CGInfo = (props) => {
                                 </Text>
                                 <HStack spacing={'6px'}>
                                     {data.is_base && <Tag size={'lg'} bg={'green'}>Base</Tag>}
-                                    {data.is_damage && <Tag bg={'red'}>Damaged</Tag>}
-                                    {(!data.is_base && !data.is_retrofit && !data.is_damage) && <Tag bg={'orange'}>Outfit</Tag>}
-                                    {data.is_retrofit && <Tag bg={'yellow'}>Retrofit</Tag>}
-                                    {data.is_oath && <Tag bg={'pink'}>Oath</Tag>}
+                                    {data.is_damage && <Tag size={'lg'} bg={'red'}>Damaged</Tag>}
+                                    {data.is_outfit && <Tag size={'lg'} bg={'orange'}>Outfit</Tag>}
+                                    {data.is_retrofit && <Tag size={'lg'} bg={'yellow'}>Retrofit</Tag>}
+                                    {data.is_oath && <Tag size={'lg'} bg={'pink'}>Oath</Tag>}
+                                    {data.include_bg && <Tag size={'lg'} bg={'teal'}>Background</Tag>}
+                                    {data.is_censored && <Tag size={'lg'} bg={'gray'}>Censored</Tag>}
                                 </HStack>
                             </Flex>
                         </Flex>
@@ -812,6 +860,39 @@ export const CGInfo = (props) => {
                                 </Text>
                             </Flex>
                         </Flex>}
+                        {data.nation && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                            <Text flex='1' fontSize="md">Nation</Text>
+                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                <Tag bg={'orange'}>
+                                    <Avatar
+                                        src={nation_name_to_twemoji_flag(data.nation)}
+                                        bg={'transparent'}
+                                        name={data.nation}
+                                        size='2xs'
+                                        ml={-1}
+                                        mr={2}
+                                    />
+                                    {data.nation}
+                                </Tag>
+                            </Flex>
+                        </Flex>}
+                        {data.ship_type && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                            <Text flex='1' fontSize="md">Ship Type</Text>
+                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                <Tag bg={'yellow'}>
+                                    <Avatar
+                                        src={type_name_to_icon(data.ship_type)}
+                                        bg={'transparent'}
+                                        name={data.nation}
+                                        size='2xs'
+                                        ml={-1}
+                                        mr={2}
+                                    />
+                                    {data.ship_type}
+                                </Tag>
+                            </Flex>
+                        </Flex>}
+
 
                         <Flex direction={'row'} justifyContent={'space-between'}>
                             <Button mt={2} onClick={onToggleFavorite} disabled={isLoading} bgColor={isFav ? 'pink' : 'lightgray'} color={isFav ? 'purple' : 'black'}>

@@ -263,7 +263,8 @@ export const ShipIndex = () => {
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 1)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 1))}>Oath</Checkbox>
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 2)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 2))}>Retrofit</Checkbox>
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 3)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 3))}>Damage</Checkbox>
-                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 4)} isDisabled onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 4))}>Themed</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 4)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 4))}>Themed</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(altOutfitMod, 6)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 6))}>Censored</Checkbox>
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 5)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 5))}>Others</Checkbox>
                                     </CheckboxGroup>
                                 </Stack>
