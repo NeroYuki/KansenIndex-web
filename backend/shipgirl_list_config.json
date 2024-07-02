@@ -17,6 +17,7 @@
         "allowSilhouette": false,
         "oathArtSuffix": "oath",
         "retrofitArtSuffix": "kai",
+        "censoredSuffix": "cn",
         "alias": [
 
         ],
@@ -31,6 +32,8 @@
         "baseArtSuffix": "default",
         "oathArtSuffix": "wedding",
         "retrofitArtSuffix": "retrofit",
+        "backgroundSuffix": "bg",
+        "censoredSuffix": "cn",
         "alias": [
             {"originalName": "Admiral Hipper μ", "value": ["Admiral Hipper muse"]},
             {"originalName": "Akagi μ", "value": ["Akagi muse"]},
@@ -49,7 +52,8 @@
         "live2dmapping": "./data/l2d_dir_mapping.json",
         "chibispinemapping": "./data/al_spineChibi.json",
         "fullspinemapping": "./data/al_spineFull.json",
-        "voicemapping": "./data/al_voiceMapping.json"
+        "voicemapping": "./data/al_voiceMapping.json",
+        "extramapping": "./data/al_extraMapping.json"
     },
     {
         "name": "Artist Original Content",
@@ -230,9 +234,21 @@
         "baseArtSuffix": "base",
         "retrofitArtSuffix": "retrofit",
         "damageArtSuffix": "damage",
+        "censoredSuffix": "cn",
         "alias": [
 
         ],
         "chibispinemapping": "./data/wg_spineChibi.json"
+    },
+    {
+        "name": "Warship Collection",
+        "optionName": "wsc",
+        "allowAlt": true,
+        "allowSilhouette": false,
+        "baseArtSuffix": "",
+        "damageArtSuffix": "damage",
+        "alias": [
+
+        ]
     }
 ]
