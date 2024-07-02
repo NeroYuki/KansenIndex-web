@@ -63,7 +63,7 @@ export const ShipIndex = () => {
     ])
     const [countrySelection, setCountrySelection] = useState([
         "United Kingdom",
-        "United State",
+        "United States",
         "Japan",
         "Germany",
         "Soviet Union",
