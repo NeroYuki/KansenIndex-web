@@ -1,4 +1,4 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar, Badge, Tooltip } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaCopy, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
@@ -489,7 +489,7 @@ export const CGInfo = (props) => {
                         };
                         
                         spine_app.start();
-                    });
+                    })
             }
         }
 
@@ -874,6 +874,7 @@ export const CGInfo = (props) => {
                                     />
                                     {data.nation}
                                 </Tag>
+                                {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
                             </Flex>
                         </Flex>}
                         {data.ship_type && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
@@ -890,6 +891,7 @@ export const CGInfo = (props) => {
                                     />
                                     {data.ship_type}
                                 </Tag>
+                                {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
                             </Flex>
                         </Flex>}
 
