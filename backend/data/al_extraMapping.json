@@ -1,5 +1,15 @@
 [
     {
+        "name": "22_Default",
+        "nation": "Fictional",
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "33_Default",
+        "nation": "Fictional",
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Universal Bulin_Default",
         "nation": "Fictional",
         "ship_type": "Destroyer"

@@ -329,5 +329,26 @@ function main_franchise() {
     fs.writeFileSync('data/franchise_list_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
+function extrapolate_data() {
+    let list = JSON.parse(fs.readFileSync('data/shipgirl_list_db_new.json', {encoding: 'utf-8'}))
+
+    // special case for data from extra config (nation, ship_type)
+    // search for any shipgirl that has the same char name and set the nation and ship_type
+    console.log('Extrapolating nation and ship_type from Azur Lane base form')
+    const al_list = list.filter(v => v.folder === "Azur Lane")
+    list.forEach((val, index) => {
+        if (val.nation && val.ship_type) return
+
+        const found = al_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
+        if (found) {
+            list[index].nation = found.nation
+            list[index].ship_type = found.ship_type
+        }
+    })
+
+    fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
+}
+
 main_shipgirl_db()
+//extrapolate_data()
 //main_franchise()
