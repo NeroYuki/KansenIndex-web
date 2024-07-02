@@ -43,4 +43,4 @@ async function thumb_gen (add_mode = false) {
     console.log('done')
 }
 
-thumb_gen(true)
+thumb_gen()

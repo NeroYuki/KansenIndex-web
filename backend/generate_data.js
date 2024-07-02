@@ -82,6 +82,7 @@ function main_shipgirl_db() {
         let spine_config = []
         let voice_config = []
         let m3d_config = []
+        let extra_config = []
         if (entry_config.alias) alias_config = [...alias_config, ...entry_config.alias]
         if (entry_config.live2dmapping) {
             l2d_config = JSON.parse(fs.readFileSync(entry_config.live2dmapping, {encoding: 'utf-8'}) || "[]")
@@ -97,6 +98,9 @@ function main_shipgirl_db() {
         }
         if (entry_config.m3dmapping) {
             m3d_config = JSON.parse(fs.readFileSync(entry_config.m3dmapping, {encoding: 'utf-8'}) || "[]")
+        }
+        if (entry_config.extramapping) {
+            extra_config = JSON.parse(fs.readFileSync(entry_config.extramapping, {encoding: 'utf-8'}) || "[]")
         }
 
         let base_count = 0
@@ -117,6 +121,10 @@ function main_shipgirl_db() {
             const isDamage = (comp[1] && entry_config.damageArtSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.damageArtSuffix) !== -1) || false
             const isOath = (comp[1] && entry_config.oathArtSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.oathArtSuffix) !== -1) || false
             const isRetrofit = (comp[1] && entry_config.retrofitArtSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.retrofitArtSuffix) !== -1) || false
+            const includeBg = (comp[1] && entry_config.backgroundSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.backgroundSuffix) !== -1) || false
+            const isCensored = (comp[1] && entry_config.censoredSuffix && comp.slice(1).findIndex(val => val.toLowerCase() === entry_config.censoredSuffix) !== -1) || false
+            // isOutfit is true if isBase is false and after remove all comp that match baseArtSuffix, damageArtSuffix, oathArtSuffix, retrofitArtSuffix, backgroundSuffix, censoredSuffix, the length of comp is not 0
+            const isOutfit = !isBase && comp.slice(1).filter(val => ![entry_config.baseArtSuffix, entry_config.damageArtSuffix, entry_config.oathArtSuffix, entry_config.retrofitArtSuffix, entry_config.backgroundSuffix, entry_config.censoredSuffix].includes(val.toLowerCase())).length !== 0
             
             count += 1
             if (isBase) base_count += 1
@@ -131,6 +139,8 @@ function main_shipgirl_db() {
             const chibi_candidate = chibi_config.filter(val => 
                 dir === "Battleship Bishoujo Puzzle" ?
                     file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
+                dir === "Warship Girls R" ?
+                    file.toLowerCase().replace('_damage', '').includes(val.name.toLowerCase()) :
                     file.toLowerCase().includes(val.name.toLowerCase())
             ) || []
             // pick the one with the longest name
@@ -156,6 +166,15 @@ function main_shipgirl_db() {
                     file.toLowerCase().includes(val.name.toLowerCase()) 
             ) || null
             const voice = voice_candidate.reduce((prev, curr) => {
+                if ((prev?.name.length || 0) > curr.name.length) return prev
+                return curr
+            }, null)
+            const extra_candidate = extra_config.filter(val =>
+                dir === "Azur Lane" ?
+                    (file.toLowerCase().includes(val.name.toLowerCase()) || file.toLowerCase().replace(' ', ' ').includes(val.name.toLowerCase())) :
+                    file.toLowerCase().includes(val.name.toLowerCase()) 
+            ) || null
+            const extra_info = extra_candidate.reduce((prev, curr) => {
                 if ((prev?.name.length || 0) > curr.name.length) return prev
                 return curr
             }, null)
@@ -224,6 +243,9 @@ function main_shipgirl_db() {
                 is_damage: isDamage,
                 is_oath: isOath,
                 is_retrofit: isRetrofit,
+                include_bg: includeBg,
+                is_censored: isCensored,
+                is_outfit: isOutfit,
                 file_hash: file_hash,
                 folder: dir,
                 alias: alias,
@@ -231,7 +253,9 @@ function main_shipgirl_db() {
                 chibi: chibi,
                 spine: spine,
                 voice: temp_voice,
-                m3d: m3d
+                m3d: m3d,
+                nation: extra_info?.nation,
+                ship_type: extra_info?.ship_type,
             })
         })
         
