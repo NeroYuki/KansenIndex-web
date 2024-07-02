@@ -85,8 +85,14 @@ router.get('/query', async (req, res) => {
         if ((val >> 3) & 1) {   //damage form only
             db_query.is_damage = true
         }
+        if ((val >> 4) & 1) {   //skin form only
+            db_query.is_outfit = true
+        }
         if ((val >> 5) & 1) {   //alt form only
             db_query.is_base = false
+        }
+        if ((val >> 6) & 1) {
+            db_query.is_censored = true
         }
     }
 
