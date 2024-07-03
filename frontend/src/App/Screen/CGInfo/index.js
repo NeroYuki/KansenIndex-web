@@ -176,6 +176,7 @@ export const CGInfo = (props) => {
             searchData: {
                 keyword: data.char,
                 keywordMod: 1,
+                strict: true
             }
         }})
     }, [navigate, data.char])
@@ -217,7 +218,8 @@ export const CGInfo = (props) => {
     const onIllustSearch = useCallback(() => {
         navigate('/ship_list', {state: {
             searchData: {
-                keywordIllust: data.illust
+                keywordIllust: data.illust,
+                strict: true
             }
         }})
     }, [navigate, data.illust])

@@ -53,7 +53,7 @@ router.get('/query', async (req, res) => {
         db_query.folder = query.folder
     }
     if (query.illust) {
-        db_query.illust = {$regex: escapeRegExp(query.illust.replace(/\s/g, '_')), $options: 'i'}
+        db_query.illust = {$regex:  (query.strict ? "^" : "") + escapeRegExp(query.illust.replace(/\s/g, '_')) + (query.strict ? "$" : ""), $options: 'i'}
     }
     if (query.nation) {
         if (query.nation === "Unknown") {
