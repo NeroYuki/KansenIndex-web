@@ -2,6 +2,8 @@ const express = require('express')
 const router = express.Router()
 const db = require('../database/database_interaction')
 const multer  = require('multer')
+const fs = require('fs')
+const path = require('path')
 const { ObjectId } = require('mongodb')
 
 const jsonParser = express.json()
@@ -49,6 +51,9 @@ router.get('/query', async (req, res) => {
     }
     if (query.folder) {
         db_query.folder = query.folder
+    }
+    if (query.illust) {
+        db_query.illust = {$regex: escapeRegExp(query.illust.replace(/\s/g, '_')), $options: 'i'}
     }
     if (query.nation) {
         if (query.nation === "Unknown") {
@@ -269,6 +274,20 @@ router.get('/bote_fav_lb', async (req, res) => {
     }
 
     return res.status(200).send(db_res_final)
+})
+
+router.get('/article/:id', async (req, res) => {
+    // get .md file of the same name as id in data/articles folder, if not found, return 404
+    const id = req.params.id
+    
+    const article_path = path.join(__dirname + `/../data/articles/${id}.md`)
+    if (!fs.existsSync(article_path)) {
+        return res.status(404).send("Not found")
+    }
+
+    const article_content = fs.readFileSync(article_path, 'utf8')
+
+    return res.status(200).send(article_content)
 })
 
 
