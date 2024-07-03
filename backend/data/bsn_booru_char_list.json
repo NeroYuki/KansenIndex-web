@@ -1,0 +1,422 @@
+[
+  {
+    "name": "kitakami_(black_surge_night)",
+    "canon_name": "kitakami",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tirpitz_(black_surge_night)",
+    "canon_name": "tirpitz",
+    "illustrator": "ran_(bukeranwu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "neptune_(black_surge_night)",
+    "canon_name": "neptune",
+    "illustrator": "? jianyu_(user_yvjp7535)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "luetzow_(black_surge_night)",
+    "canon_name": "luetzow",
+    "illustrator": "koruri",
+    "danbooru_banned": false
+  },
+  {
+    "name": "koenigsberg_(black_surge_night)",
+    "canon_name": "koenigsberg",
+    "illustrator": "ekita_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "rodney_(black_surge_night)",
+    "canon_name": "rodney",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nuremberg_(black_surge_night)",
+    "canon_name": "nuremberg",
+    "illustrator": "gods_(1073337800)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "juneau_(black_surge_night)",
+    "canon_name": "juneau",
+    "illustrator": "llc",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vampire_(black_surge_night)",
+    "canon_name": "vampire",
+    "illustrator": "fufumi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "konigsberg_(black_surge_night)",
+    "canon_name": "konigsberg",
+    "illustrator": "ekita_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "courageous_(black_surge_night)",
+    "canon_name": "courageous",
+    "illustrator": "evan_yang",
+    "danbooru_banned": true
+  },
+  {
+    "name": "dorsetshire_(black_surge_night)",
+    "canon_name": "dorsetshire",
+    "illustrator": "criin",
+    "danbooru_banned": true
+  },
+  {
+    "name": "oyashio_(black_surge_night)",
+    "canon_name": "oyashio",
+    "illustrator": "luode_huayuan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "flint_(black_surge_night)",
+    "canon_name": "flint",
+    "illustrator": "km2o4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vanguard_(black_surge_night)",
+    "canon_name": "vanguard",
+    "illustrator": "yukuso_(dabiandang)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "leipzig_(black_surge_night)",
+    "canon_name": "leipzig",
+    "illustrator": "waterkuma",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z1_leberecht_maass_(black_surge_night)",
+    "canon_name": "z1 leberecht maass",
+    "illustrator": "criin",
+    "danbooru_banned": true
+  },
+  {
+    "name": "downes_(black_surge_night)",
+    "canon_name": "downes",
+    "illustrator": "maya_g",
+    "danbooru_banned": true
+  },
+  {
+    "name": "cassin_(black_surge_night)",
+    "canon_name": "cassin",
+    "illustrator": "maya_g",
+    "danbooru_banned": true
+  },
+  {
+    "name": "shiratsuyu_(black_surge_night)",
+    "canon_name": "shiratsuyu",
+    "illustrator": "atdan",
+    "danbooru_banned": true
+  },
+  {
+    "name": "acheron_(black_surge_night)",
+    "canon_name": "acheron",
+    "illustrator": "luode_huayuan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "battleaxe_(black_surge_night)",
+    "canon_name": "battleaxe",
+    "illustrator": "ogipote",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ayanami_(black_surge_night)",
+    "canon_name": "ayanami",
+    "illustrator": "rero_(bigdoorbig2)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "edinburgh_(black_surge_night)",
+    "canon_name": "edinburgh",
+    "illustrator": "imoko_(imonatsuki)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atlanta_(black_surge_night)",
+    "canon_name": "atlanta",
+    "illustrator": "llc",
+    "danbooru_banned": false
+  },
+  {
+    "name": "graf_zeppelin_(black_surge_night)",
+    "canon_name": "graf zeppelin",
+    "illustrator": "ran_(bukeranwu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cleveland_(black_surge_night)",
+    "canon_name": "cleveland",
+    "illustrator": "llc",
+    "danbooru_banned": false
+  },
+  {
+    "name": "columbia_(black_surge_night)",
+    "canon_name": "columbia",
+    "illustrator": "norizc",
+    "danbooru_banned": false
+  },
+  {
+    "name": "san_diego_(black_surge_night)",
+    "canon_name": "san diego",
+    "illustrator": "llc",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_(black_surge_night)",
+    "canon_name": "yuudachi",
+    "illustrator": "atdan",
+    "danbooru_banned": true
+  },
+  {
+    "name": "shangri-la_(black_surge_night)",
+    "canon_name": "shangri-la",
+    "illustrator": "nian_(zhanian)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "uzuki_(black_surge_night)",
+    "canon_name": "uzuki",
+    "illustrator": "maya_g",
+    "danbooru_banned": true
+  },
+  {
+    "name": "amazon_(black_surge_night)",
+    "canon_name": "amazon",
+    "illustrator": "nagu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "warspite_(black_surge_night)",
+    "canon_name": "warspite",
+    "illustrator": "criin",
+    "danbooru_banned": true
+  },
+  {
+    "name": "argus_(black_surge_night)",
+    "canon_name": "argus",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiyou_(black_surge_night)",
+    "canon_name": "hiyou",
+    "illustrator": "baizu_(guszx)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "blucher_(black_surge_night)",
+    "canon_name": "blucher",
+    "illustrator": "ran_(bukeranwu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "seydlitz_(black_surge_night)",
+    "canon_name": "seydlitz",
+    "illustrator": "ran_(bukeranwu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_eugen_(black_surge_night)",
+    "canon_name": "prinz eugen",
+    "illustrator": "ran_(bukeranwu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_hipper_(black_surge_night)",
+    "canon_name": "admiral hipper",
+    "illustrator": "ran_(bukeranwu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "norfolk_(black_surge_night)",
+    "canon_name": "norfolk",
+    "illustrator": "atdan",
+    "danbooru_banned": true
+  },
+  {
+    "name": "pensacola_(black_surge_night)",
+    "canon_name": "pensacola",
+    "illustrator": "do2mi_doreimi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "northampton_(black_surge_night)",
+    "canon_name": "northampton",
+    "illustrator": "luode_huayuan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_(black_surge_night)",
+    "canon_name": "mogami",
+    "illustrator": "saberiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "choukai_(black_surge_night)",
+    "canon_name": "choukai",
+    "illustrator": "saberiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atago_(black_surge_night)",
+    "canon_name": "atago",
+    "illustrator": "saberiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takao_(black_surge_night)",
+    "canon_name": "takao",
+    "illustrator": "saberiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "king_george_v_(black_surge_night)",
+    "canon_name": "king george v",
+    "illustrator": "nian_(zhanian)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "nelson_(black_surge_night)",
+    "canon_name": "nelson",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pennsylvania_(black_surge_night)",
+    "canon_name": "pennsylvania",
+    "illustrator": "ello",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wyoming_(black_surge_night)",
+    "canon_name": "wyoming",
+    "illustrator": "nian_(zhanian)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "colorado_(black_surge_night)",
+    "canon_name": "colorado",
+    "illustrator": "maya_g",
+    "danbooru_banned": true
+  },
+  {
+    "name": "yamashiro_(black_surge_night)",
+    "canon_name": "yamashiro",
+    "illustrator": "saberiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fusou_(black_surge_night)",
+    "canon_name": "fusou",
+    "illustrator": "saberiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "langley_(black_surge_night)",
+    "canon_name": "langley",
+    "illustrator": "fre_(haochilanzuo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ark_royal_(black_surge_night)",
+    "canon_name": "ark royal",
+    "illustrator": "dhiea",
+    "danbooru_banned": false
+  },
+  {
+    "name": "essex_(black_surge_night)",
+    "canon_name": "essex",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bonhomme_richard_(black_surge_night)",
+    "canon_name": "bonhomme richard",
+    "illustrator": "nian_(zhanian)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "wasp_(black_surge_night)",
+    "canon_name": "wasp",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hornet_(black_surge_night)",
+    "canon_name": "hornet",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_(black_surge_night)",
+    "canon_name": "shoukaku",
+    "illustrator": "sa_(h28085)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaga_(black_surge_night)",
+    "canon_name": "kaga",
+    "illustrator": "starshadowmagician",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akagi_(black_surge_night)",
+    "canon_name": "akagi",
+    "illustrator": "totatokeke",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yorktown_(black_surge_night)",
+    "canon_name": "yorktown",
+    "illustrator": "luode_huayuan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "scharnhorst_(black_surge_night)",
+    "canon_name": "scharnhorst",
+    "illustrator": "yano_mitsuki_(nanairo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_(black_surge_night)",
+    "canon_name": "fletcher",
+    "illustrator": "suzunone_rena",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hood_(black_surge_night)",
+    "canon_name": "hood",
+    "illustrator": "ogata_tei",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lutzow_(black_surge_night)",
+    "canon_name": "lutzow",
+    "illustrator": "koruri",
+    "danbooru_banned": false
+  },
+  {
+    "name": "midway_(black_surge_night)",
+    "canon_name": "midway",
+    "illustrator": "meth_(emethmeth)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_(black_surge_night)",
+    "canon_name": "zuikaku",
+    "illustrator": "oekakizuki",
+    "danbooru_banned": false
+  }
+]

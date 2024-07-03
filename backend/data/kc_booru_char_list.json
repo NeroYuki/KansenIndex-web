@@ -1,0 +1,4862 @@
+[
+  {
+    "name": "kinugasa_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kinugasa kai ni (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinugasa_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kinugasa (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haruna_(mitsukoshi)_(kancolle)",
+    "canon_name": "haruna (mitsukoshi)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haruna_(tsuyu_mode)_(kancolle)",
+    "canon_name": "haruna (tsuyu mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinugasa_(round_one)_(kancolle)",
+    "canon_name": "kinugasa (round one)",
+    "illustrator": "? ojipon",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_(round_one)_(kancolle)",
+    "canon_name": "yuudachi (round one)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._4_(spring_mode)_(kancolle)",
+    "canon_name": "kaiboukan no. 4 (spring mode)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._4_(saury_festival)_(kancolle)",
+    "canon_name": "kaiboukan no. 4 (saury festival)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._30_(hinamatsuri_mode)_(kancolle)",
+    "canon_name": "kaiboukan no. 30 (hinamatsuri mode)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._4_(hinamatsuri_mode)_(kancolle)",
+    "canon_name": "kaiboukan no. 4 (hinamatsuri mode)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._4_(christmas_mode)_(kancolle)",
+    "canon_name": "kaiboukan no. 4 (christmas mode)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hirato_(summer_mode)_(kancolle)",
+    "canon_name": "hirato (summer mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takanami_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "takanami kai ni (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takanami_(swimsuit_mode)_(kancolle)",
+    "canon_name": "takanami (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fuyutsuki_(round_one)_(kancolle)",
+    "canon_name": "fuyutsuki (round one)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._22_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kaiboukan no. 22 (swimsuit mode)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiyoshimo_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kiyoshimo kai ni (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heian_maru_(swimsuit_mode)_(kancolle)",
+    "canon_name": "heian maru (swimsuit mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuzuki_kai_ni_(kancolle)",
+    "canon_name": "hatsuzuki kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "furutaka_(summer_mode)_(kancolle)",
+    "canon_name": "furutaka (summer mode)",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_(8th_anniversary)_(kancolle)",
+    "canon_name": "ushio (8th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_(9th_anniversary)_(kancolle)",
+    "canon_name": "ushio (9th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kako_(summer_mode)_(kancolle)",
+    "canon_name": "kako (summer mode)",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murasame_(round_one)_(kancolle)",
+    "canon_name": "murasame (round one)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiso_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kiso kai ni (swimsuit mode)",
+    "illustrator": "? ssadddsa_(dime_zero)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chougei_(spring_mode)_(kancolle)",
+    "canon_name": "chougei (spring mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ashigara_kai_ni_(ichibankuji)_(kancolle)",
+    "canon_name": "ashigara kai ni (ichibankuji)",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikuma_(lawson)_(kancolle)",
+    "canon_name": "mikuma (lawson)",
+    "illustrator": "? alakoala",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_(lawson)_(kancolle)",
+    "canon_name": "mogami (lawson)",
+    "illustrator": "? kumofuki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "harusame_(midautumn_mode)_(kancolle)",
+    "canon_name": "harusame (midautumn mode)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "harusame_(lawson)_(kancolle)",
+    "canon_name": "harusame (lawson)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "harusame_(maid)_(kancolle)",
+    "canon_name": "harusame (maid)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiratsuyu_(autumn_mode)_(kancolle)",
+    "canon_name": "shiratsuyu (autumn mode)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_(saury_festival)_(kancolle)",
+    "canon_name": "shigure (saury festival)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_kai_ni_(haregi_mode)_(kancolle)",
+    "canon_name": "zuihou kai ni (haregi mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asashio_kai_ni_(halloween_mode)_(kancolle)",
+    "canon_name": "asashio kai ni (halloween mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asashio_(halloween_mode)_(kancolle)",
+    "canon_name": "asashio (halloween mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "michishio_(saury_festival)_(kancolle)",
+    "canon_name": "michishio (saury festival)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_(lawson)_(kancolle)",
+    "canon_name": "shigure (lawson)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "urakaze_(yukata_mode)_(kancolle)",
+    "canon_name": "urakaze (yukata mode)",
+    "illustrator": "? lio_(tsukuyomi-tei)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akigumo_kai_ni_(comiket_mode)_(kancolle)",
+    "canon_name": "akigumo kai ni (comiket mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akigumo_(comiket_mode)_(kancolle)",
+    "canon_name": "akigumo (comiket mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gambier_bay_(sasebo)_(kancolle)",
+    "canon_name": "gambier bay (sasebo)",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "conte_di_cavour_(miko_mode)_(kancolle)",
+    "canon_name": "conte di cavour (miko mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "conte_di_cavour_(yukata_mode)_(kancolle)",
+    "canon_name": "conte di cavour (yukata mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kamikaze_(valentine_mode)_(kancolle)",
+    "canon_name": "kamikaze (valentine mode)",
+    "illustrator": "? rui_shi_(rayze_ray)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akitsushima_(swimsuit_mode)_(kancolle)",
+    "canon_name": "akitsushima (swimsuit mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "brooklyn_(swimsuit_mode)_(kancolle)",
+    "canon_name": "brooklyn (swimsuit mode)",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashiro_(swimsuit_mode)_(kancolle)",
+    "canon_name": "yamashiro (swimsuit mode)",
+    "illustrator": "rikka_(rikka331)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fusou_(swimsuit_mode)_(kancolle)",
+    "canon_name": "fusou (swimsuit mode)",
+    "illustrator": "rikka_(rikka331)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ark_royal_(round_one)_(kancolle)",
+    "canon_name": "ark royal (round one)",
+    "illustrator": "? kasashi_(kasasi008)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(wa_waitress_mode)_(kancolle)",
+    "canon_name": "johnston (wa waitress mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(haregi_mode)_(kancolle)",
+    "canon_name": "johnston (haregi mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(lawson)_(kancolle)",
+    "canon_name": "johnston (lawson)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(halloween_mode)_(kancolle)",
+    "canon_name": "johnston (halloween mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_kai_(setsubun_mode)_(kancolle)",
+    "canon_name": "johnston kai (setsubun mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(setsubun_mode)_(kancolle)",
+    "canon_name": "johnston (setsubun mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_(familymart)_(kancolle)",
+    "canon_name": "yuudachi (familymart)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tama_(saury_festival)_(kancolle)",
+    "canon_name": "tama (saury festival)",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_(haregi_mode)_(kancolle)",
+    "canon_name": "zuihou (haregi mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_(swimsuit_mode)_(kancolle)",
+    "canon_name": "ushio (swimsuit mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(swimsuit_mode)_(kancolle)",
+    "canon_name": "sazanami (swimsuit mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuubari_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "yuubari kai ni (swimsuit mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "umikaze_(swimsuit_mode)_(kancolle)",
+    "canon_name": "umikaze (swimsuit mode)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "south_dakota_kai_(swimsuit_mode)_(kancolle)",
+    "canon_name": "south dakota kai (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "south_dakota_(swimsuit_mode)_(kancolle)",
+    "canon_name": "south dakota (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "verniy_(saury_festival)_(kancolle)",
+    "canon_name": "verniy (saury festival)",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuzuki_(yukata_mode)_(kancolle)",
+    "canon_name": "hatsuzuki (yukata mode)",
+    "illustrator": "? masa_masa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akizuki_(yukata_mode)_(kancolle)",
+    "canon_name": "akizuki (yukata mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "teruzuki_(yukata_mode)_(kancolle)",
+    "canon_name": "teruzuki (yukata mode)",
+    "illustrator": "? sama_samasa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(round_one)_(kancolle)",
+    "canon_name": "fubuki (round one)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kashima_(lawson)_(kancolle)",
+    "canon_name": "kashima (lawson)",
+    "illustrator": "? super_masara",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_ni_(christmas_mode)_(kancolle)",
+    "canon_name": "akebono kai ni (christmas mode)",
+    "illustrator": "? porupurucha",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_(christmas_mode)_(kancolle)",
+    "canon_name": "akebono kai (christmas mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(christmas_mode)_(kancolle)",
+    "canon_name": "akebono (christmas mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maestrale_kai_(swimsuit_mode)_(kancolle)",
+    "canon_name": "maestrale kai (swimsuit mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maestrale_(swimsuit_mode)_(kancolle)",
+    "canon_name": "maestrale (swimsuit mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "grecale_(swimsuit_mode)_(kancolle)",
+    "canon_name": "grecale (swimsuit mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "libeccio_(swimsuit_mode)_(kancolle)",
+    "canon_name": "libeccio (swimsuit mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shirakumo_(yukata_mode)_(kancolle)",
+    "canon_name": "shirakumo (yukata mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuzuki_(swimsuit_mode)_(kancolle)",
+    "canon_name": "hatsuzuki (swimsuit mode)",
+    "illustrator": "? shigino_sohuzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akizuki_(swimsuit_mode)_(kancolle)",
+    "canon_name": "akizuki (swimsuit mode)",
+    "illustrator": "? gin00",
+    "danbooru_banned": false
+  },
+  {
+    "name": "teruzuki_(swimsuit_mode)_(kancolle)",
+    "canon_name": "teruzuki (swimsuit mode)",
+    "illustrator": "? okiraku_nikku",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(8th_anniversary)_(kancolle)",
+    "canon_name": "akebono (8th anniversary)",
+    "illustrator": "? kamoku_nagi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(new_year_mode)_(kancolle)",
+    "canon_name": "akebono (new year mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_ni_(new_year_mode)_(kancolle)",
+    "canon_name": "akebono kai ni (new year mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(saury_festival)_(kancolle)",
+    "canon_name": "akebono (saury festival)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tatsuta_(swimsuit_mode)_(kancolle)",
+    "canon_name": "tatsuta (swimsuit mode)",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._4_(tsuyu_mode)_(kancolle)",
+    "canon_name": "kaiboukan no. 4 (tsuyu mode)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hirato_(tsuyu_mode)_(kancolle)",
+    "canon_name": "hirato (tsuyu mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heywood_l._edwards_(tsuyu_mode)_(kancolle)",
+    "canon_name": "heywood l. edwards (tsuyu mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooyodo_(tsuyu_mode)_(kancolle)",
+    "canon_name": "ooyodo (tsuyu mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "inagi_kai_ni_(kancolle)",
+    "canon_name": "inagi kai ni",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tenryuu_(swimsuit_mode)_(kancolle)",
+    "canon_name": "tenryuu (swimsuit mode)",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_(haregi_mode)_(kancolle)",
+    "canon_name": "helena (haregi mode)",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_(spring_mode)_(kancolle)",
+    "canon_name": "helena (spring mode)",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kisaragi_(setsubun_mode)_(kancolle)",
+    "canon_name": "kisaragi (setsubun mode)",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kisaragi_(valentine_mode)_(kancolle)",
+    "canon_name": "kisaragi (valentine mode)",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuugumo_kai_ni_(christmas_mode)_(kancolle)",
+    "canon_name": "yuugumo kai ni (christmas mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuugumo_(christmas_mode)_(kancolle)",
+    "canon_name": "yuugumo (christmas mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haruna_(2023_swimsuit_mode)_(kancolle)",
+    "canon_name": "haruna (2023 swimsuit mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haruna_(2016_swimsuit_mode)_(kancolle)",
+    "canon_name": "haruna (2016 swimsuit mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nowaki_(halloween_mode)_(kancolle)",
+    "canon_name": "nowaki (halloween mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "perth_(swimsuit_mode)_(kancolle)",
+    "canon_name": "perth (swimsuit mode)",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z1_leberecht_maass_(oktoberfest_mode)_(kancolle)",
+    "canon_name": "z1 leberecht maass (oktoberfest mode)",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_ni_(9th_anniversary)_(kancolle)",
+    "canon_name": "akebono kai ni (9th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(9th_anniversary)_(kancolle)",
+    "canon_name": "akebono (9th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(10th_anniversary)_(kancolle)",
+    "canon_name": "akebono (10th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_ni_(10th_anniversary)_(kancolle)",
+    "canon_name": "akebono kai ni (10th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kazagumo_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kazagumo kai ni (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kazagumo_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kazagumo (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ro-500_(swimsuit_mode)_(kancolle)",
+    "canon_name": "ro-500 (swimsuit mode)",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-511_(swimsuit_mode)_(kancolle)",
+    "canon_name": "u-511 (swimsuit mode)",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooyodo_(swimsuit_mode)_(kancolle)",
+    "canon_name": "ooyodo (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akashi_(swimsuit_mode)_(kancolle)",
+    "canon_name": "akashi (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_(halloween_mode)_(kancolle)",
+    "canon_name": "yuudachi (halloween mode)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yukikaze_(swimsuit_mode)_(kancolle)",
+    "canon_name": "yukikaze (swimsuit mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "honolulu_(swimsuit_mode)_(kancolle)",
+    "canon_name": "honolulu (swimsuit mode)",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houston_(swimsuit_mode)_(kancolle)",
+    "canon_name": "houston (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houston_kai_(swimsuit_mode)_(kancolle)",
+    "canon_name": "houston kai (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiratsuyu_(swimsuit)_(kancolle)",
+    "canon_name": "shiratsuyu (swimsuit)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murasame_(swimsuit)_(kancolle)",
+    "canon_name": "murasame (swimsuit)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(8th_anniversary)_(kancolle)",
+    "canon_name": "sazanami (8th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(9th_anniversary)_(kancolle)",
+    "canon_name": "sazanami (9th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(10th_anniversary)_(kancolle)",
+    "canon_name": "sazanami (10th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_(7th_anniversary)_(kancolle)",
+    "canon_name": "ushio (7th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(7th_anniversary)_(kancolle)",
+    "canon_name": "sazanami (7th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(7th_anniversary)_(kancolle)",
+    "canon_name": "akebono (7th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shin'you_(maid)_(kancolle)",
+    "canon_name": "shin'you (maid)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_kai_(swimsuit_mode)_(kancolle)",
+    "canon_name": "johnston kai (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(swimsuit_mode)_(kancolle)",
+    "canon_name": "johnston (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z1_leberecht_maass_(swimsuit_mode)_(kancolle)",
+    "canon_name": "z1 leberecht maass (swimsuit mode)",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z3_max_schultz_(swimsuit_mode)_(kancolle)",
+    "canon_name": "z3 max schultz (swimsuit mode)",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kongou_(anniversary)_(kancolle)",
+    "canon_name": "kongou (anniversary)",
+    "illustrator": "? shamo_(ptwmjgda)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isonami_(autumn_mode)_(kancolle)",
+    "canon_name": "isonami (autumn mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamakaze_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "yamakaze kai ni (swimsuit mode)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamakaze_(swimsuit_mode)_(kancolle)",
+    "canon_name": "yamakaze (swimsuit mode)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jingei_(coming_of_spring_mode)_(kancolle)",
+    "canon_name": "jingei (coming of spring mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chougei_(swimsuit_mode)_(kancolle)",
+    "canon_name": "chougei (swimsuit mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jingei_(swimsuit_mode)_(kancolle)",
+    "canon_name": "jingei (swimsuit mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yukikaze_(summer_mode)_(kancolle)",
+    "canon_name": "yukikaze (summer mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tan_yang_(summer_mode)_(kancolle)",
+    "canon_name": "tan yang (summer mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsukaze_(christmas_mode)_(kancolle)",
+    "canon_name": "hatsukaze (christmas mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jingei_(race_queen_mode)_(kancolle)",
+    "canon_name": "jingei (race queen mode)",
+    "illustrator": "? kirisawa_juuzou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_(swimsuit_mode)_(kancolle)",
+    "canon_name": "mogami (swimsuit mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikuma_(2017_swimsuit_mode)_(kancolle)",
+    "canon_name": "mikuma (2017 swimsuit mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikuma_(2016_swimsuit_mode)_(kancolle)",
+    "canon_name": "mikuma (2016 swimsuit mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_(2022_zuiun_festival_race_queen_mode)_(kancolle)",
+    "canon_name": "gotland (2022 zuiun festival race queen mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_(fuji_speedway_race_queen_mode)_(kancolle)",
+    "canon_name": "gotland (fuji speedway race queen mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "usugumo_(lawson)_(kancolle)",
+    "canon_name": "usugumo (lawson)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "natsugumo_(race_queen_mode)_(kancolle)",
+    "canon_name": "natsugumo (race queen mode)",
+    "illustrator": "? kakizaki_(chou_neji)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ranger_(race_queen_mode)_(kancolle)",
+    "canon_name": "ranger (race queen mode)",
+    "illustrator": "? yuki_(yukineko-nyaa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nelson_(race_queen_mode)_(kancolle)",
+    "canon_name": "nelson (race queen mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "usugumo_(race_queen_mode)_(kancolle)",
+    "canon_name": "usugumo (race queen mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(race_queen_mode)_(kancolle)",
+    "canon_name": "akebono (race queen mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oboro_(race_queen_mode)_(kancolle)",
+    "canon_name": "oboro (race queen mode)",
+    "illustrator": "? umibudou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akigumo_kai_ni_(race_queen_mode)_(kancolle)",
+    "canon_name": "akigumo kai ni (race queen mode)",
+    "illustrator": "? u_yuz_xx",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murasame_kai_ni_(race_queen_mode)_(kancolle)",
+    "canon_name": "murasame kai ni (race queen mode)",
+    "illustrator": "? calin",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_mk_ii_(swimsuit_mode)_(kancolle)",
+    "canon_name": "fletcher mk ii (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_(swimsuit_mode)_(kancolle)",
+    "canon_name": "fletcher (swimsuit mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaga_(lawson)_(kancolle)",
+    "canon_name": "kaga (lawson)",
+    "illustrator": "? sora_yoshitake_yuda",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_(lawson)_(kancolle)",
+    "canon_name": "zuihou (lawson)",
+    "illustrator": "? ninimo_nimo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiryuu_(peach)_(kancolle)",
+    "canon_name": "hiryuu (peach)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_(green_tea_mode)_(kancolle)",
+    "canon_name": "yamashio maru (green tea mode)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_kai_(spring_2023)_(kancolle)",
+    "canon_name": "yamashio maru kai (spring 2023)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_(spring_2023)_(kancolle)",
+    "canon_name": "yamashio maru (spring 2023)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_(spring_2022)_(kancolle)",
+    "canon_name": "yamashio maru (spring 2022)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_kai_(setsubun)_(kancolle)",
+    "canon_name": "yamashio maru kai (setsubun)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_(setsubun)_(kancolle)",
+    "canon_name": "yamashio maru (setsubun)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abukuma_(round_one)_(kancolle)",
+    "canon_name": "abukuma (round one)",
+    "illustrator": "? kamisuiori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzutsuki_(swimsuit_mode)_(kancolle)",
+    "canon_name": "suzutsuki (swimsuit mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "makigumo_(swimsuit_mode)_(kancolle)",
+    "canon_name": "makigumo (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "makigumo_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "makigumo kai ni (swimsuit mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_(swimsuit_mode)_(kancolle)",
+    "canon_name": "helena (swimsuit mode)",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souya_(round_one)_(kancolle)",
+    "canon_name": "souya (round one)",
+    "illustrator": "? toplow",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(round_one)_(kancolle)",
+    "canon_name": "akebono (round one)",
+    "illustrator": "? yuki_to_hana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oboro_(round_one)_(kancolle)",
+    "canon_name": "oboro (round one)",
+    "illustrator": "? tatahai",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(swimsuit_mode)_(kancolle)",
+    "canon_name": "akebono (swimsuit mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "akebono kai ni (swimsuit mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kasumi_kai_ni_(swimsuit_mode)_(kancolle)",
+    "canon_name": "kasumi kai ni (swimsuit mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_maru_(11th_anniversary)_(kancolle)",
+    "canon_name": "kumano maru (11th anniversary)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_(11th_anniversary)_(kancolle)",
+    "canon_name": "yamashio maru (11th anniversary)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._22_(11th_anniversary)_(kancolle)",
+    "canon_name": "kaiboukan no. 22 (11th anniversary)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(11th_anniversary)_(kancolle)",
+    "canon_name": "sazanami (11th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oboro_(11th_anniversary)_(kancolle)",
+    "canon_name": "oboro (11th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(11th_anniversary)_(kancolle)",
+    "canon_name": "akebono (11th anniversary)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "northampton_(anniversary)_(kancolle)",
+    "canon_name": "northampton (anniversary)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houston_(anniversary)_(kancolle)",
+    "canon_name": "houston (anniversary)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_(anniversary)_(kancolle)",
+    "canon_name": "shoukaku (anniversary)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(anniversary)_(kancolle)",
+    "canon_name": "fubuki (anniversary)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tuscaloosa_(anniversary)_(kancolle)",
+    "canon_name": "tuscaloosa (anniversary)",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamato_(anniversary)_(kancolle)",
+    "canon_name": "yamato (anniversary)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(prototype)_(kancolle)",
+    "canon_name": "fubuki (prototype)",
+    "illustrator": "? ichikawa_feesu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sagiri_(setsubun)_(kancolle)",
+    "canon_name": "sagiri (setsubun)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_kai_ni_(swimsuit)_(kancolle)",
+    "canon_name": "mogami kai ni (swimsuit)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sagiri_(swimsuit_mode)_(kancolle)",
+    "canon_name": "sagiri (swimsuit mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sagiri_kai_(swimsuit_mode)_(kancolle)",
+    "canon_name": "sagiri kai (swimsuit mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_(haregi_mode)_(kancolle)",
+    "canon_name": "nagato (haregi mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_kai_ni_(swimsuit)_(kancolle)",
+    "canon_name": "yuudachi kai ni (swimsuit)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(spring_mode)_(kancolle)",
+    "canon_name": "fubuki (spring mode)",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heian_maru_(spring_mode)_(kancolle)",
+    "canon_name": "heian maru (spring mode)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ariake_(swimsuit)_(kancolle)",
+    "canon_name": "ariake (swimsuit)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_kai_ni_(swimsuit)_(kancolle)",
+    "canon_name": "shigure kai ni (swimsuit)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_kai_san_(swimsuit)_(kancolle)",
+    "canon_name": "shigure kai san (swimsuit)",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "grecale_(haregi_mode)_(kancolle)",
+    "canon_name": "grecale (haregi mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akishimo_(haregi_mode)_(kancolle)",
+    "canon_name": "akishimo (haregi mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_(haregi_mode)_(kancolle)",
+    "canon_name": "zuikaku (haregi mode)",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tuscaloosa_(haregi_mode)_(kancolle)",
+    "canon_name": "tuscaloosa (haregi mode)",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_(haregi_mode)_(kancolle)",
+    "canon_name": "gotland (haregi mode)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsu_(haregi_mode)_(kancolle)",
+    "canon_name": "mutsu (haregi mode)",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_maru_(haregi_mode)_(kancolle)",
+    "canon_name": "kumano maru (haregi mode)",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._22_(setsubun)_(kancolle)",
+    "canon_name": "kaiboukan no. 22 (setsubun)",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kako_(setsubun)_(kancolle)",
+    "canon_name": "kako (setsubun)",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chougei_(setsubun)_(kancolle)",
+    "canon_name": "chougei (setsubun)",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_(setsubun)_(kancolle)",
+    "canon_name": "ushio (setsubun)",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hayashimo_(setsubun)_(kancolle)",
+    "canon_name": "hayashimo (setsubun)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzunami_(valentine_mode)_(kancolle)",
+    "canon_name": "suzunami (valentine mode)",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-201_(valentine_mode)_(kancolle)",
+    "canon_name": "i-201 (valentine mode)",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-203_(valentine_mode)_(kancolle)",
+    "canon_name": "i-203 (valentine mode)",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uit-24_(valentine_mode)_(kancolle)",
+    "canon_name": "uit-24 (valentine mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-503_(valentine_mode)_(kancolle)",
+    "canon_name": "i-503 (valentine mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "comandante_cappellini_(valentine_mode)_(kancolle)",
+    "canon_name": "comandante cappellini (valentine mode)",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "south_dakota_(valentine_mode)_(kancolle)",
+    "canon_name": "south dakota (valentine mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "washington_(valentine's_mode)_(kancolle)",
+    "canon_name": "washington (valentine's mode)",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heian_maru_kai_(kancolle)",
+    "canon_name": "heian maru kai",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heian_maru_(kancolle)",
+    "canon_name": "heian maru",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-41_(kancolle)",
+    "canon_name": "i-41",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-36_kai_(kancolle)",
+    "canon_name": "i-36 kai",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-36_(kancolle)",
+    "canon_name": "i-36",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "drum_(kancolle)",
+    "canon_name": "drum",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikuma_kai_ni_(kancolle)",
+    "canon_name": "mikuma kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "harusame_kai_ni_(kancolle)",
+    "canon_name": "harusame kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kidd_(kancolle)",
+    "canon_name": "kidd",
+    "illustrator": "? ye_fan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_sawagiri_(kancolle)",
+    "canon_name": "js sawagiri",
+    "illustrator": "? akagi_kurage",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_haguro_(kancolle)",
+    "canon_name": "js haguro",
+    "illustrator": "? k.m.station",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_suzutsuki_(kancolle)",
+    "canon_name": "js suzutsuki",
+    "illustrator": "? gintoki_(gin'iro_no_kantai)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_asashio_(kancolle)",
+    "canon_name": "js asashio",
+    "illustrator": "? akagi_kurage",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_amatsukaze_(kancolle)",
+    "canon_name": "js amatsukaze",
+    "illustrator": "? fusou_(fuso0205)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_akebono_(kancolle)",
+    "canon_name": "js akebono",
+    "illustrator": "? fusou_(fuso0205)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiyoshimo_kai_ni_(kancolle)",
+    "canon_name": "kiyoshimo kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "rodney_kai_(kancolle)",
+    "canon_name": "rodney kai",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "rodney_(kancolle)",
+    "canon_name": "rodney",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-503_(kancolle)",
+    "canon_name": "i-503",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uit-24_(kancolle)",
+    "canon_name": "uit-24",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "comandante_cappellini_(kancolle)",
+    "canon_name": "comandante cappellini",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nevada_kai_(kancolle)",
+    "canon_name": "nevada kai",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nevada_(kancolle)",
+    "canon_name": "nevada",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "javelin_(kancolle)",
+    "canon_name": "javelin",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shirakumo_(kancolle)",
+    "canon_name": "shirakumo",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "inagi_(kancolle)",
+    "canon_name": "inagi",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "salmon_kai_(kancolle)",
+    "canon_name": "salmon kai",
+    "illustrator": "kiddy_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "salmon_(kancolle)",
+    "canon_name": "salmon",
+    "illustrator": "kiddy_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asahi_(kancolle)",
+    "canon_name": "asahi",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._22_(kancolle)",
+    "canon_name": "kaiboukan no. 22",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_maru_kai_(kancolle)",
+    "canon_name": "kumano maru kai",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amatsukaze_kai_ni_(kancolle)",
+    "canon_name": "amatsukaze kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_maya_(kancolle)",
+    "canon_name": "js maya",
+    "illustrator": "? h2_(h20000000)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_asashio_(harushio-class)_(kancolle)",
+    "canon_name": "js asashio (harushio-class)",
+    "illustrator": "? pot-de",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_hibiki_(kancolle)",
+    "canon_name": "js hibiki",
+    "illustrator": "? sekino_takehiro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_yuudachi_(1st)_(kancolle)",
+    "canon_name": "js yuudachi (1st)",
+    "illustrator": "? yano_toshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_yuudachi_(2nd)_(kancolle)",
+    "canon_name": "js yuudachi (2nd)",
+    "illustrator": "? fusou_(fuso0205)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_yuubari_(kancolle)",
+    "canon_name": "js yuubari",
+    "illustrator": "? yano_toshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_ikazuchi_(murasame-class)_(kancolle)",
+    "canon_name": "js ikazuchi (murasame-class)",
+    "illustrator": "? hiememiko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_shiranui_(kancolle)",
+    "canon_name": "js shiranui",
+    "illustrator": "? taisa_(kari)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_kai_(kancolle)",
+    "canon_name": "yamashio maru kai",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_ariake_(kancolle)",
+    "canon_name": "js ariake",
+    "illustrator": "? tamu_(mad_works)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "miyuki_kai_ni_(kancolle)",
+    "canon_name": "miyuki kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heywood_l._edwards_kai_(kancolle)",
+    "canon_name": "heywood l. edwards kai",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_samidare_(kancolle)",
+    "canon_name": "js samidare",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "landing_ship_no._101_(kancolle)",
+    "canon_name": "landing ship no. 101",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "noumi_kai_(kancolle)",
+    "canon_name": "noumi kai",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "noumi_(kancolle)",
+    "canon_name": "noumi",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tuscaloosa_kai_(kancolle)",
+    "canon_name": "tuscaloosa kai",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tuscaloosa_(kancolle)",
+    "canon_name": "tuscaloosa",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_maru_(kancolle)",
+    "canon_name": "kumano maru",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heywood_l._edwards_(kancolle)",
+    "canon_name": "heywood l. edwards",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuugure_(kancolle)",
+    "canon_name": "yuugure",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_hatsuyuki_(kancolle)",
+    "canon_name": "js hatsuyuki",
+    "illustrator": "? 4me_4ma",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_kumano_(kancolle)",
+    "canon_name": "js kumano",
+    "illustrator": "? 547th_sy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_abukuma_(kancolle)",
+    "canon_name": "js abukuma",
+    "illustrator": "? hahaha",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_fuyutsuki_(kancolle)",
+    "canon_name": "js fuyutsuki",
+    "illustrator": "? arcie_albano",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_hatakaze_(kancolle)",
+    "canon_name": "js hatakaze",
+    "illustrator": "? karasu_(naoshow357)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_kai_san_(kancolle)",
+    "canon_name": "shigure kai san",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_choukai_(kancolle)",
+    "canon_name": "js choukai",
+    "illustrator": "? yano_toshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_haruna_(kancolle)",
+    "canon_name": "js haruna",
+    "illustrator": "? hahaha",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_takanami_(kancolle)",
+    "canon_name": "js takanami",
+    "illustrator": "? nishinishi_(nagareboshi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_yahagi_(kancolle)",
+    "canon_name": "js yahagi",
+    "illustrator": "? seitei_(04seitei)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_narita_(kancolle)",
+    "canon_name": "admiral narita",
+    "illustrator": "? yukichi_(eikichi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pacific_(kancolle)",
+    "canon_name": "pacific",
+    "illustrator": "? jeanex",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houshou_kai_ni_(kancolle)",
+    "canon_name": "houshou kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_kai_(kancolle)",
+    "canon_name": "fletcher kai",
+    "illustrator": "? mizumiya_yuuki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_jingei_(kancolle)",
+    "canon_name": "js jingei",
+    "illustrator": "? kirisawa_juuzou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "massachusetts_(kancolle)",
+    "canon_name": "massachusetts",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jean_bart_(kancolle)",
+    "canon_name": "jean bart",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "brooklyn_(kancolle)",
+    "canon_name": "brooklyn",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ranger_(kancolle)",
+    "canon_name": "ranger",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ukuru_(kancolle)",
+    "canon_name": "ukuru",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "natsugumo_(kancolle)",
+    "canon_name": "natsugumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "langley_(kancolle)",
+    "canon_name": "langley",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_taigei_(kancolle)",
+    "canon_name": "js taigei",
+    "illustrator": "? shiba_(zudha)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_kirishima_(kancolle)",
+    "canon_name": "js kirishima",
+    "illustrator": "? ichika_5259",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_atago_(kancolle)",
+    "canon_name": "js atago",
+    "illustrator": "? dandara_(karakure)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_kongou_(kancolle)",
+    "canon_name": "js kongou",
+    "illustrator": "? hiememiko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_souryuu_(kancolle)",
+    "canon_name": "js souryuu",
+    "illustrator": "? hahaha",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_hyuuga_(kancolle)",
+    "canon_name": "js hyuuga",
+    "illustrator": "? hiememiko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_izumo_(kancolle)",
+    "canon_name": "js izumo",
+    "illustrator": "? yano_toshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_kaga_(kancolle)",
+    "canon_name": "js kaga",
+    "illustrator": "? yano_toshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "samuel_b._roberts_mk_ii_(kancolle)",
+    "canon_name": "samuel b. roberts mk ii",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hayashio_kai_ni_(kancolle)",
+    "canon_name": "hayashio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kurahashi_kai_(kancolle)",
+    "canon_name": "kurahashi kai",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kurahashi_(kancolle)",
+    "canon_name": "kurahashi",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maryland_(kancolle)",
+    "canon_name": "maryland",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "yamato_kai_ni_(kancolle)",
+    "canon_name": "yamato kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hayashio_(kancolle)",
+    "canon_name": "hayashio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-201_(kancolle)",
+    "canon_name": "i-201",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isonami_kai_ni_(kancolle)",
+    "canon_name": "isonami kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_kai_(kancolle)",
+    "canon_name": "helena kai",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uranami_kai_ni_(kancolle)",
+    "canon_name": "uranami kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tamanami_(kancolle)",
+    "canon_name": "tamanami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fuyutsuki_(kancolle)",
+    "canon_name": "fuyutsuki",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashio_maru_(kancolle)",
+    "canon_name": "yamashio maru",
+    "illustrator": "umihara_sakana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ume_(kancolle)",
+    "canon_name": "ume",
+    "illustrator": "watanabe_akio",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kitakami_kai_(kancolle)",
+    "canon_name": "kitakami kai",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooyodo_kai_(kancolle)",
+    "canon_name": "ooyodo kai",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "honolulu_kai_(kancolle)",
+    "canon_name": "honolulu kai",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "northampton_kai_(kancolle)",
+    "canon_name": "northampton kai",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "musashi_kai_(kancolle)",
+    "canon_name": "musashi kai",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_zwei_(kancolle)",
+    "canon_name": "bismarck zwei",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_kai_(kancolle)",
+    "canon_name": "bismarck kai",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "washington_kai_(kancolle)",
+    "canon_name": "washington kai",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "south_dakota_kai_(kancolle)",
+    "canon_name": "south dakota kai",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_kai_(kancolle)",
+    "canon_name": "zuihou kai",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_kai_(kancolle)",
+    "canon_name": "zuikaku kai",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagi_kai_(kancolle)",
+    "canon_name": "amagi kai",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "katsuragi_kai_(kancolle)",
+    "canon_name": "katsuragi kai",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saratoga_kai_(kancolle)",
+    "canon_name": "saratoga kai",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kamoi_kai_bo_(kancolle)",
+    "canon_name": "kamoi kai bo",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kamoi_kai_(kancolle)",
+    "canon_name": "kamoi kai",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souya_agl_(kancolle)",
+    "canon_name": "souya agl",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souya_agb_(kancolle)",
+    "canon_name": "souya agb",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chiyoda_kai_ni_(kancolle)",
+    "canon_name": "chiyoda kai ni",
+    "illustrator": "? sowamame",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuuhou_kai_ni_(kancolle)",
+    "canon_name": "ryuuhou kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_kai_ni_(kancolle)",
+    "canon_name": "zuihou kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_kai_ni_(kancolle)",
+    "canon_name": "zuikaku kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagiri_kai_ni_(kancolle)",
+    "canon_name": "amagiri kai ni",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shikinami_kai_ni_(kancolle)",
+    "canon_name": "shikinami kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asashio_kai_ni_(kancolle)",
+    "canon_name": "asashio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuubari_kai_ni_(kancolle)",
+    "canon_name": "yuubari kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_kai_(kancolle)",
+    "canon_name": "gotland kai",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "conte_di_cavour_nuovo_(kancolle)",
+    "canon_name": "conte di cavour nuovo",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooi_kai_ni_(kancolle)",
+    "canon_name": "ooi kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kitakami_kai_ni_(kancolle)",
+    "canon_name": "kitakami kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "makigumo_kai_ni_(kancolle)",
+    "canon_name": "makigumo kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takanami_kai_ni_(kancolle)",
+    "canon_name": "takanami kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzuya_kai_ni_(kancolle)",
+    "canon_name": "suzuya kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "musashi_kai_ni_(kancolle)",
+    "canon_name": "musashi kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiratsuyu_kai_ni_(kancolle)",
+    "canon_name": "shiratsuyu kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murasame_kai_ni_(kancolle)",
+    "canon_name": "murasame kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chitose_kai_ni_(kancolle)",
+    "canon_name": "chitose kai ni",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_kai_ni_(kancolle)",
+    "canon_name": "kumano kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shin'you_kai_ni_(kancolle)",
+    "canon_name": "shin'you kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taiyou_kai_ni_(kancolle)",
+    "canon_name": "taiyou kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kongou_kai_ni_(kancolle)",
+    "canon_name": "kongou kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asashimo_kai_ni_(kancolle)",
+    "canon_name": "asashimo kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiei_kai_ni_(kancolle)",
+    "canon_name": "hiei kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gambier_bay_mk_ii_(kancolle)",
+    "canon_name": "gambier bay mk ii",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zara_due_(kancolle)",
+    "canon_name": "zara due",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yahagi_kai_ni_(kancolle)",
+    "canon_name": "yahagi kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saratoga_mk_ii_(kancolle)",
+    "canon_name": "saratoga mk ii",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuujou_kai_ni_(kancolle)",
+    "canon_name": "ryuujou kai ni",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kuma_kai_ni_(kancolle)",
+    "canon_name": "kuma kai ni",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kasumi_kai_ni_(kancolle)",
+    "canon_name": "kasumi kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_andra_(kancolle)",
+    "canon_name": "gotland andra",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_mk_ii_(kancolle)",
+    "canon_name": "fletcher mk ii",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_drei_(kancolle)",
+    "canon_name": "bismarck drei",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_ni_(kancolle)",
+    "canon_name": "akebono kai ni",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hi_convoy_princess_(kancolle)",
+    "canon_name": "hi convoy princess",
+    "illustrator": "? ninimo_nimo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "un'you_kai_ni_(kancolle)",
+    "canon_name": "un'you kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "un'you_(kancolle)",
+    "canon_name": "un'you",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yawata_maru_(kancolle)",
+    "canon_name": "yawata maru",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shounan_(kancolle)",
+    "canon_name": "shounan",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "scamp_(kancolle)",
+    "canon_name": "scamp",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_kai_ni_(kancolle)",
+    "canon_name": "mogami kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oyashio_kai_ni_(kancolle)",
+    "canon_name": "oyashio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamakaze_kai_ni_(kancolle)",
+    "canon_name": "yamakaze kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._30_(kancolle)",
+    "canon_name": "kaiboukan no. 30",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "victorious_(kancolle)",
+    "canon_name": "victorious",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "conte_di_cavour_(kancolle)",
+    "canon_name": "conte di cavour",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chougei_(kancolle)",
+    "canon_name": "chougei",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abruzzi_(kancolle)",
+    "canon_name": "abruzzi",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souya_(kancolle)",
+    "canon_name": "souya",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzunami_(kancolle)",
+    "canon_name": "suzunami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "honolulu_(kancolle)",
+    "canon_name": "honolulu",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "makinami_(kancolle)",
+    "canon_name": "makinami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "momo_(kancolle)",
+    "canon_name": "momo",
+    "illustrator": "watanabe_akio",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-203_(kancolle)",
+    "canon_name": "i-203",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "northampton_(kancolle)",
+    "canon_name": "northampton",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuugumo_kai_ni_(kancolle)",
+    "canon_name": "yuugumo kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_kai_ni_(kancolle)",
+    "canon_name": "yuudachi kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yura_kai_ni_(kancolle)",
+    "canon_name": "yura kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yukikaze_kai_ni_(kancolle)",
+    "canon_name": "yukikaze kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamato_kai_(kancolle)",
+    "canon_name": "yamato kai",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashiro_kai_ni_(kancolle)",
+    "canon_name": "yamashiro kai ni",
+    "illustrator": "? sagamiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_kai_ni_(kancolle)",
+    "canon_name": "ushio kai ni",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "unryuu_kai_(kancolle)",
+    "canon_name": "unryuu kai",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "umikaze_kai_ni_(kancolle)",
+    "canon_name": "umikaze kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tone_kai_ni_(kancolle)",
+    "canon_name": "tone kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tenryuu_kai_ni_(kancolle)",
+    "canon_name": "tenryuu kai ni",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tatsuta_kai_ni_(kancolle)",
+    "canon_name": "tatsuta kai ni",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tama_kai_ni_(kancolle)",
+    "canon_name": "tama kai ni",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_kai_(kancolle)",
+    "canon_name": "taihou kai",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souryuu_kai_ni_(kancolle)",
+    "canon_name": "souryuu kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_kai_ni_(kancolle)",
+    "canon_name": "shoukaku kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shouhou_kai_(kancolle)",
+    "canon_name": "shouhou kai",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiranui_kai_ni_(kancolle)",
+    "canon_name": "shiranui kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shinshuu_maru_kai_(kancolle)",
+    "canon_name": "shinshuu maru kai",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "shigure_kai_ni_(kancolle)",
+    "canon_name": "shigure kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sendai_kai_ni_(kancolle)",
+    "canon_name": "sendai kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_kai_(kancolle)",
+    "canon_name": "sazanami kai",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "satsuki_kai_ni_(kancolle)",
+    "canon_name": "satsuki kai ni",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuuhou_kai_(kancolle)",
+    "canon_name": "ryuuhou kai",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_eugen_kai_(kancolle)",
+    "canon_name": "prinz eugen kai",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooshio_kai_ni_(kancolle)",
+    "canon_name": "ooshio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "okinami_kai_ni_(kancolle)",
+    "canon_name": "okinami kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oboro_kai_(kancolle)",
+    "canon_name": "oboro kai",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "noshiro_kai_ni_(kancolle)",
+    "canon_name": "noshiro kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nelson_kai_(kancolle)",
+    "canon_name": "nelson kai",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "naka_kai_ni_(kancolle)",
+    "canon_name": "naka kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_kai_ni_(kancolle)",
+    "canon_name": "nagato kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "naganami_kai_ni_(kancolle)",
+    "canon_name": "naganami kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nachi_kai_ni_(kancolle)",
+    "canon_name": "nachi kai ni",
+    "illustrator": "noumi_chika",
+    "danbooru_banned": false
+  },
+  {
+    "name": "myoukou_kai_ni_(kancolle)",
+    "canon_name": "myoukou kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsuki_kai_ni_(kancolle)",
+    "canon_name": "mutsuki kai ni",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsu_kai_ni_(kancolle)",
+    "canon_name": "mutsu kai ni",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murakumo_kai_ni_(kancolle)",
+    "canon_name": "murakumo kai ni",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "michishio_kai_ni_(kancolle)",
+    "canon_name": "michishio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maya_kai_ni_(kancolle)",
+    "canon_name": "maya kai ni",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "kuroshio_kai_ni_(kancolle)",
+    "canon_name": "kuroshio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiso_kai_ni_(kancolle)",
+    "canon_name": "kiso kai ni",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kisaragi_kai_ni_(kancolle)",
+    "canon_name": "kisaragi kai ni",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kirishima_kai_ni_(kancolle)",
+    "canon_name": "kirishima kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinugasa_kai_ni_(kancolle)",
+    "canon_name": "kinugasa kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinu_kai_ni_(kancolle)",
+    "canon_name": "kinu kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kazagumo_kai_ni_(kancolle)",
+    "canon_name": "kazagumo kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kawakaze_kai_ni_(kancolle)",
+    "canon_name": "kawakaze kai ni",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kako_kai_ni_(kancolle)",
+    "canon_name": "kako kai ni",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kagerou_kai_ni_(kancolle)",
+    "canon_name": "kagerou kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaga_kai_ni_(kancolle)",
+    "canon_name": "kaga kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jun'you_kai_ni_(kancolle)",
+    "canon_name": "jun'you kai ni",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jintsuu_kai_ni_(kancolle)",
+    "canon_name": "jintsuu kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isuzu_kai_ni_(kancolle)",
+    "canon_name": "isuzu kai ni",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isokaze_kai_(kancolle)",
+    "canon_name": "isokaze kai",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "ise_kai_ni_(kancolle)",
+    "canon_name": "ise kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hyuuga_kai_ni_(kancolle)",
+    "canon_name": "hyuuga kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houston_kai_(kancolle)",
+    "canon_name": "houston kai",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiryuu_kai_ni_(kancolle)",
+    "canon_name": "hiryuu kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsushimo_kai_ni_(kancolle)",
+    "canon_name": "hatsushimo kai ni",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuharu_kai_ni_(kancolle)",
+    "canon_name": "hatsuharu kai ni",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haruna_kai_ni_(kancolle)",
+    "canon_name": "haruna kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haguro_kai_ni_(kancolle)",
+    "canon_name": "haguro kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "graf_zeppelin_kai_(kancolle)",
+    "canon_name": "graf zeppelin kai",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gangut_dva_(kancolle)",
+    "canon_name": "gangut dva",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fusou_kai_ni_(kancolle)",
+    "canon_name": "fusou kai ni",
+    "illustrator": "rikka_(rikka331)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "furutaka_kai_ni_(kancolle)",
+    "canon_name": "furutaka kai ni",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fumizuki_kai_ni_(kancolle)",
+    "canon_name": "fumizuki kai ni",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_kai_ni_(kancolle)",
+    "canon_name": "fubuki kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "choukai_kai_ni_(kancolle)",
+    "canon_name": "choukai kai ni",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "chikuma_kai_ni_(kancolle)",
+    "canon_name": "chikuma kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ayanami_kai_ni_(kancolle)",
+    "canon_name": "ayanami kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ashigara_kai_ni_(kancolle)",
+    "canon_name": "ashigara kai ni",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arashio_kai_ni_(kancolle)",
+    "canon_name": "arashio kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arare_kai_ni_(kancolle)",
+    "canon_name": "arare kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akitsu_maru_kai_(kancolle)",
+    "canon_name": "akitsu maru kai",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akigumo_kai_ni_(kancolle)",
+    "canon_name": "akigumo kai ni",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_kai_(kancolle)",
+    "canon_name": "akebono kai",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akatsuki_kai_ni_(kancolle)",
+    "canon_name": "akatsuki kai ni",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akashi_kai_(kancolle)",
+    "canon_name": "akashi kai",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akagi_kai_ni_(kancolle)",
+    "canon_name": "akagi kai ni",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abukuma_kai_ni_(kancolle)",
+    "canon_name": "abukuma kai ni",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuiun_(kancolle)",
+    "canon_name": "zuiun",
+    "illustrator": "? kai_(akamekogeme)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_(kancolle)",
+    "canon_name": "zuikaku",
+    "illustrator": "? kokuzou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_(kancolle)",
+    "canon_name": "zuihou",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zara_(kancolle)",
+    "canon_name": "zara",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z3_max_schultz_(kancolle)",
+    "canon_name": "z3 max schultz",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z1_leberecht_maass_(kancolle)",
+    "canon_name": "z1 leberecht maass",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuugumo_(kancolle)",
+    "canon_name": "yuugumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_(kancolle)",
+    "canon_name": "yuudachi",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuubari_(kancolle)",
+    "canon_name": "yuubari",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yoizuki_(kancolle)",
+    "canon_name": "yoizuki",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yayoi_(kancolle)",
+    "canon_name": "yayoi",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yashiro_(kancolle)",
+    "canon_name": "yashiro",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamato_(kancolle)",
+    "canon_name": "yamato",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashiro_(kancolle)",
+    "canon_name": "yamashiro",
+    "illustrator": "rikka_(rikka331)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamakaze_(kancolle)",
+    "canon_name": "yamakaze",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamagumo_(kancolle)",
+    "canon_name": "yamagumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yahagi_(kancolle)",
+    "canon_name": "yahagi",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "xin_yang_(kancolle)",
+    "canon_name": "xin yang",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "washington_(kancolle)",
+    "canon_name": "washington",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "warspite_(kancolle)",
+    "canon_name": "warspite",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wakamiya_(kancolle)",
+    "canon_name": "wakamiya",
+    "illustrator": "? iketatsu_shizuru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wakaba_(kancolle)",
+    "canon_name": "wakaba",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "usugumo_(kancolle)",
+    "canon_name": "usugumo",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uss_converse_(kancolle)",
+    "canon_name": "uss converse",
+    "illustrator": "? aegis_(nerocc)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ushio_(kancolle)",
+    "canon_name": "ushio",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uranami_(kancolle)",
+    "canon_name": "uranami",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "urakaze_(kancolle)",
+    "canon_name": "urakaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "unryuu_(kancolle)",
+    "canon_name": "unryuu",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uit-25_(kancolle)",
+    "canon_name": "uit-25",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-511_(kancolle)",
+    "canon_name": "u-511",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tsushima_(kancolle)",
+    "canon_name": "tsushima",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tosa_(kancolle)",
+    "canon_name": "tosa",
+    "illustrator": "? kama_iruka",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tone_(kancolle)",
+    "canon_name": "tone",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tomonaga_squadron_pilot_(kancolle)",
+    "canon_name": "tomonaga squadron pilot",
+    "illustrator": "? pectong",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tirpitz_(kancolle)",
+    "canon_name": "tirpitz",
+    "illustrator": "? tama_(tamatamo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "teruzuki_(kancolle)",
+    "canon_name": "teruzuki",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tenzan_(kancolle)",
+    "canon_name": "tenzan",
+    "illustrator": "? benitama",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tatsuta_(kancolle)",
+    "canon_name": "tatsuta",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tashkent_(kancolle)",
+    "canon_name": "tashkent",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tappi_(kancolle)",
+    "canon_name": "tappi",
+    "illustrator": "? heidi_(gray_all)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tanikaze_(kancolle)",
+    "canon_name": "tanikaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "tan_yang_(kancolle)",
+    "canon_name": "tan yang",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tama_(kancolle)",
+    "canon_name": "tama",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "take_(kancolle)",
+    "canon_name": "take",
+    "illustrator": "watanabe_akio",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takasaki_ii_(kancolle)",
+    "canon_name": "takasaki ii",
+    "illustrator": "? fuuna",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takanami_(kancolle)",
+    "canon_name": "takanami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taiyou_(kancolle)",
+    "canon_name": "taiyou",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(kancolle)",
+    "canon_name": "taihou",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taigei_(kancolle)",
+    "canon_name": "taigei",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzutsuki_(kancolle)",
+    "canon_name": "suzutsuki",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzukaze_(kancolle)",
+    "canon_name": "suzukaze",
+    "illustrator": "amamiya_chiharu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suisei_(kancolle)",
+    "canon_name": "suisei",
+    "illustrator": "? coco3186",
+    "danbooru_banned": false
+  },
+  {
+    "name": "star_shell_(kancolle)",
+    "canon_name": "star shell",
+    "illustrator": "? kobayashi_kabura",
+    "danbooru_banned": false
+  },
+  {
+    "name": "south_dakota_(kancolle)",
+    "canon_name": "south dakota",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "skilled_pilot_(kancolle)",
+    "canon_name": "skilled pilot",
+    "illustrator": "? pectong",
+    "danbooru_banned": false
+  },
+  {
+    "name": "skilled_lookouts_(kancolle)",
+    "canon_name": "skilled lookouts",
+    "illustrator": "? yukichi_(sukiyaki39)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_(kancolle)",
+    "canon_name": "shoukaku",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shouhou_(kancolle)",
+    "canon_name": "shouhou",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shirayuki_(kancolle)",
+    "canon_name": "shirayuki",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ship_repair_facility_(kancolle)",
+    "canon_name": "ship repair facility",
+    "illustrator": "? akino_shuu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shinshuu_maru_(kancolle)",
+    "canon_name": "shinshuu maru",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "shinden_(kancolle)",
+    "canon_name": "shinden",
+    "illustrator": "? amakara_surume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shinano_(kancolle)",
+    "canon_name": "shinano",
+    "illustrator": "youki_(mira_555)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shin'you_(kancolle)",
+    "canon_name": "shin'you",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shimushu_(kancolle)",
+    "canon_name": "shimushu",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shikinami_(kancolle)",
+    "canon_name": "shikinami",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiden_kai_2_(kancolle)",
+    "canon_name": "shiden kai 2",
+    "illustrator": "? shiden_(sashimi_no_wife)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shen_yang_(kancolle)",
+    "canon_name": "shen yang",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sheffield_(kancolle)",
+    "canon_name": "sheffield",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sendai_(kancolle)",
+    "canon_name": "sendai",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "seiran_(kancolle)",
+    "canon_name": "seiran",
+    "illustrator": "? kakiha_makoto",
+    "danbooru_banned": false
+  },
+  {
+    "name": "searchlight_(kancolle)",
+    "canon_name": "searchlight",
+    "illustrator": "? kusaka_souji",
+    "danbooru_banned": false
+  },
+  {
+    "name": "scirocco_(kancolle)",
+    "canon_name": "scirocco",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souryuu_(kancolle)",
+    "canon_name": "souryuu",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sazanami_(kancolle)",
+    "canon_name": "sazanami",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "satsuki_(kancolle)",
+    "canon_name": "satsuki",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saratoga_(kancolle)",
+    "canon_name": "saratoga",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "samuel_b._roberts_(kancolle)",
+    "canon_name": "samuel b. roberts",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sakawa_(kancolle)",
+    "canon_name": "sakawa",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saiun_(kancolle)",
+    "canon_name": "saiun",
+    "illustrator": "? sakazaki_freddy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sagiri_(kancolle)",
+    "canon_name": "sagiri",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sado_(kancolle)",
+    "canon_name": "sado",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuusei_(kancolle)",
+    "canon_name": "ryuusei",
+    "illustrator": "? shiden_(sashimi_no_wife)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuujou_(kancolle)",
+    "canon_name": "ryuujou",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuuhou_(kancolle)",
+    "canon_name": "ryuuhou",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "roma_(kancolle)",
+    "canon_name": "roma",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ro-500_(kancolle)",
+    "canon_name": "ro-500",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "richelieu_(kancolle)",
+    "canon_name": "richelieu",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "reppuu_(kancolle)",
+    "canon_name": "reppuu",
+    "illustrator": "? pureji_oshou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pola_(kancolle)",
+    "canon_name": "pola",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "plasma-chan_(kancolle)",
+    "canon_name": "plasma-chan",
+    "illustrator": "? admiral_paru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "perth_(kancolle)",
+    "canon_name": "perth",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oyashio_(kancolle)",
+    "canon_name": "oyashio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooyodo_(kancolle)",
+    "canon_name": "ooyodo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooshio_(kancolle)",
+    "canon_name": "ooshio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooi_(kancolle)",
+    "canon_name": "ooi",
+    "illustrator": "? robinson_(day_l_full)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oktyabrskaya_revolyutsiya_(kancolle)",
+    "canon_name": "oktyabrskaya revolyutsiya",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "okinami_(kancolle)",
+    "canon_name": "okinami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nowaki_(kancolle)",
+    "canon_name": "nowaki",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "noshiro_(kancolle)",
+    "canon_name": "noshiro",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "non-human_admiral_(kancolle)",
+    "canon_name": "non-human admiral",
+    "illustrator": "? uzaki_(jiro)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nisshin_(kancolle)",
+    "canon_name": "nisshin",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nenohi_(kancolle)",
+    "canon_name": "nenohi",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nelson_(kancolle)",
+    "canon_name": "nelson",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "natori_(kancolle)",
+    "canon_name": "natori",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "namikaze_(kancolle)",
+    "canon_name": "namikaze",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "naka_(kancolle)",
+    "canon_name": "naka",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagatsuki_(kancolle)",
+    "canon_name": "nagatsuki",
+    "illustrator": "noco_(adamas)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_(kancolle)",
+    "canon_name": "nagato",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagara_(kancolle)",
+    "canon_name": "nagara",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nachi_(kancolle)",
+    "canon_name": "nachi",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "myoukou_(kancolle)",
+    "canon_name": "myoukou",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsuki_(kancolle)",
+    "canon_name": "mutsuki",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murata_squadron_pilot_(kancolle)",
+    "canon_name": "murata squadron pilot",
+    "illustrator": "? akiha_(attract)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_(kancolle)",
+    "canon_name": "mogami",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mochizuki_(kancolle)",
+    "canon_name": "mochizuki",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mizuho_(kancolle)",
+    "canon_name": "mizuho",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "miyuki_(kancolle)",
+    "canon_name": "miyuki",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "minegumo_(kancolle)",
+    "canon_name": "minegumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "minazuki_(kancolle)",
+    "canon_name": "minazuki",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikura_(kancolle)",
+    "canon_name": "mikura",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikuma_(kancolle)",
+    "canon_name": "mikuma",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikazuki_(kancolle)",
+    "canon_name": "mikazuki",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikasa_(kancolle)",
+    "canon_name": "mikasa",
+    "illustrator": "? ishii_hisao",
+    "danbooru_banned": false
+  },
+  {
+    "name": "midori_(kancolle)",
+    "canon_name": "midori",
+    "illustrator": "? setona_(daice)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "michishio_(kancolle)",
+    "canon_name": "michishio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "matsuwa_(kancolle)",
+    "canon_name": "matsuwa",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "matsukaze_(kancolle)",
+    "canon_name": "matsukaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "matsu_(kancolle)",
+    "canon_name": "matsu",
+    "illustrator": "watanabe_akio",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maru-yu_(kancolle)",
+    "canon_name": "maru-yu",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mamiya_(kancolle)",
+    "canon_name": "mamiya",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "majokko_(kancolle)",
+    "canon_name": "majokko",
+    "illustrator": "? nagineko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maintenance_musume_(kancolle)",
+    "canon_name": "maintenance musume",
+    "illustrator": "? akihazama",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maikaze_(kancolle)",
+    "canon_name": "maikaze",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maestrale_(kancolle)",
+    "canon_name": "maestrale",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "luigi_torelli_(kancolle)",
+    "canon_name": "luigi torelli",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "luigi_di_savoia_duca_degli_abruzzi_(kancolle)",
+    "canon_name": "luigi di savoia duca degli abruzzi",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "littorio_(kancolle)",
+    "canon_name": "littorio",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "little_girl_admiral_(kancolle)",
+    "canon_name": "little girl admiral",
+    "illustrator": "? fukuoka_tarou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "little_boy_admiral_(kancolle)",
+    "canon_name": "little boy admiral",
+    "illustrator": "? rappa_(rappaya)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "little_boy_abyssal_admiral_(kancolle)",
+    "canon_name": "little boy abyssal admiral",
+    "illustrator": "? i_b_b_e",
+    "danbooru_banned": false
+  },
+  {
+    "name": "little_blue_whale_(kancolle)",
+    "canon_name": "little blue whale",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "libeccio_(kancolle)",
+    "canon_name": "libeccio",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kunashiri_(kancolle)",
+    "canon_name": "kunashiri",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kuma_(kancolle)",
+    "canon_name": "kuma",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kneeling_girl_(kancolle)",
+    "canon_name": "kneeling girl",
+    "illustrator": "? todome",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiyoshimo_(kancolle)",
+    "canon_name": "kiyoshimo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kitakami_(kancolle)",
+    "canon_name": "kitakami",
+    "illustrator": "? tf_cafe",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiso_(kancolle)",
+    "canon_name": "kiso",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kishinami_(kancolle)",
+    "canon_name": "kishinami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kisaragi_(kancolle)",
+    "canon_name": "kisaragi",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinugasa_(kancolle)",
+    "canon_name": "kinugasa",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinu_(kancolle)",
+    "canon_name": "kinu",
+    "illustrator": "mamedenkyuu_(berun)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kikuzuki_(kancolle)",
+    "canon_name": "kikuzuki",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kazagumo_(kancolle)",
+    "canon_name": "kazagumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "katsuragi_(kancolle)",
+    "canon_name": "katsuragi",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "katori_(kancolle)",
+    "canon_name": "katori",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "kasumi_(kancolle)",
+    "canon_name": "kasumi",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kasuga_maru_(kancolle)",
+    "canon_name": "kasuga maru",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kamoi_(kancolle)",
+    "canon_name": "kamoi",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kamikaze_(kancolle)",
+    "canon_name": "kamikaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "kako_(kancolle)",
+    "canon_name": "kako",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaiboukan_no._4_(kancolle)",
+    "canon_name": "kaiboukan no. 4",
+    "illustrator": "hozuka_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kagerou_(kancolle)",
+    "canon_name": "kagerou",
+    "illustrator": "noco_(adamas)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaga_(kancolle)",
+    "canon_name": "kaga",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaga_(battleship)_(kancolle)",
+    "canon_name": "kaga (battleship)",
+    "illustrator": "? akaga_hirotaka",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jun'you_(kancolle)",
+    "canon_name": "jun'you",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(kancolle)",
+    "canon_name": "johnston",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jintsuu_(kancolle)",
+    "canon_name": "jintsuu",
+    "illustrator": "matsumoto_mayuko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jingei_(kancolle)",
+    "canon_name": "jingei",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jervis_(kancolle)",
+    "canon_name": "jervis",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "janus_(kancolle)",
+    "canon_name": "janus",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "iwamoto_squadron_pilot_(kancolle)",
+    "canon_name": "iwamoto squadron pilot",
+    "illustrator": "? hita_(hitapita)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "italia_(kancolle)",
+    "canon_name": "italia",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isuzu_(kancolle)",
+    "canon_name": "isuzu",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isonami_(kancolle)",
+    "canon_name": "isonami",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ishigaki_(kancolle)",
+    "canon_name": "ishigaki",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ise_(kancolle)",
+    "canon_name": "ise",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "irako_(kancolle)",
+    "canon_name": "irako",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "iowa_(kancolle)",
+    "canon_name": "iowa",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "intrepid_(kancolle)",
+    "canon_name": "intrepid",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-8_(kancolle)",
+    "canon_name": "i-8",
+    "illustrator": "syobonne",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-58_(kancolle)",
+    "canon_name": "i-58",
+    "illustrator": "syobonne",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-504_(kancolle)",
+    "canon_name": "i-504",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-47_(kancolle)",
+    "canon_name": "i-47",
+    "illustrator": "hoshiakari_(c2_kikan)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-401_(kancolle)",
+    "canon_name": "i-401",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-400_(kancolle)",
+    "canon_name": "i-400",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-26_(kancolle)",
+    "canon_name": "i-26",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-168_(kancolle)",
+    "canon_name": "i-168",
+    "illustrator": "syobonne",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-14_(kancolle)",
+    "canon_name": "i-14",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-13_(kancolle)",
+    "canon_name": "i-13",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hyuuga_(kancolle)",
+    "canon_name": "hyuuga",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houston_(kancolle)",
+    "canon_name": "houston",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houshou_(kancolle)",
+    "canon_name": "houshou",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hornet_(kancolle)",
+    "canon_name": "hornet",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiyou_(kancolle)",
+    "canon_name": "hiyou",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiyoko_(kancolle)",
+    "canon_name": "hiyoko",
+    "illustrator": "? akasaai",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiryuu_(kancolle)",
+    "canon_name": "hiryuu",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hirato_(kancolle)",
+    "canon_name": "hirato",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiei_(kancolle)",
+    "canon_name": "hiei",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiburi_(kancolle)",
+    "canon_name": "hiburi",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helmet_musume_(kancolle)",
+    "canon_name": "helmet musume",
+    "illustrator": "? lee_(colt)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_(kancolle)",
+    "canon_name": "helena",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hayasui_(kancolle)",
+    "canon_name": "hayasui",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hayashimo_(kancolle)",
+    "canon_name": "hayashimo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hayanami_(kancolle)",
+    "canon_name": "hayanami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuzuki_(kancolle)",
+    "canon_name": "hatsuzuki",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuume_(kancolle)",
+    "canon_name": "hatsuume",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsushimo_(kancolle)",
+    "canon_name": "hatsushimo",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsukaze_(kancolle)",
+    "canon_name": "hatsukaze",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatakaze_(kancolle)",
+    "canon_name": "hatakaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "harusame_(kancolle)",
+    "canon_name": "harusame",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "harukaze_(kancolle)",
+    "canon_name": "harukaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "hamanami_(kancolle)",
+    "canon_name": "hamanami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hamakaze_(kancolle)",
+    "canon_name": "hamakaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "haguro_(kancolle)",
+    "canon_name": "haguro",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hagikaze_(kancolle)",
+    "canon_name": "hagikaze",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hachijou_(kancolle)",
+    "canon_name": "hachijou",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "grecale_(kancolle)",
+    "canon_name": "grecale",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "graf_zeppelin_(kancolle)",
+    "canon_name": "graf zeppelin",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_(kancolle)",
+    "canon_name": "gotland",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "giuseppe_garibaldi_(kancolle)",
+    "canon_name": "giuseppe garibaldi",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "girl_holding_a_cat_(kancolle)",
+    "canon_name": "girl holding a cat",
+    "illustrator": "? katou_techu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "girl_behind_a_cat_(kancolle)",
+    "canon_name": "girl behind a cat",
+    "illustrator": "? redrop",
+    "danbooru_banned": false
+  },
+  {
+    "name": "girl_beaten_by_a_cat_(kancolle)",
+    "canon_name": "girl beaten by a cat",
+    "illustrator": "? matsuryuu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gangut_(kancolle)",
+    "canon_name": "gangut",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gambier_bay_(kancolle)",
+    "canon_name": "gambier bay",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fusou_(kancolle)",
+    "canon_name": "fusou",
+    "illustrator": "rikka_(rikka331)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "furutaka_(kancolle)",
+    "canon_name": "furutaka",
+    "illustrator": "ugume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fumizuki_(kancolle)",
+    "canon_name": "fumizuki",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fukae_(kancolle)",
+    "canon_name": "fukae",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fujinami_(kancolle)",
+    "canon_name": "fujinami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "floating_fortress_(kancolle)",
+    "canon_name": "floating fortress",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_(kancolle)",
+    "canon_name": "fletcher",
+    "illustrator": "zeco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fen_yang_(kancolle)",
+    "canon_name": "fen yang",
+    "illustrator": "? acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "female_admiral_(kancolle)",
+    "canon_name": "female admiral",
+    "illustrator": "? akara_kai",
+    "danbooru_banned": false
+  },
+  {
+    "name": "female_abyssal_admiral_(kancolle)",
+    "canon_name": "female abyssal admiral",
+    "illustrator": "? tonda",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fairy_(kancolle)",
+    "canon_name": "fairy",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "etorofu_(kancolle)",
+    "canon_name": "etorofu",
+    "illustrator": "akasaka_yuzu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "escort_fortress_(kancolle)",
+    "canon_name": "escort fortress",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_naval_mine_(kancolle)",
+    "canon_name": "enemy naval mine",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_lifebuoy_(kancolle)",
+    "canon_name": "enemy lifebuoy",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_aircraft_(kancolle)",
+    "canon_name": "enemy aircraft",
+    "illustrator": "oguchi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "drum_canister_(kancolle)",
+    "canon_name": "drum canister",
+    "illustrator": "? battlegaregga",
+    "danbooru_banned": false
+  },
+  {
+    "name": "decemberist_(kancolle)",
+    "canon_name": "decemberist",
+    "illustrator": "? 8-gou_(mechanist08)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "de_ruyter_(kancolle)",
+    "canon_name": "de ruyter",
+    "illustrator": "sara_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "damage_control_goddess_(kancolle)",
+    "canon_name": "damage control goddess",
+    "illustrator": "? sakazaki_freddy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "damage_control_crew_(kancolle)",
+    "canon_name": "damage control crew",
+    "illustrator": "? ishikkoro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "daitou_(kancolle)",
+    "canon_name": "daitou",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "commandant_teste_(kancolle)",
+    "canon_name": "commandant teste",
+    "illustrator": "akira_(kadokawa)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "combat_ration_(kancolle)",
+    "canon_name": "combat ration",
+    "illustrator": "? imori_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "colorado_(kancolle)",
+    "canon_name": "colorado",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "choukai_(kancolle)",
+    "canon_name": "choukai",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "chiyoda_(kancolle)",
+    "canon_name": "chiyoda",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chitose_(kancolle)",
+    "canon_name": "chitose",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chikuma_(kancolle)",
+    "canon_name": "chikuma",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cha_(kancolle)",
+    "canon_name": "cha",
+    "illustrator": "? mafuyu_(kanden_shoujyo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_(kancolle)",
+    "canon_name": "bismarck",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ayanami_(kancolle)",
+    "canon_name": "ayanami",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atlanta_(kancolle)",
+    "canon_name": "atlanta",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ashigara_(kancolle)",
+    "canon_name": "ashigara",
+    "illustrator": "bob_(biyonbiyon)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asashio_(kancolle)",
+    "canon_name": "asashio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asashimo_(kancolle)",
+    "canon_name": "asashimo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "asakaze_(kancolle)",
+    "canon_name": "asakaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "asagumo_(kancolle)",
+    "canon_name": "asagumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ark_royal_(kancolle)",
+    "canon_name": "ark royal",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ariake_(kancolle)",
+    "canon_name": "ariake",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arashio_(kancolle)",
+    "canon_name": "arashio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arashi_(kancolle)",
+    "canon_name": "arashi",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "aquila_(kancolle)",
+    "canon_name": "aquila",
+    "illustrator": "jiji_(aardvark)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "aoba_(kancolle)",
+    "canon_name": "aoba",
+    "illustrator": "hatsuko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "anti-torpedo_bulge_(kancolle)",
+    "canon_name": "anti-torpedo bulge",
+    "illustrator": "? amagai_tarou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagiri_(kancolle)",
+    "canon_name": "amagiri",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagi_(kancolle)",
+    "canon_name": "amagi",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagi_(battlecruiser)_(kancolle)",
+    "canon_name": "amagi (battlecruiser)",
+    "illustrator": "? taruya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akizuki_(kancolle)",
+    "canon_name": "akizuki",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akitsushima_(kancolle)",
+    "canon_name": "akitsushima",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akitsu_maru_(kancolle)",
+    "canon_name": "akitsu maru",
+    "illustrator": "kuuro_kuro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akishimo_(kancolle)",
+    "canon_name": "akishimo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akagi_(kancolle)",
+    "canon_name": "akagi",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "agano_(kancolle)",
+    "canon_name": "agano",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abyssal_fairy_(kancolle)",
+    "canon_name": "abyssal fairy",
+    "illustrator": "? uemukai_dai",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abyssal_admiral_(kancolle)",
+    "canon_name": "abyssal admiral",
+    "illustrator": "? bencao_gangmu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abukuma_(kancolle)",
+    "canon_name": "abukuma",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "601_air_group_pilot_(kancolle)",
+    "canon_name": "601 air group pilot",
+    "illustrator": "? shigemitsu_jun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takao_(kancolle)",
+    "canon_name": "takao",
+    "illustrator": "mikoto_akemi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maya_(kancolle)",
+    "canon_name": "maya",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "tokitsukaze_(kancolle)",
+    "canon_name": "tokitsukaze",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_eugen_(kancolle)",
+    "canon_name": "prinz eugen",
+    "illustrator": "shimada_fumikane",
+    "danbooru_banned": false
+  },
+  {
+    "name": "umikaze_(kancolle)",
+    "canon_name": "umikaze",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "isokaze_(kancolle)",
+    "canon_name": "isokaze",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "kawakaze_(kancolle)",
+    "canon_name": "kawakaze",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzuya_(kancolle)",
+    "canon_name": "suzuya",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_(kancolle)",
+    "canon_name": "kumano",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-19_(kancolle)",
+    "canon_name": "i-19",
+    "illustrator": "syobonne",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsu_(kancolle)",
+    "canon_name": "mutsu",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kashima_(kancolle)",
+    "canon_name": "kashima",
+    "illustrator": "parsley-f",
+    "danbooru_banned": true
+  },
+  {
+    "name": "akashi_(kancolle)",
+    "canon_name": "akashi",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kongou_(kancolle)",
+    "canon_name": "kongou",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "verniy_(kancolle)",
+    "canon_name": "verniy",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haruna_(kancolle)",
+    "canon_name": "haruna",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kirishima_(kancolle)",
+    "canon_name": "kirishima",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_(kancolle)",
+    "canon_name": "admiral",
+    "illustrator": "acea4",
+    "danbooru_banned": false
+  },
+  {
+    "name": "musashi_(kancolle)",
+    "canon_name": "musashi",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atago_(kancolle)",
+    "canon_name": "atago",
+    "illustrator": "mikoto_akemi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yura_(kancolle)",
+    "canon_name": "yura",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amatsukaze_(kancolle)",
+    "canon_name": "amatsukaze",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yukikaze_(kancolle)",
+    "canon_name": "yukikaze",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "uzuki_(kancolle)",
+    "canon_name": "uzuki",
+    "illustrator": "kusada_souta",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiratsuyu_(kancolle)",
+    "canon_name": "shiratsuyu",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiranui_(kancolle)",
+    "canon_name": "shiranui",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shimakaze_(kancolle)",
+    "canon_name": "shimakaze",
+    "illustrator": "shizuma_yoshinori",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_(kancolle)",
+    "canon_name": "shigure",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "samidare_(kancolle)",
+    "canon_name": "samidare",
+    "illustrator": "amamiya_chiharu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oboro_(kancolle)",
+    "canon_name": "oboro",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "naganami_(kancolle)",
+    "canon_name": "naganami",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murasame_(kancolle)",
+    "canon_name": "murasame",
+    "illustrator": "kujou_ichiso",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murakumo_(kancolle)",
+    "canon_name": "murakumo",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "makigumo_(kancolle)",
+    "canon_name": "makigumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kuroshio_(kancolle)",
+    "canon_name": "kuroshio",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "inazuma_(kancolle)",
+    "canon_name": "inazuma",
+    "illustrator": "matsumoto_mayuko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ikazuchi_(kancolle)",
+    "canon_name": "ikazuchi",
+    "illustrator": "matsumoto_mayuko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hibiki_(kancolle)",
+    "canon_name": "hibiki",
+    "illustrator": "yadokari_(migihashi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuyuki_(kancolle)",
+    "canon_name": "hatsuyuki",
+    "illustrator": "shibafu_(glock23)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuharu_(kancolle)",
+    "canon_name": "hatsuharu",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(kancolle)",
+    "canon_name": "fubuki",
+    "illustrator": "ide_naomi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arare_(kancolle)",
+    "canon_name": "arare",
+    "illustrator": "konishi_(koconatu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akigumo_(kancolle)",
+    "canon_name": "akigumo",
+    "illustrator": "fujikawa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akebono_(kancolle)",
+    "canon_name": "akebono",
+    "illustrator": "drew_(drew213g)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akatsuki_(kancolle)",
+    "canon_name": "akatsuki",
+    "illustrator": "matsumoto_mayuko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tenryuu_(kancolle)",
+    "canon_name": "tenryuu",
+    "illustrator": "ayaki",
+    "danbooru_banned": false
+  }
+]

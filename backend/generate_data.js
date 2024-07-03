@@ -75,6 +75,7 @@ function main_shipgirl_db() {
         if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini"].includes(dir)) return
         if (whitelist_dir.length > 0 && !whitelist_dir.includes(dir)) return
 
+        let series_list = []
         let entry_config = config.find(val => val.name === dir) || {}
         let alias_config = [...global_config.alias]
         let l2d_config = []
@@ -83,6 +84,7 @@ function main_shipgirl_db() {
         let voice_config = []
         let m3d_config = []
         let extra_config = []
+        let illust_config = []
         if (entry_config.alias) alias_config = [...alias_config, ...entry_config.alias]
         if (entry_config.live2dmapping) {
             l2d_config = JSON.parse(fs.readFileSync(entry_config.live2dmapping, {encoding: 'utf-8'}) || "[]")
@@ -102,17 +104,58 @@ function main_shipgirl_db() {
         if (entry_config.extramapping) {
             extra_config = JSON.parse(fs.readFileSync(entry_config.extramapping, {encoding: 'utf-8'}) || "[]")
         }
+        if (entry_config.illustmapping) {
+            illust_config = JSON.parse(fs.readFileSync(entry_config.illustmapping, {encoding: 'utf-8'}) || "[]")
+        }
 
         let base_count = 0
         let count = 0
+
+        illust_config = illust_config.map(val => {
+            // for char name, strip all cluster inside parentheses
+            let char = val.canon_name.replace(/\(.*\)/g, '').trim()
+            // for modifer, for each cluster inside parentheses, split them into an element in the array
+            let modifier = val.canon_name.match(/\(.*\)/g)?.map(v => v.replace(/[\(\)]/g, '').trim()) ?? []
+            // special case for Azur Lane, if muse or meta is in modifier, remove it from array and append it to char
+            if (dir === "Azur Lane" && modifier.includes("muse")) {
+                char += " muse"
+                modifier = modifier.filter(v => v !== "muse")
+            }
+            // special case for Azur Lane, if meta is in modifier, remove it from array and append it to char
+            if (dir === "Azur Lane" && modifier.includes("meta")) {
+                char += " meta"
+                modifier = modifier.filter(v => v !== "meta")
+            }
+            // special case for kancolle if "kai" or "kai ni" in char, remove it from char and append it to modifier
+            if (dir === "Kantai Collection" && char.includes("kai ni")) {
+                modifier.push("kai ni")
+                char = char.replace("kai ni", "").trim()
+            }
+            else if (dir === "Kantai Collection" && char.includes("kai")) {
+                modifier.push("kai")
+                char = char.replace("kai", "").trim()
+            }
+            
+            // console.log(`Illust config: |${val.canon_name}| char: |${char}| modifier: |${modifier}|`)
+            return {
+                ...val,
+                char: char,
+                modifier: modifier,
+            }
+        })
 
         //console.log(chibi_config)
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)
         files.forEach((file, index) => {
+            // DEBUG: stop at 100
+            // if (count >= 100) return
+
             if (!(file.endsWith('.jpg') || file.endsWith('.jpeg') || file.endsWith('.png') || file.endsWith('.gif') || file.endsWith('.webp'))) return
             let comp = file.slice(0, file.lastIndexOf('.')).split('_')
             let char_name = comp[0]
+            let modifiers = comp[1] ? comp.slice(1) : []
+            //console.log(modifiers)
 
             //special case for kc cuz im an idiot
             if (dir === "Kantai Collection") comp = [comp[0], ...(comp[1].split(" "))]
@@ -201,42 +244,36 @@ function main_shipgirl_db() {
                 temp_voice = {...voice}
             }
 
-            // if (dir === "Azur Lane" && temp_voice) {
-            //     // if isBase, filter out any voice files which filename contain Skin<number>
-            //     // if (isBase) {
-            //     //     voice.files = voice.files.filter(val => !val.match(/Skin\d+/))
-            //     // }
-            //     // otherwise, check its dir field in chibi variable if not null
-            //     if (isOath) {
-            //         temp_voice.files = temp_voice.files.filter(val => val.includes("Pledge"))
-            //     }
-            //     else if (isRetrofit) {
-            //         temp_voice.files = temp_voice.files.filter(val => val.includes("Skin9"))
-            //     }
-            //     else if (!isBase && chibi) {
-            //         // ./data/assets/shipgirls/Azur Lane/al_spine/chibi/qiansui_2/qiansui_2.skel, extract the number in qiansui_2 and filter out any voice files which filename DOES NOT contain Skin<number>
-            //         const chibi_dir = chibi.dir.split('/').pop()
-            //         const skin_number = chibi_dir.match(/\d+/)
+            const illust_candidate = illust_config.filter(val =>
+                dir === "Azur Lane" ?
+                    (folded_name.toLowerCase().includes(val.char.toLowerCase()) || folded_name.toLowerCase().replace(' ', ' ').includes(val.char.toLowerCase())) :
+                    folded_name.toLowerCase().includes(val.char.toLowerCase()) 
+            ) || null
+            // console.log(illust_candidate)
 
-            //         // console.log(skin_number)
-            //         if (skin_number) {
-            //             temp_voice.files = temp_voice.files?.filter(val => val.includes(`Skin${parseInt(skin_number[0])-1}`)) ?? []
-            //         }
-            //         else {
-            //             temp_voice.files = []    
-            //         }
-            //     } 
-            //     else if (!isBase) {
-            //         // if chibi is null, filter out all voice files
-            //         temp_voice.files = []
-            //     }
+            let illust = illust_candidate?.reduce((prev, curr) => {
+                // take match with the least number of modifier
+                if (prev.modifier.length < curr.modifier.length) return prev
+                return curr
+            }, illust_candidate[0]) || null
 
-            //     // console.log(temp_voice.files)
-            // }
+            if (illust) {
+                illust_candidate.reduce((prev, curr) => {
+                    // console.log(curr.modifier.map(m => m.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()))
+                    // console.log(modifiers.map(m => m.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()))
+                    // for each candidate, count how many match of its modifier against current file modifier (strip all special character and space and lower case before comparison), higher match count take precedence
+                    const curr_match = curr.modifier.filter(v => modifiers.map(m => m.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()).some(s => s.includes(v.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()))).length
+                    if (curr_match > prev) {
+                        illust = curr
+                        prev = curr_match
+                    }
+                    return prev
+                }, 0)
+            }
 
-            list.push({
+            series_list.push({
                 char: char_name,
-                modifier: comp[1] ? comp.slice(1).join(' ') : "",
+                modifier: modifiers.join(' ').trim(),
                 full_dir: BASE_PATH + '/' + dir + '/' + file,
                 filename: file,
                 is_base: isBase,
@@ -256,7 +293,22 @@ function main_shipgirl_db() {
                 m3d: m3d,
                 nation: extra_info?.nation,
                 ship_type: extra_info?.ship_type,
+                illust: illust?.illustrator,
+                danbooru_banned: illust?.danbooru_banned ?? false,
             })
+        })
+
+        // extrapolate for illust config
+        // filter entries with illust config
+        let entries_with_illust = series_list.filter(v => v.illust)
+        // for the remaining entries, find the one with the same char name and is_base = true and set the illust to the same illust and danbooru_banned with "? " prefix to illust to flag it as extrapolated
+        series_list.forEach((val, index) => {
+            if (val.illust) return
+            const found = entries_with_illust.find(v => v.char.toLowerCase() === val.char.toLowerCase() && v.is_base === true)
+            if (found) {
+                series_list[index].illust = "? " + found.illust
+                series_list[index].danbooru_banned = found.danbooru_banned
+            }
         })
         
         // orphaned extra config check
@@ -296,7 +348,16 @@ function main_shipgirl_db() {
                     }
                 })
             }
+            // if (illust_config.length > 0) {
+            //     illust_config.forEach((val) => {
+            //         if (list.findIndex(v => v.illust && v.illust.name === val.name) === -1) {
+            //             console.log(`Orphaned illust config found: |${val.name}|`)
+            //         }
+            //     })
+            // }
         }
+
+        list = list.concat(series_list)
     })
 
     fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})

@@ -22,7 +22,8 @@
 
         ],
         "voicemapping": "./data/ah_voiceMapping.json",
-        "m3dmapping": "./data/ah_m3dMapping.json"
+        "m3dmapping": "./data/ah_m3dMapping.json",
+        "illustmapping": "./data/ah_booru_char_list.json"
     },
     {
         "name": "Azur Lane",
@@ -53,7 +54,8 @@
         "chibispinemapping": "./data/al_spineChibi.json",
         "fullspinemapping": "./data/al_spineFull.json",
         "voicemapping": "./data/al_voiceMapping.json",
-        "extramapping": "./data/al_extraMapping.json"
+        "extramapping": "./data/al_extraMapping.json",
+        "illustmapping": "./data/al_booru_char_list.json"
     },
     {
         "name": "Artist Original Content",
@@ -97,7 +99,8 @@
         "damageArtSuffix": "damaged",
         "alias": [
 
-        ]
+        ],
+        "illustmapping": "./data/bsg_booru_char_list.json"
     },
     {
         "name": "Black Surgenights",
@@ -110,7 +113,8 @@
         ],
         "chibispinemapping": "./data/bsn_spineChibi.json",
         "fullspinemapping": "./data/bsn_spineFull.json",
-        "voicemapping": "./data/bsn_voiceMapping.json"
+        "voicemapping": "./data/bsn_voiceMapping.json",
+        "illustmapping": "./data/bsn_booru_char_list.json"
     },
     {
         "name": "Blue Oath",
@@ -123,7 +127,8 @@
         "alias": [
 
         ],
-        "voicemapping": "./data/bo_voiceMapping.json"
+        "voicemapping": "./data/bo_voiceMapping.json",
+        "illustmapping": "./data/bo_booru_char_list.json"
     },
     {
         "name": "Battleship Bishoujo Puzzle",
@@ -159,7 +164,8 @@
         "retrofitArtSuffix": "kai",
         "alias": [
 
-        ]
+        ],
+        "illustmapping": "./data/kc_booru_char_list.json"
     },
     {
         "name": "Lane Girls",
@@ -238,7 +244,8 @@
         "alias": [
 
         ],
-        "chibispinemapping": "./data/wg_spineChibi.json"
+        "chibispinemapping": "./data/wg_spineChibi.json",
+        "illustmapping": "./data/wg_booru_char_list.json"
     },
     {
         "name": "Warship Collection",
@@ -250,5 +257,15 @@
         "alias": [
 
         ]
+    },
+    {
+        "name": "Victory Belles",
+        "optionName": "vb",
+        "allowAlt": true,
+        "allowSilhouette": false,
+        "alias": [
+
+        ],
+        "illustmapping": "./data/vb_booru_char_list.json"
     }
 ]

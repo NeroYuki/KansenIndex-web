@@ -1,0 +1,2720 @@
+[
+  {
+    "name": "cabot_(warship_girls_r)",
+    "canon_name": "cabot",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yingtan_(warship_girls_r)",
+    "canon_name": "yingtan",
+    "illustrator": "? jianr_baike",
+    "danbooru_banned": false
+  },
+  {
+    "name": "schleswig-holstein_(warship_girls_r)",
+    "canon_name": "schleswig-holstein",
+    "illustrator": "chenche-jun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_a150_(warship_girls_r)",
+    "canon_name": "enemy a150",
+    "illustrator": "windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "northampton_(mod)_(warship_girls_r)",
+    "canon_name": "northampton (retrofit)",
+    "illustrator": "shuang_ye",
+    "danbooru_banned": true
+  },
+  {
+    "name": "tosa_(warship_girls_r)",
+    "canon_name": "tosa",
+    "illustrator": "? moli_moqi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "orion_(warship_girls_r)",
+    "canon_name": "orion",
+    "illustrator": "? disjoy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "montana_(warship_girls_r)",
+    "canon_name": "montana",
+    "illustrator": "windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "juneau_(mod)_(warship_girls_r)",
+    "canon_name": "juneau (retrofit)",
+    "illustrator": "? ray_(pixiv9514208)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "warspite_(mod)_(warship_girls_r)",
+    "canon_name": "warspite (retrofit)",
+    "illustrator": "wave505",
+    "danbooru_banned": false
+  },
+  {
+    "name": "venus_(mod)_(warship_girls_r)",
+    "canon_name": "venus (retrofit)",
+    "illustrator": "? sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sirius_(mod)_(warship_girls_r)",
+    "canon_name": "sirius (retrofit)",
+    "illustrator": "? zhudacaimiao",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_(mod)_(warship_girls_r)",
+    "canon_name": "nagato (retrofit)",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kako_(mod)_(warship_girls_r)",
+    "canon_name": "kako (retrofit)",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "porter_(mod)_(warship_girls_r)",
+    "canon_name": "porter (retrofit)",
+    "illustrator": "mkiiiiii windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "william_d_porter_(mod)_(warship_girls_r)",
+    "canon_name": "william d porter (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vittorio_veneto_(mod)_(warship_girls_r)",
+    "canon_name": "vittorio veneto (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z17_diether_von_roeder_(mod)_(warship_girls_r)",
+    "canon_name": "z17 diether von roeder (retrofit)",
+    "illustrator": "hagi_(ame_hagi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arashi_(mod)_(warship_girls_r)",
+    "canon_name": "arashi (retrofit)",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "roberts_(mod)_(warship_girls_r)",
+    "canon_name": "roberts (retrofit)",
+    "illustrator": "? sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_(mod)_(warship_girls_r)",
+    "canon_name": "shoukaku (retrofit)",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jun'you_(mod)_(warship_girls_r)",
+    "canon_name": "jun'you (retrofit)",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiyou_(mod)_(warship_girls_r)",
+    "canon_name": "hiyou (retrofit)",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "richelieu_(mod)_(warship_girls_r)",
+    "canon_name": "richelieu (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "inazuma_(mod)_(warship_girls_r)",
+    "canon_name": "inazuma (retrofit)",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akatsuki_(mod)_(warship_girls_r)",
+    "canon_name": "akatsuki (retrofit)",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gearing_(mod)_(warship_girls_r)",
+    "canon_name": "gearing (retrofit)",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "laffey_(mod)_(warship_girls_r)",
+    "canon_name": "laffey (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akizuki_(mod)_(warship_girls_r)",
+    "canon_name": "akizuki (retrofit)",
+    "illustrator": "chenilelo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chaser_(mod)_(warship_girls_r)",
+    "canon_name": "chaser (retrofit)",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maryland_(mod)_(warship_girls_r)",
+    "canon_name": "maryland (retrofit)",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tennessee_(mod)_(warship_girls_r)",
+    "canon_name": "tennessee (retrofit)",
+    "illustrator": "hikari123456",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hyuuga_(mod)_(warship_girls_r)",
+    "canon_name": "hyuuga (retrofit)",
+    "illustrator": "flaurel",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ise_(mod)_(warship_girls_r)",
+    "canon_name": "ise (retrofit)",
+    "illustrator": "flaurel",
+    "danbooru_banned": false
+  },
+  {
+    "name": "choukai_(mod)_(warship_girls_r)",
+    "canon_name": "choukai (retrofit)",
+    "illustrator": "? lizi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akagi_(mod)_(warship_girls_r)",
+    "canon_name": "akagi (retrofit)",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "omaha_(mod)_(warship_girls_r)",
+    "canon_name": "omaha (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oklahoma_(mod)_(warship_girls_r)",
+    "canon_name": "oklahoma (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nevada_(mod)_(warship_girls_r)",
+    "canon_name": "nevada (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "langley_(mod)_(warship_girls_r)",
+    "canon_name": "langley (retrofit)",
+    "illustrator": "feirla",
+    "danbooru_banned": false
+  },
+  {
+    "name": "koeln_(mod)_(warship_girls_r)",
+    "canon_name": "koeln (retrofit)",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "karlsruhe_(mod)_(warship_girls_r)",
+    "canon_name": "karlsruhe (retrofit)",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "koenigsberg_(mod)_(warship_girls_r)",
+    "canon_name": "koenigsberg (retrofit)",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z31_(mod)_(warship_girls_r)",
+    "canon_name": "z31 (retrofit)",
+    "illustrator": "north_abyssor",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_(mod)_(warship_girls_r)",
+    "canon_name": "fletcher (retrofit)",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "archerfish_(mod)_(warship_girls_r)",
+    "canon_name": "archerfish (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "albacore_(mod)_(warship_girls_r)",
+    "canon_name": "albacore (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bogue_(mod)_(warship_girls_r)",
+    "canon_name": "bogue (retrofit)",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(mod)_(warship_girls_r)",
+    "canon_name": "taihou (retrofit)",
+    "illustrator": "8rats",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z1_leberecht_maass_(mod)_(warship_girls_r)",
+    "canon_name": "z1 leberecht maass (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vauquelin_(mod)_(warship_girls_r)",
+    "canon_name": "vauquelin (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ping_hai_(mod)_(warship_girls_r)",
+    "canon_name": "ping hai (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amethyst_(mod)_(warship_girls_r)",
+    "canon_name": "amethyst (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ning_hai_(mod)_(warship_girls_r)",
+    "canon_name": "ning hai (retrofit)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z16_friedrich_eckoldt_(mod)_(warship_girls_r)",
+    "canon_name": "z16 friedrich eckoldt (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yat_sen_(mod)_(warship_girls_r)",
+    "canon_name": "yat sen (retrofit)",
+    "illustrator": "sa_(h28085)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "colorado_(mod)_(warship_girls_r)",
+    "canon_name": "colorado (retrofit)",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atlanta_(mod)_(warship_girls_r)",
+    "canon_name": "atlanta (retrofit)",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u47_(mod)_(warship_girls_r)",
+    "canon_name": "u47 (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vanguard_(mod)_(warship_girls_r)",
+    "canon_name": "vanguard (retrofit)",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ikazuchi_(mod)_(warship_girls_r)",
+    "canon_name": "ikazuchi (retrofit)",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wichita_(mod)_(warship_girls_r)",
+    "canon_name": "wichita (retrofit)",
+    "illustrator": "noto_tsugumi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atago_(mod)_(warship_girls_r)",
+    "canon_name": "atago (retrofit)",
+    "illustrator": "? lulu_heika",
+    "danbooru_banned": false
+  },
+  {
+    "name": "rodney_(mod)_(warship_girls_r)",
+    "canon_name": "rodney (retrofit)",
+    "illustrator": "? 15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kent_(mod)_(warship_girls_r)",
+    "canon_name": "kent (retrofit)",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shirayuki_(mod)_(warship_girls_r)",
+    "canon_name": "shirayuki (retrofit)",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tatsuta_(mod)_(warship_girls_r)",
+    "canon_name": "tatsuta (retrofit)",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(mod)_(warship_girls_r)",
+    "canon_name": "fubuki (retrofit)",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ayanami_(mod)_(warship_girls_r)",
+    "canon_name": "ayanami (retrofit)",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hood_(mod)_(warship_girls_r)",
+    "canon_name": "hood (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_(mod)_(warship_girls_r)",
+    "canon_name": "helena (retrofit)",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tirpitz_(mod)_(warship_girls_r)",
+    "canon_name": "tirpitz (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_(mod)_(warship_girls_r)",
+    "canon_name": "bismarck (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "new_orleans_(mod)_(warship_girls_r)",
+    "canon_name": "new orleans (retrofit)",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jackal_(mod)_(warship_girls_r)",
+    "canon_name": "jackal (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "juno_(mod)_(warship_girls_r)",
+    "canon_name": "juno (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nelson_(mod)_(warship_girls_r)",
+    "canon_name": "nelson (retrofit)",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "repulse_(mod)_(warship_girls_r)",
+    "canon_name": "repulse (retrofit)",
+    "illustrator": "qingmingtongzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "renown_(mod)_(warship_girls_r)",
+    "canon_name": "renown (retrofit)",
+    "illustrator": "qingmingtongzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shikinami_(mod)_(warship_girls_r)",
+    "canon_name": "shikinami (retrofit)",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prince_of_wales_(mod)_(warship_girls_r)",
+    "canon_name": "prince of wales (retrofit)",
+    "illustrator": "? shardine",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tenryuu_(mod)_(warship_girls_r)",
+    "canon_name": "tenryuu (retrofit)",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "blucher_(mod)_(warship_girls_r)",
+    "canon_name": "blucher (retrofit)",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_eugen_(mod)_(warship_girls_r)",
+    "canon_name": "prinz eugen (retrofit)",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_hipper_(mod)_(warship_girls_r)",
+    "canon_name": "admiral hipper (retrofit)",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "glowworm_(mod)_(warship_girls_r)",
+    "canon_name": "glowworm (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "javelin_(mod)_(warship_girls_r)",
+    "canon_name": "javelin (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ranger_(mod)_(warship_girls_r)",
+    "canon_name": "ranger (retrofit)",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lexington_(mod)_(warship_girls_r)",
+    "canon_name": "lexington (retrofit)",
+    "illustrator": "? mag_(huangmag)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saratoga_(mod)_(warship_girls_r)",
+    "canon_name": "saratoga (retrofit)",
+    "illustrator": "? yuemanhuaikong",
+    "danbooru_banned": false
+  },
+  {
+    "name": "le_fantasque_(mod)_(warship_girls_r)",
+    "canon_name": "le fantasque (retrofit)",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "andrea_doria_(mod)_(warship_girls_r)",
+    "canon_name": "andrea doria (retrofit)",
+    "illustrator": "jianren",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wakatsuki_(warship_girls_r)",
+    "canon_name": "wakatsuki",
+    "illustrator": "dodo1996",
+    "danbooru_banned": false
+  },
+  {
+    "name": "joffre_(warship_girls_r)",
+    "canon_name": "joffre",
+    "illustrator": "? yingxiong_abubu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "agano_(warship_girls_r)",
+    "canon_name": "agano",
+    "illustrator": "? ironmarch",
+    "danbooru_banned": false
+  },
+  {
+    "name": "massachusetts_(warship_girls_r)",
+    "canon_name": "massachusetts",
+    "illustrator": "? lubikaya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jinan_(warship_girls_r)",
+    "canon_name": "jinan",
+    "illustrator": "? william.b",
+    "danbooru_banned": false
+  },
+  {
+    "name": "victorious_(warship_girls_r)",
+    "canon_name": "victorious",
+    "illustrator": "? laoan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "clemenceau_(warship_girls_r)",
+    "canon_name": "clemenceau",
+    "illustrator": "? lubikaya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "koeln_(warship_girls_r)",
+    "canon_name": "koeln",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "koenigsberg_(warship_girls_r)",
+    "canon_name": "koenigsberg",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "savannah_(warship_girls_r)",
+    "canon_name": "savannah",
+    "illustrator": "? sangue_llia",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-441_(warship_girls_r)",
+    "canon_name": "u-441",
+    "illustrator": "? maxp_yuanhang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chapayev_(warship_girls_r)",
+    "canon_name": "chapayev",
+    "illustrator": "? nyum",
+    "danbooru_banned": false
+  },
+  {
+    "name": "dragon_(warship_girls_r)",
+    "canon_name": "dragon",
+    "illustrator": "observerz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "take_(warship_girls_r)",
+    "canon_name": "take",
+    "illustrator": "heiyz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shin'you_(warship_girls_r)",
+    "canon_name": "shin'you",
+    "illustrator": "heiyz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jean_bart_(warship_girls_r)",
+    "canon_name": "jean bart",
+    "illustrator": "? lolipantherwww",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ariake_(warship_girls_r)",
+    "canon_name": "ariake",
+    "illustrator": "? lolipantherwww",
+    "danbooru_banned": false
+  },
+  {
+    "name": "little_boy_admiral_(warship_girls_r)",
+    "canon_name": "little boy admiral",
+    "illustrator": "? ray_(pixiv9514208)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "split_(warship_girls_r)",
+    "canon_name": "split",
+    "illustrator": "caoyao",
+    "danbooru_banned": false
+  },
+  {
+    "name": "invincible_(warship_girls_r)",
+    "canon_name": "invincible",
+    "illustrator": "? qingmingtongzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "project_72_(warship_girls_r)",
+    "canon_name": "project 72",
+    "illustrator": "muike",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gambier_bay_(warship_girls_r)",
+    "canon_name": "gambier bay",
+    "illustrator": "yingxiong_abubu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bennington_(cv-20)_(warship_girls_r)",
+    "canon_name": "bennington (cv-20)",
+    "illustrator": "muike",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiso_(warship_girls_r)",
+    "canon_name": "kiso",
+    "illustrator": "? lubikaya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "anshan_(warship_girls_r)",
+    "canon_name": "anshan",
+    "illustrator": "? chun_zhuan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "monitor_(warship_girls_r)",
+    "canon_name": "monitor",
+    "illustrator": "? lubikaya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "boston_(warship_girls_r)",
+    "canon_name": "boston",
+    "illustrator": "? lubikaya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tama_(warship_girls_r)",
+    "canon_name": "tama",
+    "illustrator": "? no.1_machine",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nowaki_(warship_girls_r)",
+    "canon_name": "nowaki",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lyon_(warship_girls_r)",
+    "canon_name": "lyon",
+    "illustrator": "? lolipantherwww",
+    "danbooru_banned": false
+  },
+  {
+    "name": "m2_(warship_girls_r)",
+    "canon_name": "m2",
+    "illustrator": "mvv",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saint_george_(warship_girls_r)",
+    "canon_name": "saint george",
+    "illustrator": "? windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "norfolk_(warship_girls_r)",
+    "canon_name": "norfolk",
+    "illustrator": "? wulala",
+    "danbooru_banned": false
+  },
+  {
+    "name": "moskva_(warship_girls_r)",
+    "canon_name": "moskva",
+    "illustrator": "? tu_mewn",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vainamoinen_(warship_girls_r)",
+    "canon_name": "vainamoinen",
+    "illustrator": "? yinqi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ticonderoga_(warship_girls_r)",
+    "canon_name": "ticonderoga",
+    "illustrator": "? laoan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "dido_(warship_girls_r)",
+    "canon_name": "dido",
+    "illustrator": "? arnold-s",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shropshire_(warship_girls_r)",
+    "canon_name": "shropshire",
+    "illustrator": "? lubikaya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "columbia_(warship_girls_r)",
+    "canon_name": "columbia",
+    "illustrator": "nian_(zhanian)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "salem_(warship_girls_r)",
+    "canon_name": "salem",
+    "illustrator": "? mkiiiiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "phoenix_(warship_girls_r)",
+    "canon_name": "phoenix",
+    "illustrator": "? 12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "new_jersey_(warship_girls_r)",
+    "canon_name": "new jersey",
+    "illustrator": "aiko_(kanl)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "+new_jersey_(warship_girls_r)",
+    "canon_name": "+new jersey",
+    "illustrator": "aiko_(kanl)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "glamorgan_(warship_girls_r)",
+    "canon_name": "glamorgan",
+    "illustrator": "ericsakura",
+    "danbooru_banned": false
+  },
+  {
+    "name": "implacable_(warship_girls_r)",
+    "canon_name": "implacable",
+    "illustrator": "? zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "canarias_(warship_girls_r)",
+    "canon_name": "canarias",
+    "illustrator": "? arnold-s",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haguro_(warship_girls_r)",
+    "canon_name": "haguro",
+    "illustrator": "? sola7764",
+    "danbooru_banned": false
+  },
+  {
+    "name": "myoukou_(warship_girls_r)",
+    "canon_name": "myoukou",
+    "illustrator": "? sola7764",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hammann_(warship_girls_r)",
+    "canon_name": "hammann",
+    "illustrator": "? bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "iowa_(warship_girls_r)",
+    "canon_name": "iowa",
+    "illustrator": "aiko_(kanl)",
+    "danbooru_banned": true
+  },
+  {
+    "name": "aquila_(warship_girls_r)",
+    "canon_name": "aquila",
+    "illustrator": "? lizi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zara_(warship_girls_r)",
+    "canon_name": "zara",
+    "illustrator": "pandea_work",
+    "danbooru_banned": true
+  },
+  {
+    "name": "newport_news_(warship_girls_r)",
+    "canon_name": "newport news",
+    "illustrator": "? windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hancock_(warship_girls_r)",
+    "canon_name": "hancock",
+    "illustrator": "chuzenji",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-35_(warship_girls_r)",
+    "canon_name": "u-35",
+    "illustrator": "? qiongsheng",
+    "danbooru_banned": false
+  },
+  {
+    "name": "faa_di_bruno_(warship_girls_r)",
+    "canon_name": "faa di bruno",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "s113_(warship_girls_r)",
+    "canon_name": "s113",
+    "illustrator": "? prinzyukikaze",
+    "danbooru_banned": false
+  },
+  {
+    "name": "samuel_b._roberts_(warship_girls_r)",
+    "canon_name": "samuel b. roberts",
+    "illustrator": "heiyz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tan_yang_(warship_girls_r)",
+    "canon_name": "tan yang",
+    "illustrator": "? bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "emanuele_filiberto_duca_d'aosta_(warship_girls_r)",
+    "canon_name": "emanuele filiberto duca d'aosta",
+    "illustrator": "? aosora_kamiya",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hai_chi_(warship_girls_r)",
+    "canon_name": "hai chi",
+    "illustrator": "? fkey",
+    "danbooru_banned": false
+  },
+  {
+    "name": "illustrious_(warship_girls_r)",
+    "canon_name": "illustrious",
+    "illustrator": "? arnold-s",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gangwon_(warship_girls_r)",
+    "canon_name": "gangwon",
+    "illustrator": "? tengxiang_lingnai",
+    "danbooru_banned": false
+  },
+  {
+    "name": "non-human_admiral_(warship_girls_r)",
+    "canon_name": "non-human admiral",
+    "illustrator": "? ero_mang-a",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ulrich_von_hutten_(warship_girls_r)",
+    "canon_name": "ulrich von hutten",
+    "illustrator": "? bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "de_grasse_(warship_girls_r)",
+    "canon_name": "de grasse",
+    "illustrator": "? xueci",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amatsukaze_(warship_girls_r)",
+    "canon_name": "amatsukaze",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "anniversary_admiral_(warship_girls_r)",
+    "canon_name": "anniversary admiral",
+    "illustrator": "? miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sparviero_(warship_girls_r)",
+    "canon_name": "sparviero",
+    "illustrator": "? cyta_celest",
+    "danbooru_banned": false
+  },
+  {
+    "name": "formidable_(warship_girls_r)",
+    "canon_name": "formidable",
+    "illustrator": "? zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-505_(warship_girls_r)",
+    "canon_name": "u-505",
+    "illustrator": "? xia_zhi_chong_yin_xu_ruo_dan_qing",
+    "danbooru_banned": false
+  },
+  {
+    "name": "indomitable_(warship_girls_r)",
+    "canon_name": "indomitable",
+    "illustrator": "? mkiiiiii windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pyotr_velikiy_(warship_girls_r)",
+    "canon_name": "pyotr velikiy",
+    "illustrator": "? aoi_lavender",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tiger_(warship_girls_r)",
+    "canon_name": "tiger",
+    "illustrator": "kayahara",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gustav_v_(warship_girls_r)",
+    "canon_name": "gustav v",
+    "illustrator": "chenilelo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "guadalcanal_(warship_girls_r)",
+    "canon_name": "guadalcanal",
+    "illustrator": "? x-boy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsuki_(warship_girls_r)",
+    "canon_name": "mutsuki",
+    "illustrator": "hecha_(01964237)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "musashi_(warship_girls_r)",
+    "canon_name": "musashi",
+    "illustrator": "? onceskylark",
+    "danbooru_banned": false
+  },
+  {
+    "name": "karl_wilhelm_ferdinand_(warship_girls_r)",
+    "canon_name": "karl wilhelm ferdinand",
+    "illustrator": "? itaco",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z3_(warship_girls_r)",
+    "canon_name": "z3",
+    "illustrator": "? allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kirishima_(warship_girls_r)",
+    "canon_name": "kirishima",
+    "illustrator": "hao_(patinnko)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_hindenburg_(warship_girls_r)",
+    "canon_name": "enemy hindenburg",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "victory_(warship_girls_r)",
+    "canon_name": "victory",
+    "illustrator": "? lulu_heika",
+    "danbooru_banned": false
+  },
+  {
+    "name": "houshou_(warship_girls_r)",
+    "canon_name": "houshou",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shouhou_(warship_girls_r)",
+    "canon_name": "shouhou",
+    "illustrator": "? 15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hermes_(warship_girls_r)",
+    "canon_name": "hermes",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "phelps_(warship_girls_r)",
+    "canon_name": "phelps",
+    "illustrator": "? ice_laozei",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_barbarossa_(warship_girls_r)",
+    "canon_name": "enemy barbarossa",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "de_ruyter_(warship_girls_r)",
+    "canon_name": "de ruyter",
+    "illustrator": "? chenilelo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "s-56_(warship_girls_r)",
+    "canon_name": "s-56",
+    "illustrator": "? stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murasame_(warship_girls_r)",
+    "canon_name": "murasame",
+    "illustrator": "? shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_heavy_cruiser_(warship_girls_r)",
+    "canon_name": "enemy heavy cruiser",
+    "illustrator": "? yishi_de_wangxiang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "worcester_(warship_girls_r)",
+    "canon_name": "worcester",
+    "illustrator": "? yamoto",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wisconsin_(warship_girls_r)",
+    "canon_name": "wisconsin",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_(warship_girls_r)",
+    "canon_name": "zuikaku",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamato_(warship_girls_r)",
+    "canon_name": "yamato",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "viribus_unitis_(warship_girls_r)",
+    "canon_name": "viribus unitis",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "san_francisco_(warship_girls_r)",
+    "canon_name": "san francisco",
+    "illustrator": "hao_(patinnko)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiev_(warship_girls_r)",
+    "canon_name": "kiev",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sterett_(warship_girls_r)",
+    "canon_name": "sterett",
+    "illustrator": "? zhudacaimiao",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_(warship_girls_r)",
+    "canon_name": "zuihou",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "st._louis_(warship_girls_r)",
+    "canon_name": "st. louis",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "leipzig_(warship_girls_r)",
+    "canon_name": "leipzig",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kamikaze_airfield_(warship_girls_r)",
+    "canon_name": "kamikaze airfield",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z24_(warship_girls_r)",
+    "canon_name": "z24",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "moltke_(warship_girls_r)",
+    "canon_name": "moltke",
+    "illustrator": "jiaoshouwen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kako_(warship_girls_r)",
+    "canon_name": "kako",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "augusta_(warship_girls_r)",
+    "canon_name": "augusta",
+    "illustrator": "? y.ssanoha",
+    "danbooru_banned": false
+  },
+  {
+    "name": "frank_knox_(warship_girls_r)",
+    "canon_name": "frank knox",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "denver_(warship_girls_r)",
+    "canon_name": "denver",
+    "illustrator": "fkey",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuzuki_(warship_girls_r)",
+    "canon_name": "hatsuzuki",
+    "illustrator": "philomelalilium",
+    "danbooru_banned": true
+  },
+  {
+    "name": "cushing_(warship_girls_r)",
+    "canon_name": "cushing",
+    "illustrator": "? observerz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murmansk_(warship_girls_r)",
+    "canon_name": "murmansk",
+    "illustrator": "caoyao",
+    "danbooru_banned": false
+  },
+  {
+    "name": "haida_(warship_girls_r)",
+    "canon_name": "haida",
+    "illustrator": "jiaoshouwen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fairy_(warship_girls_r)",
+    "canon_name": "fairy",
+    "illustrator": "onceskylark",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_tirpitz_(warship_girls_r)",
+    "canon_name": "enemy tirpitz",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z28_(warship_girls_r)",
+    "canon_name": "z28",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuudachi_(warship_girls_r)",
+    "canon_name": "yuudachi",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "roma_(warship_girls_r)",
+    "canon_name": "roma",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "m_project_(warship_girls_r)",
+    "canon_name": "m project",
+    "illustrator": "jiaoshouwen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "minsk_(warship_girls_r)",
+    "canon_name": "minsk",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kirov_(warship_girls_r)",
+    "canon_name": "kirov",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z46_(warship_girls_r)",
+    "canon_name": "z46",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "braine_(warship_girls_r)",
+    "canon_name": "braine",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "volta_(warship_girls_r)",
+    "canon_name": "volta",
+    "illustrator": "north_abyssor",
+    "danbooru_banned": false
+  },
+  {
+    "name": "souryuu_(warship_girls_r)",
+    "canon_name": "souryuu",
+    "illustrator": "ello",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiei_(warship_girls_r)",
+    "canon_name": "hiei",
+    "illustrator": "hao_(patinnko)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "furutaka_(warship_girls_r)",
+    "canon_name": "furutaka",
+    "illustrator": "? shiro_yukimichi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fierce_tiger_(warship_girls_r)",
+    "canon_name": "fierce tiger",
+    "illustrator": "? jiuling",
+    "danbooru_banned": false
+  },
+  {
+    "name": "power_(warship_girls_r)",
+    "canon_name": "power",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "legion_(warship_girls_r)",
+    "canon_name": "legion",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "engels_(warship_girls_r)",
+    "canon_name": "engels",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "galatea_(warship_girls_r)",
+    "canon_name": "galatea",
+    "illustrator": "? tirasi_(so)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooi_(warship_girls_r)",
+    "canon_name": "ooi",
+    "illustrator": "g.h_(gogetsu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u505_(warship_girls_r)",
+    "canon_name": "u505",
+    "illustrator": "qingmingtongzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "laffey_(benson)_(warship_girls_r)",
+    "canon_name": "laffey (benson)",
+    "illustrator": "wave505",
+    "danbooru_banned": false
+  },
+  {
+    "name": "anthony_(warship_girls_r)",
+    "canon_name": "anthony",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "female_admiral_(warship_girls_r)",
+    "canon_name": "female admiral",
+    "illustrator": "? aer_(tengqiu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiratsuyu_(warship_girls_r)",
+    "canon_name": "shiratsuyu",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vampire_(warship_girls_r)",
+    "canon_name": "vampire",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kinugasa_(warship_girls_r)",
+    "canon_name": "kinugasa",
+    "illustrator": "? yi_yu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "aurora_(warship_girls_r)",
+    "canon_name": "aurora",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "salt_lake_city_(warship_girls_r)",
+    "canon_name": "salt lake city",
+    "illustrator": "togenagi_futaba",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kuroshio_(warship_girls_r)",
+    "canon_name": "kuroshio",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "argus_(warship_girls_r)",
+    "canon_name": "argus",
+    "illustrator": "feirla",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamashiro_(warship_girls_r)",
+    "canon_name": "yamashiro",
+    "illustrator": "? bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gyatt_(warship_girls_r)",
+    "canon_name": "gyatt",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "constellation_(warship_girls_r)",
+    "canon_name": "constellation",
+    "illustrator": "echj",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsu_(warship_girls_r)",
+    "canon_name": "mutsu",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yuubari_(warship_girls_r)",
+    "canon_name": "yuubari",
+    "illustrator": "? mtyy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hyuuga_(warship_girls_r)",
+    "canon_name": "hyuuga",
+    "illustrator": "flaurel",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shikinami_(warship_girls_r)",
+    "canon_name": "shikinami",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kumano_(warship_girls_r)",
+    "canon_name": "kumano",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jun'you_(warship_girls_r)",
+    "canon_name": "jun'you",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suffolk_(warship_girls_r)",
+    "canon_name": "suffolk",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "alaska_(warship_girls_r)",
+    "canon_name": "alaska",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "karlsruhe_(warship_girls_r)",
+    "canon_name": "karlsruhe",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "konigsberg_(warship_girls_r)",
+    "canon_name": "konigsberg",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hoel_(warship_girls_r)",
+    "canon_name": "hoel",
+    "illustrator": "heiyz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_akagi_(warship_girls_r)",
+    "canon_name": "enemy akagi",
+    "illustrator": "? ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_(warship_girls_r)",
+    "canon_name": "shoukaku",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "porter_(warship_girls_r)",
+    "canon_name": "porter",
+    "illustrator": "goggles_cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gotland_(warship_girls_r)",
+    "canon_name": "gotland",
+    "illustrator": "zhuo_liang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "langley_(warship_girls_r)",
+    "canon_name": "langley",
+    "illustrator": "feirla",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tatsuta_(warship_girls_r)",
+    "canon_name": "tatsuta",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "juneau_(warship_girls_r)",
+    "canon_name": "juneau",
+    "illustrator": "? ray_(pixiv9514208)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ise_(warship_girls_r)",
+    "canon_name": "ise",
+    "illustrator": "flaurel",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tuscaloosa_(warship_girls_r)",
+    "canon_name": "tuscaloosa",
+    "illustrator": "fish.boy",
+    "danbooru_banned": false
+  },
+  {
+    "name": "odinn_(warship_girls_r)",
+    "canon_name": "odinn",
+    "illustrator": "wave505",
+    "danbooru_banned": false
+  },
+  {
+    "name": "choukai_(warship_girls_r)",
+    "canon_name": "choukai",
+    "illustrator": "? lizi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vestal_(warship_girls_r)",
+    "canon_name": "vestal",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "west_virginia_(warship_girls_r)",
+    "canon_name": "west virginia",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ugolino_vivaldi_(warship_girls_r)",
+    "canon_name": "ugolino vivaldi",
+    "illustrator": "sky-freedom",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzuya_(warship_girls_r)",
+    "canon_name": "suzuya",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "o'higgins_(warship_girls_r)",
+    "canon_name": "o'higgins",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pensacola_(warship_girls_r)",
+    "canon_name": "pensacola",
+    "illustrator": "togenagi_futaba",
+    "danbooru_banned": false
+  },
+  {
+    "name": "koln_(warship_girls_r)",
+    "canon_name": "koln",
+    "illustrator": "infukun",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bearn_(warship_girls_r)",
+    "canon_name": "bearn",
+    "illustrator": "? onceskylark",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiryuu_(warship_girls_r)",
+    "canon_name": "hiryuu",
+    "illustrator": "? bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z18_hans_ludemann_(warship_girls_r)",
+    "canon_name": "z18 hans ludemann",
+    "illustrator": "hagi_(ame_hagi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saumarez_(warship_girls_r)",
+    "canon_name": "saumarez",
+    "illustrator": "? ice_laozei",
+    "danbooru_banned": false
+  },
+  {
+    "name": "london_(warship_girls_r)",
+    "canon_name": "london",
+    "illustrator": "? huiling",
+    "danbooru_banned": false
+  },
+  {
+    "name": "goeben_(warship_girls_r)",
+    "canon_name": "goeben",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wasp_(warship_girls_r)",
+    "canon_name": "wasp",
+    "illustrator": "ericsakura",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_zuikaku_(warship_girls_r)",
+    "canon_name": "enemy zuikaku",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "minekaze_(warship_girls_r)",
+    "canon_name": "minekaze",
+    "illustrator": "jong_tu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "edinburgh_(warship_girls_r)",
+    "canon_name": "edinburgh",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_kaga_(warship_girls_r)",
+    "canon_name": "enemy kaga",
+    "illustrator": "? ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z22_anton_schmitt_(warship_girls_r)",
+    "canon_name": "z22 anton schmitt",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "portland_(warship_girls_r)",
+    "canon_name": "portland",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "impero_(warship_girls_r)",
+    "canon_name": "impero",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akizuki_(warship_girls_r)",
+    "canon_name": "akizuki",
+    "illustrator": "chenilelo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "penelope_(warship_girls_r)",
+    "canon_name": "penelope",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jeanne_d'arc_(warship_girls_r)",
+    "canon_name": "jeanne d'arc",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sigsbee_(warship_girls_r)",
+    "canon_name": "sigsbee",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abercrombie_(warship_girls_r)",
+    "canon_name": "abercrombie",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cassin_young_(warship_girls_r)",
+    "canon_name": "cassin young",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "johnston_(warship_girls_r)",
+    "canon_name": "johnston",
+    "illustrator": "heiyz",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tang_(warship_girls_r)",
+    "canon_name": "tang",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "surcouf_(warship_girls_r)",
+    "canon_name": "surcouf",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "belfast_(warship_girls_r)",
+    "canon_name": "belfast",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiranui_(warship_girls_r)",
+    "canon_name": "shiranui",
+    "illustrator": "? ryuuzouji_usagi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ira_(warship_girls_r)",
+    "canon_name": "ira",
+    "illustrator": "? lulu_heika",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuyuki_(warship_girls_r)",
+    "canon_name": "hatsuyuki",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mikuma_(warship_girls_r)",
+    "canon_name": "mikuma",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "acasta_(warship_girls_r)",
+    "canon_name": "acasta",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shigure_(warship_girls_r)",
+    "canon_name": "shigure",
+    "illustrator": "? shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "caio_duilio_(warship_girls_r)",
+    "canon_name": "caio duilio",
+    "illustrator": "jianren",
+    "danbooru_banned": false
+  },
+  {
+    "name": "barfleur_(warship_girls_r)",
+    "canon_name": "barfleur",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "venus_(warship_girls_r)",
+    "canon_name": "venus",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "thonburi_(warship_girls_r)",
+    "canon_name": "thonburi",
+    "illustrator": "cu_(fsy84738368)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tenryuu_(warship_girls_r)",
+    "canon_name": "tenryuu",
+    "illustrator": "gong_qi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fletcher_(warship_girls_r)",
+    "canon_name": "fletcher",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hindenburg_(warship_girls_r)",
+    "canon_name": "hindenburg",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z17_diether_von_roeder_(warship_girls_r)",
+    "canon_name": "z17 diether von roeder",
+    "illustrator": "hagi_(ame_hagi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "novgorod_(warship_girls_r)",
+    "canon_name": "novgorod",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lost_abyssal_transport_ship_(warship_girls_r)",
+    "canon_name": "lost abyssal transport ship",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "thatcher_(warship_girls_r)",
+    "canon_name": "thatcher",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "converse_(warship_girls_r)",
+    "canon_name": "converse",
+    "illustrator": "hasu_(velicia)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u81_(warship_girls_r)",
+    "canon_name": "u81",
+    "illustrator": "goggles_cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z21_wilhelm_heidkamp_(warship_girls_r)",
+    "canon_name": "z21 wilhelm heidkamp",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fusou_(warship_girls_r)",
+    "canon_name": "fusou",
+    "illustrator": "bison_cangshu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "glorious_(warship_girls_r)",
+    "canon_name": "glorious",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ooyodo_(warship_girls_r)",
+    "canon_name": "ooyodo",
+    "illustrator": "? ze_(wzfnn001)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "guam_(warship_girls_r)",
+    "canon_name": "guam",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_bismarck_(warship_girls_r)",
+    "canon_name": "enemy bismarck",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "york_(warship_girls_r)",
+    "canon_name": "york",
+    "illustrator": "onceskylark",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ardent_(warship_girls_r)",
+    "canon_name": "ardent",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atago_(warship_girls_r)",
+    "canon_name": "atago",
+    "illustrator": "? siwi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takao_(warship_girls_r)",
+    "canon_name": "takao",
+    "illustrator": "? chris_kuan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "dyson_(warship_girls_r)",
+    "canon_name": "dyson",
+    "illustrator": "hasu_(velicia)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amethyst_(warship_girls_r)",
+    "canon_name": "amethyst",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "california_(warship_girls_r)",
+    "canon_name": "california",
+    "illustrator": "hikari123456",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ikazuchi_(warship_girls_r)",
+    "canon_name": "ikazuchi",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_yamato_(warship_girls_r)",
+    "canon_name": "enemy yamato",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "roberts_(warship_girls_r)",
+    "canon_name": "roberts",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "indianapolis_(warship_girls_r)",
+    "canon_name": "indianapolis",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "m1_(warship_girls_r)",
+    "canon_name": "m1",
+    "illustrator": "mvv",
+    "danbooru_banned": false
+  },
+  {
+    "name": "heermann_(warship_girls_r)",
+    "canon_name": "heermann",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bogue_(warship_girls_r)",
+    "canon_name": "bogue",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pachina_(warship_girls_r)",
+    "canon_name": "pachina",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "atlanta_(warship_girls_r)",
+    "canon_name": "atlanta",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "blucher_(warship_girls_r)",
+    "canon_name": "blucher",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sukhbaatar_(warship_girls_r)",
+    "canon_name": "sukhbaatar",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gearing_(warship_girls_r)",
+    "canon_name": "gearing",
+    "illustrator": "e_neko",
+    "danbooru_banned": false
+  },
+  {
+    "name": "king_george_v_(warship_girls_r)",
+    "canon_name": "king george v",
+    "illustrator": "kishiyo",
+    "danbooru_banned": true
+  },
+  {
+    "name": "omaha_(warship_girls_r)",
+    "canon_name": "omaha",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u96_(warship_girls_r)",
+    "canon_name": "u96",
+    "illustrator": "rail_(silverbow)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "galo_(warship_girls_r)",
+    "canon_name": "galo",
+    "illustrator": "g.h_(gogetsu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "the_sullivans_(warship_girls_r)",
+    "canon_name": "the sullivans",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akatsuki_(warship_girls_r)",
+    "canon_name": "akatsuki",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "reshitelny_(warship_girls_r)",
+    "canon_name": "reshitelny",
+    "illustrator": "? cang_se_ye_hua",
+    "danbooru_banned": false
+  },
+  {
+    "name": "brooklyn_(warship_girls_r)",
+    "canon_name": "brooklyn",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chao_ho_(warship_girls_r)",
+    "canon_name": "chao ho",
+    "illustrator": "sa_(h28085)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u47_(warship_girls_r)",
+    "canon_name": "u47",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "laffey_(warship_girls_r)",
+    "canon_name": "laffey",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sirius_(warship_girls_r)",
+    "canon_name": "sirius",
+    "illustrator": "8rats",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ryuujou_(warship_girls_r)",
+    "canon_name": "ryuujou",
+    "illustrator": "lino-lin",
+    "danbooru_banned": false
+  },
+  {
+    "name": "colorado_(warship_girls_r)",
+    "canon_name": "colorado",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "exeter_(warship_girls_r)",
+    "canon_name": "exeter",
+    "illustrator": "onceskylark",
+    "danbooru_banned": false
+  },
+  {
+    "name": "inazuma_(warship_girls_r)",
+    "canon_name": "inazuma",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ark_royal_(warship_girls_r)",
+    "canon_name": "ark royal",
+    "illustrator": "leung_ka_che",
+    "danbooru_banned": false
+  },
+  {
+    "name": "graf_zeppelin_(warship_girls_r)",
+    "canon_name": "graf zeppelin",
+    "illustrator": "suika01",
+    "danbooru_banned": false
+  },
+  {
+    "name": "des_moines_(warship_girls_r)",
+    "canon_name": "des moines",
+    "illustrator": "mkiiiiii windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_(warship_girls_r)",
+    "canon_name": "nagato",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z1_leberecht_maass_(warship_girls_r)",
+    "canon_name": "z1 leberecht maass",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiyou_(warship_girls_r)",
+    "canon_name": "hiyou",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "warspite_(warship_girls_r)",
+    "canon_name": "warspite",
+    "illustrator": "wave505",
+    "danbooru_banned": false
+  },
+  {
+    "name": "juno_(warship_girls_r)",
+    "canon_name": "juno",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "miyuki_(warship_girls_r)",
+    "canon_name": "miyuki",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ying_swei_(warship_girls_r)",
+    "canon_name": "ying swei",
+    "illustrator": "sa_(h28085)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_scheer_(warship_girls_r)",
+    "canon_name": "admiral scheer",
+    "illustrator": "lino-lin",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z31_(warship_girls_r)",
+    "canon_name": "z31",
+    "illustrator": "north_abyssor",
+    "danbooru_banned": false
+  },
+  {
+    "name": "javelin_(warship_girls_r)",
+    "canon_name": "javelin",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "aviere_(warship_girls_r)",
+    "canon_name": "aviere",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "claxton_(warship_girls_r)",
+    "canon_name": "claxton",
+    "illustrator": "hasu_(velicia)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "changchun_(warship_girls_r)",
+    "canon_name": "changchun",
+    "illustrator": "? cang_se_ye_hua",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_hipper_(warship_girls_r)",
+    "canon_name": "admiral hipper",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nevada_(warship_girls_r)",
+    "canon_name": "nevada",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "deutschland_(warship_girls_r)",
+    "canon_name": "deutschland",
+    "illustrator": "lino-lin",
+    "danbooru_banned": false
+  },
+  {
+    "name": "oklahoma_(warship_girls_r)",
+    "canon_name": "oklahoma",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "emden_(warship_girls_r)",
+    "canon_name": "emden",
+    "illustrator": "onceskylark",
+    "danbooru_banned": false
+  },
+  {
+    "name": "antonio_da_noli_(warship_girls_r)",
+    "canon_name": "antonio da noli",
+    "illustrator": "linda_b",
+    "danbooru_banned": false
+  },
+  {
+    "name": "camicia_nera_(warship_girls_r)",
+    "canon_name": "camicia nera",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sovetsky_soyuz_(warship_girls_r)",
+    "canon_name": "sovetsky soyuz",
+    "illustrator": "wave505",
+    "danbooru_banned": false
+  },
+  {
+    "name": "arashi_(warship_girls_r)",
+    "canon_name": "arashi",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "princeton_(warship_girls_r)",
+    "canon_name": "princeton",
+    "illustrator": "ericsakura",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maryland_(warship_girls_r)",
+    "canon_name": "maryland",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "royal_oak_(warship_girls_r)",
+    "canon_name": "royal oak",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hibiki_(warship_girls_r)",
+    "canon_name": "hibiki",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogami_(warship_girls_r)",
+    "canon_name": "mogami",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shinano_(warship_girls_r)",
+    "canon_name": "shinano",
+    "illustrator": "miyazakisoul",
+    "danbooru_banned": false
+  },
+  {
+    "name": "wichita_(warship_girls_r)",
+    "canon_name": "wichita",
+    "illustrator": "takibi_(tamikyo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "north_carolina_(warship_girls_r)",
+    "canon_name": "north carolina",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tashkent_(warship_girls_r)",
+    "canon_name": "tashkent",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tennessee_(warship_girls_r)",
+    "canon_name": "tennessee",
+    "illustrator": "hikari123456",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kent_(warship_girls_r)",
+    "canon_name": "kent",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chaser_(warship_girls_r)",
+    "canon_name": "chaser",
+    "illustrator": "rain_lan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vauquelin_(warship_girls_r)",
+    "canon_name": "vauquelin",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "scharnhorst_(warship_girls_r)",
+    "canon_name": "scharnhorst",
+    "illustrator": "rail_(silverbow)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jackal_(warship_girls_r)",
+    "canon_name": "jackal",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vanguard_(warship_girls_r)",
+    "canon_name": "vanguard",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "verniy_(warship_girls_r)",
+    "canon_name": "verniy",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gneisenau_(warship_girls_r)",
+    "canon_name": "gneisenau",
+    "illustrator": "rail_(silverbow)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "graf_spee_(warship_girls_r)",
+    "canon_name": "graf spee",
+    "illustrator": "lino-lin",
+    "danbooru_banned": false
+  },
+  {
+    "name": "queen_elizabeth_(warship_girls_r)",
+    "canon_name": "queen elizabeth",
+    "illustrator": "wave505",
+    "danbooru_banned": false
+  },
+  {
+    "name": "south_dakota_(warship_girls_r)",
+    "canon_name": "south dakota",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "northampton_(warship_girls_r)",
+    "canon_name": "northampton",
+    "illustrator": "shuang_ye",
+    "danbooru_banned": true
+  },
+  {
+    "name": "repulse_(warship_girls_r)",
+    "canon_name": "repulse",
+    "illustrator": "qingmingtongzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yukikaze_(warship_girls_r)",
+    "canon_name": "yukikaze",
+    "illustrator": "shenbei_xiaoqiu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kongou_(warship_girls_r)",
+    "canon_name": "kongou",
+    "illustrator": "hao_(patinnko)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "aoba_(warship_girls_r)",
+    "canon_name": "aoba",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kaga_(warship_girls_r)",
+    "canon_name": "kaga",
+    "illustrator": "cowinsky",
+    "danbooru_banned": false
+  },
+  {
+    "name": "william_d_porter_(warship_girls_r)",
+    "canon_name": "william d porter",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "unicorn_(warship_girls_r)",
+    "canon_name": "unicorn",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chongqing_(warship_girls_r)",
+    "canon_name": "chongqing",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "washington_(warship_girls_r)",
+    "canon_name": "washington",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "o'bannon_(warship_girls_r)",
+    "canon_name": "o'bannon",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "missouri_(warship_girls_r)",
+    "canon_name": "missouri",
+    "illustrator": "zi_se",
+    "danbooru_banned": false
+  },
+  {
+    "name": "helena_(warship_girls_r)",
+    "canon_name": "helena",
+    "illustrator": "12cat",
+    "danbooru_banned": false
+  },
+  {
+    "name": "new_orleans_(warship_girls_r)",
+    "canon_name": "new orleans",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "akagi_(warship_girls_r)",
+    "canon_name": "akagi",
+    "illustrator": "cowinsky",
+    "danbooru_banned": false
+  },
+  {
+    "name": "duke_of_york_(warship_girls_r)",
+    "canon_name": "duke of york",
+    "illustrator": "kishiyo",
+    "danbooru_banned": true
+  },
+  {
+    "name": "z16_friedrich_eckoldt_(warship_girls_r)",
+    "canon_name": "z16 friedrich eckoldt",
+    "illustrator": "? saikou-iro_aurora",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(warship_girls_r)",
+    "canon_name": "taihou",
+    "illustrator": "8rats",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shimakaze_(warship_girls_r)",
+    "canon_name": "shimakaze",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ayanami_(warship_girls_r)",
+    "canon_name": "ayanami",
+    "illustrator": "? ohmie",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yorktown_(warship_girls_r)",
+    "canon_name": "yorktown",
+    "illustrator": "g.h_(gogetsu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ranger_(warship_girls_r)",
+    "canon_name": "ranger",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bell_mccamp_(warship_girls_r)",
+    "canon_name": "bell mccamp",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lexington_(cv-16)_(warship_girls_r)",
+    "canon_name": "lexington (cv-16)",
+    "illustrator": "shi-chen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hornet_(warship_girls_r)",
+    "canon_name": "hornet",
+    "illustrator": "g.h_(gogetsu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shirayuki_(warship_girls_r)",
+    "canon_name": "shirayuki",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "archerfish_(warship_girls_r)",
+    "canon_name": "archerfish",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fubuki_(warship_girls_r)",
+    "canon_name": "fubuki",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lion_(warship_girls_r)",
+    "canon_name": "lion",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_(warship_girls_r)",
+    "canon_name": "admiral",
+    "illustrator": "? y.ssanoha",
+    "danbooru_banned": false
+  },
+  {
+    "name": "albacore_(warship_girls_r)",
+    "canon_name": "albacore",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mahan_(warship_girls_r)",
+    "canon_name": "mahan",
+    "illustrator": "mkiiiiii windforcelan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_eugen_(warship_girls_r)",
+    "canon_name": "prinz eugen",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "renown_(warship_girls_r)",
+    "canon_name": "renown",
+    "illustrator": "qingmingtongzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "le_fantasque_(warship_girls_r)",
+    "canon_name": "le fantasque",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "andrea_doria_(warship_girls_r)",
+    "canon_name": "andrea doria",
+    "illustrator": "jianren",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nelson_(warship_girls_r)",
+    "canon_name": "nelson",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yat_sen_(warship_girls_r)",
+    "canon_name": "yat sen",
+    "illustrator": "sa_(h28085)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ping_hai_(warship_girls_r)",
+    "canon_name": "ping hai",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "essex_(warship_girls_r)",
+    "canon_name": "essex",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "richelieu_(warship_girls_r)",
+    "canon_name": "richelieu",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prince_of_wales_(warship_girls_r)",
+    "canon_name": "prince of wales",
+    "illustrator": "stmast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ning_hai_(warship_girls_r)",
+    "canon_name": "ning hai",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enterprise_(warship_girls_r)",
+    "canon_name": "enterprise",
+    "illustrator": "g.h_(gogetsu)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tirpitz_(warship_girls_r)",
+    "canon_name": "tirpitz",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "glowworm_(warship_girls_r)",
+    "canon_name": "glowworm",
+    "illustrator": "sirills",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enemy_vessel_(warship_girls_r)",
+    "canon_name": "enemy vessel",
+    "illustrator": "ns_(ntrsis)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "quincy_(warship_girls_r)",
+    "canon_name": "quincy",
+    "illustrator": "zhenming",
+    "danbooru_banned": false
+  },
+  {
+    "name": "rodney_(warship_girls_r)",
+    "canon_name": "rodney",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vittorio_veneto_(warship_girls_r)",
+    "canon_name": "vittorio veneto",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hood_(warship_girls_r)",
+    "canon_name": "hood",
+    "illustrator": "js_sang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "saratoga_(warship_girls_r)",
+    "canon_name": "saratoga",
+    "illustrator": "suisai_(suisao)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_(warship_girls_r)",
+    "canon_name": "bismarck",
+    "illustrator": "15k",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lexington_(warship_girls_r)",
+    "canon_name": "lexington",
+    "illustrator": "suisai_(suisao)",
+    "danbooru_banned": false
+  }
+]

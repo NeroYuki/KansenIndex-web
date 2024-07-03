@@ -1,0 +1,44 @@
+[
+  {
+    "name": "varyag_(abyss_horizon)",
+    "canon_name": "varyag",
+    "illustrator": "juna",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fuyutsuki_(abyss_horizon)",
+    "canon_name": "fuyutsuki",
+    "illustrator": "? hk_(hk)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "theseus_(abyss_horizon)",
+    "canon_name": "theseus",
+    "illustrator": "? pandea_work",
+    "danbooru_banned": true
+  },
+  {
+    "name": "akizuki_(abyss_horizon)",
+    "canon_name": "akizuki",
+    "illustrator": "? hk_(hk)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maxim_gorky_(abyss_horizon)",
+    "canon_name": "maxim gorky",
+    "illustrator": "? yakob_labo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "enterprise_(abyss_horizon)",
+    "canon_name": "enterprise",
+    "illustrator": "tyone",
+    "danbooru_banned": false
+  },
+  {
+    "name": "warspite_(abyss_horizon)",
+    "canon_name": "warspite",
+    "illustrator": "? fukuda_shuushi",
+    "danbooru_banned": false
+  }
+]
