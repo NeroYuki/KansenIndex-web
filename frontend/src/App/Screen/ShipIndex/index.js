@@ -313,13 +313,13 @@ export const ShipIndex = () => {
                                 <Input value={keywordIllust} marginLeft='10px' placeholder="Enter illustrator" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordIllustChange} onKeyDown={listenForEnter}></Input>
                             </Box>
                         </Box>
-                        <Stack direction={'row'} spacing='10px' marginBottom='10px'>
-                            <Text fontWeight={500}>Keyword in:</Text>
+                        <Stack direction={'row'} marginBottom='16px' marginTop='8px' wrap={'wrap'}>
+                            <Text fontWeight={500} minW={120}>Keyword in:</Text>
                             <CheckboxGroup>
-                                <Checkbox isChecked={getModifierValue(keywordMod, 0)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
-                                <Checkbox isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
+                                <Checkbox minW={200} isChecked={getModifierValue(keywordMod, 0)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
+                                <Checkbox minW={200} isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
-                            <Checkbox isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
+                            <Checkbox minW={200} isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
                         </Stack>
                         <Wrap direction={'row'} justifyContent={'space-between'} wrap="wrap" spacing={5} marginBottom={5}>
                             <WrapItem  marginBottom='20px' flex={'1 0 250px'}> 
