@@ -756,7 +756,7 @@ export const CGInfo = (props) => {
         }
         else {
             // open github to edit article
-            window.open('https://github.com/NeroYuki/KansenIndex-web/edit/main/backend/data/articles?filename=' + data._id + '.md')
+            window.open('https://github.com/NeroYuki/KansenIndex-web/edit/main/backend/data/articles/' + data._id + '.md')
         }
     }
 
