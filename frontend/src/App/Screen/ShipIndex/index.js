@@ -10,7 +10,7 @@ import {
     TableCaption,
 } from '@chakra-ui/react'
 import { useCallback, useEffect, useState } from "react"
-import { FaSearch } from "react-icons/fa"
+import { FaPencilAlt, FaSearch } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
 import { SiteHeader, SiteFooter } from "../../Component"
 import { GET_query } from "../../Service/shipgirl"
@@ -19,6 +19,7 @@ import { SimpleCharCard } from "../../Component/SimpleCGCard"
 export const ShipIndex = () => {
 
     const [keyword, setKeyword] = useState("")
+    const [keywordIllust, setKeywordIllust] = useState("")
     const [page, setPage] = useState(1)
     const [limitPerPage, setLimitPerPage] = useState(20)
     const [shiplist, setShipList] = useState([])
@@ -115,6 +116,7 @@ export const ShipIndex = () => {
         let query = {
             keyword: keyword,
             keywordMod: keywordMod,
+            keywordIllust: keywordIllust,
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
@@ -143,6 +145,7 @@ export const ShipIndex = () => {
             const query = new URLSearchParams(location.search)
             setKeyword(query.get('keyword') || "")
             setKeywordMod(query.get('keywordMod') || 0)
+            setKeywordIllust(query.get('keywordIllust') || "")
             setConstructMod(query.get('constructMod') || 0)
             setAltOutfitMod(query.get('altOutfitMod') || 0)
             setSelectedFranchise(query.get('selectedFranchise') || "")
@@ -157,6 +160,7 @@ export const ShipIndex = () => {
             // console.log(location.state.searchData)
             setKeyword(location.state.searchData.keyword || "")
             setKeywordMod(location.state.searchData.keywordMod || 0)
+            setKeywordIllust(location.state.searchData.keywordIllust || "")
             setConstructMod(location.state.searchData.constructMod || 0)
             setAltOutfitMod(location.state.searchData.altOutfitMod || 0)
             setSelectedFranchise(location.state.searchData.selectedFranchise || "")
@@ -166,6 +170,7 @@ export const ShipIndex = () => {
             const query = {
                 keyword: "",
                 keywordMod: 0,
+                keywordIllust: "",
                 page: 1,
                 constructMod: 0,
                 altOutfitMod: 0,
@@ -191,6 +196,10 @@ export const ShipIndex = () => {
 
     function handleKeywordChange(e) {
         setKeyword(e.target.value)
+    }
+
+    function handleKeywordIllustChange(e) {
+        setKeywordIllust(e.target.value)
     }
 
     function listenForEnter(e) {
@@ -265,6 +274,7 @@ export const ShipIndex = () => {
         reloadData({
             keyword: keyword,
             keywordMod: keywordMod,
+            keywordIllust: keywordIllust,
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
@@ -283,9 +293,15 @@ export const ShipIndex = () => {
                     {/* filter box here */}
                     <Box bg="muted" p='32px' className="apply-shadow" height='auto'>
                         <Text fontSize={14} marginBottom='10px' fontWeight={500}>Ship Index Search</Text>
-                        <Box display={'flex'} flexDirection={'row'} alignItems="center" marginBottom='10px' >
-                            <FaSearch scale={2}/>
-                            <Input value={keyword} marginLeft='10px' placeholder="Enter keyword" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
+                        <Box display={'flex'} flexDirection={'row'} alignItems="center" marginBottom='10px' flexWrap={'wrap'}>
+                            <Box display={'flex'} flexDirection={'row'} flex={5} minW={240} alignItems={'center'} mr={4}>
+                                <FaSearch scale={2} mr={4}/>
+                                <Input value={keyword} marginLeft='10px' placeholder="Enter keyword" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
+                            </Box>
+                            <Box display={'flex'} flexDirection={'row'} flex={3} minW={240} alignItems={'center'} mr={4}>
+                                <FaPencilAlt scale={2} mr={4}/>
+                                <Input value={keywordIllust} marginLeft='10px' placeholder="Enter illustrator" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordIllustChange} onKeyDown={listenForEnter}></Input>
+                            </Box>
                         </Box>
                         <Stack direction={'row'} spacing='10px' marginBottom='10px'>
                             <Text fontWeight={500}>Keyword in:</Text>

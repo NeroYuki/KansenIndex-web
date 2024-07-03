@@ -1,10 +1,10 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar, Badge, Tooltip } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar, Badge, Tooltip, Skeleton, Divider } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { FaCopy, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
+import { FaArrowRight, FaCopy, FaPencilAlt, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
 import { SiteFooter, SiteHeader } from "../../Component"
 import { debounce } from "lodash"
-import { GET_cgById, GET_query, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
+import { GET_articleById, GET_cgById, GET_query, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
 import { Live2DModel } from 'pixi-live2d-display/cubism4';
 import * as PIXI from 'pixi.js';
@@ -15,6 +15,8 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
 import { nation_name_to_twemoji_flag, type_name_to_icon } from "../../Utils/data_mapping"
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 const LEGACY_THREEJS_REQUIRED_FOLDERS = ["Lane Girls", "Abyss Horizon"]
 const LEGACY_CHIBI_REQUIRED_FOLDERS = ["Black Surgenights", "Azur Lane"]
@@ -118,6 +120,8 @@ export const CGInfo = (props) => {
         include_bg: true,
         is_censored: true,
         l2d: null,
+        illust: null,
+        danbooru_banned: false,
         _id: '0'
     })
     
@@ -161,6 +165,7 @@ export const CGInfo = (props) => {
     const [isPlaying, setIsPlaying] = useState({})
     const [relateCGs, setRelateCGs] = useState([])
     const [useLegacySpine, setUseLegacySpine] = useState(false)
+    const [articleContent, setArticleContent] = useState(null)
 
     const data = cgInfoState
 
@@ -198,6 +203,24 @@ export const CGInfo = (props) => {
             }
         }})
     }, [navigate, data.ship_type])
+
+    const onIllustClick = useCallback(() => {
+        // navigate to danbooru if danbooru_banned = false, else navigate to gelbooru
+        if (data.danbooru_banned) {
+            window.open(`https://gelbooru.com/index.php?page=post&s=list&tags=${data.illust}`)
+        }
+        else {
+            window.open(`https://danbooru.donmai.us/posts?tags=${data.illust}`)
+        }
+    }, [data])
+
+    const onIllustSearch = useCallback(() => {
+        navigate('/ship_list', {state: {
+            searchData: {
+                keywordIllust: data.illust
+            }
+        }})
+    }, [navigate, data.illust])
 
     const navigateToCG = useCallback((val) => {
         navigate('/cg_info', {state: {
@@ -349,6 +372,25 @@ export const CGInfo = (props) => {
         }
     }
 
+    const loadArticle = useCallback(async () => {
+        if (data.char === 'Placeholder Character' || data.folder === 'Placeholder Folder') return
+        let res = await GET_articleById(data._id).catch(e => {
+            setArticleContent("")
+        })
+
+        if (!res) return
+
+        // find first line start with at least 3 equal sign and discard everything before it
+        let start = res.indexOf('\n===')
+        if (start === -1) start = 0
+        else start = res.indexOf('\n', start + 1)
+
+        res = res.slice(start)
+        // TODO: store the metadata somewhere
+
+        setArticleContent(res)
+    }, [data])
+
 
     useEffect(async () => {
         // get fav count
@@ -360,6 +402,7 @@ export const CGInfo = (props) => {
             setIsLoading(false)
         })
         searchRelateCG()
+        loadArticle()
 
         if (data.spine) {
             if (LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder)) {
@@ -704,6 +747,17 @@ export const CGInfo = (props) => {
         showSuccessToast('Link copied to clipboard')
     }
 
+    const onEditArticleClick = () => {
+        // if articleContent === "", open github to create new article
+        if (articleContent === "") {
+            window.open('https://github.com/NeroYuki/KansenIndex-web/new/main/backend/data/articles?filename=' + data._id + '.md')
+        }
+        else {
+            // open github to edit article
+            window.open('https://github.com/NeroYuki/KansenIndex-web/edit/main/backend/data/articles?filename=' + data._id + '.md')
+        }
+    }
+
     const onSoundPlay = (sound) => {
         const audio = new Audio(sound)
         audio.play()
@@ -742,174 +796,200 @@ export const CGInfo = (props) => {
     return (
         <Flex direction={'column'}>
             <SiteHeader />
-            <SlideFade in={true} offsetY='-80px'>
-                <Flex direction={'row'} wrap={'wrap'} marginTop={140}>
-                    <Box p='16px' flex='1' minW={'360px'}>
-                        <Tabs>
-                            <TabList>
-                                <Tab>Image</Tab>
-                                {data.l2d && <Tab>Live2D</Tab>}
-                                {data.chibi && <Tab>Spine (Chibi)</Tab>}
-                                {data.spine && <Tab>Spine</Tab>}
-                                {data.m3d && <Tab>3D <Tag ml={3} size={'md'} bg={'yellow.200'}>WIP</Tag></Tab>}
-                                {data.voice && <Tab>Sound</Tab>}
-                            </TabList>
-                            <TabPanels>
-                                <TabPanel>
-                                    <Center >
-                                        {/* Image */}
-                                        <img style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
-                                    </Center>
-                                </TabPanel>
-                                {data.l2d && <TabPanel>
-                                    <Center>
-                                        {/* Live2D */}
-                                        <canvas id="l2d-canvas" height={500} style={{imageRendering: 'crisp-edges'}}></canvas>
-                                    </Center>
-                                    <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
-                                </TabPanel>}
-                                {data.chibi && <TabPanel>
-                                    <Center>
-                                        {/* Spine (Chibi) */}
-                                        <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none'}} id="spine-widget"></div> 
-                                        <canvas style={{display: (!useLegacySpine) ? 'block' : 'none'}} id="spine-canvas" height={500}></canvas>
-                                    </Center>
-                                    <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
-                                </TabPanel>}
-                                {data.spine && <TabPanel>
-                                    <Center>
-                                        {/* Spine */}
-                                        {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : <canvas id="spine-canvas-full" height={500}></canvas>}
-                                    </Center>
-                                    <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
-                                </TabPanel>}
-                                {data.m3d && <TabPanel width={'100%'}>
-                                    <Center width={'100%'}>
-                                        {/* 3D */}
-                                        <canvas height={500} style={{width: '100%', height: 500, imageRendering: 'crisp-edges'}} id="m3d-viewer"></canvas>
-                                    </Center>
-                                    <Center margin={12}><Text as='b' fontSize='sm'>Use left mouse to control camera view</Text></Center>
-                                </TabPanel>}
-                                {data.voice && <TabPanel>
-                                    <Center>
-                                        {/* Sound */}
-                                        <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
-                                            {soundCardList}
-                                        </Flex>
-                                    </Center>
-                                </TabPanel>}
-                            </TabPanels>
-                        </Tabs>
-                        
-                    </Box>
-                    <Box bg='secondary' p="32px" flex='1' minW={'360px'}>
-                        <Flex bg='primary' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                            <Text flex='1' fontSize="lg" fontWeight={"semibold"}>Character Name</Text>
-                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Text flex="1" fontSize="xl" fontWeight={"semibold"} >
-                                    {data.char}
-                                </Text>
-                                <IconButton aria-label="search character" icon={<FaSearch />} onClick={onCharacterSearch} />
-                            </Flex>
-                        </Flex>
-                        <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                            <Text flex="1" fontSize="md">Modifier Name</Text>
-                            <Flex flex="3" bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                                <Text flex="1" fontSize="md">
-                                    {modifierName}
-                                </Text>
-                                <HStack spacing={'6px'}>
-                                    {data.is_base && <Tag size={'lg'} bg={'green'}>Base</Tag>}
-                                    {data.is_damage && <Tag size={'lg'} bg={'red'}>Damaged</Tag>}
-                                    {data.is_outfit && <Tag size={'lg'} bg={'orange'}>Outfit</Tag>}
-                                    {data.is_retrofit && <Tag size={'lg'} bg={'yellow'}>Retrofit</Tag>}
-                                    {data.is_oath && <Tag size={'lg'} bg={'pink'}>Oath</Tag>}
-                                    {data.include_bg && <Tag size={'lg'} bg={'teal'}>Background</Tag>}
-                                    {data.is_censored && <Tag size={'lg'} bg={'gray'}>Censored</Tag>}
-                                </HStack>
-                            </Flex>
-                        </Flex>
-                        <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                            <Text flex='1' fontSize="md">Source</Text>
-                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Text flex="1" fontSize="md" >
-                                    {data.folder}
-                                </Text>
-                                <IconButton size={'sm'} aria-label="search source" icon={<FaSearch />} onClick={onFranchiseSearch}/>
-                            </Flex>
-                        </Flex>
-                        {data.voice?.voice_actor && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                            <Text flex='1' fontSize="md">Voice Actor</Text>
-                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Text flex="1" fontSize="md" >
-                                    {data.voice?.voice_actor}
-                                </Text>
-                            </Flex>
-                        </Flex>}
-                        {data.nation && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                            <Text flex='1' fontSize="md">Nation</Text>
-                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Tag colorScheme={colorSchemeFromName(data.nation)}>
-                                    <Avatar
-                                        src={nation_name_to_twemoji_flag(data.nation)}
-                                        bg={'transparent'}
-                                        name={data.nation}
-                                        size='2xs'
-                                        ml={-1}
-                                        mr={2}
-                                    />
-                                    {data.nation}
-                                </Tag>
-                                <Flex alignItems={'center'} >
-                                    {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
-                                    <IconButton size='xs' aria-label="search country" icon={<FaSearch />} onClick={onCountrySearch} />
+                <SlideFade in={true} offsetY='-80px'>
+                    <Flex direction={'row'} wrap={'wrap'} marginTop={140}>
+                        <Box p='16px' flex='1' minW={'360px'}>
+                            <Tabs>
+                                <TabList>
+                                    <Tab>Image</Tab>
+                                    {data.l2d && <Tab>Live2D</Tab>}
+                                    {data.chibi && <Tab>Spine (Chibi)</Tab>}
+                                    {data.spine && <Tab>Spine</Tab>}
+                                    {data.m3d && <Tab>3D <Tag ml={3} size={'md'} bg={'yellow.200'}>WIP</Tag></Tab>}
+                                    {data.voice && <Tab>Sound</Tab>}
+                                </TabList>
+                                <TabPanels>
+                                    <TabPanel>
+                                        <Center >
+                                            {/* Image */}
+                                            <img style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
+                                        </Center>
+                                    </TabPanel>
+                                    {data.l2d && <TabPanel>
+                                        <Center>
+                                            {/* Live2D */}
+                                            <canvas id="l2d-canvas" height={500} style={{imageRendering: 'crisp-edges'}}></canvas>
+                                        </Center>
+                                        <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
+                                    </TabPanel>}
+                                    {data.chibi && <TabPanel>
+                                        <Center>
+                                            {/* Spine (Chibi) */}
+                                            <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none'}} id="spine-widget"></div> 
+                                            <canvas style={{display: (!useLegacySpine) ? 'block' : 'none'}} id="spine-canvas" height={500}></canvas>
+                                        </Center>
+                                        <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
+                                    </TabPanel>}
+                                    {data.spine && <TabPanel>
+                                        <Center>
+                                            {/* Spine */}
+                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : <canvas id="spine-canvas-full" height={500}></canvas>}
+                                        </Center>
+                                        <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
+                                    </TabPanel>}
+                                    {data.m3d && <TabPanel width={'100%'}>
+                                        <Center width={'100%'}>
+                                            {/* 3D */}
+                                            <canvas height={500} style={{width: '100%', height: 500, imageRendering: 'crisp-edges'}} id="m3d-viewer"></canvas>
+                                        </Center>
+                                        <Center margin={12}><Text as='b' fontSize='sm'>Use left mouse to control camera view</Text></Center>
+                                    </TabPanel>}
+                                    {data.voice && <TabPanel>
+                                        <Center>
+                                            {/* Sound */}
+                                            <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
+                                                {soundCardList}
+                                            </Flex>
+                                        </Center>
+                                    </TabPanel>}
+                                </TabPanels>
+                            </Tabs>
+                            
+                        </Box>
+                        <Box bg='secondary' className='secondary-panel' flex='1' minW={'360px'}>
+                            <Flex bg='primary' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex='1' fontSize="lg" fontWeight={"semibold"}>Character Name</Text>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                    <Text flex="1" fontSize="xl" fontWeight={"semibold"} >
+                                        {data.char}
+                                    </Text>
+                                    <IconButton aria-label="search character" icon={<FaSearch />} onClick={onCharacterSearch} />
                                 </Flex>
                             </Flex>
-                        </Flex>}
-                        {data.ship_type && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
-                            <Text flex='1' fontSize="md">Ship Type</Text>
-                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                <Tag colorScheme={colorSchemeFromName(data.ship_type)}>
-                                    <Avatar
-                                        src={type_name_to_icon(data.ship_type)}
-                                        bg={'transparent'}
-                                        name={data.nation}
-                                        size='2xs'
-                                        ml={-1}
-                                        mr={2}
-                                    />
-                                    {data.ship_type}
-                                </Tag>
-                                <Flex alignItems={'center'} >
-                                    {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
-                                    <IconButton size='xs' aria-label="search ship type" icon={<FaSearch />} onClick={onTypeSearch} />
+                            <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex="1" fontSize="md">Modifier Name</Text>
+                                <Flex flex="3" bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                    <Text flex="1" fontSize="md">
+                                        {modifierName}
+                                    </Text>
+                                    <HStack spacing={'6px'}>
+                                        {data.is_base && <Tag size={'lg'} bg={'green'}>Base</Tag>}
+                                        {data.is_damage && <Tag size={'lg'} bg={'red'}>Damaged</Tag>}
+                                        {data.is_outfit && <Tag size={'lg'} bg={'orange'}>Outfit</Tag>}
+                                        {data.is_retrofit && <Tag size={'lg'} bg={'yellow'}>Retrofit</Tag>}
+                                        {data.is_oath && <Tag size={'lg'} bg={'pink'}>Oath</Tag>}
+                                        {data.include_bg && <Tag size={'lg'} bg={'teal'}>Background</Tag>}
+                                        {data.is_censored && <Tag size={'lg'} bg={'gray'}>Censored</Tag>}
+                                    </HStack>
                                 </Flex>
                             </Flex>
-                        </Flex>}
+                            <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex='1' fontSize="md">Source</Text>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                    <Text flex="1" fontSize="md" >
+                                        {data.folder}
+                                    </Text>
+                                    <IconButton size={'sm'} aria-label="search source" icon={<FaSearch />} onClick={onFranchiseSearch}/>
+                                </Flex>
+                            </Flex>
+                            {data.voice?.voice_actor && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex='1' fontSize="md">Voice Actor</Text>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                    <Text flex="1" fontSize="md" >
+                                        {data.voice?.voice_actor}
+                                    </Text>
+                                </Flex>
+                            </Flex>}
+                            {data.illust && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex='1' fontSize="md">Illustrator</Text>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                    <Text flex="1" fontSize="md" >
+                                        {data.illust.replace(/\?/g, '').replace(/_/g, ' ').trim()}
+                                    </Text>
+                                    <Flex alignItems={'center'} >
+                                        {data.illust.startsWith('?') && <Tooltip label='May not be accurate'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                        <IconButton size='xs' aria-label="explore illustrator" colorScheme="green" icon={<FaArrowRight />} mr={4} onClick={onIllustClick} />
+                                        <IconButton size='xs' aria-label="search illustrator" icon={<FaSearch />} onClick={onIllustSearch} />
+                                    </Flex>
+                                </Flex>
+                            </Flex>}
+                            {data.nation && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex='1' fontSize="md">Nation</Text>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                    <Tag colorScheme={colorSchemeFromName(data.nation)}>
+                                        <Avatar
+                                            src={nation_name_to_twemoji_flag(data.nation)}
+                                            bg={'transparent'}
+                                            name={data.nation}
+                                            size='2xs'
+                                            ml={-1}
+                                            mr={2}
+                                        />
+                                        {data.nation}
+                                    </Tag>
+                                    <Flex alignItems={'center'} >
+                                        {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                        <IconButton size='xs' aria-label="search country" icon={<FaSearch />} onClick={onCountrySearch} />
+                                    </Flex>
+                                </Flex>
+                            </Flex>}
+                            {data.ship_type && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                <Text flex='1' fontSize="md">Ship Type</Text>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                    <Tag colorScheme={colorSchemeFromName(data.ship_type)}>
+                                        <Avatar
+                                            src={type_name_to_icon(data.ship_type)}
+                                            bg={'transparent'}
+                                            name={data.nation}
+                                            size='2xs'
+                                            ml={-1}
+                                            mr={2}
+                                        />
+                                        {data.ship_type}
+                                    </Tag>
+                                    <Flex alignItems={'center'} >
+                                        {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                        <IconButton size='xs' aria-label="search ship type" icon={<FaSearch />} onClick={onTypeSearch} />
+                                    </Flex>
+                                </Flex>
+                            </Flex>}
 
 
-                        <Flex direction={'row'} justifyContent={'space-between'}>
-                            <Button mt={2} onClick={onToggleFavorite} disabled={isLoading} bgColor={isFav ? 'pink' : 'lightgray'} color={isFav ? 'purple' : 'black'}>
-                                <Icon as={isLoading ? FaSpinner : isFav ? MdFavorite : MdFavoriteBorder} />
-                                <Text ml={2}>{isLoading ? '...' : favCount}</Text>
-                            </Button>
-                            <Button mt={2}  onClick={onCopyLink}>
-                                <Icon as={FaCopy} />
-                                <Text ml={2}>Copy Link</Text>
-                            </Button>
-                        </Flex>
+                            <Flex direction={'row'} justifyContent={'space-between'}>
+                                <Button mt={2} onClick={onToggleFavorite} disabled={isLoading} bgColor={isFav ? 'pink' : 'lightgray'} color={isFav ? 'purple' : 'black'}>
+                                    <Icon as={isLoading ? FaSpinner : isFav ? MdFavorite : MdFavoriteBorder} />
+                                    <Text ml={2}>{isLoading ? '...' : favCount}</Text>
+                                </Button>
+                                <Button mt={2}  onClick={onCopyLink}>
+                                    <Icon as={FaCopy} />
+                                    <Text ml={2}>Copy Link</Text>
+                                </Button>
+                            </Flex>
 
-                        <Flex mt={12}>
-                            <Text flex="1" fontSize="md" fontWeight={'bold'} >
-                                Related CG
-                            </Text>
-                        </Flex>
-                        <HStack mt={6} spacing={'6px'} overflowX={'scroll'} id="related-container">
-                            {relatedCGsList}
-                        </HStack>
-                    </Box>
-                </Flex>
-            </SlideFade>
+                            <Flex mt={12}>
+                                <Text flex="1" fontSize="md" fontWeight={'bold'} >
+                                    Related CG
+                                </Text>
+                            </Flex>
+                            <HStack mt={6} spacing={'6px'} overflowX={'scroll'} id="related-container">
+                                {relatedCGsList}
+                            </HStack>
+                        </Box>
+                    </Flex>
+                    <Divider />
+                    <Flex>
+                        {articleContent === null ? <Box m='80px' flex='1' minW={'360px'}>
+                            <Skeleton height="200px" width="100%" />
+                        </Box> :
+                        articleContent === "" ? <Box m={0}>
+                        </Box> :
+                        <Box flex='1' minW={'360px'} className="article">
+                            <ReactMarkdown children={articleContent} remarkPlugins={[remarkGfm]} />
+                        </Box>}
+                    </Flex>
+                    <Divider />
+                    <Button className="article" mt={8} mb={8} onClick={onEditArticleClick} leftIcon={<FaPencilAlt />}>{articleContent ? 'Edit this article' : 'Create new article'}</Button>
+                </SlideFade>
             <SiteFooter />
         </Flex>
     )
