@@ -25,6 +25,7 @@ export const ShipIndex = () => {
     const [shiplist, setShipList] = useState([])
     const [blocked, setBlocked] = useState(false)
     const [keywordMod, setKeywordMod] = useState(0)
+    const [strictMode, setStrictMode] = useState(false)
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
     const [loadedDefault, setLoadedDefault] = useState(false)
@@ -124,6 +125,7 @@ export const ShipIndex = () => {
             selectedCountry: selectedCountry,
             selectedType: selectedShipType,
             limit: limitPerPage,
+            strict: strictMode
         }
 
         if (overrideQuery) {
@@ -152,6 +154,7 @@ export const ShipIndex = () => {
             setSelectedCountry(query.get('selectedCountry') || "")
             setSelectedShipType(query.get('selectedType') || "")
             setPage(parseInt(query.get('page')) || 1)
+            setStrictMode(query.get('strict') === 'true' || false)
 
             reloadData()
             setLoadedDefault(true)
@@ -166,6 +169,7 @@ export const ShipIndex = () => {
             setSelectedFranchise(location.state.searchData.selectedFranchise || "")
             setSelectedCountry(location.state.searchData.selectedCountry || "")
             setSelectedShipType(location.state.searchData.selectedType || "")
+            setStrictMode(location.state.searchData.strict || false)
 
             const query = {
                 keyword: "",
@@ -177,6 +181,7 @@ export const ShipIndex = () => {
                 selectedFranchise: "",
                 selectedCountry: "",
                 selectedType: "",
+                strict: false,
                 ...location.state.searchData
             } 
 
@@ -269,6 +274,10 @@ export const ShipIndex = () => {
         setResultView(e.target.value)
     }
 
+    function onStrictModeChange(e) {
+        setStrictMode(e.target.checked)
+    }
+
     function onLimitPerPageChange(e) {
         setLimitPerPage(e.target.value)
         reloadData({
@@ -281,6 +290,7 @@ export const ShipIndex = () => {
             selectedFranchise: selectedFranchise,
             selectedCountry: selectedCountry,
             selectedType: selectedShipType,
+            strict: strictMode,
             limit: e.target.value,
         })
     }
@@ -309,6 +319,7 @@ export const ShipIndex = () => {
                                 <Checkbox isChecked={getModifierValue(keywordMod, 0)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
                                 <Checkbox isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
+                            <Checkbox isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
                         </Stack>
                         <Wrap direction={'row'} justifyContent={'space-between'} wrap="wrap" spacing={5} marginBottom={5}>
                             <WrapItem  marginBottom='20px' flex={'1 0 250px'}> 
