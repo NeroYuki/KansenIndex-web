@@ -166,6 +166,8 @@ export const CGInfo = (props) => {
     const [relateCGs, setRelateCGs] = useState([])
     const [useLegacySpine, setUseLegacySpine] = useState(false)
     const [articleContent, setArticleContent] = useState(null)
+    const [backgroundColor, setBackgroundColor] = useState('#00ff00ff')
+    const [backgroundImage, setBackgroundImage] = useState(null)
 
     const data = cgInfoState
 
@@ -257,7 +259,7 @@ export const CGInfo = (props) => {
                     skel: data.chibi.dir,
                     atlas: data.chibi.dir.replace('.skel', '.atlas'),
                     animation: "",
-                    backgroundColor: "#000000FF",
+                    backgroundColor: "#00000000",
                     fitToCanvas: true,
                     success: function (widget) {
                         //console.log(widget)
@@ -340,18 +342,20 @@ export const CGInfo = (props) => {
 
                     // add the animation to the scene and render...
                     chibi_spine_app.stage.addChild(animation);
+                    chibi_spine_app.renderer.backgroundAlpha = 0
 
-                    // full_normal_loop for normal spine
                     if (animation.skeleton.data.skins) {
                         // console.log(default_skin)
                         if (animation.skeleton.data.findSkin(default_skin) != null) {
                             animation.skeleton.setSkinByName(default_skin);
                         }
                         else {
+                            //console.log(animation.skeleton.data.skins[0].name)
                             animation.skeleton.setSkinByName(animation.skeleton.data.skins[0].name);
                         }
                     }
 
+                    // full_normal_loop for normal spine
                     if (animation.state.hasAnimation("idle")) {
                         animation.state.setAnimation(0, "idle", true);
                     }
@@ -363,7 +367,7 @@ export const CGInfo = (props) => {
                     // dont run too fast
                     animation.state.timeScale = 1;
 
-                    chibi_spine_app.view.onclick = function () {
+                    chibi_spine_app.view.onpointerdown = function () {
                         animation_index++
                         if (animation_index >= animation.spineData.animations.length) animation_index = 0
                         animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
@@ -412,7 +416,7 @@ export const CGInfo = (props) => {
                     skel: data.spine.dir,
                     atlas: data.spine.dir.replace('.skel', '.atlas'),
                     animation: "",
-                    backgroundColor: "#000000FF",
+                    backgroundColor: "#00000000",
                     fitToCanvas: true,
                     success: function (widget) {
                         let animations = widget.skeleton.data.animations;
@@ -451,6 +455,7 @@ export const CGInfo = (props) => {
 
                         const animation = new Spine(resources.spineCharacter.spineData);
                         const orig_size = [animation.width, animation.height]
+                        const aspectRatio = orig_size[0] / orig_size[1]
                         // console.log(animation)
 
                         //calculate the scale so that animation fit a 500x500 canvas
@@ -461,6 +466,7 @@ export const CGInfo = (props) => {
 
                         animation.x = (spine_app.screen.width) / 2
                         animation.y = (spine_app.screen.height) / 2
+                        if (data.folder === "Azur Lane" && data.char === "Brest") animation.y = spine_app.screen.height / 4 * 3
 
                         if (data.folder === "Azur Lane") animation.y += animation.height / 3
 
@@ -492,6 +498,7 @@ export const CGInfo = (props) => {
 
                         // add the animation to the scene and render...
                         spine_app.stage.addChild(animation);
+                        spine_app.renderer.backgroundAlpha = 0
 
                         // full_normal_loop for normal spine
                         if (animation.state.hasAnimation("fullBg_normal_loop")) {
@@ -507,7 +514,7 @@ export const CGInfo = (props) => {
                         // dont run too fast
                         animation.state.timeScale = 1;
 
-                        spine_app.view.onclick = function () {
+                        spine_app.view.onpointerdown = function () {
                             animation_index++
                             if (animation_index >= animation.spineData.animations.length) animation_index = 0
                             animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
@@ -533,12 +540,14 @@ export const CGInfo = (props) => {
             // init PIXI
             const app = new PIXI.Application({
                 view: document.getElementById('l2d-canvas'),
+                width: 800,
+                height: 800,
             });
 
             const model = await Live2DModel.from(data.l2d.dir, { autoInteract: false });
             
-        
             app.stage.addChild(model);
+            app.renderer.backgroundAlpha = 0
 
             const orig_size = [model.width, model.height]
 
@@ -820,22 +829,23 @@ export const CGInfo = (props) => {
                                     {data.l2d && <TabPanel>
                                         <Center>
                                             {/* Live2D */}
-                                            <canvas id="l2d-canvas" height={500} style={{imageRendering: 'crisp-edges'}}></canvas>
+                                            <canvas id="l2d-canvas" height={500} style={{imageRendering: 'crisp-edges' }}></canvas>
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                     </TabPanel>}
                                     {data.chibi && <TabPanel>
                                         <Center>
                                             {/* Spine (Chibi) */}
-                                            <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none'}} id="spine-widget"></div> 
-                                            <canvas style={{display: (!useLegacySpine) ? 'block' : 'none'}} id="spine-canvas" height={500}></canvas>
+                                            <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none', }} id="spine-widget"></div> 
+                                            <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={500}></canvas>
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                     </TabPanel>}
                                     {data.spine && <TabPanel>
                                         <Center>
                                             {/* Spine */}
-                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : <canvas id="spine-canvas-full" height={500}></canvas>}
+                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : 
+                                                <canvas id="spine-canvas-full" style={{ touchAction: 'auto'}} height={500}></canvas>}
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                     </TabPanel>}

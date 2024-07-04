@@ -116,6 +116,24 @@ router.get('/query', async (req, res) => {
             db_query.is_censored = true
         }
     }
+    if (query.extra_content_mod) {
+        let val = parseInt(query.extra_content_mod) || 0
+        if ((val >> 0) & 1) {   //voice not null
+            db_query.voice = {$ne: null}
+        }
+        if ((val >> 1) & 1) {   //live2d
+            db_query.l2d = {$ne: null}
+        }
+        if ((val >> 2) & 1) {   //chibi
+            db_query.chibi = {$ne: null}
+        }
+        if ((val >> 3) & 1) {   //spine
+            db_query.spine = {$ne: null}
+        }
+        if ((val >> 4) & 1) {   //model 3d
+            db_query.m3d = {$ne: null}
+        }
+    }
 
     // console.dir(db_query, {depth: null})
 

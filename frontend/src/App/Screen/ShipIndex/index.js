@@ -28,6 +28,7 @@ export const ShipIndex = () => {
     const [strictMode, setStrictMode] = useState(false)
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
+    const [extraContentMod, setExtraContentMod] = useState(0)
     const [loadedDefault, setLoadedDefault] = useState(false)
     const [resultView, setResultView] = useState('card')
     const [franchiseSelection, setFranchiseSelection] = useState([
@@ -121,6 +122,7 @@ export const ShipIndex = () => {
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
+            extraContentMod: extraContentMod,
             selectedFranchise: selectedFranchise,
             selectedCountry: selectedCountry,
             selectedType: selectedShipType,
@@ -150,6 +152,7 @@ export const ShipIndex = () => {
             setKeywordIllust(query.get('keywordIllust') || "")
             setConstructMod(query.get('constructMod') || 0)
             setAltOutfitMod(query.get('altOutfitMod') || 0)
+            setExtraContentMod(query.get('extraContentMod') || 0)
             setSelectedFranchise(query.get('selectedFranchise') || "")
             setSelectedCountry(query.get('selectedCountry') || "")
             setSelectedShipType(query.get('selectedType') || "")
@@ -166,6 +169,7 @@ export const ShipIndex = () => {
             setKeywordIllust(location.state.searchData.keywordIllust || "")
             setConstructMod(location.state.searchData.constructMod || 0)
             setAltOutfitMod(location.state.searchData.altOutfitMod || 0)
+            setExtraContentMod(location.state.searchData.extraContentMod || 0)
             setSelectedFranchise(location.state.searchData.selectedFranchise || "")
             setSelectedCountry(location.state.searchData.selectedCountry || "")
             setSelectedShipType(location.state.searchData.selectedType || "")
@@ -178,6 +182,7 @@ export const ShipIndex = () => {
                 page: 1,
                 constructMod: 0,
                 altOutfitMod: 0,
+                extraContentMod: 0,
                 selectedFranchise: "",
                 selectedCountry: "",
                 selectedType: "",
@@ -287,6 +292,7 @@ export const ShipIndex = () => {
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
+            extraContentMod: extraContentMod,
             selectedFranchise: selectedFranchise,
             selectedCountry: selectedCountry,
             selectedType: selectedShipType,
@@ -371,6 +377,16 @@ export const ShipIndex = () => {
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 4)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 4))}>Themed</Checkbox>
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 6)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 6))}>Censored</Checkbox>
                                         <Checkbox isChecked={getModifierValue(altOutfitMod, 5)} onChange={(e) => setAltOutfitMod(toggleModifierValue(altOutfitMod, 5))}>Others</Checkbox>
+                                    </CheckboxGroup>
+                                </Stack>
+                                <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
+                                    <Text fontWeight={500}>Available Extra Content: </Text>
+                                    <CheckboxGroup>
+                                        <Checkbox isChecked={getModifierValue(extraContentMod, 0)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 0))}>Voiceline</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(extraContentMod, 1)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 1))}>Live2D</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(extraContentMod, 2)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 2))}>Chibi</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(extraContentMod, 3)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 3))}>Dynamic</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(extraContentMod, 4)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 4))}>3D Model</Checkbox>
                                     </CheckboxGroup>
                                 </Stack>
                                 </AccordionPanel>

@@ -1,4 +1,5 @@
-import { Box, Flex, Heading, SlideFade, Text} from "@chakra-ui/react"
+import { Box, Flex, Heading, SlideFade, Text, Tooltip} from "@chakra-ui/react"
+import { FaSearchPlus } from "react-icons/fa";
 
 // function to turn number to ordinal string
 function ordinal_suffix_of(i) {
@@ -24,6 +25,8 @@ export const SimpleCharCard = (props) => {
     let thumb_dir = (data.full_dir) ? data.full_dir.replace('./data/assets/', './data/thumbs/') : ''
     thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
 
+    let extra_content_desc = (((data.voice) ? 'Voice - ' : '') + ((data.m3d) ? '3D Model - ' : '') + ((data.l2d) ? 'Live2D - ' : '') + ((data.chibi) ? 'Chibi - ' : '') + ((data.spine) ? 'Dynamic' : '')).replace(/ - $/, '')
+
     return (
         <Box style={{...style}} position={'relative'} bg='card' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' onClick={() => {if (props.onCardClick) props.onCardClick(data)}}>
             <img src={thumb_dir} alt={data.filename} style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} />
@@ -34,9 +37,12 @@ export const SimpleCharCard = (props) => {
                         <Text mt={1}>{data.folder}</Text>
                     </Flex>
                 </Flex>
-                <Box p='10px' width={'332px'} >
+                <Flex p='10px' width={'332px'} justifyContent={"space-between"} alignItems={'center'}>
+                    {(data.voice || data.m3d || data.l2d || data.chibi || data.spine) ? <Tooltip label={extra_content_desc} placement="right">
+                        <span><FaSearchPlus /></span>
+                    </Tooltip> : <Box></Box>}
                     <Text float={'right'}>{modifierName}</Text>
-                </Box>
+                </Flex>
             </Flex>
         </Box>
     )
