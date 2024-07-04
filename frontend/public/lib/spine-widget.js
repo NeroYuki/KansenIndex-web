@@ -5983,7 +5983,7 @@ var spine;
                         page.vWrap = spine.TextureWrap.Repeat;
                     else if (direction == "xy")
                         page.uWrap = page.vWrap = spine.TextureWrap.Repeat;
-                    page.texture = textureLoader(line);
+                    page.texture = textureLoader(line.toLowerCase());
                     page.texture.setFilters(page.minFilter, page.magFilter);
                     page.texture.setWraps(page.uWrap, page.vWrap);
                     page.width = page.texture.getImage().width;
