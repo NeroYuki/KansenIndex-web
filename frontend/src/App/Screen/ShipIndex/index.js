@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react'
 import { useCallback, useEffect, useState } from "react"
 import { FaPencilAlt, FaSearch } from "react-icons/fa"
-import { useLocation, useNavigate } from "react-router-dom"
+import { useLocation, useNavigate, useBeforeUnload } from "react-router-dom"
 import { SiteHeader, SiteFooter } from "../../Component"
 import { GET_query } from "../../Service/shipgirl"
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
@@ -26,6 +26,7 @@ export const ShipIndex = () => {
     const [blocked, setBlocked] = useState(false)
     const [keywordMod, setKeywordMod] = useState(0)
     const [strictMode, setStrictMode] = useState(false)
+    const [includeExtrapolate, setIncludeExtrapolate] = useState(true)
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
     const [extraContentMod, setExtraContentMod] = useState(0)
@@ -71,9 +72,27 @@ export const ShipIndex = () => {
         "Germany",
         "Soviet Union",
         "Italy",
-        "Free France",
-        "Vichy France",
+        "France",
         "China",
+        "Netherlands",
+        "Russian Empire",
+        "Spain",
+        "Australia",
+        "Thailand",
+        "Turkey",
+        "Poland",
+        "Sweden",
+        "Canada",
+        "Mongolia",
+        "Chile",
+        "Iceland",
+        "Greece",
+        "Austria-Hungary",
+        "Finland",
+        "Yugoslavia",
+        "South Korea",
+        "Argentina",
+        "Norway",
         "Fictional",
         "Unknown"
     ])
@@ -127,7 +146,8 @@ export const ShipIndex = () => {
             selectedCountry: selectedCountry,
             selectedType: selectedShipType,
             limit: limitPerPage,
-            strict: strictMode
+            strict: strictMode,
+            includeExtrapolate: includeExtrapolate,
         }
 
         if (overrideQuery) {
@@ -158,6 +178,7 @@ export const ShipIndex = () => {
             setSelectedShipType(query.get('selectedType') || "")
             setPage(parseInt(query.get('page')) || 1)
             setStrictMode(query.get('strict') === 'true' || false)
+            setIncludeExtrapolate(query.get('includeExtrapolate') === 'true' ?? true)
 
             reloadData()
             setLoadedDefault(true)
@@ -174,6 +195,7 @@ export const ShipIndex = () => {
             setSelectedCountry(location.state.searchData.selectedCountry || "")
             setSelectedShipType(location.state.searchData.selectedType || "")
             setStrictMode(location.state.searchData.strict || false)
+            setIncludeExtrapolate(location.state.searchData.includeExtrapolate ?? true)
 
             const query = {
                 keyword: "",
@@ -187,10 +209,30 @@ export const ShipIndex = () => {
                 selectedCountry: "",
                 selectedType: "",
                 strict: false,
+                includeExtrapolate: true,
                 ...location.state.searchData
             } 
 
             reloadData(query)
+            setLoadedDefault(true)
+        }
+        else if (localStorage.getItem('searchState') && !loadedDefault) {
+            const searchState = JSON.parse(localStorage.getItem('searchState'))
+            setKeyword(searchState.keyword || "")
+            setKeywordMod(searchState.keywordMod || 0)
+            setKeywordIllust(searchState.keywordIllust || "")
+            setConstructMod(searchState.constructMod || 0)
+            setAltOutfitMod(searchState.altOutfitMod || 0)
+            setExtraContentMod(searchState.extraContentMod || 0)
+            setSelectedFranchise(searchState.selectedFranchise || "")
+            setSelectedCountry(searchState.selectedCountry || "")
+            setSelectedShipType(searchState.selectedType || "")
+            setPage(searchState.page || 1)
+            setStrictMode(searchState.strict || false)
+            setIncludeExtrapolate(searchState.includeExtrapolate ?? true)
+            setLimitPerPage(searchState.limit || 20)
+
+            reloadData(searchState)
             setLoadedDefault(true)
         }
         else {
@@ -218,10 +260,32 @@ export const ShipIndex = () => {
         }
     }
 
+    // save search state before unmount or page change to local storage
+    useEffect(() => {
+        return () => {
+            localStorage.setItem('searchState', JSON.stringify({
+                keyword: keyword,
+                keywordMod: keywordMod,
+                keywordIllust: keywordIllust,
+                page: page,
+                constructMod: constructMod,
+                altOutfitMod: altOutfitMod,
+                extraContentMod: extraContentMod,
+                selectedFranchise: selectedFranchise,
+                selectedCountry: selectedCountry,
+                selectedType: selectedShipType,
+                strict: strictMode,
+                includeExtrapolate: includeExtrapolate,
+                limit: limitPerPage,
+            }))
+        }
+    }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage])
+
     const navigateToCG = useCallback((val) => {
         navigate('/cg_info', {state: {
-            data: val
-        }})
+                data: val
+            }
+        })
     }, [navigate])
 
     const tableRows = shiplist.map(val => {
@@ -283,6 +347,10 @@ export const ShipIndex = () => {
         setStrictMode(e.target.checked)
     }
 
+    function onIncludeExtrapolateChange(e) {
+        setIncludeExtrapolate(e.target.checked)
+    }
+
     function onLimitPerPageChange(e) {
         setLimitPerPage(e.target.value)
         reloadData({
@@ -297,6 +365,7 @@ export const ShipIndex = () => {
             selectedCountry: selectedCountry,
             selectedType: selectedShipType,
             strict: strictMode,
+            includeExtrapolate: includeExtrapolate,
             limit: e.target.value,
         })
     }
@@ -326,6 +395,7 @@ export const ShipIndex = () => {
                                 <Checkbox minW={200} isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
                             <Checkbox minW={200} isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
+                            <Checkbox minW={200} isChecked={includeExtrapolate} onChange={onIncludeExtrapolateChange}>Include Extrapolated Data</Checkbox>
                         </Stack>
                         <Wrap direction={'row'} justifyContent={'space-between'} wrap="wrap" spacing={5} marginBottom={5}>
                             <WrapItem  marginBottom='20px' flex={'1 0 250px'}> 

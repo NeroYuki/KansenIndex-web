@@ -1,4 +1,4 @@
-import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar, Badge, Tooltip, Skeleton, Divider } from "@chakra-ui/react"
+import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar, Badge, Tooltip, Skeleton, Divider, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaArrowRight, FaCopy, FaPencilAlt, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
@@ -122,13 +122,59 @@ export const CGInfo = (props) => {
         l2d: null,
         illust: null,
         danbooru_banned: false,
+        nation: null,
+        ship_type: null,
+        birthday: null,
+        height: null,
+        displacement: null,
         _id: '0'
     })
+
+    const [uncertainInfoFlags, setUncertainInfoFlags] = useState({
+        nation: false,
+        ship_type: false,
+        illust: false,
+        birthday: false,
+        height: false,
+        displacement: false,
+    })
+
+    const setupUncertainFlags = useCallback((input) => {
+        // given cg info data, set the flags for uncertain info if a field value start with "?" and remove said "?" from the field value itself, after that return the altered data
+        let alteredData = {...input}
+        let flags = {...uncertainInfoFlags}
+        if (input.nation && input.nation.some((val) => val.startsWith('?'))) {
+            alteredData.nation = alteredData.nation.map((val) => val.slice(1).trim())
+            flags.nation = true
+        }
+        if (input.ship_type && input.ship_type.startsWith('?')) {
+            alteredData.ship_type = alteredData.ship_type.slice(1).trim()
+            flags.ship_type = true
+        }
+        if (input.illust && input.illust.startsWith('?')) {
+            alteredData.illust = alteredData.illust.slice(1).trim()
+            flags.illust = true
+        }
+        if (input.birthday && input.birthday.startsWith('?')) {
+            alteredData.birthday = alteredData.birthday.slice(1).trim()
+            flags.birthday = true
+        }
+        if (input.height && input.height.startsWith('?')) {
+            alteredData.height = alteredData.height.slice(1).trim()
+            flags.height = true
+        }
+        if (input.displacement && input.displacement.startsWith('?')) {
+            alteredData.displacement = alteredData.displacement.slice(1).trim()
+            flags.displacement = true
+        }
+        setUncertainInfoFlags(flags)
+        return alteredData
+    }, [uncertainInfoFlags])
     
     useEffect(() => {
         if (location.state && location.state.data) {
             // console.log(location.state.data)
-            setCgInfoState(location.state.data)
+            setCgInfoState(setupUncertainFlags(location.state.data))
             if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(location.state.data.folder)) {
                 loadLegacyThreeJSLibrary()
             }
@@ -138,7 +184,7 @@ export const CGInfo = (props) => {
                 if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(res.folder)) {
                     loadLegacyThreeJSLibrary()
                 }
-                setCgInfoState(res)
+                setCgInfoState(setupUncertainFlags(res))
             })
         }
         const container = document.getElementById("related-container");
@@ -191,10 +237,10 @@ export const CGInfo = (props) => {
         }})
     }, [navigate, data.folder])
 
-    const onCountrySearch = useCallback(() => {
+    const onCountrySearch = useCallback((country) => {
         navigate('/ship_list', {state: {
             searchData: {
-                selectedCountry: data.nation
+                selectedCountry: country ?? data.nation
             }
         }})
     }, [navigate, data.nation])
@@ -804,6 +850,28 @@ export const CGInfo = (props) => {
         )
     })
 
+    const nationListDisplay = data.nation?.map((nation, index) => {
+        return (
+            <Flex flex='1' direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'} key={index + "_" + nation}>
+                <Tag colorScheme={colorSchemeFromName(nation)}>
+                    <Avatar
+                        src={nation_name_to_twemoji_flag(nation)}
+                        bg={'transparent'}
+                        name={nation}
+                        size='2xs'
+                        ml={-1}
+                        mr={2}
+                    />
+                    {nation}
+                </Tag>
+                <Flex alignItems={'center'} >
+                    {uncertainInfoFlags.nation && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                    <IconButton size='xs' aria-label="search country" icon={<FaSearch />} onClick={() => onCountrySearch(nation)} />
+                </Flex>
+            </Flex>
+        )
+    })
+
     return (
         <Flex direction={'column'}>
             <SiteHeader />
@@ -927,22 +995,8 @@ export const CGInfo = (props) => {
                             </Flex>}
                             {data.nation && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
                                 <Text flex='1' fontSize="md">Nation</Text>
-                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
-                                    <Tag colorScheme={colorSchemeFromName(data.nation)}>
-                                        <Avatar
-                                            src={nation_name_to_twemoji_flag(data.nation)}
-                                            bg={'transparent'}
-                                            name={data.nation}
-                                            size='2xs'
-                                            ml={-1}
-                                            mr={2}
-                                        />
-                                        {data.nation}
-                                    </Tag>
-                                    <Flex alignItems={'center'} >
-                                        {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
-                                        <IconButton size='xs' aria-label="search country" icon={<FaSearch />} onClick={onCountrySearch} />
-                                    </Flex>
+                                <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'column'} alignItems={'left'} justifyContent={'space-between'} flexWrap={'wrap'} width={'fit-content'}>
+                                    {nationListDisplay}
                                 </Flex>
                             </Flex>}
                             {data.ship_type && <Flex bg='primary' mt='-8px' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
@@ -952,7 +1006,7 @@ export const CGInfo = (props) => {
                                         <Avatar
                                             src={type_name_to_icon(data.ship_type)}
                                             bg={'transparent'}
-                                            name={data.nation}
+                                            name={data.ship_type}
                                             size='2xs'
                                             ml={-1}
                                             mr={2}
@@ -960,12 +1014,56 @@ export const CGInfo = (props) => {
                                         {data.ship_type}
                                     </Tag>
                                     <Flex alignItems={'center'} >
-                                        {data.folder !== 'Azur Lane' && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                        {uncertainInfoFlags.ship_type && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
                                         <IconButton size='xs' aria-label="search ship type" icon={<FaSearch />} onClick={onTypeSearch} />
                                     </Flex>
                                 </Flex>
                             </Flex>}
-
+                            {(data.birthday || data.height || data.displacement) &&  <Accordion allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box flex='1' textAlign='left'>
+                                            <Text fontSize={16} fontWeight={300} marginY='8px'>Extra Info</Text>
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel m='-4px' mr='-24px' ml='-24px'>
+                                        {data.birthday && <Flex bg='primary' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                            <Text flex='1' fontSize="md">Birthday</Text>
+                                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                                <Text flex="1" fontSize="md" >
+                                                    {data.birthday}
+                                                </Text>
+                                                <Flex alignItems={'center'} >
+                                                    {uncertainInfoFlags.birthday && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                                </Flex>
+                                            </Flex>
+                                        </Flex>}
+                                        {data.height && <Flex bg='primary' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                            <Text flex='1' fontSize="md">Height</Text>
+                                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                                <Text flex="1" fontSize="md" >
+                                                    {data.height}
+                                                </Text>
+                                                <Flex alignItems={'center'} >
+                                                    {uncertainInfoFlags.height && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                                </Flex>
+                                            </Flex>
+                                        </Flex>}
+                                        {data.displacement && <Flex bg='primary' p='16px' direction={'row'} alignItems={'center'} flexWrap={'wrap'}>
+                                            <Text flex='1' fontSize="md">Tonnage</Text>
+                                            <Flex flex='3' bg='whiteAlpha.500' p='8px' borderRadius={'8px'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                                                <Text flex="1" fontSize="md" >
+                                                    {data.displacement}
+                                                </Text>
+                                                <Flex alignItems={'center'} >
+                                                    {uncertainInfoFlags.displacement && <Tooltip label='Guessed from same name char.'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                                </Flex>
+                                            </Flex>
+                                        </Flex>}
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>}
 
                             <Flex direction={'row'} justifyContent={'space-between'}>
                                 <Button mt={2} onClick={onToggleFavorite} disabled={isLoading} bgColor={isFav ? 'pink' : 'lightgray'} color={isFav ? 'purple' : 'black'}>

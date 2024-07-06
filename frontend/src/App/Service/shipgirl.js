@@ -17,6 +17,7 @@ export function GET_query(query) {
         if (query.selectedType) url += `type=${query.selectedType}&`
         if (query.limit) url += `limit=${query.limit}&`
         if (query.strict) url += `strict=${query.strict}&`
+        if (query.includeExtrapolate) url += `include_extrapolate=${query.includeExtrapolate}&`
         if (query.keywordIllust) url += `illust=${query.keywordIllust}&`
 
         let res = await fetch(url, option).catch(e => reject("error when fetch"))
