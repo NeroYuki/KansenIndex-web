@@ -3,6 +3,7 @@ const config = require('./shipgirl_list_config.json')
 const hashFile = require('hash-files')
 const crypto = require('crypto')
 const asciiFolder = require('fold-to-ascii')
+const { parse } = require('fast-csv');
 
 const BASE_PATH = './data/assets/shipgirls'
 
@@ -246,14 +247,16 @@ function main_shipgirl_db() {
 
             const illust_candidate = illust_config.filter(val =>
                 dir === "Azur Lane" ?
-                    (folded_name.toLowerCase().includes(val.char.toLowerCase()) || folded_name.toLowerCase().replace(' ', ' ').includes(val.char.toLowerCase())) :
-                    folded_name.toLowerCase().includes(val.char.toLowerCase()) 
+                    (char_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase().startsWith(val.char.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) || alias.some(a => a.replace(/[^a-zA-Z0-9]/g, '').toLowerCase().startsWith(val.char.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()))) :
+                    folded_name.toLowerCase().startsWith(val.char.toLowerCase())  || alias.some(a => a.toLowerCase().startsWith(val.char.toLowerCase()))
             ) || null
             // console.log(illust_candidate)
 
             let illust = illust_candidate?.reduce((prev, curr) => {
-                // take match with the least number of modifier
-                if (prev.modifier.length < curr.modifier.length) return prev
+                // take candidate with longest length of char then with the least number of modifier
+                if ((prev?.char.length || 0) > curr.char.length) return prev
+                if ((prev?.char.length || 0) < curr.char.length) return curr
+                if ((prev?.modifier.length || 0) < curr.modifier.length) return prev
                 return curr
             }, illust_candidate[0]) || null
 
@@ -285,16 +288,22 @@ function main_shipgirl_db() {
                 is_outfit: isOutfit,
                 file_hash: file_hash,
                 folder: dir,
-                alias: alias,
+                alias: alias.concat(extra_config?.alias || []),
                 l2d: l2d,
                 chibi: chibi,
                 spine: spine,
                 voice: temp_voice,
+                // TODO: consolidate both AL data and WSG data
+                voice_actor: temp_voice?.voice_actor ? [temp_voice?.voice_actor] : (extra_info?.voice_actor ?? []).length > 0 ? extra_info.voice_actor : null,
                 m3d: m3d,
                 nation: extra_info?.nation,
                 ship_type: extra_info?.ship_type,
+                // TODO: pending illustrator info from extra_config
                 illust: illust?.illustrator,
                 danbooru_banned: illust?.danbooru_banned ?? false,
+                birthday: extra_info?.birthday,
+                height: extra_info?.height,
+                displacement: extra_info?.displacement,
             })
         })
 
@@ -402,14 +411,38 @@ function extrapolate_data() {
 
         const found = al_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
         if (found) {
-            list[index].nation = found.nation
-            list[index].ship_type = found.ship_type
+            list[index].nation = list[index].nation || found.nation?.map(v => "? " + v)
+            list[index].ship_type = found.ship_type ? "? " + found.ship_type : null
+        }
+    })
+
+    console.log('Extrapolating data from Warship Girls R')
+    const wgr_list = list.filter(v => v.folder === "Warship Girls R")
+    list.forEach((val, index) => {
+        if (val.nation && val.birthday && val.height && val.displacement) return
+
+        const found = wgr_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
+        if (found) {
+            list[index].nation = list[index].nation || found.nation?.map(v => "? " + v)
+            list[index].birthday = found.birthday ? "? " + found.birthday : null
+            list[index].height = found.height ? "? " +  found.height : null
+            list[index].displacement = found.height ? "? " + found.displacement : null
         }
     })
 
     fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
+function override_data() {
+    const stream = parse({ headers: true })
+        .on('error', error => console.error(error))
+        .on('data', row => console.log(row))
+        .on('end', rowCount => console.log(`Parsed ${rowCount} rows`));
+
+    fs.createReadStream('data/data_override.csv').pipe(stream);
+}
+
 main_shipgirl_db()
-//extrapolate_data()
+extrapolate_data()
+//override_data()
 //main_franchise()
