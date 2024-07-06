@@ -232,12 +232,11 @@ export const ShipIndex = () => {
             setIncludeExtrapolate(searchState.includeExtrapolate ?? true)
             setLimitPerPage(searchState.limit || 20)
 
-            reloadData(searchState)
-            setLoadedDefault(true)
-
             if (localStorage.getItem('searchData')) {
                 setShipList(JSON.parse(localStorage.getItem('searchData')))
             }
+
+            setLoadedDefault(true)
         }
         else {
             reloadData()
@@ -285,7 +284,7 @@ export const ShipIndex = () => {
 
             localStorage.setItem('searchData', JSON.stringify(shiplist))
         }
-    }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage])
+    }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage, shiplist])
 
     const navigateToCG = useCallback((val) => {
         navigate('/cg_info', {state: {
