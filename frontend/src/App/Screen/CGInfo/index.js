@@ -127,6 +127,7 @@ export const CGInfo = (props) => {
         birthday: null,
         height: null,
         displacement: null,
+        non_ai_processed: null,
         _id: '0'
     })
 
@@ -214,6 +215,7 @@ export const CGInfo = (props) => {
     const [articleContent, setArticleContent] = useState(null)
     const [backgroundColor, setBackgroundColor] = useState('#00ff00ff')
     const [backgroundImage, setBackgroundImage] = useState(null)
+    const [showOriginal, setShowOriginal] = useState(false)
 
     const data = cgInfoState
 
@@ -889,9 +891,13 @@ export const CGInfo = (props) => {
                                 </TabList>
                                 <TabPanels>
                                     <TabPanel>
+                                        <Flex direction={'row'} wrap={'wrap'} mb={4} alignItems={'center'} justifyContent={'end'}>
+                                            {data.non_ai_processed && <Tooltip label='Background removed by AI'><Badge mr={4} pl={2} pr={2} variant="solid" colorScheme='yellow'>!</Badge></Tooltip>}
+                                            {data.non_ai_processed && <Button size='sm' onClick={() => setShowOriginal(!showOriginal)}>{showOriginal ? 'Remove Background' : 'Show Original'}</Button>}
+                                        </Flex>
                                         <Center >
                                             {/* Image */}
-                                            <img style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} src={data.full_dir} alt="hover_img"></img>
+                                            <img style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} src={(data.non_ai_processed && showOriginal) ? data.non_ai_processed : data.full_dir} alt="hover_img"></img>
                                         </Center>
                                     </TabPanel>
                                     {data.l2d && <TabPanel>

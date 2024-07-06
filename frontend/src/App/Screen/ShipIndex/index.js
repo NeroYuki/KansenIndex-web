@@ -234,6 +234,10 @@ export const ShipIndex = () => {
 
             reloadData(searchState)
             setLoadedDefault(true)
+
+            if (localStorage.getItem('searchData')) {
+                setShipList(JSON.parse(localStorage.getItem('searchData')))
+            }
         }
         else {
             reloadData()
@@ -278,6 +282,8 @@ export const ShipIndex = () => {
                 includeExtrapolate: includeExtrapolate,
                 limit: limitPerPage,
             }))
+
+            localStorage.setItem('searchData', JSON.stringify(shiplist))
         }
     }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage])
 
