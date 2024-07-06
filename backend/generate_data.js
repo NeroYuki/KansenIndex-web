@@ -7,6 +7,14 @@ const { parse } = require('fast-csv');
 
 const BASE_PATH = './data/assets/shipgirls'
 
+Array.prototype.filterIndex = function (cb) {
+    let arr = [];
+    this.forEach((a, index) => {
+        if (cb(a)) arr.push(index)
+    })
+    return arr
+}
+
 // function main_shipgirl () {
 
 //     let dirs = fs.readdirSync(BASE_PATH)
@@ -86,6 +94,7 @@ function main_shipgirl_db() {
         let m3d_config = []
         let extra_config = []
         let illust_config = []
+        let bg_original = []
         if (entry_config.alias) alias_config = [...alias_config, ...entry_config.alias]
         if (entry_config.live2dmapping) {
             l2d_config = JSON.parse(fs.readFileSync(entry_config.live2dmapping, {encoding: 'utf-8'}) || "[]")
@@ -108,6 +117,9 @@ function main_shipgirl_db() {
         if (entry_config.illustmapping) {
             illust_config = JSON.parse(fs.readFileSync(entry_config.illustmapping, {encoding: 'utf-8'}) || "[]")
         }
+        if (fs.existsSync(BASE_PATH + '/' + dir + '/bg')) {
+            bg_original = fs.readdirSync(BASE_PATH + '/' + dir + '/bg')
+        } 
 
         let base_count = 0
         let count = 0
@@ -274,6 +286,16 @@ function main_shipgirl_db() {
                 }, 0)
             }
 
+            // for each file check the "bg" subfolder in its parent folder for the same file name (without extension) and if it exists, set nonAI_processed to the path of the bg file, else null
+            let non_ai_original = null
+            if (bg_original.length > 0) {
+                const bg_file = bg_original.find(v => v.slice(0, v.lastIndexOf('.')).toLowerCase() === file.slice(0, file.lastIndexOf('.')).toLowerCase())
+                if (bg_file) {
+                    non_ai_original = BASE_PATH + '/' + dir + '/bg/' + bg_file
+                }
+            }
+
+
             series_list.push({
                 char: char_name,
                 modifier: modifiers.join(' ').trim(),
@@ -284,6 +306,7 @@ function main_shipgirl_db() {
                 is_oath: isOath,
                 is_retrofit: isRetrofit,
                 include_bg: includeBg,
+                non_ai_processed: non_ai_original,
                 is_censored: isCensored,
                 is_outfit: isOutfit,
                 file_hash: file_hash,
@@ -433,16 +456,51 @@ function extrapolate_data() {
     fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
-function override_data() {
+async function override_data() {
+    const csv_data = []
+    console.log('Overriding data from data_override.csv')
+
     const stream = parse({ headers: true })
         .on('error', error => console.error(error))
-        .on('data', row => console.log(row))
-        .on('end', rowCount => console.log(`Parsed ${rowCount} rows`));
+        .on('data', row => {
+            csv_data.push(row)
+        })
+        .on('end', rowCount => {
+            console.log(`Parsed ${rowCount} rows`)
+            let list = JSON.parse(fs.readFileSync('data/shipgirl_list_db_new.json', {encoding: 'utf-8'}))
 
-    fs.createReadStream('data/data_override.csv').pipe(stream);
+            // for each row in csv
+            csv_data.forEach((row) => {
+                // find the corresponding shipgirl in list
+                let foundIdx = list.filterIndex(v => v.char.toLowerCase() === row.char.toLowerCase() && v.folder.toLowerCase() === row.folder.toLowerCase() && (row.modifier ? v.modifier.toLowerCase() === row.modifier.toLowerCase() : true))
+                if (!foundIdx || foundIdx.length === 0) {
+                    console.log(`Not found: ${row.char} - ${row.folder} ${row.modifier ? "- " + row.modifier : ""}`)
+                    return
+                }
+
+                // for each found shipgirl, update the data
+                foundIdx.forEach((i) => {
+                    list[i] = {
+                        ...list[i],
+                        alias: list[i].alias.concat(row.alias_add ? row.alias_add.split(',').map(v => v.trim()) : []),
+                        nation: row.nation ? row.nation.split(',').map(v => v.trim()) : list[i].nation,
+                        ship_type: row.ship_type ? row.ship_type : list[i].ship_type,
+                        voice_actor: row.voice_actor ? row.voice_actor.split(',').map(v => v.trim()) : list[i].voice_actor,
+                        illust: row.illust ? row.illust : list[i].illust,
+                    }
+                })
+            })
+
+            // overwrite the shipgirl_list_db_new.json
+            fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
+        });
+
+    fs.createReadStream('data/data_override.csv').pipe(stream)
+
+    console.log(csv_data)
 }
 
 main_shipgirl_db()
 extrapolate_data()
-//override_data()
+override_data()
 //main_franchise()
