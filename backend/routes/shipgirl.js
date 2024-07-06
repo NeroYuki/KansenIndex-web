@@ -37,30 +37,62 @@ function escapeRegExp(string) {
 router.get('/query', async (req, res) => {
     let query = req.query
 
-    let db_query = {}
+    let db_query = {
+        $and: []
+    }
     let skip = 0
     const ENTRY_PER_PAGE = Math.max(query.limit ? Math.min(parseInt(query.limit), 100) : 20, 10)
+    let include_extrapolated = query.include_extrapolate ?? true
 
     // console.log(query)
 
     if (query.keyword) {
-        db_query.$or = [
-            {filename: {$regex: escapeRegExp(query.keyword), $options: 'i'}},
-            {alias: {$regex: escapeRegExp(query.keyword), $options: 'i'}}
-        ]
+        db_query.$and.push({
+            $or: [
+                {filename: {$regex: escapeRegExp(query.keyword), $options: 'i'}},
+                {alias: {$regex: escapeRegExp(query.keyword), $options: 'i'}}
+            ]
+        })
+        if (query.keyword_mod) {
+            let val = parseInt(query.keyword_mod) || 0
+            if ((val >> 0) & 1) {   //char name only
+                db_query.$and[0].$or = [
+                    {char: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.keyword) + (query.strict ? "$" : ""), $options: 'i'}},
+                    {alias: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.keyword) + (query.strict ? "$" : ""), $options: 'i'}}
+                ]
+            }
+            if ((val >> 1) & 1) {   //modifier name only
+                db_query.$and[0].$or.push(filename = {$regex: "_.*" + escapeRegExp(query.keyword), $options: 'i'})
+            }
+        }
     }
     if (query.folder) {
         db_query.folder = query.folder
     }
     if (query.illust) {
-        db_query.illust = {$regex:  (query.strict ? "^" : "") + escapeRegExp(query.illust.replace(/\s/g, '_')) + (query.strict ? "$" : ""), $options: 'i'}
+        db_query.$and.push({
+            $or: [
+                {illust: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.illust) + (query.strict ? "$" : ""), $options: 'i'}},
+                {illust: {$regex: (query.strict ? "^\\? " : "\\? ") + escapeRegExp(query.illust) + (query.strict ? "$" : ""), $options: 'i'}}
+            ]
+        })
+        if (!include_extrapolated) 
+            db_query.$and[db_query.$and.length - 1].$or.pop()
     }
     if (query.nation) {
         if (query.nation === "Unknown") {
             db_query.nation = null
         }
         else {
-            db_query.nation = query.nation
+            db_query.$and.push({
+                $or: [
+                    // any element in nation field is query.nation or query.nation with question mark
+                    {nation: query.nation},
+                    {nation: "? " + query.nation}
+                ]
+            })
+            if (!include_extrapolated) 
+                db_query.$and[db_query.$and.length - 1].$or.pop()
         }
     }
     if (query.type) {
@@ -68,26 +100,19 @@ router.get('/query', async (req, res) => {
             db_query.ship_type = null
         }
         else {
-            db_query.ship_type = query.type
+            db_query.$and.push({
+                $or: [
+                    {ship_type: query.type},
+                    {ship_type: "? " + query.type}
+                ]
+            })
+            if (!include_extrapolated) 
+                db_query.$and[db_query.$and.length - 1].$or.pop()
         }
     }
     if (query.page) {
         let pageParse = parseInt(query.page) || 0
         skip = Math.max(0, pageParse - 1) * ENTRY_PER_PAGE
-    }
-    if (query.keyword_mod) {
-        let val = parseInt(query.keyword_mod) || 0
-        if ((val >> 0) & 1) {   //char name only
-            delete db_query.$or
-            db_query.$or = [
-                {char: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.keyword) + (query.strict ? "$" : ""), $options: 'i'}},
-                {alias: {$regex: (query.strict ? "^" : "") + escapeRegExp(query.keyword) + (query.strict ? "$" : ""), $options: 'i'}}
-            ]
-        }
-        if ((val >> 1) & 1) {   //modifier name only
-            delete db_query.$or
-            db_query.filename = {$regex: "_.*" + escapeRegExp(query.keyword), $options: 'i'}
-        }
     }
     if (query.construct_mod) {
         //TODO: populate data before even attempt this
@@ -133,6 +158,11 @@ router.get('/query', async (req, res) => {
         if ((val >> 4) & 1) {   //model 3d
             db_query.m3d = {$ne: null}
         }
+    }
+
+    // if db_query.$and is empty, remove it
+    if (!db_query.$and.length) {
+        delete db_query.$and
     }
 
     // console.dir(db_query, {depth: null})
