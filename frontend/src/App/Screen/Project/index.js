@@ -39,7 +39,7 @@ export const Project = () => {
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
-                <Box bg='backdrop' p='40px' marginTop={140}>
+                <Box bg='backdrop' className="general-backdrop">
                     <Box bg='muted' p='32px' className="apply-shadow">
                         <Accordion allowToggle>
                             <AccordionItem>

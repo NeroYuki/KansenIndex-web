@@ -65,7 +65,7 @@ export const Home = () => {
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
-                <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'} marginTop={140}>
+                <Box className='home-content general-backdrop slider-thumb' display={'flex'} flexDirection={'column'}>
                     <Heading as='h3' size='2xl' style={{fontWeight: '100'}} p='40px'>Welcome to the KansenIndex</Heading>
                     <p style={{fontSize: 18}}>The all-in-one index of (almost) all franchise involving anthropomorphic warships</p>
                     <AutoComplete onSelectOption={(res) => navigateToCG(res.item.originalValue)} 
@@ -105,7 +105,7 @@ export const Home = () => {
                         </Button>
                     </Center>
                 </Box>
-                <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
+                <Box className='home-content general-backdrop slider-thumb' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Current Database contains...</Heading>
                     <Box bg="card" display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" >
                         <Box display={'flex'} flexDirection={'column'}>
@@ -122,7 +122,7 @@ export const Home = () => {
                         </Box>
                     </Box>
                 </Box>
-                <Box bg='backdrop' className='home-content' p='20px' display={'flex'} flexDirection={'column'}>
+                <Box className='home-content general-backdrop slider-thumb' display={'flex'} flexDirection={'column'}>
                     <Heading as='h4' size='lg' style={{fontWeight: '100'}} p='40px'>Reach out to us at</Heading>
                     <Box bg="card" display={'flex'} flexDirection={'row'} justifyContent={'space-evenly'} p='40px' className="apply-shadow" flexWrap={'wrap'} >
                         <Box display={'flex'} flexDirection={'column'} minW={'300px'}>

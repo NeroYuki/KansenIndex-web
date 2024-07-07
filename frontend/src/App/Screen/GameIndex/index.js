@@ -74,7 +74,7 @@ export const GameIndex = () => {
             </Modal>
 
             <SlideFade in={isReady} offsetY='-80px'>
-                <Flex bg='backdrop' direction={'row'} wrap={'wrap'} justify={'space-evenly'} marginTop={140}>
+                <Flex bg='backdrop' direction={'row'} wrap={'wrap'} justify={'space-evenly'} className="general-backdrop">
                     {cardList}
                 </Flex>
             </SlideFade>

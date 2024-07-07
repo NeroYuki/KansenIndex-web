@@ -118,7 +118,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 916px) {
   .nav-button-container:not(:first-child) {
     display: none;
   }
@@ -150,6 +150,23 @@
   }
   @media screen and (max-width: 480px) {
     padding: 32px 12px 32px 12px;
+  }
+}
+
+.general-backdrop {
+  margin-top: 140px;
+  padding: 40px;
+  @media screen and (max-width: 768px) {
+    margin-top: 140px;
+    padding: 32px;
+  }
+  @media screen and (max-width: 512px) {
+    margin-top: 140px;
+    padding: 20px;
+  }
+  @media screen and (max-width: 420px) {
+    margin-top: 132px;
+    padding: 12px;
   }
 }
 
@@ -229,4 +246,61 @@
     margin: 48px 24px 48px 24px;
   }
   /* revert all element to default */
+}
+
+.slider-thumb::before {
+  position: absolute;
+  content: "";
+  left: calc(30% + var(--offset-x, 0px)); /* Adjust based on custom property */
+  top: calc(20% + var(--offset-y, 0px)); /* Adjust based on custom property */
+  width: 450px;
+  height: 450px;
+  background: var(--blob-color, '#22000022');
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+}
+/* 
+.slider-thumb[data-color-mode="dark"] {
+  background: #dddddd22;
+}
+
+.slider-thumb[data-color-mode="light"] {
+  background: #22222222;
+} */
+
+/* Define multiple keyframes for variation if needed */
+
+@keyframes sliderShape {
+  0%, 100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+  /* Add more keyframes as needed */
+}
+
+/* Example of applying custom properties for positioning */
+.slider-thumb:nth-child(1)::before {
+  --offset-x: -300px;
+  --offset-y: 0px;
+}
+
+.slider-thumb:nth-child(2)::before {
+  --offset-x: 450px; /* Adjust positioning */
+  --offset-y: 400px; /* Adjust positioning */
+  width: 750px;
+  height: 750px;
+}
+
+.slider-thumb:nth-child(3)::before {
+  --offset-x: -100px; /* Adjust positioning */
+  --offset-y: 800px; /* Adjust positioning */
+  width: 350px;
+  height: 350px;
 }

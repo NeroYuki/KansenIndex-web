@@ -13,7 +13,7 @@ export const About = () => {
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
             <SlideFade in={true} offsetY='-80px'>
-                <Box bg='green.200' p='40px'>
+                <Box bg='green.200' className="general-backdrop">
                     <Box bg='gray.300' p='32px' className="apply-shadow">
                         <Accordion allowToggle>
                             <AccordionItem>

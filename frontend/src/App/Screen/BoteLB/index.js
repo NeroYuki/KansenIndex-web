@@ -67,7 +67,7 @@ export const BoteLB = () => {
         <Flex direction={'column'} height={'100%'}>
             <SiteHeader />
             <SlideFade in={isReady} offsetY='-80px'>
-                <Box bg='backdrop' p='24px' marginTop={140}>
+                <Box bg='backdrop' className="general-backdrop">
                     <Flex direction={'row'} wrap={'wrap'} justify={'space-evenly'}>
                         {cardList}
                     </Flex>

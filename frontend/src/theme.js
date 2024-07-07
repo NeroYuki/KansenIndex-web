@@ -57,11 +57,17 @@ const style = {
             }
         },
     },
-    global: {
-        border: {
-            _dark: "gray.700",
-            _light: "gray.300"
-        }
+    styles: {
+        global: (props) => ({
+            border: {
+                _dark: "gray.700",
+                _light: "gray.300"
+            },
+            ':root': {
+                '--blob-color': props.colorMode === 'dark' ? '#88888811' : '#44444411'
+                // Define other CSS variables that depend on the color mode here
+            },
+        })
     }
 }
 
