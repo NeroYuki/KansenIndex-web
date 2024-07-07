@@ -113,6 +113,9 @@ export const ShipIndex = () => {
         "Munition Ship",
         "Guided Missile Cruiser",
         "Sailing Frigate",
+        "Aviation Cruiser",
+        "Amphibious Assault Ship",
+        "Coastal Defense Ship",
         "Unknown",
     ])
 

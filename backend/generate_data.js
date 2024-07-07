@@ -436,8 +436,8 @@ function extrapolate_data() {
 
         const found = al_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
         if (found) {
-            list[index].nation = list[index].nation || found.nation?.map(v => "? " + v)
-            list[index].ship_type = list[index].ship_type || found.ship_type ? "? " + found.ship_type : null
+            list[index].nation = list[index].nation ?? (found.nation?.map(v => "? " + v))
+            list[index].ship_type = list[index].ship_type ?? (found.ship_type ? "? " + found.ship_type : null)
         }
     })
 
@@ -448,7 +448,7 @@ function extrapolate_data() {
 
         const found = wgr_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
         if (found) {
-            list[index].nation = list[index].nation || found.nation?.map(v => "? " + v)
+            list[index].nation = list[index].nation ?? (found.nation?.map(v => "? " + v))
             list[index].birthday = found.birthday ? "? " + found.birthday : null
             list[index].height = found.height ? "? " +  found.height : null
             list[index].displacement = found.height ? "? " + found.displacement : null
@@ -462,7 +462,8 @@ function extrapolate_data() {
 
         const found = kc_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
         if (found) {
-            list[index].ship_type = list[index].ship_type || found.ship_type ? "? " + found.ship_type : null
+            list[index].ship_type = list[index].ship_type ?? (found.ship_type ? "? " + found.ship_type : null)
+            list[index].nation = list[index].nation ?? (found.nation?.map(v => "? " + v))
         }
     })
 
