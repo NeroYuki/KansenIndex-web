@@ -43,4 +43,12 @@ async function thumb_gen (add_mode = false) {
     console.log('done')
 }
 
-thumb_gen()
+// check arg
+let add_mode = false
+if (process.argv.length > 2) {
+    if (process.argv[2] === 'add') {
+        add_mode = true
+    }
+}
+
+thumb_gen(add_mode)
