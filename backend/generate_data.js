@@ -219,6 +219,8 @@ function main_shipgirl_db() {
                     file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
                 dir === "Azur Lane" ?
                     (file.toLowerCase().includes(val.name.toLowerCase()) || file.toLowerCase().replace(' ', ' ').includes(val.name.toLowerCase())) :
+                dir === "Kantai Collection" ?
+                    char_name.toLowerCase() === val.name.toLowerCase() :
                     file.toLowerCase().includes(val.name.toLowerCase()) 
             ) || null
             const voice = voice_candidate.reduce((prev, curr) => {
@@ -260,7 +262,7 @@ function main_shipgirl_db() {
             const illust_candidate = illust_config.filter(val =>
                 dir === "Azur Lane" ?
                     (char_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase().startsWith(val.char.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) || alias.some(a => a.replace(/[^a-zA-Z0-9]/g, '').toLowerCase().startsWith(val.char.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()))) :
-                    folded_name.toLowerCase().startsWith(val.char.toLowerCase())  || alias.some(a => a.toLowerCase().startsWith(val.char.toLowerCase()))
+                    folded_name.toLowerCase().startsWith(val.char.toLowerCase()) || alias.some(a => a.toLowerCase().startsWith(val.char.toLowerCase()))
             ) || null
             // console.log(illust_candidate)
 
@@ -435,7 +437,7 @@ function extrapolate_data() {
         const found = al_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
         if (found) {
             list[index].nation = list[index].nation || found.nation?.map(v => "? " + v)
-            list[index].ship_type = found.ship_type ? "? " + found.ship_type : null
+            list[index].ship_type = list[index].ship_type || found.ship_type ? "? " + found.ship_type : null
         }
     })
 
@@ -453,54 +455,83 @@ function extrapolate_data() {
         }
     })
 
+    console.log('Extrapolating data from Kantai Collection')
+    const kc_list = list.filter(v => v.folder === "Kantai Collection")
+    list.forEach((val, index) => {
+        if (val.ship_type) return
+
+        const found = kc_list.find(v => (v.char.toLowerCase() === val.char.toLowerCase() || v.alias.some(a => a.toLowerCase() === val.char.toLowerCase())) && v.is_base === true)
+        if (found) {
+            list[index].ship_type = list[index].ship_type || found.ship_type ? "? " + found.ship_type : null
+        }
+    })
+
     fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }
 
-async function override_data() {
-    const csv_data = []
-    console.log('Overriding data from data_override.csv')
+function override_data() {
+    return new Promise((resolve, reject) => {
+        const csv_data = []
+        console.log('Overriding data from data_override.csv')
 
-    const stream = parse({ headers: true })
-        .on('error', error => console.error(error))
-        .on('data', row => {
-            csv_data.push(row)
-        })
-        .on('end', rowCount => {
-            console.log(`Parsed ${rowCount} rows`)
-            let list = JSON.parse(fs.readFileSync('data/shipgirl_list_db_new.json', {encoding: 'utf-8'}))
-
-            // for each row in csv
-            csv_data.forEach((row) => {
-                // find the corresponding shipgirl in list
-                let foundIdx = list.filterIndex(v => v.char.toLowerCase() === row.char.toLowerCase() && v.folder.toLowerCase() === row.folder.toLowerCase() && (row.modifier ? v.modifier.toLowerCase() === row.modifier.toLowerCase() : true))
-                if (!foundIdx || foundIdx.length === 0) {
-                    console.log(`Not found: ${row.char} - ${row.folder} ${row.modifier ? "- " + row.modifier : ""}`)
-                    return
-                }
-
-                // for each found shipgirl, update the data
-                foundIdx.forEach((i) => {
-                    list[i] = {
-                        ...list[i],
-                        alias: list[i].alias.concat(row.alias_add ? row.alias_add.split(',').map(v => v.trim()) : []),
-                        nation: row.nation ? row.nation.split(',').map(v => v.trim()) : list[i].nation,
-                        ship_type: row.ship_type ? row.ship_type : list[i].ship_type,
-                        voice_actor: row.voice_actor ? row.voice_actor.split(',').map(v => v.trim()) : list[i].voice_actor,
-                        illust: row.illust ? row.illust : list[i].illust,
-                    }
-                })
+        const stream = parse({ headers: true })
+            .on('error', error => console.error(error))
+            .on('data', row => {
+                csv_data.push(row)
             })
+            .on('end', rowCount => {
+                console.log(`Parsed ${rowCount} rows`)
+                let list = JSON.parse(fs.readFileSync('data/shipgirl_list_db_new.json', {encoding: 'utf-8'}))
 
-            // overwrite the shipgirl_list_db_new.json
-            fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
-        });
+                // for each row in csv
+                csv_data.forEach((row) => {
+                    // find the corresponding shipgirl in list
+                    let foundIdx = list.filterIndex(v => v.char.toLowerCase() === row.char.toLowerCase() && v.folder.toLowerCase() === row.folder.toLowerCase() && (row.modifier ? v.modifier.toLowerCase() === row.modifier.toLowerCase() : true))
+                    if (!foundIdx || foundIdx.length === 0) {
+                        console.log(`Not found: ${row.char} - ${row.folder} ${row.modifier ? "- " + row.modifier : ""}`)
+                        return
+                    }
 
-    fs.createReadStream('data/data_override.csv').pipe(stream)
+                    // for each found shipgirl, update the data
+                    foundIdx.forEach((i) => {
+                        list[i] = {
+                            ...list[i],
+                            alias: list[i].alias.concat(row.alias_add ? row.alias_add.split(',').map(v => v.trim()) : []),
+                            nation: row.nation ? row.nation.split(',').map(v => v.trim()) : list[i].nation,
+                            ship_type: row.ship_type ? row.ship_type : list[i].ship_type,
+                            voice_actor: row.voice_actor ? row.voice_actor.split(',').map(v => v.trim()) : list[i].voice_actor,
+                            illust: row.illust ? row.illust : list[i].illust,
+                        }
+                    })
+                })
 
-    console.log(csv_data)
+                // overwrite the shipgirl_list_db_new.json
+                fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
+                resolve()
+            });
+
+        fs.createReadStream('data/data_override.csv').pipe(stream)
+    })
 }
 
-main_shipgirl_db()
-extrapolate_data()
-override_data()
-//main_franchise()
+
+async function main(full_gen = true, override = true, extrapolate = true) {
+    if (full_gen) main_shipgirl_db()
+    if (override) await override_data()
+    if (extrapolate) extrapolate_data()
+    //main_franchise()
+}
+
+// parse args
+let full_gen = true
+let override = true
+let extrapolate = true
+
+if (process.argv.length > 2) {
+    // can use any option in any order
+    if (process.argv.includes('--no-full-gen')) full_gen = false
+    if (process.argv.includes('--no-override')) override = false
+    if (process.argv.includes('--no-extrapolate')) extrapolate = false
+}
+
+main(full_gen, override, extrapolate)

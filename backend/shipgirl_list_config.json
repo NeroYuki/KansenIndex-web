@@ -7,7 +7,25 @@
             {"originalName": "Chokai", "value": ["Choukai"]},
             {"originalName": "Choukai", "value": ["Chokai"]},
             {"originalName": "Ying Rui", "value": ["Ying Swei"]},
-            {"originalName": "Ying Swei", "value": ["Ying Rui"]}
+            {"originalName": "Ying Swei", "value": ["Ying Rui"]},
+            {"originalName": "Hiryu", "value": ["Hiryuu"]},
+            {"originalName": "Hiryuu", "value": ["Hiryu"]},
+            {"originalName": "Soryu", "value": ["Soryuu"]},
+            {"originalName": "Soryuu", "value": ["Soryu"]},
+            {"originalName": "Taiho", "value": ["Taihou"]},
+            {"originalName": "Taihou", "value": ["Taiho"]},
+            {"originalName": "Shouho", "value": ["Shouhou"]},
+            {"originalName": "Shouhou", "value": ["Shouho"]},
+            {"originalName": "Zuiho", "value": ["Zuihou"]},
+            {"originalName": "Zuihou", "value": ["Zuiho"]},
+            {"originalName": "Jun'yo", "value": ["Junyou"]},
+            {"originalName": "Junyou", "value": ["Jun'yo"]},
+            {"originalName": "Hiyo", "value": ["Hiyou"]},
+            {"originalName": "Hiyou", "value": ["Hiyo"]},
+            {"originalName": "Yudachi", "value": ["Yuudachi"]},
+            {"originalName": "Yuudachi", "value": ["Yuudachi"]},
+            {"originalName": "Enterprise (CV-6)", "value": ["Enterprise"]},
+            {"originalName": "Enterprise", "value": ["Enterprise (CV-6)"]}
         ]
     },
     {
@@ -165,7 +183,9 @@
         "alias": [
 
         ],
-        "illustmapping": "./data/kc_booru_char_list.json"
+        "illustmapping": "./data/kc_booru_char_list.json",
+        "voicemapping": "./data/kc_voiceMapping.json",
+        "extramapping": "./data/kc_extraMapping.json"
     },
     {
         "name": "Lane Girls",
