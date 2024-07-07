@@ -49,6 +49,9 @@ export const type_name_to_icon = (name) => {
         "Munition Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/19.png",
         "Guided Missile Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/20.png",
         "Sailing Frigate": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/images/type/22.png",
+        "Aviation Cruiser": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/backend/data/typeicons/CAV.png",
+        "Amphibious Assault Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/backend/data/typeicons/LHA.png",
+        "Coastal Defense Ship": "https://raw.githubusercontent.com/Fernando2603/AzurLane/main/backend/data/typeicons/DE.png",
     }[name] || "https://cdn.jsdelivr.net/gh/twitter/twemoji@v13.0.0/assets/svg/2753.svg"
 }
    
