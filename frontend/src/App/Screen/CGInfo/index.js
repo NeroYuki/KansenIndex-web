@@ -486,6 +486,8 @@ export const CGInfo = (props) => {
                     view: document.getElementById('spine-canvas-full'),
                 });
 
+                const spineLoaderOptions = {}
+
                 // synchroneously load extra files
                 const extra_layer = []
                 if (data.spine.extra_file && data.spine.extra_file.length !== 0) {
@@ -496,7 +498,7 @@ export const CGInfo = (props) => {
                 }
 
                 spine_app.loader
-                    .add('spineCharacter', data.spine.dir)
+                    .add('spineCharacter', data.spine.dir, spineLoaderOptions)
                     .load(function (loader, resources) {
                         let scale = 1
                         let animation_index = -1
@@ -514,9 +516,22 @@ export const CGInfo = (props) => {
 
                         animation.x = (spine_app.screen.width) / 2
                         animation.y = (spine_app.screen.height) / 2
-                        if (data.folder === "Azur Lane" && data.char === "Brest") animation.y = spine_app.screen.height / 4 * 3
+                        if (data.folder === "Azur Lane" && data.char === "Brest") animation.y = animation.height * 1.5
+                        else if (data.folder === "Azur Lane" && data.char === "Implacable" && data.modifier?.includes("Default")) animation.y = animation.height / 2
+                        else if (data.folder === "Azur Lane") animation.y = animation.height
 
-                        if (data.folder === "Azur Lane") animation.y += animation.height / 3
+                        if (data.folder === "Victory Belles") animation.y = animation.height
+
+                        if (animation.skeleton.data.skins) {
+                            // console.log(default_skin)
+                            if (animation.skeleton.data.findSkin("default") != null) {
+                                animation.skeleton.setSkinByName("default");
+                            }
+                            else {
+                                //console.log(animation.skeleton.data.skins[0].name)
+                                animation.skeleton.setSkinByName(animation.skeleton.data.skins[0].name);
+                            }
+                        }
 
                         animation_index = Math.floor(Math.random() * animation.spineData.animations.length)
                         
@@ -884,7 +899,7 @@ export const CGInfo = (props) => {
                                 <TabList>
                                     <Tab>Image</Tab>
                                     {data.l2d && <Tab>Live2D</Tab>}
-                                    {data.chibi && <Tab>Spine (Chibi)</Tab>}
+                                    {data.chibi && <Tab>Chibi {data.chibi?.is_static ? 'Image' : 'Spine'}</Tab>}
                                     {data.spine && <Tab>Spine</Tab>}
                                     {data.m3d && <Tab>3D <Tag ml={3} size={'md'} bg={'yellow.200'}>WIP</Tag></Tab>}
                                     {data.voice && <Tab>Sound</Tab>}
@@ -910,8 +925,11 @@ export const CGInfo = (props) => {
                                     {data.chibi && <TabPanel>
                                         <Center>
                                             {/* Spine (Chibi) */}
-                                            <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none', }} id="spine-widget"></div> 
-                                            <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={500}></canvas>
+                                            {data.chibi?.is_static ? <img style={{height: 500, width: 'auto'}} src={data.chibi.dir} alt="chibi_img"></img> :
+                                            <>
+                                                <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none', }} id="spine-widget"></div> 
+                                                <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={500}></canvas>
+                                            </>}
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                     </TabPanel>}
