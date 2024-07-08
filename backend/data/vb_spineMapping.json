@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Ashigara.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Ashigara/186_sbig/186_sbig.json"
+	},
+	{
+		"name": "Aurora.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Aurora/190_sbig/190_sbig.json"
+	},
+	{
+		"name": "Jeanne d'Arc.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Jeanne d'Arc/189_sbig/189_sbig.json"
+	},
+	{
+		"name": "Kongou.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Kongou/88_sbig/88_sbig.json"
+	},
+	{
+		"name": "Pensacola.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Pensacola/185_sbig/185_sbig.json"
+	},
+	{
+		"name": "Recruit.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Recruit/183_sbig/183_sbig.json"
+	},
+	{
+		"name": "Scharnhorst.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Scharnhorst/60_sbig/60_sbig.json"
+	},
+	{
+		"name": "Wichita.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Wichita/158_sbig/158_sbig.json"
+	},
+	{
+		"name": "Zulu_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Zulu_01/138_01_sbig/138_01_sbig.json"
+	}
+]

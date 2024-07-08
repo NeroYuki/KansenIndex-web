@@ -287,6 +287,9 @@
         "alias": [
 
         ],
-        "illustmapping": "./data/vb_booru_char_list.json"
+        "illustmapping": "./data/vb_booru_char_list.json",
+        "chibispinemapping": "./data/vb_chibiMapping.json",
+        "fullspinemapping": "./data/vb_spineMapping.json",
+        "voicemapping": "./data/vb_voiceMapping.json"
     }
 ]
