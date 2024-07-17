@@ -301,6 +301,7 @@ router.get('/bote_fav_lb', async (req, res) => {
         { $sort: { fav: -1 } },
         { $limit: 40 }
     ]).catch(e => {
+        console.log(e)
         res.status(500).send("Internal server error")
     })
 
