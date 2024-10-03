@@ -10,6 +10,11 @@
         "name": "Alsace_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aierdeliqi_g/aierdeliqi_g.skel",
+        "extra_file": [],
+        "name": "Eldridge_Retrofit"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierT.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierB.skel",
@@ -46,6 +51,11 @@
         "name": "Painlev\u00e9_Team Stretching"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/beierfasite_9/beierfasite_9.skel",
+        "extra_file": [],
+        "name": "Belfast_Blissful Service"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz/bisimaiZT.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz/bisimaiZB.skel",
@@ -60,6 +70,11 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/bisimaiz_2/bisimaiZ_2M.skel"
         ],
         "name": "Bismarck Zwei_Crystal-Clear Holiday"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bulaimodun_6/bulaimodun_6.skel",
+        "extra_file": [],
+        "name": "Bremerton_Pillowed Counseling"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/buleisite/buleisite_T.skel",
@@ -115,6 +130,11 @@
         "name": "Trieste_Amore Termico"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fage_2/fage_2.skel",
+        "extra_file": [],
+        "name": "Fargo_Dairy in the Dreary Sun"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/feiteliedadi/feiteliedadi.skel",
         "extra_file": [],
         "name": "Friedrich der Gro\u00dfe_Default"
@@ -142,6 +162,11 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/gaoxiong_6/gaoxiong_6B.skel"
         ],
         "name": "Takao_Divine Exorcist's Blade"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/geluosite_3/geluosite_3.skel",
+        "extra_file": [],
+        "name": "Gloucester_Violet Enrapturement"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/guandao/guandaoT.skel",
@@ -183,6 +208,11 @@
         "name": "Hu Pen_Prancing Tiger Welcomes the Spring"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jianye_5/jianye_5.skel",
+        "extra_file": [],
+        "name": "Kashino_Fresh and Sweet"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jingang_5/jingang_5.skel",
         "extra_file": [],
         "name": "Kongou_Troubled Seas"
@@ -191,6 +221,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kaiersheng_2/kaiersheng_2.skel",
         "extra_file": [],
         "name": "Kersaint_Reverent Runner"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kaiersheng_3/kaiersheng_3.skel",
+        "extra_file": [],
+        "name": "Kersaint_A Saint's Mercy Can Do No Wrong"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kalangshitade/kalangshitade.skel",
@@ -208,6 +243,11 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/lafei_12/lafei_12B.skel"
         ],
         "name": "Laffey_Lazy Days"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/linglai_2/linglai_2.skel",
+        "extra_file": [],
+        "name": "Ayase_A Glimpse of the Moon Rabbit"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/luna_2_doa/luna_2_doa.skel",
@@ -240,6 +280,16 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mojiaduoer/mojiaduoer.skel",
         "extra_file": [],
         "name": "Mogador_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nabulesi/nabulesi.skel",
+        "extra_file": [],
+        "name": "Napoli_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/naximofu/naximofu.skel",
+        "extra_file": [],
+        "name": "Admiral Nakhimov_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/ougen_7/ougen_7.skel",
@@ -282,9 +332,19 @@
         "name": "Tashkent_The Sprite's Snapshot"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tiancheng_cv/tiancheng_cv.skel",
+        "extra_file": [],
+        "name": "Amagi(CV)_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tuzuo_3/tuzuo_3.skel",
         "extra_file": [],
         "name": "Tosa_A Glimpse of Greatness"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/u96_4/u96_4.skel",
+        "extra_file": [],
+        "name": "U-96_Wolfen Dolly"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/weida_2/weida_2.skel",
@@ -366,6 +426,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yanzhan_g/yanzhan_g.skel",
         "extra_file": [],
         "name": "Warspite_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yindianna_2/yindianna_2.skel",
+        "extra_file": [],
+        "name": "Indiana_High Noon Arrest"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yixian_2/yixian_2T.skel",

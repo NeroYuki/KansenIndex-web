@@ -15208,5 +15208,490 @@
 		"alias": [
 			"Dante Alighieri"
 		]
+	},
+	{
+		"id": 569,
+		"name": "I.G. Bubnov's Project",
+		"nation": [
+			"Russian Empire"
+		],
+		"birthday": "7/12（实装日）",
+		"illust": [
+			"NoiSi_"
+		],
+		"voice_actor": [
+			"小敢啦"
+		],
+		"height": "210m",
+		"displacement": "35600t",
+		"alias": [
+			"I.G. Bubnov's Project GUK Battleship"
+		]
+	},
+	{
+		"id": 570,
+		"name": "Chitose",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "11/29",
+		"illust": [
+			"Yuri_Roon"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "192.5m",
+		"displacement": "13600t",
+		"alias": [
+			"千歳(ちとせ) (Chitose)"
+		]
+	},
+	{
+		"id": 571,
+		"name": "Vincennes",
+		"nation": [
+			"United States"
+		],
+		"birthday": "5/21",
+		"illust": [
+			"一个顺拐的翠卡密"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "179m",
+		"displacement": "9500t",
+		"alias": [
+			"USS Vincennes (CA-44)"
+		]
+	},
+	{
+		"id": 576,
+		"name": "Midway",
+		"nation": [
+			"United States"
+		],
+		"birthday": "3/20",
+		"illust": [
+			"Windforcelan & MKiiiiii"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "297.8m",
+		"displacement": "45000t",
+		"alias": [
+			"USS Midway (CVA-41)"
+		]
+	},
+	{
+		"id": 577,
+		"name": "Naiad",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "2/3",
+		"illust": [
+			"阿二叽"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "165m",
+		"displacement": "5600t",
+		"alias": [
+			"HMS Naiad (93)"
+		]
+	},
+	{
+		"id": 578,
+		"name": "Reeves",
+		"nation": [
+			"United States"
+		],
+		"birthday": "5/12",
+		"illust": [
+			"青冥童子"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "163m",
+		"displacement": "5670t",
+		"alias": [
+			"USS Reeves (DLG-24",
+			"CG-24)"
+		]
+	},
+	{
+		"id": 579,
+		"name": "I-201",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "7/22",
+		"illust": [
+			"一个顺拐的翠卡密"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "79m",
+		"displacement": "1473t",
+		"alias": [
+			"伊201(い201) (I-201)"
+		]
+	},
+	{
+		"id": 580,
+		"name": "Trento",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "10/4",
+		"illust": [
+			"鱼酥子soko"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "197m",
+		"displacement": "10000t",
+		"alias": [
+			"Trento"
+		]
+	},
+	{
+		"id": 581,
+		"name": "Sevastopol (Missle Cruiser)",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "9/25",
+		"illust": [
+			"鱼酥子soko"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "159m",
+		"displacement": "6000t",
+		"alias": [
+			"Севастополь (Sevastopol)"
+		]
+	},
+	{
+		"id": 582,
+		"name": "H43",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "9/30（实装日）",
+		"illust": [
+			"土味基蛋"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "330m",
+		"displacement": "111000t",
+		"alias": [
+			"Schlachtschiff Typ H43"
+		]
+	},
+	{
+		"id": 583,
+		"name": "Francesco Caracciolo",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "5/12",
+		"illust": [
+			"人间喵喵"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "212m",
+		"displacement": "34000t",
+		"alias": [
+			"Francesco Caracciolo"
+		]
+	},
+	{
+		"id": 584,
+		"name": "IvS 177",
+		"nation": [
+			"China"
+		],
+		"birthday": "9/30（实装日）",
+		"illust": [
+			"阿二叽"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "170m",
+		"displacement": "6000t",
+		"alias": [
+			"IvS 177"
+		]
+	},
+	{
+		"id": 585,
+		"name": "Trigger",
+		"nation": [
+			"United States"
+		],
+		"birthday": "10/22",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "95m",
+		"displacement": "2463t",
+		"alias": [
+			"USS Trigger (SS-237)"
+		]
+	},
+	{
+		"id": 1244,
+		"name": "Soobrazitelny_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "8/26",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "112.5m",
+		"displacement": "1727t",
+		"alias": [
+			"Сообразительный (Soobrazitel'ny)"
+		]
+	},
+	{
+		"id": 1277,
+		"name": "Claxton_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "4/1",
+		"illust": [
+			"莲ki"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "114.7m",
+		"displacement": "2100t",
+		"alias": [
+			"USS Claxton (DD-571)"
+		]
+	},
+	{
+		"id": 1291,
+		"name": "U-2540_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "1/13",
+		"illust": [
+			"一个顺拐的翠卡密"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76.7m",
+		"displacement": "1621t",
+		"alias": [
+			"U-2540",
+			"Wilhelm Bauer (Y880)"
+		]
+	},
+	{
+		"id": 1490,
+		"name": "Clausewitz_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "11/18（实装日）",
+		"illust": [
+			"木shiyo",
+			"鱼酥子soko"
+		],
+		"voice_actor": [
+			"陈小攻爱吃鱼"
+		],
+		"height": "256m",
+		"displacement": "28900t",
+		"alias": [
+			"Schlachtkreuzer O[1]",
+			"Clausewitz"
+		]
+	},
+	{
+		"id": 1530,
+		"name": "M-296_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "4/4",
+		"illust": [
+			"废品铜条猫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "56.8m",
+		"displacement": "405t",
+		"alias": [
+			"M-296"
+		]
+	},
+	{
+		"id": 1538,
+		"name": "I-25_retrofit",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "6/8",
+		"illust": [
+			"废品铜条猫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "108.7m",
+		"displacement": "2344t",
+		"alias": [
+			"伊25(い25) (I-25)"
+		]
+	},
+	{
+		"id": 1545,
+		"name": "Weser_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "1/19",
+		"illust": [
+			"Song_Cocoa"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "210m",
+		"displacement": "17600t",
+		"alias": [
+			"Seydlitz",
+			"Flugzeugträger Weser-1"
+		]
+	},
+	{
+		"id": 1560,
+		"name": "Schleswig-Holstein_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "12/17",
+		"illust": [
+			"A陈澈君A"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "127.6m",
+		"displacement": "13191t",
+		"alias": [
+			"SMS Schleswig-Holstein"
+		]
+	},
+	{
+		"id": 8007,
+		"name": "Little Tirpitz",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "4/1",
+		"illust": [
+			"JS桑",
+			"15k",
+			"(麻将)"
+		],
+		"voice_actor": [
+			"纯良少女菊花酱",
+			"福圆美里"
+		],
+		"height": "251m",
+		"displacement": "52600t（51800长吨）",
+		"alias": [
+			"Tirpitz"
+		]
+	},
+	{
+		"id": 8009,
+		"name": "Little Rodney",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "12/17",
+		"illust": [
+			"15k",
+			"Arnold-S"
+		],
+		"voice_actor": [
+			"期待彼艾露朵拉嘛的張小咩",
+			"加隈亚衣"
+		],
+		"height": "216.5m",
+		"displacement": "38030t（37430长吨）",
+		"alias": [
+			"HMS Rodney (29)"
+		]
+	},
+	{
+		"id": 8111,
+		"name": "Little Washington",
+		"nation": [
+			"United States"
+		],
+		"birthday": "6/1",
+		"illust": [
+			"无糖白莲"
+		],
+		"voice_actor": [
+			"bananaMace"
+		],
+		"height": "222m",
+		"displacement": "36600t",
+		"alias": [
+			"USS Washington (BB-56)"
+		]
+	},
+	{
+		"id": 8116,
+		"name": "Goeben",
+		"nation": [
+			"Turkey"
+		],
+		"birthday": "3/28",
+		"illust": [
+			"15k"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "186.6m",
+		"displacement": "22616t",
+		"alias": [
+			"SMS Goeben"
+		]
 	}
 ]

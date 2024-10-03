@@ -1343,6 +1343,26 @@
         "voice_actor": "Asuka Itou"
     },
     {
+        "name": "Hammann_Blushing Fellow",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101255_win_mvp.ogg"
+        ],
+        "voice_actor": "Asuka Itou"
+    },
+    {
         "name": "Hammann_Retrofit",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/101259_detail.ogg",
@@ -1488,6 +1508,28 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/101268_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/101268_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/101268_unlock.ogg"
+        ],
+        "voice_actor": "Nozomi Sasaki"
+    },
+    {
+        "name": "Eldridge_Retrofit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101269_win_mvp.ogg"
         ],
         "voice_actor": "Nozomi Sasaki"
     },
@@ -2793,6 +2835,70 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/101511_win_mvp.ogg"
         ],
         "voice_actor": "Maria Naganawa"
+    },
+    {
+        "name": "Bell_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101520_win_mvp_ex.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Bell_Saloon Mishaps",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/101521_unlock.ogg"
+        ],
+        "voice_actor": ""
     },
     {
         "name": "Omaha_Default",
@@ -4717,6 +4823,76 @@
         "voice_actor": "Sasahara Yuu"
     },
     {
+        "name": "Fargo_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102330_win_mvp_ex.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Fargo_Dairy in the Dreary Sun",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/102331_unlock.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
         "name": "Pensacola_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/103010_battle.ogg",
@@ -5684,6 +5860,28 @@
         "voice_actor": "Yuiko Tatsumi"
     },
     {
+        "name": "Bremerton_Pillowed Counseling",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103245_win_mvp.ogg"
+        ],
+        "voice_actor": "Yuiko Tatsumi"
+    },
+    {
         "name": "Bremerton_Wedding",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/103248_feeling5.ogg",
@@ -5859,6 +6057,72 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/103271_unlock.ogg"
         ],
         "voice_actor": "Kaori Sadohara"
+    },
+    {
+        "name": "Pittsburgh_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103280_win_mvp.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Pittsburgh_The Bartender's Gambit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/103281_win_mvp.ogg"
+        ],
+        "voice_actor": ""
     },
     {
         "name": "Kizuna AI_Default",
@@ -6749,23 +7013,7 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/105090_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105090_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105090_upgrade.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105090_win_mvp.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_battle.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_detail.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_feeling5.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_headtouch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_home.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_hp_warning.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_login.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_mail.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_main1.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_main2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_main3.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_skill.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_touch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_touch2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_unlock.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105099_win_mvp.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/105090_win_mvp.ogg"
         ],
         "voice_actor": "Rie Suegara"
     },
@@ -6787,6 +7035,28 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/105092_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105092_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105092_win_mvp.ogg"
+        ],
+        "voice_actor": "Rie Suegara"
+    },
+    {
+        "name": "Colorado_Retrofit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105099_win_mvp.ogg"
         ],
         "voice_actor": "Rie Suegara"
     },
@@ -6818,7 +7088,24 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/105100_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105100_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105100_upgrade.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105100_win_mvp.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/105100_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105109_win_mvp.ogg"
         ],
         "voice_actor": "Aya Saitou"
     },
@@ -6850,19 +7137,7 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/105110_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105110_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105110_upgrade.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105110_win_mvp.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_battle.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_expedition.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_headtouch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_home.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_login.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_mail.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_main1.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_main2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_main3.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_touch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_touch2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/105119_unlock.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/105110_win_mvp.ogg"
         ],
         "voice_actor": "Chitose Morinaga"
     },
@@ -6881,6 +7156,24 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/105112_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105112_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/105112_win_mvp.ogg"
+        ],
+        "voice_actor": "Chitose Morinaga"
+    },
+    {
+        "name": "West Virginia_Retrofit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105119_unlock.ogg"
         ],
         "voice_actor": "Chitose Morinaga"
     },
@@ -7037,6 +7330,70 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/105141_unlock.ogg"
         ],
         "voice_actor": "Tomoyo Kurosawa"
+    },
+    {
+        "name": "Indiana_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105150_win_mvp.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Indiana_High Noon Arrest",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/105151_win_mvp.ogg"
+        ],
+        "voice_actor": ""
     },
     {
         "name": "New Jersey_Default",
@@ -11172,6 +11529,68 @@
         "voice_actor": "Ruka Fukagawa"
     },
     {
+        "name": "Herring_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108090_win_mvp.ogg"
+        ],
+        "voice_actor": "Rika Momokawa"
+    },
+    {
+        "name": "Herring_The Town With No Shade",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/108091_unlock.ogg"
+        ],
+        "voice_actor": "Rika Momokawa"
+    },
+    {
         "name": "Reisalin Stout_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/10900010_battle.ogg",
@@ -12390,21 +12809,33 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_couple_encourage2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_couple_encourage3.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_detail_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_expedition_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_feeling1.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_feeling2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_feeling3.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_feeling4.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_feeling5_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_headtouch_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_home_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_hp_warning.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_login_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_lose_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_mail_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_main1.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_main2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_main7_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_mission.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_mission_complete.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_profile.ogg",
@@ -12412,9 +12843,13 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_skill.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_touch_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199030_upgrade.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/199030_win_mvp.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199030_win_mvp_ex.ogg"
         ],
         "voice_actor": "Rina Hidaka"
     },
@@ -12456,6 +12891,27 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/199032_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199032_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/199032_unlock.ogg"
+        ],
+        "voice_actor": "Rina Hidaka"
+    },
+    {
+        "name": "Anchorage_Wedding",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199038_win_mvp.ogg"
         ],
         "voice_actor": "Rina Hidaka"
     },
@@ -12527,6 +12983,59 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/199041_win_mvp.ogg"
         ],
         "voice_actor": "Yoshino Aoyama"
+    },
+    {
+        "name": "Halford_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_lose_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/199050_win_mvp_ex.ogg"
+        ],
+        "voice_actor": ""
     },
     {
         "name": "Amazon_Default",
@@ -13531,18 +14040,7 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/201230_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/201230_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/201230_upgrade.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201230_win_mvp.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_feeling5.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_headtouch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_lose.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_mail.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_main1.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_main2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_main3.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_touch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_touch2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_unlock.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/201235_win_mvp.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/201230_win_mvp.ogg"
         ],
         "voice_actor": "Rie Kugimiya"
     },
@@ -13606,6 +14104,23 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/201234_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/201234_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/201234_win_mvp.ogg"
+        ],
+        "voice_actor": "Rie Kugimiya"
+    },
+    {
+        "name": "Vampire_Night Princess's Festive Feast",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/201235_win_mvp.ogg"
         ],
         "voice_actor": "Rie Kugimiya"
     },
@@ -14657,6 +15172,24 @@
         "voice_actor": "Konomi Kohara"
     },
     {
+        "name": "Sheffield_Occult Clash",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202085_win_mvp.ogg"
+        ],
+        "voice_actor": "Konomi Kohara"
+    },
+    {
         "name": "Manchester_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/202090_battle.ogg",
@@ -14777,6 +15310,24 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/202101_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/202101_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/202101_unlock.ogg"
+        ],
+        "voice_actor": "Reina Ueda"
+    },
+    {
+        "name": "Gloucester_Violet Enrapturement",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202102_unlock.ogg"
         ],
         "voice_actor": "Reina Ueda"
     },
@@ -14976,6 +15527,26 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/202126_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/202126_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/202126_unlock.ogg"
+        ],
+        "voice_actor": "Yui Horie"
+    },
+    {
+        "name": "Belfast_Blissful Service",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202127_win_mvp.ogg"
         ],
         "voice_actor": "Yui Horie"
     },
@@ -15426,6 +15997,26 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/202203_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/202203_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/202203_unlock.ogg"
+        ],
+        "voice_actor": "Ruriko Aoki"
+    },
+    {
+        "name": "Sirius_Rabbit of Paradise",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/202204_unlock.ogg"
         ],
         "voice_actor": "Ruriko Aoki"
     },
@@ -17441,23 +18032,7 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/205030_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/205030_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/205030_upgrade.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205030_win_mvp.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_battle.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_detail.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_expedition.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_feeling5.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_home.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_login.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_lose.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_main1.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_main2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_main3.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_mission.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_mission_complete.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_touch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_touch2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_unlock.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/205039_win_mvp.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/205030_win_mvp.ogg"
         ],
         "voice_actor": "Yuuki Kuwahara"
     },
@@ -17492,6 +18067,28 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/205032_mission_complete.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/205032_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/205032_unlock.ogg"
+        ],
+        "voice_actor": "Yuuki Kuwahara"
+    },
+    {
+        "name": "Nelson_Retrofit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/205039_win_mvp.ogg"
         ],
         "voice_actor": "Yuuki Kuwahara"
     },
@@ -19015,6 +19612,23 @@
         "voice_actor": "Asuka Itou"
     },
     {
+        "name": "Ark Royal_Order Amidst Amusement",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/207025_unlock.ogg"
+        ],
+        "voice_actor": "Asuka Itou"
+    },
+    {
         "name": "Ark Royal_Wedding",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/207028_feeling5.ogg",
@@ -20331,6 +20945,21 @@
         "voice_actor": "Mao Ichimichi"
     },
     {
+        "name": "Fubuki_Fubuki Halation!",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301014_unlock.ogg"
+        ],
+        "voice_actor": "Mao Ichimichi"
+    },
+    {
         "name": "Fubuki_Stormy Waitress-in-Training!",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/301015_detail.ogg",
@@ -20342,6 +20971,23 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/301015_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/301015_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/301015_unlock.ogg"
+        ],
+        "voice_actor": "Mao Ichimichi"
+    },
+    {
+        "name": "Fubuki_Caught Under the Lights",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301016_unlock.ogg"
         ],
         "voice_actor": "Mao Ichimichi"
     },
@@ -22204,6 +22850,22 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/301323_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/301323_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/301323_unlock.ogg"
+        ],
+        "voice_actor": "Rumi Okubo"
+    },
+    {
+        "name": "Mutsuki_Cotton Candy Dreams",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301324_unlock.ogg"
         ],
         "voice_actor": "Rumi Okubo"
     },
@@ -24251,6 +24913,70 @@
         "voice_actor": "Mio Nonaka"
     },
     {
+        "name": "Suzunami_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301910_win_mvp.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Suzunami_Winter Beauty's Ball Gown",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/301911_unlock.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
         "name": "Yuubari_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/302010_battle.ogg",
@@ -25410,6 +26136,146 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/302240_win_mvp.ogg"
         ],
         "voice_actor": "Anju Inami"
+    },
+    {
+        "name": "Watarase_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302250_win_mvp.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Watarase_Garments of Everlasting Magic",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302251_unlock.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Ayase_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_couple_encourage3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302260_win_mvp.ogg"
+        ],
+        "voice_actor": "Saya Aizawa"
+    },
+    {
+        "name": "Ayase_A Glimpse of the Moon Rabbit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/302261_unlock.ogg"
+        ],
+        "voice_actor": "Saya Aizawa"
     },
     {
         "name": "Furutaka_Default",
@@ -26722,14 +27588,19 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_feeling3.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_feeling4.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/304050_feeling5_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_home.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/304050_hp_warning_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/304050_login_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_lose.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_mail.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_main1.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_main2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/304050_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/304050_main5_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_mission.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_mission_complete.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_profile.ogg",
@@ -26737,6 +27608,7 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_skill.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/304050_touch2_ex.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_upgrade.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/304050_win_mvp.ogg"
@@ -26965,6 +27837,28 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/305012_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/305012_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/305012_win_mvp.ogg"
+        ],
+        "voice_actor": "Ami Koshimizu"
+    },
+    {
+        "name": "Fusou_Wedding",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305018_win_mvp.ogg"
         ],
         "voice_actor": "Ami Koshimizu"
     },
@@ -27610,6 +28504,29 @@
         "voice_actor": "Lynn"
     },
     {
+        "name": "Musashi_The Purple Rabbit's Marksmanship",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_main5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/305102_win_mvp.ogg"
+        ],
+        "voice_actor": "Lynn"
+    },
+    {
         "name": "Musashi_Wedding",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/305108_expedition.ogg",
@@ -28087,6 +29004,73 @@
         "voice_actor": "Chiaki Takahashi"
     },
     {
+        "name": "Zuihou_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_battle_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_lose_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306040_win_mvp_ex.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Zuihou_Joy Comes on Fledgling Wings",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306041_unlock.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
         "name": "Shouhou_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/306050_battle.ogg",
@@ -28206,6 +29190,24 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/306062_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/306062_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/306062_win_mvp.ogg"
+        ],
+        "voice_actor": "Aya Suzaki"
+    },
+    {
+        "name": "Ryuujou_The Dragon Slides In!",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/306063_unlock.ogg"
         ],
         "voice_actor": "Aya Suzaki"
     },
@@ -28835,6 +29837,28 @@
         "voice_actor": "Risa Taneda"
     },
     {
+        "name": "Shoukaku_Wedding",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307058_win_mvp.ogg"
+        ],
+        "voice_actor": "Risa Taneda"
+    },
+    {
         "name": "Zuikaku_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/307060_battle.ogg",
@@ -28902,6 +29926,25 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/307062_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/307062_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/307062_unlock.ogg"
+        ],
+        "voice_actor": "Risa Taneda"
+    },
+    {
+        "name": "Zuikaku_Zoom Like the Wind",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307063_win_mvp.ogg"
         ],
         "voice_actor": "Risa Taneda"
     },
@@ -29384,6 +30427,76 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/307140_win_mvp.ogg"
         ],
         "voice_actor": "Mamiko Noto"
+    },
+    {
+        "name": "Amagi(CV)_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_couple_encourage3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_couple_encourage4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_couple_encourage5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307150_win_mvp.ogg"
+        ],
+        "voice_actor": "Miyuki Sawashiro"
+    },
+    {
+        "name": "Amagi(CV)_Throne of Fallen Petals",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/307151_unlock.ogg"
+        ],
+        "voice_actor": "Miyuki Sawashiro"
     },
     {
         "name": "I-19_Default",
@@ -29966,6 +31079,29 @@
         "voice_actor": "Reina Kondo"
     },
     {
+        "name": "Kashino_Fresh and Sweet",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/319014_win_mvp.ogg"
+        ],
+        "voice_actor": "Reina Kondo"
+    },
+    {
         "name": "Ibuki_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/399010_battle.ogg",
@@ -30315,6 +31451,26 @@
         "voice_actor": "Satomi Sato"
     },
     {
+        "name": "Hakuryuu_Folded Over a Thousand Times",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399053_unlock.ogg"
+        ],
+        "voice_actor": "Satomi Sato"
+    },
+    {
         "name": "Shimanto_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/399060_battle.ogg",
@@ -30382,6 +31538,60 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/399061_win_mvp.ogg"
         ],
         "voice_actor": "Hime Sawada"
+    },
+    {
+        "name": "Daisen_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_couple_encourage3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_couple_encourage4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_lose_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/399070_win_mvp_ex.ogg"
+        ],
+        "voice_actor": ""
     },
     {
         "name": "Leberecht Maass (Z1)_Default",
@@ -31173,6 +32383,21 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/401352_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/401352_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/401352_win_mvp.ogg"
+        ],
+        "voice_actor": "Ayaka Oohashi"
+    },
+    {
+        "name": "Z35_Himmel Beyond Love's Boundaries",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/401353_unlock.ogg"
         ],
         "voice_actor": "Ayaka Oohashi"
     },
@@ -33601,6 +34826,26 @@
         "voice_actor": "Ayaka Fukuhara"
     },
     {
+        "name": "Bismarck_Wedding",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/405018_win_mvp.ogg"
+        ],
+        "voice_actor": "Ayaka Fukuhara"
+    },
+    {
         "name": "Tirpitz_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/405020_battle.ogg",
@@ -34652,6 +35897,26 @@
         "voice_actor": "Ayaka Fukuhara"
     },
     {
+        "name": "U-556_Prairie Knight",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408042_win_mvp.ogg"
+        ],
+        "voice_actor": "Ayaka Fukuhara"
+    },
+    {
         "name": "U-73_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/408050_battle.ogg",
@@ -34978,6 +36243,23 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/408092_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/408092_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/408092_win_mvp.ogg"
+        ],
+        "voice_actor": "Mayu Mineda"
+    },
+    {
+        "name": "U-96_Wolfen Dolly",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/408093_win_mvp.ogg"
         ],
         "voice_actor": "Mayu Mineda"
     },
@@ -35332,6 +36614,22 @@
         "voice_actor": "Hitomi Nabatame"
     },
     {
+        "name": "Friedrich der Gro\u00dfe_One Summer Night's Intimacy",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499022_unlock.ogg"
+        ],
+        "voice_actor": "Hitomi Nabatame"
+    },
+    {
         "name": "Friedrich der Gro\u00dfe_Wedding",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/499028_detail.ogg",
@@ -35651,6 +36949,25 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/499071_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/499071_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/499071_win_mvp.ogg"
+        ],
+        "voice_actor": "Momo Asakura"
+    },
+    {
+        "name": "Prinz Rupprecht_Midnight Pearl",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/499072_win_mvp.ogg"
         ],
         "voice_actor": "Momo Asakura"
     },
@@ -36880,23 +38197,7 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/502070_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/502070_upgrade.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/502070_win_mvp.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502070_win_mvp_ex.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_battle.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_detail.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_feeling5.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_headtouch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_home.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_login.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_lose.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_main1.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_main2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_main3.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_mission.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_mission_complete.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_touch.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_touch2.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_unlock.ogg",
-            "./data/assets/shipgirls/Azur Lane/al_voice/502078_win_mvp.ogg"
+            "./data/assets/shipgirls/Azur Lane/al_voice/502070_win_mvp_ex.ogg"
         ],
         "voice_actor": "Arisa Date"
     },
@@ -36943,6 +38244,28 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/502073_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/502073_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/502073_unlock.ogg"
+        ],
+        "voice_actor": "Arisa Date"
+    },
+    {
+        "name": "Hai Tien_Wedding",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/502078_win_mvp.ogg"
         ],
         "voice_actor": "Arisa Date"
     },
@@ -37333,6 +38656,28 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/519011_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/519011_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/519011_unlock.ogg"
+        ],
+        "voice_actor": "Chiemi Tanaka"
+    },
+    {
+        "name": "Ting An_Undercover or Uncovered!",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/519012_win_mvp.ogg"
         ],
         "voice_actor": "Chiemi Tanaka"
     },
@@ -39172,6 +40517,60 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/699011_win_mvp.ogg"
         ],
         "voice_actor": "Sachika Misawa"
+    },
+    {
+        "name": "Napoli_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_lose_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_upgrade_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/699020_win_mvp_ex.ogg"
+        ],
+        "voice_actor": "Sayumi Suzushiro"
     },
     {
         "name": "Grozny_Default",
@@ -41270,6 +42669,58 @@
         "voice_actor": "Ryouka Yuzuki"
     },
     {
+        "name": "Admiral Nakhimov_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_lose_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_mail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main7_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_main8_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/799020_win_mvp_ex.ogg"
+        ],
+        "voice_actor": "Chika Anzai"
+    },
+    {
         "name": "Le Triomphant_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/801010_battle.ogg",
@@ -42023,6 +43474,26 @@
         "voice_actor": "Fuuka Izumi"
     },
     {
+        "name": "Suffren_Unrivaled Winsomeness",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/803012_win_mvp.ogg"
+        ],
+        "voice_actor": "Fuuka Izumi"
+    },
+    {
         "name": "Brennus_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/803020_battle.ogg",
@@ -42413,6 +43884,25 @@
         "voice_actor": "Yuka Nukui"
     },
     {
+        "name": "Painlev\u00e9_Fresh and Fortunate",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/807022_unlock.ogg"
+        ],
+        "voice_actor": "Yuka Nukui"
+    },
+    {
         "name": "Surcouf_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/808010_battle.ogg",
@@ -42668,6 +44158,55 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/899031_unlock.ogg"
         ],
         "voice_actor": "Sayaka Senbongi"
+    },
+    {
+        "name": "Bayard_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_battle_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_headtouch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/899040_win_mvp_ex.ogg"
+        ],
+        "voice_actor": ""
     },
     {
         "name": "Le Mars_Default",
@@ -42966,6 +44505,27 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/901041_touch.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/901041_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/901041_unlock.ogg"
+        ],
+        "voice_actor": "Yuka Iwahashi"
+    },
+    {
+        "name": "Kersaint_A Saint's Mercy Can Do No Wrong",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901042_win_mvp.ogg"
         ],
         "voice_actor": "Yuka Iwahashi"
     },
@@ -43400,6 +44960,66 @@
         "voice_actor": "Ayumi Tsuji"
     },
     {
+        "name": "L'Audacieux_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901140_win_mvp.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "L'Audacieux_Protector Beneath the Parasol",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/901141_unlock.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
         "name": "La Galissonni\u00e8re_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/902010_battle.ogg",
@@ -43708,6 +45328,67 @@
         "voice_actor": "Shizuka Ito"
     },
     {
+        "name": "Dupleix_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_detail_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903030_win_mvp.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
+        "name": "Dupleix_Final Check",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/903031_unlock.ogg"
+        ],
+        "voice_actor": ""
+    },
+    {
         "name": "Dunkerque_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/904010_battle.ogg",
@@ -43773,6 +45454,70 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/904012_unlock.ogg"
         ],
         "voice_actor": "Sayaka Harada"
+    },
+    {
+        "name": "Strasbourg_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_couple_encourage2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_couple_encourage3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_expedition_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_feeling5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_home_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_login_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_main4_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_main5_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_main6_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_mission_complete_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_mission_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_touch2_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_touch_ex.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_win_mvp.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904020_win_mvp_ex.ogg"
+        ],
+        "voice_actor": "Ikumi Hasegawa"
+    },
+    {
+        "name": "Strasbourg_Faerie of the Race Circuit",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/904021_unlock.ogg"
+        ],
+        "voice_actor": "Ikumi Hasegawa"
     },
     {
         "name": "Jean Bart_Default",
@@ -44058,6 +45803,27 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/907012_touch2.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/907012_unlock.ogg",
             "./data/assets/shipgirls/Azur Lane/al_voice/907012_win_mvp.ogg"
+        ],
+        "voice_actor": "Ayumi Mano"
+    },
+    {
+        "name": "Joffre_Blessings' First Flight",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/907013_win_mvp.ogg"
         ],
         "voice_actor": "Ayumi Mano"
     },
@@ -44587,6 +46353,39 @@
         "voice_actor": "Rie Kugimiya"
     },
     {
+        "name": "Kasumi META_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9701060_win_mvp.ogg"
+        ],
+        "voice_actor": "Mariko Takeda"
+    },
+    {
         "name": "Helena META_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/9702010_battle.ogg",
@@ -45079,6 +46878,40 @@
         "voice_actor": ""
     },
     {
+        "name": "Hiei META_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9704050_win_mvp.ogg"
+        ],
+        "voice_actor": "Eri Kitamura"
+    },
+    {
         "name": "Fusou META_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/9705010_battle.ogg",
@@ -45246,6 +47079,40 @@
         "voice_actor": "You Taichi"
     },
     {
+        "name": "Nagato META_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_couple_encourage1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9705060_win_mvp.ogg"
+        ],
+        "voice_actor": "Misaki Kuno"
+    },
+    {
         "name": "Hiyou META_Default",
         "files": [
             "./data/assets/shipgirls/Azur Lane/al_voice/9706010_battle.ogg",
@@ -45346,6 +47213,39 @@
             "./data/assets/shipgirls/Azur Lane/al_voice/9706030_win_mvp.ogg"
         ],
         "voice_actor": "Yukina Shiomi"
+    },
+    {
+        "name": "Houshou META_Default",
+        "files": [
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_battle.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_detail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_expedition.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_feeling1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_feeling2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_feeling3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_feeling4.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_feeling5.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_headtouch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_home.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_hp_warning.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_login.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_lose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_mail.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_main1.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_main2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_main3.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_mission.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_mission_complete.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_profile.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_propose.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_skill.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_touch.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_touch2.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_unlock.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_upgrade.ogg",
+            "./data/assets/shipgirls/Azur Lane/al_voice/9706040_win_mvp.ogg"
+        ],
+        "voice_actor": "Chiaki Takahashi"
     },
     {
         "name": "Hiryuu META_Default",
