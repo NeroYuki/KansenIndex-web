@@ -16,6 +16,8 @@ export const Home = () => {
     const navigate = useNavigate()
     let searchTimeout = useRef(null)
     const [searchResult, setSearchResult] = useState([])
+    const [isLoading, setIsLoading] = useState(false)
+    const [keyword, setKeyword] = useState('')
 
     function showErrorToast(e) {
         toast({
@@ -42,12 +44,23 @@ export const Home = () => {
     }, [navigate])
 
     const getSearchResult = useCallback(async (keyword) => {
-        let search_res = await GET_query({keyword: keyword, limit: 5}).catch(e => showErrorToast(e))
-        return search_res
+        try {
+            setIsLoading(true)
+            let search_res = await GET_query({keyword: keyword, limit: 5}).catch(e => showErrorToast(e))
+            return search_res
+        }
+        catch (e) {
+            showErrorToast(e)
+            return []
+        }
+        finally {
+            setIsLoading(false)
+        }
     }, [])
 
     const onSearchInputChange = useCallback(async (e) => {
         let keyword = e.target.value
+        setKeyword(keyword)
         // skip if keyword length is less than 3
         if (keyword.length < 3) {
             setSearchResult([])
@@ -55,11 +68,12 @@ export const Home = () => {
         }
         // debounce search
         if (searchTimeout.current) clearTimeout(searchTimeout.current)
+        setIsLoading(true)
         searchTimeout.current = setTimeout(async () => {
             let search_res = await getSearchResult(keyword)
             setSearchResult(search_res)
         }, 1000)
-    }, [getSearchResult])
+    }, [getSearchResult, setIsLoading])
 
     return (
         <>
@@ -73,12 +87,12 @@ export const Home = () => {
                         <Heading as='h3' size='2xl' style={{fontWeight: '100'}} p='40px'>Welcome to the KansenIndex</Heading>
                         <p style={{fontSize: 18}}>The all-in-one index of (almost) all franchise involving anthropomorphic warships</p>
                         <AutoComplete onSelectOption={(res) => navigateToCG(res.item.originalValue)} 
-                            disableFilter emptyState={<Center><Text>No result</Text></Center>}
+                            disableFilter emptyState={<Center><Text>{keyword.length < 3 ? "Need more than 3 letters to show results" : isLoading ? "Loading..." : "No Result"}</Text></Center>}
                         >
                             <Center>
                                 <InputGroup width='600px' p='40px' size='lg'>
                                     <InputLeftAddon children={<Icon as={FaSearch} />} />
-                                    <Input as={AutoCompleteInput} placeholder={'Enter a ship\'s name'} variant={'outline'} onChange={onSearchInputChange}/>
+                                    <Input as={AutoCompleteInput} placeholder={'Enter a ship\'s name'} variant={'outline'} onChange={onSearchInputChange} value={keyword} />
                                 </InputGroup>
                                 <AutoCompleteList style={{display: 'block'}} position="absolute" left="calc(50% - 260px + 38px)" mt={"24px"}>
                                     {searchResult.map((item, index) => {
