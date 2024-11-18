@@ -296,7 +296,7 @@ export const ShipIndex = () => {
         })
     }, [navigate])
 
-    const tableRows = shiplist.map(val => {
+    const tableRows = (shiplist && shiplist.length > 0) ? shiplist.map(val => {
         let thumb_dir = val.full_dir.replace('./data/assets/', './data/thumbs/')
         thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
         return (
@@ -310,13 +310,13 @@ export const ShipIndex = () => {
                 </a></Td>
             </Tr>
         )
-    })
+    }) : <Tr><Td colSpan={5}><Text>No result found</Text></Td></Tr>
 
-    const cardList = shiplist.map((val, index) => {
+    const cardList = (shiplist && shiplist.length > 0) ? shiplist.map((val, index) => {
         return (
             <SimpleCharCard style={{margin: '10px'}} key={val._id} data={val} onCardClick={navigateToCG} />
         )
-    })
+    }) : <Text>No result found</Text>
 
     const franchiseOption = franchiseSelection.map(val => {
         return (

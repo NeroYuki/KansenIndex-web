@@ -81,7 +81,7 @@ export const Home = () => {
                                     <Input as={AutoCompleteInput} placeholder={'Enter a ship\'s name'} variant={'outline'} onChange={onSearchInputChange}/>
                                 </InputGroup>
                                 <AutoCompleteList style={{display: searchResult.length !== 0 ? 'block' : 'none'}} position="absolute" left="calc(50% - 260px + 38px)" mt={"24px"}>
-                                    {searchResult.map((item, index) => {
+                                    {(searchResult && searchResult > 0) ? searchResult.map((item, index) => {
                                         const modifierName = item.filename.slice(0, item.filename.lastIndexOf('.')).split('_').slice(1).join(', ')
                                         return (<AutoCompleteItem
                                             key={`option-${index}`}
@@ -94,7 +94,8 @@ export const Home = () => {
                                             <Text flex={1} textAlign="right">{item.folder}</Text>
                                         </Flex>
                                         </AutoCompleteItem>)
-                                })}
+                                    }) : <AutoCompleteItem disabled={true} value={null}>No result found</AutoCompleteItem>
+                                }
                                 </AutoCompleteList>
                             </Center>
                         </AutoComplete>
