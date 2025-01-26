@@ -393,7 +393,7 @@ export const CGInfo = (props) => {
                     animation.y = (chibi_spine_app.screen.height + animation.height) /2;
                     if (animation.y + animation.height > chibi_spine_app.screen.height) {
                         setChibiHeight(animation.height + animation.y)
-                        spine_app.renderer.resize(spine_app.screen.width, animation.height + animation.y)
+                        chibi_spine_app.renderer.resize(chibi_spine_app.screen.width, animation.height + animation.y)
                     }
 
                     // add the animation to the scene and render...
