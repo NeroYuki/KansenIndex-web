@@ -805,6 +805,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Bristol_Head Investigator",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Hammann II_Default",
         "nation": [
             "United States"
@@ -2184,6 +2191,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "New Jersey_Dancing in the Moonlight",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "New Jersey_Wedding",
         "nation": [
             "United States"
@@ -3486,6 +3500,90 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Lala Satalin Deviluke_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Lala Satalin Deviluke_A Princess Imprisoned",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Nana Astar Deviluke_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Nana Astar Deviluke_High Roller",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Momo Belia Deviluke_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Momo Belia Deviluke_A Waking Dream",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Golden Darkness_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Golden Darkness_Pajama Status On",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Haruna Sairenji_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battlecruiser"
+    },
+    {
+        "name": "Haruna Sairenji_On One Serene Night",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battlecruiser"
+    },
+    {
+        "name": "Yui Kotegawa_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Yui Kotegawa_The Disciplinarian's Day Off",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Vestal_Default",
         "nation": [
             "United States"
@@ -3612,7 +3710,21 @@
         "ship_type": "Aviation Battleship"
     },
     {
+        "name": "Kearsarge_Springtime Monitoring",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aviation Battleship"
+    },
+    {
         "name": "Halford_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Halford_A Special Day with the Bunny Lord",
         "nation": [
             "United States"
         ],
@@ -4117,6 +4229,13 @@
     },
     {
         "name": "Janus_Don't Turn Off the Lights!",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Janus_A Lesson in Billiards",
         "nation": [
             "United Kingdom"
         ],
@@ -5033,6 +5152,13 @@
         "ship_type": "Battlecruiser"
     },
     {
+        "name": "Repulse_Dance of Spring Blooms",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Battlecruiser"
+    },
+    {
         "name": "Hood_Default",
         "nation": [
             "United Kingdom"
@@ -5768,6 +5894,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Formidable_Rockin' Encore",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Glorious_Default",
         "nation": [
             "United Kingdom"
@@ -6266,6 +6399,13 @@
     },
     {
         "name": "Shiratsuyu_Is The Order A Torpedo",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Shiratsuyu_Thawing Snow, Fireworks Alight",
         "nation": [
             "Japan"
         ],
@@ -7749,6 +7889,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Chikuma_Premium Prize on the Table",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Myoukou_Default",
         "nation": [
             "Japan"
@@ -8302,6 +8449,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Nagato_Guardian Fox's Blessed Bonds",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Nagato_Wedding",
         "nation": [
             "Japan"
@@ -8457,6 +8611,13 @@
     },
     {
         "name": "Owari_Shimmering Forsythia",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Owari_My Wish is For Love",
         "nation": [
             "Japan"
         ],
@@ -8897,6 +9058,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Shinano_Visions of Fantasy",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Akagi-chan_Default",
         "nation": [
             "Japan"
@@ -9296,6 +9464,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Daisen_Bunny Priestess in Prayer",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Leberecht Maass (Z1)_Default",
         "nation": [
             "Germany"
@@ -9332,6 +9507,34 @@
     },
     {
         "name": "Z2_Of Koi and Evening Hues",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z9_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z9_Teary Cocktail",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z11_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z11_Service, Sincerity, and Insolvency",
         "nation": [
             "Germany"
         ],
@@ -9625,6 +9828,20 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Z52_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z52_The Rapid Rabbit",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Otto von Alvensleben_Default",
         "nation": [
             "Germany"
@@ -9794,6 +10011,27 @@
     },
     {
         "name": "Regensburg_Dark Dragon, Brilliant Beach",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Regensburg_The Dark Dragon's Dungeon",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Duisburg_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Duisburg_Endurance Training (Gone Wrong)",
         "nation": [
             "Germany"
         ],
@@ -10220,6 +10458,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Bismarck_Unpacked Surprise",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Bismarck_Wedding",
         "nation": [
             "Germany"
@@ -10283,6 +10528,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Ulrich von Hutten_What Comes After the Bell",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Th\u00fcringen_Default",
         "nation": [
             "Germany"
@@ -10340,6 +10592,13 @@
     },
     {
         "name": "Weser_Wave-Washed Paradise",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Weser_Offtime Cafe",
         "nation": [
             "Germany"
         ],
@@ -10431,6 +10690,20 @@
     },
     {
         "name": "Peter Strasser_Lustrous Jade of the Golden House",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Fritz Rumey_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Fritz Rumey_Schwarzes Kaninchen",
         "nation": [
             "Germany"
         ],
@@ -10801,6 +11074,13 @@
         "ship_type": "Large Cruiser"
     },
     {
+        "name": "\u00c4gir_One-on-One Leisure Time",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Large Cruiser"
+    },
+    {
         "name": "August von Parseval_Default",
         "nation": [
             "Germany"
@@ -10809,6 +11089,13 @@
     },
     {
         "name": "August von Parseval_The Conquered Unhulde",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "August von Parseval_The Unhulde's Midday Respite",
         "nation": [
             "Germany"
         ],
@@ -10893,6 +11180,13 @@
     },
     {
         "name": "Fu Shun_The Unbreakable Baozi Heist",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Fu Shun_Retrofit",
         "nation": [
             "China"
         ],
@@ -10991,6 +11285,34 @@
     },
     {
         "name": "Fei Yuen_Flying Clouds, Flailing Pranks",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Chang Feng_Default",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Chang Feng_Cozy Spring Cleaning",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Fu Po_Default",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Fu Po_Mischievous Tidings",
         "nation": [
             "China"
         ],
@@ -11228,6 +11550,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Hai Tien_Baker of Heart into Sweets",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Hai Tien_Wedding",
         "nation": [
             "China"
@@ -11261,6 +11590,34 @@
             "China"
         ],
         "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Hai Yung_Default",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Hai Yung_Maple Impressions",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Chien Wu_Default",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Chien Wu_Dressed for Just Tonight",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Heavy Cruiser"
     },
     {
         "name": "Huan Ch'ang_Default",
@@ -11320,6 +11677,13 @@
     },
     {
         "name": "Hwah Jah_The Festive Undead",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Hwah Jah_Retrofit",
         "nation": [
             "China"
         ],
@@ -11599,6 +11963,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Trieste_A Brush of Springtime Ink",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Bolzano_Default",
         "nation": [
             "Italy"
@@ -11824,6 +12195,13 @@
     },
     {
         "name": "Napoli_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Napoli_Dreamy Night",
         "nation": [
             "Italy"
         ],
@@ -12180,6 +12558,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Murmansk_Chamber of Fragrance",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Voroshilov_Default",
         "nation": [
             "Soviet Union"
@@ -12397,6 +12782,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Admiral Nakhimov_First Time in the Limelight",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Le Triomphant_Default",
         "nation": [
             "France"
@@ -12580,6 +12972,13 @@
     },
     {
         "name": "Jeanne d'Arc_Saintess of the Sea",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Jeanne d'Arc_Patron Saintess of Celebration",
         "nation": [
             "France"
         ],
@@ -12796,7 +13195,21 @@
         "ship_type": "Large Cruiser"
     },
     {
+        "name": "Brest_Moonlit Night's Spring Vista",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Large Cruiser"
+    },
+    {
         "name": "Bayard_Default",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Bayard_The Most Treacherous Trial",
         "nation": [
             "France"
         ],
@@ -13174,6 +13587,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Jean Bart_Springlight \u00c9toiles",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Clemenceau_Default",
         "nation": [
             "France"
@@ -13314,6 +13734,76 @@
         "ship_type": "Sailing Frigate"
     },
     {
+        "name": "Ganj-i-Sawai_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Ganj-i-Sawai_Mermaid in Distress",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Fancy_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Fancy_Grave of Your Liking",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Amity_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Amity_Friendly Franken",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Portsmouth Adventure_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Portsmouth Adventure_Adventurous Surprise",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Dolphin_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Dolphin_Incantation of Revival",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
         "name": "Hunter META_Default",
         "nation": [
             "Fictional"
@@ -13426,6 +13916,20 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Admiral Hipper META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Bolzano META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Gneisenau META_Default",
         "nation": [
             "Fictional"
@@ -13497,6 +14001,13 @@
     },
     {
         "name": "Nagato META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Giulio Cesare META_Default",
         "nation": [
             "Fictional"
         ],

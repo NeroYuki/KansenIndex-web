@@ -15693,5 +15693,295 @@
 		"alias": [
 			"SMS Goeben"
 		]
+	},
+	{
+		"id": 586,
+		"name": "Atlantik-Flugzeugkreuzer (AIII)",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "11/14（实装日）",
+		"illust": [
+			"NoiSi_"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "280m",
+		"displacement": "69000t",
+		"alias": [
+			"Atlantik-Flugzeugkreuzer A III"
+		]
+	},
+	{
+		"id": 587,
+		"name": "Cowpens",
+		"nation": [
+			"United States"
+		],
+		"birthday": "1/17",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "189.7m",
+		"displacement": "11000t",
+		"alias": [
+			"USS Cowpens (CVL-25)"
+		]
+	},
+	{
+		"id": 588,
+		"name": "C-53 (422)",
+		"nation": [
+			"China"
+		],
+		"birthday": "10/30",
+		"illust": [
+			"一个顺拐的翠卡密"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "77.7m",
+		"displacement": "1090t",
+		"alias": [
+			"C-53",
+			"新中国12"
+		]
+	},
+	{
+		"id": 589,
+		"name": "Hugh W. Hadley",
+		"nation": [
+			"United States"
+		],
+		"birthday": "7/16",
+		"illust": [
+			"JERRY的打工鳄"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "114.8m",
+		"displacement": "2200t",
+		"alias": [
+			"USS Hugh W. Hadley (DD-774)"
+		]
+	},
+	{
+		"id": 590,
+		"name": "Kinburn",
+		"nation": [
+			"Russian Empire"
+		],
+		"birthday": "10/30",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "223.8m",
+		"displacement": "33000t",
+		"alias": [
+			"Кинбурн (Kinburn)"
+		]
+	},
+	{
+		"id": 591,
+		"name": "Calcutta",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "7/9",
+		"illust": [
+			"Yuri_Roon"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "137.6m",
+		"displacement": "4360t",
+		"alias": [
+			"HMS Calcutta (D82)"
+		]
+	},
+	{
+		"id": 592,
+		"name": "Leopard",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "3/15",
+		"illust": [
+			"废品铜条猫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "92.6m",
+		"displacement": "950t",
+		"alias": [
+			"KM Leopard"
+		]
+	},
+	{
+		"id": 593,
+		"name": "Yuugiri",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "5/12",
+		"illust": [
+			"JERRY的打工鳄"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "118.4m",
+		"displacement": "1750t",
+		"alias": [
+			"夕霧(ゆうぎり) (Yūgiri)"
+		]
+	},
+	{
+		"id": 594,
+		"name": "Wasp (CV-18)",
+		"nation": [
+			"United States"
+		],
+		"birthday": "8/17",
+		"illust": [
+			"绿蜥蜴X仔"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "265.8m",
+		"displacement": "36960t",
+		"alias": [
+			"USS Wasp (CV-18)"
+		]
+	},
+	{
+		"id": 595,
+		"name": "Eastwind",
+		"nation": [
+			"United States"
+		],
+		"birthday": "6/3",
+		"illust": [
+			"tuziki兔子桑"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "82m",
+		"displacement": "6500t",
+		"alias": [
+			"USCGC Eastwind (WAGB-279)"
+		]
+	},
+	{
+		"id": 596,
+		"name": "Jiujiang",
+		"nation": [
+			"China"
+		],
+		"birthday": "6/28",
+		"illust": [
+			"左手王ZSW"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "103.2m",
+		"displacement": "1662t",
+		"alias": [
+			"九江 (516)"
+		]
+	},
+	{
+		"id": 597,
+		"name": "Ocean",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "7/8",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "190m",
+		"displacement": "13190t",
+		"alias": [
+			"HMS Ocean (R68)"
+		]
+	},
+	{
+		"id": 1158,
+		"name": "San Juan_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "9/6",
+		"illust": [
+			"bartD",
+			"A陈澈君A"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "165m",
+		"displacement": "6718长t",
+		"alias": [
+			"USS San Juan (CL-54)"
+		]
+	},
+	{
+		"id": 1366,
+		"name": "Nautilus_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "3/15",
+		"illust": [
+			"PUMP",
+			"-麻瓜瓜瓜-（改造",
+			"换装-后发制人）",
+			"废品铜条猫（换装-姝丽映华裳）"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "113.08m",
+		"displacement": "2730t",
+		"alias": [
+			"USS Nautilus (SS-168)"
+		]
+	},
+	{
+		"id": 1400,
+		"name": "De Zeven Provincien_retrofit",
+		"nation": [
+			"Netherlands"
+		],
+		"birthday": "8/22",
+		"illust": [
+			"Hikari_PFFK"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "187m",
+		"displacement": "8350t",
+		"alias": [
+			"HrMs De Zeven Provincien"
+		]
 	}
 ]

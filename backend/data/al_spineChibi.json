@@ -152,6 +152,10 @@
         "name": "Atago_Stunning Speedster"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aidang_6/aidang_6.skel",
+        "name": "Atago_Full Moon's Feral Wolf"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aidang_h/aidang_h.skel",
         "name": "Atago_Wedding"
     },
@@ -262,6 +266,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aijier_3_hx/aijier_3_hx.skel",
         "name": "\u00c4gir_Golden Dragon Among Auspicious Clouds_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aijier_4/aijier_4.skel",
+        "name": "\u00c4gir_One-on-One Leisure Time"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aikesaite/aikesaite.skel",
@@ -470,6 +478,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aogusite_2/aogusite_2.skel",
         "name": "August von Parseval_The Conquered Unhulde"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aogusite_3/aogusite_3.skel",
+        "name": "August von Parseval_The Unhulde's Midday Respite"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aolike/aolike.skel",
@@ -788,6 +800,10 @@
         "name": "Bayard_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/beiyade_2/beiyade_2.skel",
+        "name": "Bayard_The Most Treacherous Trial"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/beiyaen/beiyaen.skel",
         "name": "B\u00e9arn_Default"
     },
@@ -930,6 +946,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bisimai_3/bisimai_3.skel",
         "name": "Bismarck_Iron-Black Elysium"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bisimai_4/bisimai_4.skel",
+        "name": "Bismarck_Unpacked Surprise"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bisimai_h/bisimai_h.skel",
@@ -1080,12 +1100,20 @@
         "name": "Brest_Marine Muse"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/buleisite_3/buleisite_3.skel",
+        "name": "Brest_Moonlit Night's Spring Vista"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bulisituoer/bulisituoer.skel",
         "name": "Bristol_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bulisituoer_2/bulisituoer_2.skel",
         "name": "Bristol_Tales from the Empery"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bulisituoer_3/bulisituoer_3.skel",
+        "name": "Bristol_Head Investigator"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/buli_super/buli_super.skel",
@@ -1272,6 +1300,14 @@
         "name": "Long Island_Retrofit"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changfeng/changfeng.skel",
+        "name": "Chang Feng_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changfeng_2/changfeng_2.skel",
+        "name": "Chang Feng_Cozy Spring Cleaning"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changliang/changliang.skel",
         "name": "Nagara_Default"
     },
@@ -1298,6 +1334,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changmen_5/changmen_5.skel",
         "name": "Nagato_Guardian Fox's Procession"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changmen_6/changmen_6.skel",
+        "name": "Nagato_Guardian Fox's Blessed Bonds"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changmen_alter/changmen_alter.skel",
@@ -1504,6 +1544,10 @@
         "name": "Taihou_Seaside Daydreams"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/dafeng_alter/dafeng_alter.skel",
+        "name": "Taihou META_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/dafeng_h/dafeng_h.skel",
         "name": "Taihou_Wedding"
     },
@@ -1610,6 +1654,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/dashan/dashan.skel",
         "name": "Daisen_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/dashan_2/dashan_2.skel",
+        "name": "Daisen_Bunny Priestess in Prayer"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/deleike/deleike.skel",
@@ -1828,6 +1876,14 @@
         "name": "Dewey_A Christmas Thank-You"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/duyisibao/duyisibao.skel",
+        "name": "Duisburg_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/duyisibao_2/duyisibao_2.skel",
+        "name": "Duisburg_Endurance Training (Gone Wrong)"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/edu/edu.skel",
         "name": "Le Malin_Default"
     },
@@ -2020,6 +2076,14 @@
         "name": "Kazagumo_Diligent Domestic Discipline"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fubo/fubo.skel",
+        "name": "Fu Po_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fubo_2/fubo_2.skel",
+        "name": "Fu Po_Mischievous Tidings"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fuchou/fuchou.skel",
         "name": "Revenge_Default"
     },
@@ -2072,6 +2136,14 @@
         "name": "Flandre_If Love is a Sin, Thou Art Forgiven"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fulici/fulici.skel",
+        "name": "Fritz Rumey_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fulici_2/fulici_2.skel",
+        "name": "Fritz Rumey_Schwarzes Kaninchen"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fuluoxiluofu/fuluoxiluofu.skel",
         "name": "Voroshilov_Default"
     },
@@ -2116,6 +2188,10 @@
         "name": "Fu Shun_The Unbreakable Baozi Heist"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fushun_g/fushun_g.skel",
+        "name": "Fu Shun_Retrofit"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fute/fute.skel",
         "name": "Foote_Default"
     },
@@ -2146,6 +2222,14 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gangute_3/gangute_3.skel",
         "name": "Gangut_Keeper of the Firewater"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gangyishawa/gangyishawa.skel",
+        "name": "Ganj-i-Sawai_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gangyishawa_2/gangyishawa_2.skel",
+        "name": "Ganj-i-Sawai_Mermaid in Distress"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gaoxiong/gaoxiong.skel",
@@ -2388,6 +2472,14 @@
         "name": "L'Audacieux_Protector Beneath the Parasol"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gushouchuan_2_tolove/gushouchuan_2_tolove.skel",
+        "name": "Yui Kotegawa_The Disciplinarian's Day Off"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gushouchuan_tolove/gushouchuan_tolove.skel",
+        "name": "Yui Kotegawa_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/guying/guying.skel",
         "name": "Furutaka_Default"
     },
@@ -2414,6 +2506,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haerfude/haerfude.skel",
         "name": "Halford_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haerfude_2/haerfude_2.skel",
+        "name": "Halford_A Special Day with the Bunny Lord"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haerxibaoweier/haerxibaoweier.skel",
@@ -2476,6 +2572,14 @@
         "name": "Hai Chi_A Dance Among the Lotuses"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hairong/hairong.skel",
+        "name": "Hai Yung_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hairong_2/hairong_2.skel",
+        "name": "Hai Yung_Maple Impressions"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haitian/haitian.skel",
         "name": "Hai Tien_Default"
     },
@@ -2498,6 +2602,14 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haitian_h/haitian_h.skel",
         "name": "Hai Tien_Wedding"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haitunhao/haitunhao.skel",
+        "name": "Dolphin_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haitunhao_2/haitunhao_2.skel",
+        "name": "Dolphin_Incantation of Revival"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haiwangxing/haiwangxing.skel",
@@ -2732,6 +2844,14 @@
         "name": "Hermione_Wedding"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hemuhao/hemuhao.skel",
+        "name": "Amity_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hemuhao_2/hemuhao_2.skel",
+        "name": "Amity_Friendly Franken"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/he_2/he_2.skel",
         "name": "Mujina_Golden Promenade"
     },
@@ -2762,6 +2882,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huajia_2_hx/huajia_2_hx.skel",
         "name": "Hwah Jah_The Festive Undead_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huajia_g/huajia_g.skel",
+        "name": "Hwah Jah_Retrofit"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huanchang/huanchang.skel",
@@ -2834,6 +2958,14 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huangjiaxiangshu_2/huangjiaxiangshu_2.skel",
         "name": "Royal Oak_Bashful Oak"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huanxianghao/huanxianghao.skel",
+        "name": "Fancy_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huanxianghao_2/huanxianghao_2.skel",
+        "name": "Fancy_Grave of Your Liking"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huan_2_doa/huan_2_doa.skel",
@@ -3136,6 +3268,18 @@
         "name": "Kawakaze_Wedding"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jianwu/jianwu.skel",
+        "name": "Chien Wu_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jianwu_2/jianwu_2.skel",
+        "name": "Chien Wu_Dressed for Just Tonight"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jianwu_3/jianwu_3.skel",
+        "name": "Chien Wu_Dressed for Just Tonight"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jianye/jianye.skel",
         "name": "Kashino_Default"
     },
@@ -3288,6 +3432,14 @@
         "name": "Enterprise (HMS)_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jinseanying_2_tolove/jinseanying_2_tolove.skel",
+        "name": "Golden Darkness_Pajama Status On"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jinseanying_tolove/jinseanying_tolove.skel",
+        "name": "Golden Darkness_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jiqi/jiqi.skel",
         "name": "Cavalla_Default"
     },
@@ -3426,6 +3578,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kaisa_3_hx/kaisa_3_hx.skel",
         "name": "Giulio Cesare_High Tide Under the Sunlight_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kaisa_alter/kaisa_alter.skel",
+        "name": "Giulio Cesare META_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kaixuan/kaixuan.skel",
@@ -3628,6 +3784,14 @@
         "name": "Formidable_The Lover's Heart Flutters On Duty"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kewei_5/kewei_5.skel",
+        "name": "Formidable_Rockin' Encore"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kewei_5_hx/kewei_5_hx.skel",
+        "name": "Formidable_Rockin' Encore_cn"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kewei_idol/kewei_idol.skel",
         "name": "Formidable \u03bc_Default"
     },
@@ -3784,6 +3948,14 @@
         "name": "Reisalin\u00a0Stout_Late-Night Alchemist"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/lala_2_tolove/lala_2_tolove.skel",
+        "name": "Lala Satalin Deviluke_A Princess Imprisoned"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/lala_tolove/lala_tolove.skel",
+        "name": "Lala Satalin Deviluke_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/lanli/lanli.skel",
         "name": "Langley_Default"
     },
@@ -3818,6 +3990,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/leigensibao_2/leigensibao_2.skel",
         "name": "Regensburg_Dark Dragon, Brilliant Beach"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/leigensibao_3/leigensibao_3.skel",
+        "name": "Regensburg_The Dark Dragon's Dungeon"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/leiming/leiming.skel",
@@ -4480,6 +4656,14 @@
         "name": "Memphis META_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/mengmeng_2_tolove/mengmeng_2_tolove.skel",
+        "name": "Momo Belia Deviluke_A Waking Dream"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/mengmeng_tolove/mengmeng_tolove.skel",
+        "name": "Momo Belia Deviluke_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/mengya/mengya.skel",
         "name": "Yume Minami_Default"
     },
@@ -4648,6 +4832,10 @@
         "name": "Napoli_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/nabulesi_2/nabulesi_2.skel",
+        "name": "Napoli_Dreamy Night"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/naerxun/naerxun.skel",
         "name": "Nelson_Default"
     },
@@ -4696,6 +4884,14 @@
         "name": "Southampton_Wedding"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/nana_2_tolove/nana_2_tolove.skel",
+        "name": "Nana Astar Deviluke_High Roller"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/nana_tolove/nana_tolove.skel",
+        "name": "Nana Astar Deviluke_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/nandaketa/nandaketa.skel",
         "name": "South Dakota_Default"
     },
@@ -4706,6 +4902,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/naximofu/naximofu.skel",
         "name": "Admiral Nakhimov_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/naximofu_2/naximofu_2.skel",
+        "name": "Admiral Nakhimov_First Time in the Limelight"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/nazhi/nazhi.skel",
@@ -5044,6 +5244,14 @@
         "name": "Uranami_Snow Vanguard"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/pucimaosi/pucimaosi.skel",
+        "name": "Portsmouth Adventure_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/pucimaosi_2/pucimaosi_2.skel",
+        "name": "Portsmouth Adventure_Adventurous Surprise"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/pufeng/pufeng.skel",
         "name": "Urakaze_Default"
     },
@@ -5190,6 +5398,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/qiershazhi_2/qiershazhi_2.skel",
         "name": "Kearsarge_All-Night Charge"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/qiershazhi_3/qiershazhi_3.skel",
+        "name": "Kearsarge_Springtime Monitoring"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/qifeng/qifeng.skel",
@@ -6548,6 +6760,10 @@
         "name": "Weser_Wave-Washed Paradise"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weixi_5/weixi_5.skel",
+        "name": "Weser_Offtime Cafe"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weiyan/weiyan.skel",
         "name": "Grozny_Default"
     },
@@ -6578,6 +6794,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weizhang_2/weizhang_2.skel",
         "name": "Owari_Shimmering Forsythia"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weizhang_3/weizhang_3.skel",
+        "name": "Owari_My Wish is For Love"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/wenqinzuojiaobeidi/wenqinzuojiaobeidi.skel",
@@ -6662,6 +6882,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/wuerlixi_3/wuerlixi_3.skel",
         "name": "Ulrich von Hutten_Ignition Matrician"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/wuerlixi_4/wuerlixi_4.skel",
+        "name": "Ulrich von Hutten_What Comes After the Bell"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/wuqi/wuqi.skel",
@@ -6952,6 +7176,14 @@
         "name": "Yuudachi_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xiliansi_2_tolove/xiliansi_2_tolove.skel",
+        "name": "Haruna Sairenji_On One Serene Night"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xiliansi_tolove/xiliansi_tolove.skel",
+        "name": "Haruna Sairenji_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xili_2/xili_2.skel",
         "name": "Yuudachi_Shogun of Snowballs"
     },
@@ -7072,6 +7304,10 @@
         "name": "Shinano_Dreamy White Sands"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xinnong_5/xinnong_5.skel",
+        "name": "Shinano_Visions of Fantasy"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xinnong_younv/xinnong_younv.skel",
         "name": "Shinano-chan_Default"
     },
@@ -7142,6 +7378,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xipeierhaijunshangjiang_3_hx/xipeierhaijunshangjiang_3_hx.skel",
         "name": "Admiral Hipper_Sunshine by the Hot Spring_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xipeierhaijunshangjiang_alter/xipeierhaijunshangjiang_alter.skel",
+        "name": "Admiral Hipper META_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xipeierhaijunshangjiang_hx/xipeierhaijunshangjiang_hx.skel",
@@ -7378,6 +7618,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yanusi_5/yanusi_5.skel",
         "name": "Janus_Don't Turn Off the Lights!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yanusi_6/yanusi_6.skel",
+        "name": "Janus_A Lesson in Billiards"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yanzhan/yanzhan.skel",
@@ -7752,6 +7996,14 @@
         "name": "Leberecht Maass (Z1)_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z11/z11.skel",
+        "name": "Z11_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z11_2/z11_2.skel",
+        "name": "Z11_Service, Sincerity, and Insolvency"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z16/z16.skel",
         "name": "Z16_Default"
     },
@@ -7968,6 +8220,22 @@
         "name": "Z47_Young-Again Filter"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z52/z52.skel",
+        "name": "Z52_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z52_2/z52_2.skel",
+        "name": "Z52_The Rapid Rabbit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z9/z9.skel",
+        "name": "Z9_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z9_2/z9_2.skel",
+        "name": "Z9_Teary Cocktail"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/zaoshen/zaoshen.skel",
         "name": "Vestal_Default"
     },
@@ -8118,6 +8386,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/zhumo/zhumo.skel",
         "name": "Chikuma_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/zhumo_2/zhumo_2.skel",
+        "name": "Chikuma_Premium Prize on the Table"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/zhunuo/zhunuo.skel",

@@ -48,6 +48,10 @@
         "name": "\u00c4gir_Golden Dragon Among Auspicious Clouds_cn"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/aijier_4/aijier_4.model3.json",
+        "name": "\u00c4gir_One-on-One Leisure Time"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ailunsamuna_2/ailunsamuna_2.model3.json",
         "name": "Allen M. Sumner_Charming Rabbit"
     },
@@ -148,6 +152,10 @@
         "name": "Bismarck_Beacon of the Iron Blood_cn"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bisimai_4/bisimai_4.model3.json",
+        "name": "Bismarck_Unpacked Surprise"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bola_2/bola_2.model3.json",
         "name": "Pola_Seaside Coincidence"
     },
@@ -174,6 +182,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/buleisite_2/buleisite_2.model3.json",
         "name": "Brest_Marine Muse"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/buleisite_3/buleisite_3.model3.json",
+        "name": "Brest_Moonlit Night's Spring Vista"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chaijun_3/chaijun_3.model3.json",
@@ -280,6 +292,10 @@
         "name": "Kazagumo_Diligent Domestic Discipline"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/fulici_2/fulici_2.model3.json",
+        "name": "Fritz Rumey_Schwarzes Kaninchen"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/geliqiya_2/geliqiya_2.model3.json",
         "name": "Gorizia_Unrequited Office Love"
     },
@@ -342,6 +358,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jialisuoniye_4/jialisuoniye_4.model3.json",
         "name": "La Galissonni\u00e8re_Lush Spring Dreams"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jianwu_2/jianwu_2.model3.json",
+        "name": "Chien Wu_Dressed for Just Tonight"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jianye_2/jianye_2.model3.json",
@@ -494,6 +514,14 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/mojiaduoer_2/mojiaduoer_2.model3.json",
         "name": "Mogador_Locker Room Lechery"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/nabulesi_2/nabulesi_2.model3.json",
+        "name": "Napoli_Dreamy Night"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/naximofu_2/naximofu_2.model3.json",
+        "name": "Admiral Nakhimov_First Time in the Limelight"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/nengdai_2/nengdai_2.model3.json",
@@ -656,6 +684,10 @@
         "name": "Grozny_Bunny in the Banya"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/weizhang_3/weizhang_3.model3.json",
+        "name": "Owari_My Wish is For Love"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/wuerlixi_2/wuerlixi_2.model3.json",
         "name": "Ulrich von Hutten_Mayhem Maid"
     },
@@ -694,6 +726,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_4/xinnong_4.model3.json",
         "name": "Shinano_Dreamy White Sands"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_5/xinnong_5.model3.json",
+        "name": "Shinano_Visions of Fantasy"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinzexi_3/xinzexi_3.model3.json",

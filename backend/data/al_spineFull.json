@@ -10,6 +10,11 @@
         "name": "Alsace_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aidang_6/aidang_6.skel",
+        "extra_file": [],
+        "name": "Atago_Full Moon's Feral Wolf"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aierdeliqi_g/aierdeliqi_g.skel",
         "extra_file": [],
         "name": "Eldridge_Retrofit"
@@ -36,6 +41,11 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/aisaikesi_7/aisaikesi_7B.skel"
         ],
         "name": "Essex_Crossbones Especial"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aogusite_3/aogusite_3.skel",
+        "extra_file": [],
+        "name": "August von Parseval_The Unhulde's Midday Respite"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongT.skel",
@@ -96,6 +106,11 @@
         "name": "Specialized Bulin Custom MKIII_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/changmen_6/changmen_6.skel",
+        "extra_file": [],
+        "name": "Nagato_Guardian Fox's Blessed Bonds"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/dahuangfengii_2/dahuangfengII_2_T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/dahuangfengii_2/dahuangfengII_2_B.skel"
@@ -117,6 +132,11 @@
         "name": "Shimakaze_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/dashan_2/dashan_2T.skel",
+        "extra_file": [],
+        "name": "Daisen_Bunny Priestess in Prayer"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/deleike/deleike.skel",
         "extra_file": [],
         "name": "Drake_Default"
@@ -128,6 +148,13 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/diliyasite_3/diliyasite_3M.skel"
         ],
         "name": "Trieste_Amore Termico"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/duyisibao_2/duyisibao_2.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/duyisibao_2/duyisibao_2B.skel"
+        ],
+        "name": "Duisburg_Endurance Training (Gone Wrong)"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fage_2/fage_2.skel",
@@ -152,9 +179,19 @@
         "name": "Kazagumo_Placid Waves, Passionate Heart"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fulici/fulici.skel",
+        "extra_file": [],
+        "name": "Fritz Rumey_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fuluoxiluofu_2/fuluoxiluofu_2.skel",
         "extra_file": [],
         "name": "Voroshilov_Devoted as the Warm Snow"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/gangyishawa_2/gangyishawa_2.skel",
+        "extra_file": [],
+        "name": "Ganj-i-Sawai_Mermaid in Distress"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/gaoxiong_6/gaoxiong_6T.skel",
@@ -179,6 +216,16 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/haerbin_3/haerbin_3.skel",
         "extra_file": [],
         "name": "Harbin_Set Sail for Summer Treasure"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/haerfude_2/haerfude_2.skel",
+        "extra_file": [],
+        "name": "Halford_A Special Day with the Bunny Lord"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hemuhao_2/hemuhao_2.skel",
+        "extra_file": [],
+        "name": "Amity_Friendly Franken"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2T.skel",
@@ -208,6 +255,11 @@
         "name": "Hu Pen_Prancing Tiger Welcomes the Spring"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jianwu_3/jianwu_3.skel",
+        "extra_file": [],
+        "name": "Chien Wu_Dressed for Just Tonight"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jianye_5/jianye_5.skel",
         "extra_file": [],
         "name": "Kashino_Fresh and Sweet"
@@ -231,6 +283,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kalangshitade/kalangshitade.skel",
         "extra_file": [],
         "name": "Kronshtadt_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kewei_5/kewei_5T.skel",
+        "extra_file": [],
+        "name": "Formidable_Rockin' Encore"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lafeiii/lafeiii.skel",
@@ -317,6 +374,13 @@
         "name": "Kearsarge_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/qiershazhi_3/qiershazhi_3T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/qiershazhi_3/qiershazhi_3B.skel"
+        ],
+        "name": "Kearsarge_Springtime Monitoring"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/shengdiyage_g/shengdiyage_g.skel",
         "extra_file": [],
         "name": "San Diego_Retrofit"
@@ -362,6 +426,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuerlixi/wuerlixi.skel",
         "extra_file": [],
         "name": "Ulrich von Hutten_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuerlixi_4/wuerlixi_4.skel",
+        "extra_file": [],
+        "name": "Ulrich von Hutten_What Comes After the Bell"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/wuqi/wuqi.skel",
@@ -493,5 +562,15 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yunxian/yunxian.skel",
         "extra_file": [],
         "name": "Unzen_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/z52/z52.skel",
+        "extra_file": [],
+        "name": "Z52_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/z52_2/z52_2.skel",
+        "extra_file": [],
+        "name": "Z52_The Rapid Rabbit"
     }
 ]
