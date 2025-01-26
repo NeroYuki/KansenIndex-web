@@ -7,3 +7,4 @@
 - cedi4155476#1859 on Discord for providing asset file of Abyss Horizon after the game's End of Service
 - UnityPy Discord Server for providing support on datamining some titles
 - rubriciacel on Discord for providing extra CG and info correction of some CGs
+- detectivenj on Discord for labeling Black Surgenight unreleased CGs
