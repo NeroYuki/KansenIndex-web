@@ -217,6 +217,10 @@ export const CGInfo = (props) => {
     const [backgroundImage, setBackgroundImage] = useState(null)
     const [showOriginal, setShowOriginal] = useState(false)
 
+    // some variable to correct the canvas size
+    const [chibiHeight, setChibiHeight] = useState(500)
+    const [spineHeight, setSpineHeight] = useState(500)
+
     const data = cgInfoState
 
     const modifierName = data.filename.slice(0, data.filename.lastIndexOf('.')).split('_').slice(1).join(', ')
@@ -387,6 +391,9 @@ export const CGInfo = (props) => {
 
                     animation.x = (chibi_spine_app.screen.width) /2;
                     animation.y = (chibi_spine_app.screen.height + animation.height) /2;
+                    if (animation.y + animation.height > chibi_spine_app.screen.height) {
+                        setChibiHeight(animation.height + animation.y)
+                    }
 
                     // add the animation to the scene and render...
                     chibi_spine_app.stage.addChild(animation);
@@ -521,6 +528,9 @@ export const CGInfo = (props) => {
                         else if (data.folder === "Azur Lane") animation.y = animation.height
 
                         if (data.folder === "Victory Belles") animation.y = animation.height
+                        if (animation.y + animation.height > spine_app.screen.height) {
+                            setSpineHeight(animation.height + animation.y)
+                        }
 
                         if (animation.skeleton.data.skins) {
                             // console.log(default_skin)
@@ -925,10 +935,10 @@ export const CGInfo = (props) => {
                                     {data.chibi && <TabPanel>
                                         <Center>
                                             {/* Spine (Chibi) */}
-                                            {data.chibi?.is_static ? <img style={{height: 500, width: 'auto'}} src={data.chibi.dir} alt="chibi_img"></img> :
+                                            {data.chibi?.is_static ? <img style={{height: chibiHeight, width: 'auto'}} src={data.chibi.dir} alt="chibi_img"></img> :
                                             <>
-                                                <div style={{height: 500, width: '100%', display: useLegacySpine ? 'block' : 'none', }} id="spine-widget"></div> 
-                                                <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={500}></canvas>
+                                                <div style={{height: chibiHeight, width: '100%', display: useLegacySpine ? 'block' : 'none', }} id="spine-widget"></div> 
+                                                <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={chibiHeight}></canvas>
                                             </>}
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
@@ -936,8 +946,8 @@ export const CGInfo = (props) => {
                                     {data.spine && <TabPanel>
                                         <Center>
                                             {/* Spine */}
-                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: 500, width: '100%'}} id="spine-widget-full"></div> : 
-                                                <canvas id="spine-canvas-full" style={{ touchAction: 'auto'}} height={500}></canvas>}
+                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: spineHeight, width: '100%'}} id="spine-widget-full"></div> : 
+                                                <canvas id="spine-canvas-full" style={{ touchAction: 'auto'}} height={spineHeight}></canvas>}
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                     </TabPanel>}
