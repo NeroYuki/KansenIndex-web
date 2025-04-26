@@ -1,5 +1,10 @@
 [
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aerbien_4/aerbien_4.skel",
+        "extra_file": [],
+        "name": "Albion_A Fairy-Tale Breakfast"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aerhangeersike_3/aerhangeersike_3.skel",
         "extra_file": [],
         "name": "Arkhangelsk_Supporting Sorceress"
@@ -18,6 +23,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aierdeliqi_g/aierdeliqi_g.skel",
         "extra_file": [],
         "name": "Eldridge_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aifosen_2/aifosen_2.skel",
+        "extra_file": [],
+        "name": "Evertsen_Basking by the Window"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aijier/aijierT.skel",
@@ -54,6 +64,11 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongM.skel"
         ],
         "name": "Hakuryuu_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/balaka_2/balaka_2.skel",
+        "extra_file": [],
+        "name": "Maggiore Baracca_The God Craves Punishment"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/banerwei_2/banerwei_2.skel",
@@ -179,6 +194,11 @@
         "name": "Kazagumo_Placid Waves, Passionate Heart"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fulankelin_2/fulankelin_2.skel",
+        "extra_file": [],
+        "name": "Franklin_Heart-Throbbing Records"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fulici/fulici.skel",
         "extra_file": [],
         "name": "Fritz Rumey_Default"
@@ -187,6 +207,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fuluoxiluofu_2/fuluoxiluofu_2.skel",
         "extra_file": [],
         "name": "Voroshilov_Devoted as the Warm Snow"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fuluoxiluofu_3/fuluoxiluofu_3.skel",
+        "extra_file": [],
+        "name": "Voroshilov_The Nurse's Special Rehearsal"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/gangyishawa_2/gangyishawa_2.skel",
@@ -250,6 +275,11 @@
         "name": "Royal Fortune_Eyes on the Prize"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huashengdun_3/huashengdun_3.skel",
+        "extra_file": [],
+        "name": "Washington_Making the Rounds"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huben_2/huben_2.skel",
         "extra_file": [],
         "name": "Hu Pen_Prancing Tiger Welcomes the Spring"
@@ -285,9 +315,22 @@
         "name": "Kronshtadt_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kashan_2/kashan_2.skel",
+        "extra_file": [],
+        "name": "Kazan_The Warm Morning Sunshine"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kewei_5/kewei_5T.skel",
         "extra_file": [],
         "name": "Formidable_Rockin' Encore"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lafeier/lafeierT.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/lafeier/lafeierB.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/lafeier/lafeierM.skel"
+        ],
+        "name": "Raffaello_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lafeiii/lafeiii.skel",
@@ -305,6 +348,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/linglai_2/linglai_2.skel",
         "extra_file": [],
         "name": "Ayase_A Glimpse of the Moon Rabbit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/lingyangzhe3_2/lingyangzhe3_2.skel",
+        "extra_file": [],
+        "name": "Imp of the Bathtub_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/luna_2_doa/luna_2_doa.skel",
@@ -332,6 +380,13 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/masaiqu_2/masaiqu_2.skel",
         "extra_file": [],
         "name": "Marseillaise_Fighting Angel's Regimen"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/moermansike_3/moermansike_3T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/moermansike_3/moermansike_3B.skel"
+        ],
+        "name": "Murmansk_Chamber of Fragrance"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mojiaduoer/mojiaduoer.skel",
@@ -384,6 +439,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/shengdiyage_g/shengdiyage_g.skel",
         "extra_file": [],
         "name": "San Diego_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/sikula_4/sikula_4.skel",
+        "extra_file": [],
+        "name": "Scylla_A Maid's Judgment"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/suweiaitongmengnew/suweiaitongmengnew.skel",
@@ -480,6 +540,13 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xinzexi/xinzexi.skel",
         "extra_file": [],
         "name": "New Jersey_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xinzexi_4/xinzexi_4T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/xinzexi_4/xinzexi_4B.skel"
+        ],
+        "name": "New Jersey_Dancing in the Moonlight"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yaerweite_2/yaerweite_2.skel",

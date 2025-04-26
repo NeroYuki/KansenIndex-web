@@ -15983,5 +15983,219 @@
 		"alias": [
 			"HrMs De Zeven Provincien"
 		]
+	},
+	{
+		"id": 466,
+		"name": "Isabel la Católica",
+		"nation": [
+			"Spain"
+		],
+		"birthday": "3/7（实装日）",
+		"illust": [
+			"-踩脚猫-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "237.8m",
+		"displacement": "40517t",
+		"alias": [
+			"Ansaldo Modified Veneto-class Battleship",
+			"Isabel la Católica"
+		]
+	},
+	{
+		"id": 598,
+		"name": "Meredith",
+		"nation": [
+			"United States"
+		],
+		"birthday": "12/21",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "114.8m",
+		"displacement": "2200t",
+		"alias": [
+			"USS Meredith (DD-726)"
+		]
+	},
+	{
+		"id": 599,
+		"name": "Great Wall No. 107 (Type 033)",
+		"nation": [
+			"China"
+		],
+		"birthday": "9/?",
+		"illust": [
+			"无糖白莲"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76.6m",
+		"displacement": "1730t",
+		"alias": [
+			"长城107号 (303)"
+		]
+	},
+	{
+		"id": 600,
+		"name": "U-4501",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "3/7（实装日）",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "56.2m",
+		"displacement": "926t",
+		"alias": [
+			"U-4501"
+		]
+	},
+	{
+		"id": 601,
+		"name": "Expedition 2 (Type 033G)",
+		"nation": [
+			"China"
+		],
+		"birthday": "11/27",
+		"illust": [
+			"NoiSi_"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76.6m",
+		"displacement": "2100t",
+		"alias": [
+			"远征2号 (351)"
+		]
+	},
+	{
+		"id": 602,
+		"name": "Mississippi",
+		"nation": [
+			"United States"
+		],
+		"birthday": "1/25",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "190m",
+		"displacement": "32514t",
+		"alias": [
+			"USS Mississippi (BB-41)"
+		]
+	},
+	{
+		"id": 603,
+		"name": "Kersaint",
+		"nation": [
+			"France"
+		],
+		"birthday": "11/14",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "129.3m",
+		"displacement": "2441t",
+		"alias": [
+			"Kersaint"
+		]
+	},
+	{
+		"id": 604,
+		"name": "Hannover",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "3/29",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "142.4m",
+		"displacement": "11000t",
+		"alias": [
+			"Hannover",
+			"HMS Audacity (D10)"
+		]
+	},
+	{
+		"id": 1430,
+		"name": "Dzerzhinsky_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "8/31",
+		"illust": [
+			"青空Kamiya"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "210m",
+		"displacement": "13600t",
+		"alias": [
+			"Дзержинский (Dzerzhinsky)"
+		]
+	},
+	{
+		"id": 1516,
+		"name": "Zhdanov_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "12/27",
+		"illust": [
+			"Arnold-S",
+			"Pang-瞪瞪"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "210m",
+		"displacement": "13600t",
+		"alias": [
+			"Жда́нов (Zhdanov)"
+		]
+	},
+	{
+		"id": 1527,
+		"name": "CNT.68 Cruiser_retrofit",
+		"nation": [
+			"China"
+		],
+		"birthday": "8/25",
+		"illust": [
+			"Song_Cocoa",
+			"宫崎soul",
+			"Pang-瞪瞪"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "137m",
+		"displacement": "4900t",
+		"alias": [
+			"CNT巡洋舰"
+		]
 	}
 ]

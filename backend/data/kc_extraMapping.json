@@ -2612,7 +2612,7 @@
 	{
 		"name": "Heian Maru",
 		"ship_type": "Munition Ship",
-		"illust": "Unknown"
+		"illust": "Akasaka Yuzu"
 	},
 	{
 		"name": "No.101 Transport Ship",
@@ -2627,7 +2627,7 @@
 	{
 		"name": "Heian Maru_Kai",
 		"ship_type": "Munition Ship",
-		"illust": "Unknown"
+		"illust": "Akasaka Yuzu"
 	},
 	{
 		"name": "Amatsukaze_Kai Ni",
@@ -2651,6 +2651,11 @@
 	},
 	{
 		"name": "Kiyoshimo_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Hayashimo_Kai Ni",
 		"ship_type": "Destroyer",
 		"illust": "Fujikawa"
 	},
@@ -2750,6 +2755,86 @@
 		"illust": "Hoshi Akari"
 	},
 	{
+		"name": "Fujinami_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Wahoo",
+		"ship_type": "Submarine",
+		"illust": "Shizuma Yoshinori"
+	},
+	{
+		"name": "Shirayuki_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Shibafu"
+	},
+	{
+		"name": "Hatsuyuki_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Shibafu"
+	},
+	{
+		"name": "Wahoo_Kai",
+		"ship_type": "Submarine",
+		"illust": "Shizuma Yoshinori"
+	},
+	{
+		"name": "Sugi",
+		"ship_type": "Destroyer",
+		"illust": "Umihara Sakana"
+	},
+	{
+		"name": "Kaya",
+		"ship_type": "Destroyer",
+		"illust": "Umihara Sakana"
+	},
+	{
+		"name": "Ootomari",
+		"ship_type": "Munition Ship",
+		"illust": "Unknown"
+	},
+	{
+		"name": "Sugi_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Umihara Sakana"
+	},
+	{
+		"name": "Ootomari_Kai",
+		"ship_type": "Munition Ship",
+		"illust": "Unknown"
+	},
+	{
+		"name": "Kirov",
+		"ship_type": "Light Cruiser",
+		"illust": "Jiji"
+	},
+	{
+		"name": "Shimane Maru",
+		"ship_type": "Munition Ship",
+		"illust": "Unknown"
+	},
+	{
+		"name": "Minneapolis",
+		"ship_type": "Heavy Cruiser",
+		"illust": "Hoshi Akari"
+	},
+	{
+		"name": "Kirov_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Jiji"
+	},
+	{
+		"name": "Shimane Maru_Kai",
+		"ship_type": "Munition Ship",
+		"illust": "Unknown"
+	},
+	{
+		"name": "Minneapolis_Kai",
+		"ship_type": "Heavy Cruiser",
+		"illust": "Hoshi Akari"
+	},
+	{
 		"name": "Fubuki_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Shibafu"
@@ -2788,6 +2873,36 @@
 		"name": "Shikinami_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Shibafu"
+	},
+	{
+		"name": "Kongou_Kai",
+		"ship_type": "Battlecruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Hiei_Kai",
+		"ship_type": "Battlecruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Haruna_Kai",
+		"ship_type": "Battlecruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Kirishima_Kai",
+		"ship_type": "Battlecruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Tenryuu_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Ayaki"
+	},
+	{
+		"name": "Tatsuta_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Ayaki"
 	},
 	{
 		"name": "Yukikaze_Kai",
@@ -2830,26 +2945,6 @@
 		"illust": "Shibafu"
 	},
 	{
-		"name": "Kongou_Kai",
-		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
-	},
-	{
-		"name": "Hiei_Kai",
-		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
-	},
-	{
-		"name": "Haruna_Kai",
-		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
-	},
-	{
-		"name": "Kirishima_Kai",
-		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
-	},
-	{
 		"name": "Houshou_Kai",
 		"ship_type": "Light Carrier",
 		"illust": "Shibafu"
@@ -2865,69 +2960,9 @@
 		"illust": "Rikka"
 	},
 	{
-		"name": "Tenryuu_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Ayaki"
-	},
-	{
-		"name": "Tatsuta_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Ayaki"
-	},
-	{
 		"name": "Ryuujou_Kai",
 		"ship_type": "Light Carrier",
 		"illust": "Kuu Ro Kuro"
-	},
-	{
-		"name": "Kuma_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "UGUME"
-	},
-	{
-		"name": "Tama_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "UGUME"
-	},
-	{
-		"name": "Kiso_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "UGUME"
-	},
-	{
-		"name": "Nagara_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Kuu Ro Kuro"
-	},
-	{
-		"name": "Isuzu_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Kuu Ro Kuro"
-	},
-	{
-		"name": "Yura_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Konishi"
-	},
-	{
-		"name": "Natori_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Kuu Ro Kuro"
-	},
-	{
-		"name": "Sendai_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "bob"
-	},
-	{
-		"name": "Jintsuu_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "bob"
-	},
-	{
-		"name": "Naka_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "bob"
 	},
 	{
 		"name": "Mutsuki_Kai",
@@ -2968,6 +3003,66 @@
 		"name": "Mochizuki_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Yadokari"
+	},
+	{
+		"name": "Kuma_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "UGUME"
+	},
+	{
+		"name": "Tama_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "UGUME"
+	},
+	{
+		"name": "Kiso_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "UGUME"
+	},
+	{
+		"name": "Nagara_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Kuu Ro Kuro"
+	},
+	{
+		"name": "Isuzu_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Kuu Ro Kuro"
+	},
+	{
+		"name": "Natori_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Kuu Ro Kuro"
+	},
+	{
+		"name": "Yura_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Sendai_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "bob"
+	},
+	{
+		"name": "Jintsuu_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "bob"
+	},
+	{
+		"name": "Naka_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "bob"
+	},
+	{
+		"name": "Furutaka_Kai",
+		"ship_type": "Heavy Cruiser",
+		"illust": "UGUME"
+	},
+	{
+		"name": "Kako_Kai",
+		"ship_type": "Heavy Cruiser",
+		"illust": "UGUME"
 	},
 	{
 		"name": "Oboro_Kai",
@@ -3025,14 +3120,14 @@
 		"illust": "Yadokari"
 	},
 	{
-		"name": "Furutaka_Kai",
-		"ship_type": "Heavy Cruiser",
-		"illust": "UGUME"
+		"name": "Hatsushimo_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Yadokari"
 	},
 	{
-		"name": "Kako_Kai",
-		"ship_type": "Heavy Cruiser",
-		"illust": "UGUME"
+		"name": "Shiratsuyu_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Kujou Ichiso"
 	},
 	{
 		"name": "Aoba_Kai",
@@ -3105,26 +3200,6 @@
 		"illust": "Konishi"
 	},
 	{
-		"name": "Shiranui_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Konishi"
-	},
-	{
-		"name": "Kuroshio_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Konishi"
-	},
-	{
-		"name": "Hatsushimo_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Yadokari"
-	},
-	{
-		"name": "Shiratsuyu_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Kujou Ichiso"
-	},
-	{
 		"name": "Shigure_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Kujou Ichiso"
@@ -3180,6 +3255,16 @@
 		"illust": "Konishi"
 	},
 	{
+		"name": "Shiranui_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Kuroshio_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Konishi"
+	},
+	{
 		"name": "Shouhou_Kai",
 		"ship_type": "Light Carrier",
 		"illust": "bob"
@@ -3195,11 +3280,6 @@
 		"illust": "Konishi"
 	},
 	{
-		"name": "Abukuma_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Konishi"
-	},
-	{
 		"name": "Chitose_Kou Kai",
 		"ship_type": "Light Carrier",
 		"illust": "Kuu Ro Kuro"
@@ -3210,13 +3290,13 @@
 		"illust": "Kuu Ro Kuro"
 	},
 	{
-		"name": "Yuubari_Kai",
+		"name": "Abukuma_Kai",
 		"ship_type": "Light Cruiser",
 		"illust": "Konishi"
 	},
 	{
-		"name": "Maikaze_Kai",
-		"ship_type": "Destroyer",
+		"name": "Yuubari_Kai",
+		"ship_type": "Light Cruiser",
 		"illust": "Konishi"
 	},
 	{
@@ -3225,9 +3305,29 @@
 		"illust": "Konishi"
 	},
 	{
+		"name": "Maikaze_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Konishi"
+	},
+	{
 		"name": "Kinugasa_Kai",
 		"ship_type": "Heavy Cruiser",
 		"illust": "Fujikawa"
+	},
+	{
+		"name": "I-168_Kai",
+		"ship_type": "Submarine",
+		"illust": "Shobon"
+	},
+	{
+		"name": "I-58_Kai",
+		"ship_type": "Aviation Submarine",
+		"illust": "Shobon"
+	},
+	{
+		"name": "I-8_Kai",
+		"ship_type": "Aviation Submarine",
+		"illust": "Shobon"
 	},
 	{
 		"name": "Akigumo_Kai",
@@ -3265,6 +3365,16 @@
 		"illust": "Konishi"
 	},
 	{
+		"name": "Sakawa_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Katori_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Parsley"
+	},
+	{
 		"name": "Yayoi_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Kusada Souta"
@@ -3295,9 +3405,9 @@
 		"illust": "Parsley"
 	},
 	{
-		"name": "Sakawa_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Konishi"
+		"name": "Amatsukaze_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Shizuma Yoshinori"
 	},
 	{
 		"name": "Urakaze_Kai",
@@ -3308,31 +3418,6 @@
 		"name": "Isokaze_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Parsley"
-	},
-	{
-		"name": "Katori_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "Parsley"
-	},
-	{
-		"name": "I-168_Kai",
-		"ship_type": "Submarine",
-		"illust": "Shobon"
-	},
-	{
-		"name": "I-58_Kai",
-		"ship_type": "Aviation Submarine",
-		"illust": "Shobon"
-	},
-	{
-		"name": "I-8_Kai",
-		"ship_type": "Aviation Submarine",
-		"illust": "Shobon"
-	},
-	{
-		"name": "Amatsukaze_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Shizuma Yoshinori"
 	},
 	{
 		"name": "Ooyodo_Kai",
@@ -3380,9 +3465,9 @@
 		"illust": "Shizuma Yoshinori"
 	},
 	{
-		"name": "Asashimo_Kai",
+		"name": "Teruzuki_Kai",
 		"ship_type": "Destroyer",
-		"illust": "Fujikawa"
+		"illust": "Shizuma Yoshinori"
 	},
 	{
 		"name": "Takanami_Kai",
@@ -3390,14 +3475,9 @@
 		"illust": "Fujikawa"
 	},
 	{
-		"name": "Teruzuki_Kai",
+		"name": "Asashimo_Kai",
 		"ship_type": "Destroyer",
-		"illust": "Shizuma Yoshinori"
-	},
-	{
-		"name": "Hatsuzuki_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Shizuma Yoshinori"
+		"illust": "Fujikawa"
 	},
 	{
 		"name": "Libeccio_Kai",
@@ -3450,6 +3530,11 @@
 		"illust": "Parsley"
 	},
 	{
+		"name": "Hatsuzuki_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Shizuma Yoshinori"
+	},
+	{
 		"name": "Zara_Kai",
 		"ship_type": "Heavy Cruiser",
 		"illust": "Jiji"
@@ -3475,11 +3560,6 @@
 		"illust": "Konishi"
 	},
 	{
-		"name": "Harukaze_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Parsley"
-	},
-	{
 		"name": "Warspite_Kai",
 		"ship_type": "Battleship",
 		"illust": "Konishi"
@@ -3488,6 +3568,16 @@
 		"name": "Aquila_Kai",
 		"ship_type": "Aircraft Carrier",
 		"illust": "Jiji"
+	},
+	{
+		"name": "Yamakaze_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Kujou Ichiso"
+	},
+	{
+		"name": "Harukaze_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Parsley"
 	},
 	{
 		"name": "Minazuki_Kai",
@@ -3505,11 +3595,6 @@
 		"illust": "Shibafu"
 	},
 	{
-		"name": "Yamakaze_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Kujou Ichiso"
-	},
-	{
 		"name": "Asakaze_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Parsley"
@@ -3518,16 +3603,6 @@
 		"name": "Matsukaze_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Parsley"
-	},
-	{
-		"name": "Commandant Teste_Kai",
-		"ship_type": "Light Carrier",
-		"illust": "Akira"
-	},
-	{
-		"name": "Fujinami_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Fujikawa"
 	},
 	{
 		"name": "Hatakaze_Kai",
@@ -3545,9 +3620,24 @@
 		"illust": "drew"
 	},
 	{
+		"name": "Fujinami_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
 		"name": "Hamanami_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Fujikawa"
+	},
+	{
+		"name": "Commandant Teste_Kai",
+		"ship_type": "Light Carrier",
+		"illust": "Akira"
+	},
+	{
+		"name": "Richelieu_Kai",
+		"ship_type": "Battlecruiser",
+		"illust": "Akira"
 	},
 	{
 		"name": "I-13_Kai",
@@ -3560,6 +3650,11 @@
 		"illust": "Shizuma Yoshinori"
 	},
 	{
+		"name": "Tashkent_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Yadokari"
+	},
+	{
 		"name": "Shimushu_Kai",
 		"ship_type": "Coastal Defense Ship",
 		"illust": "UGUME"
@@ -3568,16 +3663,6 @@
 		"name": "Kunashiri_Kai",
 		"ship_type": "Coastal Defense Ship",
 		"illust": "UGUME"
-	},
-	{
-		"name": "Shinyou_Kai",
-		"ship_type": "Light Carrier",
-		"illust": "Shibafu"
-	},
-	{
-		"name": "Richelieu_Kai",
-		"ship_type": "Battlecruiser",
-		"illust": "Akira"
 	},
 	{
 		"name": "Ark Royal_Kai",
@@ -3590,14 +3675,14 @@
 		"illust": "Konishi"
 	},
 	{
-		"name": "Tashkent_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Yadokari"
-	},
-	{
 		"name": "Janus_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Konishi"
+	},
+	{
+		"name": "Shinyou_Kai",
+		"ship_type": "Light Carrier",
+		"illust": "Shibafu"
 	},
 	{
 		"name": "Taiyou_Kai",
@@ -3660,11 +3745,6 @@
 		"illust": "zeco"
 	},
 	{
-		"name": "Hirato_Kai",
-		"ship_type": "Coastal Defense Ship",
-		"illust": "Akasaka Yuzu"
-	},
-	{
 		"name": "Fukae_Kai",
 		"ship_type": "Coastal Defense Ship",
 		"illust": "Akasaka Yuzu"
@@ -3673,6 +3753,11 @@
 		"name": "Johnston_Kai",
 		"ship_type": "Destroyer",
 		"illust": "zeco"
+	},
+	{
+		"name": "Hirato_Kai",
+		"ship_type": "Coastal Defense Ship",
+		"illust": "Akasaka Yuzu"
 	},
 	{
 		"name": "Nisshin_Kai",
@@ -3685,14 +3770,14 @@
 		"illust": "UGUME"
 	},
 	{
-		"name": "Ishigaki_Kai",
-		"ship_type": "Coastal Defense Ship",
-		"illust": "UGUME"
-	},
-	{
 		"name": "Minegumo_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Fujikawa"
+	},
+	{
+		"name": "Ishigaki_Kai",
+		"ship_type": "Coastal Defense Ship",
+		"illust": "UGUME"
 	},
 	{
 		"name": "Duca degli Abruzzi_Kai",
@@ -3710,14 +3795,14 @@
 		"illust": "zeco"
 	},
 	{
-		"name": "De Ruyter_Kai",
-		"ship_type": "Light Cruiser",
-		"illust": "沙良"
-	},
-	{
 		"name": "Atlanta_Kai",
 		"ship_type": "Light Cruiser",
 		"illust": "Shizuma Yoshinori"
+	},
+	{
+		"name": "De Ruyter_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "沙良"
 	},
 	{
 		"name": "Akishimo_Kai",
@@ -3765,9 +3850,9 @@
 		"illust": "Jiji"
 	},
 	{
-		"name": "Hornet_Kai",
-		"ship_type": "Aircraft Carrier",
-		"illust": "Konishi"
+		"name": "Natsugumo_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
 	},
 	{
 		"name": "Honolulu_Kai",
@@ -3775,9 +3860,14 @@
 		"illust": "UGUME"
 	},
 	{
-		"name": "Natsugumo_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Fujikawa"
+		"name": "Hornet_Kai",
+		"ship_type": "Aircraft Carrier",
+		"illust": "Konishi"
+	},
+	{
+		"name": "I-47_Kai",
+		"ship_type": "Submarine",
+		"illust": "Hoshi Akari"
 	},
 	{
 		"name": "Usugumo_Kai",
@@ -3795,11 +3885,6 @@
 		"illust": "Kujou Ichiso"
 	},
 	{
-		"name": "I-47_Kai",
-		"ship_type": "Submarine",
-		"illust": "Hoshi Akari"
-	},
-	{
 		"name": "Kaiboukan No.4_Kai",
 		"ship_type": "Coastal Defense Ship",
 		"illust": "Hozuka"
@@ -3815,6 +3900,11 @@
 		"illust": "Watanabe Akio"
 	},
 	{
+		"name": "Scirocco_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Jiji"
+	},
+	{
 		"name": "Momo_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Watanabe Akio"
@@ -3828,11 +3918,6 @@
 		"name": "Ume_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Watanabe Akio"
-	},
-	{
-		"name": "Scirocco_Kai",
-		"ship_type": "Destroyer",
-		"illust": "Jiji"
 	},
 	{
 		"name": "Makinami_Kai",
@@ -3890,9 +3975,14 @@
 		"illust": "Umihara Sakana"
 	},
 	{
-		"name": "Valiant_Kai",
-		"ship_type": "Battleship",
-		"illust": "Konishi"
+		"name": "Kaiboukan No.22_Kai",
+		"ship_type": "Coastal Defense Ship",
+		"illust": "Hozuka"
+	},
+	{
+		"name": "Inagi_Kai",
+		"ship_type": "Coastal Defense Ship",
+		"illust": "Hoshi Akari"
 	},
 	{
 		"name": "Ranger_Kai",
@@ -3900,19 +3990,24 @@
 		"illust": "Hoshi Akari"
 	},
 	{
+		"name": "Valiant_Kai",
+		"ship_type": "Battleship",
+		"illust": "Konishi"
+	},
+	{
 		"name": "Jean Bart_Kai",
 		"ship_type": "Battlecruiser",
 		"illust": "Akira"
 	},
 	{
-		"name": "C.Cappellini_Kai",
-		"ship_type": "Submarine",
-		"illust": "Jiji"
-	},
-	{
 		"name": "Heywood L. Edwards_Kai",
 		"ship_type": "Destroyer",
 		"illust": "zeco"
+	},
+	{
+		"name": "C.Cappellini_Kai",
+		"ship_type": "Submarine",
+		"illust": "Jiji"
 	},
 	{
 		"name": "No.101 Transport Ship_Kai",
@@ -3925,23 +4020,18 @@
 		"illust": "UGUME"
 	},
 	{
-		"name": "Lexington_Kai",
-		"ship_type": "Aircraft Carrier",
-		"illust": "Kia Asamiya"
-	},
-	{
-		"name": "Kaiboukan No.22_Kai",
-		"ship_type": "Coastal Defense Ship",
-		"illust": "Hozuka"
-	},
-	{
 		"name": "Shirakumo_Kai",
 		"ship_type": "Destroyer",
 		"illust": "Shibafu"
 	},
 	{
-		"name": "Inagi_Kai",
-		"ship_type": "Coastal Defense Ship",
-		"illust": "Hoshi Akari"
+		"name": "Lexington_Kai",
+		"ship_type": "Aircraft Carrier",
+		"illust": "Kia Asamiya"
+	},
+	{
+		"name": "Kaya_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Umihara Sakana"
 	}
 ]

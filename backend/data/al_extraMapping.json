@@ -49,6 +49,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Specialized Bulin Custom MKIII_The Bulin Bringer of Justice",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Neptune_Default",
         "nation": [
             "Fictional"
@@ -854,6 +861,20 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Miller_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Miller_Monster Experiment M-01",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Omaha_Default",
         "nation": [
             "United States"
@@ -1463,6 +1484,20 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Santa Fe_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Santa Fe_The Rumor Mill Never Sleeps",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Pensacola_Default",
         "nation": [
             "United States"
@@ -1834,6 +1869,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Little Anchorage_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Kizuna AI_Default",
         "nation": [
             "Fictional"
@@ -2136,6 +2178,13 @@
     },
     {
         "name": "Washington_Jubilant Smile",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Washington_Making the Rounds",
         "nation": [
             "United States"
         ],
@@ -2856,6 +2905,20 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Franklin_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Franklin_Heart-Throbbing Records",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Ticonderoga_Default",
         "nation": [
             "United States"
@@ -3498,6 +3561,34 @@
             "Fictional"
         ],
         "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Evertsen_Default",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Evertsen_Basking by the Window",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "De Zeven Provinci\u00ebn_Default",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "De Zeven Provinci\u00ebn_Snuggling for Warmth",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Light Cruiser"
     },
     {
         "name": "Lala Satalin Deviluke_Default",
@@ -4270,6 +4361,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Nubian_The Modern-Day Clumsy Maid Escapade",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Leander_Default",
         "nation": [
             "United Kingdom"
@@ -4943,6 +5041,13 @@
     },
     {
         "name": "Scylla_Bathed in the Limelight",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Scylla_A Maid's Judgment",
         "nation": [
             "United Kingdom"
         ],
@@ -5692,6 +5797,13 @@
     },
     {
         "name": "Albion_Scent of Spring in the Red Pavilion",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Albion_A Fairy-Tale Breakfast",
         "nation": [
             "United Kingdom"
         ],
@@ -7316,6 +7428,13 @@
     },
     {
         "name": "Naganami_Nestling Up for the Long Nights",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Naganami_Heartmelting Warmth",
         "nation": [
             "Japan"
         ],
@@ -9443,6 +9562,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Hakuryuu_Four Fine Layers",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Shimanto_Default",
         "nation": [
             "Japan"
@@ -11039,6 +11165,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Mainz_A Blend of Serenity",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Odin_Default",
         "nation": [
             "Germany"
@@ -11229,6 +11362,13 @@
     },
     {
         "name": "Tai Yuan_The Golden Dragon's Festivities",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Tai Yuan_Two Hearts, One Cushion",
         "nation": [
             "China"
         ],
@@ -11592,6 +11732,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Chi An_Exotic Dreamland",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Hai Yung_Default",
         "nation": [
             "China"
@@ -11872,6 +12019,20 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Giosu\u00e8 Carducci_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Giosu\u00e8 Carducci_Verses in Balance",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Duca degli Abruzzi_Default",
         "nation": [
             "Italy"
@@ -11894,6 +12055,20 @@
     },
     {
         "name": "Giuseppe Garibaldi_Noble Ivory Plumes",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Bartolomeo Colleoni_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Bartolomeo Colleoni_The Empress' Romantic Ambush",
         "nation": [
             "Italy"
         ],
@@ -12117,6 +12292,20 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Raffaello_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Raffaello_Protector of Love and Beauty",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Aquila_Default",
         "nation": [
             "Italy"
@@ -12174,6 +12363,20 @@
     },
     {
         "name": "Leonardo da Vinci_Riverside Pirouette",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
+        "name": "Maggiore Baracca_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
+        "name": "Maggiore Baracca_The God Craves Punishment",
         "nation": [
             "Italy"
         ],
@@ -12307,6 +12510,13 @@
     },
     {
         "name": "Stremitelny_No Snow No Life",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Stremitelny_Nurse on the Night Shift",
         "nation": [
             "Soviet Union"
         ],
@@ -12579,6 +12789,27 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Voroshilov_The Nurse's Special Rehearsal",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Oleg_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Oleg_Repose by the Fireplace",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Tallinn_Default",
         "nation": [
             "Soviet Union"
@@ -12727,6 +12958,20 @@
     },
     {
         "name": "Poltava_Meeting the Mafia Queen",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Kazan_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Kazan_The Warm Morning Sunshine",
         "nation": [
             "Soviet Union"
         ],
@@ -13350,6 +13595,13 @@
     },
     {
         "name": "Mogador_Locker Room Lechery",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Mogador_Olfactory Nursery Call",
         "nation": [
             "France"
         ],
@@ -14014,6 +14266,20 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Andrea Doria META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Nevada META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Hiyou META_Default",
         "nation": [
             "Fictional"
@@ -14064,6 +14330,13 @@
     },
     {
         "name": "B\u00e9arn META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Hornet META_Default",
         "nation": [
             "Fictional"
         ],
