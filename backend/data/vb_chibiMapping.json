@@ -5,6 +5,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Achilles_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Achilles_01/36_01_schibi.json"
+	},
+	{
 		"name": "Achilles_02.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Achilles_02/36_02_chibi.png",
 		"is_static": true
@@ -28,6 +32,10 @@
 		"name": "Algérie.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Algérie/20_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Algérie_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Algérie_01/20_01_schibi.json"
 	},
 	{
 		"name": "Amerigo Vespucci.png",
@@ -100,6 +108,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Atlantis_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Atlantis_01/50_01_schibi.json"
+	},
+	{
 		"name": "Augusta.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Augusta/139_chibi.png",
 		"is_static": true
@@ -120,6 +132,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Axum_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Axum_01/64_01_schibi.json"
+	},
+	{
 		"name": "Belfast.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Belfast/117_chibi.png",
 		"is_static": true
@@ -128,6 +144,10 @@
 		"name": "Béarn.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Béarn/21_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Béarn_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Béarn_01/21_01_schibi.json"
 	},
 	{
 		"name": "Blyskawica.png",
@@ -146,8 +166,7 @@
 	},
 	{
 		"name": "Boise_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Boise_01/140_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Boise_01/140_01_schibi.json"
 	},
 	{
 		"name": "Boise_02.png",
@@ -166,8 +185,7 @@
 	},
 	{
 		"name": "Bulldog_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Bulldog_01/118_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Bulldog_01/118_01_schibi.json"
 	},
 	{
 		"name": "Calamity.png",
@@ -178,6 +196,10 @@
 		"name": "Camicia Nera.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Camicia Nera/66_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Camicia Nera_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Camicia Nera_01/66_01_schibi.json"
 	},
 	{
 		"name": "Canarias.png",
@@ -208,6 +230,10 @@
 		"name": "Conte di Cavour.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Conte di Cavour/67_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Conte di Cavour_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Conte di Cavour_01/67_01_schibi.json"
 	},
 	{
 		"name": "Corruption.png",
@@ -258,6 +284,10 @@
 		"name": "Diether von Roeder.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Diether von Roeder/52_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Diether von Roeder_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Diether von Roeder_01/52_01_schibi.json"
 	},
 	{
 		"name": "Disease.png",
@@ -340,14 +370,17 @@
 		"is_static": true
 	},
 	{
+		"name": "Fusō_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Fusō_01/79_01_schibi.json"
+	},
+	{
 		"name": "Giulio Cesare.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Giulio Cesare/72_chibi.png",
 		"is_static": true
 	},
 	{
 		"name": "Giulio Cesare_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Giulio Cesare_01/72_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Giulio Cesare_01/72_01_schibi.json"
 	},
 	{
 		"name": "Giuseppe Garibaldi.png",
@@ -358,6 +391,10 @@
 		"name": "Gneisenau.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Gneisenau/54_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Gneisenau_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Gneisenau_01/54_01_schibi.json"
 	},
 	{
 		"name": "Gnevny.png",
@@ -391,8 +428,7 @@
 	},
 	{
 		"name": "Henley_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Henley_01/141_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Henley_01/141_01_schibi.json"
 	},
 	{
 		"name": "Hermes.png",
@@ -405,14 +441,26 @@
 		"is_static": true
 	},
 	{
+		"name": "Hiei_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Hiei_01/80_01_schibi.json"
+	},
+	{
 		"name": "Hiryū.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Hiryū/81_chibi.png",
 		"is_static": true
 	},
 	{
+		"name": "Hiryū_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Hiryū_01/81_01_schibi.json"
+	},
+	{
 		"name": "Hood.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Hood/127_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Hood_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Hood_01/127_01_schibi.json"
 	},
 	{
 		"name": "Houston.png",
@@ -475,9 +523,17 @@
 		"is_static": true
 	},
 	{
+		"name": "Kongou_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Kongou_01/88_01_schibi.json"
+	},
+	{
 		"name": "Köln.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Köln/57_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Köln_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Köln_01/57_01_schibi.json"
 	},
 	{
 		"name": "Krasnyi Kavkaz.png",
@@ -488,6 +544,10 @@
 		"name": "Kumano.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Kumano/89_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Kumano_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Kumano_01/89_01_schibi.json"
 	},
 	{
 		"name": "L'Audacieux.png",
@@ -506,8 +566,7 @@
 	},
 	{
 		"name": "La Motte-Picquet_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/La Motte-Picquet_01/25_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/La Motte-Picquet_01/25_01_schibi.json"
 	},
 	{
 		"name": "Lampo.png",
@@ -525,9 +584,17 @@
 		"is_static": true
 	},
 	{
+		"name": "Le Triomphant_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Le Triomphant_01/26_01_schibi.json"
+	},
+	{
 		"name": "Leberecht Maass.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Leberecht Maass/58_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Leberecht Maass_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Leberecht Maass_01/58_01_schibi.json"
 	},
 	{
 		"name": "Leningrad.png",
@@ -561,8 +628,7 @@
 	},
 	{
 		"name": "Mahan_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Mahan_01/145_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Mahan_01/145_01_schibi.json"
 	},
 	{
 		"name": "Maillé Brézé.png",
@@ -630,6 +696,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Mississippi_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Mississippi_01/148_01_schibi.json"
+	},
+	{
 		"name": "Mistrust.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Mistrust/173_chibi.png",
 		"is_static": true
@@ -638,6 +708,10 @@
 		"name": "Moskva.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Moskva/108_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Moskva_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Moskva_01/108_01_schibi.json"
 	},
 	{
 		"name": "Moskva_02.png",
@@ -660,6 +734,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Nagato_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nagato_01/91_01_schibi.json"
+	},
+	{
 		"name": "Nagatsuki.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nagatsuki/92_chibi.png",
 		"is_static": true
@@ -675,6 +753,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Narwhal_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Narwhal_01/149_01_schibi.json"
+	},
+	{
 		"name": "Nashville.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nashville/150_chibi.png",
 		"is_static": true
@@ -686,13 +768,16 @@
 	},
 	{
 		"name": "Nautilus_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nautilus_01/151_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nautilus_01/151_01_schibi.json"
 	},
 	{
 		"name": "Nelson.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nelson/128_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Nelson_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nelson_01/128_01_schibi.json"
 	},
 	{
 		"name": "Nenohi.png",
@@ -713,6 +798,10 @@
 		"name": "Nevada.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nevada/152_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Nevada_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Nevada_01/152_01_schibi.json"
 	},
 	{
 		"name": "New Orleans.png",
@@ -745,6 +834,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Paris_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Paris_01/30_01_schibi.json"
+	},
+	{
 		"name": "Parizhskaya Kommuna.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Parizhskaya Kommuna/110_chibi.png",
 		"is_static": true
@@ -771,13 +864,16 @@
 	},
 	{
 		"name": "Pola_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Pola_01/76_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Pola_01/76_01_schibi.json"
 	},
 	{
 		"name": "Profintern.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Profintern/111_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Profintern_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Profintern_01/111_01_schibi.json"
 	},
 	{
 		"name": "Provence.png",
@@ -796,7 +892,7 @@
 	},
 	{
 		"name": "Recruit.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Recruit/183_schibi/183_schibi.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Recruit/183_schibi.json"
 	},
 	{
 		"name": "Recruit_01.png",
@@ -842,6 +938,10 @@
 		"name": "Scharnhorst.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Scharnhorst/60_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Scharnhorst_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Scharnhorst_01/60_01_schibi.json"
 	},
 	{
 		"name": "Schleswig-Holstein.png",
@@ -924,6 +1024,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Takao_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Takao_01/96_01_schibi.json"
+	},
+	{
 		"name": "Tenryū.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Tenryū/97_chibi.png",
 		"is_static": true
@@ -959,6 +1063,10 @@
 		"is_static": true
 	},
 	{
+		"name": "Vampire_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Vampire_01/125_01_schibi.json"
+	},
+	{
 		"name": "Vanity.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Vanity/165_chibi.png",
 		"is_static": true
@@ -980,8 +1088,7 @@
 	},
 	{
 		"name": "Verdun_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Verdun_01/33_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Verdun_01/33_01_schibi.json"
 	},
 	{
 		"name": "Volta.png",
@@ -997,6 +1104,10 @@
 		"name": "Warspite.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Warspite/137_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Warspite_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Warspite_01/137_01_schibi.json"
 	},
 	{
 		"name": "Wicher.png",
@@ -1025,12 +1136,15 @@
 	},
 	{
 		"name": "Yūbari_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Yūbari_01/98_01_chibi.png",
-		"is_static": true
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Yūbari_01/98_01_schibi.json"
 	},
 	{
 		"name": "Zulu.png",
 		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Zulu/138_chibi.png",
 		"is_static": true
+	},
+	{
+		"name": "Zulu_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_chibi/Zulu_01/138_01_schibi.json"
 	}
 ]

@@ -1,38 +1,150 @@
 [
 	{
+		"name": "Admiral Scheer.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Admiral Scheer/200_sbig.json"
+	},
+	{
+		"name": "Akagi.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Akagi/192_sbig.json"
+	},
+	{
+		"name": "Arizona.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Arizona/43_sbig.json"
+	},
+	{
 		"name": "Ashigara.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Ashigara/186_sbig/186_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Ashigara/186_sbig.json"
+	},
+	{
+		"name": "Astoria.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Astoria/211_sbig.json"
 	},
 	{
 		"name": "Aurora.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Aurora/190_sbig/190_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Aurora/190_sbig.json"
+	},
+	{
+		"name": "Blyskawica.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Blyskawica/195_sbig.json"
+	},
+	{
+		"name": "Conte di Cavour.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Conte di Cavour/67_sbig.json"
+	},
+	{
+		"name": "Conte di Cavour_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Conte di Cavour_01/67_01_sbig.json"
+	},
+	{
+		"name": "Duilio.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Duilio/205_sbig.json"
+	},
+	{
+		"name": "Dunkerque.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Dunkerque/22_sbig.json"
+	},
+	{
+		"name": "Glorious.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Glorious/206_sbig.json"
+	},
+	{
+		"name": "Hans Lüdemann_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Hans Lüdemann_01/56_01_sbig.json"
+	},
+	{
+		"name": "Hōshō.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Hōshō/207_sbig.json"
 	},
 	{
 		"name": "Jeanne d'Arc.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Jeanne d'Arc/189_sbig/189_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Jeanne d'Arc/189_sbig.json"
 	},
 	{
 		"name": "Kongou.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Kongou/88_sbig/88_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Kongou/88_sbig.json"
+	},
+	{
+		"name": "Kongou_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Kongou_01/88_01_sbig.json"
+	},
+	{
+		"name": "Lampo_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Lampo_01/74_01_sbig.json"
+	},
+	{
+		"name": "Minneapolis.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Minneapolis/196_sbig.json"
+	},
+	{
+		"name": "Mississippi_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Mississippi_01/148_01_sbig.json"
+	},
+	{
+		"name": "Narwhal_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Narwhal_01/149_01_sbig.json"
+	},
+	{
+		"name": "Parizhskaya Kommuna.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Parizhskaya Kommuna/110_sbig.json"
 	},
 	{
 		"name": "Pensacola.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Pensacola/185_sbig/185_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Pensacola/185_sbig.json"
+	},
+	{
+		"name": "Provence.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Provence/194_sbig.json"
 	},
 	{
 		"name": "Recruit.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Recruit/183_sbig/183_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Recruit/183_sbig.json"
+	},
+	{
+		"name": "Saguenay_01.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Saguenay_01/126_01_sbig.json"
+	},
+	{
+		"name": "San Giorgio.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/San Giorgio/188_sbig.json"
 	},
 	{
 		"name": "Scharnhorst.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Scharnhorst/60_sbig/60_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Scharnhorst/60_sbig.json"
+	},
+	{
+		"name": "Schleswig-Holstein.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Schleswig-Holstein/184_sbig.json"
+	},
+	{
+		"name": "Steregushchy.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Steregushchy/203_sbig.json"
+	},
+	{
+		"name": "Sōryū.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Sōryū/213_sbig.json"
+	},
+	{
+		"name": "Texas.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Texas/199_sbig.json"
+	},
+	{
+		"name": "U-30.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/U-30/209_sbig.json"
+	},
+	{
+		"name": "Voroshilov.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Voroshilov/212_sbig.json"
+	},
+	{
+		"name": "Warspite.png",
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Warspite/137_sbig.json"
 	},
 	{
 		"name": "Wichita.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Wichita/158_sbig/158_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Wichita/158_sbig.json"
 	},
 	{
 		"name": "Zulu_01.png",
-		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Zulu_01/138_01_sbig/138_01_sbig.json"
+		"dir": "./data/assets/shipgirls/Victory Belles/vb_spine/Zulu_01/138_01_sbig.json"
 	}
 ]
