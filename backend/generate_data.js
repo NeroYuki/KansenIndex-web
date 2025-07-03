@@ -81,7 +81,7 @@ function main_shipgirl_db() {
     let global_config = config.find(val => val.name === "*") || {}
 
     dirs.forEach((dir) => {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", ".megaignore"].includes(dir)) return
+        if ([".git", ".gitignore", "Current source.txt", "KansenIndex-datamine", "KansenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", ".megaignore"].includes(dir)) return
         if (whitelist_dir.length > 0 && !whitelist_dir.includes(dir)) return
 
         let series_list = []
