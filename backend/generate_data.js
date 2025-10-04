@@ -81,7 +81,7 @@ function main_shipgirl_db() {
     let global_config = config.find(val => val.name === "*") || {}
 
     dirs.forEach((dir) => {
-        if ([".git", ".gitignore", "Current source.txt", "KansenIndex-datamine", "KansenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", ".megaignore"].includes(dir)) return
+        if ([".git", ".gitignore", "Current source.txt", "KansenIndex-datamine", "KansenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", ".megaignore", "shipgirl_list_db_new.json"].includes(dir)) return
         if (whitelist_dir.length > 0 && !whitelist_dir.includes(dir)) return
 
         let series_list = []
@@ -131,7 +131,7 @@ function main_shipgirl_db() {
             let modifier = val.canon_name.match(/\(.*\)/g)?.map(v => v.replace(/[\(\)]/g, '').trim()) ?? []
             // special case for Azur Lane, if muse or meta is in modifier, remove it from array and append it to char
             if (dir === "Azur Lane" && modifier.includes("muse")) {
-                char += " muse"
+                char += " μ"
                 modifier = modifier.filter(v => v !== "muse")
             }
             // special case for Azur Lane, if meta is in modifier, remove it from array and append it to char

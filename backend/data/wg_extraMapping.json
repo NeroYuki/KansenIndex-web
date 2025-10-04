@@ -16197,5 +16197,425 @@
 		"alias": [
 			"CNT巡洋舰"
 		]
+	},
+	{
+		"id": 605,
+		"name": "Ferdinando Cassone's Design",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "5/30（实装日）",
+		"illust": [
+			"NoiSi_"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "265m",
+		"displacement": "45000t",
+		"alias": [
+			"Ferdinando Cassone's Battleship"
+		]
+	},
+	{
+		"id": 606,
+		"name": "Hamburg",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "3/26",
+		"illust": [
+			"炭涂"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "134m",
+		"displacement": "4050t",
+		"alias": [
+			"FGS Hamburg (D181)"
+		]
+	},
+	{
+		"id": 607,
+		"name": "Nicholson",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "5/31",
+		"illust": [
+			"左手王ZSW"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "106m",
+		"displacement": "1630t",
+		"alias": [
+			"USS Nicholson (DD-442)",
+			"MM Aviere (D554)"
+		]
+	},
+	{
+		"id": 608,
+		"name": "Upholder",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "7/8",
+		"illust": [
+			"tuziki兔子桑"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "58.2m",
+		"displacement": "730t",
+		"alias": [
+			"HMS Upholder (N99)"
+		]
+	},
+	{
+		"id": 609,
+		"name": "Shangri-La",
+		"nation": [
+			"United States"
+		],
+		"birthday": "2/24",
+		"illust": [
+			"Pang-瞪瞪"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "271m",
+		"displacement": "31294t",
+		"alias": [
+			"USS Shangri-La (CV-38)"
+		]
+	},
+	{
+		"id": 610,
+		"name": "Turbulent",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "5/12",
+		"illust": [
+			"一个顺拐的翠卡密"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "84m",
+		"displacement": "1575t",
+		"alias": [
+			"HMS Turbulent (N98)"
+		]
+	},
+	{
+		"id": 611,
+		"name": "Duguay-Trouin",
+		"nation": [
+			"France"
+		],
+		"birthday": "8/14",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "181.3m",
+		"displacement": "7250t",
+		"alias": [
+			"Duguay-Trouin"
+		]
+	},
+	{
+		"id": 612,
+		"name": "Bagley",
+		"nation": [
+			"United States"
+		],
+		"birthday": "9/3",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "104m",
+		"displacement": "1500t",
+		"alias": [
+			"USS Bagley (DD-386)"
+		]
+	},
+	{
+		"id": 613,
+		"name": "Musashi",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "11/1",
+		"illust": [
+			"踩脚猫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "263m",
+		"displacement": "65000t",
+		"alias": [
+			"武蔵(むさし) (Musashi)"
+		]
+	},
+	{
+		"id": 614,
+		"name": "Bretagne",
+		"nation": [
+			"France"
+		],
+		"birthday": "4/21",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "166m",
+		"displacement": "24000t",
+		"alias": [
+			"Bretagne"
+		]
+	},
+	{
+		"id": 615,
+		"name": "Impetuoso",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "9/16",
+		"illust": [
+			"左手王ZSW"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "127.6m",
+		"displacement": "2775t",
+		"alias": [
+			"MM Impetuoso (D558)"
+		]
+	},
+	{
+		"id": 616,
+		"name": "Sagiri",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "12/23",
+		"illust": [
+			"JERRY的打工鳄"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "118m",
+		"displacement": "1980t",
+		"alias": [
+			"狭霧(さぎり) (Sagiri)"
+		]
+	},
+	{
+		"id": 617,
+		"name": "Nanjing",
+		"nation": [
+			"China"
+		],
+		"birthday": "12/11",
+		"illust": [
+			"NoiSi_"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "132m",
+		"displacement": "3760t",
+		"alias": [
+			"南京 (131)"
+		]
+	},
+	{
+		"id": 618,
+		"name": "Mitscher",
+		"nation": [
+			"United States"
+		],
+		"birthday": "1/26",
+		"illust": [
+			"ZaLenhpE"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "150m",
+		"displacement": "5280t",
+		"alias": [
+			"USS Mitscher (DL-2)"
+		]
+	},
+	{
+		"id": 619,
+		"name": "Franklin D. Roosevelt",
+		"nation": [
+			"United States"
+		],
+		"birthday": "4/29",
+		"illust": [
+			"土味基蛋"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "295m",
+		"displacement": "45000t",
+		"alias": [
+			"USS Franklin D. Roosevelt (CVB-42)"
+		]
+	},
+	{
+		"id": 620,
+		"name": "Iron Duke",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "10/12",
+		"illust": [
+			"彗星Chloy"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "190m",
+		"displacement": "30000t",
+		"alias": [
+			"HMS Iron Duke"
+		]
+	},
+	{
+		"id": 621,
+		"name": "Lance",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "11/28",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "111m",
+		"displacement": "1920t",
+		"alias": [
+			"HMS Lance (G87)"
+		]
+	},
+	{
+		"id": 622,
+		"name": "Dupleix",
+		"nation": [
+			"France"
+		],
+		"birthday": "10/9",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "194m",
+		"displacement": "11516t",
+		"alias": [
+			"Dupleix"
+		]
+	},
+	{
+		"id": 1205,
+		"name": "Duke of York_retrofit",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "2/28",
+		"illust": [
+			"木shiyo"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "227.1m",
+		"displacement": "42751t",
+		"alias": [
+			"HMS Duke of York (17)"
+		]
+	},
+	{
+		"id": 1215,
+		"name": "Imperatritsa Mariya_retrofit",
+		"nation": [
+			"Russian Empire"
+		],
+		"birthday": "10/19",
+		"illust": [
+			"卑しい人間"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "168m",
+		"displacement": "23413长t",
+		"alias": [
+			"Императрица Мария (Imperatritsa Mariya)"
+		]
+	},
+	{
+		"id": 1363,
+		"name": "Zhguchiy_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "10/14",
+		"illust": [
+			"NoriZC",
+			"打工战士图波列夫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "138.9m",
+		"displacement": "4192t",
+		"alias": [
+			"Жгучий (Zhguchiy)"
+		]
+	},
+	{
+		"id": 1575,
+		"name": "Bravyy_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "2/28",
+		"illust": [
+			"纳尼所累"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "126m",
+		"displacement": "2950t",
+		"alias": [
+			"Бравый (Bravyy)"
+		]
 	}
 ]

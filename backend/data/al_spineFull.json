@@ -38,6 +38,11 @@
         "name": "\u00c4gir_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aila_2/aila_2.skel",
+        "extra_file": [],
+        "name": "Isla von Duerer_Open-Air Vacationeer"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aimudeng_4/aimudeng_4T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/aimudeng_4/aimudeng_4B.skel",
@@ -53,9 +58,19 @@
         "name": "Essex_Crossbones Especial"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aisaikesi_g/aisaikesi_g.skel",
+        "extra_file": [],
+        "name": "Essex_Retrofit"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aogusite_3/aogusite_3.skel",
         "extra_file": [],
         "name": "August von Parseval_The Unhulde's Midday Respite"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/baifeng/baifeng.skel",
+        "extra_file": [],
+        "name": "Hakuhou_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bailong/bailongT.skel",
@@ -157,6 +172,11 @@
         "name": "Drake_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/digaiteluyin_2/digaiteluyin_2.skel",
+        "extra_file": [],
+        "name": "Duguay-Trouin_Covetous Bathgoer"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/diliyasite_3/diliyasite_3T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/diliyasite_3/diliyasite_3B.skel",
@@ -238,6 +258,11 @@
         "name": "Guam_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/guanghui_8/guanghui_8.skel",
+        "extra_file": [],
+        "name": "Illustrious_Sweet Afternoon Teatime"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/haerbin_3/haerbin_3.skel",
         "extra_file": [],
         "name": "Harbin_Set Sail for Summer Treasure"
@@ -246,6 +271,16 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/haerfude_2/haerfude_2.skel",
         "extra_file": [],
         "name": "Halford_A Special Day with the Bunny Lord"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hailunna_5/hailunna_5.skel",
+        "extra_file": [],
+        "name": "Helena_Basking in the Cypress' Warmth"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/heiyansheshou_2/heiyansheshou_2.skel",
+        "extra_file": [],
+        "name": "BLACK\u2605ROCK SHOOTER_Goddess in Black"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hemuhao_2/hemuhao_2.skel",
@@ -285,6 +320,21 @@
         "name": "Hu Pen_Prancing Tiger Welcomes the Spring"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/i404/i404.skel",
+        "extra_file": [],
+        "name": "I-404_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/i404_2/i404_2.skel",
+        "extra_file": [],
+        "name": "I-404_Dance of Crimson Strings"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/i404_3/i404_3.skel",
+        "extra_file": [],
+        "name": "I-404_Dance of Crimson Strings"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jianwu_3/jianwu_3.skel",
         "extra_file": [],
         "name": "Chien Wu_Dressed for Just Tonight"
@@ -300,6 +350,11 @@
         "name": "Kongou_Troubled Seas"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jinshi/jinshi.skel",
+        "extra_file": [],
+        "name": "Gouden Leeuw_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kaiersheng_2/kaiersheng_2.skel",
         "extra_file": [],
         "name": "Kersaint_Reverent Runner"
@@ -313,6 +368,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kalangshitade/kalangshitade.skel",
         "extra_file": [],
         "name": "Kronshtadt_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kala_2/kala_2.skel",
+        "extra_file": [],
+        "name": "Kala Ideas_Chief Turned Chef"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/kashan_2/kashan_2.skel",
@@ -343,6 +403,16 @@
             "./data/assets/shipgirls/Azur Lane/al_spine/full/lafei_12/lafei_12B.skel"
         ],
         "name": "Laffey_Lazy Days"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/laisha_3/laisha_3.skel",
+        "extra_file": [],
+        "name": "Reisalin\u00a0Stout_New Culinary Horizons"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/leiniya_2/leiniya_2.skel",
+        "extra_file": [],
+        "name": "Lenja_Summer Vacation Time"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/linglai_2/linglai_2.skel",
@@ -382,6 +452,11 @@
         "name": "Marseillaise_Fighting Angel's Regimen"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/meikelunbao/meikelunbao.skel",
+        "extra_file": [],
+        "name": "Mecklenburg_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/moermansike_3/moermansike_3T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/moermansike_3/moermansike_3B.skel"
@@ -394,6 +469,11 @@
         "name": "Mogador_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/molisen_3/molisen_3.skel",
+        "extra_file": [],
+        "name": "Morrison_Technology or Ninjutsu"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nabulesi/nabulesi.skel",
         "extra_file": [],
         "name": "Napoli_Default"
@@ -402,6 +482,16 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/naximofu/naximofu.skel",
         "extra_file": [],
         "name": "Admiral Nakhimov_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nengdai_9/nengdai_9.skel",
+        "extra_file": [],
+        "name": "Noshiro_A Dip in the Moonlight"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nina_2/nina_2.skel",
+        "extra_file": [],
+        "name": "Nina Friede_Caf\u00e9 & Diner Mode"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/ougen_7/ougen_7.skel",
@@ -441,9 +531,19 @@
         "name": "San Diego_Retrofit"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/shi/shi.skel",
+        "extra_file": [],
+        "name": "Lion_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/sikula_4/sikula_4.skel",
         "extra_file": [],
         "name": "Scylla_A Maid's Judgment"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/siwanshi_4/siwanshi_4.skel",
+        "extra_file": [],
+        "name": "Shimanto_The Relaxing Dragon God"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/suweiaitongmengnew/suweiaitongmengnew.skel",
@@ -451,9 +551,29 @@
         "name": "Sovetsky Soyuz_Default"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/suweiaitongmeng_4/suweiaitongmeng_4.skel",
+        "extra_file": [],
+        "name": "Sovetsky Soyuz_Stringed Interrogation"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/talin_4/talin_4.skel",
+        "extra_file": [],
+        "name": "Tallinn_Night of Full Moon and Overflowing Love"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tashigan_4/tashigan_4.skel",
         "extra_file": [],
         "name": "Tashkent_The Sprite's Snapshot"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/telafaerjia/telafaerjia.skel",
+        "extra_file": [],
+        "name": "Trafalgar_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/telinida_2/telinida_2.skel",
+        "extra_file": [],
+        "name": "Trinidad_Trapper in the Changing Room"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tiancheng_cv/tiancheng_cv.skel",
@@ -577,6 +697,16 @@
         "name": "Yat Sen_Paragon of Celestial Grace"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yongqi_2/yongqi_2.skel",
+        "extra_file": [],
+        "name": "Gallant_Express-ive Delivery"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/youmiya_2/youmiya_2.skel",
+        "extra_file": [],
+        "name": "Yumia Liessfeldt_Everyone's Favorite Patissier"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou/yuanchouT.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/yuanchou/yuanchouB.skel"
@@ -639,5 +769,10 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/z52_2/z52_2.skel",
         "extra_file": [],
         "name": "Z52_The Rapid Rabbit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/zhaohe_4/zhaohe_4.skel",
+        "extra_file": [],
+        "name": "Chao Ho_Azure Ripples, Shimmering Sun"
     }
 ]

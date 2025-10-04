@@ -1,5 +1,1049 @@
 [
   {
+    "name": "nimi_(azur_lane)",
+    "canon_name": "nimi",
+    "illustrator": "kaede_(yumesaki_kaede)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "iroha_(azur_lane)",
+    "canon_name": "iroha",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(private_quarters)_(azur_lane)",
+    "canon_name": "taihou (private quarters)",
+    "illustrator": "? yorugami_rei",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kawakaze_(guardian_fox_forever_loyal)_(azur_lane)",
+    "canon_name": "kawakaze (guardian fox forever loyal)",
+    "illustrator": "? natsuki_(natsu_1936)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "doodle_commander_(azur_lane)",
+    "canon_name": "doodle commander",
+    "illustrator": "? gjacky",
+    "danbooru_banned": false
+  },
+  {
+    "name": "laffey_ii_(lady_laffey's_languid_tour)_(azur_lane)",
+    "canon_name": "laffey ii (lady laffey's languid tour)",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagi_(cv)_(moonlit_blossom_on_placid_seas)_(azur_lane)",
+    "canon_name": "amagi (cv) (moonlit blossom on placid seas)",
+    "illustrator": "? ping_zhong_yu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ulrich_von_hutten_(liebestrank)_(azur_lane)",
+    "canon_name": "ulrich von hutten (liebestrank)",
+    "illustrator": "ohisashiburi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "unzen_(arcane_ninja_knowledge)_(azur_lane)",
+    "canon_name": "unzen (arcane ninja knowledge)",
+    "illustrator": "kincora",
+    "danbooru_banned": false
+  },
+  {
+    "name": "alsace_(tipsy_oni_on_a_sacred_night)_(azur_lane)",
+    "canon_name": "alsace (tipsy oni on a sacred night)",
+    "illustrator": "feifeifeihai",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hakuhou_(floral_ninja_roleplay)_(azur_lane)",
+    "canon_name": "hakuhou (floral ninja roleplay)",
+    "illustrator": "yunsang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hakuhou_(azur_lane)",
+    "canon_name": "hakuhou",
+    "illustrator": "yunsang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chao_ho_(azur_ripples_shimmering_sun)_(azur_lane)",
+    "canon_name": "chao ho (azur ripples shimmering sun)",
+    "illustrator": "? zerotwenty_(020)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "new_jersey_(private_quarters)_(azur_lane)",
+    "canon_name": "new jersey (private quarters)",
+    "illustrator": "? irkawaza",
+    "danbooru_banned": false
+  },
+  {
+    "name": "anchorage_(private_quarters)_(azur_lane)",
+    "canon_name": "anchorage (private quarters)",
+    "illustrator": "? jihua_tong",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vittorio_cuniberti_(azur_lane)",
+    "canon_name": "vittorio cuniberti",
+    "illustrator": "nys",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kansas_(azur_lane)",
+    "canon_name": "kansas",
+    "illustrator": "ng_jie",
+    "danbooru_banned": false
+  },
+  {
+    "name": "dmitri_donskoi_(azur_lane)",
+    "canon_name": "dmitri donskoi",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gouden_leeuw_(azur_lane)",
+    "canon_name": "gouden leeuw",
+    "illustrator": "? kive",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-552_(special_sightseeing_service)_(azur_lane)",
+    "canon_name": "u-552 (special sightseeing service)",
+    "illustrator": "k.t.cube",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-552_(azur_lane)",
+    "canon_name": "u-552",
+    "illustrator": "k.t.cube",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_zenker_(azur_lane)",
+    "canon_name": "admiral zenker",
+    "illustrator": "? rainbowbird",
+    "danbooru_banned": false
+  },
+  {
+    "name": "janus_(oath_under_the_morning_sun)_(azur_lane)",
+    "canon_name": "janus (oath under the morning sun)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chang_feng_(a_sky_blue_eclipsing_jade)_(azur_lane)",
+    "canon_name": "chang feng (a sky blue eclipsing jade)",
+    "illustrator": "nys",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuzuki_(luxurious_celebration_time)_(azur_lane)",
+    "canon_name": "hatsuzuki (luxurious celebration time)",
+    "illustrator": "nekojira",
+    "danbooru_banned": false
+  },
+  {
+    "name": "monarch_(sovereign_of_the_beach)_(azur_lane)",
+    "canon_name": "monarch (sovereign of the beach)",
+    "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maryland_(red-hot_drummer)_(azur_lane)",
+    "canon_name": "maryland (red-hot drummer)",
+    "illustrator": "? kiyoi_(gyhw8444)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ying_swei_(blue_waves_limpid_summer)_(azur_lane)",
+    "canon_name": "ying swei (blue waves limpid summer)",
+    "illustrator": "? misopiero",
+    "danbooru_banned": false
+  },
+  {
+    "name": "friedrich_carl_(tender_summer_care)_(azur_lane)",
+    "canon_name": "friedrich carl (tender summer care)",
+    "illustrator": "? yijiufantexi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "formidable_(anniversary_memories)_(azur_lane)",
+    "canon_name": "formidable (anniversary memories)",
+    "illustrator": "kincora",
+    "danbooru_banned": false
+  },
+  {
+    "name": "independence_(retrofit)_(azur_lane)",
+    "canon_name": "independence (retrofit)",
+    "illustrator": "atdan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shimanto_(the_relaxing_dragon_god)_(azur_lane)",
+    "canon_name": "shimanto (the relaxing dragon god)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cleopatra_(stars_and_roses)_(azur_lane)",
+    "canon_name": "cleopatra (stars and roses)",
+    "illustrator": "popqn",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gallant_(express-ive_delivery)_(azur_lane)",
+    "canon_name": "gallant (express-ive delivery)",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pamiat_merkuria_(pick_and_choose!)_(azur_lane)",
+    "canon_name": "pamiat merkuria (pick and choose!)",
+    "illustrator": "byulzzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lion_(the_reclining_dandelion)_(azur_lane)",
+    "canon_name": "lion (the reclining dandelion)",
+    "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gallant_(azur_lane)",
+    "canon_name": "gallant",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cleopatra_(azur_lane)",
+    "canon_name": "cleopatra",
+    "illustrator": "popqn",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(fun_on_the_baize)_(azur_lane)",
+    "canon_name": "taihou (fun on the baize)",
+    "illustrator": "yunsang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lion_(azur_lane)",
+    "canon_name": "lion",
+    "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "glorious_(meta)_(azur_lane)",
+    "canon_name": "glorious (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "grenville_(meta)_(azur_lane)",
+    "canon_name": "grenville (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "tai_yuan_(two_hearts_one_cushion)_(azur_lane)",
+    "canon_name": "tai yuan (two hearts one cushion)",
+    "illustrator": "nagu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "albion_(a_fairy-tale_breakfast)_(azur_lane)",
+    "canon_name": "albion (a fairy-tale breakfast)",
+    "illustrator": "ng_jie",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hakuryuu_(four_fine_layers)_(azur_lane)",
+    "canon_name": "hakuryuu (four fine layers)",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "de_zeven_provincien_(azur_lane)",
+    "canon_name": "de zeven provincien",
+    "illustrator": "? silvergrace",
+    "danbooru_banned": false
+  },
+  {
+    "name": "specialized_bulin_mkiii_(the_bulin_bringer_of_justice)_(azur_lane)",
+    "canon_name": "specialized bulin mkiii (the bulin bringer of justice)",
+    "illustrator": "? 10011018",
+    "danbooru_banned": false
+  },
+  {
+    "name": "stremitelny_(nurse_on_the_night_shift)_(azur_lane)",
+    "canon_name": "stremitelny (nurse on the night shift)",
+    "illustrator": "huoyi_(zzh100200)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nevada_(meta)_(azur_lane)",
+    "canon_name": "nevada (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "santa_fe_(the_rumor_mill_never_sleeps)_(azur_lane)",
+    "canon_name": "santa fe (the rumor mill never sleeps)",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "franklin_(heart-throbbing_records)_(azur_lane)",
+    "canon_name": "franklin (heart-throbbing records)",
+    "illustrator": "senri_gan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suzuya_(midnight_care)_(azur_lane)",
+    "canon_name": "suzuya (midnight care)",
+    "illustrator": "momi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mogador_(olfactory_nursery_call)_(azur_lane)",
+    "canon_name": "mogador (olfactory nursery call)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "santa_fe_(azur_lane)",
+    "canon_name": "santa fe",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "franklin_(azur_lane)",
+    "canon_name": "franklin",
+    "illustrator": "senri_gan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hornet_(meta)_(azur_lane)",
+    "canon_name": "hornet (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "giosue_carducci_(verses_in_balance)_(azur_lane)",
+    "canon_name": "giosue carducci (verses in balance)",
+    "illustrator": "? xuan_ban29394",
+    "danbooru_banned": false
+  },
+  {
+    "name": "scylla_(a_maid's_judgment)_(azur_lane)",
+    "canon_name": "scylla (a maid's judgment)",
+    "illustrator": "hagi_(ame_hagi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "andrea_doria_(meta)_(azur_lane)",
+    "canon_name": "andrea doria (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "giosue_carducci_(azur_lane)",
+    "canon_name": "giosue carducci",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maggiore_baracca_(azur_lane)",
+    "canon_name": "maggiore baracca",
+    "illustrator": "? swt038",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nubian_(the_modern-day_clumsy_maid_escapade)_(azur_lane)",
+    "canon_name": "nubian (the modern-day clumsy maid escapade)",
+    "illustrator": "kinjo_kuromomo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "manjuu_abuse_(azur_lane)",
+    "canon_name": "manjuu abuse",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shiratsuyu_(thawing_snow_fireworks_alight)_(azur_lane)",
+    "canon_name": "shiratsuyu (thawing snow fireworks alight)",
+    "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bolzano_(meta)_(azur_lane)",
+    "canon_name": "bolzano (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "trieste_(a_brush_of_springtime_ink)_(azur_lane)",
+    "canon_name": "trieste (a brush of springtime ink)",
+    "illustrator": "romana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "new_jersey_(dancing_in_the_moonlight)_(azur_lane)",
+    "canon_name": "new jersey (dancing in the moonlight)",
+    "illustrator": "yyy_(zelda10010)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "jean_bart_(springlight_etoiles)_(azur_lane)",
+    "canon_name": "jean bart (springlight etoiles)",
+    "illustrator": "ask_(askzy)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mainz_(a_blend_of_serenity)_(azur_lane)",
+    "canon_name": "mainz (a blend of serenity)",
+    "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "murmansk_(chamber_of_fragrance)_(azur_lane)",
+    "canon_name": "murmansk (chamber of fragrance)",
+    "illustrator": "byulzzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chang_feng_(cozy_spring_cleaning)_(azur_lane)",
+    "canon_name": "chang feng (cozy spring cleaning)",
+    "illustrator": "? dhy-232",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hai_yung_(maple_impressions)_(azur_lane)",
+    "canon_name": "hai yung (maple impressions)",
+    "illustrator": "popqn",
+    "danbooru_banned": false
+  },
+  {
+    "name": "brest_(moonlit_night's_spring_vista)_(azur_lane)",
+    "canon_name": "brest (moonlit night's spring vista)",
+    "illustrator": "ng_jie",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hai_yung_(azur_lane)",
+    "canon_name": "hai yung",
+    "illustrator": "popqn",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fu_po_(azur_lane)",
+    "canon_name": "fu po",
+    "illustrator": "? mokeosushi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chang_feng_(azur_lane)",
+    "canon_name": "chang feng",
+    "illustrator": "nys",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kearsarge_(springtime_monitoring)_(azur_lane)",
+    "canon_name": "kearsarge (springtime monitoring)",
+    "illustrator": "yd_(orange_maru)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "halford_(a_special_day_with_the_bunny_lord)_(azur_lane)",
+    "canon_name": "halford (a special day with the bunny lord)",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chikuma_(premium_prize_on_the_table)_(azur_lane)",
+    "canon_name": "chikuma (premium prize on the table)",
+    "illustrator": "shisantian",
+    "danbooru_banned": false
+  },
+  {
+    "name": "daisen_(bunny_priestess_in_prayer)_(azur_lane)",
+    "canon_name": "daisen (bunny priestess in prayer)",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_nakhimov_(first_time_in_the_limelight)_(azur_lane)",
+    "canon_name": "admiral nakhimov (first time in the limelight)",
+    "illustrator": "kincora",
+    "danbooru_banned": false
+  },
+  {
+    "name": "regensburg_(the_dark_dragon's_dungeon)_(azur_lane)",
+    "canon_name": "regensburg (the dark dragon's dungeon)",
+    "illustrator": "yd_(orange_maru)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shinano_(visions_of_fantasy)_(azur_lane)",
+    "canon_name": "shinano (visions of fantasy)",
+    "illustrator": "soaryuna",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z11_(service_sincerity_and_insolvency)_(azur_lane)",
+    "canon_name": "z11 (service sincerity and insolvency)",
+    "illustrator": "freng",
+    "danbooru_banned": false
+  },
+  {
+    "name": "janus_(a_lesson_in_billiards)_(azur_lane)",
+    "canon_name": "janus (a lesson in billiards)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z52_(the_rapid_rabbit)_(azur_lane)",
+    "canon_name": "z52 (the rapid rabbit)",
+    "illustrator": "chyan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z11_(azur_lane)",
+    "canon_name": "z11",
+    "illustrator": "freng",
+    "danbooru_banned": false
+  },
+  {
+    "name": "duisburg_(azur_lane)",
+    "canon_name": "duisburg",
+    "illustrator": "? chikanari2562",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z9_(azur_lane)",
+    "canon_name": "z9",
+    "illustrator": "? nayuha_(nayuleaf)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fritz_rumey_(azur_lane)",
+    "canon_name": "fritz rumey",
+    "illustrator": "? maenoo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z52_(azur_lane)",
+    "canon_name": "z52",
+    "illustrator": "chyan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_hipper_(meta)_(azur_lane)",
+    "canon_name": "admiral hipper (meta)",
+    "illustrator": "chyan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(meta)_(azur_lane)",
+    "canon_name": "taihou (meta)",
+    "illustrator": "dishwasher1910",
+    "danbooru_banned": false
+  },
+  {
+    "name": "weser_(offtime_cafe)_(azur_lane)",
+    "canon_name": "weser (offtime cafe)",
+    "illustrator": "haori_io",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(forbidden_fruit)_(azur_lane)",
+    "canon_name": "taihou (forbidden fruit)",
+    "illustrator": "yunsang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yamakaze_(now_for_a_magic_trick!)_(azur_lane)",
+    "canon_name": "yamakaze (now for a magic trick!)",
+    "illustrator": "shnva",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ulrich_von_hutten_(what_comes_after_the_bell)_(azur_lane)",
+    "canon_name": "ulrich von hutten (what comes after the bell)",
+    "illustrator": "ohisashiburi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ganj-i-sawai_(mermaid_in_distress)_(azur_lane)",
+    "canon_name": "ganj-i-sawai (mermaid in distress)",
+    "illustrator": "chyan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amity_(friendly_franken)_(azur_lane)",
+    "canon_name": "amity (friendly franken)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fancy_(grave_of_your_liking)_(azur_lane)",
+    "canon_name": "fancy (grave of your liking)",
+    "illustrator": "ohisashiburi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bristol_(head_investigator)_(azur_lane)",
+    "canon_name": "bristol (head investigator)",
+    "illustrator": "nagu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "owari_(my_wish_is_for_love)_(azur_lane)",
+    "canon_name": "owari (my wish is for love)",
+    "illustrator": "dishwasher1910",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ganj-i-sawai_(azur_lane)",
+    "canon_name": "ganj-i-sawai",
+    "illustrator": "chyan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amity_(azur_lane)",
+    "canon_name": "amity",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fancy_(azur_lane)",
+    "canon_name": "fancy",
+    "illustrator": "ohisashiburi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shoukaku_(white_crane_of_domestic_bliss)_(azur_lane)",
+    "canon_name": "shoukaku (white crane of domestic bliss)",
+    "illustrator": "? crane_enthusiast",
+    "danbooru_banned": false
+  },
+  {
+    "name": "york_(retrofit)_(azur_lane)",
+    "canon_name": "york (retrofit)",
+    "illustrator": "mkiiiiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sendai_(retrofit)_(azur_lane)",
+    "canon_name": "sendai (retrofit)",
+    "illustrator": "jianren",
+    "danbooru_banned": false
+  },
+  {
+    "name": "furutaka_(retrofit)_(azur_lane)",
+    "canon_name": "furutaka (retrofit)",
+    "illustrator": "kisetsu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "le_mars_(retrofit)_(azur_lane)",
+    "canon_name": "le mars (retrofit)",
+    "illustrator": "yano_mitsuki_(nanairo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kagerou_(retrofit)_(azur_lane)",
+    "canon_name": "kagerou (retrofit)",
+    "illustrator": "haluka_(aixioo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hakuryuu_(folded_over_a_thousand_times)_(azur_lane)",
+    "canon_name": "hakuryuu (folded over a thousand times)",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suffren_(unrivaled_winsomeness)_(azur_lane)",
+    "canon_name": "suffren (unrivaled winsomeness)",
+    "illustrator": "lentain",
+    "danbooru_banned": false
+  },
+  {
+    "name": "forbin_(retrofit)_(azur_lane)",
+    "canon_name": "forbin (retrofit)",
+    "illustrator": "yano_mitsuki_(nanairo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "exeter_(retrofit)_(azur_lane)",
+    "canon_name": "exeter (retrofit)",
+    "illustrator": "mkiiiiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "emile_bertin_(retrofit)_(azur_lane)",
+    "canon_name": "emile bertin (retrofit)",
+    "illustrator": "oyari_ashito",
+    "danbooru_banned": false
+  },
+  {
+    "name": "curlew_(retrofit)_(azur_lane)",
+    "canon_name": "curlew (retrofit)",
+    "illustrator": "monety",
+    "danbooru_banned": false
+  },
+  {
+    "name": "curacoa_(retrofit)_(azur_lane)",
+    "canon_name": "curacoa (retrofit)",
+    "illustrator": "monety",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ariake_(retrofit)_(azur_lane)",
+    "canon_name": "ariake (retrofit)",
+    "illustrator": "asagi_yuna",
+    "danbooru_banned": false
+  },
+  {
+    "name": "abukuma_(retrofit)_(azur_lane)",
+    "canon_name": "abukuma (retrofit)",
+    "illustrator": "ootsuki_momiji",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bismarck_(wedding_dominion)_(azur_lane)",
+    "canon_name": "bismarck (wedding dominion)",
+    "illustrator": "kurumi_(recycllamo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "colorado_(old_design)_(azur_lane)",
+    "canon_name": "colorado (old design)",
+    "illustrator": "rail_(silverbow)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "west_virginia_(old_design)_(azur_lane)",
+    "canon_name": "west virginia (old design)",
+    "illustrator": "rail_(silverbow)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_(old_design)_(azur_lane)",
+    "canon_name": "zuikaku (old design)",
+    "illustrator": "mkiiiiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "chikuma_(old_design)_(azur_lane)",
+    "canon_name": "chikuma (old design)",
+    "illustrator": "? utsusemi_(sola)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "mutsu_(old_design)_(azur_lane)",
+    "canon_name": "mutsu (old design)",
+    "illustrator": "? jong_tu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_(old_design)_(azur_lane)",
+    "canon_name": "nagato (old design)",
+    "illustrator": "jong_tu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "gloucester_(violet_enrapturement)_(azur_lane)",
+    "canon_name": "gloucester (violet enrapturement)",
+    "illustrator": "? fuyuame5089",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_rupprecht_(midnight_pearl)_(azur_lane)",
+    "canon_name": "prinz rupprecht (midnight pearl)",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kashino_(fresh_and_sweet)_(azur_lane)",
+    "canon_name": "kashino (fresh and sweet)",
+    "illustrator": "ssr_(azmr2828)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ting_an_(undercover_or_uncovered?!)_(azur_lane)",
+    "canon_name": "ting an (undercover or uncovered?!)",
+    "illustrator": "popqn",
+    "danbooru_banned": false
+  },
+  {
+    "name": "sirius_(rabbit_of_paradise)_(azur_lane)",
+    "canon_name": "sirius (rabbit of paradise)",
+    "illustrator": "kincora",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bremerton_(pillowed_counseling)_(azur_lane)",
+    "canon_name": "bremerton (pillowed counseling)",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "musashi_(the_purple_rabbit's_marksmanship)_(azur_lane)",
+    "canon_name": "musashi (the purple rabbit's marksmanship)",
+    "illustrator": "dishwasher1910",
+    "danbooru_banned": false
+  },
+  {
+    "name": "suffolk_(retrofit)_(azur_lane)",
+    "canon_name": "suffolk (retrofit)",
+    "illustrator": "kaede_(yumesaki_kaede)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z35_(himmel:_beyond_love's_boundaries)_(azur_lane)",
+    "canon_name": "z35 (himmel: beyond love's boundaries)",
+    "illustrator": "sakura_koharu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hiei_(meta)_(azur_lane)",
+    "canon_name": "hiei (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maryland_(retrofit)_(azur_lane)",
+    "canon_name": "maryland (retrofit)",
+    "illustrator": "chyan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagi_(cv)_(throne_of_fallen_petals)_(azur_lane)",
+    "canon_name": "amagi (cv) (throne of fallen petals)",
+    "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "belfast_(blissful_service)_(azur_lane)",
+    "canon_name": "belfast (blissful service)",
+    "illustrator": "? mesc_(bfwz529650971)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nagato_(summer_fashion)_(azur_lane)",
+    "canon_name": "nagato (summer fashion)",
+    "illustrator": "? hamiro",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amagi_(cv)_(azur_lane)",
+    "canon_name": "amagi (cv)",
+    "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "intruder_(azur_lane)",
+    "canon_name": "intruder",
+    "illustrator": "? maitei_roppa",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kawakaze_(meta)_(azur_lane)",
+    "canon_name": "kawakaze (meta)",
+    "illustrator": "? natsuki_(natsu_1936)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "ark_royal_(order_amidst_amusement)_(azur_lane)",
+    "canon_name": "ark royal (order amidst amusement)",
+    "illustrator": "mkiiiiii",
+    "danbooru_banned": false
+  },
+  {
+    "name": "penumbral_x_(azur_lane)",
+    "canon_name": "penumbral x",
+    "illustrator": "? jingojuice",
+    "danbooru_banned": false
+  },
+  {
+    "name": "nevada_(retrofit)_(azur_lane)",
+    "canon_name": "nevada (retrofit)",
+    "illustrator": "hao_(patinnko)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuihou_(joy_comes_on_fledgling_wings)_(azur_lane)",
+    "canon_name": "zuihou (joy comes on fledgling wings)",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hatsuharu_(retrofit)_(azur_lane)",
+    "canon_name": "hatsuharu (retrofit)",
+    "illustrator": "allenes",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kersaint_(a_saint's_mercy_can_do_no_wrong)_(azur_lane)",
+    "canon_name": "kersaint (a saint's mercy can do no wrong)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bell_(saloon_mishaps)_(azur_lane)",
+    "canon_name": "bell (saloon mishaps)",
+    "illustrator": "nys",
+    "danbooru_banned": false
+  },
+  {
+    "name": "unicorn_(champion_of_unicorn)_(azur_lane)",
+    "canon_name": "unicorn (champion of unicorn)",
+    "illustrator": "? qian_hen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bell_(azur_lane)",
+    "canon_name": "bell",
+    "illustrator": "nys",
+    "danbooru_banned": false
+  },
+  {
+    "name": "herring_(the_town_with_no_shade)_(azur_lane)",
+    "canon_name": "herring (the town with no shade)",
+    "illustrator": "k.t.cube",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fargo_(dairy_in_the_dreary_sun)_(azur_lane)",
+    "canon_name": "fargo (dairy in the dreary sun)",
+    "illustrator": "chungu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "herring_(azur_lane)",
+    "canon_name": "herring",
+    "illustrator": "k.t.cube",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fargo_(azur_lane)",
+    "canon_name": "fargo",
+    "illustrator": "chungu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "anchorage_(oath_of_sunsets_and_fireworks)_(azur_lane)",
+    "canon_name": "anchorage (oath of sunsets and fireworks)",
+    "illustrator": "lal!role",
+    "danbooru_banned": false
+  },
+  {
+    "name": "indiana_(high_noon_arrest)_(azur_lane)",
+    "canon_name": "indiana (high noon arrest)",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "eldridge_(retrofit)_(azur_lane)",
+    "canon_name": "eldridge (retrofit)",
+    "illustrator": "kinjo_kuromomo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "indiana_(azur_lane)",
+    "canon_name": "indiana",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "maryland_(old_design)_(azur_lane)",
+    "canon_name": "maryland (old design)",
+    "illustrator": "rail_(silverbow)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "roma_(vacation_upon_the_tiber)_(azur_lane)",
+    "canon_name": "roma (vacation upon the tiber)",
+    "illustrator": "chyoel",
+    "danbooru_banned": false
+  },
+  {
+    "name": "joffre_(blessings'_first_flight)_(azur_lane)",
+    "canon_name": "joffre (blessings' first flight)",
+    "illustrator": "suisai_(suisao)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-96_(wolfen_dolly)_(azur_lane)",
+    "canon_name": "u-96 (wolfen dolly)",
+    "illustrator": "kinjo_kuromomo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "zuikaku_(zoom_like_the_wind)_(azur_lane)",
+    "canon_name": "zuikaku (zoom like the wind)",
+    "illustrator": "? suo_bu_ye_feng",
+    "danbooru_banned": false
+  },
+  {
+    "name": "l'audacieux_(protector_beneath_the_parasol)_(azur_lane)",
+    "canon_name": "l'audacieux (protector beneath the parasol)",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "l'audacieux_(azur_lane)",
+    "canon_name": "l'audacieux",
+    "illustrator": "namyo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "js_izumo_(azur_lane)",
+    "canon_name": "js izumo",
+    "illustrator": "? setsuka.",
+    "danbooru_banned": false
+  },
+  {
+    "name": "hai_tien_(baker_of_heart_into_sweets)_(azur_lane)",
+    "canon_name": "hai tien (baker of heart into sweets)",
+    "illustrator": "vilor",
+    "danbooru_banned": false
+  },
+  {
+    "name": "halford_(azur_lane)",
+    "canon_name": "halford",
+    "illustrator": "shnva",
+    "danbooru_banned": false
+  },
+  {
+    "name": "daisen_(azur_lane)",
+    "canon_name": "daisen",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "napoli_(azur_lane)",
+    "canon_name": "napoli",
+    "illustrator": "? yuexiang_zhu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "admiral_nakhimov_(azur_lane)",
+    "canon_name": "admiral nakhimov",
+    "illustrator": "kincora",
+    "danbooru_banned": false
+  },
+  {
     "name": "eldridge_(after-school_good_girl)_(azur_lane)",
     "canon_name": "eldridge (after-school good girl)",
     "illustrator": "kinjo_kuromomo",
@@ -12,9 +1056,27 @@
     "danbooru_banned": false
   },
   {
+    "name": "u-31_(let's_go_home)_(azur_lane)",
+    "canon_name": "u-31 (let's go home)",
+    "illustrator": "sanze_(gokiburi_kirai)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "alvitr_(muspel's_torrid_secrets)_(azur_lane)",
+    "canon_name": "alvitr (muspel's torrid secrets)",
+    "illustrator": "ng_jie",
+    "danbooru_banned": false
+  },
+  {
     "name": "z47_(young_again_filter)_(azur_lane)",
     "canon_name": "z47 (young again filter)",
     "illustrator": "romana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "u-31_(azur_lane)",
+    "canon_name": "u-31",
+    "illustrator": "sanze_(gokiburi_kirai)",
     "danbooru_banned": false
   },
   {
@@ -27,6 +1089,12 @@
     "name": "z47_(azur_lane)",
     "canon_name": "z47",
     "illustrator": "romana",
+    "danbooru_banned": false
+  },
+  {
+    "name": "alvitr_(azur_lane)",
+    "canon_name": "alvitr",
+    "illustrator": "kincora",
     "danbooru_banned": false
   },
   {
@@ -140,7 +1208,7 @@
   {
     "name": "emden_(duet_of_guiding_stars)_(azur_lane)",
     "canon_name": "emden (duet of guiding stars)",
-    "illustrator": "? age_fx",
+    "illustrator": "? uaru",
     "danbooru_banned": false
   },
   {
@@ -176,7 +1244,7 @@
   {
     "name": "mogador_(azur_lane)",
     "canon_name": "mogador",
-    "illustrator": "? piiyo_(0531_ppp)",
+    "illustrator": "mimoza_(96mimo414)",
     "danbooru_banned": false
   },
   {
@@ -206,7 +1274,7 @@
   {
     "name": "noshiro_(dressed-up_date)_(azur_lane)",
     "canon_name": "noshiro (dressed-up date)",
-    "illustrator": "batsu",
+    "illustrator": "byulzzi",
     "danbooru_banned": false
   },
   {
@@ -285,6 +1353,12 @@
     "name": "vampire_(meta)_(azur_lane)",
     "canon_name": "vampire (meta)",
     "illustrator": "saru",
+    "danbooru_banned": false
+  },
+  {
+    "name": "friedrich_carl_(azur_lane)",
+    "canon_name": "friedrich carl",
+    "illustrator": "? itacho_(itasha_draws)",
     "danbooru_banned": false
   },
   {
@@ -518,7 +1592,7 @@
   {
     "name": "kimberly_(meta)_(azur_lane)",
     "canon_name": "kimberly (meta)",
-    "illustrator": "haori_io",
+    "illustrator": "kexue",
     "danbooru_banned": false
   },
   {
@@ -603,6 +1677,12 @@
     "name": "ajax_(retrofit)_(azur_lane)",
     "canon_name": "ajax (retrofit)",
     "illustrator": "kaede_(yumesaki_kaede)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "antoniotto_usodimare_(azur_lane)",
+    "canon_name": "antoniotto usodimare",
+    "illustrator": "? super_mizow",
     "danbooru_banned": false
   },
   {
@@ -794,7 +1874,7 @@
   {
     "name": "enforcer_xiv_harmony_(azur_lane)",
     "canon_name": "enforcer xiv harmony",
-    "illustrator": "? as4gi",
+    "illustrator": "? sundajin_asagi",
     "danbooru_banned": false
   },
   {
@@ -866,7 +1946,7 @@
   {
     "name": "shimakaze_(clumsy_moon_rabbit)_(azur_lane)",
     "canon_name": "shimakaze (clumsy moon rabbit)",
-    "illustrator": "? umyonge_(lkakeu)",
+    "illustrator": "kuroboshi_kouhaku",
     "danbooru_banned": false
   },
   {
@@ -903,7 +1983,7 @@
     "name": "sakawa_(the_keys_of_love)_(azur_lane)",
     "canon_name": "sakawa (the keys of love)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "javelin_(a_different_dance)_(azur_lane)",
@@ -1538,7 +2618,7 @@
   {
     "name": "tracker_(azur_lane)",
     "canon_name": "tracker",
-    "illustrator": "? toucailao",
+    "illustrator": "? tou_cai_lao_tc",
     "danbooru_banned": false
   },
   {
@@ -1743,7 +2823,7 @@
     "name": "sakawa_(icy_indulgence)_(azur_lane)",
     "canon_name": "sakawa (icy indulgence)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "manchester_(a_moment_in_the_shade)_(azur_lane)",
@@ -1809,13 +2889,13 @@
     "name": "takao_(meta)_(azur_lane)",
     "canon_name": "takao (meta)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "ember_(azur_lane)",
     "canon_name": "ember",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "enterprise_(meta)_(azur_lane)",
@@ -2052,6 +3132,12 @@
     "danbooru_banned": false
   },
   {
+    "name": "prinz_rupprecht_(the_gate_dragon_advent)_(azur_lane)",
+    "canon_name": "prinz rupprecht (the gate dragon advent)",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
     "name": "u-110_(springtime_shark)_(azur_lane)",
     "canon_name": "u-110 (springtime shark)",
     "illustrator": "capriccio",
@@ -2244,6 +3330,12 @@
     "danbooru_banned": false
   },
   {
+    "name": "oceana_(azur_lane)",
+    "canon_name": "oceana",
+    "illustrator": "? jaggi_95",
+    "danbooru_banned": false
+  },
+  {
     "name": "arizona_(meta)_(azur_lane)",
     "canon_name": "arizona (meta)",
     "illustrator": "mkiiiiii",
@@ -2376,6 +3468,12 @@
     "danbooru_banned": false
   },
   {
+    "name": "kashino_(maid_for_mayhem)_(azur_lane)",
+    "canon_name": "kashino (maid for mayhem)",
+    "illustrator": "? jndfh",
+    "danbooru_banned": false
+  },
+  {
     "name": "z28_(sylvan_celebration)_(azur_lane)",
     "canon_name": "z28 (sylvan celebration)",
     "illustrator": "kanzarin",
@@ -2397,7 +3495,7 @@
     "name": "sakawa_(the_colors_of_love)_(azur_lane)",
     "canon_name": "sakawa (the colors of love)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "mutsu_(a_maid's_mis-service?)_(azur_lane)",
@@ -2475,7 +3573,7 @@
     "name": "sakawa_(azur_lane)",
     "canon_name": "sakawa",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "musashi_(azur_lane)",
@@ -2654,7 +3752,7 @@
   {
     "name": "prinz_rupprecht_(azur_lane)",
     "canon_name": "prinz rupprecht",
-    "illustrator": "? kuyoumi",
+    "illustrator": "katsudansou",
     "danbooru_banned": false
   },
   {
@@ -2757,7 +3855,7 @@
     "name": "washington_(jubilant_smile)_(azur_lane)",
     "canon_name": "washington (jubilant smile)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "le_mars_(splendorous_debut)_(azur_lane)",
@@ -3015,7 +4113,7 @@
     "name": "sheffield_(bulletborne)_(azur_lane)",
     "canon_name": "sheffield (bulletborne)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "jintsuu_(the_tactician's_vacation)_(azur_lane)",
@@ -3159,7 +4257,7 @@
     "name": "kongou_(breezy_commute)_(azur_lane)",
     "canon_name": "kongou (breezy commute)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "scharnhorst_(meta)_(azur_lane)",
@@ -3237,6 +4335,12 @@
     "name": "chen_hai_(azur_lane)",
     "canon_name": "chen hai",
     "illustrator": "gujianshaonu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kiev_(azur_lane)",
+    "canon_name": "kiev",
+    "illustrator": "? konoebi",
     "danbooru_banned": false
   },
   {
@@ -3405,13 +4509,13 @@
     "name": "yoizuki_(firecrackers_and_steamed_buns)_(azur_lane)",
     "canon_name": "yoizuki (firecrackers and steamed buns)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "reno_(spring's_inspiration)_(azur_lane)",
     "canon_name": "reno (spring's inspiration)",
     "illustrator": "pandea_work",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "hanazuki_(blossoming_spring_resplendent_moon)_(azur_lane)",
@@ -3507,7 +4611,7 @@
     "name": "noshiro_(hold_the_ice)_(azur_lane)",
     "canon_name": "noshiro (hold the ice)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "u-1206_(maid_just_for_you)_(azur_lane)",
@@ -3543,7 +4647,7 @@
     "name": "choukai_(tidy_store_tidy_mind)_(azur_lane)",
     "canon_name": "choukai (tidy store tidy mind)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "u-1206_(azur_lane)",
@@ -3621,7 +4725,7 @@
     "name": "independence_(the_tailwind_of_opportunity)_(azur_lane)",
     "canon_name": "independence (the tailwind of opportunity)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "bremerton_(day-off_date)_(azur_lane)",
@@ -3693,7 +4797,7 @@
     "name": "saint-louis_(holy_knight's_resplendence)_(azur_lane)",
     "canon_name": "saint-louis (holy knight's resplendence)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "monarch_(black_gerard)_(azur_lane)",
@@ -3921,13 +5025,13 @@
     "name": "independence_(liberty_and_leisure)_(azur_lane)",
     "canon_name": "independence (liberty and leisure)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "independence_(transfer_student_from_afar)_(azur_lane)",
     "canon_name": "independence (transfer student from afar)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "chaser_(the_way_of_the_dragon_empery)_(azur_lane)",
@@ -3993,19 +5097,19 @@
     "name": "mikasa_(untarnished_splendor)_(azur_lane)",
     "canon_name": "mikasa (untarnished splendor)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "mikasa_(reverence_for_rest_and_relaxation)_(azur_lane)",
     "canon_name": "mikasa (reverence for rest and relaxation)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "mikasa_(blossom-viewing_season)_(azur_lane)",
     "canon_name": "mikasa (blossom-viewing season)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "jean_bart_(private_apres_midi)_(azur_lane)",
@@ -4083,37 +5187,37 @@
     "name": "kongou_(hospital_talent)_(azur_lane)",
     "canon_name": "kongou (hospital talent)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kongou_(the_beauties_of_nature)_(azur_lane)",
     "canon_name": "kongou (the beauties of nature)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kirishima_(graceful_ink_incense)_(azur_lane)",
     "canon_name": "kirishima (graceful ink incense)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kirishima_(after-school_cannon_time)_(azur_lane)",
     "canon_name": "kirishima (after-school cannon time)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "hiei_(moonlit_cruise)_(azur_lane)",
     "canon_name": "hiei (moonlit cruise)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "haruna_(scarlet_innocence)_(azur_lane)",
     "canon_name": "haruna (scarlet innocence)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "dunkerque_(afternoon_venus)_(azur_lane)",
@@ -4125,13 +5229,13 @@
     "name": "takao_(school_romanza)_(azur_lane)",
     "canon_name": "takao (school romanza)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "takao_(the_lessons_of_spring)_(azur_lane)",
     "canon_name": "takao (the lessons of spring)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "minneapolis_(wild_huntress_schoolgirl)_(azur_lane)",
@@ -4143,25 +5247,25 @@
     "name": "atago_(lily-white_vow)_(azur_lane)",
     "canon_name": "atago (lily-white vow)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(school_traumerei)_(azur_lane)",
     "canon_name": "atago (school traumerei)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(hallmarks_of_winter)_(azur_lane)",
     "canon_name": "atago (hallmarks of winter)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(summer_march)_(azur_lane)",
     "canon_name": "atago (summer march)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "algerie_(white_sand_paradise)_(azur_lane)",
@@ -4227,13 +5331,13 @@
     "name": "swiftsure_(beauty_of_white_jade)_(azur_lane)",
     "canon_name": "swiftsure (beauty of white jade)",
     "illustrator": "aiko_(kanl)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "swiftsure_(study_hall_cyclamen)_(azur_lane)",
     "canon_name": "swiftsure (study hall cyclamen)",
     "illustrator": "aiko_(kanl)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "sirius_(scorching-hot_seirios)_(azur_lane)",
@@ -4257,7 +5361,7 @@
     "name": "noshiro_(xanadu's_eventide)_(azur_lane)",
     "canon_name": "noshiro (xanadu's eventide)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "montpelier_(flower_of_the_snowy_night)_(azur_lane)",
@@ -4269,7 +5373,7 @@
     "name": "jeanne_d'arc_(saintess_of_the_sea)_(azur_lane)",
     "canon_name": "jeanne d'arc (saintess of the sea)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "belfast_(folded_fascination)_(azur_lane)",
@@ -4305,7 +5409,7 @@
     "name": "sheffield_(black_crow's_finery)_(azur_lane)",
     "canon_name": "sheffield (black crow's finery)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "ping_hai_(dragon_sisters!_-p)_(azur_lane)",
@@ -4389,7 +5493,7 @@
     "name": "aurora_(the_tale_of_spring)_(azur_lane)",
     "canon_name": "aurora (the tale of spring)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "memphis_(mystical_night)_(azur_lane)",
@@ -4593,7 +5697,7 @@
     "name": "harutsuki_(a_dance_for_the_coming_spring)_(azur_lane)",
     "canon_name": "harutsuki (a dance for the coming spring)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "javelin_(energetic_idol_@120%_motivation!)_(azur_lane)",
@@ -4731,7 +5835,7 @@
     "name": "kiyonami_(festive_riding_hood?)_(azur_lane)",
     "canon_name": "kiyonami (festive riding hood?)",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "isokaze_(sengoku_smasher)_(azur_lane)",
@@ -4809,7 +5913,7 @@
     "name": "bush_(budding_painter)_(azur_lane)",
     "canon_name": "bush (budding painter)",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "asashio_(the_transfer_student_underneath_the_dancing_petals)_(azur_lane)",
@@ -4863,7 +5967,7 @@
     "name": "noshiro_(cozy_enclave)_(azur_lane)",
     "canon_name": "noshiro (cozy enclave)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "le_terrible_(sunlight_seaspray_and_sanctity)_(azur_lane)",
@@ -4887,7 +5991,7 @@
     "name": "ibuki_(tranquil_sunya)_(azur_lane)",
     "canon_name": "ibuki (tranquil sunya)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "maille-breze_(azur_lane)",
@@ -4935,7 +6039,7 @@
     "name": "noshiro_(a_tale_of_two_lovers)_(azur_lane)",
     "canon_name": "noshiro (a tale of two lovers)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "emile_bertin_(gilded_dance)_(azur_lane)",
@@ -4983,12 +6087,6 @@
     "name": "vauquelin_(one-girl_orchestra)_(azur_lane)",
     "canon_name": "vauquelin (one-girl orchestra)",
     "illustrator": "vilor",
-    "danbooru_banned": false
-  },
-  {
-    "name": "aquila_(green_garden_elegant_sadia)_(azur_lane)",
-    "canon_name": "aquila (green garden elegant sadia)",
-    "illustrator": "necomi",
     "danbooru_banned": false
   },
   {
@@ -5127,13 +6225,13 @@
     "name": "reno_(reno_bunnino)_(azur_lane)",
     "canon_name": "reno (reno bunnino)",
     "illustrator": "pandea_work",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "north_carolina_(the_heart's_desire)_(azur_lane)",
     "canon_name": "north carolina (the heart's desire)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "abercrombie_(mischief_on_the_rocks)_(azur_lane)",
@@ -5289,7 +6387,7 @@
     "name": "azuma_(lily-white_longing)_(azur_lane)",
     "canon_name": "azuma (lily-white longing)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "rodney_(palace_of_blessings)_(azur_lane)",
@@ -5336,7 +6434,7 @@
   {
     "name": "formidable_(timeless_classics)_(azur_lane)",
     "canon_name": "formidable (timeless classics)",
-    "illustrator": "? qiao_gongzi",
+    "illustrator": "? luoloo",
     "danbooru_banned": false
   },
   {
@@ -5564,7 +6662,7 @@
   {
     "name": "pola_(seaside_coincidence)_(azur_lane)",
     "canon_name": "pola (seaside coincidence)",
-    "illustrator": "? konmori_(kinbou_sokai)",
+    "illustrator": "? asamura_hiori",
     "danbooru_banned": false
   },
   {
@@ -5661,13 +6759,13 @@
     "name": "independence_(relaxation_i)_(azur_lane)",
     "canon_name": "independence (relaxation i)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "mikasa_(leisure_rest_cherish)_(azur_lane)",
     "canon_name": "mikasa (leisure rest cherish)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "ping_hai_(baobao's_buddy!)_(azur_lane)",
@@ -5835,7 +6933,7 @@
     "name": "aurora_(garb_of_eternal_prosperity)_(azur_lane)",
     "canon_name": "aurora (garb of eternal prosperity)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "queen_elizabeth_(crown_jewel_of_the_royal_navy)_(azur_lane)",
@@ -5892,12 +6990,6 @@
     "danbooru_banned": false
   },
   {
-    "name": "kizuna_ai_(festive)_(azur_lane)",
-    "canon_name": "kizuna ai (festive)",
-    "illustrator": "gebijiade_89 morikura_en",
-    "danbooru_banned": false
-  },
-  {
     "name": "saratoga_(festival_in_spring)_(azur_lane)",
     "canon_name": "saratoga (festival in spring)",
     "illustrator": "saru",
@@ -5931,13 +7023,13 @@
     "name": "saint-louis_(alluring_administrator)_(azur_lane)",
     "canon_name": "saint-louis (alluring administrator)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kirishima_(fragrant_inked_grace)_(azur_lane)",
     "canon_name": "kirishima (fragrant inked grace)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "hiryuu_(meta)_(azur_lane)",
@@ -5955,7 +7047,7 @@
     "name": "noshiro_(fragrance_of_the_eastern_snow)_(azur_lane)",
     "canon_name": "noshiro (fragrance of the eastern snow)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "glowworm_(jokey_adjudicator)_(azur_lane)",
@@ -6075,7 +7167,7 @@
     "name": "harutsuki_(beautiful_new_year's_dance)_(azur_lane)",
     "canon_name": "harutsuki (beautiful new year's dance)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "peter_strasser_(chronos's_kalendae)_(azur_lane)",
@@ -6105,7 +7197,7 @@
     "name": "haruna_(the_elegant_lotus)_(azur_lane)",
     "canon_name": "haruna (the elegant lotus)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "tirpitz_(seasonal_pine_and_the_frost_flower)_(azur_lane)",
@@ -6387,7 +7479,7 @@
     "name": "mikasa_(ship_side_vows)_(azur_lane)",
     "canon_name": "mikasa (ship side vows)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "akashi_(white_cat's_repayment)_(azur_lane)",
@@ -6399,7 +7491,7 @@
     "name": "sheffield_(low-cut_elegance)_(azur_lane)",
     "canon_name": "sheffield (low-cut elegance)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "hatsushimo_(ceaseless_celebration)_(azur_lane)",
@@ -6435,7 +7527,7 @@
     "name": "haruna_(vermillion_innocence)_(azur_lane)",
     "canon_name": "haruna (vermillion innocence)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "u-110_(shark's_dreamland)_(azur_lane)",
@@ -6447,7 +7539,7 @@
     "name": "noshiro_(the_gala's_sanctuary)_(azur_lane)",
     "canon_name": "noshiro (the gala's sanctuary)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "shinano_(light_of_the_hazy_moon)_(azur_lane)",
@@ -6507,7 +7599,7 @@
     "name": "reno_(summer_spin-off)_(azur_lane)",
     "canon_name": "reno (summer spin-off)",
     "illustrator": "pandea_work",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "suzutsuki_(beachside_attendant!)_(azur_lane)",
@@ -6519,7 +7611,7 @@
     "name": "swiftsure_(midsummer_special_service)_(azur_lane)",
     "canon_name": "swiftsure (midsummer special service)",
     "illustrator": "aiko_(kanl)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "nicholas_(summer_cleaning_volunteer)_(azur_lane)",
@@ -6609,7 +7701,7 @@
     "name": "saint-louis_(brilliant_paladin)_(azur_lane)",
     "canon_name": "saint-louis (brilliant paladin)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "prototype_bulin_mkii_(azur_lane)",
@@ -6663,7 +7755,7 @@
     "name": "independence_(the_independent_line)_(azur_lane)",
     "canon_name": "independence (the independent line)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "indianapolis_(the_light_of_circle_city)_(azur_lane)",
@@ -6705,7 +7797,7 @@
     "name": "kongou_(talent_hospital)_(azur_lane)",
     "canon_name": "kongou (talent hospital)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "perseus_(nursery_service_time)_(azur_lane)",
@@ -6806,7 +7898,7 @@
   {
     "name": "drake_(azur_lane)",
     "canon_name": "drake",
-    "illustrator": "? unel",
+    "illustrator": "? hellandheaven",
     "danbooru_banned": false
   },
   {
@@ -6819,7 +7911,7 @@
     "name": "haruna_(free_time_before_class)_(azur_lane)",
     "canon_name": "haruna (free time before class)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "craven_(cheerleader_on_the_playground)_(azur_lane)",
@@ -6855,7 +7947,7 @@
     "name": "atago_(stunning_speedster)_(azur_lane)",
     "canon_name": "atago (stunning speedster)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "shoukaku_(sororal_wings)_(azur_lane)",
@@ -6957,7 +8049,7 @@
     "name": "takao_(full_throttle_charmer)_(azur_lane)",
     "canon_name": "takao (full throttle charmer)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "zuikaku_(the_wind's_true_name)_(azur_lane)",
@@ -7215,7 +8307,7 @@
     "name": "jeanne_d'arc_(movie_set_saintess)_(azur_lane)",
     "canon_name": "jeanne d'arc (movie set saintess)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "bearn_(iris_lifeguard)_(azur_lane)",
@@ -7323,7 +8415,7 @@
     "name": "hiei_(beauty_of_the_white_sands)_(azur_lane)",
     "canon_name": "hiei (beauty of the white sands)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "hanazuki_(morning_moon_beachside_flower)_(azur_lane)",
@@ -7347,7 +8439,7 @@
     "name": "makinami_(time_for_school!)_(azur_lane)",
     "canon_name": "makinami (time for school!)",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "naganami_(azur_lane)",
@@ -7407,7 +8499,7 @@
     "name": "reno_(biggest_little_cheerleader)_(azur_lane)",
     "canon_name": "reno (biggest little cheerleader)",
     "illustrator": "pandea_work",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "casablanca_(cheer_squad_on_break)_(azur_lane)",
@@ -7443,7 +8535,7 @@
     "name": "reno_(azur_lane)",
     "canon_name": "reno",
     "illustrator": "pandea_work",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "bache_(showy_sports_star)_(azur_lane)",
@@ -7497,7 +8589,7 @@
     "name": "sheffield_(cloak_and_dagger)_(azur_lane)",
     "canon_name": "sheffield (cloak and dagger)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "akashi_(welcome_to_sofmap!)_(azur_lane)",
@@ -7604,7 +8696,7 @@
   {
     "name": "sovetsky_soyuz_(azur_lane)",
     "canon_name": "sovetsky soyuz",
-    "illustrator": "? irkawaza",
+    "illustrator": "? kuno_(runkunochan)",
     "danbooru_banned": false
   },
   {
@@ -7671,13 +8763,13 @@
     "name": "aurora_(heritage_of_yu_city)_(azur_lane)",
     "canon_name": "aurora (heritage of yu city)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "ibuki_(winter_sylph's_reverie)_(azur_lane)",
     "canon_name": "ibuki (winter sylph's reverie)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "prinz_eugen_(profusion_of_flowers)_(azur_lane)",
@@ -7725,7 +8817,7 @@
     "name": "ibuki_(arrival_of_spring)_(azur_lane)",
     "canon_name": "ibuki (arrival of spring)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "halsey_powell_(spring's_lucky_star)_(azur_lane)",
@@ -7737,7 +8829,7 @@
     "name": "yat_sen_(coronal_afterglow)_(azur_lane)",
     "canon_name": "yat sen (coronal afterglow)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "uranami_(azur_lane)",
@@ -7749,7 +8841,7 @@
     "name": "swiftsure_(pearlescent_beauty)_(azur_lane)",
     "canon_name": "swiftsure (pearlescent beauty)",
     "illustrator": "aiko_(kanl)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "nagara_(relaxing_spring_day)_(azur_lane)",
@@ -7785,7 +8877,7 @@
     "name": "hiei_(fragrant_red_plum)_(azur_lane)",
     "canon_name": "hiei (fragrant red plum)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "sirius_(azure_horizons)_(azur_lane)",
@@ -7797,7 +8889,7 @@
     "name": "azuma_(soft_voice_of_spring)_(azur_lane)",
     "canon_name": "azuma (soft voice of spring)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "biloxi_(azur_lane)",
@@ -7839,7 +8931,7 @@
     "name": "kiyonami_(christmas_red_riding_hood)_(azur_lane)",
     "canon_name": "kiyonami (christmas red riding hood)",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "agano_(dating_game?)_(azur_lane)",
@@ -7863,13 +8955,13 @@
     "name": "noshiro_(uncharted_festival_grounds?)_(azur_lane)",
     "canon_name": "noshiro (uncharted festival grounds?)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kirishima_(casual_dazzle)_(azur_lane)",
     "canon_name": "kirishima (casual dazzle)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kasumi_(new_year's_comfort)_(azur_lane)",
@@ -7983,7 +9075,7 @@
     "name": "noshiro_(azur_lane)",
     "canon_name": "noshiro",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "laffey_(white_rabbit's_oath)_(azur_lane)",
@@ -8109,7 +9201,7 @@
     "name": "sheffield_(muse)_(azur_lane)",
     "canon_name": "sheffield (muse)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "akagi_(muse)_(azur_lane)",
@@ -8193,7 +9285,7 @@
     "name": "kiyonami_(azur_lane)",
     "canon_name": "kiyonami",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "york_(truth_seeker)_(azur_lane)",
@@ -8331,7 +9423,7 @@
     "name": "ibuki_(snow_on_the_wind)_(azur_lane)",
     "canon_name": "ibuki (snow on the wind)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "jean_bart_(uninhibited_bloodstone)_(azur_lane)",
@@ -8451,7 +9543,7 @@
     "name": "kirishima_(summery_audacity)_(azur_lane)",
     "canon_name": "kirishima (summery audacity)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "littorio_(azur_lane)",
@@ -8523,7 +9615,7 @@
     "name": "sheffield_(a_moment's_respite)_(azur_lane)",
     "canon_name": "sheffield (a moment's respite)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "nicholas_(mispackaging?)_(azur_lane)",
@@ -8684,7 +9776,7 @@
   {
     "name": "siren_tracker_(azur_lane)",
     "canon_name": "siren tracker",
-    "illustrator": "? toucailao",
+    "illustrator": "? tou_cai_lao_tc",
     "danbooru_banned": false
   },
   {
@@ -8901,7 +9993,7 @@
     "name": "kongou_(natural_beauty)_(azur_lane)",
     "canon_name": "kongou (natural beauty)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "nagato_(great_fox's_shiroshouzoku)_(azur_lane)",
@@ -8931,12 +10023,6 @@
     "name": "emile_bertin_(cote_d'azur)_(azur_lane)",
     "canon_name": "emile bertin (cote d'azur)",
     "illustrator": "oyari_ashito",
-    "danbooru_banned": false
-  },
-  {
-    "name": "retrofit_(azur_lane)",
-    "canon_name": "retrofit",
-    "illustrator": "kaede_(yumesaki_kaede)",
     "danbooru_banned": false
   },
   {
@@ -9129,7 +10215,7 @@
     "name": "bush_(little_painter)_(azur_lane)",
     "canon_name": "bush (little painter)",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "vincennes_(sweet_dream)_(azur_lane)",
@@ -9183,7 +10269,7 @@
     "name": "yoizuki_(sports_festival_preparations)_(azur_lane)",
     "canon_name": "yoizuki (sports festival preparations)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "laffey_(new_year_rabbit)_(azur_lane)",
@@ -9267,7 +10353,7 @@
     "name": "swiftsure_(secluded_cyclamen)_(azur_lane)",
     "canon_name": "swiftsure (secluded cyclamen)",
     "illustrator": "aiko_(kanl)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "fiji_(trendy_style?)_(azur_lane)",
@@ -9327,7 +10413,7 @@
     "name": "independence_(new_transfer_student)_(azur_lane)",
     "canon_name": "independence (new transfer student)",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "ajax_(party_queen)_(azur_lane)",
@@ -9471,7 +10557,7 @@
     "name": "swiftsure_(azur_lane)",
     "canon_name": "swiftsure",
     "illustrator": "aiko_(kanl)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "long_island_(no_cola_no_life)_(azur_lane)",
@@ -9489,13 +10575,13 @@
     "name": "mikasa_(style_of_the_sakura_capital)_(azur_lane)",
     "canon_name": "mikasa (style of the sakura capital)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "mikasa_(sakura_viewing_day)_(azur_lane)",
     "canon_name": "mikasa (sakura viewing day)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "tirpitz_(snow-melting_summer)_(azur_lane)",
@@ -9549,25 +10635,25 @@
     "name": "aurora_(dawn's_paean)_(azur_lane)",
     "canon_name": "aurora (dawn's paean)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "aurora_(spring's_story)_(azur_lane)",
     "canon_name": "aurora (spring's story)",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kirishima_(after-school_artillery_time)_(azur_lane)",
     "canon_name": "kirishima (after-school artillery time)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "hiei_(pilgrimage_of_moonlight)_(azur_lane)",
     "canon_name": "hiei (pilgrimage of moonlight)",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kaga_(white_fox's_new_year_greetings)_(azur_lane)",
@@ -9722,7 +10808,7 @@
   {
     "name": "tech_box_(azur_lane)",
     "canon_name": "tech box",
-    "illustrator": "? hana_kazari",
+    "illustrator": "sune_(mugendai)",
     "danbooru_banned": false
   },
   {
@@ -9747,7 +10833,7 @@
     "name": "graf_zeppelin_(beachside_urd)_(azur_lane)",
     "canon_name": "graf zeppelin (beachside urd)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "u-73_(azur_lane)",
@@ -9795,7 +10881,7 @@
     "name": "hiei-chan_(azur_lane)",
     "canon_name": "hiei-chan",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "zeppelin-chan_(azur_lane)",
@@ -9837,7 +10923,7 @@
     "name": "azuma_(azur_lane)",
     "canon_name": "azuma",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "shimakaze_(azur_lane)",
@@ -9909,7 +10995,7 @@
     "name": "independence_(azur_lane)",
     "canon_name": "independence",
     "illustrator": "atdan",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "illustrious_(illustrious_ballroom)_(azur_lane)",
@@ -10028,56 +11114,56 @@
   {
     "name": "south_dakota_(solo_concert)_(azur_lane)",
     "canon_name": "south dakota (solo concert)",
-    "illustrator": "feeno kaede_(yumesaki_kaede)",
+    "illustrator": "kaede_(yumesaki_kaede)",
     "danbooru_banned": false
   },
   {
     "name": "takao_(academy_romantica)_(azur_lane)",
     "canon_name": "takao (academy romantica)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "takao_(sakura_hanami)_(azur_lane)",
     "canon_name": "takao (sakura hanami)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "takao_(beach_rhapsody)_(azur_lane)",
     "canon_name": "takao (beach rhapsody)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "takao_(spring_learning)_(azur_lane)",
     "canon_name": "takao (spring learning)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(school_daydream)_(azur_lane)",
     "canon_name": "atago (school daydream)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(white_promise)_(azur_lane)",
     "canon_name": "atago (white promise)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(midsummer_march)_(azur_lane)",
     "canon_name": "atago (midsummer march)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(features_of_winter)_(azur_lane)",
     "canon_name": "atago (features of winter)",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "naka_(azur_lane)",
@@ -10107,7 +11193,7 @@
     "name": "makinami_(azur_lane)",
     "canon_name": "makinami",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "nagatsuki_(azur_lane)",
@@ -10137,12 +11223,12 @@
     "name": "hazelwood_(azur_lane)",
     "canon_name": "hazelwood",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "female_commander_(azur_lane)",
     "canon_name": "female commander",
-    "illustrator": "? parka_(summersketch)",
+    "illustrator": "? dishwasher1910",
     "danbooru_banned": false
   },
   {
@@ -10154,7 +11240,7 @@
   {
     "name": "little_boy_commander_(azur_lane)",
     "canon_name": "little boy commander",
-    "illustrator": "? mizuyan",
+    "illustrator": "? yan_lie",
     "danbooru_banned": false
   },
   {
@@ -10224,6 +11310,12 @@
     "danbooru_banned": false
   },
   {
+    "name": "william_d._porter_(azur_lane)",
+    "canon_name": "william d. porter",
+    "illustrator": "? hestia_(neko_itachi)",
+    "danbooru_banned": false
+  },
+  {
     "name": "bishamaru_(azur_lane)",
     "canon_name": "bishamaru",
     "illustrator": "muuran",
@@ -10287,7 +11379,7 @@
     "name": "bush_(azur_lane)",
     "canon_name": "bush",
     "illustrator": "philomelalilium",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "centaur_(azur_lane)",
@@ -10311,7 +11403,7 @@
     "name": "jeanne_d'arc_(azur_lane)",
     "canon_name": "jeanne d'arc",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "richelieu_(azur_lane)",
@@ -10394,7 +11486,7 @@
   {
     "name": "siren_chaser_(azur_lane)",
     "canon_name": "siren chaser",
-    "illustrator": "? toucailao",
+    "illustrator": "? tou_cai_lao_tc",
     "danbooru_banned": false
   },
   {
@@ -10437,7 +11529,7 @@
     "name": "harutsuki_(azur_lane)",
     "canon_name": "harutsuki",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "i-19_(azur_lane)",
@@ -10479,7 +11571,7 @@
     "name": "yoizuki_(azur_lane)",
     "canon_name": "yoizuki",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "asashio_(azur_lane)",
@@ -10533,7 +11625,7 @@
     "name": "choukai_(azur_lane)",
     "canon_name": "choukai",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "monarch_(azur_lane)",
@@ -10551,7 +11643,7 @@
     "name": "ibuki_(azur_lane)",
     "canon_name": "ibuki",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "neptune_(azur_lane)",
@@ -10569,19 +11661,19 @@
     "name": "saint-louis_(azur_lane)",
     "canon_name": "saint-louis",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kongou_(azur_lane)",
     "canon_name": "kongou",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "haruna_(azur_lane)",
     "canon_name": "haruna",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "michishio_(azur_lane)",
@@ -10593,7 +11685,13 @@
     "name": "kirishima_(azur_lane)",
     "canon_name": "kirishima",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
+  },
+  {
+    "name": "(azur_lane)",
+    "canon_name": "",
+    "illustrator": "d._(ddot2018)",
+    "danbooru_banned": false
   },
   {
     "name": "mutsu_(azur_lane)",
@@ -10671,7 +11769,7 @@
     "name": "sheffield_(azur_lane)",
     "canon_name": "sheffield",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "musketeer_(azur_lane)",
@@ -10791,13 +11889,13 @@
     "name": "washington_(azur_lane)",
     "canon_name": "washington",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "north_carolina_(azur_lane)",
     "canon_name": "north carolina",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "matsukaze_(azur_lane)",
@@ -10965,13 +12063,13 @@
     "name": "hiei_(azur_lane)",
     "canon_name": "hiei",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "mikasa_(azur_lane)",
     "canon_name": "mikasa",
     "illustrator": "criin",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "universal_bullin_(azur_lane)",
@@ -11199,7 +12297,7 @@
     "name": "richmond_(azur_lane)",
     "canon_name": "richmond",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "foote_(azur_lane)",
@@ -11427,7 +12525,7 @@
     "name": "yat_sen_(azur_lane)",
     "canon_name": "yat sen",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "leander_(azur_lane)",
@@ -11487,7 +12585,7 @@
     "name": "aurora_(azur_lane)",
     "canon_name": "aurora",
     "illustrator": "maya_g",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "juneau_(azur_lane)",
@@ -11727,7 +12825,7 @@
     "name": "maya_(azur_lane)",
     "canon_name": "maya",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "z23_(azur_lane)",
@@ -11769,19 +12867,19 @@
     "name": "kaga_(azur_lane)",
     "canon_name": "kaga",
     "illustrator": "d._(ddot2018)",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "atago_(azur_lane)",
     "canon_name": "atago",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "takao_(azur_lane)",
     "canon_name": "takao",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "illustrious_(azur_lane)",
@@ -11883,7 +12981,7 @@
     "name": "graf_zeppelin_(azur_lane)",
     "canon_name": "graf zeppelin",
     "illustrator": "kishiyo",
-    "danbooru_banned": true
+    "danbooru_banned": false
   },
   {
     "name": "kisaragi_(azur_lane)",
