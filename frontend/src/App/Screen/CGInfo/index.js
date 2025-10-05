@@ -1,6 +1,6 @@
 import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, IconButton, Icon, useToast,Tabs, TabList, TabPanels, Tab, TabPanel, VStack, Avatar, Badge, Tooltip, Skeleton, Divider, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel } from "@chakra-ui/react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { FaArrowRight, FaCopy, FaPencilAlt, FaPlay, FaSearch, FaSpinner } from "react-icons/fa"
+import { FaArrowRight, FaCopy, FaPencilAlt, FaPlay, FaSearch, FaSpinner, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
 import { SiteFooter, SiteHeader } from "../../Component"
 import { debounce } from "lodash"
@@ -227,6 +227,14 @@ export const CGInfo = (props) => {
     const [isDragging, setIsDragging] = useState({ chibi: false, spine: false })
     const [lastPointer, setLastPointer] = useState({ x: 0, y: 0 })
 
+    // Animation cycling state
+    const [chibiAnimationIndex, setChibiAnimationIndex] = useState(0)
+    const [spineAnimationIndex, setSpineAnimationIndex] = useState(0)
+    const chibiSpineRef = useRef(null)
+    const fullSpineRef = useRef(null)
+    const legacyChibiWidgetRef = useRef(null)
+    const legacyFullWidgetRef = useRef(null)
+
     const data = cgInfoState
 
     const modifierName = data.filename.slice(0, data.filename.lastIndexOf('.')).split('_').slice(1).join(', ')
@@ -274,6 +282,61 @@ export const CGInfo = (props) => {
             window.open(`https://danbooru.donmai.us/posts?tags=${data.illust}`)
         }
     }, [data])
+
+    // Animation cycling functions
+    const cycleChibiAnimation = useCallback((direction = 1) => {
+        // Handle legacy spine widget
+        if (legacyChibiWidgetRef.current) {
+            const widget = legacyChibiWidgetRef.current
+            const animations = widget.skeleton.data.animations
+            const newIndex = direction > 0 
+                ? (chibiAnimationIndex + 1) % animations.length
+                : (chibiAnimationIndex - 1 + animations.length) % animations.length
+            
+            setChibiAnimationIndex(newIndex)
+            widget.setAnimation(animations[newIndex].name)
+            return
+        }
+
+        // Handle modern PIXI.js spine
+        const spineObj = chibiSpineRef.current
+        if (!spineObj || !spineObj.spineData) return
+
+        const animations = spineObj.spineData.animations
+        const newIndex = direction > 0 
+            ? (chibiAnimationIndex + 1) % animations.length
+            : (chibiAnimationIndex - 1 + animations.length) % animations.length
+        
+        setChibiAnimationIndex(newIndex)
+        spineObj.state.setAnimation(0, animations[newIndex].name, true)
+    }, [chibiAnimationIndex])
+
+    const cycleSpineAnimation = useCallback((direction = 1) => {
+        // Handle legacy spine widget
+        if (legacyFullWidgetRef.current) {
+            const widget = legacyFullWidgetRef.current
+            const animations = widget.skeleton.data.animations
+            const newIndex = direction > 0 
+                ? (spineAnimationIndex + 1) % animations.length
+                : (spineAnimationIndex - 1 + animations.length) % animations.length
+            
+            setSpineAnimationIndex(newIndex)
+            widget.setAnimation(animations[newIndex].name)
+            return
+        }
+
+        // Handle modern PIXI.js spine
+        const spineObj = fullSpineRef.current
+        if (!spineObj || !spineObj.spineData) return
+
+        const animations = spineObj.spineData.animations
+        const newIndex = direction > 0 
+            ? (spineAnimationIndex + 1) % animations.length
+            : (spineAnimationIndex - 1 + animations.length) % animations.length
+        
+        setSpineAnimationIndex(newIndex)
+        spineObj.state.setAnimation(0, animations[newIndex].name, true)
+    }, [spineAnimationIndex])
 
     const onIllustSearch = useCallback(() => {
         navigate('/ship_list', {state: {
@@ -614,12 +677,12 @@ export const CGInfo = (props) => {
                         let animIndex = 0
                         let moveAnimIndex = animations.findIndex((anim) => anim.name.includes('move'))
                         widget.setAnimation(animations[ moveAnimIndex !== -1 ?  moveAnimIndex : 0].name);
-                        widget.canvas.onclick = function () {
-                            animIndex++
-                            var animations = widget.skeleton.data.animations;
-                            if (animIndex >= animations.length) animIndex = 0
-                            widget.setAnimation(animations[animIndex].name);
-                        }
+                        
+                        // Store widget reference for animation cycling
+                        legacyChibiWidgetRef.current = widget
+                        setChibiAnimationIndex(moveAnimIndex !== -1 ? moveAnimIndex : 0)
+
+                        // Removed click handler - now using gradient edge buttons
 
                         setUseLegacySpine(true)
 
@@ -700,8 +763,10 @@ export const CGInfo = (props) => {
                     animation.x = (chibi_spine_app.screen.width) /2;
                     animation.y = (chibi_spine_app.screen.height + animation.height) /2;
                     if (animation.y + animation.height > chibi_spine_app.screen.height) {
-                        setChibiHeight(animation.height + animation.y)
-                        chibi_spine_app.renderer.resize(chibi_spine_app.screen.width, animation.height + animation.y)
+                        // Cap height at 500px for better mobile experience since pan/zoom is available
+                        const newHeight = Math.min(animation.height + animation.y, 500)
+                        setChibiHeight(newHeight)
+                        chibi_spine_app.renderer.resize(chibi_spine_app.screen.width, newHeight)
                     }
 
                     // Add the animation to the container, then container to stage
@@ -732,32 +797,11 @@ export const CGInfo = (props) => {
                     // dont run too fast
                     animation.state.timeScale = 1;
 
-                    // Set up pan/zoom interactions and animation switching
-                    let clickTimeout = null
-                    chibi_spine_app.view.onpointerdown = function (e) {
-                        // Clear any existing timeout
-                        if (clickTimeout) {
-                            clearTimeout(clickTimeout)
-                            clickTimeout = null
-                        }
-                        
-                        // Set a timeout to detect if this is a click vs drag
-                        clickTimeout = setTimeout(() => {
-                            // Only switch animation if this was a quick click (not a drag)
-                            animation_index++
-                            if (animation_index >= animation.spineData.animations.length) animation_index = 0
-                            animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
-                            clickTimeout = null
-                        }, 200)
-                    };
-                    
-                    chibi_spine_app.view.onpointermove = function () {
-                        // Cancel animation switch if user is dragging
-                        if (clickTimeout) {
-                            clearTimeout(clickTimeout)
-                            clickTimeout = null
-                        }
-                    };
+                    // Store reference for animation cycling
+                    chibiSpineRef.current = animation
+                    setChibiAnimationIndex(animation_index)
+
+                    // Set up pan/zoom interactions (removed click animation switching)
                     
                     chibi_spine_app.start();
 
@@ -814,6 +858,7 @@ export const CGInfo = (props) => {
                     atlas: data.spine.dir.replace('.skel', '.atlas'),
                     animation: "",
                     backgroundColor: "#00000000",
+                    premultipliedAlpha: true,
                     fitToCanvas: true,
                     success: function (widget) {
                         let animations = widget.skeleton.data.animations;
@@ -821,12 +866,12 @@ export const CGInfo = (props) => {
                         let animIndex = 0
                         let moveAnimIndex = animations.findIndex((anim) => anim.name.includes('idle'))
                         widget.setAnimation(animations[ moveAnimIndex !== -1 ?  moveAnimIndex : 0].name);
-                        widget.canvas.onclick = function () {
-                            animIndex++
-                            var animations = widget.skeleton.data.animations;
-                            if (animIndex >= animations.length) animIndex = 0
-                            widget.setAnimation(animations[animIndex].name);
-                        }
+                        
+                        // Store widget reference for animation cycling
+                        legacyFullWidgetRef.current = widget
+                        setSpineAnimationIndex(moveAnimIndex !== -1 ? moveAnimIndex : 0)
+
+                        // Removed click handler - now using gradient edge buttons
 
                         // Set up pan/zoom interactions for legacy full spine after a short delay
                         setTimeout(() => {
@@ -864,6 +909,16 @@ export const CGInfo = (props) => {
                         let scale = 1
                         let animation_index = -1
 
+                        // if azur lane, for each texture in all layers, set the alpha mode to PMA
+                        if (data.folder === "Azur Lane") {
+                            for (const res_key in resources) {
+                                if (resources[res_key].texture) {
+                                    // change alpha mode to PMA for Azur Lane spine (TODO: maybe other games too?)
+                                    resources[res_key].texture.baseTexture.alphaMode = PIXI.ALPHA_MODES.PMA
+                                }
+                            }
+                        }
+
                         const animation = new Spine(resources.spineCharacter.spineData);
                         const orig_size = [animation.width, animation.height]
                         const aspectRatio = orig_size[0] / orig_size[1]
@@ -883,8 +938,10 @@ export const CGInfo = (props) => {
 
                         if (data.folder === "Victory Belles") animation.y = animation.height
                         if (animation.y + animation.height > spine_app.screen.height) {
-                            setSpineHeight(animation.height + animation.y)
-                            spine_app.renderer.resize(spine_app.screen.width, animation.height + animation.y)
+                            // Cap height at 600px for better mobile experience since pan/zoom is available
+                            const newHeight = Math.min(animation.height + animation.y, 600)
+                            setSpineHeight(newHeight)
+                            spine_app.renderer.resize(spine_app.screen.width, newHeight)
                         }
 
                         if (animation.skeleton.data.skins) {
@@ -946,38 +1003,11 @@ export const CGInfo = (props) => {
                         // dont run too fast
                         animation.state.timeScale = 1;
 
-                        // Set up pan/zoom interactions and animation switching
-                        let clickTimeout = null
-                        spine_app.view.onpointerdown = function () {
-                            // Clear any existing timeout
-                            if (clickTimeout) {
-                                clearTimeout(clickTimeout)
-                                clickTimeout = null
-                            }
-                            
-                            // Set a timeout to detect if this is a click vs drag
-                            clickTimeout = setTimeout(() => {
-                                animation_index++
-                                if (animation_index >= animation.spineData.animations.length) animation_index = 0
-                                animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+                        // Store reference for animation cycling
+                        fullSpineRef.current = animation
+                        setSpineAnimationIndex(animation_index)
 
-                                // set extra layers
-                                for (const layer of extra_layer) {
-                                    const next_anim = layer.spineData.animations[animation_index].name
-                                    layer.state.setAnimation(0, next_anim, true);
-                                }
-                                clickTimeout = null
-                            }, 200)
-                        };
-                        
-                        spine_app.view.onpointermove = function () {
-                            // Cancel animation switch if user is dragging
-                            if (clickTimeout) {
-                                clearTimeout(clickTimeout)
-                                clickTimeout = null
-                            }
-                        };
-                        
+                        // Set up pan/zoom interactions and animation switching
                         spine_app.start();
 
                         // Store app and container references for reset functionality
@@ -1322,7 +1352,7 @@ export const CGInfo = (props) => {
                                         </Center>
                                         <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
                                     </TabPanel>}
-                                    {data.chibi && <TabPanel>
+                                    {data.chibi && <TabPanel position="relative">
                                         <Center>
                                             {/* Spine (Chibi) */}
                                             {data.chibi?.is_static ? <img style={{height: chibiHeight, width: 'auto'}} src={data.chibi.dir} alt="chibi_img"></img> :
@@ -1331,19 +1361,109 @@ export const CGInfo = (props) => {
                                                 <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={chibiHeight}></canvas>
                                             </>}
                                         </Center>
+                                        
+                                        {/* Left edge gradient button */}
+                                        <Box
+                                            position="absolute"
+                                            left={-4}
+                                            top={0}
+                                            bottom={-4}
+                                            height="100%"
+                                            width="80px"
+                                            background="linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0))"
+                                            display="flex"
+                                            alignItems="center"
+                                            justifyContent="flex-start"
+                                            paddingLeft="10px"
+                                            cursor="pointer"
+                                            onClick={() => cycleChibiAnimation(-1)}
+                                            _hover={{ background: "linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0))" }}
+                                            zIndex={1}
+                                        >
+                                            <Icon as={FaChevronLeft} color="white" boxSize={6} />
+                                        </Box>
+                                        
+                                        {/* Right edge gradient button */}
+                                        <Box
+                                            position="absolute"
+                                            right={-4}
+                                            top={0}
+                                            bottom={-4}
+                                            height="100%"
+                                            width="80px"
+                                            background="linear-gradient(to left, rgba(0,0,0,0.2), rgba(0,0,0,0))"
+                                            display="flex"
+                                            alignItems="center"
+                                            justifyContent="flex-end"
+                                            paddingRight="10px"
+                                            cursor="pointer"
+                                            onClick={() => cycleChibiAnimation(1)}
+                                            _hover={{ background: "linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0))" }}
+                                            zIndex={1}
+                                        >
+                                            <Icon as={FaChevronRight} color="white" boxSize={6} />
+                                        </Box>
+                                        
                                         <VStack spacing={2} margin={4}>
-                                            <Text as='b' fontSize='sm'>Click to switch animation • Drag to pan • Scroll/pinch to zoom</Text>
+                                            <Text as='b' fontSize='sm'>Use arrow buttons to switch animation • Drag to pan • Scroll/pinch to zoom</Text>
                                             <Button size='sm' onClick={resetChibiTransform}>Reset View</Button>
                                         </VStack>
                                     </TabPanel>}
-                                    {data.spine && <TabPanel>
+                                    {data.spine && <TabPanel position="relative">
                                         <Center>
                                             {/* Spine */}
-                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: spineHeight, width: '100%'}} id="spine-widget-full"></div> : 
-                                                <canvas id="spine-canvas-full" style={{ touchAction: 'auto'}} height={spineHeight}></canvas>}
+                                            {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? 
+                                                <div style={{height: spineHeight, width: '100%'}} id="spine-widget-full"></div> : 
+                                                <Box position="relative" display="inline-block">
+                                                    <canvas id="spine-canvas-full" style={{ touchAction: 'auto'}} height={spineHeight}></canvas>
+                                                </Box>
+                                            }
                                         </Center>
+                                        
+                                        {/* Left edge gradient button */}
+                                        <Box
+                                            position="absolute"
+                                            left={-4}
+                                            top={0}
+                                            bottom={-4}
+                                            height="100%"
+                                            width="80px"
+                                            background="linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0))"
+                                            display="flex"
+                                            alignItems="center"
+                                            justifyContent="flex-start"
+                                            paddingLeft="10px"
+                                            cursor="pointer"
+                                            onClick={() => cycleSpineAnimation(-1)}
+                                            _hover={{ background: "linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0))" }}
+                                            zIndex={1}
+                                        >
+                                            <Icon as={FaChevronLeft} color="white" boxSize={6} />
+                                        </Box>
+                                        
+                                        {/* Right edge gradient button */}
+                                        <Box
+                                            position="absolute"
+                                            right={-4}
+                                            top={0}
+                                            bottom={-4}
+                                            height="100%"
+                                            width="80px"
+                                            background="linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0))"
+                                            display="flex"
+                                            alignItems="center"
+                                            justifyContent="flex-end"
+                                            paddingRight="10px"
+                                            cursor="pointer"
+                                            onClick={() => cycleSpineAnimation(1)}
+                                            _hover={{ background: "linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0))" }}
+                                            zIndex={1}
+                                        >
+                                            <Icon as={FaChevronRight} color="white" boxSize={6} />
+                                        </Box>
+                                        
                                         <VStack spacing={2} margin={4}>
-                                            <Text as='b' fontSize='sm'>Click to switch animation • Drag to pan • Scroll/pinch to zoom</Text>
+                                            <Text as='b' fontSize='sm'>Use arrow buttons to switch animation • Drag to pan • Scroll/pinch to zoom</Text>
                                             <Button size='sm' onClick={resetSpineTransform}>Reset View</Button>
                                         </VStack>
                                     </TabPanel>}
