@@ -189,6 +189,11 @@ function main_shipgirl_db() {
             let file_hash = hashFile.sync({
                 files: [BASE_PATH + '/' + dir + '/' + file]
             })
+            
+            // Get file modified date
+            const file_stats = fs.statSync(BASE_PATH + '/' + dir + '/' + file)
+            const file_modified_date = file_stats.mtime
+            const file_size = file_stats.size
 
             const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).flatMap(f => f.value)
             const l2d = l2d_config.find(val => file.toLowerCase().includes(val.name.toLowerCase())) || null
@@ -312,6 +317,8 @@ function main_shipgirl_db() {
                 is_censored: isCensored,
                 is_outfit: isOutfit,
                 file_hash: file_hash,
+                file_modified_date: file_modified_date,
+                file_size: file_size,
                 folder: dir,
                 alias: alias.concat(extra_config?.alias || []),
                 l2d: l2d,
