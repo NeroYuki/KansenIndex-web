@@ -221,6 +221,12 @@ export const CGInfo = (props) => {
     const [chibiHeight, setChibiHeight] = useState(500)
     const [spineHeight, setSpineHeight] = useState(500)
 
+    // Pan and zoom state for spine viewers
+    const [chibiTransform, setChibiTransform] = useState({ x: 0, y: 0, scale: 1 })
+    const [spineTransform, setSpineTransform] = useState({ x: 0, y: 0, scale: 1 })
+    const [isDragging, setIsDragging] = useState({ chibi: false, spine: false })
+    const [lastPointer, setLastPointer] = useState({ x: 0, y: 0 })
+
     const data = cgInfoState
 
     const modifierName = data.filename.slice(0, data.filename.lastIndexOf('.')).split('_').slice(1).join(', ')
@@ -238,7 +244,7 @@ export const CGInfo = (props) => {
     const onFranchiseSearch = useCallback(() => {
         navigate('/ship_list', {state: {
             searchData: {
-                selectedFranchise: data.folder
+                selectedFranchise: [data.folder]
             }
         }})
     }, [navigate, data.folder])
@@ -246,7 +252,7 @@ export const CGInfo = (props) => {
     const onCountrySearch = useCallback((country) => {
         navigate('/ship_list', {state: {
             searchData: {
-                selectedCountry: country ?? data.nation
+                selectedCountry: country ? [country] : [data.nation]
             }
         }})
     }, [navigate, data.nation])
@@ -254,7 +260,7 @@ export const CGInfo = (props) => {
     const onTypeSearch = useCallback(() => {
         navigate('/ship_list', {state: {
             searchData: {
-                selectedType: data.ship_type
+                selectedType: [data.ship_type]
             }
         }})
     }, [navigate, data.ship_type])
@@ -283,6 +289,293 @@ export const CGInfo = (props) => {
             data: val
         }})
     }, [navigate])
+
+    // Pan and zoom functionality for spine viewers
+    const setupSpineInteractions = useCallback((canvasId, transformState, setTransformState, dragKey, pixiApp = null, spineContainer = null) => {
+        let canvas = document.getElementById(canvasId)
+        let isLegacyWidget = false
+        
+        // For legacy spine widgets, the canvas might be inside the widget container
+        if (!canvas || canvas.tagName !== 'CANVAS') {
+            const container = document.getElementById(canvasId)
+            if (container) {
+                canvas = container.querySelector('canvas')
+                isLegacyWidget = true
+            }
+        }
+        
+        if (!canvas) {
+            console.log(`Canvas ${canvasId} not found`)
+            return
+        }
+
+        console.log(`Setting up interactions for ${canvasId}, legacy: ${isLegacyWidget}`)
+
+        let isMouseDown = false
+        let lastMousePos = { x: 0, y: 0 }
+
+        // Mouse events for desktop
+        const handleMouseDown = (e) => {
+            isMouseDown = true
+            lastMousePos = { x: e.clientX, y: e.clientY }
+            canvas.style.cursor = 'grabbing'
+            e.preventDefault()
+            e.stopPropagation()
+        }
+
+        const handleMouseMove = (e) => {
+            if (!isMouseDown) return
+            
+            const deltaX = e.clientX - lastMousePos.x
+            const deltaY = e.clientY - lastMousePos.y
+            
+            setTransformState(prev => {
+                const newX = prev.x + deltaX
+                const newY = prev.y + deltaY
+                
+                // For PIXI apps, apply position to spine container instead of stage
+                if (spineContainer && !isLegacyWidget) {
+                    spineContainer.position.set(newX, newY)
+                }
+                
+                return {
+                    ...prev,
+                    x: newX,
+                    y: newY
+                }
+            })
+            
+            lastMousePos = { x: e.clientX, y: e.clientY }
+            e.preventDefault()
+            e.stopPropagation()
+        }
+
+        const handleMouseUp = (e) => {
+            isMouseDown = false
+            canvas.style.cursor = 'grab'
+            e.preventDefault()
+            e.stopPropagation()
+        }
+
+        const handleWheel = (e) => {
+            e.preventDefault()
+            e.stopPropagation()
+            
+            const scaleFactor = e.deltaY > 0 ? 0.9 : 1.1
+            
+            setTransformState(prev => {
+                const newScale = Math.max(0.1, Math.min(5, prev.scale * scaleFactor))
+                
+                // For PIXI apps, apply scale to spine container for better quality
+                if (spineContainer && !isLegacyWidget) {
+                    // Get mouse position relative to canvas
+                    const rect = canvas.getBoundingClientRect()
+                    const mouseX = e.clientX - rect.left
+                    const mouseY = e.clientY - rect.top
+                    
+                    // Calculate new position to zoom towards mouse
+                    const deltaScale = newScale / prev.scale
+                    const newX = mouseX - (mouseX - prev.x) * deltaScale
+                    const newY = mouseY - (mouseY - prev.y) * deltaScale
+                    
+                    // Apply transforms to spine container
+                    spineContainer.scale.set(newScale)
+                    spineContainer.position.set(newX, newY)
+                    
+                    return {
+                        x: newX,
+                        y: newY,
+                        scale: newScale
+                    }
+                }
+                
+                // For legacy widgets, use CSS transform
+                return {
+                    ...prev,
+                    scale: newScale
+                }
+            })
+        }
+
+        // Touch events for mobile
+        let touches = []
+        let lastTouchDistance = 0
+
+        const getTouchDistance = (touch1, touch2) => {
+            const dx = touch1.clientX - touch2.clientX
+            const dy = touch1.clientY - touch2.clientY
+            return Math.sqrt(dx * dx + dy * dy)
+        }
+
+        const handleTouchStart = (e) => {
+            touches = Array.from(e.touches)
+            
+            if (touches.length === 1) {
+                isMouseDown = true
+                lastMousePos = { x: touches[0].clientX, y: touches[0].clientY }
+            } else if (touches.length === 2) {
+                isMouseDown = false
+                lastTouchDistance = getTouchDistance(touches[0], touches[1])
+            }
+            
+            e.preventDefault()
+            e.stopPropagation()
+        }
+
+        const handleTouchMove = (e) => {
+            touches = Array.from(e.touches)
+            
+            if (touches.length === 1 && isMouseDown) {
+                // Single finger pan
+                const deltaX = touches[0].clientX - lastMousePos.x
+                const deltaY = touches[0].clientY - lastMousePos.y
+                
+                setTransformState(prev => {
+                    const newX = prev.x + deltaX
+                    const newY = prev.y + deltaY
+                    
+                    // For PIXI apps, apply position to spine container
+                    if (spineContainer && !isLegacyWidget) {
+                        spineContainer.position.set(newX, newY)
+                    }
+                    
+                    return {
+                        ...prev,
+                        x: newX,
+                        y: newY
+                    }
+                })
+                
+                lastMousePos = { x: touches[0].clientX, y: touches[0].clientY }
+            } else if (touches.length === 2) {
+                // Two finger zoom
+                const currentDistance = getTouchDistance(touches[0], touches[1])
+                
+                if (lastTouchDistance > 0) {
+                    const scaleFactor = currentDistance / lastTouchDistance
+                    setTransformState(prev => {
+                        const newScale = Math.max(0.1, Math.min(5, prev.scale * scaleFactor))
+                        
+                        // For PIXI apps, apply scale to spine container
+                        if (spineContainer && !isLegacyWidget) {
+                            const rect = canvas.getBoundingClientRect()
+                            // Get center of pinch gesture
+                            const centerX = ((touches[0].clientX + touches[1].clientX) / 2) - rect.left
+                            const centerY = ((touches[0].clientY + touches[1].clientY) / 2) - rect.top
+                            
+                            spineContainer.scale.set(newScale)
+                            
+                            const deltaScale = newScale / prev.scale
+                            const newX = centerX - (centerX - prev.x) * deltaScale
+                            const newY = centerY - (centerY - prev.y) * deltaScale
+                            
+                            spineContainer.position.set(newX, newY)
+                            
+                            return {
+                                x: newX,
+                                y: newY,
+                                scale: newScale
+                            }
+                        }
+                        
+                        return {
+                            ...prev,
+                            scale: newScale
+                        }
+                    })
+                }
+                
+                lastTouchDistance = currentDistance
+            }
+            
+            e.preventDefault()
+            e.stopPropagation()
+        }
+
+        const handleTouchEnd = (e) => {
+            if (e.touches.length === 0) {
+                isMouseDown = false
+                lastTouchDistance = 0
+            }
+            e.preventDefault()
+            e.stopPropagation()
+        }
+
+        // Set initial cursor
+        canvas.style.cursor = 'grab'
+
+        // Add event listeners
+        canvas.addEventListener('mousedown', handleMouseDown, { passive: false })
+        canvas.addEventListener('mousemove', handleMouseMove, { passive: false })
+        canvas.addEventListener('mouseup', handleMouseUp, { passive: false })
+        canvas.addEventListener('mouseleave', handleMouseUp, { passive: false })
+        canvas.addEventListener('wheel', handleWheel, { passive: false })
+        
+        canvas.addEventListener('touchstart', handleTouchStart, { passive: false })
+        canvas.addEventListener('touchmove', handleTouchMove, { passive: false })
+        canvas.addEventListener('touchend', handleTouchEnd, { passive: false })
+
+        console.log(`Event listeners added for ${canvasId}`)
+
+        // Cleanup function
+        return () => {
+            canvas.removeEventListener('mousedown', handleMouseDown)
+            canvas.removeEventListener('mousemove', handleMouseMove)
+            canvas.removeEventListener('mouseup', handleMouseUp)
+            canvas.removeEventListener('mouseleave', handleMouseUp)
+            canvas.removeEventListener('wheel', handleWheel)
+            
+            canvas.removeEventListener('touchstart', handleTouchStart)
+            canvas.removeEventListener('touchmove', handleTouchMove)
+            canvas.removeEventListener('touchend', handleTouchEnd)
+        }
+    }, [])
+
+    // Apply transforms when they change (only for legacy widgets that use CSS transforms)
+    useEffect(() => {
+        // Only apply CSS transforms for legacy spine widgets
+        const widget = document.getElementById('spine-widget')
+        if (widget) {
+            const canvas = widget.querySelector('canvas')
+            if (canvas) {
+                canvas.style.transform = `translate(${chibiTransform.x}px, ${chibiTransform.y}px) scale(${chibiTransform.scale})`
+                canvas.style.transformOrigin = 'center'
+            }
+        }
+    }, [chibiTransform])
+
+    useEffect(() => {
+        // Only apply CSS transforms for legacy spine widgets
+        const widget = document.getElementById('spine-widget-full')
+        if (widget) {
+            const canvas = widget.querySelector('canvas')
+            if (canvas) {
+                canvas.style.transform = `translate(${spineTransform.x}px, ${spineTransform.y}px) scale(${spineTransform.scale})`
+                canvas.style.transformOrigin = 'center'
+            }
+        }
+    }, [spineTransform])
+
+    // Reset functions for pan/zoom
+    const resetChibiTransform = () => {
+        setChibiTransform({ x: 0, y: 0, scale: 1 })
+        
+        // Also reset PIXI container if it exists
+        if (window.chibi_spine_container) {
+            window.chibi_spine_container.scale.set(1)
+            window.chibi_spine_container.position.set(0, 0)
+        }
+    }
+
+    const resetSpineTransform = () => {
+        setSpineTransform({ x: 0, y: 0, scale: 1 })
+        
+        // Also reset PIXI container if it exists
+        if (window.spine_container) {
+            window.spine_container.scale.set(1)
+            window.spine_container.position.set(0, 0)
+        }
+    }
 
     const searchRelateCG = useCallback(async () => {
         if (data.char === 'Placeholder Character' || data.folder === 'Placeholder Folder') return
@@ -329,6 +622,13 @@ export const CGInfo = (props) => {
                         }
 
                         setUseLegacySpine(true)
+
+                        // Set up pan/zoom interactions for legacy chibi spine after a short delay
+                        setTimeout(() => {
+                            console.log('Setting up legacy chibi spine interactions')
+                            const cleanup = setupSpineInteractions('spine-widget', chibiTransform, setChibiTransform, 'chibi')
+                            // Store cleanup function if needed later
+                        }, 500);
                     },
                     error: function (err) {
                         console.log(err)
@@ -345,6 +645,11 @@ export const CGInfo = (props) => {
         else {
             const chibi_spine_app = new PIXI.Application({
                 view: document.getElementById('spine-canvas'),
+                antialias: true,
+                resolution: window.devicePixelRatio || 1,
+                autoDensity: true,
+                backgroundColor: 0x000000,
+                backgroundAlpha: 0,
             });
 
             let spineLoaderOptions = {}
@@ -389,6 +694,9 @@ export const CGInfo = (props) => {
                         animation.width = target_width;
                     }
 
+                    // Create a container for the spine animation to enable high-quality scaling
+                    const spineContainer = new PIXI.Container();
+                    
                     animation.x = (chibi_spine_app.screen.width) /2;
                     animation.y = (chibi_spine_app.screen.height + animation.height) /2;
                     if (animation.y + animation.height > chibi_spine_app.screen.height) {
@@ -396,8 +704,9 @@ export const CGInfo = (props) => {
                         chibi_spine_app.renderer.resize(chibi_spine_app.screen.width, animation.height + animation.y)
                     }
 
-                    // add the animation to the scene and render...
-                    chibi_spine_app.stage.addChild(animation);
+                    // Add the animation to the container, then container to stage
+                    spineContainer.addChild(animation);
+                    chibi_spine_app.stage.addChild(spineContainer);
                     chibi_spine_app.renderer.backgroundAlpha = 0
 
                     if (animation.skeleton.data.skins) {
@@ -423,13 +732,45 @@ export const CGInfo = (props) => {
                     // dont run too fast
                     animation.state.timeScale = 1;
 
-                    chibi_spine_app.view.onpointerdown = function () {
-                        animation_index++
-                        if (animation_index >= animation.spineData.animations.length) animation_index = 0
-                        animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+                    // Set up pan/zoom interactions and animation switching
+                    let clickTimeout = null
+                    chibi_spine_app.view.onpointerdown = function (e) {
+                        // Clear any existing timeout
+                        if (clickTimeout) {
+                            clearTimeout(clickTimeout)
+                            clickTimeout = null
+                        }
+                        
+                        // Set a timeout to detect if this is a click vs drag
+                        clickTimeout = setTimeout(() => {
+                            // Only switch animation if this was a quick click (not a drag)
+                            animation_index++
+                            if (animation_index >= animation.spineData.animations.length) animation_index = 0
+                            animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+                            clickTimeout = null
+                        }, 200)
+                    };
+                    
+                    chibi_spine_app.view.onpointermove = function () {
+                        // Cancel animation switch if user is dragging
+                        if (clickTimeout) {
+                            clearTimeout(clickTimeout)
+                            clickTimeout = null
+                        }
                     };
                     
                     chibi_spine_app.start();
+
+                    // Store app and container references for reset functionality
+                    window.chibi_spine_app = chibi_spine_app;
+                    window.chibi_spine_container = spineContainer;
+
+                    // Set up pan/zoom interactions after a short delay to ensure canvas is ready
+                    setTimeout(() => {
+                        console.log('Setting up chibi spine interactions')
+                        const cleanup = setupSpineInteractions('spine-canvas', chibiTransform, setChibiTransform, 'chibi', chibi_spine_app, spineContainer)
+                        // Store cleanup function if needed later
+                    }, 500);
                 });
         }
     }
@@ -486,12 +827,24 @@ export const CGInfo = (props) => {
                             if (animIndex >= animations.length) animIndex = 0
                             widget.setAnimation(animations[animIndex].name);
                         }
+
+                        // Set up pan/zoom interactions for legacy full spine after a short delay
+                        setTimeout(() => {
+                            console.log('Setting up legacy full spine interactions')
+                            const cleanup = setupSpineInteractions('spine-widget-full', spineTransform, setSpineTransform, 'full')
+                            // Store cleanup function if needed later
+                        }, 500);
                     }
                 });
             }
             else {
                 const spine_app = new PIXI.Application({
                     view: document.getElementById('spine-canvas-full'),
+                    antialias: true,
+                    resolution: window.devicePixelRatio || 1,
+                    autoDensity: true,
+                    backgroundColor: 0x000000,
+                    backgroundAlpha: 0,
                 });
 
                 const spineLoaderOptions = {}
@@ -547,32 +900,36 @@ export const CGInfo = (props) => {
 
                         animation_index = Math.floor(Math.random() * animation.spineData.animations.length)
                         
-                        // add extra layers
+                        // Create a container for the spine animation to enable high-quality scaling
+                        const spineContainer = new PIXI.Container();
+                        
+                        // add extra layers to container
                         for (const layer of extra_layer) {
-                            const extra_layer = new Spine(resources[layer].spineData)
-                            extra_layer.x = (spine_app.screen.width) / 2
-                            extra_layer.y = (spine_app.screen.height) / 2
+                            const extra_layer_obj = new Spine(resources[layer].spineData)
+                            extra_layer_obj.x = (spine_app.screen.width) / 2
+                            extra_layer_obj.y = (spine_app.screen.height) / 2
                             // azur lane only
-                            extra_layer.y += animation.height / 3
-                            extra_layer.height *= scale;
-                            extra_layer.width *= scale;
-                            spine_app.stage.addChild(extra_layer);
+                            extra_layer_obj.y += animation.height / 3
+                            extra_layer_obj.height *= scale;
+                            extra_layer_obj.width *= scale;
+                            spineContainer.addChild(extra_layer_obj);
 
                             // set animation
-                            if (extra_layer.state.hasAnimation("fullBg_normal_loop")) {
-                                extra_layer.state.setAnimation(0, "fullBg_normal_loop", true);
+                            if (extra_layer_obj.state.hasAnimation("fullBg_normal_loop")) {
+                                extra_layer_obj.state.setAnimation(0, "fullBg_normal_loop", true);
                             }
-                            else if (extra_layer.state.hasAnimation("full_normal_loop")) {
-                                extra_layer.state.setAnimation(0, "full_normal_loop", true);
+                            else if (extra_layer_obj.state.hasAnimation("full_normal_loop")) {
+                                extra_layer_obj.state.setAnimation(0, "full_normal_loop", true);
                             }
                             else {
-                                const random_anim = extra_layer.spineData.animations[animation_index].name
-                                extra_layer.state.setAnimation(0, random_anim, true);
+                                const random_anim = extra_layer_obj.spineData.animations[animation_index].name
+                                extra_layer_obj.state.setAnimation(0, random_anim, true);
                             }
                         }
 
-                        // add the animation to the scene and render...
-                        spine_app.stage.addChild(animation);
+                        // add the main animation to the container, then container to stage
+                        spineContainer.addChild(animation);
+                        spine_app.stage.addChild(spineContainer);
                         spine_app.renderer.backgroundAlpha = 0
 
                         // full_normal_loop for normal spine
@@ -589,19 +946,50 @@ export const CGInfo = (props) => {
                         // dont run too fast
                         animation.state.timeScale = 1;
 
+                        // Set up pan/zoom interactions and animation switching
+                        let clickTimeout = null
                         spine_app.view.onpointerdown = function () {
-                            animation_index++
-                            if (animation_index >= animation.spineData.animations.length) animation_index = 0
-                            animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
+                            // Clear any existing timeout
+                            if (clickTimeout) {
+                                clearTimeout(clickTimeout)
+                                clickTimeout = null
+                            }
+                            
+                            // Set a timeout to detect if this is a click vs drag
+                            clickTimeout = setTimeout(() => {
+                                animation_index++
+                                if (animation_index >= animation.spineData.animations.length) animation_index = 0
+                                animation.state.setAnimation(0, animation.spineData.animations[animation_index].name, true);
 
-                            // set extra layers
-                            for (const layer of extra_layer) {
-                                const next_anim = layer.spineData.animations[animation_index].name
-                                layer.state.setAnimation(0, next_anim, true);
+                                // set extra layers
+                                for (const layer of extra_layer) {
+                                    const next_anim = layer.spineData.animations[animation_index].name
+                                    layer.state.setAnimation(0, next_anim, true);
+                                }
+                                clickTimeout = null
+                            }, 200)
+                        };
+                        
+                        spine_app.view.onpointermove = function () {
+                            // Cancel animation switch if user is dragging
+                            if (clickTimeout) {
+                                clearTimeout(clickTimeout)
+                                clickTimeout = null
                             }
                         };
                         
                         spine_app.start();
+
+                        // Store app and container references for reset functionality
+                        window.spine_app = spine_app;
+                        window.spine_container = spineContainer;
+
+                        // Set up pan/zoom interactions after a short delay to ensure canvas is ready
+                        setTimeout(() => {
+                            console.log('Setting up full spine interactions')
+                            const cleanup = setupSpineInteractions('spine-canvas-full', spineTransform, setSpineTransform, 'full', spine_app, spineContainer)
+                            // Store cleanup function if needed later
+                        }, 500);
                     })
             }
         }
@@ -943,7 +1331,10 @@ export const CGInfo = (props) => {
                                                 <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={chibiHeight}></canvas>
                                             </>}
                                         </Center>
-                                        <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
+                                        <VStack spacing={2} margin={4}>
+                                            <Text as='b' fontSize='sm'>Click to switch animation • Drag to pan • Scroll/pinch to zoom</Text>
+                                            <Button size='sm' onClick={resetChibiTransform}>Reset View</Button>
+                                        </VStack>
                                     </TabPanel>}
                                     {data.spine && <TabPanel>
                                         <Center>
@@ -951,7 +1342,10 @@ export const CGInfo = (props) => {
                                             {LEGACY_SPINE_REQUIRED_FOLDER.includes(data.folder) ? <div style={{height: spineHeight, width: '100%'}} id="spine-widget-full"></div> : 
                                                 <canvas id="spine-canvas-full" style={{ touchAction: 'auto'}} height={spineHeight}></canvas>}
                                         </Center>
-                                        <Center margin={12}><Text as='b' fontSize='sm'>Left click the canvas to switch animation</Text></Center>
+                                        <VStack spacing={2} margin={4}>
+                                            <Text as='b' fontSize='sm'>Click to switch animation • Drag to pan • Scroll/pinch to zoom</Text>
+                                            <Button size='sm' onClick={resetSpineTransform}>Reset View</Button>
+                                        </VStack>
                                     </TabPanel>}
                                     {data.m3d && <TabPanel width={'100%'}>
                                         <Center width={'100%'}>
