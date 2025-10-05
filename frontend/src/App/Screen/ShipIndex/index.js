@@ -1,5 +1,6 @@
 import { Box, Flex, Text, Input, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
-    Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem, Avatar } from "@chakra-ui/react"
+    Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem, Avatar,
+    Badge, IconButton, Menu, MenuButton, MenuList, MenuItem, HStack, VStack, SimpleGrid, Alert, AlertIcon } from "@chakra-ui/react"
 import {
     Table,
     Thead,
@@ -10,11 +11,12 @@ import {
     TableCaption,
 } from '@chakra-ui/react'
 import { useCallback, useEffect, useState } from "react"
-import { FaPencilAlt, FaSearch } from "react-icons/fa"
+import { FaPencilAlt, FaSearch, FaPlus, FaTimes, FaArrowUp, FaArrowDown, FaDice } from "react-icons/fa"
 import { useLocation, useNavigate, useBeforeUnload } from "react-router-dom"
 import { SiteHeader, SiteFooter } from "../../Component"
 import { GET_query } from "../../Service/shipgirl"
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
+import { nation_name_to_twemoji_flag, type_name_to_icon } from "../../Utils/data_mapping"
 
 export const ShipIndex = () => {
 
@@ -32,6 +34,7 @@ export const ShipIndex = () => {
     const [extraContentMod, setExtraContentMod] = useState(0)
     const [loadedDefault, setLoadedDefault] = useState(false)
     const [resultView, setResultView] = useState('card')
+    const [sortBy, setSortBy] = useState([]) // Array of sort strings like ["achar", "dfolder"]
     const [franchiseSelection, setFranchiseSelection] = useState([
         "Abyss Horizon",
         "Axis Senki",
@@ -119,12 +122,22 @@ export const ShipIndex = () => {
         "Unknown",
     ])
 
-    const [selectedFranchise, setSelectedFranchise] = useState("")
-    const [selectedCountry, setSelectedCountry] = useState("")
-    const [selectedShipType, setSelectedShipType] = useState("")
+    const [selectedFranchise, setSelectedFranchise] = useState([])
+    const [selectedCountry, setSelectedCountry] = useState([])
+    const [selectedShipType, setSelectedShipType] = useState([])
     const toast = useToast()
     const location = useLocation()
     const navigate = useNavigate()
+
+    // Sort options configuration
+    const sortOptions = [
+        { value: 'char', label: 'Character name' },
+        { value: 'modifier', label: 'Modifier' },
+        { value: 'folder', label: 'Franchise' },
+        { value: 'file_size', label: 'Image size' },
+        { value: 'file_modified_date', label: 'Updated Date' },
+        { value: 'random', label: 'Random' }
+    ]
 
     function showErrorToast(e) {
         toast({
@@ -136,6 +149,25 @@ export const ShipIndex = () => {
         })
     }
 
+    // Utility functions for multi-select management
+    const addToSelection = (setterFunction, currentArray, item) => {
+        if (!currentArray.includes(item)) {
+            setterFunction([...currentArray, item])
+        }
+    }
+
+    const removeFromSelection = (setterFunction, currentArray, item) => {
+        setterFunction(currentArray.filter(i => i !== item))
+    }
+
+    const toggleSelection = (setterFunction, currentArray, item) => {
+        if (currentArray.includes(item)) {
+            removeFromSelection(setterFunction, currentArray, item)
+        } else {
+            addToSelection(setterFunction, currentArray, item)
+        }
+    }
+
     async function reloadData(overrideQuery = null) {
         let query = {
             keyword: keyword,
@@ -145,12 +177,13 @@ export const ShipIndex = () => {
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
             extraContentMod: extraContentMod,
-            selectedFranchise: selectedFranchise,
-            selectedCountry: selectedCountry,
-            selectedType: selectedShipType,
+            selectedFranchise: selectedFranchise.length > 0 ? selectedFranchise : [],
+            selectedCountry: selectedCountry.length > 0 ? selectedCountry : [],
+            selectedType: selectedShipType.length > 0 ? selectedShipType : [],
             limit: limitPerPage,
             strict: strictMode,
             includeExtrapolate: includeExtrapolate,
+            sortBy: sortBy,
         }
 
         if (overrideQuery) {
@@ -176,12 +209,13 @@ export const ShipIndex = () => {
             setConstructMod(query.get('constructMod') || 0)
             setAltOutfitMod(query.get('altOutfitMod') || 0)
             setExtraContentMod(query.get('extraContentMod') || 0)
-            setSelectedFranchise(query.get('selectedFranchise') || "")
-            setSelectedCountry(query.get('selectedCountry') || "")
-            setSelectedShipType(query.get('selectedType') || "")
+            setSelectedFranchise(query.get('selectedFranchise') ? query.get('selectedFranchise').split(',') : [])
+            setSelectedCountry(query.get('selectedCountry') ? query.get('selectedCountry').split(',') : [])
+            setSelectedShipType(query.get('selectedType') ? query.get('selectedType').split(',') : [])
             setPage(parseInt(query.get('page')) || 1)
             setStrictMode(query.get('strict') === 'true' || false)
             setIncludeExtrapolate(query.get('includeExtrapolate') === 'true' ?? true)
+            setSortBy(query.get('sortBy') ? query.get('sortBy').split(',') : [])
 
             reloadData()
             setLoadedDefault(true)
@@ -194,11 +228,12 @@ export const ShipIndex = () => {
             setConstructMod(location.state.searchData.constructMod || 0)
             setAltOutfitMod(location.state.searchData.altOutfitMod || 0)
             setExtraContentMod(location.state.searchData.extraContentMod || 0)
-            setSelectedFranchise(location.state.searchData.selectedFranchise || "")
-            setSelectedCountry(location.state.searchData.selectedCountry || "")
-            setSelectedShipType(location.state.searchData.selectedType || "")
+            setSelectedFranchise(Array.isArray(location.state.searchData.selectedFranchise) ? location.state.searchData.selectedFranchise : (location.state.searchData.selectedFranchise ? [location.state.searchData.selectedFranchise] : []))
+            setSelectedCountry(Array.isArray(location.state.searchData.selectedCountry) ? location.state.searchData.selectedCountry : (location.state.searchData.selectedCountry ? [location.state.searchData.selectedCountry] : []))
+            setSelectedShipType(Array.isArray(location.state.searchData.selectedType) ? location.state.searchData.selectedType : (location.state.searchData.selectedType ? [location.state.searchData.selectedType] : []))
             setStrictMode(location.state.searchData.strict || false)
             setIncludeExtrapolate(location.state.searchData.includeExtrapolate ?? true)
+            setSortBy(location.state.searchData.sortBy || [])
 
             const query = {
                 keyword: "",
@@ -213,6 +248,7 @@ export const ShipIndex = () => {
                 selectedType: "",
                 strict: false,
                 includeExtrapolate: true,
+                sortBy: [],
                 ...location.state.searchData
             } 
 
@@ -234,6 +270,7 @@ export const ShipIndex = () => {
             setStrictMode(searchState.strict || false)
             setIncludeExtrapolate(searchState.includeExtrapolate ?? true)
             setLimitPerPage(searchState.limit || 20)
+            setSortBy(searchState.sortBy || [])
 
             if (localStorage.getItem('searchData')) {
                 setShipList(JSON.parse(localStorage.getItem('searchData')))
@@ -283,11 +320,12 @@ export const ShipIndex = () => {
                 strict: strictMode,
                 includeExtrapolate: includeExtrapolate,
                 limit: limitPerPage,
+                sortBy: sortBy,
             }))
 
             localStorage.setItem('searchData', JSON.stringify(shiplist))
         }
-    }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage, shiplist])
+    }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage, shiplist, sortBy])
 
     const navigateToCG = useCallback((val) => {
         navigate('/cg_info', {state: {
@@ -318,24 +356,6 @@ export const ShipIndex = () => {
         )
     }) : <Text>No result found</Text>
 
-    const franchiseOption = franchiseSelection.map(val => {
-        return (
-            <option key={val} value={val}>{val}</option>
-        )
-    })
-
-    const countryOption = countrySelection.map(val => {
-        return (
-            <option key={val} value={val}>{val}</option>
-        )
-    })
-
-    const shipTypeOption = shipTypeSelection.map(val => {
-        return (
-            <option key={val} value={val}>{val}</option>
-        )
-    })
-
     function toggleModifierValue(value, key) {
         const mod_val = 1 << key
         return value ^ mod_val
@@ -359,6 +379,33 @@ export const ShipIndex = () => {
         setIncludeExtrapolate(e.target.checked)
     }
 
+    // Sort management functions
+    function addSortOption(sortField) {
+        if (!sortBy.some(sort => sort.slice(1) === sortField)) {
+            setSortBy([...sortBy, 'a' + sortField]) // Default to ascending
+        }
+    }
+
+    function toggleSortDirection(index) {
+        const newSortBy = [...sortBy]
+        const currentSort = newSortBy[index]
+        const direction = currentSort[0]
+        const field = currentSort.slice(1)
+        newSortBy[index] = (direction === 'a' ? 'd' : 'a') + field
+        setSortBy(newSortBy)
+    }
+
+    function removeSortOption(index) {
+        const newSortBy = [...sortBy]
+        newSortBy.splice(index, 1)
+        setSortBy(newSortBy)
+    }
+
+    function getSortLabel(sortField) {
+        const option = sortOptions.find(opt => opt.value === sortField)
+        return option ? option.label : sortField
+    }
+
     function onLimitPerPageChange(e) {
         setLimitPerPage(e.target.value)
         reloadData({
@@ -375,6 +422,7 @@ export const ShipIndex = () => {
             strict: strictMode,
             includeExtrapolate: includeExtrapolate,
             limit: e.target.value,
+            sortBy: sortBy,
         })
     }
 
@@ -405,26 +453,332 @@ export const ShipIndex = () => {
                             <Checkbox minW={200} isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
                             <Checkbox minW={200} isChecked={includeExtrapolate} onChange={onIncludeExtrapolateChange}>Include Extrapolated Data</Checkbox>
                         </Stack>
-                        <Wrap direction={'row'} justifyContent={'space-between'} wrap="wrap" spacing={5} marginBottom={5}>
-                            <WrapItem  marginBottom='20px' flex={'1 0 250px'}> 
-                                <Select size={'lg'} placeholder="Select ship nationality" value={selectedCountry} onChange={(e) => setSelectedCountry(e.target.value)}>
-                                    <option key="All" value="">All Country</option>
-                                    {countryOption}
-                                </Select>
-                            </WrapItem>
-                            <WrapItem  marginBottom='20px' flex={'1 0 250px'}>
-                                <Select size={'lg'} placeholder="Select ship hull type" value={selectedShipType} onChange={(e) => setSelectedShipType(e.target.value)}>
-                                    <option key="All" value="">All Ship Type</option>
-                                    {shipTypeOption}
-                                </Select>
-                            </WrapItem>
-                            <WrapItem  marginBottom='20px' flex={'1 0 250px'}>
-                                <Select size={'lg'} placeholder="Select franchise" value={selectedFranchise} onChange={(e) => setSelectedFranchise(e.target.value)}>
-                                    <option key="All" value="">All Franchise</option>
-                                    {franchiseOption}
-                                </Select>
-                            </WrapItem>
-                        </Wrap >
+                        
+                        {/* Responsive Filter and Sort Grid */}
+                        <SimpleGrid 
+                            columns={{ base: 1, md: 2 }} 
+                            spacing={2} 
+                            marginBottom={5}
+                        >
+                            {/* Country Filter Section */}
+                            <Box p={2}>
+                                <Wrap spacing={2} align="center">
+                                    <WrapItem>
+                                        <Text fontWeight={500} fontSize="sm" minW="80px">Country:</Text>
+                                    </WrapItem>
+                                    
+                                    {/* Country badges */}
+                                    {selectedCountry.map((country, index) => (
+                                        <WrapItem key={index}>
+                                            <Badge
+                                                variant="solid"
+                                                colorScheme="blue"
+                                                display="flex"
+                                                alignItems="center"
+                                                gap={1}
+                                                px={2}
+                                                py={1}
+                                                borderRadius="md"
+                                                height="32px"
+                                            >
+                                                <Avatar
+                                                    src={nation_name_to_twemoji_flag(country)}
+                                                    bg={'transparent'}
+                                                    name={country}
+                                                    size='xs'
+                                                    mr={1}
+                                                />
+                                                <Text fontSize="xs" mx={1} color="white">{country}</Text>
+                                                <Box
+                                                    cursor="pointer"
+                                                    onClick={() => removeFromSelection(setSelectedCountry, selectedCountry, country)}
+                                                    display="flex"
+                                                    alignItems="center"
+                                                    color="white"
+                                                    _hover={{ color: "gray.200" }}
+                                                >
+                                                    <FaTimes size="10px" />
+                                                </Box>
+                                            </Badge>
+                                        </WrapItem>
+                                    ))}
+                                    
+                                    {/* Add country menu */}
+                                    <WrapItem>
+                                        <Menu>
+                                            <MenuButton
+                                                as={IconButton}
+                                                icon={<FaPlus />}
+                                                size="sm"
+                                                variant="outline"
+                                                height="32px"
+                                                aria-label="Add country filter"
+                                            />
+                                            <MenuList maxHeight="300px" overflowY="auto">
+                                                {countrySelection.map((country) => (
+                                                    <MenuItem
+                                                        key={country}
+                                                        onClick={() => addToSelection(setSelectedCountry, selectedCountry, country)}
+                                                        isDisabled={selectedCountry.includes(country)}
+                                                    >
+                                                        <HStack>
+                                                            <Avatar
+                                                                src={nation_name_to_twemoji_flag(country)}
+                                                                bg={'transparent'}
+                                                                name={country}
+                                                                size='xs'
+                                                            />
+                                                            <Text>{country}</Text>
+                                                        </HStack>
+                                                    </MenuItem>
+                                                ))}
+                                            </MenuList>
+                                        </Menu>
+                                    </WrapItem>
+                                </Wrap>
+                            </Box>
+
+                            {/* Ship Type Filter Section */}
+                            <Box p={2}>
+                                <Wrap spacing={2} align="center">
+                                    <WrapItem>
+                                        <Text fontWeight={500} fontSize="sm" minW="80px">Ship Type:</Text>
+                                    </WrapItem>
+                                    
+                                    {/* Ship Type badges */}
+                                    {selectedShipType.map((type, index) => (
+                                        <WrapItem key={index}>
+                                            <Badge
+                                                variant="solid"
+                                                colorScheme="green"
+                                                display="flex"
+                                                alignItems="center"
+                                                gap={1}
+                                                px={2}
+                                                py={1}
+                                                borderRadius="md"
+                                                height="32px"
+                                            >
+                                                <Avatar
+                                                    src={type_name_to_icon(type)}
+                                                    bg={'transparent'}
+                                                    name={type}
+                                                    size='xs'
+                                                    mr={1}
+                                                />
+                                                <Text fontSize="xs" mx={1} color="white">{type}</Text>
+                                                <Box
+                                                    cursor="pointer"
+                                                    onClick={() => removeFromSelection(setSelectedShipType, selectedShipType, type)}
+                                                    display="flex"
+                                                    alignItems="center"
+                                                    color="white"
+                                                    _hover={{ color: "gray.200" }}
+                                                >
+                                                    <FaTimes size="10px" />
+                                                </Box>
+                                            </Badge>
+                                        </WrapItem>
+                                    ))}
+                                    
+                                    {/* Add ship type menu */}
+                                    <WrapItem>
+                                        <Menu>
+                                            <MenuButton
+                                                as={IconButton}
+                                                icon={<FaPlus />}
+                                                size="sm"
+                                                variant="outline"
+                                                height="32px"
+                                                aria-label="Add ship type filter"
+                                            />
+                                            <MenuList maxHeight="300px" overflowY="auto">
+                                                {shipTypeSelection.map((type) => (
+                                                    <MenuItem
+                                                        key={type}
+                                                        onClick={() => addToSelection(setSelectedShipType, selectedShipType, type)}
+                                                        isDisabled={selectedShipType.includes(type)}
+                                                    >
+                                                        <HStack>
+                                                            <Avatar
+                                                                src={type_name_to_icon(type)}
+                                                                bg={'transparent'}
+                                                                name={type}
+                                                                size='xs'
+                                                            />
+                                                            <Text>{type}</Text>
+                                                        </HStack>
+                                                    </MenuItem>
+                                                ))}
+                                            </MenuList>
+                                        </Menu>
+                                    </WrapItem>
+                                </Wrap>
+                            </Box>
+
+                            {/* Franchise Filter Section */}
+                            <Box p={2}>
+                                <Wrap spacing={2} align="center">
+                                    <WrapItem>
+                                        <Text fontWeight={500} fontSize="sm" minW="80px">Franchise:</Text>
+                                    </WrapItem>
+                                    
+                                    {/* Franchise badges */}
+                                    {selectedFranchise.map((franchise, index) => (
+                                        <WrapItem key={index}>
+                                            <Badge
+                                                variant="solid"
+                                                colorScheme="purple"
+                                                display="flex"
+                                                alignItems="center"
+                                                gap={1}
+                                                px={2}
+                                                py={1}
+                                                borderRadius="md"
+                                                height="32px"
+                                            >
+                                                <Text fontSize="xs" mx={1} color="white">{franchise}</Text>
+                                                <Box
+                                                    cursor="pointer"
+                                                    onClick={() => removeFromSelection(setSelectedFranchise, selectedFranchise, franchise)}
+                                                    display="flex"
+                                                    alignItems="center"
+                                                    color="white"
+                                                    _hover={{ color: "gray.200" }}
+                                                >
+                                                    <FaTimes size="10px" />
+                                                </Box>
+                                            </Badge>
+                                        </WrapItem>
+                                    ))}
+                                    
+                                    {/* Add franchise menu */}
+                                    <WrapItem>
+                                        <Menu>
+                                            <MenuButton
+                                                as={IconButton}
+                                                icon={<FaPlus />}
+                                                size="sm"
+                                                variant="outline"
+                                                height="32px"
+                                                aria-label="Add franchise filter"
+                                            />
+                                            <MenuList maxHeight="300px" overflowY="auto">
+                                                {franchiseSelection.map((franchise) => (
+                                                    <MenuItem
+                                                        key={franchise}
+                                                        onClick={() => addToSelection(setSelectedFranchise, selectedFranchise, franchise)}
+                                                        isDisabled={selectedFranchise.includes(franchise)}
+                                                    >
+                                                        <Text>{franchise}</Text>
+                                                    </MenuItem>
+                                                ))}
+                                            </MenuList>
+                                        </Menu>
+                                    </WrapItem>
+                                </Wrap>
+                            </Box>
+
+                            {/* Sort By Section */}
+                            <Box
+                                border="1px"
+                                borderColor="gray.600"
+                                borderRadius="lg"
+                                p={2}
+                                bg="transparent"
+                            >
+                                <Wrap spacing={2} align="center">
+                                    <WrapItem>
+                                        <Text fontWeight={500} fontSize="sm" minW="80px">Sort by:</Text>
+                                    </WrapItem>
+                                    
+                                    {/* Sort badges */}
+                                    {sortBy.map((sort, index) => {
+                                        const direction = sort[0]
+                                        const field = sort.slice(1)
+                                        const label = getSortLabel(field)
+                                        const isRandom = field === 'random'
+                                        
+                                        return (
+                                            <WrapItem key={index}>
+                                                <Badge
+                                                    variant="solid"
+                                                    colorScheme={isRandom ? "gray" : (direction === 'a' ? 'blue' : 'red')}
+                                                    display="flex"
+                                                    alignItems="center"
+                                                    gap={1}
+                                                    px={2}
+                                                    py={1}
+                                                    borderRadius="md"
+                                                    height="32px"
+                                                >
+                                                    {!isRandom && (
+                                                        <IconButton
+                                                            size="xs"
+                                                            minW="auto"
+                                                            h="auto"
+                                                            p={1}
+                                                            cursor="pointer"
+                                                            onClick={() => toggleSortDirection(index)}
+                                                            icon={direction === 'a' ? <FaArrowUp size="10px" /> : <FaArrowDown size="10px" />}
+                                                            colorScheme="whiteAlpha"
+                                                            variant="ghost"
+                                                            color="white"
+                                                            aria-label={direction === 'a' ? 'Sort ascending' : 'Sort descending'}
+                                                        />
+                                                    )}
+                                                    {isRandom && (
+                                                        <Box
+                                                            display="flex"
+                                                            alignItems="center"
+                                                            color="white"
+                                                        >
+                                                            <FaDice size="10px" />
+                                                        </Box>
+                                                    )}
+                                                    <Text fontSize="xs" mx={1} color="white">{label}</Text>
+                                                    <Box
+                                                        cursor="pointer"
+                                                        onClick={() => removeSortOption(index)}
+                                                        display="flex"
+                                                        alignItems="center"
+                                                        color="white"
+                                                        _hover={{ color: "gray.200" }}
+                                                    >
+                                                        <FaTimes size="10px" />
+                                                    </Box>
+                                                </Badge>
+                                            </WrapItem>
+                                        )
+                                    })}
+                                    
+                                    {/* Add sort option menu */}
+                                    <WrapItem>
+                                        <Menu>
+                                            <MenuButton
+                                                as={IconButton}
+                                                icon={<FaPlus />}
+                                                size="sm"
+                                                variant="outline"
+                                                height="32px"
+                                                aria-label="Add sort option"
+                                            />
+                                            <MenuList>
+                                                {sortOptions.map((option) => (
+                                                    <MenuItem
+                                                        key={option.value}
+                                                        onClick={() => addSortOption(option.value)}
+                                                        isDisabled={sortBy.some(sort => sort.slice(1) === option.value)}
+                                                    >
+                                                        {option.label}
+                                                    </MenuItem>
+                                                ))}
+                                            </MenuList>
+                                        </Menu>
+                                    </WrapItem>
+                                </Wrap>
+                            </Box>
+                        </SimpleGrid>
 
                         <Accordion allowToggle marginBottom='20px'>
                             <AccordionItem>
@@ -471,7 +825,19 @@ export const ShipIndex = () => {
                             </AccordionItem>
                         </Accordion>
 
-                        <Button bg={'primary'} size={'lg'} justifySelf='right' onClick={onSearch}>Search</Button>
+                        <Flex direction={'row'} alignItems={'center'} gap={4}>
+                            <Button bg={'primary'} size={'lg'} onClick={onSearch}>Search</Button>
+                            
+                            {/* Random sort warning */}
+                            {sortBy.some(sort => sort.slice(1) === 'random') && (
+                                <Alert status="info" size="sm" borderRadius="md" maxW="500px">
+                                    <AlertIcon />
+                                    <Text fontSize="xs">
+                                        Random sort is active and will override all other sorting options.
+                                    </Text>
+                                </Alert>
+                            )}
+                        </Flex>
 
                     </Box>
                     {/* result here as a table? */}

@@ -67,7 +67,15 @@ router.get('/query', async (req, res) => {
         }
     }
     if (query.folder) {
-        db_query.folder = query.folder
+        // Handle multiple folders as OR condition
+        const folders = query.folder.split(',').map(f => f.trim());
+        if (folders.length > 1) {
+            db_query.$and.push({
+                $or: folders.map(folder => ({folder: folder}))
+            });
+        } else {
+            db_query.folder = query.folder;
+        }
     }
     if (query.illust) {
         db_query.$and.push({
@@ -80,34 +88,103 @@ router.get('/query', async (req, res) => {
             db_query.$and[db_query.$and.length - 1].$or.pop()
     }
     if (query.nation) {
-        if (query.nation === "Unknown") {
-            db_query.nation = null
+        // Handle multiple nations as OR condition
+        const nations = query.nation.split(',').map(n => n.trim());
+        
+        if (nations.includes("Unknown")) {
+            // If "Unknown" is one of the selections, include null values
+            const nonUnknownNations = nations.filter(n => n !== "Unknown");
+            let orConditions = [{nation: null}];
+            
+            if (nonUnknownNations.length > 0) {
+                // Add conditions for each non-unknown nation
+                nonUnknownNations.forEach(nation => {
+                    orConditions.push({nation: nation});
+                    if (include_extrapolated) {
+                        orConditions.push({nation: "? " + nation});
+                    }
+                });
+            }
+            
+            db_query.$and.push({ $or: orConditions });
+        }
+        else if (nations.length > 1) {
+            // Multiple known nations
+            let orConditions = [];
+            nations.forEach(nation => {
+                orConditions.push({nation: nation});
+                if (include_extrapolated) {
+                    orConditions.push({nation: "? " + nation});
+                }
+            });
+            db_query.$and.push({ $or: orConditions });
         }
         else {
-            db_query.$and.push({
-                $or: [
-                    // any element in nation field is query.nation or query.nation with question mark
-                    {nation: query.nation},
-                    {nation: "? " + query.nation}
-                ]
-            })
-            if (!include_extrapolated) 
-                db_query.$and[db_query.$and.length - 1].$or.pop()
+            // Single nation (backward compatibility)
+            const nation = nations[0];
+            if (nation === "Unknown") {
+                db_query.nation = null;
+            }
+            else {
+                db_query.$and.push({
+                    $or: [
+                        {nation: nation},
+                        {nation: "? " + nation}
+                    ]
+                });
+                if (!include_extrapolated) 
+                    db_query.$and[db_query.$and.length - 1].$or.pop();
+            }
         }
     }
     if (query.type) {
-        if (query.type === "Unknown") {
-            db_query.ship_type = null
+        // Handle multiple ship types as OR condition
+        const types = query.type.split(',').map(t => t.trim());
+        
+        if (types.includes("Unknown")) {
+            // If "Unknown" is one of the selections, include null values
+            const nonUnknownTypes = types.filter(t => t !== "Unknown");
+            let orConditions = [{ship_type: null}];
+            
+            if (nonUnknownTypes.length > 0) {
+                // Add conditions for each non-unknown type
+                nonUnknownTypes.forEach(type => {
+                    orConditions.push({ship_type: type});
+                    if (include_extrapolated) {
+                        orConditions.push({ship_type: "? " + type});
+                    }
+                });
+            }
+            
+            db_query.$and.push({ $or: orConditions });
+        }
+        else if (types.length > 1) {
+            // Multiple known types
+            let orConditions = [];
+            types.forEach(type => {
+                orConditions.push({ship_type: type});
+                if (include_extrapolated) {
+                    orConditions.push({ship_type: "? " + type});
+                }
+            });
+            db_query.$and.push({ $or: orConditions });
         }
         else {
-            db_query.$and.push({
-                $or: [
-                    {ship_type: query.type},
-                    {ship_type: "? " + query.type}
-                ]
-            })
-            if (!include_extrapolated) 
-                db_query.$and[db_query.$and.length - 1].$or.pop()
+            // Single type (backward compatibility)
+            const type = types[0];
+            if (type === "Unknown") {
+                db_query.ship_type = null;
+            }
+            else {
+                db_query.$and.push({
+                    $or: [
+                        {ship_type: type},
+                        {ship_type: "? " + type}
+                    ]
+                });
+                if (!include_extrapolated) 
+                    db_query.$and[db_query.$and.length - 1].$or.pop();
+            }
         }
     }
     if (query.page) {
@@ -165,12 +242,79 @@ router.get('/query', async (req, res) => {
         delete db_query.$and
     }
 
+    // Parse sorting options
+    let sort_options = {}
+    if (query.sort_by) {
+        const sort_fields = query.sort_by.split(',')
+        sort_fields.forEach(field => {
+            if (field) {
+                const direction = field[0] // 'a' for ascending, 'd' for descending
+                const field_name = field.slice(1) // the actual field name
+                
+                if (field_name === 'random') {
+                    // For random sorting, we'll handle this differently with aggregation
+                    return
+                }
+                
+                // Map frontend field names to database field names
+                let db_field_name = field_name
+                switch (field_name) {
+                    case 'char':
+                        db_field_name = 'char'
+                        break
+                    case 'modifier':
+                        db_field_name = 'modifier'
+                        break
+                    case 'folder':
+                        db_field_name = 'folder'
+                        break
+                    case 'file_size':
+                        db_field_name = 'file_size'
+                        break
+                    case 'file_modified_date':
+                        db_field_name = 'file_modified_date'
+                        break
+                    default:
+                        db_field_name = field_name
+                }
+                
+                // Set sort direction: 1 for ascending, -1 for descending
+                sort_options[db_field_name] = direction === 'a' ? 1 : -1
+            }
+        })
+    }
+
+    // Check if random sorting is requested
+    const has_random_sort = query.sort_by && query.sort_by.includes('random')
+
     // console.dir(db_query, {depth: null})
 
-    let query_res = await db.queryRecordLimit('shipgirl', db_query, ENTRY_PER_PAGE, {}, {}, skip)
-        .catch(e => {
-            res.status(500).send("Internal server error")
-        })
+    let query_res
+    if (has_random_sort) {
+        // Use aggregation pipeline for random sorting
+        const pipeline = [
+            { $match: db_query },
+            { $sample: { size: ENTRY_PER_PAGE } }
+        ]
+        
+        // Add additional sorting if there are other sort fields
+        if (Object.keys(sort_options).length > 0) {
+            pipeline.push({ $sort: sort_options })
+        }
+        
+        query_res = await db.aggregateRecord('shipgirl', pipeline)
+            .catch(e => {
+                console.error(e)
+                res.status(500).send("Internal server error")
+            })
+    } else {
+        // Regular query with sorting
+        query_res = await db.queryRecordLimit('shipgirl', db_query, ENTRY_PER_PAGE, {}, sort_options, skip)
+            .catch(e => {
+                console.error(e)
+                res.status(500).send("Internal server error")
+            })
+    }
     if (!query_res) {
         return res.status(404).send("Not Found")
     }

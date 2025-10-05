@@ -121,7 +121,7 @@ export const FranchiseDetailView = (props) => {
     const navigateToShipIndex = useCallback(() => {
         navigate('/ship_list', {state: {
             searchData: {
-                selectedFranchise: props.data.name
+                selectedFranchise: [props.data.name]
             }
         }})
     }, [navigate, props.data.name])

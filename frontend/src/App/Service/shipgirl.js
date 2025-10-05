@@ -12,13 +12,29 @@ export function GET_query(query) {
         if (query.constructMod) url += `construct_mod=${query.constructMod}&`
         if (query.altOutfitMod) url += `alt_outfit_mod=${query.altOutfitMod}&`
         if (query.extraContentMod) url += `extra_content_mod=${query.extraContentMod}&`
-        if (query.selectedFranchise) url += `folder=${query.selectedFranchise}&`
-        if (query.selectedCountry) url += `nation=${query.selectedCountry}&`
-        if (query.selectedType) url += `type=${query.selectedType}&`
+        if (query.selectedFranchise && query.selectedFranchise.length > 0) {
+            const franchiseParam = Array.isArray(query.selectedFranchise) 
+                ? query.selectedFranchise.join(',') 
+                : query.selectedFranchise;
+            url += `folder=${franchiseParam}&`;
+        }
+        if (query.selectedCountry && query.selectedCountry.length > 0) {
+            const countryParam = Array.isArray(query.selectedCountry) 
+                ? query.selectedCountry.join(',') 
+                : query.selectedCountry;
+            url += `nation=${countryParam}&`;
+        }
+        if (query.selectedType && query.selectedType.length > 0) {
+            const typeParam = Array.isArray(query.selectedType) 
+                ? query.selectedType.join(',') 
+                : query.selectedType;
+            url += `type=${typeParam}&`;
+        }
         if (query.limit) url += `limit=${query.limit}&`
         if (query.strict) url += `strict=${query.strict}&`
         if (query.includeExtrapolate) url += `include_extrapolate=${query.includeExtrapolate}&`
         if (query.keywordIllust) url += `illust=${query.keywordIllust}&`
+        if (query.sortBy && query.sortBy.length > 0) url += `sort_by=${query.sortBy.join(',')}&`
 
         let res = await fetch(url, option).catch(e => reject("error when fetch"))
 
