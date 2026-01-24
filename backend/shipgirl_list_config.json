@@ -309,7 +309,8 @@
         ],
         "chibispinemapping": "./data/wg_spineChibi.json",
         "illustmapping": "./data/wg_booru_char_list.json",
-        "extramapping": "./data/wg_extraMapping.json"
+        "extramapping": "./data/wg_extraMapping.json",
+        "voicemapping": "./data/wg_voiceMapping.json"
     },
     {
         "name": "Warship Collection",
