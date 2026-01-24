@@ -217,7 +217,28 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Maury_Retrofit",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Fletcher_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "William D. Porter_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "William D. Porter_The Daredevil's Maidly Service",
         "nation": [
             "United States"
         ],
@@ -840,6 +861,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Hammann II_Hammann's Scrumptious Spells",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Laffey II_Default",
         "nation": [
             "United States"
@@ -883,6 +911,20 @@
     },
     {
         "name": "Miller_Monster Experiment M-01",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Clarence K. Bronson_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Clarence K. Bronson_Special Functional Testing",
         "nation": [
             "United States"
         ],
@@ -1330,6 +1372,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Birmingham_Briar Maid",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Cleveland \u03bc_Default",
         "nation": [
             "United States"
@@ -1520,6 +1569,20 @@
     },
     {
         "name": "Santa Fe_The Rumor Mill Never Sleeps",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Pasadena_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Pasadena_Surprising Game",
         "nation": [
             "United States"
         ],
@@ -2303,6 +2366,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "New Jersey_Black Blur Prelude",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "New Jersey_Wedding",
         "nation": [
             "United States"
@@ -2332,6 +2402,13 @@
     },
     {
         "name": "Alabama_Untarnished Silver, Silken Gold",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Alabama_Through Your Lens, My Everything",
         "nation": [
             "United States"
         ],
@@ -2919,6 +2996,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Essex_Start Line Splash",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Essex_Retrofit",
         "nation": [
             "United States"
@@ -2934,6 +3018,13 @@
     },
     {
         "name": "Yorktown II_Bright-Sky Mermaid",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Yorktown II_An Evening's Companionship",
         "nation": [
             "United States"
         ],
@@ -2997,6 +3088,20 @@
     },
     {
         "name": "Ticonderoga_Sunshine Princess",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Lexington II_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Lexington II_The Fluffiest of Maids",
         "nation": [
             "United States"
         ],
@@ -3081,6 +3186,20 @@
     },
     {
         "name": "Princeton_Gift-Wrapped Reindeer",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Cowpens_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Cowpens_Milky Ministrations",
         "nation": [
             "United States"
         ],
@@ -3850,6 +3969,118 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Hestia_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Repair Ship"
+    },
+    {
+        "name": "Hestia_Godly Vacation!",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Repair Ship"
+    },
+    {
+        "name": "Ryu Lion_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Ryu Lion_Night at the Pub",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Tohka Yatogami_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Tohka Yatogami_Break Time",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Origami Tobiichi_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Origami Tobiichi_The Spirit of Allure",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Kotori Itsuka_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Kotori Itsuka_Waterside Goddess",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Yoshino_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Yoshino_Secret Base",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Kurumi Tokisaki_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Kurumi Tokisaki_Twin Rose",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Kaguya Yamai\u30fbYuzuru Yamai_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Kaguya Yamai\u30fbYuzuru Yamai_Blue Ocean Rendezvous",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Guam_Default",
         "nation": [
             "United States"
@@ -3872,6 +4103,13 @@
     },
     {
         "name": "Gouden Leeuw_Default",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Gouden Leeuw_An Intimate Cleaning",
         "nation": [
             "Netherlands"
         ],
@@ -4005,6 +4243,13 @@
     },
     {
         "name": "Kansas_Default",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Kansas_Late-Night Leisure",
         "nation": [
             "United States"
         ],
@@ -7196,6 +7441,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Shimakaze_The Unmoving Rabbit",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Kamikaze_Default",
         "nation": [
             "Japan"
@@ -7442,6 +7694,13 @@
     },
     {
         "name": "Harutsuki_A Dance for the Coming Spring",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Harutsuki_Little Steamy Sprite",
         "nation": [
             "Japan"
         ],
@@ -7925,6 +8184,20 @@
     },
     {
         "name": "Taekaze_Kunoichi's Emergency Landing",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Fujinami_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Fujinami_Secret Fashion Show For You",
         "nation": [
             "Japan"
         ],
@@ -8478,6 +8751,13 @@
     },
     {
         "name": "Takao_Divine Exorcist's Blade",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Takao_Inner Cultivation",
         "nation": [
             "Japan"
         ],
@@ -9835,6 +10115,13 @@
         "ship_type": "Aviation Submarine"
     },
     {
+        "name": "I-13_After-School Observations",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aviation Submarine"
+    },
+    {
         "name": "I-404_Default",
         "nation": [
             "Japan"
@@ -9927,6 +10214,13 @@
     },
     {
         "name": "Izumo_Izumo's Thousand Cherry Trees",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Izumo_Tail-Stirred Cocktail",
         "nation": [
             "Japan"
         ],
@@ -10458,6 +10752,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Otto von Alvensleben_The Clumsy Maid is in a Bind!",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "K\u00f6nigsberg_Default",
         "nation": [
             "Germany"
@@ -10718,6 +11019,13 @@
     },
     {
         "name": "Prinz Eugen_Brilliant Touchdown",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Prinz Eugen_Between Tipsiness and a Wager",
         "nation": [
             "Germany"
         ],
@@ -11194,6 +11502,13 @@
     },
     {
         "name": "Bismarck Zwei_Crystal-Clear Holiday",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Bismarck Zwei_Bathed in Brightness and Spirit",
         "nation": [
             "Germany"
         ],
@@ -11830,6 +12145,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Mecklenburg_Branding Witchcraft",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "An Shan_Default",
         "nation": [
             "China"
@@ -12334,6 +12656,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Chien Wu_All-Nighter Masterpiece",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Huan Ch'ang_Default",
         "nation": [
             "China"
@@ -12600,6 +12929,20 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Ugolino Vivaldi_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Ugolino Vivaldi_An Unexpected Catch!",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Duca degli Abruzzi_Default",
         "nation": [
             "Italy"
@@ -12636,6 +12979,20 @@
     },
     {
         "name": "Bartolomeo Colleoni_The Empress' Romantic Ambush",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Alberto di Giussano_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Alberto di Giussano_A Magnificent Mistake",
         "nation": [
             "Italy"
         ],
@@ -12880,6 +13237,20 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Francesco Caracciolo_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Francesco Caracciolo_Confession Under the Spotlight",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Aquila_Default",
         "nation": [
             "Italy"
@@ -12993,6 +13364,13 @@
     },
     {
         "name": "Vittorio Cuniberti_Default",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Vittorio Cuniberti_On the Habits of Cats",
         "nation": [
             "Italy"
         ],
@@ -13342,6 +13720,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Kuybyshev_Rainy Day Blues",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Murmansk_Default",
         "nation": [
             "Soviet Union"
@@ -13615,6 +14000,13 @@
         "ship_type": "Large Cruiser"
     },
     {
+        "name": "Kronshtadt_Animal Agent",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Large Cruiser"
+    },
+    {
         "name": "Chkalov_Default",
         "nation": [
             "Soviet Union"
@@ -13650,7 +14042,21 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Admiral Nakhimov_Cheerleading Mechanic",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Dmitri Donskoi_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Dmitri Donskoi_Bedside Bunny",
         "nation": [
             "Soviet Union"
         ],
@@ -13875,6 +14281,20 @@
     },
     {
         "name": "Guichen_Sorci\u00e8re on Ice",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Guichen_Milk and Kisses",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Guichen_Milk&Kiss",
         "nation": [
             "France"
         ],
@@ -14763,6 +15183,76 @@
         "ship_type": "Sailing Frigate"
     },
     {
+        "name": "Queen Anne's Revenge_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Queen Anne's Revenge_Call of the Creeping Embrace",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Lyme_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Lyme_Corrupting Trap",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Pearl_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Pearl_Fallen Angel in the Dark Castle",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Royal James_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Royal James_The Forbidden Slurp",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Adventure_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Adventure_Master of the Safe House",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
         "name": "Hunter META_Default",
         "nation": [
             "Fictional"
@@ -14876,6 +15366,20 @@
     },
     {
         "name": "Pamiat' Merkuria META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Boise META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Cleveland META_Default",
         "nation": [
             "Fictional"
         ],
@@ -15100,6 +15604,13 @@
     },
     {
         "name": "Glorious META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Yorktown META_Default",
         "nation": [
             "Fictional"
         ],

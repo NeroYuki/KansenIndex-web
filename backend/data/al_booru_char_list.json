@@ -1,5 +1,251 @@
 [
   {
+    "name": "fujinami_(secret_fashion_show_for_you)_(azur_lane)",
+    "canon_name": "fujinami (secret fashion show for you)",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fujinami_(azur_lane)",
+    "canon_name": "fujinami",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "pamiat_merkuria_(playboy_bunny)_(azur_lane)",
+    "canon_name": "pamiat merkuria (playboy bunny)",
+    "illustrator": "? byulzzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "aegir_(private_quarters)_(azur_lane)",
+    "canon_name": "aegir (private quarters)",
+    "illustrator": "? box_(appera39)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "william_d._porter_(old_design)_(azur_lane)",
+    "canon_name": "william d. porter (old design)",
+    "illustrator": "? hestia_(neko_itachi)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bremerton_(western_cowgirl)_(azur_lane)",
+    "canon_name": "bremerton (western cowgirl)",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "otto_von_alvensleben_(the_clumsy_maid_is_in_a_bind!)_(azur_lane)",
+    "canon_name": "otto von alvensleben (the clumsy maid is in a bind!)",
+    "illustrator": "mimoza_(96mimo414)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "dmitri_donskoi_(bedside_bunny)_(azur_lane)",
+    "canon_name": "dmitri donskoi (bedside bunny)",
+    "illustrator": "izuru_(timbermetal)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "vittorio_cuniberti_(on_the_habits_of_cats)_(azur_lane)",
+    "canon_name": "vittorio cuniberti (on the habits of cats)",
+    "illustrator": "nys",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kuybyshev_(rainy_day_blues)_(azur_lane)",
+    "canon_name": "kuybyshev (rainy day blues)",
+    "illustrator": "? aishikikan",
+    "danbooru_banned": false
+  },
+  {
+    "name": "kansas_(late_night_leisure)_(azur_lane)",
+    "canon_name": "kansas (late night leisure)",
+    "illustrator": "ng_jie",
+    "danbooru_banned": false
+  },
+  {
+    "name": "prinz_eugen_(between_tipsiness_and_a_wager)_(azur_lane)",
+    "canon_name": "prinz eugen (between tipsiness and a wager)",
+    "illustrator": "yunsang",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cowpens_(milky_ministrations)_(azur_lane)",
+    "canon_name": "cowpens (milky ministrations)",
+    "illustrator": "yd_(orange_maru)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "yorktown_ii_(an_evening's_companionship)_(azur_lane)",
+    "canon_name": "yorktown ii (an evening's companionship)",
+    "illustrator": "kurumi_(recycllamo)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "william_d._porter_(the_daredevil's_maidly_service)_(azur_lane)",
+    "canon_name": "william d. porter (the daredevil's maidly service)",
+    "illustrator": "katsudansou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "birmingham_(briar_maid)_(azur_lane)",
+    "canon_name": "birmingham (briar maid)",
+    "illustrator": "hidulume",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bremerton_(school)_(azur_lane)",
+    "canon_name": "bremerton (school)",
+    "illustrator": "? yomare",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cleveland_(meta)_(azur_lane)",
+    "canon_name": "cleveland (meta)",
+    "illustrator": "alchemaniac",
+    "danbooru_banned": false
+  },
+  {
+    "name": "cowpens_(azur_lane)",
+    "canon_name": "cowpens",
+    "illustrator": "yd_(orange_maru)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "lexington_ii_(azur_lane)",
+    "canon_name": "lexington ii",
+    "illustrator": "kincora",
+    "danbooru_banned": false
+  },
+  {
+    "name": "i-13_(after-school_observations)_(azur_lane)",
+    "canon_name": "i-13 (after-school observations)",
+    "illustrator": "? shirasu_(88367810)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "boise_(meta)_(azur_lane)",
+    "canon_name": "boise (meta)",
+    "illustrator": "byulzzi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "illustrious_(u-treasure)_(azur_lane)",
+    "canon_name": "illustrious (u-treasure)",
+    "illustrator": "swd3e2",
+    "danbooru_banned": false
+  },
+  {
+    "name": "takao_(u-treasure)_(azur_lane)",
+    "canon_name": "takao (u-treasure)",
+    "illustrator": "raiou",
+    "danbooru_banned": false
+  },
+  {
+    "name": "bremerton_(u-treasure)_(azur_lane)",
+    "canon_name": "bremerton (u-treasure)",
+    "illustrator": "yappen",
+    "danbooru_banned": false
+  },
+  {
+    "name": "z23_(u-treasure)_(azur_lane)",
+    "canon_name": "z23 (u-treasure)",
+    "illustrator": "xe_(execut3r)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "shinano_(u-treasure)_(azur_lane)",
+    "canon_name": "shinano (u-treasure)",
+    "illustrator": "? kikimi",
+    "danbooru_banned": false
+  },
+  {
+    "name": "taihou_(u-treasure)_(azur_lane)",
+    "canon_name": "taihou (u-treasure)",
+    "illustrator": "satou_daiji",
+    "danbooru_banned": false
+  },
+  {
+    "name": "niiya_(azur_lane)",
+    "canon_name": "niiya",
+    "illustrator": "kanzarin",
+    "danbooru_banned": false
+  },
+  {
+    "name": "niishe_(azur_lane)",
+    "canon_name": "niishe",
+    "illustrator": "vilor",
+    "danbooru_banned": false
+  },
+  {
+    "name": "niimu_(azur_lane)",
+    "canon_name": "niimu",
+    "illustrator": "suika01",
+    "danbooru_banned": false
+  },
+  {
+    "name": "niko_(azur_lane)",
+    "canon_name": "niko",
+    "illustrator": "alisa_(kuro_no_sakura)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "fiize_(azur_lane)",
+    "canon_name": "fiize",
+    "illustrator": "kinjo_kuromomo",
+    "danbooru_banned": false
+  },
+  {
+    "name": "niimi_(azur_lane)",
+    "canon_name": "niimi",
+    "illustrator": "kaede_(yumesaki_kaede)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "izumo_(tail-stirred_cocktail)_(azur_lane)",
+    "canon_name": "izumo (tail-stirred cocktail)",
+    "illustrator": "alisa_(kuro_no_sakura)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "royal_james_(azur_lane)",
+    "canon_name": "royal james",
+    "illustrator": "alice_vu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "queen_anne's_revenge_(azur_lane)",
+    "canon_name": "queen anne's revenge",
+    "illustrator": "? shima080",
+    "danbooru_banned": false
+  },
+  {
+    "name": "amerigo_(azur_lane)",
+    "canon_name": "amerigo",
+    "illustrator": "? dvomil",
+    "danbooru_banned": false
+  },
+  {
+    "name": "olympic_(azur_lane)",
+    "canon_name": "olympic",
+    "illustrator": "? shoboimu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "patrick_(azur_lane)",
+    "canon_name": "patrick",
+    "illustrator": "? ping_zhong_yu",
+    "danbooru_banned": false
+  },
+  {
+    "name": "peary_(azur_lane)",
+    "canon_name": "peary",
+    "illustrator": "? ping_zhong_yu",
+    "danbooru_banned": false
+  },
+  {
     "name": "nimi_(azur_lane)",
     "canon_name": "nimi",
     "illustrator": "kaede_(yumesaki_kaede)",
@@ -38,7 +284,7 @@
   {
     "name": "amagi_(cv)_(moonlit_blossom_on_placid_seas)_(azur_lane)",
     "canon_name": "amagi (cv) (moonlit blossom on placid seas)",
-    "illustrator": "? ping_zhong_yu",
+    "illustrator": "liduke",
     "danbooru_banned": false
   },
   {
@@ -110,7 +356,7 @@
   {
     "name": "gouden_leeuw_(azur_lane)",
     "canon_name": "gouden leeuw",
-    "illustrator": "? kive",
+    "illustrator": "? suo_bu_ye_feng",
     "danbooru_banned": false
   },
   {
@@ -158,7 +404,7 @@
   {
     "name": "maryland_(red-hot_drummer)_(azur_lane)",
     "canon_name": "maryland (red-hot drummer)",
-    "illustrator": "? kiyoi_(gyhw8444)",
+    "illustrator": "? kiyoi_(qingyisama)",
     "danbooru_banned": false
   },
   {
@@ -270,12 +516,6 @@
     "danbooru_banned": false
   },
   {
-    "name": "de_zeven_provincien_(azur_lane)",
-    "canon_name": "de zeven provincien",
-    "illustrator": "? silvergrace",
-    "danbooru_banned": false
-  },
-  {
     "name": "specialized_bulin_mkiii_(the_bulin_bringer_of_justice)_(azur_lane)",
     "canon_name": "specialized bulin mkiii (the bulin bringer of justice)",
     "illustrator": "? 10011018",
@@ -362,7 +602,13 @@
   {
     "name": "maggiore_baracca_(azur_lane)",
     "canon_name": "maggiore baracca",
-    "illustrator": "? swt038",
+    "illustrator": "? classic_(zildjian33)",
+    "danbooru_banned": false
+  },
+  {
+    "name": "raffaello_(azur_lane)",
+    "canon_name": "raffaello",
+    "illustrator": "? quancy_(sduk8432)",
     "danbooru_banned": false
   },
   {
@@ -516,6 +762,12 @@
     "danbooru_banned": false
   },
   {
+    "name": "aegir_(one-on-one_leisure_time)_(azur_lane)",
+    "canon_name": "aegir (one-on-one leisure time)",
+    "illustrator": "? chiyu1182",
+    "danbooru_banned": false
+  },
+  {
     "name": "z11_(azur_lane)",
     "canon_name": "z11",
     "illustrator": "freng",
@@ -536,7 +788,7 @@
   {
     "name": "fritz_rumey_(azur_lane)",
     "canon_name": "fritz rumey",
-    "illustrator": "? maenoo",
+    "illustrator": "? suo_bu_ye_feng",
     "danbooru_banned": false
   },
   {
@@ -836,7 +1088,7 @@
   {
     "name": "belfast_(blissful_service)_(azur_lane)",
     "canon_name": "belfast (blissful service)",
-    "illustrator": "? mesc_(bfwz529650971)",
+    "illustrator": "? chela77",
     "danbooru_banned": false
   },
   {
@@ -960,6 +1212,12 @@
     "danbooru_banned": false
   },
   {
+    "name": "pittsburgh_(azur_lane)",
+    "canon_name": "pittsburgh",
+    "illustrator": "? preview_(preview0)",
+    "danbooru_banned": false
+  },
+  {
     "name": "indiana_(azur_lane)",
     "canon_name": "indiana",
     "illustrator": "katsudansou",
@@ -1034,7 +1292,7 @@
   {
     "name": "napoli_(azur_lane)",
     "canon_name": "napoli",
-    "illustrator": "? yuexiang_zhu",
+    "illustrator": "? wo_meiyou_mao",
     "danbooru_banned": false
   },
   {
@@ -1340,7 +1598,7 @@
   {
     "name": "enforcer_v_orthodoxy_(azur_lane)",
     "canon_name": "enforcer v orthodoxy",
-    "illustrator": "? argusrho_01",
+    "illustrator": "? argusrho",
     "danbooru_banned": false
   },
   {
@@ -3470,7 +3728,7 @@
   {
     "name": "kashino_(maid_for_mayhem)_(azur_lane)",
     "canon_name": "kashino (maid for mayhem)",
-    "illustrator": "? jndfh",
+    "illustrator": "? yyy_(zelda10010)",
     "danbooru_banned": false
   },
   {
@@ -4340,7 +4598,7 @@
   {
     "name": "kiev_(azur_lane)",
     "canon_name": "kiev",
-    "illustrator": "? konoebi",
+    "illustrator": "? ka11_ca",
     "danbooru_banned": false
   },
   {
@@ -6434,7 +6692,7 @@
   {
     "name": "formidable_(timeless_classics)_(azur_lane)",
     "canon_name": "formidable (timeless classics)",
-    "illustrator": "? luoloo",
+    "illustrator": "? kiki-yu",
     "danbooru_banned": false
   },
   {
@@ -8696,7 +8954,7 @@
   {
     "name": "sovetsky_soyuz_(azur_lane)",
     "canon_name": "sovetsky soyuz",
-    "illustrator": "? kuno_(runkunochan)",
+    "illustrator": "? sethia_sgs",
     "danbooru_banned": false
   },
   {
@@ -11228,7 +11486,7 @@
   {
     "name": "female_commander_(azur_lane)",
     "canon_name": "female commander",
-    "illustrator": "? dishwasher1910",
+    "illustrator": "? minase_(takaoka_nanase)",
     "danbooru_banned": false
   },
   {
@@ -11240,7 +11498,7 @@
   {
     "name": "little_boy_commander_(azur_lane)",
     "canon_name": "little boy commander",
-    "illustrator": "? yan_lie",
+    "illustrator": "? upanishi_mariko",
     "danbooru_banned": false
   },
   {
@@ -11312,7 +11570,7 @@
   {
     "name": "william_d._porter_(azur_lane)",
     "canon_name": "william d. porter",
-    "illustrator": "? hestia_(neko_itachi)",
+    "illustrator": "katsudansou",
     "danbooru_banned": false
   },
   {

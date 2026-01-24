@@ -108,6 +108,10 @@
         "name": "Anchorage_Sweet Evening Milk"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/anninvwang_2/anninvwang_2.model3.json",
+        "name": "Queen Anne's Revenge_Call of the Creeping Embrace"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/baerdimo_5/baerdimo_5.model3.json",
         "name": "Baltimore_Evening Breeze Minuet"
     },
@@ -320,6 +324,10 @@
         "name": "Fritz Rumey_Schwarzes Kaninchen"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/gaoxiong_7/gaoxiong_7.model3.json",
+        "name": "Takao_Inner Cultivation"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/geliqiya_2/geliqiya_2.model3.json",
         "name": "Gorizia_Unrequited Office Love"
     },
@@ -424,6 +432,10 @@
         "name": "Golden Hind_Forlorn Femme Fatale"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jinshi_2/jinshi_2.model3.json",
+        "name": "Gouden Leeuw_An Intimate Cleaning"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jiuyun_2/jiuyun_2.model3.json",
         "name": "Sakawa_The Colors of Love"
     },
@@ -446,6 +458,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kalvbudisi_2/kalvbudisi_2.model3.json",
         "name": "Charybdis_Red Chamber of Healing"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kebensi_2/kebensi_2.model3.json",
+        "name": "Cowpens_Milky Ministrations"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/kelaimengsuo_2/kelaimengsuo_2.model3.json",
@@ -560,6 +576,10 @@
         "name": "Mass\u00e9na_Sweetly Intoxicating Spring"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/meikelunbao_2/meikelunbao_2.model3.json",
+        "name": "Mecklenburg_Branding Witchcraft"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/meiyinci_3/meiyinci_3.model3.json",
         "name": "Mainz_A Blend of Serenity"
     },
@@ -606,6 +626,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ougen_6_hx/ougen_6_hx.model3.json",
         "name": "Prinz Eugen_Kindred Evening Spirits_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ougen_8/ougen_8.model3.json",
+        "name": "Prinz Eugen_Between Tipsiness and a Wager"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/ouruola_4/ouruola_4.model3.json",
@@ -836,6 +860,10 @@
         "name": "New Jersey_Midsummer Leisure"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinzexi_5/xinzexi_5.model3.json",
+        "name": "New Jersey_Black Blur Prelude"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xixuegui_4/xixuegui_4.model3.json",
         "name": "Vampire_Night Princess's Regalia"
     },
@@ -926,5 +954,9 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhaohe_3/zhaohe_3.model3.json",
         "name": "Chao Ho_Frolicking Flowers, Verse II"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhenzhuhao_2/zhenzhuhao_2.model3.json",
+        "name": "Pearl_Fallen Angel in the Dark Castle"
     }
 ]

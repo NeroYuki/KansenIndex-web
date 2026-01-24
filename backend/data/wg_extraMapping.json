@@ -16617,5 +16617,195 @@
 		"alias": [
 			"Бравый (Bravyy)"
 		]
+	},
+		{
+		"id": 623,
+		"name": "Temeraire",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "11/14（实装日）",
+		"illust": [
+			"Pang-瞪瞪"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "242m",
+		"displacement": "42500t",
+		"alias": [
+			"HMS Temeraire (36)"
+		]
+	},
+	{
+		"id": 624,
+		"name": "Bulwark",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "6/22",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "225m",
+		"displacement": "27000t",
+		"alias": [
+			"HMS Bulwark (R08)"
+		]
+	},
+	{
+		"id": 625,
+		"name": "Cassard",
+		"nation": [
+			"France"
+		],
+		"birthday": "11/8",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "130m",
+		"displacement": "3120t",
+		"alias": [
+			"Cassard"
+		]
+	},
+	{
+		"id": 626,
+		"name": "I-17",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "7/19",
+		"illust": [
+			"六条-努力成为八爪鱼"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "109m",
+		"displacement": "3600t",
+		"alias": [
+			"伊17(い17) (I-17)"
+		]
+	},
+	{
+		"id": 627,
+		"name": "Oriskany",
+		"nation": [
+			"United States"
+		],
+		"birthday": "10/13",
+		"illust": [
+			"阿二叽"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "272m",
+		"displacement": "31300t",
+		"alias": [
+			"USS Oriskany (CVA-34)"
+		]
+	},
+	{
+		"id": 628,
+		"name": "Long Island",
+		"nation": [
+			"United States"
+		],
+		"birthday": "1/11",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "150m",
+		"displacement": "13716t",
+		"alias": [
+			"USS Long Island (CVE-1)"
+		]
+	},
+	{
+		"id": 629,
+		"name": "Sangamon",
+		"nation": [
+			"United States"
+		],
+		"birthday": "11/4",
+		"illust": [
+			"左手王ZSW"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "242m",
+		"displacement": "24275t",
+		"alias": [
+			"USS Sangamon (CVE-26)"
+		]
+	},
+	{
+		"id": 630,
+		"name": "U-3008",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "9/14",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76.7m",
+		"displacement": "1819t",
+		"alias": [
+			"U-3008"
+		]
+	},
+	{
+		"id": 1267,
+		"name": "Shimakaze_retrofit",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "7/18",
+		"illust": [
+			"Saru"
+		],
+		"voice_actor": [
+			"幽舞越山"
+		],
+		"height": "129.5m",
+		"displacement": "2567t",
+		"alias": [
+			"島風(しまかぜ) (Shimakaze)"
+		]
+	},
+	{
+		"id": 1606,
+		"name": "Hamburg_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "3/26",
+		"illust": [
+			"炭涂"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "134m",
+		"displacement": "4050t",
+		"alias": [
+			"FGS Hamburg (D181)"
+		]
 	}
 ]
