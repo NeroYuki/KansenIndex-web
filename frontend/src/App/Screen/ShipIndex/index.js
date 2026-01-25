@@ -1,6 +1,6 @@
 import { Box, Flex, Text, Input, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
     Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem, Avatar,
-    Badge, IconButton, Menu, MenuButton, MenuList, MenuItem, HStack, VStack, SimpleGrid, Alert, AlertIcon, Tooltip } from "@chakra-ui/react"
+    Badge, IconButton, Menu, MenuButton, MenuList, MenuItem, HStack, VStack, SimpleGrid, Alert, AlertIcon, Tooltip, Icon } from "@chakra-ui/react"
 import {
     Table,
     Thead,
@@ -11,9 +11,9 @@ import {
     TableCaption,
 } from '@chakra-ui/react'
 import { useCallback, useEffect, useState } from "react"
-import { FaPencilAlt, FaSearch, FaPlus, FaTimes, FaArrowUp, FaArrowDown, FaDice, FaInfoCircle } from "react-icons/fa"
+import { FaPencilAlt, FaSearch, FaPlus, FaTimes, FaArrowUp, FaArrowDown, FaDice, FaInfoCircle, FaTag } from "react-icons/fa"
 import { useLocation, useNavigate, useBeforeUnload } from "react-router-dom"
-import { SiteHeader, SiteFooter } from "../../Component"
+import { SiteHeader, SiteFooter, CensoredImage } from "../../Component"
 import { GET_query, GET_tag_suggestions } from "../../Service/shipgirl"
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
 import { nation_name_to_twemoji_flag, type_name_to_icon } from "../../Utils/data_mapping"
@@ -92,6 +92,7 @@ export const ShipIndex = () => {
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
     const [extraContentMod, setExtraContentMod] = useState(0)
+    const [ratingMod, setRatingMod] = useState(0) // 0001=general, 0010=sensitive, 0100=questionable, 1000=explicit
     const [loadedDefault, setLoadedDefault] = useState(false)
     const [resultView, setResultView] = useState('card')
     const [sortBy, setSortBy] = useState([]) // Array of sort strings like ["achar", "dfolder"]
@@ -239,6 +240,7 @@ export const ShipIndex = () => {
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
             extraContentMod: extraContentMod,
+            ratingMod: ratingMod,
             selectedFranchise: selectedFranchise.length > 0 ? selectedFranchise : [],
             selectedCountry: selectedCountry.length > 0 ? selectedCountry : [],
             selectedType: selectedShipType.length > 0 ? selectedShipType : [],
@@ -492,7 +494,15 @@ export const ShipIndex = () => {
                 <Td>{val.filename}</Td>
                 <Td><Checkbox isChecked={val.is_base} isDisabled></Checkbox></Td>
                 <Td><a href={val.full_dir} className="tooltip">View here
-                    <span className="tooltiptext"><img style={{height: 300, margin: 'auto', objectFit: 'scale-down'}} src={thumb_dir} alt="hover_img"></img></span>
+                    <span className="tooltiptext">
+                        <CensoredImage 
+                            style={{height: 300, margin: 'auto', objectFit: 'scale-down'}} 
+                            src={thumb_dir} 
+                            alt="hover_img" 
+                            rating={val.rating}
+                            buttonText="Reveal"
+                        />
+                    </span>
                 </a></Td>
             </Tr>
         )
@@ -594,7 +604,7 @@ export const ShipIndex = () => {
                                 <Input value={keywordIllust} marginLeft='10px' placeholder="Enter illustrator" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordIllustChange} onKeyDown={listenForEnter}></Input>
                             </Box>
                             <Box display={'flex'} flexDirection={'row'} flex={4} minW={240} alignItems={'center'} mr={4} position="relative">
-                                <Text fontSize="sm" minW="60px" mr={2}>Tags:</Text>
+                                <Icon as={FaTag} boxSize="16px" mr={2} color="gray.500" />
                                 <Box flex={1} position="relative">
                                     {/* Combined input with inline tags */}
                                     <Box
@@ -1131,6 +1141,15 @@ export const ShipIndex = () => {
                                         <Checkbox isChecked={getModifierValue(extraContentMod, 2)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 2))}>Chibi</Checkbox>
                                         <Checkbox isChecked={getModifierValue(extraContentMod, 3)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 3))}>Dynamic</Checkbox>
                                         <Checkbox isChecked={getModifierValue(extraContentMod, 4)} onChange={(e) => setExtraContentMod(toggleModifierValue(extraContentMod, 4))}>3D Model</Checkbox>
+                                    </CheckboxGroup>
+                                </Stack>
+                                <Stack direction={'row'} spacing='10px' marginBottom='10px' wrap={'wrap'}>
+                                    <Text fontWeight={500}>Content Rating: </Text>
+                                    <CheckboxGroup>
+                                        <Checkbox isChecked={getModifierValue(ratingMod, 0)} onChange={(e) => setRatingMod(toggleModifierValue(ratingMod, 0))}>General</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(ratingMod, 1)} onChange={(e) => setRatingMod(toggleModifierValue(ratingMod, 1))}>Sensitive</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(ratingMod, 2)} onChange={(e) => setRatingMod(toggleModifierValue(ratingMod, 2))}>Questionable</Checkbox>
+                                        <Checkbox isChecked={getModifierValue(ratingMod, 3)} onChange={(e) => setRatingMod(toggleModifierValue(ratingMod, 3))}>Explicit</Checkbox>
                                     </CheckboxGroup>
                                 </Stack>
                                 </AccordionPanel>

@@ -17,6 +17,67 @@ Array.prototype.filterIndex = function (cb) {
     return arr
 }
 
+function parseTagFile(content) {
+    const lines = content.split('\n').map(line => line.trim()).filter(line => line.length > 0)
+    
+    let description = []
+    let rating = null
+    let body_crop = {
+        breast: null,
+        head: null,
+        face: null,
+        eyes: null
+    }
+    
+    if (lines.length > 0) {
+        // First line: description tags
+        description = lines[0].split(',').map(tag => tag.trim()).filter(tag => tag.length > 0)
+    }
+    
+    if (lines.length > 1) {
+        // Second line: rating
+        rating = lines[1]
+    }
+    
+    // Parse body part detection lines (@Breasts, @HeadAndHair, @face, @Eyes)
+    const eyeBoundingBoxes = []
+    for (let i = 2; i < lines.length; i++) {
+        const line = lines[i]
+        if (line.startsWith('@')) {
+            const parts = line.split(': ')
+            if (parts.length === 2) {
+                const detector = parts[0].substring(1) // Remove @ symbol
+                const bbox = JSON.parse(parts[1]) // Parse bounding box array
+                
+                if (detector.toLowerCase().includes('breast')) {
+                    body_crop.breast = bbox
+                } else if (detector.toLowerCase().includes('head')) {
+                    body_crop.head = bbox
+                } else if (detector.toLowerCase().includes('face')) {
+                    body_crop.face = bbox
+                } else if (detector.toLowerCase().includes('eyes')) {
+                    eyeBoundingBoxes.push(bbox)
+                }
+            }
+        }
+    }
+    
+    // Handle eyes: if 1 eye, use that box; if 2 eyes, create combined box
+    if (eyeBoundingBoxes.length === 1) {
+        body_crop.eyes = eyeBoundingBoxes[0]
+    } else if (eyeBoundingBoxes.length === 2) {
+        // Create combined bounding box containing both eyes
+        const [box1, box2] = eyeBoundingBoxes
+        const minX = Math.min(box1[0], box2[0])
+        const minY = Math.min(box1[1], box2[1])
+        const maxX = Math.max(box1[2], box2[2])
+        const maxY = Math.max(box1[3], box2[3])
+        body_crop.eyes = [minX, minY, maxX, maxY]
+    }
+    
+    return { description, rating, body_crop }
+}
+
 // function main_shipgirl () {
 
 //     let dirs = fs.readdirSync(BASE_PATH)
@@ -305,14 +366,19 @@ function main_shipgirl_db() {
                 }
             }
 
-            // Read description tags from corresponding txt file
+            // Read description tags and additional info from corresponding txt file
             let description = []
+            let rating = null
+            let body_crop = null
             const tag_file_path = path.join(TAG_PATH, dir, file.slice(0, file.lastIndexOf('.')) + '.txt')
             if (fs.existsSync(tag_file_path)) {
                 try {
                     const tag_content = fs.readFileSync(tag_file_path, {encoding: 'utf-8'}).trim()
                     if (tag_content) {
-                        description = tag_content.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0)
+                        const parsed_info = parseTagFile(tag_content)
+                        description = parsed_info.description
+                        rating = parsed_info.rating
+                        body_crop = parsed_info.body_crop
                         
                         // Update tag frequency
                         description.forEach(tag => {
@@ -346,6 +412,8 @@ function main_shipgirl_db() {
                 folder: dir,
                 alias: alias.concat(extra_config?.alias || []),
                 description: description,
+                rating: rating,
+                body_crop: body_crop,
                 l2d: l2d,
                 chibi: chibi,
                 spine: spine,

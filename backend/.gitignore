@@ -131,3 +131,4 @@ data/thumbs/*
 data/shipgirl_list_db_new.json
 data/shipgirl_list_db_old.json
 ws
+utils/models

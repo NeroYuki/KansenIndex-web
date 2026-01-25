@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, SlideFade, Text, Tooltip} from "@chakra-ui/react"
 import { FaSearchPlus } from "react-icons/fa";
+import { CensoredImage } from "../CensoredImage";
 
 // function to turn number to ordinal string
 function ordinal_suffix_of(i) {
@@ -29,7 +30,14 @@ export const SimpleCharCard = (props) => {
 
     return (
         <Box style={{...style}} position={'relative'} bg='card' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' onClick={() => {if (props.onCardClick) props.onCardClick(data)}}>
-            <img src={thumb_dir} alt={data.filename} style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} />
+            <CensoredImage 
+                src={thumb_dir} 
+                alt={data.filename} 
+                rating={data.rating}
+                style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}}
+                buttonText="Reveal image"
+                warningText={`This ${data.rating || 'content'} rated image is hidden`}
+            />
             <Flex position={'absolute'} top={0} left={0} direction={'column'} height={'100%'} justify={'space-between'} >
                 <Flex direction={'row'} justify={'space-between'} width={'332px'}>
                     <Flex direction={'column'} justify={'space-between'}  p='10px' >

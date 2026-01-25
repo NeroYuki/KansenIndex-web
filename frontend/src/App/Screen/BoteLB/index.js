@@ -1,6 +1,6 @@
 import { Box, Flex, Heading, SlideFade, Text} from "@chakra-ui/react"
 import { useEffect, useState } from "react"
-import { SiteFooter, SiteHeader } from "../../Component"
+import { SiteFooter, SiteHeader, CensoredImage } from "../../Component"
 import { GET_getTopFav } from "../../Service/shipgirl"
 
 // function to turn number to ordinal string
@@ -20,14 +20,21 @@ function ordinal_suffix_of(i) {
 }
 
 const SimpleCharCard = (props) => {
-    const { char, folder, image_link, fav_count, pos} = props
+    const { char, folder, image_link, fav_count, pos, rating} = props
 
     let thumb_dir = (image_link) ? image_link.replace('./data/assets/', './data/thumbs/') : ''
     thumb_dir = thumb_dir.slice(0, thumb_dir.lastIndexOf('.')) + '.png'
 
     return (
         <Box position={'relative'} bg='card' minW='332px' minH='332px' borderRadius='10px' boxShadow='md' m='10px'>
-            <img src={thumb_dir} alt={char} style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} />
+            <CensoredImage 
+                src={thumb_dir} 
+                alt={char} 
+                rating={rating}
+                style={{objectFit: 'contain', margin: 16, height: '300px', width: '300px'}} 
+                buttonText="Reveal image"
+                warningText={`This ${rating || 'content'} rated image is hidden`}
+            />
             <Flex position={'absolute'} top={0} left={0} direction={'column'} height={'100%'} justify={'space-between'} >
                 <Flex direction={'row'} justify={'space-between'} width={'332px'}>
                     <Flex direction={'column'} justify={'space-between'}  p='10px' >
@@ -59,7 +66,7 @@ export const BoteLB = () => {
 
     const cardList = topBoteList.map((val, index) => {
         return (
-            <SimpleCharCard key={val._id} char={val.char} folder={val.folder} image_link={val.base_cg} fav_count={val.fav} pos={index + 1}/>
+            <SimpleCharCard key={val._id} char={val.char} folder={val.folder} image_link={val.base_cg} fav_count={val.fav} pos={index + 1} rating={val.rating}/>
         )
     })
 

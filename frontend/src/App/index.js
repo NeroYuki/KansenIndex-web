@@ -3,12 +3,15 @@ import { useState } from 'react';
 import './App.css';
 import { NavigationTop } from './Component';
 import { TopNavigation } from './Route';
+import { ContentFilterProvider } from './Context/ContentFilterContext';
 
 function App() {
 
 	return (
 		<div className="App">
-			<TopNavigation/>
+			<ContentFilterProvider>
+				<TopNavigation/>
+			</ContentFilterProvider>
 		</div>
 	);
 }

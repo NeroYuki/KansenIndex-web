@@ -322,6 +322,28 @@ router.get('/query', async (req, res) => {
             db_query.m3d = {$ne: null}
         }
     }
+    if (query.rating_mod) {
+        let val = parseInt(query.rating_mod) || 0
+        let ratingConditions = []
+        if ((val >> 0) & 1) {   //general
+            ratingConditions.push({ rating: 'general' })
+        }
+        if ((val >> 1) & 1) {   //sensitive
+            ratingConditions.push({ rating: 'sensitive' })
+        }
+        if ((val >> 2) & 1) {   //questionable
+            ratingConditions.push({ rating: 'questionable' })
+        }
+        if ((val >> 3) & 1) {   //explicit
+            ratingConditions.push({ rating: 'explicit' })
+        }
+        if (ratingConditions.length > 0) {
+            if (!db_query.$and) {
+                db_query.$and = []
+            }
+            db_query.$and.push({ $or: ratingConditions })
+        }
+    }
 
     // if db_query.$and is empty, remove it
     if (!db_query.$and.length) {
@@ -547,7 +569,8 @@ router.get('/bote_fav_lb', async (req, res) => {
             // mutate db_res entry to include base cg
             db_res_final.push({
                 ...e,
-                base_cg: base_cg[0].full_dir
+                base_cg: base_cg[0].full_dir,
+                rating: base_cg[0].rating
             }) 
         }
     }

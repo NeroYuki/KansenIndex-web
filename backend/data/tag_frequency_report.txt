@@ -1,8 +1,8 @@
 Tag Frequency Report
-Generated: 2026-01-25T07:12:12.318Z
-Total unique tags: 5636
-Total tag occurrences: 639372
-Average tags per image: 45.17
+Generated: 2026-01-25T15:47:21.648Z
+Total unique tags: 5262
+Total tag occurrences: 635297
+Average tags per image: 44.88
 
 Tags by frequency:
 1girl: 13962
@@ -145,7 +145,6 @@ coat: 928
 bag: 904
 hairclip: 899
 feet: 895
-manjuu (azur lane): 886
 necktie: 880
 buttons: 868
 mecha musume: 868
@@ -941,7 +940,6 @@ teapot: 70
 sweat: 70
 crown braid: 70
 bikini under clothes: 70
-akebono (kancolle): 70
 christmas ornaments: 69
 riding: 69
 thighlet: 69
@@ -1111,7 +1109,6 @@ arm warmers: 53
 spill: 53
 hair spread out: 53
 wolf tail: 53
-ushio (kancolle): 53
 red umbrella: 52
 extra ears: 52
 popsicle: 52
@@ -1250,7 +1247,6 @@ stuffed rabbit: 44
 hair down: 44
 red shorts: 44
 holding chopsticks: 44
-naganami (kancolle): 44
 tank top: 43
 ema: 43
 wa maid: 43
@@ -1290,7 +1286,6 @@ mechanical halo: 41
 sleeveless jacket: 41
 hagoita: 41
 dragon horns: 41
-ooyodo (kancolle): 41
 platform boots: 40
 invisible chair: 40
 purple bow: 40
@@ -1381,7 +1376,6 @@ striped necktie: 37
 pout: 37
 dragon tail: 37
 undershirt: 37
-gotland (kancolle): 37
 black flower: 36
 :p: 36
 red ascot: 36
@@ -1445,7 +1439,6 @@ disposable cup: 34
 blue leotard: 34
 yellow kimono: 34
 blunt tresses: 34
-sazanami (kancolle): 34
 headphones around neck: 33
 w: 33
 fur-trimmed gloves: 33
@@ -1481,9 +1474,6 @@ vehicle focus: 33
 fish (food): 33
 pink neckerchief: 33
 uwabaki: 33
-akashi (kancolle): 33
-oboro (kancolle): 33
-taigei (kancolle): 33
 long legs: 32
 uchikake: 32
 white umbrella: 32
@@ -1591,7 +1581,6 @@ cow ears: 29
 animal on shoulder: 29
 :t: 29
 submachine gun: 29
-jingei (kancolle): 29
 tube top: 28
 ankle cuffs: 28
 bread: 28
@@ -1623,9 +1612,6 @@ crow: 28
 torn bodysuit: 28
 hair on horn: 28
 blue-framed eyewear: 28
-yamato (kancolle): 28
-akigumo (kancolle): 28
-richelieu (kancolle): 28
 sweater dress: 27
 chips (food): 27
 yellow headwear: 27
@@ -1687,7 +1673,6 @@ oversized object: 26
 sailor bikini: 26
 short over long sleeves: 26
 purple vest: 26
-sagiri (kancolle): 26
 beads: 25
 holding can: 25
 potato chips: 25
@@ -1726,7 +1711,6 @@ hooded capelet: 25
 green hakama: 25
 orange neckerchief: 25
 green thighhighs: 25
-kiyoshimo (kancolle): 25
 armchair: 24
 feet up: 24
 splashing: 24
@@ -1765,10 +1749,6 @@ holly: 24
 oni mask: 24
 hair over eyes: 24
 hanten (clothes): 24
-z23 (azur lane): 24
-fletcher (kancolle): 24
-shigure (kancolle): 24
-zuikaku (kancolle): 24
 jacket around waist: 23
 half updo: 23
 shiny clothes: 23
@@ -1800,7 +1780,6 @@ school desk: 23
 drone: 23
 blue serafuku: 23
 paw shoes: 23
-ayanami (azur lane): 23
 running: 23
 facing viewer: 23
 orange ribbon: 23
@@ -1824,7 +1803,6 @@ bird print: 23
 purple shirt: 23
 floral print kimono: 23
 flipped hair: 23
-kamoi (kancolle): 23
 ankleband: 22
 round window: 22
 1boy: 22
@@ -1863,12 +1841,8 @@ bright pupils: 22
 striped skirt: 22
 open kimono: 22
 chest sarashi: 22
-laffey (azur lane): 22
 holding spoon: 22
 weibo logo: 22
-fujinami (kancolle): 22
-johnston (kancolle): 22
-murasame (kancolle): 22
 meme attire: 21
 heart-shaped eyewear: 21
 spread arms: 21
@@ -1876,7 +1850,6 @@ footwear bow: 21
 watermelon slice: 21
 scar: 21
 pumps: 21
-prinz eugen (azur lane): 21
 orange (fruit): 21
 monocle: 21
 bear: 21
@@ -1911,8 +1884,6 @@ argyle legwear: 21
 papakha: 21
 riding crop: 21
 raincoat: 21
-gambier bay (kancolle): 21
-mogami (kancolle): 21
 suspender shorts: 20
 pink bowtie: 20
 ice cube: 20
@@ -1965,9 +1936,6 @@ onmyouji: 20
 red cloak: 20
 teruterubouzu: 20
 green gloves: 20
-kinugasa (kancolle): 20
-takanami (kancolle): 20
-yuugumo (kancolle): 20
 pink gloves: 19
 arm behind back: 19
 baguette: 19
@@ -2017,7 +1985,6 @@ long braid: 19
 cowbell: 19
 hose: 19
 whiskey: 19
-taihou (azur lane): 19
 diving suit: 19
 on vehicle: 19
 maple leaf: 19
@@ -2033,7 +2000,6 @@ laurel crown: 19
 hair censor: 19
 dixie cup hat: 19
 grey sailor collar: 19
-kazagumo (kancolle): 19
 pink bikini: 18
 heart-shaped pupils: 18
 fur-trimmed cloak: 18
@@ -2076,7 +2042,6 @@ black sweater: 18
 green bra: 18
 tire: 18
 crescent moon: 18
-javelin (azur lane): 18
 on table: 18
 gold: 18
 multicolored legwear: 18
@@ -2098,12 +2063,7 @@ yawning: 18
 shako cap: 18
 leather: 18
 fish print: 18
-unicorn (azur lane): 18
-asashimo (kancolle): 18
 potato: 18
-samuel b. roberts (kancolle): 18
-shiratsuyu (kancolle): 18
-south dakota (kancolle): 18
 kneepits: 17
 head rest: 17
 sode: 17
@@ -2148,15 +2108,11 @@ ace (playing card): 17
 holding axe: 17
 net: 17
 sweet potato: 17
-commandant teste (kancolle): 17
 brown serafuku: 17
 white headband: 17
 dougi: 17
 freckles: 17
-naganami kai ni (kancolle): 17
 green hairband: 17
-yukikaze (kancolle): 17
-yuubari (kancolle): 17
 split-color hair: 16
 earphones: 16
 foreshortening: 16
@@ -2183,13 +2139,10 @@ musket: 16
 brown sweater: 16
 bottomless: 16
 interlocked fingers: 16
-yamashiro (kancolle): 16
 ;q: 16
 whisk: 16
 greaves: 16
 merry christmas: 16
-akagi (azur lane): 16
-kaga (azur lane): 16
 dagger: 16
 ballet slippers: 16
 milk: 16
@@ -2234,13 +2187,6 @@ winter coat: 16
 polka dot dress: 16
 red pants: 16
 crescent pin: 16
-fusou (kancolle): 16
-hamanami (kancolle): 16
-haruna (kancolle): 16
-littorio (kancolle): 16
-tama (kancolle): 16
-umikaze (kancolle): 16
-zuihou (kancolle): 16
 pearl necklace: 15
 eighth note: 15
 bra visible through clothes: 15
@@ -2268,7 +2214,6 @@ sweatband: 15
 tennis uniform: 15
 shotgun: 15
 yellow thighhighs: 15
-illustrious (azur lane): 15
 black neckerchief: 15
 surprised: 15
 mixing bowl: 15
@@ -2288,7 +2233,6 @@ purple bowtie: 15
 glint: 15
 shushing: 15
 two-tone leotard: 15
-new jersey (azur lane): 15
 drumsticks: 15
 unworn coat: 15
 black bag: 15
@@ -2303,7 +2247,6 @@ red armband: 15
 road: 15
 black headband: 15
 fireplace: 15
-enterprise (azur lane): 15
 wetsuit: 15
 baozi: 15
 hammock: 15
@@ -2315,13 +2258,7 @@ orange footwear: 15
 black background: 15
 brown shirt: 15
 joints: 15
-akagi (kancolle): 15
 brown sailor collar: 15
-fubuki (kancolle): 15
-hayashimo (kancolle): 15
-kaga (kancolle): 15
-shigure kai ni (kancolle): 15
-yuudachi (kancolle): 15
 anchor earrings: 14
 white cloak: 14
 pink headwear: 14
@@ -2351,7 +2288,6 @@ planted sword: 14
 sanshoku dango: 14
 white cardigan: 14
 bed sheet: 14
-yuudachi (azur lane): 14
 kunai: 14
 idol clothes: 14
 finger gun: 14
@@ -2367,14 +2303,12 @@ trident: 14
 crate: 14
 kagami mochi: 14
 bathing: 14
-bremerton (azur lane): 14
 indian style: 14
 string: 14
 tiger tail: 14
 tiger ears: 14
 horizon: 14
 black hoodie: 14
-cleveland (azur lane): 14
 blue pants: 14
 cow print bikini: 14
 clothes between thighs: 14
@@ -2400,20 +2334,10 @@ ammunition: 14
 club (weapon): 14
 vampire costume: 14
 hammer and sickle: 14
-etorofu (kancolle): 14
-grecale (kancolle): 14
-harusame (kancolle): 14
-houshou (kancolle): 14
-hyuuga (kancolle): 14
 denim skirt: 14
 dirty face: 14
 brown neckerchief: 14
-kongou (kancolle): 14
-kumano (kancolle): 14
 kariginu: 14
-ooi (kancolle): 14
-suzuya (kancolle): 14
-yamakaze (kancolle): 14
 beamed eighth notes: 13
 ladle: 13
 grey skin: 13
@@ -2480,17 +2404,10 @@ whisker markings: 13
 keyboard (instrument): 13
 sleeveless coat: 13
 cotton candy: 13
-takao (azur lane): 13
 robot joints: 13
 bullet: 13
 orange kimono: 13
-chitose (kancolle): 13
-chiyoda (kancolle): 13
 side braids: 13
-conte di cavour (kancolle): 13
-matsuwa (kancolle): 13
-nagato (kancolle): 13
-okinami (kancolle): 13
 black ascot: 12
 owl: 12
 ears through headwear: 12
@@ -2570,13 +2487,10 @@ skin-covered horns: 12
 gladiator sandals: 12
 squirrel: 12
 aqua neckerchief: 12
-kashino (azur lane): 12
 hair horns: 12
 tower: 12
 shell casing: 12
 volleyball: 12
-queen elizabeth (azur lane): 12
-sheffield (azur lane): 12
 budget sarashi: 12
 ammunition belt: 12
 mechanical parts: 12
@@ -2585,23 +2499,8 @@ extra arms: 12
 android: 12
 bags under eyes: 12
 green sweater: 12
-akitsushima (kancolle): 12
 spiked club: 12
-asashio (kancolle): 12
-furutaka (kancolle): 12
-ise (kancolle): 12
-kisaragi (kancolle): 12
-kuma (kancolle): 12
-libeccio (kancolle): 12
-mikuma (kancolle): 12
-musashi (kancolle): 12
-ryuujou (kancolle): 12
-sado (kancolle): 12
-shoukaku (kancolle): 12
-tsushima (kancolle): 12
-yahagi (kancolle): 12
 speaking tube headset: 12
-yuudachi kai ni (kancolle): 12
 pubic tattoo: 11
 purple scarf: 11
 nintendo switch: 11
@@ -2659,7 +2558,6 @@ keyboard (computer): 11
 playing games: 11
 white collar: 11
 candy wrapper: 11
-baltimore (azur lane): 11
 two-tone shirt: 11
 dark blue hair: 11
 fake wings: 11
@@ -2680,7 +2578,6 @@ multicolored gloves: 11
 median furrow: 11
 in water: 11
 wet dress: 11
-eldridge (azur lane): 11
 fur-trimmed skirt: 11
 cat paws: 11
 trash can: 11
@@ -2694,7 +2591,6 @@ kindergarten uniform: 11
 sleepy: 11
 loli: 11
 shibari: 11
-hammann (azur lane): 11
 harp: 11
 yellow shorts: 11
 holding popsicle: 11
@@ -2708,17 +2604,13 @@ squirrel girl: 11
 christmas stocking: 11
 finger on trigger: 11
 yellow bra: 11
-yamashiro (azur lane): 11
 6+girls: 11
-aegir (azur lane): 11
 ;(: 11
 green scarf: 11
 red hood: 11
 polka dot ribbon: 11
 blue apron: 11
 kanabou: 11
-haruna kai ni (kancolle): 11
-naka (kancolle): 11
 ankle garter: 10
 handheld game console: 10
 bow hairband: 10
@@ -2749,7 +2641,6 @@ gift bag: 10
 autumn: 10
 bass guitar: 10
 magazine (object): 10
-akashi (azur lane): 10
 pink one-piece swimsuit: 10
 breast rest: 10
 butterfly wings: 10
@@ -2767,7 +2658,6 @@ bandaid on arm: 10
 fedora: 10
 stomach tattoo: 10
 stripper pole: 10
-belfast (azur lane): 10
 winter: 10
 wet hair: 10
 pinstripe pattern: 10
@@ -2812,7 +2702,6 @@ takoyaki: 10
 cutout above navel: 10
 chef hat: 10
 cross choker: 10
-shinano (azur lane): 10
 pauldrons: 10
 cabinet: 10
 two-tone jacket: 10
@@ -2836,25 +2725,13 @@ diagonal-striped clothes: 10
 sushi: 10
 flat cap: 10
 unworn gloves: 10
-asagumo (kancolle): 10
 multicolored scarf: 10
 hair over breasts: 10
-enemy lifebuoy (kancolle): 10
-hiei (kancolle): 10
-isokaze (kancolle): 10
-kasuga maru (kancolle): 10
-kongou kai ni (kancolle): 10
 striped scarf: 10
-makigumo (kancolle): 10
-miyuki (kancolle): 10
 orange hairband: 10
 pointy hair: 10
-mutsu (kancolle): 10
-noshiro (kancolle): 10
 german clothes: 10
 dirndl: 10
-shiranui (kancolle): 10
-yura (kancolle): 10
 \m/: 9
 lace-trimmed gloves: 9
 holding balloon: 9
@@ -2881,7 +2758,6 @@ steepled fingers: 9
 see-through leotard: 9
 monster: 9
 ribbon-trimmed skirt: 9
-amagi (azur lane): 9
 fairy wings: 9
 string of flags: 9
 black mask: 9
@@ -2892,7 +2768,6 @@ shoelaces: 9
 sheet music: 9
 ass cutout: 9
 flower knot: 9
-atago (azur lane): 9
 huge moon: 9
 round image: 9
 window blinds: 9
@@ -2902,7 +2777,6 @@ open shorts: 9
 rabbit print: 9
 chain-link fence: 9
 orange bowtie: 9
-bismarck (azur lane): 9
 antique phone: 9
 orange thighhighs: 9
 tablecloth: 9
@@ -2914,7 +2788,6 @@ aqua ribbon: 9
 blue-tinted eyewear: 9
 in tree: 9
 koi: 9
-cheshire (azur lane): 9
 roller skates: 9
 jackal ears: 9
 road sign: 9
@@ -2924,7 +2797,6 @@ pom pom hair ornament: 9
 ace of spades: 9
 club (shape): 9
 flower pot: 9
-formidable (azur lane): 9
 arm between breasts: 9
 stick: 9
 orange socks: 9
@@ -2951,7 +2823,6 @@ pink sweater: 9
 white scrunchie: 9
 flask: 9
 cable tail: 9
-roon (azur lane): 9
 white mittens: 9
 hikimayu: 9
 pink socks: 9
@@ -2964,15 +2835,11 @@ polka dot swimsuit: 9
 cat hat: 9
 doll joints: 9
 yellow panties: 9
-amagi (kancolle): 9
-asashio kai ni (kancolle): 9
 green shirt: 9
 dirty clothes: 9
 orange sailor collar: 9
 satchel: 9
-kako (kancolle): 9
 eyewear strap: 9
-roma (kancolle): 9
 hand on eyewear: 8
 earbuds: 8
 corruption: 8
@@ -3003,7 +2870,6 @@ cyborg: 8
 doll: 8
 tailcoat: 8
 skirt pull: 8
-admiral graf spee (azur lane): 8
 holding shovel: 8
 recording: 8
 striped headwear: 8
@@ -3082,8 +2948,6 @@ deer: 8
 armpit crease: 8
 saddle: 8
 skull hair ornament: 8
-honolulu (azur lane): 8
-st. louis (azur lane): 8
 reins: 8
 plectrum: 8
 cream: 8
@@ -3103,7 +2967,6 @@ side-tie leotard: 8
 pigeon: 8
 sandwich: 8
 zzz: 8
-le malin (azur lane): 8
 holding paper: 8
 multicolored eyes: 8
 track pants: 8
@@ -3115,7 +2978,6 @@ pole dancing: 8
 pink coat: 8
 spoiler (automobile): 8
 christmas lights: 8
-reisalin stout: 8
 parted hair: 8
 sideless shirt: 8
 holding bucket: 8
@@ -3130,35 +2992,14 @@ plume: 8
 four-leaf clover hair ornament: 8
 checkered kimono: 8
 little red riding hood (grimm) (cosplay): 8
-abukuma (kancolle): 8
 polka dot bra: 8
-akizuki (kancolle): 8
-amatsukaze (kancolle): 8
-bismarck (kancolle): 8
 grey kimono: 8
 fake mustache: 8
-intrepid (kancolle): 8
-kashima (kancolle): 8
-kasumi (kancolle): 8
-kawakaze (kancolle): 8
 aqua necktie: 8
 cloud print: 8
-kinugasa kai ni (kancolle): 8
-kishinami (kancolle): 8
-kiso (kancolle): 8
-michishio (kancolle): 8
-minegumo (kancolle): 8
-mutsuki (kancolle): 8
-yayoi (kancolle): 8
 orange ascot: 8
 elbow pads: 8
-ooshio (kancolle): 8
-perth (kancolle): 8
 high side ponytail: 8
-saratoga (kancolle): 8
-sendai (kancolle): 8
-shouhou (kancolle): 8
-z1 leberecht maass (kancolle): 8
 sweater around waist: 7
 print dress: 7
 holding ladle: 7
@@ -3207,7 +3048,6 @@ pink leotard: 7
 brown bikini: 7
 eye mask: 7
 black sash: 7
-kizuna ai: 7
 holding stylus: 7
 holding saucer: 7
 loose necktie: 7
@@ -3300,7 +3140,6 @@ wedding: 7
 !: 7
 chocolate on breasts: 7
 happy valentine: 7
-nagato (azur lane): 7
 frying pan: 7
 cropped hoodie: 7
 black bandeau: 7
@@ -3310,7 +3149,6 @@ holding letter: 7
 drum set: 7
 leather gloves: 7
 side drill: 7
-takarada rikka: 7
 two-sided skirt: 7
 snowflake hair ornament: 7
 vegetable: 7
@@ -3318,22 +3156,15 @@ aqua kimono: 7
 elbow rest: 7
 single earring: 7
 >:(: 7
-yumi (senran kagura): 7
 virgin killer sweater: 7
 green socks: 7
-little red riding hood (grimm): 7
 blue camisole: 7
 jimiko: 7
 hands on headwear: 7
-hayasui (kancolle): 7
 soccer ball: 7
-murasame kai ni (kancolle): 7
 drum magazine: 7
 strawberry panties: 7
 print sarong: 7
-tanikaze (kancolle): 7
-warspite (kancolle): 7
-yamagumo (kancolle): 7
 checkered skirt: 7
 ;3: 6
 open-chest sweater: 6
@@ -3451,14 +3282,12 @@ back-print panties: 6
 tail raised: 6
 lyre: 6
 holding leaf: 6
-implacable (azur lane): 6
 circle skirt: 6
 exercise: 6
 crotchless pantyhose: 6
 nearly naked apron: 6
 remote control: 6
 holding ribbon: 6
-jean bart (azur lane): 6
 mochi: 6
 red bag: 6
 sticker: 6
@@ -3468,7 +3297,6 @@ hair flip: 6
 police badge: 6
 off-shoulder bikini: 6
 clock eyes: 6
-tokisaki kurumi: 6
 jitome: 6
 magical girl: 6
 pitcher (container): 6
@@ -3499,48 +3327,15 @@ shorts under dress: 6
 tate eboshi: 6
 aqua bikini: 6
 makizushi: 6
-akitsu maru (kancolle): 6
 grey hoodie: 6
-arare (kancolle): 6
-arashio (kancolle): 6
-ayanami (kancolle): 6
-chikuma (kancolle): 6
-colorado (kancolle): 6
-gangut (kancolle): 6
-hatsuzuki (kancolle): 6
-hibiki (kancolle): 6
-hornet (kancolle): 6
 side-tie shirt: 6
-i-401 (kancolle): 6
-isuzu (kancolle): 6
-jervis (kancolle): 6
-jintsuu (kancolle): 6
 forehead protector: 6
 pink hakama: 6
-kamikaze (kancolle): 6
 kickboard: 6
 holding beachball: 6
-kinu (kancolle): 6
-kirishima (kancolle): 6
-kitakami (kancolle): 6
 track suit: 6
 chimney: 6
-nelson (kancolle): 6
-nowaki (kancolle): 6
-oyashio (kancolle): 6
-pola (kancolle): 6
-sakawa (kancolle): 6
-shigure kai san (kancolle): 6
-shiratsuyu kai ni (kancolle): 6
-shirayuki (kancolle): 6
-souryuu (kancolle): 6
-tatsuta (kancolle): 6
 checkered necktie: 6
-tenryuu (kancolle): 6
-tone (kancolle): 6
-urakaze (kancolle): 6
-z3 max schultz (kancolle): 6
-zara (kancolle): 6
 aviator cap: 6
 stopwatch: 6
 digital media player: 5
@@ -3576,7 +3371,6 @@ jetpack: 5
 strap gap: 5
 vertical-striped bikini: 5
 holding briefcase: 5
-katsuragi (kancolle): 5
 roundel: 5
 arm guards: 5
 holding megaphone: 5
@@ -3600,7 +3394,6 @@ milk carton: 5
 flower wreath: 5
 kogal: 5
 gold bikini: 5
-asuka (senran kagura): 5
 cross-laced dress: 5
 sitting on stairs: 5
 multiple others: 5
@@ -3647,7 +3440,6 @@ plaid necktie: 5
 flower necklace: 5
 submerged: 5
 shallow water: 5
-dido (azur lane): 5
 lace-trimmed hairband: 5
 black tail: 5
 wrapped candy: 5
@@ -3664,7 +3456,6 @@ rubbing eyes: 5
 object on head: 5
 standing split: 5
 plantar flexion: 5
-konjiki no yami: 5
 panty pull: 5
 soap: 5
 white pupils: 5
@@ -3720,7 +3511,6 @@ scared: 5
 lion tail: 5
 forked tongue: 5
 mechanical pencil: 5
-momo velia deviluke: 5
 futon: 5
 hugging doll: 5
 headpiece: 5
@@ -3732,9 +3522,7 @@ test tube: 5
 baton (weapon): 5
 skull and crossbones: 5
 tail around own leg: 5
-ookami mio: 5
 brown horns: 5
-perseus (azur lane): 5
 copyright notice: 5
 wooden chair: 5
 flat ass: 5
@@ -3746,7 +3534,6 @@ animal on arm: 5
 waistcoat: 5
 compass: 5
 tripping: 5
-sirius (azur lane): 5
 shore: 5
 wide-eyed: 5
 wheel: 5
@@ -3762,7 +3549,6 @@ onigiri: 5
 aqua nails: 5
 brown sleeves: 5
 orange headwear: 5
-zuikaku (azur lane): 5
 embers: 5
 blue skin: 5
 broken armor: 5
@@ -3771,21 +3557,15 @@ field: 5
 tie clip: 5
 ehoumaki: 5
 drop earrings: 5
-rensouhou-kun: 5
-atlanta (kancolle): 5
 melting: 5
-suzutsuki (kancolle): 5
 shirt tug: 5
-hamakaze (kancolle): 5
 squid: 5
 breath: 5
 pump action: 5
-ikazuchi (kancolle): 5
 tamagoyaki: 5
 hooded sweater: 5
 ainu: 5
 onion: 5
-murakumo (kancolle): 5
 angry: 5
 slim legs: 5
 striped one-piece swimsuit: 5
@@ -3839,7 +3619,6 @@ polar bear: 4
 white theme: 4
 domino mask: 4
 glass shards: 4
-futami ami: 4
 cabbie hat: 4
 orange sky: 4
 sparkler: 4
@@ -3855,7 +3634,6 @@ pizza slice: 4
 claw foot bathtub: 4
 thermos: 4
 german flag: 4
-black rock shooter (character): 4
 head bump: 4
 breathing fire: 4
 bubble tea: 4
@@ -3873,7 +3651,6 @@ stepped on: 4
 needle: 4
 heart tail: 4
 skyline: 4
-kisaragi chihaya: 4
 clothes: 4
 sleeveless hoodie: 4
 orange pantyhose: 4
@@ -3926,7 +3703,6 @@ shirt overhang: 4
 drawer: 4
 animal ear hairband: 4
 square neckline: 4
-amami haruka: 4
 blue cardigan: 4
 large bow: 4
 tail between legs: 4
@@ -3945,19 +3721,16 @@ calendar (object): 4
 antennae: 4
 white bandeau: 4
 arm hug: 4
-minase iori: 4
 panties under shorts: 4
 popsicle in mouth: 4
 baking: 4
 training bra: 4
 steam censor: 4
 light censor: 4
-kasumi (doa): 4
 holding ice cream: 4
 high-waist pants: 4
 kusazuri: 4
 red sports bra: 4
-kisaragi (azur lane): 4
 bicycle basket: 4
 rash guard: 4
 pearl (gemstone): 4
@@ -3971,10 +3744,8 @@ armpit peek: 4
 exercise ball: 4
 dumbbell: 4
 holding cat: 4
-futami mami: 4
 on railing: 4
 mitre: 4
-marie rose: 4
 pink ascot: 4
 against railing: 4
 arms under breasts: 4
@@ -3985,25 +3756,21 @@ cauldron: 4
 potion: 4
 holding stick: 4
 praying: 4
-zara (azur lane): 4
 smoking: 4
 open hands: 4
 serious: 4
 balcony: 4
 leather belt: 4
-akizuki ritsuko: 4
 ankle lace-up: 4
 cart: 4
 fish hair ornament: 4
 bird on arm: 4
 crowd: 4
 blue collar: 4
-shirakami fubuki: 4
 fox shadow puppet: 4
 diagonal bangs: 4
 right-over-left kimono: 4
 empty eyes: 4
-shoukaku (azur lane): 4
 fishnet bodysuit: 4
 ass focus: 4
 holding wrench: 4
@@ -4042,78 +3809,33 @@ brown pants: 4
 extra eyes: 4
 flower field: 4
 camouflage jacket: 4
-agano (kancolle): 4
-akatsuki (kancolle): 4
 energy drink: 4
 turn pale: 4
 smokestack hair ornament: 4
-ark royal (kancolle): 4
-ashigara (kancolle): 4
 grey bikini: 4
-choukai (kancolle): 4
 holly hair ornament: 4
 ritual baton: 4
-fumizuki (kancolle): 4
-fuyutsuki (kancolle): 4
-graf zeppelin (kancolle): 4
 italian text: 4
-haguro (kancolle): 4
-hatsuharu (kancolle): 4
-hatsukaze (kancolle): 4
-hatsushimo (kancolle): 4
-hatsuyuki (kancolle): 4
-verniy (kancolle): 4
-hiryuu (kancolle): 4
-hiyou (kancolle): 4
 bomber jacket: 4
 two-tone hairband: 4
-i-8 (kancolle): 4
 bat ears: 4
-inazuma (kancolle): 4
-iowa (kancolle): 4
 ankle wrap: 4
-isonami (kancolle): 4
 star choker: 4
 spiked hair: 4
-jun'you (kancolle): 4
 short sidetail: 4
-kagerou (kancolle): 4
-kasumi kai ni (kancolle): 4
-katori (kancolle): 4
 hand on own shoulder: 4
 striped pants: 4
-kuroshio (kancolle): 4
 pumpkin hat: 4
-maikaze (kancolle): 4
-maru-yu (kancolle): 4
-maya (kancolle): 4
 morning glory: 4
 undone neck ribbon: 4
-uzuki (kancolle): 4
-myoukou (kancolle): 4
-nachi (kancolle): 4
-nagara (kancolle): 4
-nagatsuki (kancolle): 4
-natori (kancolle): 4
-nenohi (kancolle): 4
 feather earrings: 4
 multi-tied hair: 4
 birthday cake: 4
 red track suit: 4
 aqua hairband: 4
-prinz eugen (kancolle): 4
 food-themed earrings: 4
-satsuki (kancolle): 4
-shikinami (kancolle): 4
-shimakaze (kancolle): 4
-rensouhou-chan: 4
-shinshuu maru (kancolle): 4
 red headband: 4
 blue tank top: 4
-taihou (kancolle): 4
-ro-500 (kancolle): 4
-u-511 (kancolle): 4
-unryuu (kancolle): 4
 open robe: 4
 popsicle stick: 4
 full armor: 4
@@ -4185,14 +3907,12 @@ pig: 3
 feet on chair: 3
 bandaged wrist: 3
 school: 3
-miura azusa: 3
 overall shorts: 3
 holding pizza: 3
 pizza box: 3
 car interior: 3
 surfing: 3
 notepad: 3
-black heart (neptunia): 3
 frilled hat: 3
 muscular female: 3
 grey belt: 3
@@ -4227,7 +3947,6 @@ animal collar: 3
 belt collar: 3
 shading eyes: 3
 aqua panties: 3
-dead master: 3
 cross-laced top: 3
 tentacle hair: 3
 hand on floor: 3
@@ -4260,7 +3979,6 @@ brown mittens: 3
 contrail: 3
 power lines: 3
 alley: 3
-hestia (danmachi): 3
 delinquent: 3
 holding hose: 3
 brown leotard: 3
@@ -4295,9 +4013,7 @@ hands on hilt: 3
 single strap: 3
 pink pajamas: 3
 meteor shower: 3
-lala satalin deviluke: 3
 striped bowtie: 3
-le malin (listless lapin) (azur lane): 3
 kepi: 3
 weightlifting: 3
 bamboo forest: 3
@@ -4309,15 +4025,11 @@ studded belt: 3
 white nails: 3
 grey scarf: 3
 purple sleeves: 3
-minato aqua: 3
 truck: 3
-murasaki shion: 3
 fur jacket: 3
-nakiri ayame: 3
 paint can: 3
 paint splatter: 3
 orange nails: 3
-natsuiro matsuri: 3
 neck ring: 3
 crazy straw: 3
 clothed animal: 3
@@ -4335,7 +4047,6 @@ tree stump: 3
 taking picture: 3
 stuffed panda: 3
 volleyball net: 3
-zara (poolside coincidence) (azur lane): 3
 chalice: 3
 one-piece thong: 3
 puff of air: 3
@@ -4364,7 +4075,6 @@ impossible dress: 3
 closet: 3
 fitting room: 3
 name connection: 3
-tokino sora: 3
 bouncing breasts: 3
 light smile: 3
 grey sports bra: 3
@@ -4408,17 +4118,12 @@ holding mirror: 3
 hand mirror: 3
 lace-trimmed skirt: 3
 patchwork skin: 3
-fubuki kai ni (kancolle): 3
-hagikaze (kancolle): 3
 cone horns: 3
-i-13 (kancolle): 3
-i-14 (kancolle): 3
 bat girl: 3
 green headband: 3
 hakama pants: 3
 wrist guards: 3
 shotgun shell: 3
-musashi kai ni (kancolle): 3
 fried rice: 3
 orange necktie: 3
 purple hoodie: 3
@@ -4428,7 +4133,6 @@ leopard ears: 3
 utensil in mouth: 3
 black robe: 3
 breast padding: 3
-ahri (league of legends): 3
 green one-piece swimsuit: 3
 two-handed: 3
 arachne: 3
@@ -4489,12 +4193,9 @@ lace-trimmed choker: 2
 grey panties: 2
 chili pepper: 2
 pointing forward: 2
-fischl (genshin impact): 2
 trophy: 2
 saw: 2
-skadi (arknights): 2
 boxcutter: 2
-shinjou akane: 2
 diamond (gemstone): 2
 star in eye: 2
 symbol in eye: 2
@@ -4504,7 +4205,6 @@ train interior: 2
 red cardigan: 2
 whiteboard: 2
 latex bodysuit: 2
-atago (stunning speedster) (azur lane): 2
 ornate ring: 2
 musical note print: 2
 flying kick: 2
@@ -4518,7 +4218,6 @@ carrot hair ornament: 2
 earth (planet): 2
 spacecraft: 2
 flower tattoo: 2
-bianka durandal ataegina: 2
 grabbing own breast: 2
 frilled cuffs: 2
 cuff links: 2
@@ -4527,7 +4226,6 @@ hair lift: 2
 jersey: 2
 pennant: 2
 glowing sword: 2
-bremerton (scorching-hot training) (azur lane): 2
 yellow wings: 2
 bolo tie: 2
 palette (object): 2
@@ -4580,7 +4278,6 @@ mouth veil: 2
 hairpin: 2
 deer girl: 2
 green gemstone: 2
-graf zeppelin (azur lane): 2
 pink wings: 2
 energy wings: 2
 heart facial mark: 2
@@ -4692,7 +4389,6 @@ on stool: 2
 ice cream float: 2
 m legs: 2
 red curtains: 2
-purple heart (neptunia): 2
 usekh collar: 2
 spiked choker: 2
 holding riding crop: 2
@@ -4721,7 +4417,6 @@ hair tucking: 2
 forehead jewel: 2
 white snake: 2
 bird mask: 2
-taihou (enraptured companion) (azur lane): 2
 yellow armband: 2
 1other: 2
 broken window: 2
@@ -4739,7 +4434,6 @@ first aid kit: 2
 stained glass: 2
 pegasus: 2
 multicolored footwear: 2
-vert (neptunia): 2
 purple sweater: 2
 yarn: 2
 yarn ball: 2
@@ -4789,12 +4483,7 @@ debris: 2
 flower earrings: 2
 single wrist cuff: 2
 yellow coat: 2
-higuchi kaede: 2
 hourglass: 2
-shiina yuika: 2
-shizuka rin: 2
-tsukino mito (1st costume): 2
-tsukino mito: 2
 robot girl: 2
 blood on face: 2
 two tails: 2
@@ -4810,13 +4499,8 @@ tsundere: 2
 rice bowl: 2
 orange bra: 2
 blue scrunchie: 2
-aoba (kancolle): 2
-aquila (kancolle): 2
 kerchief: 2
-arashi (kancolle): 2
 unmoving pattern: 2
-asakaze (kancolle): 2
-atago (kancolle): 2
 zombie: 2
 stitched face: 2
 stitched arm: 2
@@ -4824,32 +4508,20 @@ roasted sweet potato: 2
 half-skirt: 2
 loose bowtie: 2
 polka dot skirt: 2
-harukaze (kancolle): 2
 jacket over swimsuit: 2
 big hair: 2
 unworn shorts: 2
-i-168 (kancolle): 2
-i-19 (kancolle): 2
 new school swimsuit: 2
-i-26 (kancolle): 2
-i-58 (kancolle): 2
-janus (kancolle): 2
 two-tone headwear: 2
-jintsuu kai ni (kancolle): 2
 magatama earrings: 2
 party hat: 2
 yellow raincoat: 2
 swim cap: 2
-kikuzuki (kancolle): 2
 red suit: 2
 orange vest: 2
 utility belt: 2
-maya kai ni (kancolle): 2
 green armband: 2
-mikazuki (kancolle): 2
 mini witch hat: 2
-mochizuki (kancolle): 2
-murakumo kai ni (kancolle): 2
 giving: 2
 finger in own mouth: 2
 mouth pull: 2
@@ -4858,27 +4530,16 @@ red hoodie: 2
 bandaid on hand: 2
 spring onion: 2
 purple cardigan: 2
-isshiki iroha: 2
-fairy (kancolle): 2
 radish: 2
 ribs: 2
-samidare (kancolle): 2
 uneven eyes: 2
 anniversary: 2
 purple scrunchie: 2
-sendai kai ni (kancolle): 2
 hooded vest: 2
-suzukaze (kancolle): 2
-takao (kancolle): 2
 blue shawl: 2
-tashkent (kancolle): 2
-tenryuu kai ni (kancolle): 2
 pointing at self: 2
 propeller hair ornament: 2
-teruzuki (kancolle): 2
-tokitsukaze (kancolle): 2
 pink shorts: 2
-wakaba (kancolle): 2
 hishaku: 2
 tiger stripes: 2
 leaning: 2
@@ -4893,7 +4554,6 @@ genderswap (mtf): 2
 open belt: 2
 tying: 2
 hands on own thighs: 2
-kawashiro nitori: 2
 rising sun flag: 2
 mechanization: 2
 spread fingers: 2
@@ -4945,8 +4605,6 @@ on scooter: 2
 age difference: 2
 onee-loli: 2
 holding pole: 2
-hu tao (genshin impact): 2
-yae miko: 2
 hat belt: 2
 bandaid on forehead: 2
 listening to music: 1
@@ -4955,7 +4613,6 @@ playstation portable: 1
 arm wrap: 1
 alternate eye color: 1
 watermelon bar: 1
-battleship princess: 1
 melon: 1
 mole on ass: 1
 holding bell: 1
@@ -4991,13 +4648,11 @@ shoulder pads: 1
 dorsiflexion: 1
 nata (tool): 1
 eldritch abomination: 1
-skadi the corrupting heart (arknights): 1
 red eyeshadow: 1
 virgin killer outfit: 1
 camcorder: 1
 tambourine: 1
 dominatrix: 1
-surtr (arknights): 1
 sleeves past elbows: 1
 war hammer: 1
 raspberry: 1
@@ -5022,8 +4677,6 @@ brown hairband: 1
 drinking straw in mouth: 1
 thumb ring: 1
 chest belt: 1
-arima kana: 1
-blanc (neptunia): 1
 tail through clothes: 1
 happy halloween: 1
 no mole: 1
@@ -5098,7 +4751,6 @@ porch: 1
 cat teaser: 1
 snow rabbit: 1
 looking at hand: 1
-yukihana lamy: 1
 black sweater vest: 1
 bridle: 1
 midair: 1
@@ -5143,7 +4795,6 @@ tickling: 1
 pulling another's clothes: 1
 alien: 1
 galaxy: 1
-alice (alice in wonderland): 1
 cheering: 1
 padlock: 1
 pawpads: 1
@@ -5157,14 +4808,12 @@ wet skirt: 1
 peeking out: 1
 peeking: 1
 hiding: 1
-elizabeth bathory (fate): 1
 uneven horns: 1
 high tops: 1
 hand net: 1
 butterfly net: 1
 hair beads: 1
 polka dot shirt: 1
-minato aqua (1st costume): 1
 naughty face: 1
 breasts squeezed together: 1
 naked kimono: 1
@@ -5172,20 +4821,16 @@ kuji-in: 1
 cliff: 1
 pinstripe shirt: 1
 lowleg skirt: 1
-murasaki shion (1st costume): 1
 crt: 1
 watching television: 1
 yellow bag: 1
 pink eyeshadow: 1
 long tail: 1
 petite: 1
-natsuiro matsuri (1st costume): 1
 yellow camisole: 1
 d-pad: 1
 d-pad hair ornament: 1
-neptune (neptunia): 1
 pink scrunchie: 1
-noire (neptunia): 1
 horns through headwear: 1
 short bangs: 1
 tengu-geta: 1
@@ -5204,7 +4849,6 @@ super robot: 1
 wiping sweat: 1
 multicolored bow: 1
 german flag bikini: 1
-prinz eugen (unfading smile) (azur lane): 1
 cello: 1
 tail ring: 1
 gate: 1
@@ -5223,9 +4867,7 @@ flame print: 1
 obiage: 1
 spoken question mark: 1
 teardrop: 1
-sirius (azure horizons) (azur lane): 1
 mouse girl: 1
-sirius (scorching-hot seirios) (azur lane): 1
 safety pin: 1
 food on head: 1
 fruit on head: 1
@@ -5236,7 +4878,6 @@ electrical outlet: 1
 furrowed brow: 1
 silver dress: 1
 holding cigarette: 1
-st. louis (luxurious wheels) (azur lane): 1
 hoodie lift: 1
 aqua jacket: 1
 safety glasses: 1
@@ -5259,7 +4900,6 @@ screw: 1
 object through head: 1
 opened by self: 1
 female pov: 1
-keqing (genshin impact): 1
 diamond hair ornament: 1
 crocodilian: 1
 two-sided cloak: 1
@@ -5297,7 +4937,6 @@ energy sword: 1
 back-to-back: 1
 light trail: 1
 starry background: 1
-mayuzumi fuyuko: 1
 unworn thighhighs: 1
 print bra: 1
 marshmallow: 1
@@ -5307,7 +4946,6 @@ climbing: 1
 cameo: 1
 crossover: 1
 draph: 1
-anila (granblue fantasy): 1
 twins: 1
 fetal position: 1
 fiery wings: 1
@@ -5358,7 +4996,6 @@ one-eyed: 1
 6+others: 1
 pink horns: 1
 black armor: 1
-raiden mei: 1
 tape: 1
 medium skirt: 1
 blood on hands: 1
@@ -5405,7 +5042,6 @@ arms at sides: 1
 2others: 1
 scar on cheek: 1
 bikini shorts: 1
-bokukawauso: 1
 sprinkles: 1
 stained clothes: 1
 grey hairband: 1
@@ -5436,27 +5072,21 @@ cupless bra: 1
 pants rolled up: 1
 lily of the valley: 1
 expressive clothes: 1
-enemy naval mine (kancolle): 1
 tabard: 1
 print swimsuit: 1
 print headwear: 1
-oshino shinobu: 1
 floral background: 1
 trefoil: 1
 toned: 1
 hip focus: 1
-shijou takane: 1
 double w: 1
 blue background: 1
-anchovy (girls und panzer): 1
 tankini: 1
 hair slicked back: 1
 orange sleeves: 1
-murasa minamitsu: 1
 w arms: 1
 adapted uniform: 1
 oekaki: 1
-reiuji utsuho: 1
 tentacles under clothes: 1
 pussy juice: 1
 bullet hole: 1
@@ -5545,7 +5175,6 @@ fireflies: 1
 locked arms: 1
 turban: 1
 brown panties: 1
-kishin sagume: 1
 kalashnikov rifle: 1
 partially undressed: 1
 green tank top: 1
@@ -5611,7 +5240,6 @@ spanked: 1
 hair in own mouth: 1
 flower-shaped pupils: 1
 plum blossoms: 1
-boo tao (genshin impact): 1
 temple: 1
 pink tail: 1
 giving up the ghost: 1
@@ -5633,11 +5261,9 @@ red theme: 1
 yellow sky: 1
 evil smile: 1
 grey serafuku: 1
-kagamine rin: 1
 footprints: 1
 bulletproof vest: 1
 identity censor: 1
-barbara (genshin impact): 1
 one breast out: 1
 mannequin: 1
 looking at another: 1

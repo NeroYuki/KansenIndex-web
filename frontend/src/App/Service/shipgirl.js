@@ -14,6 +14,7 @@ export function GET_query(query) {
         if (query.constructMod) url += `construct_mod=${query.constructMod}&`
         if (query.altOutfitMod) url += `alt_outfit_mod=${query.altOutfitMod}&`
         if (query.extraContentMod) url += `extra_content_mod=${query.extraContentMod}&`
+        if (query.ratingMod) url += `rating_mod=${query.ratingMod}&`
         if (query.selectedFranchise && query.selectedFranchise.length > 0) {
             const franchiseParam = Array.isArray(query.selectedFranchise) 
                 ? query.selectedFranchise.join(',') 

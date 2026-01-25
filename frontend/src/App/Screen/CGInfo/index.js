@@ -2,7 +2,7 @@ import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, I
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaArrowRight, FaCopy, FaPencilAlt, FaPlay, FaSearch, FaSpinner, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
-import { SiteFooter, SiteHeader } from "../../Component"
+import { SiteFooter, SiteHeader, CensoredImage } from "../../Component"
 import { debounce } from "lodash"
 import { GET_articleById, GET_cgById, GET_query, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
@@ -1342,7 +1342,14 @@ export const CGInfo = (props) => {
                                         </Flex>
                                         <Center >
                                             {/* Image */}
-                                            <img style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} src={(data.non_ai_processed && showOriginal) ? data.non_ai_processed : data.full_dir} alt="hover_img"></img>
+                                            <CensoredImage 
+                                                style={{minHeight: '500px', margin: 'auto', objectFit: 'scale-down'}} 
+                                                src={(data.non_ai_processed && showOriginal) ? data.non_ai_processed : data.full_dir} 
+                                                alt="hover_img"
+                                                rating={data.rating}
+                                                buttonText="Reveal image"
+                                                warningText={`This ${data.rating || 'content'} rated image is hidden`}
+                                            />
                                         </Center>
                                     </TabPanel>
                                     {data.l2d && <TabPanel>
@@ -1355,7 +1362,7 @@ export const CGInfo = (props) => {
                                     {data.chibi && <TabPanel position="relative">
                                         <Center>
                                             {/* Spine (Chibi) */}
-                                            {data.chibi?.is_static ? <img style={{height: chibiHeight, width: 'auto'}} src={data.chibi.dir} alt="chibi_img"></img> :
+                                            {data.chibi?.is_static ? <CensoredImage style={{height: chibiHeight, width: 'auto'}} src={data.chibi.dir} alt="chibi_img" rating={data.rating} buttonText="Reveal chibi" /> :
                                             <>
                                                 <div style={{height: chibiHeight, width: '100%', display: useLegacySpine ? 'block' : 'none', }} id="spine-widget"></div> 
                                                 <canvas style={{display: (!useLegacySpine) ? 'block' : 'none' }} id="spine-canvas" height={chibiHeight}></canvas>
