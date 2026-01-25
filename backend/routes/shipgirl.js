@@ -6,6 +6,49 @@ const fs = require('fs')
 const path = require('path')
 const { ObjectId } = require('mongodb')
 
+// Tag list storage
+let tagList = []
+
+// Load tag list from file
+function loadTagList() {
+    try {
+        const tagFilePath = path.join(__dirname, '../data/tag_frequency_report.txt')
+        const content = fs.readFileSync(tagFilePath, 'utf8')
+        const lines = content.split('\n')
+        
+        tagList = []
+        let inTagSection = false
+        
+        for (const line of lines) {
+            if (line.includes('Tags by frequency:')) {
+                inTagSection = true
+                continue
+            }
+            
+            if (inTagSection && line.includes(':')) {
+                const [tagName, frequency] = line.split(': ')
+                if (tagName && frequency && !isNaN(parseInt(frequency))) {
+                    tagList.push({
+                        tag: tagName.trim(),
+                        frequency: parseInt(frequency)
+                    })
+                }
+            }
+        }
+        
+        console.log(`Loaded ${tagList.length} tags from frequency report`)
+    } catch (error) {
+        console.error('Error loading tag list:', error)
+        tagList = []
+    }
+}
+
+// Load tags on startup
+loadTagList()
+
+// Reload tags every 30 minutes
+setInterval(loadTagList, 30 * 60 * 1000)
+
 const jsonParser = express.json()
 
 const storage = multer.diskStorage({
@@ -33,6 +76,22 @@ const upload = multer({ storage: storage, limits: {fileSize: 20 * 1000 * 1000 * 
 function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
 }
+
+// Tag suggestion endpoint
+router.get('/tag_suggestions', (req, res) => {
+    const query = req.query.q || ''
+    
+    if (!query.trim()) {
+        return res.json([])
+    }
+    
+    const filteredTags = tagList
+        .filter(item => item.tag.toLowerCase().includes(query.toLowerCase()))
+        .sort((a, b) => b.frequency - a.frequency) // Sort by frequency descending
+        .slice(0, 5) // Limit to 5 results
+    
+    res.json(filteredTags)
+})
 
 router.get('/query', async (req, res) => {
     let query = req.query
@@ -63,6 +122,33 @@ router.get('/query', async (req, res) => {
             }
             if ((val >> 1) & 1) {   //modifier name only
                 db_query.$and[0].$or.push(filename = {$regex: "_.*" + escapeRegExp(query.keyword), $options: 'i'})
+            }
+            if ((val >> 2) & 1) {   //description tags
+                db_query.$and[0].$or.push({description: {$regex: escapeRegExp(query.keyword), $options: 'i'}})
+            }
+        }
+    }
+    if (query.keywordDescription) {
+        // Search specifically in description tags array with more precise matching
+        const keywords = query.keywordDescription.split(',').map(k => k.trim()).filter(k => k.length > 0)
+        if (keywords.length > 0) {
+            // Use tagMatchMode to control how multiple tags are matched
+            if (query.tagMatchMode === 'all') {
+                // ALL mode: all keywords must be present (exact tag matching)
+                const tagQuery = {
+                    $and: keywords.map(keyword => ({
+                        description: {$elemMatch: {$regex: "^" + escapeRegExp(keyword) + "$", $options: 'i'}}
+                    }))
+                }
+                db_query.$and.push(tagQuery)
+            } else {
+                // ANY mode (default): any keyword can match (exact tag matching)
+                const tagQuery = {
+                    $or: keywords.map(keyword => ({
+                        description: {$elemMatch: {$regex: "^" + escapeRegExp(keyword) + "$", $options: 'i'}}
+                    }))
+                }
+                db_query.$and.push(tagQuery)
             }
         }
     }

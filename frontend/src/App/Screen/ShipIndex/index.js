@@ -1,6 +1,6 @@
 import { Box, Flex, Text, Input, SlideFade, CheckboxGroup, Checkbox, Stack, Select, 
     Button, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, useToast, Wrap, WrapItem, Avatar,
-    Badge, IconButton, Menu, MenuButton, MenuList, MenuItem, HStack, VStack, SimpleGrid, Alert, AlertIcon } from "@chakra-ui/react"
+    Badge, IconButton, Menu, MenuButton, MenuList, MenuItem, HStack, VStack, SimpleGrid, Alert, AlertIcon, Tooltip } from "@chakra-ui/react"
 import {
     Table,
     Thead,
@@ -11,10 +11,10 @@ import {
     TableCaption,
 } from '@chakra-ui/react'
 import { useCallback, useEffect, useState } from "react"
-import { FaPencilAlt, FaSearch, FaPlus, FaTimes, FaArrowUp, FaArrowDown, FaDice } from "react-icons/fa"
+import { FaPencilAlt, FaSearch, FaPlus, FaTimes, FaArrowUp, FaArrowDown, FaDice, FaInfoCircle } from "react-icons/fa"
 import { useLocation, useNavigate, useBeforeUnload } from "react-router-dom"
 import { SiteHeader, SiteFooter } from "../../Component"
-import { GET_query } from "../../Service/shipgirl"
+import { GET_query, GET_tag_suggestions } from "../../Service/shipgirl"
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
 import { nation_name_to_twemoji_flag, type_name_to_icon } from "../../Utils/data_mapping"
 
@@ -22,13 +22,73 @@ export const ShipIndex = () => {
 
     const [keyword, setKeyword] = useState("")
     const [keywordIllust, setKeywordIllust] = useState("")
+    const [keywordDescription, setKeywordDescription] = useState("")
+    const [selectedDescriptionTags, setSelectedDescriptionTags] = useState([])
+    const [descriptionInput, setDescriptionInput] = useState("")
+    const [showTagSuggestions, setShowTagSuggestions] = useState(false)
+    const [tagSuggestions, setTagSuggestions] = useState([])
+    const [highlightedIndex, setHighlightedIndex] = useState(-1)
+    const [debounceTimer, setDebounceTimer] = useState(null)
     const [page, setPage] = useState(1)
+    
+    // Debounced tag search
+    const searchTags = useCallback(async (query) => {
+        if (!query.trim()) {
+            setTagSuggestions([])
+            setShowTagSuggestions(false)
+            return
+        }
+
+        try {
+            const suggestions = await GET_tag_suggestions(query)
+            // Filter out already selected tags
+            const filteredSuggestions = suggestions.filter(item => 
+                !selectedDescriptionTags.includes(item.tag)
+            )
+            setTagSuggestions(filteredSuggestions)
+            setShowTagSuggestions(filteredSuggestions.length > 0)
+            setHighlightedIndex(-1)
+        } catch (error) {
+            console.error('Error fetching tag suggestions:', error)
+            setTagSuggestions([])
+            setShowTagSuggestions(false)
+        }
+    }, [selectedDescriptionTags])
+
+    // Debounce effect for tag input
+    useEffect(() => {
+        // Clear any existing timer
+        if (debounceTimer) {
+            clearTimeout(debounceTimer)
+        }
+
+        // Set new timer for debounced search
+        if (descriptionInput.length > 0) {
+            const timer = setTimeout(() => {
+                searchTags(descriptionInput)
+            }, 300) // 300ms debounce
+
+            setDebounceTimer(timer)
+        } else {
+            setTagSuggestions([])
+            setShowTagSuggestions(false)
+        }
+
+        // Cleanup function
+        return () => {
+            if (debounceTimer) {
+                clearTimeout(debounceTimer)
+            }
+        }
+    }, [descriptionInput, searchTags])
+
     const [limitPerPage, setLimitPerPage] = useState(20)
     const [shiplist, setShipList] = useState([])
     const [blocked, setBlocked] = useState(false)
     const [keywordMod, setKeywordMod] = useState(0)
     const [strictMode, setStrictMode] = useState(false)
     const [includeExtrapolate, setIncludeExtrapolate] = useState(true)
+    const [tagMatchMode, setTagMatchMode] = useState('any') // 'any' or 'all'
     const [constructMod, setConstructMod] = useState(0)
     const [altOutfitMod, setAltOutfitMod] = useState(0)
     const [extraContentMod, setExtraContentMod] = useState(0)
@@ -173,6 +233,8 @@ export const ShipIndex = () => {
             keyword: keyword,
             keywordMod: keywordMod,
             keywordIllust: keywordIllust,
+            keywordDescription: keywordDescription,
+            tagMatchMode: tagMatchMode,
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
@@ -189,7 +251,6 @@ export const ShipIndex = () => {
         if (overrideQuery) {
             query = overrideQuery
         }
-        // console.log(query)
 
         setBlocked(true)
         let res = await GET_query(query).catch(e => showErrorToast(e))
@@ -206,6 +267,8 @@ export const ShipIndex = () => {
             setKeyword(query.get('keyword') || "")
             setKeywordMod(query.get('keywordMod') || 0)
             setKeywordIllust(query.get('keywordIllust') || "")
+            setKeywordDescription(query.get('keywordDescription') || "")
+            setTagMatchMode(query.get('tagMatchMode') || 'any')
             setConstructMod(query.get('constructMod') || 0)
             setAltOutfitMod(query.get('altOutfitMod') || 0)
             setExtraContentMod(query.get('extraContentMod') || 0)
@@ -225,6 +288,8 @@ export const ShipIndex = () => {
             setKeyword(location.state.searchData.keyword || "")
             setKeywordMod(location.state.searchData.keywordMod || 0)
             setKeywordIllust(location.state.searchData.keywordIllust || "")
+            setKeywordDescription(location.state.searchData.keywordDescription || "")
+            setTagMatchMode(location.state.searchData.tagMatchMode || 'any')
             setConstructMod(location.state.searchData.constructMod || 0)
             setAltOutfitMod(location.state.searchData.altOutfitMod || 0)
             setExtraContentMod(location.state.searchData.extraContentMod || 0)
@@ -239,6 +304,8 @@ export const ShipIndex = () => {
                 keyword: "",
                 keywordMod: 0,
                 keywordIllust: "",
+                keywordDescription: "",
+                tagMatchMode: "any",
                 page: 1,
                 constructMod: 0,
                 altOutfitMod: 0,
@@ -260,6 +327,7 @@ export const ShipIndex = () => {
             setKeyword(searchState.keyword || "")
             setKeywordMod(searchState.keywordMod || 0)
             setKeywordIllust(searchState.keywordIllust || "")
+            setKeywordDescription(searchState.keywordDescription || "")
             setConstructMod(searchState.constructMod || 0)
             setAltOutfitMod(searchState.altOutfitMod || 0)
             setExtraContentMod(searchState.extraContentMod || 0)
@@ -297,6 +365,84 @@ export const ShipIndex = () => {
         setKeywordIllust(e.target.value)
     }
 
+    function handleKeywordDescriptionChange(e) {
+        setKeywordDescription(e.target.value)
+    }
+
+    // Tag autocomplete functions
+    function handleDescriptionInputChange(e) {
+        const value = e.target.value
+        setDescriptionInput(value)
+        // The debounced search will be triggered by useEffect
+    }
+
+    function addTag(tagItem) {
+        const tag = typeof tagItem === 'string' ? tagItem : tagItem.tag
+        if (!selectedDescriptionTags.includes(tag)) {
+            const newTags = [...selectedDescriptionTags, tag]
+            setSelectedDescriptionTags(newTags)
+            updateKeywordDescription(newTags)
+        }
+        setDescriptionInput("")
+        setShowTagSuggestions(false)
+        setTagSuggestions([])
+        setHighlightedIndex(-1)
+    }
+
+    function removeTag(tagToRemove) {
+        const newTags = selectedDescriptionTags.filter(tag => tag !== tagToRemove)
+        setSelectedDescriptionTags(newTags)
+        updateKeywordDescription(newTags)
+    }
+
+    function updateKeywordDescription(tags) {
+        setKeywordDescription(tags.join(', '))
+    }
+
+    function handleDescriptionKeyDown(e) {
+        if (showTagSuggestions && tagSuggestions.length > 0) {
+            if (e.key === 'ArrowDown') {
+                e.preventDefault()
+                setHighlightedIndex(prev => 
+                    prev < tagSuggestions.length - 1 ? prev + 1 : 0
+                )
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault()
+                setHighlightedIndex(prev => 
+                    prev > 0 ? prev - 1 : tagSuggestions.length - 1
+                )
+            } else if (e.key === 'Enter' || e.key === 'Tab') {
+                e.preventDefault()
+                if (highlightedIndex >= 0) {
+                    addTag(tagSuggestions[highlightedIndex])
+                } else if (descriptionInput.trim()) {
+                    addTag(descriptionInput.trim())
+                }
+            } else if (e.key === 'Escape') {
+                setShowTagSuggestions(false)
+            } else if (e.key === 'Backspace' && !descriptionInput && selectedDescriptionTags.length > 0) {
+                // Remove last tag when input is empty and backspace is pressed
+                e.preventDefault()
+                const newTags = selectedDescriptionTags.slice(0, -1)
+                setSelectedDescriptionTags(newTags)
+                updateKeywordDescription(newTags)
+            }
+        } else {
+            if ((e.key === 'Enter' || e.key === 'Tab' || e.key === ',') && descriptionInput.trim()) {
+                e.preventDefault()
+                addTag(descriptionInput.trim())
+            } else if (e.key === 'Backspace' && !descriptionInput && selectedDescriptionTags.length > 0) {
+                // Remove last tag when input is empty and backspace is pressed
+                e.preventDefault()
+                const newTags = selectedDescriptionTags.slice(0, -1)
+                setSelectedDescriptionTags(newTags)
+                updateKeywordDescription(newTags)
+            } else if (e.key === 'Enter') {
+                listenForEnter(e)
+            }
+        }
+    }
+
     function listenForEnter(e) {
         if (e.key === "Enter") {
             onSearch()
@@ -310,6 +456,8 @@ export const ShipIndex = () => {
                 keyword: keyword,
                 keywordMod: keywordMod,
                 keywordIllust: keywordIllust,
+                keywordDescription: keywordDescription,
+                tagMatchMode: tagMatchMode,
                 page: page,
                 constructMod: constructMod,
                 altOutfitMod: altOutfitMod,
@@ -325,7 +473,7 @@ export const ShipIndex = () => {
 
             localStorage.setItem('searchData', JSON.stringify(shiplist))
         }
-    }, [keyword, keywordMod, keywordIllust, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage, shiplist, sortBy])
+    }, [keyword, keywordMod, keywordIllust, keywordDescription, tagMatchMode, selectedDescriptionTags, page, constructMod, altOutfitMod, extraContentMod, selectedFranchise, selectedCountry, selectedShipType, strictMode, includeExtrapolate, limitPerPage, shiplist, sortBy])
 
     const navigateToCG = useCallback((val) => {
         navigate('/cg_info', {state: {
@@ -412,6 +560,8 @@ export const ShipIndex = () => {
             keyword: keyword,
             keywordMod: keywordMod,
             keywordIllust: keywordIllust,
+            keywordDescription: keywordDescription,
+            tagMatchMode: tagMatchMode,
             page: page,
             constructMod: constructMod,
             altOutfitMod: altOutfitMod,
@@ -435,13 +585,162 @@ export const ShipIndex = () => {
                     <Box bg="muted" p='32px' className="apply-shadow" height='auto'>
                         <Text fontSize={14} marginBottom='10px' fontWeight={500}>Ship Index Search</Text>
                         <Box display={'flex'} flexDirection={'row'} alignItems="center" marginBottom='10px' flexWrap={'wrap'}>
-                            <Box display={'flex'} flexDirection={'row'} flex={5} minW={240} alignItems={'center'} mr={4}>
+                            <Box display={'flex'} flexDirection={'row'} flex={3} minW={240} alignItems={'center'} mr={4}>
                                 <FaSearch scale={2} mr={4}/>
                                 <Input value={keyword} marginLeft='10px' placeholder="Enter keyword" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordChange} onKeyDown={listenForEnter}></Input>
                             </Box>
                             <Box display={'flex'} flexDirection={'row'} flex={3} minW={240} alignItems={'center'} mr={4}>
                                 <FaPencilAlt scale={2} mr={4}/>
                                 <Input value={keywordIllust} marginLeft='10px' placeholder="Enter illustrator" size='lg' variant='flushed' paddingX='20px' onChange={handleKeywordIllustChange} onKeyDown={listenForEnter}></Input>
+                            </Box>
+                            <Box display={'flex'} flexDirection={'row'} flex={4} minW={240} alignItems={'center'} mr={4} position="relative">
+                                <Text fontSize="sm" minW="60px" mr={2}>Tags:</Text>
+                                <Box flex={1} position="relative">
+                                    {/* Combined input with inline tags */}
+                                    <Box
+                                        display="flex"
+                                        alignItems="center"
+                                        flexWrap="wrap"
+                                        gap={1}
+                                        p={2}
+                                        border="none"
+                                        borderBottom="2px solid"
+                                        borderBottomColor="gray.200"
+                                        _focusWithin={{
+                                            borderBottomColor: "blue.500"
+                                        }}
+                                        minH="40px"
+                                        bg="transparent"
+                                    >
+                                        {/* Selected tags inline */}
+                                        {selectedDescriptionTags.map((tag, index) => (
+                                            <Badge
+                                                key={index}
+                                                variant="solid"
+                                                colorScheme="blue"
+                                                display="flex"
+                                                alignItems="center"
+                                                gap={1}
+                                                px={2}
+                                                py={1}
+                                                borderRadius="md"
+                                                fontSize="xs"
+                                                flexShrink={0}
+                                            >
+                                                {tag}
+                                                <Box
+                                                    cursor="pointer"
+                                                    onClick={() => removeTag(tag)}
+                                                    display="flex"
+                                                    alignItems="center"
+                                                    color="white"
+                                                    _hover={{ color: "gray.200" }}
+                                                    ml={1}
+                                                >
+                                                    <FaTimes size="10px" />
+                                                </Box>
+                                            </Badge>
+                                        ))}
+                                        
+                                        {/* Input field */}
+                                        <Input 
+                                            value={descriptionInput} 
+                                            placeholder={selectedDescriptionTags.length === 0 ? "Type tags (e.g. blonde hair, blue eyes)..." : "Add more tags..."} 
+                                            variant='unstyled'
+                                            flex={1}
+                                            minW="150px"
+                                            onChange={handleDescriptionInputChange} 
+                                            onKeyDown={handleDescriptionKeyDown}
+                                            onBlur={() => setTimeout(() => setShowTagSuggestions(false), 200)}
+                                            onFocus={() => {
+                                                if (descriptionInput && tagSuggestions.length > 0) {
+                                                    setShowTagSuggestions(true)
+                                                }
+                                            }}
+                                        />
+                                    </Box>
+                                    
+                                    {/* Tag matching mode toggle */}
+                                    {selectedDescriptionTags.length > 1 && (
+                                        <HStack mt={2} spacing={2}>
+                                            <Text fontSize="xs" color="gray.600">Match:</Text>
+                                            <Button
+                                                size="xs"
+                                                variant={tagMatchMode === 'any' ? 'solid' : 'outline'}
+                                                colorScheme="blue"
+                                                onClick={() => setTagMatchMode('any')}
+                                            >
+                                                ANY tag
+                                            </Button>
+                                            <Button
+                                                size="xs"
+                                                variant={tagMatchMode === 'all' ? 'solid' : 'outline'}
+                                                colorScheme="blue"
+                                                onClick={() => setTagMatchMode('all')}
+                                            >
+                                                ALL tags
+                                            </Button>
+                                        </HStack>
+                                    )}
+                                    
+                                    {/* Autocomplete dropdown */}
+                                    {showTagSuggestions && tagSuggestions.length > 0 && (
+                                        <Box
+                                            position="absolute"
+                                            top="100%"
+                                            left={0}
+                                            right={0}
+                                            bg="white"
+                                            _dark={{ bg: "gray.800" }}
+                                            border="1px solid"
+                                            borderColor="gray.300"
+                                            borderRadius="md"
+                                            boxShadow="lg"
+                                            maxH="200px"
+                                            overflowY="auto"
+                                            zIndex={1000}
+                                            mt={1}
+                                        >
+                                            {tagSuggestions.map((tagItem, index) => (
+                                                <Flex
+                                                    key={typeof tagItem === 'string' ? tagItem : tagItem.tag}
+                                                    px={3}
+                                                    py={2}
+                                                    cursor="pointer"
+                                                    bg={index === highlightedIndex ? "blue.50" : "transparent"}
+                                                    _dark={{ 
+                                                        bg: index === highlightedIndex ? "blue.900" : "transparent",
+                                                        borderBottomColor: "gray.700"
+                                                    }}
+                                                    _hover={{ 
+                                                        bg: "blue.50",
+                                                        _dark: { bg: "blue.900" }
+                                                    }}
+                                                    onClick={() => addTag(tagItem)}
+                                                    fontSize="sm"
+                                                    borderBottom={index < tagSuggestions.length - 1 ? "1px solid" : "none"}
+                                                    borderBottomColor="gray.100"
+                                                    justify="space-between"
+                                                    align="center"
+                                                >
+                                                    <Text>
+                                                        {typeof tagItem === 'string' ? tagItem : tagItem.tag}
+                                                    </Text>
+                                                    {typeof tagItem === 'object' && tagItem.frequency && (
+                                                        <Badge 
+                                                            colorScheme="gray" 
+                                                            size="sm" 
+                                                            fontSize="xs"
+                                                            variant="subtle"
+                                                        >
+                                                            {tagItem.frequency.toLocaleString()}
+                                                        </Badge>
+                                                    )}
+                                                </Flex>
+                                            ))}
+                                        </Box>
+                                    )}
+                                </Box>
                             </Box>
                         </Box>
                         <Stack direction={'row'} marginBottom='16px' marginTop='8px' wrap={'wrap'}>
@@ -450,7 +749,20 @@ export const ShipIndex = () => {
                                 <Checkbox minW={200} isChecked={getModifierValue(keywordMod, 0)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 0))}>Ship name only</Checkbox>
                                 <Checkbox minW={200} isChecked={getModifierValue(keywordMod, 1)} onChange={(e) => setKeywordMod(toggleModifierValue(keywordMod, 1))}>Modifier name only</Checkbox>
                             </CheckboxGroup>
-                            <Checkbox minW={200} isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
+                            <HStack spacing={1} alignItems="center" minW={200}>
+                                <Checkbox isChecked={strictMode} onChange={onStrictModeChange}>Strict Search</Checkbox>
+                                <Tooltip 
+                                    label="Exact phrase matching instead of partial matching" 
+                                    hasArrow
+                                    placement="top"
+                                    bg="gray.700"
+                                    color="white"
+                                >
+                                    <Box display="inline-flex" alignItems="center" cursor="help">
+                                        <FaInfoCircle size="12px" color="gray.500" />
+                                    </Box>
+                                </Tooltip>
+                            </HStack>
                             <Checkbox minW={200} isChecked={includeExtrapolate} onChange={onIncludeExtrapolateChange}>Include Extrapolated Data</Checkbox>
                         </Stack>
                         

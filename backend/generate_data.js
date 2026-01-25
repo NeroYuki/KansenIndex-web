@@ -4,8 +4,10 @@ const hashFile = require('hash-files')
 const crypto = require('crypto')
 const asciiFolder = require('fold-to-ascii')
 const { parse } = require('fast-csv');
+const path = require('path')
 
 const BASE_PATH = './data/assets/shipgirls'
+const TAG_PATH = './data/assets/shipgirls_tag'
 
 Array.prototype.filterIndex = function (cb) {
     let arr = [];
@@ -75,6 +77,7 @@ function main_shipgirl_db() {
     let dirs = fs.readdirSync(BASE_PATH)
 
     let list = []
+    let tag_frequency = {} // Track tag frequency across all files
 
     let whitelist_dir = []
 
@@ -302,6 +305,27 @@ function main_shipgirl_db() {
                 }
             }
 
+            // Read description tags from corresponding txt file
+            let description = []
+            const tag_file_path = path.join(TAG_PATH, dir, file.slice(0, file.lastIndexOf('.')) + '.txt')
+            if (fs.existsSync(tag_file_path)) {
+                try {
+                    const tag_content = fs.readFileSync(tag_file_path, {encoding: 'utf-8'}).trim()
+                    if (tag_content) {
+                        description = tag_content.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0)
+                        
+                        // Update tag frequency
+                        description.forEach(tag => {
+                            tag_frequency[tag] = (tag_frequency[tag] || 0) + 1
+                        })
+                    }
+                } catch (error) {
+                    console.log(`Error reading tag file for ${file}: ${error.message}`)
+                }
+            } else {
+                console.log(`Tag file not found for: ${file}`)
+            }
+
 
             series_list.push({
                 char: char_name,
@@ -321,6 +345,7 @@ function main_shipgirl_db() {
                 file_size: file_size,
                 folder: dir,
                 alias: alias.concat(extra_config?.alias || []),
+                description: description,
                 l2d: l2d,
                 chibi: chibi,
                 spine: spine,
@@ -400,6 +425,29 @@ function main_shipgirl_db() {
 
         list = list.concat(series_list)
     })
+
+    // Generate tag frequency report
+    console.log('Generating tag frequency report...')
+    const sorted_tags = Object.entries(tag_frequency)
+        .sort((a, b) => b[1] - a[1]) // Sort by frequency descending
+        .map(([tag, count]) => `${tag}: ${count}`)
+    
+    const total_tags = Object.keys(tag_frequency).length
+    const total_occurrences = Object.values(tag_frequency).reduce((sum, count) => sum + count, 0)
+    
+    const report_content = [
+        `Tag Frequency Report`,
+        `Generated: ${new Date().toISOString()}`,
+        `Total unique tags: ${total_tags}`,
+        `Total tag occurrences: ${total_occurrences}`,
+        `Average tags per image: ${(total_occurrences / list.length).toFixed(2)}`,
+        ``,
+        `Tags by frequency:`,
+        ...sorted_tags
+    ].join('\n')
+    
+    fs.writeFileSync('data/tag_frequency_report.txt', report_content, {encoding: 'utf-8'})
+    console.log(`Tag frequency report saved to data/tag_frequency_report.txt`)
 
     fs.writeFileSync('data/shipgirl_list_db_new.json', JSON.stringify(list, {}, '  '), {encoding: 'utf-8'})
 }

@@ -8,6 +8,8 @@ export function GET_query(query) {
         let url = '/api/shipgirl/query?' 
         if (query.keyword) url += `keyword=${query.keyword}&`
         if (query.keywordMod) url += `keyword_mod=${query.keywordMod}&`
+        if (query.keywordDescription && query.keywordDescription.trim()) url += `keywordDescription=${encodeURIComponent(query.keywordDescription)}&`
+        if (query.tagMatchMode && query.tagMatchMode !== 'any') url += `tagMatchMode=${query.tagMatchMode}&`
         if (query.page > 1) url += `page=${query.page}&`
         if (query.constructMod) url += `construct_mod=${query.constructMod}&`
         if (query.altOutfitMod) url += `alt_outfit_mod=${query.altOutfitMod}&`
@@ -36,6 +38,24 @@ export function GET_query(query) {
         if (query.keywordIllust) url += `illust=${query.keywordIllust}&`
         if (query.sortBy && query.sortBy.length > 0) url += `sort_by=${query.sortBy.join(',')}&`
 
+        let res = await fetch(url, option).catch(e => reject("error when fetch"))
+
+        if (!res) {
+            reject('invalid response')
+        }
+        else {
+            resolve(await res.json())
+        }
+    })
+}
+
+export function GET_tag_suggestions(query) {
+    return new Promise(async (resolve, reject) => {
+        let option = {
+            method: "GET",
+        }
+        let url = `/api/shipgirl/tag_suggestions?q=${encodeURIComponent(query)}`
+        
         let res = await fetch(url, option).catch(e => reject("error when fetch"))
 
         if (!res) {
