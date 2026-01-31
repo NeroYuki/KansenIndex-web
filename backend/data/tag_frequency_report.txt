@@ -1,65 +1,65 @@
 Tag Frequency Report
-Generated: 2026-01-25T15:47:21.648Z
+Generated: 2026-01-31T06:43:08.025Z
 Total unique tags: 5262
-Total tag occurrences: 635297
-Average tags per image: 44.88
+Total tag occurrences: 635233
+Average tags per image: 44.87
 
 Tags by frequency:
-1girl: 13962
-solo: 13893
-full body: 13311
-transparent background: 12293
-looking at viewer: 11092
+1girl: 13960
+solo: 13891
+full body: 13309
+transparent background: 12291
+looking at viewer: 11091
 long hair: 10601
-breasts: 9933
+breasts: 9931
 machinery: 7206
 rigging: 7198
 turret: 7161
-smile: 5989
-thighhighs: 5864
+smile: 5988
+thighhighs: 5863
 holding: 5765
 skirt: 5617
 large breasts: 5312
 cannon: 5312
 blush: 5099
-gloves: 5086
 long sleeves: 5085
+gloves: 5085
 hair ornament: 4992
 open mouth: 4973
-dress: 4667
-blue eyes: 4452
+dress: 4666
+blue eyes: 4451
 cleavage: 4331
 standing: 4330
-bare shoulders: 4064
+bare shoulders: 4063
 very long hair: 3787
-boots: 3744
+boots: 3743
 torn clothes: 3560
 blonde hair: 3232
-high heels: 3225
+high heels: 3223
 hat: 3219
 ribbon: 3159
 black footwear: 3159
 shirt: 3099
 medium breasts: 3088
 pleated skirt: 3007
-short hair: 2918
-closed mouth: 2882
+short hair: 2916
+closed mouth: 2881
 shoes: 2834
 red eyes: 2824
 weapon: 2789
-official alternate costume: 2736
+official alternate costume: 2735
 brown hair: 2666
 navel: 2666
-white background: 2658
+white background: 2657
 tachi-e: 2648
-simple background: 2552
+simple background: 2551
 black hair: 2536
-hair between eyes: 2497
+hair between eyes: 2496
 torpedo: 2479
 sitting: 2426
 jacket: 2381
 pantyhose: 2278
-black thighhighs: 2259
+black thighhighs: 2258
 black gloves: 2169
 damaged: 2164
 flower: 2080
@@ -67,16 +67,16 @@ white hair: 2065
 twintails: 2063
 bow: 2057
 white thighhighs: 2049
-thigh strap: 1957
+thigh strap: 1956
 ahoge: 1917
 socks: 1883
-grey hair: 1864
+grey hair: 1862
 brown eyes: 1853
 purple eyes: 1850
 white shirt: 1793
 jewelry: 1784
 hair ribbon: 1782
-yellow eyes: 1757
+yellow eyes: 1756
 miniskirt: 1738
 underwear: 1733
 rudder footwear: 1726
@@ -91,11 +91,11 @@ holding weapon: 1600
 wide sleeves: 1598
 smokestack: 1590
 swimsuit: 1501
-white dress: 1499
-collarbone: 1496
+white dress: 1498
+collarbone: 1495
 school uniform: 1482
 defeat: 1476
-sleeveless: 1475
+sleeveless: 1474
 sandals: 1473
 frills: 1472
 short sleeves: 1469
@@ -131,7 +131,7 @@ bikini: 1108
 purple hair: 1101
 garter straps: 1087
 shorts: 1076
-headgear: 1041
+headgear: 1039
 ass: 1007
 sidelocks: 998
 white headwear: 985
@@ -147,13 +147,13 @@ hairclip: 899
 feet: 895
 necktie: 880
 buttons: 868
-mecha musume: 868
+mecha musume: 867
 aircraft: 864
 fur trim: 855
 fingerless gloves: 846
 red hair: 846
 kneehighs: 828
-tail: 824
+tail: 823
 sash: 821
 thigh boots: 820
 torn skirt: 813
@@ -196,7 +196,7 @@ short dress: 622
 floral print: 616
 tabi: 615
 peaked cap: 612
-sleeveless dress: 612
+sleeveless dress: 611
 parted lips: 609
 crop top: 605
 armpits: 601
@@ -218,8 +218,8 @@ pink eyes: 551
 red skirt: 547
 bell: 546
 red footwear: 546
-covered navel: 543
 side ponytail: 543
+covered navel: 542
 hair over one eye: 536
 streaked hair: 534
 fake animal ears: 528
@@ -400,8 +400,8 @@ mast: 257
 sweater: 256
 huge breasts: 255
 alcohol: 253
-aqua eyes: 251
 white bikini: 250
+aqua eyes: 250
 armor: 245
 cat: 239
 santa costume: 238
@@ -441,10 +441,10 @@ night: 215
 maid apron: 214
 eyewear on head: 213
 anklet: 213
-hand on own chest: 212
 leaning forward: 212
-bodysuit: 211
+hand on own chest: 211
 polearm: 211
+bodysuit: 210
 ascot: 210
 bouquet: 210
 wedding dress: 208
@@ -860,7 +860,6 @@ beach umbrella: 81
 trigger discipline: 81
 virtual youtuber: 80
 bikini skirt: 80
-mechanical arms: 80
 bed: 80
 smartphone: 79
 fingernails: 79
@@ -875,6 +874,7 @@ lollipop: 78
 headset: 78
 shimenawa: 78
 grey gloves: 78
+mechanical arms: 78
 fur-trimmed kimono: 78
 blue rose: 78
 thick thighs: 78
@@ -920,7 +920,6 @@ fishnet thighhighs: 71
 branch: 71
 denim shorts: 71
 ice cream: 71
-mechanical tail: 71
 blue panties: 71
 cowboy hat: 71
 breast pocket: 71
@@ -935,6 +934,7 @@ mole on breast: 70
 scepter: 70
 shrug (clothing): 70
 watch: 70
+mechanical tail: 70
 knife: 70
 teapot: 70
 sweat: 70
@@ -1208,7 +1208,6 @@ mittens: 47
 forehead: 46
 wand: 46
 black bodysuit: 46
-mechanical ears: 46
 dog: 46
 garter belt: 46
 bar stool: 46
@@ -1221,6 +1220,7 @@ legs up: 45
 3girls: 45
 asymmetrical footwear: 45
 brown socks: 45
+mechanical ears: 45
 hibiscus: 45
 cocktail glass: 45
 binoculars: 45
@@ -1268,7 +1268,6 @@ embarrassed: 42
 from below: 42
 nun: 42
 sleeves rolled up: 42
-cable: 42
 very long sleeves: 42
 holding hat: 42
 mechanical wings: 41
@@ -1304,6 +1303,7 @@ electricity: 40
 o-ring bikini: 40
 @ @: 40
 zipper pull tab: 40
+cable: 40
 black horns: 40
 aged down: 40
 on chair: 40
@@ -1329,7 +1329,6 @@ leg belt: 38
 mouth mask: 38
 paper bag: 38
 candy cane: 38
-expressionless: 38
 inflatable toy: 38
 black capelet: 38
 beach chair: 38
@@ -1357,6 +1356,7 @@ short eyebrows: 37
 lattice: 37
 angel wings: 37
 frilled hairband: 37
+expressionless: 37
 mini top hat: 37
 yellow bikini: 37
 heart balloon: 37
@@ -1812,7 +1812,6 @@ hands on own chest: 22
 earmuffs: 22
 bicorne: 22
 police uniform: 22
-prosthesis: 22
 brown tail: 22
 horse: 22
 elf: 22
@@ -1858,6 +1857,7 @@ snorkel: 21
 wrist ribbon: 21
 glass: 21
 holding clipboard: 21
+prosthesis: 21
 lace-trimmed bra: 21
 red carpet: 21
 cocktail: 21
@@ -1913,7 +1913,6 @@ chaps: 20
 hanging breasts: 20
 dot nose: 20
 oversized clothes: 20
-mechanical legs: 20
 television: 20
 broom riding: 20
 pajamas: 20
@@ -2036,6 +2035,7 @@ cat hood: 18
 black rose: 18
 cityscape: 18
 trumpet: 18
+mechanical legs: 18
 magic: 18
 weapon on back: 18
 black sweater: 18
@@ -2257,7 +2257,6 @@ green shorts: 15
 orange footwear: 15
 black background: 15
 brown shirt: 15
-joints: 15
 brown sailor collar: 15
 anchor earrings: 14
 white cloak: 14
@@ -2404,7 +2403,7 @@ whisker markings: 13
 keyboard (instrument): 13
 sleeveless coat: 13
 cotton candy: 13
-robot joints: 13
+joints: 13
 bullet: 13
 orange kimono: 13
 side braids: 13
@@ -2493,10 +2492,8 @@ shell casing: 12
 volleyball: 12
 budget sarashi: 12
 ammunition belt: 12
-mechanical parts: 12
 leaf hair ornament: 12
 extra arms: 12
-android: 12
 bags under eyes: 12
 green sweater: 12
 spiked club: 12
@@ -2606,7 +2603,9 @@ finger on trigger: 11
 yellow bra: 11
 6+girls: 11
 ;(: 11
+mechanical parts: 11
 green scarf: 11
+robot joints: 11
 red hood: 11
 polka dot ribbon: 11
 blue apron: 11
@@ -2718,6 +2717,7 @@ whistle around neck: 10
 jumpsuit: 10
 hooded dress: 10
 clover hair ornament: 10
+android: 10
 quill: 10
 magazine (weapon): 10
 diagonal-striped necktie: 10
@@ -2822,7 +2822,6 @@ pumpkin hair ornament: 9
 pink sweater: 9
 white scrunchie: 9
 flask: 9
-cable tail: 9
 white mittens: 9
 hikimayu: 9
 pink socks: 9
@@ -2866,7 +2865,6 @@ kicking: 8
 undressing: 8
 holographic monitor: 8
 japanese flag: 8
-cyborg: 8
 doll: 8
 tailcoat: 8
 skirt pull: 8
@@ -2978,6 +2976,7 @@ pole dancing: 8
 pink coat: 8
 spoiler (automobile): 8
 christmas lights: 8
+cable tail: 8
 parted hair: 8
 sideless shirt: 8
 holding bucket: 8
@@ -3028,6 +3027,7 @@ nude cover: 7
 bikini armor: 7
 tank: 7
 bursting breasts: 7
+cyborg: 7
 cup ramen: 7
 muzzle flash: 7
 loincloth: 7
@@ -4484,7 +4484,6 @@ flower earrings: 2
 single wrist cuff: 2
 yellow coat: 2
 hourglass: 2
-robot girl: 2
 blood on face: 2
 two tails: 2
 coif: 2
@@ -5124,6 +5123,7 @@ bandolier: 1
 paint on clothes: 1
 paint splatter on face: 1
 red lips: 1
+robot girl: 1
 green skin: 1
 metal skin: 1
 energy gun: 1

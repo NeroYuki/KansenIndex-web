@@ -14,20 +14,22 @@ export const ContentRatingSelector = () => {
         <Flex direction="row" alignItems="center" mr={4}>
             <Tooltip label="Content Filter: Select maximum rating to display" placement="bottom">
                 <Box>
-                    <Icon as={FaShieldAlt} color="orange.400" boxSize="16px" mr={2} />
+                    <Icon as={FaShieldAlt} color="orange.400" boxSize="16px" mr={2} mt={1}/>
                 </Box>
             </Tooltip>
             <Select 
                 value={maxRating}
                 onChange={handleRatingChange}
                 size="sm"
-                width="120px"
+                width="72px"
                 variant="filled"
+                borderRadius="md"
+                mr="-8px"
             >
-                <option value="general">General</option>
-                <option value="sensitive">Sensitive</option>
-                <option value="questionable">Questionable</option>
-                <option value="explicit">Explicit</option>
+                <option value="general">G</option>
+                <option value="sensitive">PG</option>
+                <option value="questionable">R</option>
+                <option value="explicit">X</option>
             </Select>
         </Flex>
     )

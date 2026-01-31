@@ -1,0 +1,1656 @@
+[
+  {
+    "name": "Algérie",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Béarn",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Dunkerque",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Émile Bertin",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "L'Audacieux",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "La Motte-Picquet",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Le Triomphant",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Léopard",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Maillé Brézé",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Marseillaise",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Paris",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Suffren",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Surcouf",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Verdun",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Volta",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Achilles",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Admiral Graf Spee",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Admiral Hipper",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Antoniotto Usodimare",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Aoba",
+    "alias": [
+      "青葉"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Archimede",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Argonaut",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Arizona",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Ark Royal",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Asphyxiation",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Avarice",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Boiky",
+    "alias": [
+      "Бойкий"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Chervona Ukraina",
+    "alias": [
+      "Червона Україна"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Chikuma",
+    "alias": [
+      "筑摩"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Atlantis",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Munition Ship"
+  },
+  {
+    "name": "Deutschland",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Diether von Roeder",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Emden",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Gneisenau",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Hans Lody",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Hans Lüdemann",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Köln",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Leberecht Maass",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Nürnberg",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Scharnhorst",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Theodor Riedel",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "U-29",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "U-37",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Axum",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Bolzano",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Camicia Nera",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Conte di Cavour",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Emanuele Filiberto Duca d'Aosta",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Espero",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Ettore Fieramosca",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Eugenio di Savoia",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Giulio Cesare",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Giuseppe Garibaldi",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Lampo",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Maestrale",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Pola",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Chiyoda",
+    "alias": [
+      "千代田"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Light Carrier"
+  },
+  {
+    "name": "Fubuki",
+    "alias": [
+      "吹雪"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Fusō",
+    "alias": [
+      "扶桑"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Hiei",
+    "alias": [
+      "比叡"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Battlecruiser"
+  },
+  {
+    "name": "Hiryū",
+    "alias": [
+      "飛龍"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "I-8",
+    "alias": [
+      "伊8"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Ikazuchi",
+    "alias": [
+      "雷"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Kaga",
+    "alias": [
+      "加賀"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Kamikaze",
+    "alias": [
+      "神風"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Kasumi",
+    "alias": [
+      "霞"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Kitakami",
+    "alias": [
+      "北上"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Kongou",
+    "alias": [
+      "金剛"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Battlecruiser"
+  },
+  {
+    "name": "Kumano",
+    "alias": [
+      "熊野"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Myōkō",
+    "alias": [
+      "妙高"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Nagato",
+    "alias": [
+      "長門"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Nagatsuki",
+    "alias": [
+      "長月"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Naka",
+    "alias": [
+      "那珂"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Nenohi",
+    "alias": [
+      "子日"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Shigure",
+    "alias": [
+      "時雨"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Takao",
+    "alias": [
+      "高雄"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Tenryū",
+    "alias": [
+      "天龍"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Yūbari",
+    "alias": [
+      "夕張"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "De Ruyter",
+    "alias": [],
+    "nation": [
+      "Netherlands"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Wicher",
+    "alias": [],
+    "nation": [
+      "Poland"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Gnevny",
+    "alias": [
+      "Гневный"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Gromky",
+    "alias": [
+      "Громкий"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Kirov",
+    "alias": [
+      "Киров"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Krasny Kavkaz",
+    "alias": [
+      "Красный Кавказ"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "L-3",
+    "alias": [
+      "Л-3"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Leningrad",
+    "alias": [
+      "Ленинград"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Marat",
+    "alias": [
+      "Марат"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Moskva",
+    "alias": [
+      "Москва"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Nerpa",
+    "alias": [
+      "Нерпа"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Parizhskaya Kommuna",
+    "alias": [
+      "Парижская коммуна"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Profintern",
+    "alias": [
+      "Профинтерн"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "S-3",
+    "alias": [
+      "С-3"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Voykov",
+    "alias": [
+      "Войков"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Canarias",
+    "alias": [],
+    "nation": [
+      "Spain"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Velasco",
+    "alias": [],
+    "nation": [
+      "Spain"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Yavuz",
+    "alias": [],
+    "nation": [
+      "Turkey"
+    ],
+    "ship_type": "Battlecruiser"
+  },
+  {
+    "name": "Belfast",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Bulldog",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Cossack",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Delhi",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Edinburgh",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Exeter",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Hermes",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Carrier"
+  },
+  {
+    "name": "Perth",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Vampire",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Saguenay",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Hood",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Battlecruiser"
+  },
+  {
+    "name": "Nelson",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Nubian",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Orion",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Queen Mary",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Munition Ship"
+  },
+  {
+    "name": "Rawalpindi",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Munition Ship"
+  },
+  {
+    "name": "Salmon",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Sheffield",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Shropshire",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Southampton",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Warspite",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Zulu",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Augusta",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Boise",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Henley",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Houston",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Hull",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Lexington",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Mahan",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Maury",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "McDougal",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Mississippi",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Narwhal",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Nashville",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Nautilus",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Nevada",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "New Orleans",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Salt Lake City",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Somers",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "St. Louis",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Stewart",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Wichita",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Enterprise",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Calamity",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Confusion",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Corruption",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Cowardice",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Delusion",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Light Carrier"
+  },
+  {
+    "name": "Vanity",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Despair",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Destruction",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Disease",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Dismay",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Fire",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Injustice",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Malice",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Mistrust",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Murder",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Paranoia",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Sabotage",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Battlecruiser"
+  },
+  {
+    "name": "Sedition",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Battlecruiser"
+  },
+  {
+    "name": "Sin",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Starvation",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Treason",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Mischief",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Venom",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Recruit",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Schleswig-Holstein",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Pensacola",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Ashigara",
+    "alias": [],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Manchester",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "San Giorgio",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Jeanne d'Arc",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Aurora",
+    "alias": [
+      "Аврора"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Light Cruiser"
+  },
+  {
+    "name": "Amerigo Vespucci",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Munition Ship"
+  },
+  {
+    "name": "Akagi",
+    "alias": [
+      "赤城"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Ursula",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Provence",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Blyskawica",
+    "alias": [],
+    "nation": [
+      "Poland"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Minneapolis",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Bezbozhnik",
+    "alias": [
+      "Безбожник"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Vendetta",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Texas",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Admiral Scheer",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Sloth",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Infestation",
+    "alias": [],
+    "nation": [
+      "Fictional"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Steregushchy",
+    "alias": [
+      "Стерегущий"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "I-7",
+    "alias": [
+      "伊7"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Duilio",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Battleship"
+  },
+  {
+    "name": "Glorious",
+    "alias": [],
+    "nation": [
+      "United Kingdom"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Hōshō",
+    "alias": [
+      "鳳翔"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Light Carrier"
+  },
+  {
+    "name": "Le Terrible",
+    "alias": [],
+    "nation": [
+      "France"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "U-30",
+    "alias": [],
+    "nation": [
+      "Germany"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Orzel",
+    "alias": [],
+    "nation": [
+      "Poland"
+    ],
+    "ship_type": "Submarine"
+  },
+  {
+    "name": "Astoria",
+    "alias": [],
+    "nation": [
+      "United States"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Voroshilov",
+    "alias": [
+      "Ворошилов"
+    ],
+    "nation": [
+      "Soviet Union"
+    ],
+    "ship_type": "Heavy Cruiser"
+  },
+  {
+    "name": "Sōryū",
+    "alias": [
+      "蒼龍"
+    ],
+    "nation": [
+      "Japan"
+    ],
+    "ship_type": "Aircraft Carrier"
+  },
+  {
+    "name": "Carabiniere",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Destroyer"
+  },
+  {
+    "name": "Gorizia",
+    "alias": [],
+    "nation": [
+      "Italy"
+    ],
+    "ship_type": "Heavy Cruiser"
+  }
+]
