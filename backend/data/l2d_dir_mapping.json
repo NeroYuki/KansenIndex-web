@@ -312,6 +312,10 @@
         "name": "Friedrich der Gro\u00dfe_One Summer Night's Intimacy"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/feiteliedadi_4/feiteliedadi_4.model3.json",
+        "name": "Friedrich der Gro\u00dfe_Boudoir's Lingering Flame"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/feiteliekaer_3/feiteliekaer_3.model3.json",
         "name": "Friedrich Carl_Tender Summer Care"
     },
@@ -584,6 +588,10 @@
         "name": "Mainz_A Blend of Serenity"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/mingji_2/mingji_2.model3.json",
+        "name": "Nayoro_Electric Affection"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/mingshi/mingshi.model3.json",
         "name": "Akashi_Default"
     },
@@ -840,6 +848,10 @@
         "name": "Hindenburg_Delirious Duel"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xingdengbao_3/xingdengbao_3.model3.json",
+        "name": "Hindenburg_Dancer of the Deep Chamber"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_3/xinnong_3.model3.json",
         "name": "Shinano_Moonlit Chrome"
     },
@@ -854,6 +866,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_5/xinnong_5.model3.json",
         "name": "Shinano_Visions of Fantasy"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinnong_6/xinnong_6.model3.json",
+        "name": "Shinano_Embrace Upon A Melted Dream"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/xinzexi_3/xinzexi_3.model3.json",
@@ -912,6 +928,10 @@
         "name": "Perseus_Spring's Lackadaisical Leisure"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yuanchou_3/yuanchou_3.model3.json",
+        "name": "Implacable_Her Beauty Runneth Over"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/yunxian_2/yunxian_2.model3.json",
         "name": "Unzen_Sojourn Through Clear Seas"
     },
@@ -950,6 +970,10 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhala_2/zhala_2.model3.json",
         "name": "Zara_Poolside Coincidence"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhangwu_2/zhangwu_2.model3.json",
+        "name": "Chang Wu_In Full Glory, Spring's Branch Blooms"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhaohe_3/zhaohe_3.model3.json",

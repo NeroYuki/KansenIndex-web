@@ -12,7 +12,7 @@ async function thumb_gen (add_mode = false) {
     let whitelist_dir = []
 
     for (let dir of dirs) {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", "Rubbish"].includes(dir)) continue
+        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", "desktop.ini", ".megaignore", "Rubbish", "shipgirl_list_db_new.json"].includes(dir)) continue
         if (whitelist_dir.length > 0 && !whitelist_dir.includes(dir)) continue
 
         let files = fs.readdirSync(BASE_PATH + '/' + dir)

@@ -132,6 +132,11 @@
         "name": "Bismarck Zwei_Crystal-Clear Holiday"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bojiateli_2/bojiateli_2.skel",
+        "extra_file": [],
+        "name": "Bogatyr_Emotional Data Maintenance"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/bote/bote.skel",
         "extra_file": [],
         "name": "William D. Porter_Default"
@@ -242,6 +247,11 @@
         "name": "Friedrich der Gro\u00dfe_Default_cn"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/feiteliedadi_5/feiteliedadi_5.skel",
+        "extra_file": [],
+        "name": "Friedrich der Gro\u00dfe_Boudoir's Lingering Flame"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fengyun_2/fengyun_2_T.skel",
         "extra_file": [
             "./data/assets/shipgirls/Azur Lane/al_spine/full/fengyun_2/fengyun_2_B.skel"
@@ -286,6 +296,11 @@
         "name": "Takao_Divine Exorcist's Blade"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/geliqiya_3/geliqiya_3.skel",
+        "extra_file": [],
+        "name": "Gorizia_The Spy Who Crushed on Me"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/geluosite_3/geluosite_3.skel",
         "extra_file": [],
         "name": "Gloucester_Violet Enrapturement"
@@ -313,6 +328,11 @@
         "name": "Halford_A Special Day with the Bunny Lord"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/haichou_2/haichou_2.skel",
+        "extra_file": [],
+        "name": "Hai Chou_Aroma of Awakening"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hailunna_5/hailunna_5.skel",
         "extra_file": [],
         "name": "Helena_Basking in the Cypress' Warmth"
@@ -331,6 +351,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hesitiya_2/hesitiya_2.skel",
         "extra_file": [],
         "name": "Hestia_Godly Vacation!"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hongseshanmai_2/hongseshanmai_2.skel",
+        "extra_file": [],
+        "name": "Krasny Kavkaz_Playing Blind \u2665"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huajia_2/huajia_2T.skel",
@@ -495,6 +520,11 @@
         "name": "Lenja_Summer Vacation Time"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/linghangyuan3_2/linghangyuan3_2.skel",
+        "extra_file": [],
+        "name": "Data Set My Countless Selves_Default"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/linglai_2/linglai_2.skel",
         "extra_file": [],
         "name": "Ayase_A Glimpse of the Moon Rabbit"
@@ -564,6 +594,16 @@
         "name": "Morrison_Technology or Ninjutsu"
     },
     {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mosike/mosike.skel",
+        "extra_file": [],
+        "name": "Moskva_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/mosike_2/mosike_2.skel",
+        "extra_file": [],
+        "name": "Moskva_Awaiting the Next Move"
+    },
+    {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nabulesi/nabulesi.skel",
         "extra_file": [],
         "name": "Napoli_Default"
@@ -582,6 +622,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nengdai_9/nengdai_9.skel",
         "extra_file": [],
         "name": "Noshiro_A Dip in the Moonlight"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/niaohai_3/niaohai_3.skel",
+        "extra_file": [],
+        "name": "Choukai_Steal Your Heart"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/nina_2/nina_2.skel",
@@ -679,6 +724,11 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/talin_4/talin_4.skel",
         "extra_file": [],
         "name": "Tallinn_Night of Full Moon and Overflowing Love"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tansuozhe_2/tansuozhe_2.skel",
+        "extra_file": [],
+        "name": "Closeness on a Holiday_Default"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tashigan_4/tashigan_4.skel",
@@ -879,6 +929,16 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yueke_ger_3/yueke_ger_3.skel",
         "extra_file": [],
         "name": "Yorck_Late-Night Companion"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yunlong_2/yunlong_2.skel",
+        "extra_file": [],
+        "name": "Unryuu_Mirage in the Night"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yunlong_3/yunlong_3.skel",
+        "extra_file": [],
+        "name": "Unryuu_Mirage in the Night"
     },
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yunxian/yunxian.skel",

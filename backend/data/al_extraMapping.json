@@ -2576,6 +2576,13 @@
         "ship_type": "Light Carrier"
     },
     {
+        "name": "Long Island_Bring On the Red Envelopes!",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
         "name": "Long Island_Retrofit",
         "nation": [
             "United States"
@@ -6587,6 +6594,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Implacable_Her Beauty Runneth Over",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Little Illustrious_Default",
         "nation": [
             "United Kingdom"
@@ -9576,6 +9590,13 @@
         "ship_type": "Light Carrier"
     },
     {
+        "name": "Chitose_Tea Amidst the Lotus",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
         "name": "Chiyoda_Default",
         "nation": [
             "Japan"
@@ -9584,6 +9605,13 @@
     },
     {
         "name": "Chiyoda_Shimmering Surf",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Chiyoda_Wine Amidst the Leaves",
         "nation": [
             "Japan"
         ],
@@ -9864,6 +9892,13 @@
     },
     {
         "name": "Shinano_Visions of Fantasy",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Shinano_Embrace Upon A Melted Dream",
         "nation": [
             "Japan"
         ],
@@ -10718,6 +10753,13 @@
     },
     {
         "name": "Z47_Young-Again Filter",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z47_Batter \u2605 Home Run",
         "nation": [
             "Germany"
         ],
@@ -11998,6 +12040,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Friedrich der Gro\u00dfe_Boudoir's Lingering Flame",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Friedrich der Gro\u00dfe_Wedding",
         "nation": [
             "Germany"
@@ -12132,6 +12181,13 @@
     },
     {
         "name": "Hindenburg_Delirious Duel",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Hindenburg_Dancer of the Deep Chamber",
         "nation": [
             "Germany"
         ],
@@ -12293,6 +12349,13 @@
     },
     {
         "name": "Fei Yuen_Flying Clouds, Flailing Pranks",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Fei Yuen_Lady Yuen's Sugary Artillery",
         "nation": [
             "China"
         ],
@@ -12523,6 +12586,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Ying Swei_Retrofit",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Chao Ho_Default",
         "nation": [
             "China"
@@ -12545,6 +12615,13 @@
     },
     {
         "name": "Chao Ho_Azure Ripples, Shimmering Sun",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Chao Ho_Retrofit",
         "nation": [
             "China"
         ],
@@ -12642,6 +12719,20 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Hai Chou_Default",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Hai Chou_Aroma of Awakening",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Chien Wu_Default",
         "nation": [
             "China"
@@ -12657,6 +12748,20 @@
     },
     {
         "name": "Chien Wu_All-Nighter Masterpiece",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Chang Wu_Default",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Chang Wu_In Full Glory, Spring's Branch Blooms",
         "nation": [
             "China"
         ],
@@ -13580,6 +13685,20 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Ozornoy_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Ozornoy_The White-Robed Wind Rider Ascends",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Avrora_Default",
         "nation": [
             "Soviet Union"
@@ -13783,6 +13902,34 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Krasny Kavkaz_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Krasny Kavkaz_Playing Blind \u2665",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Bogatyr_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Bogatyr_Emotional Data Maintenance",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Tallinn_Default",
         "nation": [
             "Soviet Union"
@@ -13826,6 +13973,20 @@
     },
     {
         "name": "Kursk_Beauty and the Hunter",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Moskva_Default",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Moskva_Awaiting the Next Move",
         "nation": [
             "Soviet Union"
         ],
@@ -15323,6 +15484,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Carabiniere META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Helena META_Default",
         "nation": [
             "Fictional"
@@ -15380,6 +15548,13 @@
     },
     {
         "name": "Cleveland META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Regensburg META_Default",
         "nation": [
             "Fictional"
         ],
@@ -15533,6 +15708,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Gangut META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Hiyou META_Default",
         "nation": [
             "Fictional"
@@ -15671,5 +15853,96 @@
             "France"
         ],
         "ship_type": "Battleship"
+    },
+    {
+        "name": "Unryuu_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Unryuu_Mirage in the Night",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Kizu_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Kizu_Thunder Dragon Caught in a Web",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Maya_Hunter of the Heart",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Nayoro_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Nayoro_Electric Affection",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Choukai_Steal Your Heart",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Köln META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Gorizia_The Spy Who Crushed on Me",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Avrora_Mellow Seaspray",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "L'Indomptable_The Covert Eavesdropper!",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Seydlitz_Double the Danger",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battlecruiser"
     }
 ]

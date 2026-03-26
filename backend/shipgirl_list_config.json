@@ -328,7 +328,7 @@
         "name": "Victory Belles",
         "optionName": "vb",
         "allowAlt": true,
-        "allowSilhouette": false,
+        "allowSilhouette": true,
         "alias": [
 
         ],

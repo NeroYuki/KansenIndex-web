@@ -259,14 +259,14 @@ function main_shipgirl_db() {
             const file_modified_date = file_stats.mtime
             const file_size = file_stats.size
 
-            const alias = alias_config.filter(val => val.originalName.toLowerCase() === char_name.toLowerCase()).flatMap(f => f.value)
-            const l2d = l2d_config.find(val => file.toLowerCase().includes(val.name.toLowerCase())) || null
+            const alias = alias_config.filter(val => val.originalName.toLowerCase().normalize('NFC') === char_name.toLowerCase().normalize('NFC')).flatMap(f => f.value)
+            const l2d = l2d_config.find(val => file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC'))) || null
             const chibi_candidate = chibi_config.filter(val => 
                 dir === "Battleship Bishoujo Puzzle" ?
-                    file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
+                    file.toLowerCase().normalize('NFC').replace(/\s+/g, '').includes(val.name.toLowerCase().normalize('NFC')) :
                 dir === "Warship Girls R" ?
-                    file.toLowerCase().replace('_damage', '').includes(val.name.toLowerCase()) :
-                    file.toLowerCase().includes(val.name.toLowerCase())
+                    file.toLowerCase().normalize('NFC').replace('_damage', '').includes(val.name.toLowerCase().normalize('NFC')) :
+                    file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC'))
             ) || []
             // pick the one with the longest name
             const chibi = chibi_candidate.reduce((prev, curr) => {
@@ -275,8 +275,8 @@ function main_shipgirl_db() {
             }, null)
             const spine_candidate = spine_config.filter(val =>
                 dir === "Battleship Bishoujo Puzzle" ?
-                    file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
-                    file.toLowerCase().includes(val.name.toLowerCase())
+                    file.toLowerCase().normalize('NFC').replace(/\s+/g, '').includes(val.name.toLowerCase().normalize('NFC')) :
+                    file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC'))
             ) || []
             // pick the one with the longest name
             const spine = spine_candidate.reduce((prev, curr) => {
@@ -285,12 +285,12 @@ function main_shipgirl_db() {
             }, null)
             const voice_candidate = voice_config.filter(val =>
                 dir === "Battleship Bishoujo Puzzle" || dir === "Blue Oath" ?
-                    file.toLowerCase().replace(/\s+/g, '').includes(val.name.toLowerCase()) :
+                    file.toLowerCase().normalize('NFC').replace(/\s+/g, '').includes(val.name.toLowerCase().normalize('NFC')) :
                 dir === "Azur Lane" ?
-                    (file.toLowerCase().includes(val.name.toLowerCase()) || file.toLowerCase().replace(' ', ' ').includes(val.name.toLowerCase())) :
+                    (file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC')) || file.toLowerCase().normalize('NFC').replace(' ', ' ').includes(val.name.toLowerCase().normalize('NFC'))) :
                 dir === "Kantai Collection" ?
-                    char_name.toLowerCase() === val.name.toLowerCase() :
-                    file.toLowerCase().includes(val.name.toLowerCase()) 
+                    char_name.toLowerCase().normalize('NFC') === val.name.toLowerCase().normalize('NFC') :
+                    file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC')) 
             ) || null
             const voice = voice_candidate.reduce((prev, curr) => {
                 if ((prev?.name.length || 0) > curr.name.length) return prev
@@ -298,15 +298,15 @@ function main_shipgirl_db() {
             }, null)
             const extra_candidate = extra_config.filter(val =>
                 dir === "Azur Lane" ?
-                    (file.toLowerCase().includes(val.name.toLowerCase()) || file.toLowerCase().replace(' ', ' ').includes(val.name.toLowerCase())) :
-                    file.toLowerCase().includes(val.name.toLowerCase()) 
+                    (file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC')) || file.toLowerCase().replace(' ', ' ').normalize('NFC').includes(val.name.toLowerCase().normalize('NFC'))) :
+                    file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC')) 
             ) || null
             const extra_info = extra_candidate.reduce((prev, curr) => {
                 if ((prev?.name.length || 0) > curr.name.length) return prev
                 return curr
             }, null)
             const m3d_candidate = m3d_config.filter(val =>
-                file.toLowerCase().includes(val.name.toLowerCase())
+                file.toLowerCase().normalize('NFC').includes(val.name.toLowerCase().normalize('NFC'))
             ) || null
             const m3d = m3d_candidate.reduce((prev, curr) => {
                 if ((prev?.name.length || 0) > curr.name.length) return prev
@@ -526,7 +526,7 @@ function main_franchise() {
     let list = []
 
     dirs.forEach((dir) => {
-        if ([".git", ".gitignore", "Current source.txt", "KanssenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", ".megaignore"].includes(dir)) return
+        if ([".git", ".gitignore", "Current source.txt", "KansenIndex-datamine", "KanssenIndex-web", "Franchise logo", "Additional Note.txt", ".megaignore"].includes(dir)) return
 
         let id = crypto.createHash('sha256').update(dir, 'utf8').digest().toString('hex')
         let list_entry = {
@@ -610,21 +610,28 @@ function override_data() {
                 // for each row in csv
                 csv_data.forEach((row) => {
                     // find the corresponding shipgirl in list
-                    let foundIdx = list.filterIndex(v => v.char.toLowerCase() === row.char.toLowerCase() && v.folder.toLowerCase() === row.folder.toLowerCase() && (row.modifier ? v.modifier.toLowerCase() === row.modifier.toLowerCase() : true))
+                    // if folder is not specified, apply to all folders
+                    let foundIdx = list.filterIndex(v => 
+                        v.char.toLowerCase() === row.char.toLowerCase() && 
+                        (!row.folder || v.folder.toLowerCase() === row.folder.toLowerCase()) && 
+                        (row.modifier ? v.modifier.toLowerCase() === row.modifier.toLowerCase() : true)
+                    )
                     if (!foundIdx || foundIdx.length === 0) {
-                        console.log(`Not found: ${row.char} - ${row.folder} ${row.modifier ? "- " + row.modifier : ""}`)
+                        console.log(`Not found: ${row.char}${row.folder ? ` - ${row.folder}` : ' (all folders)'}${row.modifier ? ` - ${row.modifier}` : ""}`)
                         return
                     }
 
                     // for each found shipgirl, update the data
                     foundIdx.forEach((i) => {
+                        const isAllFolders = !row.folder
+                        
                         list[i] = {
                             ...list[i],
                             alias: list[i].alias.concat(row.alias_add ? row.alias_add.split(',').map(v => v.trim()) : []),
-                            nation: row.nation ? row.nation.split(',').map(v => v.trim()) : list[i].nation,
-                            ship_type: row.ship_type ? row.ship_type : list[i].ship_type,
-                            voice_actor: row.voice_actor ? row.voice_actor.split(',').map(v => v.trim()) : list[i].voice_actor,
-                            illust: row.illust ? row.illust : list[i].illust,
+                            nation: row.nation ? (isAllFolders && list[i].nation ? list[i].nation : row.nation.split(',').map(v => v.trim())) : list[i].nation,
+                            ship_type: row.ship_type ? (isAllFolders && list[i].ship_type ? list[i].ship_type : row.ship_type) : list[i].ship_type,
+                            voice_actor: row.voice_actor ? (isAllFolders && list[i].voice_actor ? list[i].voice_actor : row.voice_actor.split(',').map(v => v.trim())) : list[i].voice_actor,
+                            illust: row.illust ? (isAllFolders && list[i].illust ? list[i].illust : row.illust) : list[i].illust,
                         }
                     })
                 })
