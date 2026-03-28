@@ -1,166 +1,166 @@
 [
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Ark Royal/E_CV_Huangjiafangzhou_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Ark Royal/E_CV_Huangjiafangzhou_SPINE_001.json",
         "name": "Ark Royal.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Belfast/E_CL_Beierfasite_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Belfast/E_CL_Beierfasite_SPINE_001.json",
         "name": "Belfast.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Deutschland/G_CA_Deyizhi_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Deutschland/G_CA_Deyizhi_SPINE_001.json",
         "name": "Deutschland.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Fletcher/U_DD_Fulaiche_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Fletcher/U_DD_Fulaiche_SPINE_001.json",
         "name": "Fletcher.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Fusou/J_BB_Fusang_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Fusou/J_BB_Fusang_SPINE_001.json",
         "name": "Fusou.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Glowworm/E_DD_Yinghuochong_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Glowworm/E_DD_Yinghuochong_SPINE_001.json",
         "name": "Glowworm.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Goeben/G_BC_Geben_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Goeben/G_BC_Geben_SPINE_001.json",
         "name": "Goeben.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Haguro/J_CA_Yuhei_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Haguro/J_CA_Yuhei_SPINE_001.json",
         "name": "Haguro.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hatsuse/J_BB_Chulai_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hatsuse/J_BB_Chulai_SPINE_001.json",
         "name": "Hatsuse.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Helena/U_CL_Hailunna_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Helena/U_CL_Hailunna_SPINE_001.json",
         "name": "Helena.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hermes/E_CV_Jingjishen_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hermes/E_CV_Jingjishen_SPINE_001.json",
         "name": "Hermes.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hood/E_BC_Hude_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hood/E_BC_Hude_SPINE_001.json",
         "name": "Hood.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hornet/U_CV_Dahuangfeng_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Hornet/U_CV_Dahuangfeng_SPINE_001.json",
         "name": "Hornet.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Kirov/R_CL_Jiluofu_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Kirov/R_CL_Jiluofu_SPINE_001.json",
         "name": "Kirov.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Le Fantasque/F_DD_Kongxiang_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Le Fantasque/F_DD_Kongxiang_SPINE_001.json",
         "name": "Le Fantasque.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Lexington/U_CV_Liekexingdun_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Lexington/U_CV_Liekexingdun_SPINE_001.json",
         "name": "Lexington.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Moltke/G_BC_Maoqi_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Moltke/G_BC_Maoqi_SPINE_001.json",
         "name": "Moltke.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Myouko/J_CA_Miaogao_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Myouko/J_CA_Miaogao_SPINE_001.json",
         "name": "Myouko.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Nelson/E_BB_Naerxun_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Nelson/E_BB_Naerxun_SPINE_001.json",
         "name": "Nelson.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Nicholas/U_DD_Nigulasi_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Nicholas/U_DD_Nigulasi_SPINE_001.json",
         "name": "Nicholas.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Ning Hai/C_CL_Ninghai_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Ning Hai/C_CL_Ninghai_SPINE_001.json",
         "name": "Ning Hai.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Peter Strasser/G_CV_Bideshitelasaier_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Peter Strasser/G_CV_Bideshitelasaier_SPINE_001.json",
         "name": "Peter Strasser.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Renown/E_BC_Shengwang_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Renown/E_BC_Shengwang_SPINE_001.json",
         "name": "Renown.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Repulse/E_BC_Fanji_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Repulse/E_BC_Fanji_SPINE_001.json",
         "name": "Repulse.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Rodney/E_BB_Luodeni_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Rodney/E_BB_Luodeni_SPINE_001.json",
         "name": "Rodney.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Saratoga/U_CV_Salatuojia_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Saratoga/U_CV_Salatuojia_SPINE_001.json",
         "name": "Saratoga.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Sendai/J_CL_Chuannei_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Sendai/J_CL_Chuannei_SPINE_001.json",
         "name": "Sendai.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Shoukaku/J_CV_Xianghe_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Shoukaku/J_CV_Xianghe_SPINE_001.json",
         "name": "Shoukaku.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Sirius/E_CL_Tianlangxing_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Sirius/E_CL_Tianlangxing_SPINE_001.json",
         "name": "Sirius.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Suzutsuki/J_DD_Liangyue_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Suzutsuki/J_DD_Liangyue_SPINE_001.json",
         "name": "Suzutsuki.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Taihou/J_CV_Dafeng_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Taihou/J_CV_Dafeng_SPINE_001.json",
         "name": "Taihou.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Unicorn/E_CV_Dujiaoshou_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Unicorn/E_CV_Dujiaoshou_SPINE_001.json",
         "name": "Unicorn.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Volta/F_DD_Fuerta_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Volta/F_DD_Fuerta_SPINE_001.json",
         "name": "Volta.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Washington/U_BB_Huashengdun_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Washington/U_BB_Huashengdun_SPINE_001.json",
         "name": "Washington.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Yamashiro/J_BB_Shancheng_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Yamashiro/J_BB_Shancheng_SPINE_001.json",
         "name": "Yamashiro.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Yuubari/J_CL_Xizhang_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Yuubari/J_CL_Xizhang_SPINE_001.json",
         "name": "Yuubari.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Yuudachi/J_DD_Xili_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Yuudachi/J_DD_Xili_SPINE_001.json",
         "name": "Yuudachi.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Z1/G_DD_Z1_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Z1/G_DD_Z1_SPINE_001.json",
         "name": "Z1.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Z18/G_DD_Z18_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Z18/G_DD_Z18_SPINE_001.json",
         "name": "Z18.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Z3/G_DD_Z3_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Z3/G_DD_Z3_SPINE_001.json",
         "name": "Z3.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Zuikaku/J_CV_Ruihe_SPINE_001.asset",
+        "dir": "./data/assets/shipgirls/Tales of Abyss/toa_spine/Zuikaku/J_CV_Ruihe_SPINE_001.json",
         "name": "Zuikaku.png"
     }
 ]
