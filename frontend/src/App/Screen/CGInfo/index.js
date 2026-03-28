@@ -935,6 +935,7 @@ export const CGInfo = (props) => {
                         if (data.folder === "Azur Lane" && data.char === "Brest") animation.y = animation.height * 1.5
                         else if (data.folder === "Azur Lane" && data.char === "Implacable" && data.modifier?.includes("Default")) animation.y = animation.height / 2
                         else if (data.folder === "Azur Lane") animation.y = animation.height
+                        else if (data.folder === "Tales of Abyss") animation.y = animation.height * (6/5)
 
                         if (data.folder === "Victory Belles") animation.y = animation.height
                         if (animation.y + animation.height > spine_app.screen.height) {
