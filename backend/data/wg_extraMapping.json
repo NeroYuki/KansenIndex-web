@@ -16807,5 +16807,177 @@
 		"alias": [
 			"FGS Hamburg (D181)"
 		]
+	},
+	{
+		"id": 631,
+		"name": "Schlachtkreuzer Entwurf KW45",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "2/12",
+		"illust": [
+			"青冥童子"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "300m",
+		"displacement": "45000t",
+		"alias": [
+			"KW45"
+		]
+	},
+	{
+		"id": 632,
+		"name": "Jaime I",
+		"nation": [
+			"Spain"
+		],
+		"birthday": "9/21",
+		"illust": [
+			"鸡的伙伴只因"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "140m",
+		"displacement": "15700t",
+		"alias": [
+			"Jaime I"
+		]
+	},
+	{
+		"id": 633,
+		"name": "S-49",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "7/27",
+		"illust": [
+			"鸡的伙伴只因"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76.7m",
+		"displacement": "1712t",
+		"alias": [
+			"С-49"
+		]
+	},
+	{
+		"id": 634,
+		"name": "Gordy",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "5/24",
+		"illust": [
+			"虚空怪兽响"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "126m",
+		"displacement": "3500t",
+		"alias": [
+			"Гордый (Gordy)"
+		]
+	},
+	{
+		"id": 635,
+		"name": "Project 10581",
+		"birthday": "11/13",
+		"nation": [
+			"Soviet Union"
+		],
+		"alias": []
+	},
+	{
+		"id": 636,
+		"name": "Boyky",
+		"nation": [
+			"Soviet Union"
+		],
+		"alias": [
+			"Гордый (Gordy)"
+		]
+	},
+	{
+		"id": 637,
+		"name": "I-400",
+		"nation": [
+			"Japan"
+		],
+		"alias": []
+	},
+	{
+		"id": 638,
+		"name": "Tigre",
+		"nation": [
+			"Italy"
+		],
+		"illust": [],
+		"voice_actor": [],
+		"alias": []
+	},
+	{
+		"id": 1079,
+		"name": "Z28_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "8/20",
+		"illust": [
+			"15k"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "127m",
+		"displacement": "2638t（2596长吨）",
+		"alias": [
+			"Z28"
+		]
+	},
+	{
+		"id": 1509,
+		"name": "Skromny_retrofit",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "10/26",
+		"illust": [
+			"Solarics_",
+			"打工战士图波列夫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "126.1m",
+		"displacement": "2670t",
+		"alias": [
+			"Скромный (Skromny)"
+		]
+	},
+	{
+		"id": 1519,
+		"name": "T.995_retrofit",
+		"nation": [
+			"China"
+		],
+		"birthday": "5/27（实装日）",
+		"illust": [
+			"凹之下",
+			"-Baseness-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "79.25m",
+		"displacement": "800t",
+		"alias": [
+			"T.995"
+		]
 	}
 ]

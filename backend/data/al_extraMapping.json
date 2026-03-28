@@ -8610,6 +8610,34 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Kizu_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Kizu_Thunder Dragon Caught in a Web",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Nayoro_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Nayoro_Electric Affection",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Furutaka_Default",
         "nation": [
             "Japan"
@@ -8834,6 +8862,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Maya_Hunter of the Heart",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Choukai_Default",
         "nation": [
             "Japan"
@@ -8842,6 +8877,13 @@
     },
     {
         "name": "Choukai_Tidy Store, Tidy Mind",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Choukai_Steal Your Heart",
         "nation": [
             "Japan"
         ],
@@ -9990,6 +10032,20 @@
     },
     {
         "name": "Hakuhou_Floral Ninja Roleplay",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Unryuu_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Unryuu_Mirage in the Night",
         "nation": [
             "Japan"
         ],
@@ -11341,6 +11397,13 @@
     },
     {
         "name": "Seydlitz_An Officer's Streetwear",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battlecruiser"
+    },
+    {
+        "name": "Seydlitz_Double the Danger",
         "nation": [
             "Germany"
         ],
@@ -13216,6 +13279,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Gorizia_The Spy Who Crushed on Me",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Vittorio Veneto_Default",
         "nation": [
             "Italy"
@@ -13714,6 +13784,13 @@
     },
     {
         "name": "Avrora_Not Cut Out For This",
+        "nation": [
+            "Soviet Union"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Avrora_Mellow Seaspray",
         "nation": [
             "Soviet Union"
         ],
@@ -14952,6 +15029,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "L'Indomptable_The Covert Eavesdropper!",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "L'Audacieux_Default",
         "nation": [
             "France"
@@ -15554,6 +15638,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "K\u00f6ln META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Regensburg META_Default",
         "nation": [
             "Fictional"
@@ -15853,96 +15944,5 @@
             "France"
         ],
         "ship_type": "Battleship"
-    },
-    {
-        "name": "Unryuu_Default",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Aircraft Carrier"
-    },
-    {
-        "name": "Unryuu_Mirage in the Night",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Aircraft Carrier"
-    },
-    {
-        "name": "Kizu_Default",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Light Cruiser"
-    },
-    {
-        "name": "Kizu_Thunder Dragon Caught in a Web",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Light Cruiser"
-    },
-    {
-        "name": "Maya_Hunter of the Heart",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Heavy Cruiser"
-    },
-    {
-        "name": "Nayoro_Default",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Light Cruiser"
-    },
-    {
-        "name": "Nayoro_Electric Affection",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Light Cruiser"
-    },
-    {
-        "name": "Choukai_Steal Your Heart",
-        "nation": [
-            "Japan"
-        ],
-        "ship_type": "Heavy Cruiser"
-    },
-    {
-        "name": "Köln META_Default",
-        "nation": [
-            "Fictional"
-        ],
-        "ship_type": "Light Cruiser"
-    },
-    {
-        "name": "Gorizia_The Spy Who Crushed on Me",
-        "nation": [
-            "Italy"
-        ],
-        "ship_type": "Heavy Cruiser"
-    },
-    {
-        "name": "Avrora_Mellow Seaspray",
-        "nation": [
-            "Soviet Union"
-        ],
-        "ship_type": "Light Cruiser"
-    },
-    {
-        "name": "L'Indomptable_The Covert Eavesdropper!",
-        "nation": [
-            "France"
-        ],
-        "ship_type": "Destroyer"
-    },
-    {
-        "name": "Seydlitz_Double the Danger",
-        "nation": [
-            "Germany"
-        ],
-        "ship_type": "Battlecruiser"
     }
 ]

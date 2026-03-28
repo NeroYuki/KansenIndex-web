@@ -337,5 +337,15 @@
         "fullspinemapping": "./data/vb_spineMapping.json",
         "voicemapping": "./data/vb_voiceMapping.json",
         "extramapping": "./data/vb_extraMapping.json"
+    },
+    {
+        "name": "Tales of Abyss",
+        "optionName": "toa",
+        "allowAlt": true,
+        "allowSilhouette": true,
+        "alias": [
+
+        ],
+        "fullspinemapping": "./data/toa_spineMapping.json"
     }
 ]
