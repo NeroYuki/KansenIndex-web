@@ -16979,5 +16979,235 @@
 		"alias": [
 			"T.995"
 		]
+	},
+	{
+		"id": 639,
+		"name": "Argo",
+		"nation": [
+			"France"
+		],
+		"birthday": "4/11",
+		"illust": [
+			"New_Wind新风制作组"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "92.3m",
+		"displacement": "2100t",
+		"alias": [
+			"Argo (Q151)"
+		]
+	},
+	{
+		"id": 640,
+		"name": "Coventry",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "6/21",
+		"illust": [
+			"Tanto_炭涂"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "125m",
+		"displacement": "4820t",
+		"alias": [
+			"HMS Coventry (D118)"
+		]
+	},
+	{
+		"id": 641,
+		"name": "Project 21",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "5/15",
+		"illust": [
+			"彗星Chloy"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "250m",
+		"displacement": "35000t",
+		"alias": [
+			"Проекта 21 (Project 21)"
+		]
+	},
+	{
+		"id": 642,
+		"name": "Midway (CVE-63)",
+		"nation": [
+			"United States"
+		],
+		"birthday": "8/17",
+		"illust": [
+			"-EverFrost-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "156m",
+		"displacement": "11077t",
+		"alias": [
+			"USS Midway",
+			"USS St. Lo (CVE-63)"
+		]
+	},
+	{
+		"id": 643,
+		"name": "Lively",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "1/29",
+		"illust": [
+			"OS-Onceskylark"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "120.5m",
+		"displacement": "1920t",
+		"alias": [
+			"HMS Lively (G40)"
+		]
+	},
+	{
+		"id": 644,
+		"name": "Queen Elizabeth (CVA-01)",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "6/26",
+		"illust": [
+			"-踩脚猫-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "282m",
+		"displacement": "53000t",
+		"alias": [
+			"HMS Queen Elizabeth (CVA-01)"
+		]
+	},
+	{
+		"id": 645,
+		"name": "U-103",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "4/12",
+		"illust": [
+			"New_Wind新风制作组"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76.5m",
+		"displacement": "1178t",
+		"alias": [
+			"U-103"
+		]
+	},
+	{
+		"id": 646,
+		"name": "Attilio Regolo",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "8/28",
+		"illust": [
+			"New_Wind新风制作组"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "142m",
+		"displacement": "3750t",
+		"alias": [
+			"RN Attilio Regolo"
+		]
+	},
+	{
+		"id": 647,
+		"name": "Yahagi",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "9/25",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "174.5m",
+		"displacement": "7710t",
+		"alias": [
+			"矢矧(やはぎ) (Yahagi)"
+		]
+	},
+	{
+		"id": 1266,
+		"name": "Hatsunatsu_retrofit",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "11/9",
+		"illust": [
+			"和茶"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "134.1m",
+		"displacement": "3030t",
+		"alias": [
+			"初夏(はつなつ) (Hatsunatsu)"
+		]
+	},
+	{
+		"id": 1590,
+		"name": "Kinburn_retrofit",
+		"nation": [
+			"Russian Empire"
+		],
+		"birthday": "10/30",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "223.8m",
+		"displacement": "33000t",
+		"alias": [
+			"Кинбурн (Kinburn)"
+		]
+	},
+	{
+		"id": 1618,
+		"name": "Mitscher_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "1/26",
+		"illust": [
+			"ZaLenhpE"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "150m",
+		"displacement": "5280t",
+		"alias": [
+			"USS Mitscher (DL-2)",
+			"DDG-35"
+		]
 	}
 ]

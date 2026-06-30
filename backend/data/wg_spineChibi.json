@@ -292,6 +292,10 @@
     "name": "Vanguard_alt_3.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_105_4.json",
+    "name": "Vanguard_alt_4.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_106.skel",
     "name": "Tennessee_base.png"
   },
@@ -466,6 +470,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_10_2.skel",
     "name": "Prince of Wales_alt_2.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_10_3.skel",
+    "name": "Prince of Wales_alt_3.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_11.skel",
@@ -948,6 +956,10 @@
     "name": "Exeter_retrofit.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_123_1.json",
+    "name": "Bogue_alt_1.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_124.skel",
     "name": "Chaser_base.png"
   },
@@ -998,6 +1010,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_1265.skel",
     "name": "Shiratsuyu_retrofit.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_1266.skel",
+    "name": "Hatsunatsu_retrofit.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_1267.json",
@@ -1512,6 +1528,10 @@
     "name": "Somers_base.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_1590.skel",
+    "name": "Kinburn_retrofit.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_16.skel",
     "name": "Haruna_base.png"
   },
@@ -1530,6 +1550,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_161.skel",
     "name": "De Ruyter_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_1618.skel",
+    "name": "Mitscher_retrofit.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_162.skel",
@@ -1824,6 +1848,10 @@
     "name": "U47_alt_1.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_197_2.skel",
+    "name": "U47_alt_2.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_198.skel",
     "name": "U505_base.png"
   },
@@ -1918,6 +1946,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_205_2.skel",
     "name": "Duke of York_alt_2.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_205_3.skel",
+    "name": "Duke of York_alt_3.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_206.skel",
@@ -2420,6 +2452,10 @@
     "name": "Ooyodo_alt_2.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_248_3.skel",
+    "name": "Ooyodo_alt_3.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_249.skel",
     "name": "Leipzig_base.png"
   },
@@ -2564,6 +2600,10 @@
     "name": "Z17_alt_4.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_26_1.skel",
+    "name": "Argus_alt_1.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_27.skel",
     "name": "Langley_base.png"
   },
@@ -2652,6 +2692,10 @@
     "name": "Hoel_base.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_278_1.skel",
+    "name": "Hoel_alt_1.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_279.skel",
     "name": "Samuel B. Roberts_base.png"
   },
@@ -2688,8 +2732,16 @@
     "name": "U-120_base.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_282_1.skel",
+    "name": "U-120_alt_1.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_283.skel",
     "name": "U-121_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_283_1.json",
+    "name": "U-121_alt_1.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_284.skel",
@@ -2698,6 +2750,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_285.skel",
     "name": "Project 85_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_285_1.skel",
+    "name": "Project 85_alt_1.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_286.skel",
@@ -3472,6 +3528,10 @@
     "name": "Hayaharu_alt_1.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_372_2.skel",
+    "name": "Hayaharu_alt_2.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_373.skel",
     "name": "Leonardo da Vinci_base.png"
   },
@@ -3722,6 +3782,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_408_2.json",
     "name": "Barb_alt_2.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_408_3.skel",
+    "name": "Barb_alt_3.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_409.skel",
@@ -4228,6 +4292,18 @@
     "name": "Victorious_base.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_483_1.skel",
+    "name": "Victorious_alt_1.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_483_2.skel",
+    "name": "Victorious_alt_2.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_483_3.skel",
+    "name": "Victorious_alt_3.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_484.skel",
     "name": "Anson_base.png"
   },
@@ -4314,6 +4390,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_496_1.skel",
     "name": "Norfolk (DL-1)_alt_1.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_496_2.json",
+    "name": "Norfolk (DL-1)_alt_2.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_497.skel",
@@ -4414,6 +4494,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_509.skel",
     "name": "Skromny_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_509_1.skel",
+    "name": "Skromny_alt_1.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_50_1.skel",
@@ -5020,6 +5104,10 @@
     "name": "Kinburn_alt_1.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_590_2.skel",
+    "name": "Kinburn_alt_2.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_591.json",
     "name": "Calcutta_base.png"
   },
@@ -5324,8 +5412,44 @@
     "name": "Tigre_base.png"
   },
   {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_639.json",
+    "name": "Argo_base.png"
+  },
+  {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_64.skel",
     "name": "Fubuki_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_640.skel",
+    "name": "Coventry_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_641.skel",
+    "name": "Project 21_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_642.json",
+    "name": "Midway (CVE-63)_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_643.json",
+    "name": "Lively_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_644.skel",
+    "name": "Queen Elizabeth (CVA-01)_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_645.skel",
+    "name": "U-103_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_646.skel",
+    "name": "Attilio Regolo_base.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_647.skel",
+    "name": "Yahagi_base.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_64_1.skel",
@@ -5346,6 +5470,10 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_64_5.skel",
     "name": "Fubuki_alt_5.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_64_6.skel",
+    "name": "Fubuki_alt_6.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_65.skel",
@@ -5730,6 +5858,14 @@
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_97_5.skel",
     "name": "Reshitelny_alt_5.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_97_6.skel",
+    "name": "Reshitelny_alt_6.png"
+  },
+  {
+    "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_97_7.skel",
+    "name": "Reshitelny_alt_7.png"
   },
   {
     "dir": "./data/assets/shipgirls/Warship Girls R/wg_spine/Ship_girl_98.skel",

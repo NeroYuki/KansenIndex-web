@@ -97,22 +97,22 @@
 	{
 		"name": "Kitakami",
 		"ship_type": "Light Cruiser",
-		"illust": "Shibafu"
+		"illust": ""
 	},
 	{
 		"name": "Kongou",
 		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
+		"illust": ""
 	},
 	{
 		"name": "Hiei",
 		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
+		"illust": ""
 	},
 	{
 		"name": "Haruna",
 		"ship_type": "Battlecruiser",
-		"illust": "Konishi"
+		"illust": ""
 	},
 	{
 		"name": "Kirishima",
@@ -152,7 +152,7 @@
 	{
 		"name": "Mutsuki",
 		"ship_type": "Destroyer",
-		"illust": "Kusada Souta"
+		"illust": ""
 	},
 	{
 		"name": "Kisaragi",
@@ -307,7 +307,7 @@
 	{
 		"name": "Choukai",
 		"ship_type": "Heavy Cruiser",
-		"illust": "Parsley"
+		"illust": ""
 	},
 	{
 		"name": "Tone",
@@ -377,7 +377,7 @@
 	{
 		"name": "Nenohi",
 		"ship_type": "Destroyer",
-		"illust": "Ayaki"
+		"illust": ""
 	},
 	{
 		"name": "Wakaba",
@@ -412,7 +412,7 @@
 	{
 		"name": "Samidare",
 		"ship_type": "Destroyer",
-		"illust": "Amamiya Chiharu"
+		"illust": ""
 	},
 	{
 		"name": "Suzukaze",
@@ -527,7 +527,7 @@
 	{
 		"name": "Shoukaku",
 		"ship_type": "Aircraft Carrier",
-		"illust": "Konishi"
+		"illust": ""
 	},
 	{
 		"name": "Zuikaku",
@@ -1147,37 +1147,37 @@
 	{
 		"name": "Katsuragi_Kai",
 		"ship_type": "Aircraft Carrier",
-		"illust": "Kuu Ro Kuro"
+		"illust": ""
 	},
 	{
 		"name": "U-511",
 		"ship_type": "Submarine",
-		"illust": "Shimada Fumikane"
+		"illust": ""
 	},
 	{
 		"name": "Graf Zeppelin",
 		"ship_type": "Aircraft Carrier",
-		"illust": "Shimada Fumikane"
+		"illust": ""
 	},
 	{
 		"name": "Saratoga",
 		"ship_type": "Aircraft Carrier",
-		"illust": "Shizuma Yoshinori"
+		"illust": ""
 	},
 	{
 		"name": "Mutsuki_Kai Ni",
 		"ship_type": "Destroyer",
-		"illust": "Kusada Souta"
+		"illust": ""
 	},
 	{
 		"name": "Kisaragi_Kai Ni",
 		"ship_type": "Destroyer",
-		"illust": "Kusada Souta"
+		"illust": ""
 	},
 	{
 		"name": "Ro-500",
 		"ship_type": "Submarine",
-		"illust": "Shimada Fumikane"
+		"illust": ""
 	},
 	{
 		"name": "Akatsuki_Kai Ni",
@@ -1407,12 +1407,12 @@
 	{
 		"name": "I-26",
 		"ship_type": "Submarine",
-		"illust": "Kuu Ro Kuro"
+		"illust": ""
 	},
 	{
 		"name": "Hamanami",
 		"ship_type": "Destroyer",
-		"illust": "Fujikawa"
+		"illust": ""
 	},
 	{
 		"name": "Fujinami",
@@ -1622,7 +1622,7 @@
 	{
 		"name": "UIT-25",
 		"ship_type": "Submarine",
-		"illust": "Jiji"
+		"illust": ""
 	},
 	{
 		"name": "I-504",
@@ -2017,12 +2017,12 @@
 	{
 		"name": "Souya",
 		"ship_type": "Munition Ship",
-		"illust": "Shibafu"
+		"illust": ""
 	},
 	{
 		"name": "Akagi_Kai Ni E",
 		"ship_type": "Aircraft Carrier",
-		"illust": "Shibafu"
+		"illust": ""
 	},
 	{
 		"name": "Kaga_Kai Ni E",
@@ -2200,7 +2200,7 @@
 		"illust": "Watanabe Akio"
 	},
 	{
-		"name": "Souya AGL",
+		"name": "Souya (AGL)",
 		"ship_type": "Munition Ship",
 		"illust": "Shibafu"
 	},
@@ -2225,7 +2225,7 @@
 		"illust": "Fujikawa"
 	},
 	{
-		"name": "Souya AGB",
+		"name": "Souya (AGB)",
 		"ship_type": "Munition Ship",
 		"illust": "Shibafu"
 	},
@@ -2242,17 +2242,17 @@
 	{
 		"name": "Scirocco",
 		"ship_type": "Destroyer",
-		"illust": "Jiji"
+		"illust": ""
 	},
 	{
 		"name": "Washington",
 		"ship_type": "Battlecruiser",
-		"illust": "zeco"
+		"illust": ""
 	},
 	{
 		"name": "Northampton",
 		"ship_type": "Heavy Cruiser",
-		"illust": "zeco"
+		"illust": ""
 	},
 	{
 		"name": "Yukikaze_Kai Ni",
@@ -2452,7 +2452,7 @@
 	{
 		"name": "Noumi",
 		"ship_type": "Coastal Defense Ship",
-		"illust": "acea4"
+		"illust": ""
 	},
 	{
 		"name": "Kurahashi",

@@ -28,6 +28,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Universal Bulin_Transform! Magical Girl \u2605 Bulin!",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Prototype Bulin MKII_Default",
         "nation": [
             "Fictional"
@@ -2107,14 +2114,14 @@
         "ship_type": "Light Carrier"
     },
     {
-        "name": "\u014ckami Mio_Default",
+        "name": "Ookami Mio_Default",
         "nation": [
             "Fictional"
         ],
         "ship_type": "Aircraft Carrier"
     },
     {
-        "name": "\u014ckami Mio_Summer Vacation",
+        "name": "Ookami Mio_Summer Vacation",
         "nation": [
             "Fictional"
         ],
@@ -2283,6 +2290,13 @@
     },
     {
         "name": "North Carolina_The Heart's Desire",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "North Carolina_Unique Sunshine",
         "nation": [
             "United States"
         ],
@@ -2478,6 +2492,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Misaki_Blooms in the Night Sky",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Nagisa_Default",
         "nation": [
             "Fictional"
@@ -2546,6 +2567,90 @@
             "Fictional"
         ],
         "ship_type": "Battlecruiser"
+    },
+    {
+        "name": "Elise_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Elise_One Divine Afternoon",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Shizuku_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Shizuku_Frolicking in the Tide",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Shandy_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Shandy_An Enchanting Sip",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Tsukushi_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Tsukushi_Dream Machine",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Patty_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
+        "name": "Patty_Fluffy-Wuffy Paradise",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
+        "name": "Yukino_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Yukino_Charming Beast",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
     },
     {
         "name": "Long Island_Default",
@@ -3164,6 +3269,13 @@
         "ship_type": "Light Carrier"
     },
     {
+        "name": "Independence_Aching for Relaxation",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
         "name": "Independence_Retrofit",
         "nation": [
             "United States"
@@ -3774,6 +3886,13 @@
     },
     {
         "name": "Evertsen_Basking by the Window",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Evertsen_Guardian Fae of the Mangroves",
         "nation": [
             "Netherlands"
         ],
@@ -4781,6 +4900,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Janus_Shimmering Splashes Above the Clouds",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Janus_Wedding",
         "nation": [
             "United Kingdom"
@@ -5258,6 +5384,13 @@
     },
     {
         "name": "Sirius_Rabbit of Paradise",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Sirius_Wedding",
         "nation": [
             "United Kingdom"
         ],
@@ -6188,6 +6321,13 @@
         "ship_type": "Light Carrier"
     },
     {
+        "name": "Argus_Dignified Swimsuit Training",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
         "name": "Unicorn_Default",
         "nation": [
             "United Kingdom"
@@ -6903,6 +7043,13 @@
     },
     {
         "name": "Miyuki_Clear Skies and Crepes",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Miyuki_Mochi Mishaps",
         "nation": [
             "Japan"
         ],
@@ -8162,6 +8309,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Hatsuzuki_Wedding",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Asanagi_Default",
         "nation": [
             "Japan"
@@ -8960,6 +9114,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Unzen-chan_Default",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Kongou_Default",
         "nation": [
             "Japan"
@@ -9506,6 +9667,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Musashi-chan_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Hiyou_Default",
         "nation": [
             "Japan"
@@ -10017,6 +10185,13 @@
         "ship_type": "Aircraft Carrier"
     },
     {
+        "name": "Amagi(CV)_The Mermaid of the Emerald Sea",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
         "name": "Amagi(CV)_Wedding",
         "nation": [
             "Japan"
@@ -10297,6 +10472,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Ibuki_Traces of Summery Love",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Izumo_Default",
         "nation": [
             "Japan"
@@ -10515,6 +10697,34 @@
     },
     {
         "name": "Z13_Strategic Date Solution",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z14_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z14_Lost in the Summer Sun",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z15_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z15_Dancing Diver",
         "nation": [
             "Germany"
         ],
@@ -10801,6 +11011,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Z46_The Bard of Hamelin",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Z47_Default",
         "nation": [
             "Germany"
@@ -10830,6 +11047,13 @@
     },
     {
         "name": "Z52_The Rapid Rabbit",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Z52_Sprintender Sommer!",
         "nation": [
             "Germany"
         ],
@@ -10976,6 +11200,13 @@
         "ship_type": "Light Cruiser"
     },
     {
+        "name": "Emden_Waterside Whispers at Dusk",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
         "name": "Elbing_Default",
         "nation": [
             "Germany"
@@ -11047,6 +11278,13 @@
     },
     {
         "name": "Admiral Hipper_Sunshine by the Hot Spring",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Admiral Hipper_Retrofit",
         "nation": [
             "Germany"
         ],
@@ -11277,6 +11515,13 @@
         "ship_type": "Heavy Cruiser"
     },
     {
+        "name": "Prinz Adalbert_The Black-and-White Magician",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
         "name": "Yorck_Default",
         "nation": [
             "Germany"
@@ -11345,6 +11590,20 @@
             "Germany"
         ],
         "ship_type": "Large Cruiser"
+    },
+    {
+        "name": "Prinz Moritz_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Prinz Moritz_The Genie's Game",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
     },
     {
         "name": "Scharnhorst_Default",
@@ -11621,6 +11880,20 @@
     },
     {
         "name": "Little Friedrich_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "G\u00f6tz von Berlichingen_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "G\u00f6tz von Berlichingen_Rapture Beneath the Blood Moon",
         "nation": [
             "Germany"
         ],
@@ -12054,6 +12327,20 @@
         "ship_type": "Submarine"
     },
     {
+        "name": "U-2501_Default",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
+        "name": "U-2501_Treasure Behind the Water Curtain",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
         "name": "Roon_Default",
         "nation": [
             "Germany"
@@ -12069,6 +12356,13 @@
     },
     {
         "name": "Roon_Viridescent Lullaby",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Roon_Enticement in the Indigo Darkness",
         "nation": [
             "Germany"
         ],
@@ -12195,6 +12489,13 @@
     },
     {
         "name": "August von Parseval_The Unhulde's Midday Respite",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "August von Parseval_Night Rendezvous with the Unhulde",
         "nation": [
             "Germany"
         ],
@@ -12475,6 +12776,13 @@
     },
     {
         "name": "Yat Sen_Pristine Leaves, Rich Warmth",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Yat Sen_Pristine Waves Embrace the Wind",
         "nation": [
             "China"
         ],
@@ -12873,6 +13181,13 @@
         "ship_type": "Light Carrier"
     },
     {
+        "name": "Chen Hai_Wedding",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
         "name": "Chen Hai_Retrofit",
         "nation": [
             "China"
@@ -12888,6 +13203,13 @@
     },
     {
         "name": "Hwah Jah_The Festive Undead",
+        "nation": [
+            "China"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Hwah Jah_As Lustrous as Lacquer",
         "nation": [
             "China"
         ],
@@ -13412,6 +13734,13 @@
         "ship_type": "Battleship"
     },
     {
+        "name": "Raffaello_Magical Combo Masterpiece",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
         "name": "Francesco Caracciolo_Default",
         "nation": [
             "Italy"
@@ -13496,6 +13825,13 @@
         "ship_type": "Submarine"
     },
     {
+        "name": "Leonardo da Vinci_Swinging Inventor Girl",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Submarine"
+    },
+    {
         "name": "Maggiore Baracca_Default",
         "nation": [
             "Italy"
@@ -13518,6 +13854,13 @@
     },
     {
         "name": "Marco Polo_The Queen of Hearts",
+        "nation": [
+            "Italy"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Marco Polo_Ambitious Showcase",
         "nation": [
             "Italy"
         ],
@@ -14406,6 +14749,20 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "L'Intr\u00e9pide_Default",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "L'Intr\u00e9pide_Blazing Dash!",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Le Terrible_Default",
         "nation": [
             "France"
@@ -14693,6 +15050,20 @@
         "ship_type": "Light Carrier"
     },
     {
+        "name": "Arromanches_Default",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Carrier" 
+    },
+    {
+        "name": "Arromanches_Acrobatic Archery",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
         "name": "B\u00e9arn_Default",
         "nation": [
             "France"
@@ -14749,6 +15120,20 @@
         "ship_type": "Submarine"
     },
     {
+        "name": "Cherbourg_Default",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Large Cruiser"
+    },
+    {
+        "name": "Cherbourg_What's Inside the Bear",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Large Cruiser"
+    },
+    {
         "name": "Saint Louis_Default",
         "nation": [
             "France"
@@ -14764,6 +15149,13 @@
     },
     {
         "name": "Saint Louis_Alluring Administrator",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Saint Louis_Holiness to Haziness",
         "nation": [
             "France"
         ],
@@ -14967,6 +15359,13 @@
     },
     {
         "name": "Mogador_Olfactory Nursery Call",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Mogador_Diving for Desire",
         "nation": [
             "France"
         ],
@@ -15575,6 +15974,13 @@
         "ship_type": "Destroyer"
     },
     {
+        "name": "Bristol META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
         "name": "Helena META_Default",
         "nation": [
             "Fictional"
@@ -15646,6 +16052,13 @@
     },
     {
         "name": "Regensburg META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "K\u00f6nigsberg META_Default",
         "nation": [
             "Fictional"
         ],
@@ -15828,6 +16241,13 @@
     },
     {
         "name": "Houshou META_Default",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Light Carrier"
+    },
+    {
+        "name": "Elbe META_Default",
         "nation": [
             "Fictional"
         ],
