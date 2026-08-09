@@ -10,7 +10,7 @@ const game_route = require('./routes/game')
 const shipgirl_route = require('./routes/shipgirl')
 
 const app = express()
-const port = 5000
+const port = 5001
 
 app.set('trust proxy', 2)
 
