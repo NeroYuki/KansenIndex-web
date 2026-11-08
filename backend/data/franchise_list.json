@@ -43,10 +43,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "430 (current library; 363 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Good"
       },
@@ -88,7 +84,6 @@
     ],
     "cg_info": {
       "count": 430,
-      "reported_count": 363,
       "as_of": "2026-11-08",
       "quality": "Meh - Good",
       "variants": [
@@ -97,19 +92,9 @@
         "censored CN variants",
         "abyssal forms"
       ],
-      "notes": "Primary source is the EN server asset set; some CGs may be lost with the server closure.",
-      "breakdown": {
-        "total": 430,
-        "base": 148,
-        "damage": 0,
-        "retrofit": 41,
-        "outfit": 141,
-        "oath": 35,
-        "censored": 79,
-        "background": 0
-      }
+      "notes": "Primary source is the EN server asset set; some content may be lost with the server closure."
     },
-    "extra_info": "3D shipgirl action RPG developed by Chongqing Yuyan and published in Japan by MorningTec Japan / Y.Y. Global. The Japanese service was sued by Sega and C2 Preparat over similarities to KanColle Arcade; MorningTec withdrew and Y.Y. Global took over. All regional servers are now closed. The EN server assets are the primary CG source and include CN censored variants, retrofit forms, and abyssal forms. Some game CGs may be inaccessible because the servers are gone.\\n\\nThe local library has 430 CG files, up from 363 in the original list.",
+    "extra_info": "Real-time 3D naval combat with a fleet of shipgirls, manual steering, formation changes, and an AR viewing mode. Reception was mixed: the 3D models and naval action were praised, but the first event and monetization were widely criticized as pay-to-win, and the Japanese launch was overshadowed by Sega and C2 Preparat's copyright lawsuit. All regional servers are now closed.",
     "sources": [
       {
         "label": "GameKee 深渊地平线",
@@ -183,10 +168,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "338 (current library; 335 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -208,26 +189,15 @@
     ],
     "cg_info": {
       "count": 338,
-      "reported_count": 335,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [
         "rarity variants",
         "alternate outfits"
       ],
-      "notes": "Rarity variants and alternate outfits are counted as separate CG files.",
-      "breakdown": {
-        "total": 338,
-        "base": 69,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 269,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Rarity variants and alternate outfits are tracked as separate entries."
     },
-    "extra_info": "Spin-off of the military magazine MC☆あくしず, developed by Donuts and published by IKAROS Publications. The Japanese service ran from 28 March 2017 to 27 April 2018. The local library has 338 CG files, slightly above the 335 in the original list.",
+    "extra_info": "Turn-based military RPG where players command anthropomorphized land, sea, and air weapons from the MC☆あくしず magazine. Reviews were middling: the character roster and military flavor appealed to genre fans, but bugs, harsh upgrade-material costs, and a short service life kept it niche.",
     "sources": [
       {
         "label": "あくしず戦姫 キャラクター一覧 (atwiki)",
@@ -298,10 +268,6 @@
         "value": "PC browser, Android"
       },
       {
-        "name": "CG Count",
-        "value": "17 (current library; 17 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Good"
       },
@@ -323,23 +289,12 @@
     ],
     "cg_info": {
       "count": 17,
-      "reported_count": 17,
       "as_of": "2026-11-08",
       "quality": "Meh - Good",
       "variants": [],
-      "notes": "Small CG set; all 17 are in the local library.",
-      "breakdown": {
-        "total": 17,
-        "base": 17,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 0,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "All known artwork is present."
     },
-    "extra_info": "DMM GAMES browser SRPG about anthropomorphized land, sea, and air weapons. Developed by MIKAGE and published by EXNOA. The service ran from 12 September 2023 to 14 March 2024. Only 17 CGs exist, matching the original count.",
+    "extra_info": "Browser SRPG with grid- and height-based battles and anthropomorphized tanks, ships, and aircraft. Reception was poor: pre-registration and launch were plagued by bugs and server problems, the systems felt unfinished, and the service was shut down after roughly half a year.",
     "sources": [
       {
         "label": "Arms Amory wikiru - character list",
@@ -404,10 +359,6 @@
         "value": "Android, iOS, PC browser (DMM)"
       },
       {
-        "name": "CG Count",
-        "value": "34 game CGs + 23 non-game graphics (current library: 34 game CGs)"
-      },
-      {
         "name": "CG Quality",
         "value": "Game CGs: Good; non-game graphics: Poor - Meh"
       },
@@ -429,26 +380,14 @@
     ],
     "cg_info": {
       "count": 34,
-      "reported_count": 34,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [
         "alternate outfits"
       ],
-      "notes": "The game server is closed; some CGs may be inaccessible. 34 game CGs are present; an additional 23 non-game graphics are poor-to-meh quality.",
-      "breakdown": {
-        "total": 34,
-        "base": 9,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 25,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      },
-      "extra_count": 23
+      "notes": "The playable game art is kept separate from the promotional and anime graphics."
     },
-    "extra_info": "Re:Birth was a 3D naval strategy RPG based on the Ark Performance manga and Ars Nova anime. The mobile version launched on 15 May 2019 and the DMM PC version on 20 May 2019; both closed on 31 January 2020. The local library holds 34 game CGs, matching the original count. The separate set of 23 non-game graphics is tracked outside the game CG count and is lower quality (promotional art, screenshots, and anime graphics).",
+    "extra_info": "3D naval strategy RPG retelling the Ars Nova story with mental models, fleet building, and cannon/torpedo battles. Reception was mixed: fans liked the 3D ships and anime cast, but the game was short-lived and closed about eight months after launch. The separate non-game graphics are promotional and anime material rather than playable content.",
     "sources": [
       {
         "label": "Arpeggio of Blue Steel Fandom - Characters",
@@ -534,10 +473,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "4,328 (current library; 3,229 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -574,7 +509,6 @@
     ],
     "cg_info": {
       "count": 4328,
-      "reported_count": 3229,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [
@@ -583,19 +517,9 @@
         "alternate outfits",
         "backgrounds"
       ],
-      "notes": "Largest CG set in the library; includes EN/CN differences and backgrounds.",
-      "breakdown": {
-        "total": 4328,
-        "base": 920,
-        "damage": 0,
-        "retrofit": 138,
-        "outfit": 2703,
-        "oath": 103,
-        "censored": 390,
-        "background": 1483
-      }
+      "notes": "Includes EN/CN differences and background versions."
     },
-    "extra_info": "Azur Lane is a side-scrolling shoot 'em up created by Shanghai Manjuu and Xiamen Yongshi and released in 2017. It is the largest shipgirl franchise in the index. The EN and CN clients are the primary CG sources; censored CN variants and background versions are kept as separate files. The local library has 4,328 CGs, up from 3,229 in the original list.\\n\\nThe game remains active worldwide.",
+    "extra_info": "Side-scrolling bullet-hell shooter with a large shipgirl roster, fleet building, equipment, dorm, and oath systems. It became one of the most successful shipgirl games worldwide, praised for its character art, accessible action gameplay, and long-running content cadence; it remains active.",
     "sources": [
       {
         "label": "Fernando2603/AzurLane",
@@ -669,10 +593,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "142 (current library; 142 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -694,23 +614,12 @@
     ],
     "cg_info": {
       "count": 142,
-      "reported_count": 142,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [],
-      "notes": "All 142 CGs are present.",
-      "breakdown": {
-        "total": 142,
-        "base": 111,
-        "damage": 0,
-        "retrofit": 1,
-        "outfit": 30,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "All known artwork is present."
     },
-    "extra_info": "Space-themed match-3 RPG with anthropomorphized ships, developed by Hat4Love and operated in Japan by Eisen Cloud Game. The Japanese service ran from 25 July 2021 to 28 December 2023. The local library has all 142 CGs, matching the original count.",
+    "extra_info": "Match-3 RPG with space-faring shipgirls, combo chains, skills, and base-building. Reviews were mixed: the puzzle combat and character art were considered fun, but stamina limits, VIP-style monetization, and a rough launch hurt it; the service ended in late 2023.",
     "sources": [
       {
         "label": "Game8 - Puzzle Girls",
@@ -767,10 +676,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "447 (current library; 450 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Good"
       },
@@ -792,7 +697,6 @@
     ],
     "cg_info": {
       "count": 447,
-      "reported_count": 450,
       "as_of": "2026-11-08",
       "quality": "Meh - Good",
       "variants": [
@@ -800,19 +704,9 @@
         "retrofit",
         "alternate outfits"
       ],
-      "notes": "Some game CGs may be inaccessible because the service is closed.",
-      "breakdown": {
-        "total": 447,
-        "base": 112,
-        "damage": 218,
-        "retrofit": 190,
-        "outfit": 49,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Some artwork may be inaccessible because the service is closed."
     },
-    "extra_info": "Game adaptation of ZECO's Battleship Girl -鋼鉄少女- manga. It was released in Chinese-speaking regions in April 2016 with Japanese voices, and the service ended on 10 January 2018. The local library has 447 CGs, close to the 450 in the original list.",
+    "extra_info": "Chinese-only shipgirl game based on ZECO's Battleship Girl manga, with Japanese voices and a KanColle-style sortie, repair, and construction loop. The manga is well regarded, but the game remained niche, had a troubled run with limited content and controversy, and closed in 2018.",
     "sources": [
       {
         "label": "Moegirl - 钢铁少女/舰娘一览",
@@ -879,10 +773,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "30 (current library; 30 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Poor - Okay"
       },
@@ -898,25 +788,14 @@
     "release_date": [],
     "cg_info": {
       "count": 30,
-      "reported_count": 30,
       "as_of": "2026-11-08",
       "quality": "Poor - Okay",
       "variants": [
         "alternate outfits"
       ],
-      "notes": "Some CGs may be inaccessible because the game is offline.",
-      "breakdown": {
-        "total": 30,
-        "base": 28,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 2,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Some artwork may be inaccessible because the game is offline."
     },
-    "extra_info": "Obscure Chinese shipgirl card game. Very little public documentation survives; the Facebook page is the main official trace. The game appears to have ended service, but release and shutdown dates are unconfirmed. The local library has all 30 CGs from the original list.",
+    "extra_info": "Obscure Chinese shipgirl card RPG. Public information is extremely limited; no reliable reviews or gameplay documentation survive, so its reception cannot be assessed. It appears to have been a short-lived mobile title.",
     "sources": [
       {
         "label": "Official Facebook page",
@@ -978,10 +857,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "453 (current library; 424 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -1013,7 +888,6 @@
     ],
     "cg_info": {
       "count": 453,
-      "reported_count": 424,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [
@@ -1021,19 +895,9 @@
         "no-rigging form",
         "alternate outfits"
       ],
-      "notes": "JP version assets are the primary source.",
-      "breakdown": {
-        "total": 453,
-        "base": 164,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 289,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "JP version assets are the primary source."
     },
-    "extra_info": "Developed as Project:D / Abyss Front and released by bilibili as Black Surgenight. The game is known for giving every shipgirl an abyssal form and a no-rigging form. The JP service ran from 20 May 2021 to 30 June 2022; the TW/HK/MO and SEA versions closed on 9 September 2022. The local library has 453 CGs, up from 424 in the original list.",
+    "extra_info": "Real-time tactical RPG where shipgirl 'dolls' can awaken into darker abyssal forms. Reception was mixed-positive: the character art, dark worldview, and skill cut-ins were praised, but battles were considered average and slow, the story lacked voice work, and the Japanese version had harsher gacha than the Taiwanese version. The service closed in 2022.",
     "sources": [
       {
         "label": "Dark Boom Miraheze - Dolls",
@@ -1100,10 +964,6 @@
         "value": "Android, iOS, PC (Windows)"
       },
       {
-        "name": "CG Count",
-        "value": "368 (current library; 363 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay - Good"
       },
@@ -1135,7 +995,6 @@
     ],
     "cg_info": {
       "count": 368,
-      "reported_count": 363,
       "as_of": "2026-11-08",
       "quality": "Okay - Good",
       "variants": [
@@ -1144,19 +1003,9 @@
         "no-rigging",
         "alternate outfits"
       ],
-      "notes": "The local set includes damage and no-rigging variants.",
-      "breakdown": {
-        "total": 368,
-        "base": 156,
-        "damage": 151,
-        "retrofit": 14,
-        "outfit": 49,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Includes damage and no-rigging variants."
     },
-    "extra_info": "Babeltime's 3D real-time naval RPG, released in mainland China in 2019, Japan in 2020, and TW/HK/MO in 2020. The Japanese version was published by Zephyrus and survived until 31 August 2023. The game is known for its 3D shipgirl models and Japanese voice cast. The local library has 368 CGs, up from 363 in the original list.\\n\\nThe spin-off Oath x Girls is listed separately.",
+    "extra_info": "3D real-time naval RPG with manual steering, speed control, cannon, torpedo, and air attacks, and a fully voiced cast. Reviews praised the 3D models, animation, and naval combat feel, but criticized low gacha rates, resource pressure, and a shrinking population; the Japanese server closed in 2023.",
     "sources": [
       {
         "label": "Blue Oath Miraheze - Senki",
@@ -1217,10 +1066,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "23 (current library; 23 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -1236,25 +1081,14 @@
     "release_date": [],
     "cg_info": {
       "count": 23,
-      "reported_count": 23,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [
         "alternative variant"
       ],
-      "notes": "Release status unconfirmed; assets likely from a test build.",
-      "breakdown": {
-        "total": 23,
-        "base": 10,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 13,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Release status unconfirmed; assets may come from a test build."
     },
-    "extra_info": "Sci-fi shipgirl strategy RPG announced in 2019 with story cooperation from Kadokawa Aoba. Public release and shutdown details are poorly documented; the surviving CGs likely come from a test or development build. The local library has all 23 CGs from the original list.",
+    "extra_info": "Sci-fi shipgirl strategy RPG announced in 2019 with story cooperation from Kadokawa Aoba. Very little public information survives, and no reliable reviews or release details are available; the existing assets may come from a test build.",
     "sources": [
       {
         "label": "Gamersky - 代号：海岸线",
@@ -1317,10 +1151,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "107 (current library; 107 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay - Good"
       },
@@ -1342,7 +1172,6 @@
     ],
     "cg_info": {
       "count": 107,
-      "reported_count": 107,
       "as_of": "2026-11-08",
       "quality": "Okay - Good",
       "variants": [
@@ -1350,19 +1179,9 @@
         "alternate outfits",
         "oath skins"
       ],
-      "notes": "All 107 CGs are present.",
-      "breakdown": {
-        "total": 107,
-        "base": 42,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 61,
-        "oath": 4,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "All known artwork is present."
     },
-    "extra_info": "Idle RPG about anthropomorphized military vehicles, developed and operated by Ujoy Games. The Japanese service ran from 13 May 2021 to 30 May 2023. The local library has all 107 CGs from the original list.",
+    "extra_info": "Idle RPG about anthropomorphized land, sea, and air weapons, with auto-battle, formation bonuses, room decoration, and marriage. Reception was mixed: the generous gacha and cute characters were praised, but the battle system was considered generic and the game shut down in 2023.",
     "sources": [
       {
         "label": "Official Twitter",
@@ -1423,10 +1242,6 @@
         "value": "Android"
       },
       {
-        "name": "CG Count",
-        "value": "11 (current library; 11 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -1442,23 +1257,12 @@
     "release_date": [],
     "cg_info": {
       "count": 11,
-      "reported_count": 11,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [],
-      "notes": "Incomplete extraction; release and service dates unconfirmed.",
-      "breakdown": {
-        "total": 11,
-        "base": 11,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 0,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Extraction is incomplete; release and service dates are unconfirmed."
     },
-    "extra_info": "Adult shipgirl game related to the defunct 超次元大海战. Public documentation is scarce and the CG set is incomplete. The local library has all 11 known CGs from the original list.",
+    "extra_info": "Adult shipgirl card and strategy game related to the defunct 超次元大海战. Public documentation is scarce and the asset extraction is incomplete; no reliable reviews or service history could be found.",
     "sources": [
       {
         "label": "Mylsj game page (existence proof)",
@@ -1513,10 +1317,6 @@
         "value": "Android"
       },
       {
-        "name": "CG Count",
-        "value": "40 (current library; 41 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -1532,23 +1332,12 @@
     "release_date": [],
     "cg_info": {
       "count": 40,
-      "reported_count": 41,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [],
-      "notes": "One CG missing from the local library; release date unconfirmed.",
-      "breakdown": {
-        "total": 40,
-        "base": 40,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 0,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Extraction is incomplete; release date unconfirmed."
     },
-    "extra_info": "Small Chinese shipgirl card game. The download page was updated in April 2019 and noted server problems; the game appears to have ended service. Public documentation is very limited. The local library has 40 of the 41 CGs in the original list.",
+    "extra_info": "Small Chinese shipgirl card RPG with real-time combat and character collection. Coverage is very limited; the download page noted server problems in 2019, and no reliable reviews or shutdown record could be found.",
     "sources": [
       {
         "label": "3839 - 女神舰队",
@@ -1612,10 +1401,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "73 (current library; 70 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Okay"
       },
@@ -1647,23 +1432,12 @@
     ],
     "cg_info": {
       "count": 73,
-      "reported_count": 70,
       "as_of": "2026-11-08",
       "quality": "Meh - Okay",
       "variants": [],
-      "notes": "Some CGs may be inaccessible because the service is closed.",
-      "breakdown": {
-        "total": 73,
-        "base": 70,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 3,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Some artwork may be inaccessible because the service is closed."
     },
-    "extra_info": "3D naval RTS developed by Jiangsu Jiazi. The Japanese version launched on 14 June 2019 and stopped connecting on 7 April 2020 without a shutdown announcement. The Chinese and TW/HK/MO versions also closed. The local library has 73 CGs, up from 70 in the original list.",
+    "extra_info": "3D real-time naval strategy RPG with fleet formation, ship customization, and base management. Reception was limited and mixed; the Japanese server stopped connecting in April 2020 without a formal shutdown announcement, and the Chinese and Taiwanese versions also closed.",
     "sources": [
       {
         "label": "wikiwiki - Guardian Project",
@@ -1727,10 +1501,6 @@
         "value": "Browser (HTML5), Android"
       },
       {
-        "name": "CG Count",
-        "value": "3,496 (current library; 2,881 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay - Good"
       },
@@ -1751,7 +1521,6 @@
     ],
     "cg_info": {
       "count": 3496,
-      "reported_count": 2881,
       "as_of": "2026-11-08",
       "quality": "Okay - Good",
       "variants": [
@@ -1760,19 +1529,9 @@
         "alternate outfits",
         "seasonal"
       ],
-      "notes": "Large set with many seasonal and damaged variants.",
-      "breakdown": {
-        "total": 3496,
-        "base": 332,
-        "damage": 1715,
-        "retrofit": 1181,
-        "outfit": 2604,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Includes seasonal, damaged, and retrofit artwork."
     },
-    "extra_info": "Kantai Collection is a free-to-play browser game developed by Kadokawa Games and C2机关 and operated by DMM.com. It launched on 23 April 2013 and remains active in Japan. The local library has 3,496 CGs, up from 2,881 in the original list. The set includes retrofit, damaged, seasonal, and alternate-outfit art.",
+    "extra_info": "Browser-based naval card game built around resource management, fleet composition, repair, and sorties. It defined the shipgirl genre, built a large media franchise, and remains active in Japan; its interface and grind are often described as old-fashioned, but its influence is widely recognized.",
     "sources": [
       {
         "label": "Kancolle Wiki - Ship List (Image)",
@@ -1837,10 +1596,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "182 (current library; 168 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Okay"
       },
@@ -1892,26 +1647,15 @@
     ],
     "cg_info": {
       "count": 182,
-      "reported_count": 168,
       "as_of": "2026-11-08",
       "quality": "Meh - Okay",
       "variants": [
         "outfits",
         "skins"
       ],
-      "notes": "All regional servers are closed; some CGs may be inaccessible.",
-      "breakdown": {
-        "total": 182,
-        "base": 61,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 121,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "All regional servers are closed; some artwork may be inaccessible."
     },
-    "extra_info": "3D shipgirl game where ships transform between ship and girl forms in battle. It was released under different titles in each region: 舰姬 in mainland China, 最終戦艦withラブリーガールズ in Japan, 請命令！提督SAMA in TW/HK/MO, and Girls Fleet in Korea. All regional servers are now closed. The local library has 182 CGs, up from 168 in the original list.\\n\\nThe game is sometimes confused with Battleship War Girl (碧海舰姬); they are separate titles.",
+    "extra_info": "3D naval strategy and dating game where ships transform between ship and girl forms in battle, with base building, marriage, and guild play. Reception was mixed: the 3D models and relationship content appealed to fans, but the game was short-lived and all regional servers are now closed.",
     "sources": [
       {
         "label": "Archived homepage",
@@ -1992,10 +1736,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "45 (43 + 2 previously unlabeled; current library: 45)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -2017,26 +1757,14 @@
     ],
     "cg_info": {
       "count": 45,
-      "reported_count": 43,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [
         "damaged"
       ],
-      "notes": "Two formerly unlabeled CGs are now included.",
-      "breakdown": {
-        "total": 45,
-        "base": 20,
-        "damage": 22,
-        "retrofit": 0,
-        "outfit": 5,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      },
-      "unlabeled_count": 2
+      "notes": "Includes the damaged variant."
     },
-    "extra_info": "Spin-off of Warship Girls R, developed and operated by Moe Fantasy's Japanese branch. It ran from 8 September 2018 to 15 March 2020. Only shipgirls exclusive to this game are included in the index; they may later be merged into the Warship Girls R repository. The original list had 43 CGs plus 2 unlabeled; the local library now has 45.",
+    "extra_info": "Warship Girls R spin-off with a naval strategy RPG loop, 3D combat, and a story focused on game-exclusive shipgirls. Reception was moderate; it retained a small dedicated audience but closed in 2020, and its exclusive characters were later considered for the main Warship Girls R roster.",
     "sources": [
       {
         "label": "Mist Wiki - 舰娘图鉴",
@@ -2093,10 +1821,6 @@
         "value": "PC (Windows), PlayStation 2, PlayStation Portable, i-mode, Nintendo DS, Xbox 360"
       },
       {
-        "name": "CG Count",
-        "value": "34 (current library; 34 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Poor - Okay"
       },
@@ -2117,23 +1841,12 @@
     ],
     "cg_info": {
       "count": 34,
-      "reported_count": 34,
       "as_of": "2026-11-08",
       "quality": "Poor - Okay",
       "variants": [],
-      "notes": "All 34 CGs are present.",
-      "breakdown": {
-        "total": 34,
-        "base": 21,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 13,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "All known artwork is present."
     },
-    "extra_info": "Console/PC military anthropomorphism strategy series by SystemSoft Alpha. The first game launched on PC in December 2007, followed by PS2/PSP ports in 2008 and a sequel in 2009. It is not a live-service game. The local library has all 34 CGs from the original list.",
+    "extra_info": "Turn-based strategy plus visual-novel game about anthropomorphized WWII weapons. Reception is niche and mixed: fans enjoy the character interactions and military flavor, while critics found the strategy shallow and the presentation low-budget. It is a cult series rather than a mainstream hit.",
     "sources": [
       {
         "label": "Official site (Moe Moe UDX)",
@@ -2202,10 +1915,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "17 (current library; 17 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Good"
       },
@@ -2230,23 +1939,12 @@
     ],
     "cg_info": {
       "count": 17,
-      "reported_count": 17,
       "as_of": "2026-11-08",
       "quality": "Meh - Good",
       "variants": [],
-      "notes": "Only ship-themed monsters are indexed.",
-      "breakdown": {
-        "total": 17,
-        "base": 10,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 7,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Only ship-themed monsters are indexed."
     },
-    "extra_info": "Monster Strike is a physics-based action RPG by MIXI. Only the ship-themed monsters are included in this shipgirl index; the local library has all 17 CGs from the original list.",
+    "extra_info": "Physics-based action RPG where players flick monsters to bounce them into enemies, with co-op multiplayer and a huge monster roster. It became one of Japan's top-grossing mobile games, praised for its simple-to-learn, skill-based combat and cooperative play.",
     "sources": [
       {
         "label": "Monst AppBank",
@@ -2301,10 +1999,6 @@
         "value": "PC browser, Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "12 (current library; 12 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -2325,25 +2019,14 @@
     ],
     "cg_info": {
       "count": 12,
-      "reported_count": 12,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [
         "damaged"
       ],
-      "notes": "Only ship-related CGs are indexed; the game has many non-ship units.",
-      "breakdown": {
-        "total": 12,
-        "base": 0,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 12,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Only ship-related artwork is indexed; the game has many non-ship units."
     },
-    "extra_info": "Military anthropomorphism strategy game about Japan Ground Self-Defense Force equipment. It launched on 24 February 2016 and remains active; the DMM GAMES version started on 27 July 2023. Only the 12 ship-related CGs are included in this index.",
+    "extra_info": "Turn-based hex strategy game about anthropomorphized Japan Ground Self-Defense Force equipment, with unit crafting, capture mechanics, and large campaign maps. Reception is modest but enduring: fans praise the military detail and long-running content, while common complaints include small UI text, matchmaking, and account/data issues.",
     "sources": [
       {
         "label": "Official site",
@@ -2404,10 +2087,6 @@
         "value": "Android"
       },
       {
-        "name": "CG Count",
-        "value": "100 labeled + 589 unlabeled (current library: 100 labeled)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -2428,26 +2107,14 @@
     ],
     "cg_info": {
       "count": 100,
-      "reported_count": 100,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [
         "damaged"
       ],
-      "notes": "Some CGs may be inaccessible because the service is closed.",
-      "breakdown": {
-        "total": 100,
-        "base": 49,
-        "damage": 50,
-        "retrofit": 0,
-        "outfit": 2,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      },
-      "unlabeled_count": 589
+      "notes": "Additional unlabeled artwork exists and is not included in the count."
     },
-    "extra_info": "Android-only KanColle clone by Taiwan's JWJ APP Inc., formerly known as 超姬战舰 and 海上的波妞. It launched in 2015. The index contains 100 labeled CGs, with 589 additional unlabeled CGs still to be identified. The local library has the 100 labeled files from the original list.",
+    "extra_info": "Taiwanese Android card game that closely copied KanColle's interface and art style, with renamed characters and some original additions. Reception was negative, with press and players calling it a clone; it is remembered as one of the more blatant KanColle imitators.",
     "sources": [
       {
         "label": "Chinese Wikipedia",
@@ -2503,10 +2170,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "178 (current library; 179 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -2527,25 +2190,14 @@
     ],
     "cg_info": {
       "count": 178,
-      "reported_count": 179,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [
         "damaged"
       ],
-      "notes": "Some CGs may be inaccessible because the service is closed.",
-      "breakdown": {
-        "total": 178,
-        "base": 71,
-        "damage": 71,
-        "retrofit": 0,
-        "outfit": 36,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Some artwork may be inaccessible because the service is closed."
     },
-    "extra_info": "Chinese shipgirl card game originally released as 舰娘出击 / 舰姬GO in 2015. It was later renamed 舰娘一番, 舰姬天使, and 萌娘爆破. The service ended. The local library has 178 CGs, one fewer than the 179 in the original list.",
+    "extra_info": "Chinese shipgirl card game originally released as 舰娘出击 and 舰姬GO, later renamed several times. Public coverage is sparse and reception is difficult to assess; it was one of many KanColle-inspired card games and is now offline.",
     "sources": [
       {
         "label": "Moegirl - 舰娘出击",
@@ -2606,10 +2258,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "7 (current library; 7 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Poor"
       },
@@ -2625,23 +2273,12 @@
     "release_date": [],
     "cg_info": {
       "count": 7,
-      "reported_count": 7,
       "as_of": "2026-11-08",
       "quality": "Poor",
       "variants": [],
-      "notes": "Vaporware; only official Twitter art survives.",
-      "breakdown": {
-        "total": 7,
-        "base": 7,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 0,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Unreleased; only official Twitter art survives."
     },
-    "extra_info": "Cancelled mobile RPG about anthropomorphized weapons. Up-Land announced it for summer 2018 and opened pre-registration, but the game was never released. Only seven CGs survive through the official Twitter.",
+    "extra_info": "Cancelled mobile RPG about anthropomorphized weapons, announced by Up-Land for summer 2018. It never released, and only official Twitter art survives; there is no gameplay reception to report.",
     "sources": [
       {
         "label": "Official Twitter",
@@ -2709,10 +2346,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "65 (current library; 64 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -2739,23 +2372,12 @@
     ],
     "cg_info": {
       "count": 65,
-      "reported_count": 64,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [],
-      "notes": "Internal folder name is Tales of Abyss; display title is Oath x Girls.",
-      "breakdown": {
-        "total": 65,
-        "base": 64,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 1,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "The internal folder name is Tales of Abyss; the display title is Oath x Girls."
     },
-    "extra_info": "Blue Oath IP spin-off with idle battle mechanics. It was announced under the working title Oath x Girls (オース×ガールズ) and released in Japan as 誓約少女 〜祝砲の元に集いし戦姫たち〜 on 26 October 2022; the Japanese service ended on 28 February 2024. The TW/HK/MO version was retitled 茶の戀姬 (Tea no Koi Hime) and changed to tea-personification content; it ended on 29 February 2024. The English title was Tales of Abbysus. The local library has 65 CGs, up from 64 in the original list.\\n\\nThe asset folder is still named Tales of Abyss, so the internal name is kept for compatibility.",
+    "extra_info": "Idle strategy RPG spin-off of Blue Oath, sharing its world and characters with auto-battle, formation, and character-bond systems. Reception was mixed: the art and Blue Oath connection appealed to fans, but gameplay was considered thin and the service closed in 2024.",
     "sources": [
       {
         "label": "Official Twitter",
@@ -2828,10 +2450,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "170 + 3 unlabeled (current library: 170)"
-      },
-      {
         "name": "CG Quality",
         "value": "Okay"
       },
@@ -2852,27 +2470,15 @@
     ],
     "cg_info": {
       "count": 170,
-      "reported_count": 170,
       "as_of": "2026-11-08",
       "quality": "Okay",
       "variants": [
         "improved forms",
         "damaged"
       ],
-      "notes": "Some CGs may be inaccessible because the service is closed.",
-      "breakdown": {
-        "total": 170,
-        "base": 64,
-        "damage": 55,
-        "retrofit": 51,
-        "outfit": 0,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      },
-      "unlabeled_count": 3
+      "notes": "Additional unlabeled artwork exists and is not included in the count."
     },
-    "extra_info": "Chinese shipgirl game that opened testing on 26 November 2015. It features improved forms and damaged variants. The local library has 170 CGs plus 3 unlabeled files. The service has ended.",
+    "extra_info": "Chinese shipgirl card game with real-time naval combat, improved forms, and damaged variants. Public coverage is very limited; no reliable reviews or player reception could be found, and the game is offline.",
     "sources": [
       {
         "label": "Baidu Baike - 舰娘萌萌哒",
@@ -2936,10 +2542,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "255 (current library; 193 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -2969,26 +2571,15 @@
     ],
     "cg_info": {
       "count": 255,
-      "reported_count": 193,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [
         "retrofit",
         "alternate outfits"
       ],
-      "notes": "JP server is closed; CN/TW servers remain active.",
-      "breakdown": {
-        "total": 255,
-        "base": 142,
-        "damage": 0,
-        "retrofit": 19,
-        "outfit": 94,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "JP server is closed; CN/TW servers remain active."
     },
-    "extra_info": "3D shipgirl bullet-hell game developed by Shanghai 9You. The Japanese version launched on 16 February 2022 and ended on 28 June 2023; the mainland China and TW/HK/MO versions launched in 2023 and remain active. The local library has 255 CGs, up from 193 in the original list.",
+    "extra_info": "3D bullet-hell naval shooter with manual dodging, six-ship fleets made up of three main and three support ships, Live2D characters, and a romance/affinity system. Reception was mixed: the 3D combat and character art were praised, but the launch suffered server and payment problems, early progression was stingy, and review-bombing damaged its reputation; later updates improved it. The Japanese server closed in 2023; the Chinese and Taiwanese versions remain active per official channels.",
     "sources": [
       {
         "label": "Biligame - 拂晓",
@@ -3052,10 +2643,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "260 (current library; 159 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Good"
       },
@@ -3077,25 +2664,14 @@
     ],
     "cg_info": {
       "count": 260,
-      "reported_count": 159,
       "as_of": "2026-11-08",
       "quality": "Meh - Good",
       "variants": [
         "outfits"
       ],
-      "notes": "Service ended 2025-10-01; assets were preserved from the cached client.",
-      "breakdown": {
-        "total": 260,
-        "base": 196,
-        "damage": 0,
-        "retrofit": 0,
-        "outfit": 64,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Service ended in 2025; assets were preserved from the cached client."
     },
-    "extra_info": "Kickstarter-funded WW2 shipgirl game by Black Chicken Studios. It raised funding in May 2016 and finally released worldwide on 22 February 2023. The service ended on 1 October 2025 after the publisher backed out. The local library has 260 CGs, up from 159 in the original list.",
+    "extra_info": "Turn-based tactical RPG with WWII shipgirls, native-language voice acting, a branching alternate-history campaign, and equipment customization. Reception was mixed-positive: backers and fans praised the character art and historical detail, but the long development, bugs, bare-bones tutorial, unvoiced characters, and outdated presentation limited its audience; the service ended in 2025.",
     "sources": [
       {
         "label": "Official site",
@@ -3168,10 +2744,6 @@
         "value": "PC browser"
       },
       {
-        "name": "CG Count",
-        "value": "31 (current library; 31 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Meh - Good"
       },
@@ -3192,26 +2764,15 @@
     ],
     "cg_info": {
       "count": 31,
-      "reported_count": 31,
       "as_of": "2026-11-08",
       "quality": "Meh - Good",
       "variants": [
         "damaged",
         "alternate outfits"
       ],
-      "notes": "Some CGs may be inaccessible because the service is closed.",
-      "breakdown": {
-        "total": 31,
-        "base": 15,
-        "damage": 9,
-        "retrofit": 0,
-        "outfit": 7,
-        "oath": 0,
-        "censored": 0,
-        "background": 0
-      }
+      "notes": "Some artwork may be inaccessible because the service is closed."
     },
-    "extra_info": "6v6 browser MOBA with shipgirls, developed by Shanghai Tiaoyue. It entered game libraries in September 2017 and is now offline. The local library has all 31 CGs from the original list.",
+    "extra_info": "Browser-based 6v6 MOBA with shipgirl characters and naval maps. Public coverage is very limited; it was a short-lived Chinese browser game and no reliable reviews or player reception could be found.",
     "sources": [
       {
         "label": "17173 game page",
@@ -3272,10 +2833,6 @@
         "value": "Android, iOS"
       },
       {
-        "name": "CG Count",
-        "value": "3,216 (current library; 2,661 in the original list)"
-      },
-      {
         "name": "CG Quality",
         "value": "Good"
       },
@@ -3320,7 +2877,6 @@
     ],
     "cg_info": {
       "count": 3216,
-      "reported_count": 2661,
       "as_of": "2026-11-08",
       "quality": "Good",
       "variants": [
@@ -3329,19 +2885,9 @@
         "alternate outfits",
         "censored variants"
       ],
-      "notes": "Still active in CN/JP; large retrofit and damage set.",
-      "breakdown": {
-        "total": 3216,
-        "base": 662,
-        "damage": 1508,
-        "retrofit": 529,
-        "outfit": 1264,
-        "oath": 0,
-        "censored": 193,
-        "background": 0
-      }
+      "notes": "Still active in CN/JP; includes retrofit and damage variants."
     },
-    "extra_info": "Long-running Chinese shipgirl game developed by Moe Fantasy. The mainland China and Japanese servers remain active; the TW/HK/MO, Global, and Thai servers have closed. The local library has 3,216 CGs, up from 2,661 in the original list.",
+    "extra_info": "Chinese shipgirl game with KanColle-style resources, construction, sorties, repair, and retrofit, plus a large roster and live2D dorm content. It has a dedicated long-running community and is still active in China and Japan; reception has been positive within its niche, though the grind and old-fashioned interface are common criticisms.",
     "sources": [
       {
         "label": "Zjsnr Wiki",

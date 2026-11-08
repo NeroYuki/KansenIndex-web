@@ -11,6 +11,7 @@ const path = require('path')
 const fs = require('fs')
 const dotenv = require('dotenv')
 const { MongoClient } = require('mongodb')
+const { updateFranchiseCounts } = require('./update_franchise_cg_counts')
 
 dotenv.config({ path: path.join(__dirname, '..', '.env') })
 
@@ -102,6 +103,12 @@ async function main() {
         if (after.count !== docs.length) {
             throw new Error(`post-import count mismatch: ${after.count} !== ${docs.length}`)
         }
+
+        console.log('\nUpdating franchise CG counts ...')
+        const countResult = await updateFranchiseCounts(db, { apply: true })
+        console.log('changed:', countResult.updated, 'unchanged:', countResult.unchanged)
+        console.log('folders with no rows:', countResult.missing)
+
         console.log(`\nDone. Backup file: ${backupPath}`)
     }
     finally {
