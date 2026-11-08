@@ -135,7 +135,17 @@ function parseTagFile(content) {
 
 function main_shipgirl_db() {
 
-    let dirs = fs.readdirSync(BASE_PATH)
+    // The model library root also contains index files (manifest.json,
+    // labels.json, ...) because the web backend symlinks the whole library.
+    // Only franchise directories are valid inputs.
+    let dirs = fs.readdirSync(BASE_PATH).filter((entry) => {
+        try {
+            return fs.statSync(path.join(BASE_PATH, entry)).isDirectory()
+        }
+        catch {
+            return false
+        }
+    })
 
     let list = []
     let tag_frequency = {} // Track tag frequency across all files
@@ -521,7 +531,14 @@ function main_shipgirl_db() {
 }
 
 function main_franchise() {
-    let dirs = fs.readdirSync(BASE_PATH)
+    let dirs = fs.readdirSync(BASE_PATH).filter((entry) => {
+        try {
+            return fs.statSync(path.join(BASE_PATH, entry)).isDirectory()
+        }
+        catch {
+            return false
+        }
+    })
 
     let list = []
 

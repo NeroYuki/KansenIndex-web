@@ -1,0 +1,898 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1093.glb",
+        "name": "Admiral Scheer.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1093.glb",
+        "name": "Admiral Scheer_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1003.glb",
+        "name": "Akagi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8004.glb",
+        "name": "Akagi_Bride.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1003.glb",
+        "name": "Akagi_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1073.glb",
+        "name": "Akatsuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1071.glb",
+        "name": "Akizuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1059.glb",
+        "name": "Aoba.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1106.glb",
+        "name": "Argus.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1106.glb",
+        "name": "Argus_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1046.glb",
+        "name": "Ark Royal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1046.glb",
+        "name": "Ark Royal_SD.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1046.glb",
+        "name": "Ark Royal_uncensored.jpg"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1090.glb",
+        "name": "Atago.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1090.glb",
+        "name": "Atago_ED.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1090.glb",
+        "name": "Atago_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1079.glb",
+        "name": "Ayanami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1079.glb",
+        "name": "Ayanami_KMN.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1079.glb",
+        "name": "Ayanami_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1079.glb",
+        "name": "Ayanami_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1103.glb",
+        "name": "Bearn.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1015.glb",
+        "name": "Bismarck.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8006.glb",
+        "name": "Bismarck_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1094.glb",
+        "name": "Bogue.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1063.glb",
+        "name": "Braine.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1063.glb",
+        "name": "Braine_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1054.glb",
+        "name": "California.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1054.glb",
+        "name": "California_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1009.glb",
+        "name": "Colossus.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1098.glb",
+        "name": "Downes.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1098.glb",
+        "name": "Downes_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1085.glb",
+        "name": "Enterprise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8014.glb",
+        "name": "Enterprise_DR.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1104.glb",
+        "name": "Erebus.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1087.glb",
+        "name": "Essex.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1008.glb",
+        "name": "Fubuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8001.glb",
+        "name": "Fubuki_MSB.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1008.glb",
+        "name": "Fubuki_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1008.glb",
+        "name": "Fubuki_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1012.glb",
+        "name": "Glowworm.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1012.glb",
+        "name": "Glowworm_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1018.glb",
+        "name": "Graf Zeppelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1018.glb",
+        "name": "Graf Zeppelin_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1051.glb",
+        "name": "Haguro.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1051.glb",
+        "name": "Haguro_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1132.glb",
+        "name": "Hammann.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1057.glb",
+        "name": "Hatsuyuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1057.glb",
+        "name": "Hatsuyuki_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1057.glb",
+        "name": "Hatsuyuki_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1004.glb",
+        "name": "Helena.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8028.glb",
+        "name": "Helena_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8028.glb",
+        "name": "Helena_SVD.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1004.glb",
+        "name": "Helena_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1096.glb",
+        "name": "Hibiki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1114.glb",
+        "name": "Hiei.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1026.glb",
+        "name": "Hiyou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1026.glb",
+        "name": "Hiyou_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1002.glb",
+        "name": "Hood.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1002.glb",
+        "name": "Hood_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1002.glb",
+        "name": "Hood_RF.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1002.glb",
+        "name": "Hood_uncensored.jpg"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1086.glb",
+        "name": "Hornet.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1086.glb",
+        "name": "Hornet_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1030.glb",
+        "name": "Hyuga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1100.glb",
+        "name": "Ikazuchi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1024.glb",
+        "name": "Illustrious.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8008.glb",
+        "name": "Illustrious_KN.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1024.glb",
+        "name": "Illustrious_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1102.glb",
+        "name": "Inazuma.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1028.glb",
+        "name": "Ise.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1028.glb",
+        "name": "Ise_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1080.glb",
+        "name": "Javelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1080.glb",
+        "name": "Javelin_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1042.glb",
+        "name": "Jintsu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1042.glb",
+        "name": "Jintsu_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1005.glb",
+        "name": "Kaga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8005.glb",
+        "name": "Kaga_SVD.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1005.glb",
+        "name": "Kaga_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1099.glb",
+        "name": "Kagerou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1099.glb",
+        "name": "Kagerou_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1068.glb",
+        "name": "Karlsruhe.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1068.glb",
+        "name": "Karlsruhe_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1077.glb",
+        "name": "Kiev.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1060.glb",
+        "name": "Kinugasa.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1109.glb",
+        "name": "Kirishima.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1045.glb",
+        "name": "Kirov.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1027.glb",
+        "name": "Kitakami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1027.glb",
+        "name": "Kitakami_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1027.glb",
+        "name": "Kitakami_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1069.glb",
+        "name": "Koln.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1069.glb",
+        "name": "Koln_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1074.glb",
+        "name": "Kongou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1050.glb",
+        "name": "Konigsberg.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1050.glb",
+        "name": "Konigsberg_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1044.glb",
+        "name": "Kuroshio.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1121.glb",
+        "name": "Laffey (DD-459).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1006.glb",
+        "name": "Laffey (DD-724).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1006.glb",
+        "name": "Laffey (DD-724)_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1006.glb",
+        "name": "Laffey (DD-724)_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1055.glb",
+        "name": "Langley.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1088.glb",
+        "name": "Le Fantasque.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1007.glb",
+        "name": "Lexington (CV-2).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1007.glb",
+        "name": "Lexington (CV-2)_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8015.glb",
+        "name": "Lexington (CV-2)_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1052.glb",
+        "name": "London.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1064.glb",
+        "name": "McCall.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1064.glb",
+        "name": "McCall_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1043.glb",
+        "name": "Minekaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1043.glb",
+        "name": "Minekaze_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1056.glb",
+        "name": "Miyuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1056.glb",
+        "name": "Miyuki_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1056.glb",
+        "name": "Miyuki_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1031.glb",
+        "name": "Mutsu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1031.glb",
+        "name": "Mutsu_uncensored.jpg"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1067.glb",
+        "name": "Myouko.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1067.glb",
+        "name": "Myouko_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1035.glb",
+        "name": "Nagara.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1035.glb",
+        "name": "Nagara_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1029.glb",
+        "name": "Nagato.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8016.glb",
+        "name": "Nagato_KMN.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1041.glb",
+        "name": "Naka.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1041.glb",
+        "name": "Naka_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1091.glb",
+        "name": "Nelson.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1062.glb",
+        "name": "Nevada.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1062.glb",
+        "name": "Nevada_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1107.glb",
+        "name": "New Jersey.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1066.glb",
+        "name": "New Orleans.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8011.glb",
+        "name": "New Orleans_AKR.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1066.glb",
+        "name": "New Orleans_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1082.glb",
+        "name": "Ning Hai.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1082.glb",
+        "name": "Ning Hai_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1115.glb",
+        "name": "North Carolina.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1075.glb",
+        "name": "Oklahoma.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1075.glb",
+        "name": "Oklahoma_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1061.glb",
+        "name": "Omaha.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1061.glb",
+        "name": "Omaha_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1033.glb",
+        "name": "Ooi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1033.glb",
+        "name": "Ooi_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1038.glb",
+        "name": "Oyodou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1081.glb",
+        "name": "Ping Hai.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1081.glb",
+        "name": "Ping Hai_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1013.glb",
+        "name": "Prince of Wales.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1013.glb",
+        "name": "Prince of Wales_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1014.glb",
+        "name": "Prinz Eugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1014.glb",
+        "name": "Prinz Eugen_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1014.glb",
+        "name": "Prinz Eugen_uncensored.jpg"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1072.glb",
+        "name": "Quincy.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1072.glb",
+        "name": "Quincy_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1076.glb",
+        "name": "Renown.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1036.glb",
+        "name": "Repulse.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1084.glb",
+        "name": "Richelieu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/11084.glb",
+        "name": "Richelieu_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1070.glb",
+        "name": "Richmond.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1070.glb",
+        "name": "Richmond_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1022.glb",
+        "name": "Rodney.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1022.glb",
+        "name": "Rodney_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1112.glb",
+        "name": "Ryujo.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1101.glb",
+        "name": "Salt Lake City.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1025.glb",
+        "name": "San Diego.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8009.glb",
+        "name": "San Diego_ED.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1025.glb",
+        "name": "San Diego_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1011.glb",
+        "name": "Saratoga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1011.glb",
+        "name": "Saratoga_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1011.glb",
+        "name": "Saratoga_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1011.glb",
+        "name": "Saratoga_uncensored.jpg"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1040.glb",
+        "name": "Sendai.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1040.glb",
+        "name": "Sendai_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1120.glb",
+        "name": "Shigure.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1120.glb",
+        "name": "Shigure_SS.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1016.glb",
+        "name": "Shikinami.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1016.glb",
+        "name": "Shikinami_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1001.glb",
+        "name": "Shimakaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8003.glb",
+        "name": "Shimakaze_SVD.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1097.glb",
+        "name": "Shiranui.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1097.glb",
+        "name": "Shiranui_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1058.glb",
+        "name": "Shirayuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1058.glb",
+        "name": "Shirayuki_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1058.glb",
+        "name": "Shirayuki_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8019.glb",
+        "name": "Shoukaku.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8019.glb",
+        "name": "Shoukaku_KMN.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1108.glb",
+        "name": "South Dakota.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1049.glb",
+        "name": "Suzutsuki.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1010.glb",
+        "name": "Taihou.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1010.glb",
+        "name": "Taihou_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1037.glb",
+        "name": "Takao.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1037.glb",
+        "name": "Takao_uncensored.jpg"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1053.glb",
+        "name": "Tennessee.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1053.glb",
+        "name": "Tennessee_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1092.glb",
+        "name": "Tenryuu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1092.glb",
+        "name": "Tenryuu_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1105.glb",
+        "name": "Terror.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1020.glb",
+        "name": "Tirpitz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1020.glb",
+        "name": "Tirpitz_Xmas.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1021.glb",
+        "name": "Vampire (D68).png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1095.glb",
+        "name": "Vauquelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1095.glb",
+        "name": "Vauquelin_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1065.glb",
+        "name": "Vestal.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1065.glb",
+        "name": "Vestal_NY.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1023.glb",
+        "name": "Vittorio Veneto.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/11023.glb",
+        "name": "Vittorio Veneto_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1017.glb",
+        "name": "Washington.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8022.glb",
+        "name": "Washington_BK.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1017.glb",
+        "name": "Washington_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1083.glb",
+        "name": "Wichita.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1083.glb",
+        "name": "Wichita_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1032.glb",
+        "name": "Ying Rui.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1032.glb",
+        "name": "Ying Rui_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1078.glb",
+        "name": "Yorktown.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1089.glb",
+        "name": "Yukikaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1089.glb",
+        "name": "Yukikaze_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1019.glb",
+        "name": "Yuudachi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1019.glb",
+        "name": "Yuudachi_PT.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1019.glb",
+        "name": "Yuudachi_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1019.glb",
+        "name": "Yuudachi_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1034.glb",
+        "name": "Z1.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1039.glb",
+        "name": "Z16.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/a1034.glb",
+        "name": "Z1_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1034.glb",
+        "name": "Z1_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1047.glb",
+        "name": "Z21.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1047.glb",
+        "name": "Z21_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1048.glb",
+        "name": "Z22.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1048.glb",
+        "name": "Z22_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1111.glb",
+        "name": "Zuikaku.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1111.glb",
+        "name": "Zuikaku_DD.png"
+    }
+]

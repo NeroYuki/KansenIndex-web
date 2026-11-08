@@ -1285,7 +1285,7 @@ export const CGInfo = (props) => {
                                         </VStack>
                                     </TabPanel>}
                                     {data.m3d && <TabPanel width={'100%'}>
-                                        <Model3DViewer modelUrl={data.m3d.dir} disableVertexColors={data.folder === "Abyss Horizon"} onError={showErrorToast} />
+                                        <Model3DViewer modelUrl={data.m3d.dir} disableVertexColors={data.folder === "Abyss Horizon" || data.folder === "Azur Lane"} hideOutline={data.folder === "Azur Lane"} toon={data.folder === "Velvet Code"} onError={showErrorToast} />
                                         <Center margin={12}><Text as='b' fontSize='sm'>Drag to rotate • Scroll or pinch to zoom</Text></Center>
                                     </TabPanel>}
                                     {data.voice && <TabPanel>

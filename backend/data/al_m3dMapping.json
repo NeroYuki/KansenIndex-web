@@ -1,0 +1,114 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch023.glb",
+        "name": "Ajax_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch081.glb",
+        "name": "Akagi_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch041.glb",
+        "name": "Atago_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch002.glb",
+        "name": "Ayanami_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch024.glb",
+        "name": "Belfast_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch066.glb",
+        "name": "Bismarck_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch021.glb",
+        "name": "Cleveland_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch022.glb",
+        "name": "Helena_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch065.glb",
+        "name": "Hood_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch086.glb",
+        "name": "Illustrious_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch005.glb",
+        "name": "Javelin_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch082.glb",
+        "name": "Kaga_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch061.glb",
+        "name": "Kongou_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch004.glb",
+        "name": "Laffey_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch085.glb",
+        "name": "Long Island_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch063.glb",
+        "name": "Nagato_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch026.glb",
+        "name": "Neptune_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch025.glb",
+        "name": "Ping Hai_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch043.glb",
+        "name": "Portland_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch044.glb",
+        "name": "Prinz Eugen_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch084.glb",
+        "name": "Saratoga_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch001.glb",
+        "name": "Shimakaze_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch062.glb",
+        "name": "Suruga_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch042.glb",
+        "name": "Takao_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch087.glb",
+        "name": "Unicorn_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch064.glb",
+        "name": "Yamashiro_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch003.glb",
+        "name": "Yukikaze_Default.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/char3d/crosswave/Ch006.glb",
+        "name": "Z23_Default.png"
+    }
+]

@@ -117,6 +117,7 @@
         "fullspinemapping": "./data/al_spineFull.json",
         "voicemapping": "./data/al_voiceMapping.json",
         "extramapping": "./data/al_extraMapping.json",
+        "m3dmapping": "./data/al_m3dMapping.json",
         "illustmapping": "./data/al_booru_char_list.json"
     },
     {
@@ -190,6 +191,7 @@
 
         ],
         "voicemapping": "./data/bo_voiceMapping.json",
+        "m3dmapping": "./data/bo_m3dMapping.json",
         "illustmapping": "./data/bo_booru_char_list.json"
     },
     {
@@ -294,7 +296,8 @@
         "alias": [
 
         ],
-        "live2dmapping": "./data/vc_l2d_mapping.json"
+        "live2dmapping": "./data/vc_l2d_mapping.json",
+        "m3dmapping": "./data/vc_m3dMapping.json"
     },
     {
         "name": "Warship Girls R",

@@ -3,6 +3,7 @@ import { Box, Center, Spinner, Text } from "@chakra-ui/react"
 import * as THREE from "three"
 import { OrbitControls } from "three/addons/controls/OrbitControls.js"
 import { FBXLoader } from "three/addons/loaders/FBXLoader.js"
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js"
 
 const DEFAULT_HEIGHT = 500
 const ANIMATION_PRIORITY = ["show", "idle", "idle01", "idle_01", "default", "stand"]
@@ -35,7 +36,44 @@ function disposeObject(root) {
     geometries.forEach((geometry) => geometry.dispose())
 }
 
-export const Model3DViewer = ({ modelUrl, height = DEFAULT_HEIGHT, onError, disableVertexColors = false }) => {
+function makeToonGradient() {
+    const data = new Uint8Array([
+        70, 70, 70, 255,
+        135, 135, 135, 255,
+        200, 200, 200, 255,
+        255, 255, 255, 255,
+    ])
+    const texture = new THREE.DataTexture(data, 4, 1, THREE.RGBAFormat)
+    texture.minFilter = THREE.NearestFilter
+    texture.magFilter = THREE.NearestFilter
+    texture.needsUpdate = true
+    return texture
+}
+
+function convertToToon(object) {
+    object.traverse((child) => {
+        if (!child.isMesh && !child.isSkinnedMesh) return
+        const materials = Array.isArray(child.material) ? child.material : [child.material]
+        const toonMaterials = materials.map((material) => {
+            if (!material) return material
+            const toon = new THREE.MeshToonMaterial({
+                map: material.map || null,
+                color: material.color ? material.color.clone() : new THREE.Color(0xffffff),
+                gradientMap: makeToonGradient(),
+                transparent: material.transparent,
+                opacity: material.opacity,
+                alphaTest: material.alphaTest,
+                side: material.side,
+                vertexColors: material.vertexColors,
+            })
+            toon.name = material.name
+            return toon
+        })
+        child.material = Array.isArray(child.material) ? toonMaterials : toonMaterials[0]
+    })
+}
+
+export const Model3DViewer = ({ modelUrl, height = DEFAULT_HEIGHT, onError, disableVertexColors = false, toon = false, hideOutline = false }) => {
     const containerRef = useRef(null)
     const canvasRef = useRef(null)
     const onErrorRef = useRef(onError)
@@ -164,8 +202,11 @@ export const Model3DViewer = ({ modelUrl, height = DEFAULT_HEIGHT, onError, disa
             }
             animate()
 
-            const loader = new FBXLoader()
-            loader.load(modelUrl, (object) => {
+            const isGltf = /\.(glb|gltf)(\?|$)/i.test(modelUrl)
+            const loader = isGltf ? new GLTFLoader() : new FBXLoader()
+            loader.load(modelUrl, (result) => {
+                const object = isGltf ? (result.scene || result.scenes?.[0]) : result
+                const animations = isGltf ? (result.animations || []) : (result.animations || [])
                 if (cancelled) {
                     disposeObject(object)
                     return
@@ -178,9 +219,22 @@ export const Model3DViewer = ({ modelUrl, height = DEFAULT_HEIGHT, onError, disa
                         // Skinned model bounds can be wrong, so don't let frustum culling hide them.
                         child.frustumCulled = false
 
-                        // Some FBX exports (Abyss Horizon) use vertex colors as shader masks,
-                        // not diffuse colors. Applying them tints faces blue.
                         const materials = Array.isArray(child.material) ? child.material : [child.material]
+
+                        // Crosswave outline meshes are shader-driven inverted hulls whose
+                        // exported geometry is coincident with the body. They rely on
+                        // normal extrusion that glTF cannot represent, so they would
+                        // otherwise appear as solid-color masks and cause z-fighting.
+                        if (hideOutline && materials.some((material) => (
+                            material && /_OL_|NoLine/i.test(material.name || "")
+                        ))) {
+                            child.visible = false
+                            return
+                        }
+
+                        // Some exports (Abyss Horizon, Azur Lane Crosswave) use vertex
+                        // colors as shader masks, not diffuse colors. Applying them
+                        // tints faces blue/gray.
                         if (disableVertexColors) {
                             materials.forEach((material) => {
                                 if (material && material.vertexColors) {
@@ -192,11 +246,13 @@ export const Model3DViewer = ({ modelUrl, height = DEFAULT_HEIGHT, onError, disa
                     }
                 })
 
-                if (object.animations && object.animations.length > 0) {
+                if (toon) convertToToon(object)
+
+                if (animations.length > 0) {
                     mixer = new THREE.AnimationMixer(object)
-                    const clip = object.animations.find((animation) => (
+                    const clip = animations.find((animation) => (
                         ANIMATION_PRIORITY.includes((animation.name || "").toLowerCase())
-                    )) || object.animations[0]
+                    )) || animations[0]
                     mixer.clipAction(clip).play()
                 }
 
@@ -243,7 +299,7 @@ export const Model3DViewer = ({ modelUrl, height = DEFAULT_HEIGHT, onError, disa
             }
             timer.dispose()
         }
-    }, [modelUrl, disableVertexColors])
+    }, [modelUrl, disableVertexColors, toon, hideOutline])
 
     return (
         <Box ref={containerRef} position="relative" width="100%" height={`${height}px`}>

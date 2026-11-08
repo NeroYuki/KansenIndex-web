@@ -1,0 +1,722 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_admiralgrafspee_show.glb",
+        "name": "Admiral Graf Spee_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_admiralhipper_show.glb",
+        "name": "Admiral Hipper_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_admiralscheer_show.glb",
+        "name": "Admiral Scheer_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_akagi_skin10_eveningdress_show.glb",
+        "name": "Akagi_alt_10.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_akagi_show.glb",
+        "name": "Akagi_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_alabama_show.glb",
+        "name": "Alabama_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bc_alaska_show.glb",
+        "name": "Alaska_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_ca_algerie_show.glb",
+        "name": "Algerie_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_bb_andreadoria_show.glb",
+        "name": "Andrea Doria_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_anson_show.glb",
+        "name": "Anson_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cl_arethusa_show.glb",
+        "name": "Arethusa_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_arizona_skin08_remould_show.glb",
+        "name": "Arizona_alt_10.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_arizona_show.glb",
+        "name": "Arizona_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cv_arkroyal_skin03_newyear_show.glb",
+        "name": "Ark Royal_alt_6.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cv_arkroyal_show.glb",
+        "name": "Ark Royal_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_dd_artigliere_show.glb",
+        "name": "Artigliere_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_au_asahi_show.glb",
+        "name": "Asahi_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_atago_show.glb",
+        "name": "Atago_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cl_aurora_show.glb",
+        "name": "Aurora_base_damage.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_ayanami_show.glb",
+        "name": "Ayanami_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_baltimore_show.glb",
+        "name": "Baltimore_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cl_belfast_show.glb",
+        "name": "Belfast_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_bb_bismarck_show.glb",
+        "name": "Bismarck_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_blucher_show.glb",
+        "name": "Blücher_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_brooklyn_show.glb",
+        "name": "Brooklyn_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_bunkerhill_show.glb",
+        "name": "Bunker Hill_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_chicago_show.glb",
+        "name": "Chicago_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_chokai_show.glb",
+        "name": "Choukai_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_cleveland_skin04_school_show.glb",
+        "name": "Cleveland_alt_3.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_cleveland_show.glb",
+        "name": "Cleveland_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_colorado_show.glb",
+        "name": "Colorado_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cv_courageous_show.glb",
+        "name": "Courageous_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_craven_show.glb",
+        "name": "Craven_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_ca_dorsetshire_show.glb",
+        "name": "Dorsetshire_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_dukeofyork_show.glb",
+        "name": "Duke of York_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_bb_dunkerque_show.glb",
+        "name": "Dunkerque_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cl_edinburgh_show.glb",
+        "name": "Edinburgh_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_ca_fiume_show.glb",
+        "name": "Fiume_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_ca_foch_show.glb",
+        "name": "Foch_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_franklin_show.glb",
+        "name": "Franklin_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_fubuki_skin02_springfestival_show.glb",
+        "name": "Fubuki_alt_7.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_fubuki_show.glb",
+        "name": "Fubuki_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cv_furious_show.glb",
+        "name": "Furious_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_glowworm_skin17_military_show.glb",
+        "name": "Glowworm_alt_12.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_glowworm_skin04_school_show.glb",
+        "name": "Glowworm_alt_3.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_glowworm_show.glb",
+        "name": "Glowworm_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_bc_gneisenau_skin06_halloween_show.glb",
+        "name": "Gneisenau_alt_4.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_bc_gneisenau_show.glb",
+        "name": "Gneisenau_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_cv_grafzeppelin_show.glb",
+        "name": "Graf Zeppelin_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_gridley_show.glb",
+        "name": "Gridley_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_haguro_skin06_halloween_show.glb",
+        "name": "Haguro_alt_4.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_haguro_show.glb",
+        "name": "Haguro_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_hatsuharu_show.glb",
+        "name": "Hatsuharu_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_heermann_show.glb",
+        "name": "Heermann_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_helena_skin01_swimwear_show.glb",
+        "name": "Helena_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_helena_show.glb",
+        "name": "Helena_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cv_hermes_show.glb",
+        "name": "Hermes_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_bb_hiei_show.glb",
+        "name": "Hiei_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_hiryu_skin16_valentine_show.glb",
+        "name": "Hiryuu_alt_8.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_hiryu_show.glb",
+        "name": "Hiryuu_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_hoel_skin05_christmas_show.glb",
+        "name": "Hoel_alt_5.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_hoel_show.glb",
+        "name": "Hoel_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bc_hood_show.glb",
+        "name": "Hood_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_hornet_skin04_school_show.glb",
+        "name": "Hornet_alt_3.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_hornet_show.glb",
+        "name": "Hornet_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_howe_show.glb",
+        "name": "Howe_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_bb_hyuga_show.glb",
+        "name": "Hyuuga_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ss_i168_show.glb",
+        "name": "I-168_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_cv_illustrious_show.glb",
+        "name": "Illustrious_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_inazuma_show.glb",
+        "name": "Inazuma_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_indianapolis_show.glb",
+        "name": "Indianapolis_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_bb_ise_show.glb",
+        "name": "Ise_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_jervis_show.glb",
+        "name": "Jervis_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cl_jintsu_show.glb",
+        "name": "Jintsuu_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_johnston_show.glb",
+        "name": "Johnston_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_junyo_show.glb",
+        "name": "Junyou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_kaga_skin10_eveningdress_show.glb",
+        "name": "Kaga_alt_10.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_kaga_show.glb",
+        "name": "Kaga_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_cl_karlsruhe_show.glb",
+        "name": "Karlsruhe_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_kinggeorgefive_show.glb",
+        "name": "King George V_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/r_cl_kirov_show.glb",
+        "name": "Kirov_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cl_kitakami_show.glb",
+        "name": "Kitakami_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_bb_kongo_show.glb",
+        "name": "Kongou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_cl_koln_show.glb",
+        "name": "Köln_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_cl_konigsberg_show.glb",
+        "name": "Königsberg_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_laffey_show.glb",
+        "name": "Laffey_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_langley_show.glb",
+        "name": "Langley_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_dd_fantasque_show.glb",
+        "name": "Le Fantasque_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_dd_malin_show.glb",
+        "name": "Le Malin_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_dd_terrible_show.glb",
+        "name": "Le Terrible_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_maryland_show.glb",
+        "name": "Maryland_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_maury_show.glb",
+        "name": "Maury_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/r_cl_maximgorky_show.glb",
+        "name": "Maxim Gorky_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_maya_show.glb",
+        "name": "Maya_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_mccall_show.glb",
+        "name": "McCall_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/r_cl_molotov_show.glb",
+        "name": "Molotov_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_bb_mutsu_show.glb",
+        "name": "Mutsu_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_myoko_show.glb",
+        "name": "Myoukou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_bb_nagato_show.glb",
+        "name": "Nagato_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cl_naka_show.glb",
+        "name": "Naka_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_nelson_show.glb",
+        "name": "Nelson_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_newmexico_show.glb",
+        "name": "New Mexico_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/c_cl_ninghai_jp_show.glb",
+        "name": "Ning Hai_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_ca_norfolk_show.glb",
+        "name": "Norfolk_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_northcarolina_skin06_halloween_show.glb",
+        "name": "North Carolina_alt_4.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_northcarolina_skin08_remould_show.glb",
+        "name": "North Carolina_alt_8.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_northcarolina_show.glb",
+        "name": "North Carolina_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_oakland_skin02_springfestival_show.glb",
+        "name": "Oakland_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_oakland_show.glb",
+        "name": "Oakland_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cl_oi_show.glb",
+        "name": "Ooi_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_pennsylvania_skin08_remould_show.glb",
+        "name": "Pennsylvania_alt_10.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_pennsylvania_show.glb",
+        "name": "Pennsylvania_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/c_cl_pinghai_jp_show.glb",
+        "name": "Ping Hai_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_portland_show.glb",
+        "name": "Portland_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_princeofwales_show.glb",
+        "name": "Prince of Wales_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_prinzeugen_skin01_swimwear_show.glb",
+        "name": "Prinz Eugen_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_prinzeugen_skin05_christmas_show.glb",
+        "name": "Prinz Eugen_alt_5.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_ca_prinzeugen_show.glb",
+        "name": "Prinz Eugen_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_queenelizabeth_skin01_swimwear_show.glb",
+        "name": "Queen Elizabeth_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_queenelizabeth_skin03_newyear_show.glb",
+        "name": "Queen Elizabeth_alt_6.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_queenelizabeth_skin09_maid_show.glb",
+        "name": "Queen Elizabeth_alt_9.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_queenelizabeth_show.glb",
+        "name": "Queen Elizabeth_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_rangr_show.glb",
+        "name": "Ranger_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/co_al_ryza_show.glb",
+        "name": "Reisalin Stout_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bc_renown_show.glb",
+        "name": "Renown_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bc_repulse_show.glb",
+        "name": "Repulse_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_rodney_show.glb",
+        "name": "Rodney_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_ryujo_show.glb",
+        "name": "Ryuujou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/co_al_ryza_skin01_swimwear_show.glb",
+        "name": "Ryza Divertimento_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_samuelbroberts_skin02_springfestival_show.glb",
+        "name": "Samuel B. Roberts_alt_7.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_dd_samuelbroberts_show.glb",
+        "name": "Samuel B. Roberts_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_sandiego_show.glb",
+        "name": "San Diego_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_sanfrancisco_show.glb",
+        "name": "San Francisco_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cl_sanjuan_show.glb",
+        "name": "San Juan_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_saratoga_skin06_halloween_show.glb",
+        "name": "Saratoga_alt_4.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_saratoga_show.glb",
+        "name": "Saratoga_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_saumarez_show.glb",
+        "name": "Saumarez_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_savage_skin01_swimwear_show.glb",
+        "name": "Savage_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_dd_savage_show.glb",
+        "name": "Savage_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_bc_scharnhorst_skin04_school_show.glb",
+        "name": "Scharnhorst_alt_3.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_bc_scharnhorst_show.glb",
+        "name": "Scharnhorst_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cl_sendai_show.glb",
+        "name": "Sendai_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_shigure_show.glb",
+        "name": "Shigure_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_shimakaze_show.glb",
+        "name": "Shimakaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_shoho_show.glb",
+        "name": "Shouhou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_shokaku_skin05_christmas_show.glb",
+        "name": "Shoukaku_alt_5.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_shokaku_show.glb",
+        "name": "Shoukaku_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_soryu_show.glb",
+        "name": "Souryuu_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_southdakota_show.glb",
+        "name": "South Dakota_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_cv_sparviero_show.glb",
+        "name": "Sparviero_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_bb_strasbourg_show.glb",
+        "name": "Strasbourg_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_taiho_show.glb",
+        "name": "Taihou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_takao_show.glb",
+        "name": "Takao_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cl_tenryu_show.glb",
+        "name": "Tenryuu_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_ca_tone_show.glb",
+        "name": "Tone_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_ca_trento_show.glb",
+        "name": "Trento_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_tuscaloosa_show.glb",
+        "name": "Tuscaloosa_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_vanguard_show.glb",
+        "name": "Vanguard_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_bb_vittorioveneto_show.glb",
+        "name": "Vittorio Veneto_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/f_dd_volta_show.glb",
+        "name": "Volta_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_warspite_skin01_swimwear_show.glb",
+        "name": "Warspite_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_warspite_skin22_mens_show.glb",
+        "name": "Warspite_alt_9.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/e_bb_warspite_show.glb",
+        "name": "Warspite_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_washington_show.glb",
+        "name": "Washington_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_wasp_show.glb",
+        "name": "Wasp_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_bb_westvirginia_show.glb",
+        "name": "West Virginia_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_ca_wichita_show.glb",
+        "name": "Wichita_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/t_bc_yavuz_show.glb",
+        "name": "Yavuz Sultan Selim_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/u_cv_yorktown_show.glb",
+        "name": "Yorktown_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_yukikaze_show.glb",
+        "name": "Yukikaze_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_yudachi_skin01_swimwear_show.glb",
+        "name": "Yuudachi_alt_2.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_dd_yudachi_show.glb",
+        "name": "Yuudachi_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_dd_z16_show.glb",
+        "name": "Z16_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_dd_z1_show.glb",
+        "name": "Z1_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_dd_z23_show.glb",
+        "name": "Z23_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/g_dd_z39_show.glb",
+        "name": "Z39_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/i_ca_zara_show.glb",
+        "name": "Zara_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_zuiho_show.glb",
+        "name": "Zuihou_base.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_zuikaku_skin05_christmas_show.glb",
+        "name": "Zuikaku_alt_5.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Blue Oath/char3d/j_cv_zuikaku_show.glb",
+        "name": "Zuikaku_base.png"
+    }
+]
