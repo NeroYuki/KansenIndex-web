@@ -370,6 +370,53 @@ sets `cg_info.as_of` to the refresh date. Counts should not be repeated in
 - Sources: Chinese Wikipedia, Biligame, GameKee, TapTap, Google Play,
   GameHours, 4Gamer, Game Watch.
 
+#### Velvet Code roster check (2026-11)
+
+- GameKee's current wiki roster lists 162 entries; the local library had 142
+  base shipgirls before this pass.
+- Missing locally: 22 ships (Tone, Minneapolis, Vanguard, Jervis, Queen
+  Elizabeth, Chongqing, Yat Sen, Aquila, Giuseppe Garibaldi, Ognevoy, Chapayev,
+  Derfflinger, Montpelier, Gneisenau, Independence, Amatsukaze, Unicorn,
+  Zhenhai, Camicia Nera, Z2, Eldridge, Gangut) plus Akari, a special character
+  with current and initial versions.
+- Local-only: Arromanches, Shikinami, Vauquelin. They are not in the GameKee
+  roster; their existing local assets were kept.
+- CG sources: GameKee base art for the 22 missing ships; the v3.4.268 client
+  bundle/cache for Gneisenau (base and `_nonH`), Z2 (base and `Z2_PL`), and the
+  outfit variants Gangut_PB, Montpelier_SS, Chongqing_ED, and Independence_SS.
+  Akari uses the GameKee current and initial art.
+- Client extras not in the GameKee roster: Admiral Hipper, Algeria, Kersaint,
+  Blucher, and San Juan appear in the v3.4.268 CG bundles; they still need
+  playability verification before being catalogued.
+- The refreshed Velvet Code count is recorded only in `cg_info`.
+
+#### vc26 asset bundles (v3.4.268)
+
+- Source: `input/vc26`, containing the extracted APK
+  (`WarShip_20260625_V_3_4_B_268_37008_JiuYou_ILCPP_Arm64_encrypted.apk`) and
+  the Unity cache. About 5.5 GB total: 3,542 APK asset bundles and 670 cache
+  `__data` files.
+- Padding is unchanged in principle: the files still need the historical
+  `0xEC` strip. The current header is a 16-byte prefix
+  (`1a1a0d0a...ABCD0123`) followed by more padding; the real `UnityFS` starts
+  at offset `0xEC`, not at 0 or 16. `vc_scripts.js`'s `slice(0xEC)` remains
+  correct.
+- UnityPy 1.10.13 loads the stripped bundles. Extraction works after the
+  strip; loading the first `UnityFS` at offset 16 fails with an LZ4 block
+  error.
+- Extractable content: Texture2D (2048x2048 character CGs, `_nonH` uncensored
+  versions, 3D body/face/hair/weapon maps, UI, icons), AudioClip (character
+  voice and BGM; 48 kHz mono), Mesh/SkinnedMeshRenderer/AnimationClip for 3D
+  models, Live2D Cubism MonoBehaviour data in `prefab/charl2d/*`, TextAsset,
+  scenes and prefabs.
+- The APK bundle map resolves 3,541 of 3,542 bundles: 397 `art/charcg/*`
+  bundles with 898 CG textures, 270 `art/char/*`, 224 `sound/char/*`, 293
+  `prefab/char/*`, and 169 `prefab/charl2d/*`.
+- `staticdata` is a 14 MB TextAsset with high-entropy content; it is not
+  plaintext and needs the game's decryption key. Character IDs can still be
+  mapped from texture names such as `1163-Gneisenau` and from the internal
+  AssetBundle names.
+
 ### Victory Belles
 
 - EN: Victory Belles; ZH: 胜利佳丽 / 胜利少女

@@ -2547,11 +2547,11 @@
       },
       {
         "name": "CG Variants",
-        "value": "Retrofit, alternate outfits"
+        "value": "Retrofit, alternate outfits, uncensored"
       },
       {
         "name": "CG Source",
-        "value": "Game assets; Biligame; official homepage"
+        "value": "Game assets; v3.4.268 client bundle/cache; GameKee roster; Biligame; official homepage"
       }
     ],
     "release_date": [
@@ -2570,16 +2570,17 @@
       }
     ],
     "cg_info": {
-      "count": 255,
-      "as_of": "2026-11-08",
+      "count": 285,
+      "as_of": "2026-11-09",
       "quality": "Good",
       "variants": [
         "retrofit",
-        "alternate outfits"
+        "alternate outfits",
+        "uncensored"
       ],
-      "notes": "JP server is closed; CN/TW servers remain active."
+      "notes": "Includes 22 missing ship CGs added in 2026-11 plus Akari (special character); client-bundle variants added for Gneisenau (uncensored), Z2_PL, Gangut_PB, Montpelier_SS, Chongqing_ED, and Independence_SS. JP server is closed; CN/TW servers remain active."
     },
-    "extra_info": "3D bullet-hell naval shooter with manual dodging, six-ship fleets made up of three main and three support ships, Live2D characters, and a romance/affinity system. Reception was mixed: the 3D combat and character art were praised, but the launch suffered server and payment problems, early progression was stingy, and review-bombing damaged its reputation; later updates improved it. The Japanese server closed in 2023; the Chinese and Taiwanese versions remain active per official channels.",
+    "extra_info": "3D bullet-hell naval shooter with manual dodging, six-ship fleets made up of three main and three support ships, Live2D characters, and a romance/affinity system. Reception was mixed: the 3D combat and character art were praised, but the launch suffered server and payment problems, early progression was stingy, and review-bombing damaged its reputation; later updates improved it. The Japanese server closed in 2023; the Chinese and Taiwanese versions remain active and continue to add ships and outfits, including Tone, Minneapolis, Vanguard, Jervis, Queen Elizabeth, Chongqing, Yat Sen, Aquila, Giuseppe Garibaldi, Ognevoy, Chapayev, Derfflinger, Montpelier, Gneisenau, Independence, Amatsukaze, Unicorn, Zhenhai, Camicia Nera, Z2, Eldridge, and Gangut.",
     "sources": [
       {
         "label": "Biligame - 拂晓",
@@ -2598,6 +2599,18 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%8B%82%E6%99%93%EF%BC%9A%E5%8B%9D%E5%88%A9%E4%B9%8B%E5%88%BB",
         "language": "zh",
         "type": "wiki"
+      },
+      {
+        "label": "GameKee - Velvet Code wiki",
+        "url": "https://www.gamekee.com/fxslzk/",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Game client v3.4.268 (2026-06-25) APK/cache",
+        "url": "https://fx.9you.com/",
+        "language": "zh",
+        "type": "game assets"
       }
     ],
     "screenshot": []
