@@ -1,10 +1,10 @@
 const express = require('express')
 const router = express.Router()
 const db = require('../database/database_interaction')
-const multer  = require('multer')
 const fs = require('fs')
 const path = require('path')
 const { ObjectId } = require('mongodb')
+const createSubmissionMiddleware = require('../middleware/submission')
 
 // Tag list storage
 let tagList = []
@@ -50,28 +50,6 @@ loadTagList()
 setInterval(loadTagList, 30 * 60 * 1000)
 
 const jsonParser = express.json()
-
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, '../uploaded_image/')
-    },
-    filename: function (req, file, cb) {
-        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E6)
-        cb(null, uniqueSuffix + '-' + file.originalname)
-    }
-})
-
-function fileFilter (req, file, cb) {
-    // only allow image file to go through
-    if (file.mimetype.startsWith('image/')) {
-        cb(null, true)
-    }
-    else {
-        cb(null, false)
-    }
-}
-
-const upload = multer({ storage: storage, limits: {fileSize: 20 * 1000 * 1000 * 1000}, fileFilter: fileFilter })
 
 function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
@@ -505,39 +483,7 @@ router.post('/toggle_fav', jsonParser, async (req, res) => {
     })
 })
 
-router.post('/submission', upload.single('file'), async (req, res) => {
-    let file = req.file
-    let body = req.body
-
-    if (!file || !body) {
-        return res.status(400).send("Bad request")
-    }
-
-    // count number of submission entry in submission collection
-    let check_res = await db.queryRecord('submission', {})
-
-    let count_res = check_res?.length ?? 0
-
-    if (count_res > 100) {
-        return res.status(400).send("Too many submission")
-    }
-
-    let db_res = await db.addRecord('submission', {
-        filename: file.filename,
-        folder: body.source,
-        char: body.ship_name,
-        uploader: body.email,
-        creator: body.creator,
-    }).catch(e => {
-        res.status(500).send("Internal server error")
-    })
-
-    if (!db_res) return
-
-    return res.status(200).send({
-        status: "submitted"
-    })
-})
+router.post('/submission', ...createSubmissionMiddleware(db))
 
 // TODO: cache the result
 router.get('/bote_fav_lb', async (req, res) => {
@@ -579,17 +525,25 @@ router.get('/bote_fav_lb', async (req, res) => {
 })
 
 router.get('/article/:id', async (req, res) => {
-    // get .md file of the same name as id in data/articles folder, if not found, return 404
     const id = req.params.id
-    
-    const article_path = path.join(__dirname + `/../data/articles/${id}.md`)
-    if (!fs.existsSync(article_path)) {
+    if (!/^[a-zA-Z0-9_-]+$/.test(id)) {
         return res.status(404).send("Not found")
     }
-
-    const article_content = fs.readFileSync(article_path, 'utf8')
-
-    return res.status(200).send(article_content)
+    try {
+        const directory = await fs.promises.realpath(path.resolve(__dirname, '../data/articles'))
+        const article = await fs.promises.realpath(path.join(directory, `${id}.md`))
+        const relative = path.relative(directory, article)
+        if (relative.startsWith('..') || path.isAbsolute(relative)) {
+            return res.status(404).send("Not found")
+        }
+        const content = await fs.promises.readFile(article, 'utf8')
+        return res.status(200).send(content)
+    } catch (error) {
+        if (['ENOENT', 'ENOTDIR', 'EACCES', 'ELOOP'].includes(error.code)) {
+            return res.status(404).send("Not found")
+        }
+        return res.status(500).send('Internal server error')
+    }
 })
 
 
