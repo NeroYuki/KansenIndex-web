@@ -612,6 +612,10 @@
         "name": "Ise_retrofit.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/11028.glb",
+        "name": "Ise_retrofit_uncensored.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/char3d/1028.glb",
         "name": "Ise_uncensored.png"
     },
@@ -1416,7 +1420,7 @@
         "name": "Tirpitz_Xmas_uncensored.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8078.glb",
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1146.glb",
         "name": "Tone.png"
     },
     {
@@ -1424,7 +1428,7 @@
         "name": "Tone_Bride.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Velvet Code/char3d/8078.glb",
+        "dir": "./data/assets/shipgirls/Velvet Code/char3d/1146.glb",
         "name": "Tone_uncensored.png"
     },
     {

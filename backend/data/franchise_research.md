@@ -437,16 +437,18 @@ sets `cg_info.as_of` to the refresh date. Counts should not be repeated in
   and outfit art, including the client-only ships. `Ryuujo` was corrected to
   the local spelling `Ryujo`; the old `Ryuujou` duplicate was removed.
 - 3D: 274 GLBs are now in `Velvet Code/char3d`; the regenerated mapping covers
-  411 CGs. Models were built from the APK `art/char` bundles and the cache
+  412 CGs. Models were built from the APK `art/char` bundles and the cache
   `art-char` hotfix bundles, then converted with AssetStudio CLI and FBX2glTF.
 - Voice: 240 folders and 5,584 WAVs are in `Velvet Code/voice`, using the
   container folder names from `sound/char` bundles.
-- L2D: 169 L2D bundles were unpadded to
-  `output/vc26/l2d_bundles_unpadded` and copied to
-  `Velvet Code/Live2D_bundles_unpadded` for AssetStudioModGUI's Live2D export.
-  They are not yet exported into `Velvet Code/Live2D`; the GUI export step is
-  still pending.
-- Unmapped CGs after the 3D pass are mostly characters/outfits without a
+- L2D: the 169 unpadded bundles are in `output/vc26/l2d_bundles_unpadded`
+  and `Velvet Code/Live2D_bundles_unpadded`. AssetStudioModGUI exported 180
+  Live2D folders; these were copied into `Velvet Code/Live2D`. The master
+  folder now has 182 Live2D folders (3,392 files). The regenerated
+  `vc_l2d_mapping.json` maps 109 CGs to L2D models. The remaining L2D folders
+  are alternate outfit/duplicate exports whose folder names do not carry an
+  outfit code, so they are not attached to a specific CG yet.
+- The remaining 22 unmapped CGs are mostly characters/outfits without a
   matching client model (for example Akari, Arromanches, Blucher, some
   Fubuki/Taihou/Laffey outfits, and a few missing model IDs).
 

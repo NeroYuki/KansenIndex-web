@@ -4,8 +4,36 @@
         "name": "Akagi.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1003s1-akagi_nonh_l2d/1003s1-akagi_nonh_l2d.model3.json",
+        "name": "Akagi_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/0002-akari_l2d/0002-akari_l2d.model3.json",
+        "name": "Akari.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1155-aquila_l2d/1155-aquila_l2d.model3.json",
+        "name": "Aquila.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1046s-arkroyal_l2d/1046s-arkroyal_l2d.model3.json",
+        "name": "Ark Royal.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11009-arromanches_l2d/11009-arromanches_l2d.model3.json",
         "name": "Arromanches.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1090s-atago_l2d/1090s-atago_l2d.model3.json",
+        "name": "Atago.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1090s-atago_nonh_l2d/1090s-atago_nonh_l2d.model3.json",
+        "name": "Atago_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1079s-ayanami_l2d/1079s-ayanami_l2d.model3.json",
+        "name": "Ayanami.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11079-ayanami_r_l2d/11079-ayanami_r_l2d.model3.json",
@@ -18,6 +46,34 @@
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1015-bismarck_l2d/1015-bismarck_l2d.model3.json",
         "name": "Bismarck.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1015s2-bismarck_nonh_l2d/1015s2-bismarck_nonh_l2d.model3.json",
+        "name": "Bismarck_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1142-caioduilio_l2d/1142-caioduilio_l2d.model3.json",
+        "name": "Caio Dulio.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1160-chapayev_l2d/1160-chapayev_l2d.model3.json",
+        "name": "Chapayev.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1152-chongqing_l2d/1152-chongqing_l2d.model3.json",
+        "name": "Chongqing.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1009s-colossus_nonh_l2d/1009s-colossus_nonh_l2d.model3.json",
+        "name": "Colossus_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1161-derfflinger_l2d/1161-derfflinger_l2d.model3.json",
+        "name": "Derfflinger.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1138-dukeofyork_l2d/1138-dukeofyork_l2d.model3.json",
+        "name": "Duke of York.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1130-dunkerque_l2d/1130-dunkerque_l2d.model3.json",
@@ -40,6 +96,14 @@
         "name": "Fubuki_retrofit.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1008s3-fubuki_nonh_l2d/1008s3-fubuki_nonh_l2d.model3.json",
+        "name": "Fubuki_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1156-giuseppegaribaldi_l2d/1156-giuseppegaribaldi_l2d.model3.json",
+        "name": "Giuseppe Garibaldi.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1012-glowworm_l2d/1012-glowworm_l2d.model3.json",
         "name": "Glowworm.png"
     },
@@ -48,12 +112,28 @@
         "name": "Glowworm_retrofit.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1018s-grafzeppelin_l2d/1018s-grafzeppelin_l2d.model3.json",
+        "name": "Graf Zeppelin.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11018-grafzeppelin_r_l2d/11018-grafzeppelin_r_l2d.model3.json",
+        "name": "Graf Zeppelin_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1004s-helena_l2d/1004s-helena_l2d.model3.json",
+        "name": "Helena.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11004-helena_r_l2d/11004-helena_r_l2d.model3.json",
         "name": "Helena_retrofit.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1134-hiryu_l2d/1134-hiryu_l2d.model3.json",
         "name": "Hiryuu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1134-hiryu_nonh_l2d/1134-hiryu_nonh_l2d.model3.json",
+        "name": "Hiryuu_uncensored.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1026-hiyo_l2d/1026-hiyo_l2d.model3.json",
@@ -68,12 +148,56 @@
         "name": "Hood_retrofit.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1002s2-hood_nonh_l2d/1002s2-hood_nonh_l2d.model3.json",
+        "name": "Hood_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1086s-hornet_l2d/1086s-hornet_l2d.model3.json",
+        "name": "Hornet.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1030-hyuga_l2d/1030-hyuga_l2d.model3.json",
+        "name": "Hyuga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11030-hyuga_r_l2d/11030-hyuga_r_l2d.model3.json",
+        "name": "Hyuga_retrofit.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1024-illustrious_l2d/1024-illustrious_l2d.model3.json",
         "name": "Illustrious.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1024s2-illustrious_nonh_l2d/1024s2-illustrious_nonh_l2d.model3.json",
+        "name": "Illustrious_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1166-independence_l2d/1166-independence_l2d.model3.json",
+        "name": "Independence.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11028-ise_r_nonh_l2d/11028-ise_r_nonh_l2d.model3.json",
+        "name": "Ise_retrofit_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1028-ise_nonh_l2d/1028-ise_nonh_l2d.model3.json",
+        "name": "Ise_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1149-jervis_l2d/1149-jervis_l2d.model3.json",
+        "name": "Jervis.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11042-jintsu_r_l2d/11042-jintsu_r_l2d.model3.json",
+        "name": "Jintsu_retrofit.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1005-kaga_l2d/1005-kaga_l2d.model3.json",
         "name": "Kaga.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1005s-kaga_nonh_l2d/1005s-kaga_nonh_l2d.model3.json",
+        "name": "Kaga_uncensored.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1077-kiev_l2d/1077-kiev_l2d.model3.json",
@@ -82,6 +206,10 @@
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11027-kitakami_r_l2d/11027-kitakami_r_l2d.model3.json",
         "name": "Kitakami_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1027s-kitakami_nonh_l2d/1027s-kitakami_nonh_l2d.model3.json",
+        "name": "Kitakami_uncensored.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1121-laffey_l2d/1121-laffey_l2d.model3.json",
@@ -104,8 +232,24 @@
         "name": "Lexington (CV-16).png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1007s-lexington(cv-2)_l2d/1007s-lexington(cv-2)_l2d.model3.json",
+        "name": "Lexington (CV-2).png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11007-lexington(cv-2)_r_l2d/11007-lexington(cv-2)_r_l2d.model3.json",
         "name": "Lexington (CV-2)_retrofit.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1141-vittorio_l2d/1141-vittorio_l2d.model3.json",
+        "name": "Littorio.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1147-minneapolis_l2d/1147-minneapolis_l2d.model3.json",
+        "name": "Minneapolis.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1031s-mutsu_l2d/1031s-mutsu_l2d.model3.json",
+        "name": "Mutsu.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1029-nagato_l2d/1029-nagato_l2d.model3.json",
@@ -116,8 +260,16 @@
         "name": "New Jersey.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1066s-neworleans_l2d/1066s-neworleans_l2d.model3.json",
+        "name": "New Orleans.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1115-northcarolina_l2d/1115-northcarolina_l2d.model3.json",
         "name": "North Carolina.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1159-ognevoy_l2d/1159-ognevoy_l2d.model3.json",
+        "name": "Ognevoy.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11033-oi_r_l2d/11033-oi_r_l2d.model3.json",
@@ -128,12 +280,20 @@
         "name": "Oyodou.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1038s-oyodo_nonh_l2d/1038s-oyodo_nonh_l2d.model3.json",
+        "name": "Oyodou_uncensored.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1123-pola_l2d/1123-pola_l2d.model3.json",
         "name": "Pola.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1014-prinzeugen_l2d/1014-prinzeugen_l2d.model3.json",
         "name": "Prinz Eugen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1150-queenelizabeth_l2d/1150-queenelizabeth_l2d.model3.json",
+        "name": "Queen Elizabeth.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1084-richelieu_l2d/1084-richelieu_l2d.model3.json",
@@ -144,8 +304,24 @@
         "name": "Richelieu_retrofit.png"
     },
     {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1025-sandiego_l2d/1025-sandiego_l2d.model3.json",
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11084-richelieu_r_nonh_l2d/11084-richelieu_r_nonh_l2d.model3.json",
+        "name": "Richelieu_retrofit_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1022s-rodney_nonh_l2d/1022s-rodney_nonh_l2d.model3.json",
+        "name": "Rodney_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1112s-ryujo_l2d/1112s-ryujo_l2d.model3.json",
+        "name": "Ryujo.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1025s1-sandiego_l2d/1025s1-sandiego_l2d.model3.json",
         "name": "San Diego.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1011s-saratoga_l2d/1011s-saratoga_l2d.model3.json",
+        "name": "Saratoga.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11011-saratoga_r_l2d/11011-saratoga_r_l2d.model3.json",
@@ -164,6 +340,10 @@
         "name": "Shimakaze.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1110-shokaku_l2d/1110-shokaku_l2d.model3.json",
+        "name": "Shoukaku.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1133-souryu_l2d/1133-souryu_l2d.model3.json",
         "name": "Souryuu.png"
     },
@@ -172,12 +352,36 @@
         "name": "South Dakota.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1108-southdakota_nonh_l2d/1108-southdakota_nonh_l2d.model3.json",
+        "name": "South Dakota_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1140s-suffolk/1140s-suffolk.model3.json",
+        "name": "Suffolk.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1010-taiho_l2d/1010-taiho_l2d.model3.json",
         "name": "Taihou.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11010-taiho_r_l2d/11010-taiho_r_l2d.model3.json",
+        "name": "Taihou_retrofit.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1020-tirpitz_l2d/1020-tirpitz_l2d.model3.json",
         "name": "Tirpitz.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1146-tone_nonh_l2d/1146-tone_nonh_l2d.model3.json",
+        "name": "Tone_uncensored.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1151s-unicorn_l2d/1151s-unicorn_l2d.model3.json",
+        "name": "Unicorn.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1148-vanguard_l2d/1148-vanguard_l2d.model3.json",
+        "name": "Vanguard.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1065-vestal_l2d/1065-vestal_l2d.model3.json",
@@ -200,8 +404,20 @@
         "name": "Washington.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1153-yixian_l2d/1153-yixian_l2d.model3.json",
+        "name": "Yat Sen.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1089-yukikaze_l2d/1089-yukikaze_l2d.model3.json",
         "name": "Yukikaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1019-yudachi_l2d/1019-yudachi_l2d.model3.json",
+        "name": "Yuudachi.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11019-yudachi_r_l2d/11019-yudachi_r_l2d.model3.json",
+        "name": "Yuudachi_retrofit.png"
     },
     {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1034-z1_l2d/1034-z1_l2d.model3.json",
@@ -212,39 +428,11 @@
         "name": "Z1_retrofit.png"
     },
     {
+        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1034s-z1_nonh_l2d/1034s-z1_nonh_l2d.model3.json",
+        "name": "Z1_uncensored.png"
+    },
+    {
         "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1111-zuikaku_l2d/1111-zuikaku_l2d.model3.json",
         "name": "Zuikaku.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1019-yudachi_l2d/1019-yudachi_l2d.model3.json",
-        "name": "Yuudachi.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1025s1-sandiego_l2d/1025s1-sandiego_l2d.model3.json",
-        "name": "San Diego.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11010-taiho_r_l2d/11010-taiho_r_l2d.model3.json",
-        "name": "Taihou_retrofit.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/11019-yudachi_r_l2d/11019-yudachi_r_l2d.model3.json",
-        "name": "Yuudachi_retrofit.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1110-shokaku_l2d/1110-shokaku_l2d.model3.json",
-        "name": "Shoukaku.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1138-dukeofyork_l2d/1138-dukeofyork_l2d.model3.json",
-        "name": "Duke of York.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1141-vittorio_l2d/1141-vittorio_l2d.model3.json",
-        "name": "Littorio.png"
-    },
-    {
-        "dir": "./data/assets/shipgirls/Velvet Code/Live2D/1142-caioduilio_l2d/1142-caioduilio_l2d.model3.json",
-        "name": "Caio Dulio.png"
     }
 ]
