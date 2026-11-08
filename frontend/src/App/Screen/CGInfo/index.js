@@ -2,23 +2,18 @@ import { Box, Flex, SlideFade, HStack, Tag, Text, Center, Button, ButtonGroup, I
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FaArrowRight, FaCopy, FaPencilAlt, FaPlay, FaSearch, FaSpinner, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import { useLocation, useNavigate } from "react-router-dom"
-import { SiteFooter, SiteHeader, CensoredImage } from "../../Component"
+import { SiteFooter, SiteHeader, CensoredImage, Model3DViewer } from "../../Component"
 import { debounce } from "lodash"
 import { GET_articleById, GET_cgById, GET_query, POST_getFav, POST_toggleFav } from "../../Service/shipgirl"
 import { MdFavorite, MdFavoriteBorder } from "react-icons/md"
 import { Live2DModel } from 'pixi-live2d-display/cubism4';
 import * as PIXI from 'pixi.js';
 import {Spine} from 'pixi-spine';
-import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js'
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { SimpleCharCard } from "../../Component/SimpleCGCard"
 import { nation_name_to_twemoji_flag, type_name_to_icon } from "../../Utils/data_mapping"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-const LEGACY_THREEJS_REQUIRED_FOLDERS = ["Lane Girls", "Abyss Horizon"]
 const LEGACY_CHIBI_REQUIRED_FOLDERS = ["Black Surgenights", "Azur Lane"]
 const LEGACY_SPINE_REQUIRED_FOLDER = ["Black Surgenights"] 
 
@@ -47,30 +42,6 @@ const SoundCard = (props) => {
             </ButtonGroup>
         </Box>
     )
-}
-
-function loadLegacyThreeJSLibrary() {
-    const script = []
-    for (let i = 0; i < 4; i++) {
-        script.push(document.createElement('script'))
-    }
-    const head = document.getElementsByTagName('head')[0]
-    script[0].src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.js'
-    script[1].src = 'https://cdn.jsdelivr.net/npm/zlibjs@0.3.1/bin/zlib.min.js'
-    script[2].src = '/lib/orbit-control.js'
-    script[3].src = '/lib/fbx-loader.js'
-
-    head.appendChild(script[0])
-    script[0].addEventListener('load', () => {
-        // console.log('legacy threejs loaded')
-        head.appendChild(script[1])
-        script[1].addEventListener('load', () => {
-            // zlib loaded
-            // console.log('zlib loaded')
-            head.appendChild(script[2])
-            head.appendChild(script[3])
-        })
-    })
 }
 
 export const CGInfo = (props) => {
@@ -176,15 +147,9 @@ export const CGInfo = (props) => {
         if (location.state && location.state.data) {
             // console.log(location.state.data)
             setCgInfoState(setupUncertainFlags(location.state.data))
-            if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(location.state.data.folder)) {
-                loadLegacyThreeJSLibrary()
-            }
         }
         else if (query.get("id")) {
             GET_cgById(query.get("id")).then((res) => {
-                if (window && document && LEGACY_THREEJS_REQUIRED_FOLDERS.includes(res.folder)) {
-                    loadLegacyThreeJSLibrary()
-                }
                 setCgInfoState(setupUncertainFlags(res))
             })
         }
@@ -1067,167 +1032,11 @@ export const CGInfo = (props) => {
             }, 66)
         }
 
-        if (data.m3d) {
-            if (LEGACY_THREEJS_REQUIRED_FOLDERS.includes(data.folder)) {
-                let waiting_time = 0;
-                while(!global.THREE) {
-                    await new Promise(resolve => setTimeout(resolve, 500));
-                    waiting_time += 500;
-
-                    if (waiting_time > 5000) {
-                        console.log("Failed to load THREE.js")
-                        showErrorToast("Failed to load 3D model")
-                        return;
-                    }
-                }
-                const THREE_LEGACY = global.THREE;
-
-                while(!THREE_LEGACY.OrbitControls || !THREE_LEGACY.FBXLoader) {
-                    await new Promise(resolve => setTimeout(resolve, 500));
-                    waiting_time += 500;
-
-                    if (waiting_time > 10000) {
-                        console.log("Failed to load auxiliary lib")
-                        showErrorToast("Failed to load 3D model")
-                        return;
-                    }
-                }
-                
-                // use legacy three bundles
-                const canvas = document.getElementById('m3d-viewer');
-                const MODEL_SCALE = data.folder === "Abyss Horizon" ? 100 : 12
-                
-                const scene = new THREE_LEGACY.Scene();
-                const camera = new THREE_LEGACY.PerspectiveCamera(70, 800 / 550, 1, 10000);
-                const clock = new THREE_LEGACY.Clock()
-                let mixer = null;
-
-                scene.background = new THREE_LEGACY.Color( 0xbfe3dd );
-                camera.position.set(-96, 120, 96)
-                camera.lookAt(new THREE_LEGACY.Vector3(0,120,0))
-
-                const light = new THREE_LEGACY.AmbientLight( 0xffffffff ); // soft white light
-                scene.add( light );
-
-                const renderer = new THREE_LEGACY.WebGLRenderer({canvas, antialias: true});
-                renderer.setSize(800, 550);
-
-                const controls = new THREE_LEGACY.OrbitControls(camera, renderer.domElement);
-                controls.enableDamping = true;
-                controls.dampingFactor = 0.09;
-                controls.rotateSpeed = 0.09;
-
-                function animate() {
-                    requestAnimationFrame( animate );
-                    if (mixer) mixer.update(clock.getDelta());
-                    renderer.render( scene, camera );
-                }
-
-                const fbxLoader = new THREE_LEGACY.FBXLoader()
-                fbxLoader.load(
-                    data.m3d.dir,
-                    (object) => {
-                        if (object.animations?.length) {
-                            mixer = new THREE_LEGACY.AnimationMixer( object );
-                            const showAnim = object.animations.findIndex((anim) => anim.name === "show")
-                            let action = mixer.clipAction(object.animations[showAnim !== -1 ? showAnim : 0]);
-                            action.play();
-                        }
-                        // reset position, scale and rotation
-                        object.position.set(0, -MODEL_SCALE / 2, 0);
-                        object.rotation.set(0, 0, 0);
-                        object.scale.set(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
-                            
-                        scene.add(object)
-                        animate();
-                    },
-                    (xhr) => {
-                        console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
-                    },
-                    (error) => {
-                        console.log(error)
-                        showErrorToast("Failed to load 3D model")
-                    }
-                )
-            }
-            else {
-                // use new three bundles
-                const canvas = document.getElementById('m3d-viewer');
-
-                const scene = new THREE.Scene();
-                const camera = new THREE.PerspectiveCamera(70, 880 / 500, 1, 100);
-
-                const clock = new THREE.Clock()
-                let mixer = null;
-
-                scene.background = new THREE.Color( 0xbfe3dd );
-                camera.position.set(-6, 12, 6)
-                camera.lookAt(new THREE.Vector3(0,0,0))
-
-                const light = new THREE.AmbientLight( 0xffffffff ); // soft white light
-                scene.add( light );
-
-                const renderer = new THREE.WebGLRenderer({canvas, antialias: true});
-                renderer.setSize(880, 550);
-
-                const controls = new OrbitControls(camera, renderer.domElement);
-
-                function animate() {
-                    requestAnimationFrame( animate );
-                    if (mixer) mixer.update(clock.getDelta());
-                    renderer.render( scene, camera );
-                }
-
-                const gltfLoader = new GLTFLoader()
-
-                gltfLoader.load( './data/assets/shipgirls/Abyss Horizon/char3d/100030/gltf/100030.gltf', function ( gltf ) {
-                    gltf.scene.position.set(0, 0, 0);
-                    gltf.scene.rotation.set(0, 0, 0);
-                    gltf.scene.scale.set(1000, 1000, 1000);
-                    scene.add( gltf.scene );
-
-                    animate()
-                }, undefined, function ( error ) {
-                    console.error( error );
-                } );
-
-                // const fbxLoader = new FBXLoader()
-                // fbxLoader.load(
-                //     './data/assets/shipgirls/Abyss Horizon/char3d/100030/100030.fbx',
-                //     (object) => {
-                //         if (object.animations.length !== 0) {
-                //             mixer = new THREE.AnimationMixer( object );
-                //             const showAnim = object.animations.findIndex((anim) => anim.name === "idle")
-                //             let action = mixer.clipAction(object.animations[showAnim !== -1 ? showAnim : 0]);
-                //             action.play();
-                //         }
-                //         else {
-                //             console.log("No animation found")
-                //         }
-                //         // reset position, scale and rotation
-                //         object.position.set(0, 0, 0);
-                //         object.rotation.set(0, 0, 0);
-                //         object.scale.set(3, 3, 3);
-                            
-                //         scene.add(object)
-                //         animate();
-                //     },
-                //     (xhr) => {
-                //         console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
-                //     },
-                //     (error) => {
-                //         console.log(error)
-                //     }
-                // )
-            }
-        }
-        
-    }, [data])   
+    }, [data])
 
     // unload the model and remove PIXI app when unmount
     useEffect(() => {
         return () => {
-            global.THREE = null
             if (data.l2d) {
                 PIXI.Application.destroy()
             }
@@ -1476,11 +1285,8 @@ export const CGInfo = (props) => {
                                         </VStack>
                                     </TabPanel>}
                                     {data.m3d && <TabPanel width={'100%'}>
-                                        <Center width={'100%'}>
-                                            {/* 3D */}
-                                            <canvas height={500} style={{width: '100%', height: 500, imageRendering: 'crisp-edges'}} id="m3d-viewer"></canvas>
-                                        </Center>
-                                        <Center margin={12}><Text as='b' fontSize='sm'>Use left mouse to control camera view</Text></Center>
+                                        <Model3DViewer modelUrl={data.m3d.dir} disableVertexColors={data.folder === "Abyss Horizon"} onError={showErrorToast} />
+                                        <Center margin={12}><Text as='b' fontSize='sm'>Drag to rotate • Scroll or pinch to zoom</Text></Center>
                                     </TabPanel>}
                                     {data.voice && <TabPanel>
                                         <Center>

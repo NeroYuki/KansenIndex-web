@@ -24,16 +24,6 @@ module.exports.injectOpenGraph = (path, query) => {
                 og_title = `KansenIndex - ${char}`
                 og_description = `CG Info for ${char} - ${modifier} from ${folder}`
                 og_image = `https://kansenindex.dev/${thumb_dir}`
-                
-                // if folder name is "Lane Girls", inject external script to <head> (This is terrible, I know, but the newest version that work with these cases is 5 years ago)
-                // console.log(folder)
-                // if (folder === "Lane Girls") {
-                //     console.log('injecting external script to <head> (legacy threejs)')
-                //     result = result.replace('</head>', `
-                //         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.js"></script>
-                //         <script src="https://cdn.jsdelivr.net/npm/zlibjs@0.3.1/bin/zlib.min.js"></script>
-                //     </head>`)
-                // }
             }
             else {
                 og_description = 'CG Info not found'
