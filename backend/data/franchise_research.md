@@ -416,6 +416,16 @@ sets `cg_info.as_of` to the refresh date. Counts should not be repeated in
   plaintext and needs the game's decryption key. Character IDs can still be
   mapped from texture names such as `1163-Gneisenau` and from the internal
   AssetBundle names.
+- The cache is the safer source for recent hotfix characters. The APK's
+  `1163-Gneisenau` texture is byte-identical to `1161-Derfflinger` (a
+  duplicate/mislabeled entry), while the cache `1163-Gneisenau` has the
+  correct art. Z2 is present in the cache but absent from the APK CG index.
+- Extracted cache CGs are in `output/vc26/cg`; the APK CG index is
+  `output/vc26/charcg_index.json`. Some APK CG bundles also contain
+  uncensored `_nonH` variants, 3D body/face/hair/weapon maps, and outfit art.
+- Additional client-only characters seen in the cache CG bundles but not in
+  the GameKee roster: Admiral Hipper, Algeria, Kersaint, Blucher, and San
+  Juan. They still need playability verification.
 
 ### Victory Belles
 
