@@ -16364,5 +16364,558 @@
             "France"
         ],
         "ship_type": "Battleship"
+    },
+    {
+        "name": "Eldridge_Electrifying Moon-Viewing",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Ingraham_Wanderer in a Miniature World",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Miller_Miller the GOAT, Guardian of the Bridge",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Collett_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Collett_Full-Auto Maintenance",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Harrison_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Harrison_Accidental Pursuit Race",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "John Rodgers_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "John Rodgers_Grid Girl's Interval",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Vicksburg_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Vicksburg_Dazzling Diva of the Raceway",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Quincy_Extracurricular Tutoring",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Bennington_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Bennington_Sunshine Chaser",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "De Zeven Provinci\u00ebn_Archangel of Wings Impure",
+        "nation": [
+            "Netherlands"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "A2_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "A2_fruit of tempt[A]tion",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "2B_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "2B_[B]rief respite",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Valpara\u00edso_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Kearsarge_Wedding",
+        "nation": [
+            "United States"
+        ],
+        "ship_type": "Aviation Battleship"
+    },
+    {
+        "name": "Griffin_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Griffin_Tensest Relaxation Therapy",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Hardy_Retrofit",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Hostile_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Hostile_Coastal Vigil",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Hasty_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Hasty_Sleepless Dollhouse",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Belfast_Retrofit",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Scylla_Wedding",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Superb_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Superb_Superb Dentistry",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Tiger_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Tiger_Maiden of the Stars",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Surrey_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Surrey_Feverish and Disheveled",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Duke of York_Femme Fatale's Bewitching Veil",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Lion_Alleyway Temptress",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Indomitable_The Laid-Back Navigator",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Cheshire_Cheshire Cat's Fairytale Maze",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Plymouth_An Angelic Physical",
+        "nation": [
+            "United Kingdom"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Duncan_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Amatsukaze_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Amatsukaze_The Fox Spirit Descends On Heavenly Winds",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Azuchi_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Azuchi_Testing Courage in Crimson",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Musashi_Cheering For You Alone",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Owari_Wedding",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Shoukaku_The Crane's Gratitude",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Shinano_Wedding",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Hakuhou_Sunshower Fox Bride",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "I-14_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "I-14_Thousand-Faced Nothingness",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Daisen_Angel in the Devil's Mirror",
+        "nation": [
+            "Japan"
+        ],
+        "ship_type": "Battleship"
+    },
+    {
+        "name": "Takahashi_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Z11_Cheer Up, Ms. Nurse!",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Destroyer"
+    },
+    {
+        "name": "Yorck_Phantasmagoric Night Dancer",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Friedrich Carl_The Midnight Channel",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Fritz Rumey_Verabredung in the Night Breeze",
+        "nation": [
+            "Germany"
+        ],
+        "ship_type": "Aircraft Carrier"
+    },
+    {
+        "name": "Max Immelmann_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "\u00c9mile Bertin_\u00c9clat Magique",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Light Cruiser"
+    },
+    {
+        "name": "Orage_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Alg\u00e9rie_The Strict Maid Isn't So Strict",
+        "nation": [
+            "France"
+        ],
+        "ship_type": "Heavy Cruiser"
+    },
+    {
+        "name": "Ganj-i-Sawai_My Innermost Self",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Queen Anne's Revenge_Seductive Wings of Dark Depravity",
+        "nation": [
+            "Fictional"
+        ],
+        "ship_type": "Sailing Frigate"
+    },
+    {
+        "name": "Merkuriy_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Merkuriy_Envoy Angel of Love",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "J\u00e1rnbar\u00f0inn_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "J\u00e1rnbar\u00f0inn_Fallen Angel Astray",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Selimiye_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Selimiye_Seer in a Bind",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Ormrinn Langi_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Ormrinn Langi_Pure-White Predator",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Riyala Bey_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Riyala Bey_Angelic Idol\u2606in Training",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Soobrazitelny META_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "N\u00fcrnberg META_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Victorious META_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
+    },
+    {
+        "name": "Saratoga META_Default",
+        "nation": [
+            "Unknown"
+        ],
+        "ship_type": "Unknown"
     }
 ]

@@ -4153,5 +4153,185 @@
 		"name": "Glorious_Kai (CV)",
 		"ship_type": "Aircraft Carrier",
 		"illust": "Konishi"
+	},
+	{
+		"name": "Hayanami_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Glorious",
+		"ship_type": "Battlecruiser",
+		"illust": "Konishi"
+	},
+	{
+		"name": "Hiryuu_Kai San",
+		"ship_type": "Aircraft Carrier",
+		"illust": "Shibafu"
+	},
+	{
+		"name": "Tamanami_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Suzunami_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Fubuki_Kai San",
+		"ship_type": "Destroyer",
+		"illust": "Shibafu"
+	},
+	{
+		"name": "Fubuki_Kai San Go (Type 6)",
+		"ship_type": "Destroyer",
+		"illust": "Shibafu"
+	},
+	{
+		"name": "Naganami_Kai Ni Ho",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Asashimo_Kai Ni Ho",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Suzunami_Kai Ni Ho",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Sagiri_Kai Ni",
+		"ship_type": "Destroyer",
+		"illust": "drew"
+	},
+	{
+		"name": "Indiana",
+		"ship_type": "Battlecruiser",
+		"illust": "Zeco"
+	},
+	{
+		"name": "Indiana_Kai",
+		"ship_type": "Battlecruiser",
+		"illust": "Zeco"
+	},
+	{
+		"name": "Reno",
+		"ship_type": "Light Cruiser",
+		"illust": "Shizuma Yoshinori"
+	},
+	{
+		"name": "Independence",
+		"ship_type": "Light Carrier",
+		"illust": "Hoshi Akari"
+	},
+	{
+		"name": "Independence_Kai",
+		"ship_type": "Light Carrier",
+		"illust": "Hoshi Akari"
+	},
+	{
+		"name": "Independence Flight II",
+		"ship_type": "Light Carrier",
+		"illust": "Hoshi Akari"
+	},
+	{
+		"name": "Hanazuki",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Kiri",
+		"ship_type": "Destroyer",
+		"illust": "Watanabe Akio"
+	},
+	{
+		"name": "Hanazuki_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Fujikawa"
+	},
+	{
+		"name": "Algérie",
+		"ship_type": "Heavy Cruiser",
+		"illust": "Umihara Sakana"
+	},
+	{
+		"name": "Vautour",
+		"ship_type": "Destroyer",
+		"illust": "Sumino"
+	},
+	{
+		"name": "Béarn",
+		"ship_type": "Aircraft Carrier",
+		"illust": "Akira"
+	},
+	{
+		"name": "Algérie_Kai",
+		"ship_type": "Heavy Cruiser",
+		"illust": "Umihara Sakana"
+	},
+	{
+		"name": "Vautour_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Sumino"
+	},
+	{
+		"name": "Béarn_Kai",
+		"ship_type": "Aircraft Carrier",
+		"illust": "Akira"
+	},
+	{
+		"name": "Béarn Amélioration",
+		"ship_type": "Aircraft Carrier",
+		"illust": "Akira"
+	},
+	{
+		"name": "Visby",
+		"ship_type": "Destroyer",
+		"illust": "drew"
+	},
+	{
+		"name": "Hie Maru",
+		"ship_type": "Munition Ship",
+		"illust": "Akasaka Yuzu"
+	},
+	{
+		"name": "Visby_Kai",
+		"ship_type": "Destroyer",
+		"illust": "drew"
+	},
+	{
+		"name": "Hie Maru_Kai",
+		"ship_type": "Munition Ship",
+		"illust": "Akasaka Yuzu"
+	},
+	{
+		"name": "Kitakami_Kai San",
+		"ship_type": "Light Cruiser",
+		"illust": "Shibafu"
+	},
+	{
+		"name": "Fusou_Kai Ni Ho",
+		"ship_type": "Aviation Battleship",
+		"illust": "Rikka"
+	},
+	{
+		"name": "Yamashiro_Kai Ni Ho",
+		"ship_type": "Aviation Battleship",
+		"illust": "Rikka"
+	},
+	{
+		"name": "Reno_Kai",
+		"ship_type": "Light Cruiser",
+		"illust": "Shizuma Yoshinori"
+	},
+	{
+		"name": "Kiri_Kai",
+		"ship_type": "Destroyer",
+		"illust": "Watanabe Akio"
 	}
 ]

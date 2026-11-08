@@ -1018,5 +1018,61 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/Live2D/zhenzhuhao_2/zhenzhuhao_2.model3.json",
         "name": "Pearl_Fallen Angel in the Dark Castle"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/antu_2/antu_2.model3.json",
+        "name": "Azuchi_Testing Courage in Crimson"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/baifeng_3/baifeng_3.model3.json",
+        "name": "Hakuhou_Sunshower Fox Bride"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/benningdun_2/benningdun_2.model3.json",
+        "name": "Bennington_Sunshine Chaser"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/bunao_3/bunao_3.model3.json",
+        "name": "Indomitable_The Laid-Back Navigator"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/chaijun_6/chaijun_6.model3.json",
+        "name": "Cheshire_Cheshire Cat's Fairytale Maze"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/feiteliekaer_4/feiteliekaer_4.model3.json",
+        "name": "Friedrich Carl_The Midnight Channel"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/gangyishawa_3/gangyishawa_3.model3.json",
+        "name": "Ganj-i-Sawai_My Innermost Self"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/guanghui_9/guanghui_9.model3.json",
+        "name": "Illustrious_Wandering Glow of Midnight"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/jinluhao_3/jinluhao_3.model3.json",
+        "name": "Golden Hind_The Pale Phantom's Smile"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/pulimaosi_3/pulimaosi_3.model3.json",
+        "name": "Plymouth_An Angelic Physical"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/sailimiye_2/sailimiye_2.model3.json",
+        "name": "Selimiye_Seer in a Bind"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/shi_3/shi_3.model3.json",
+        "name": "Lion_Alleyway Temptress"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/shuixinghao_2/shuixinghao_2.model3.json",
+        "name": "Merkuriy_Envoy Angel of Love"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/Live2D/wuzang_4/wuzang_4.model3.json",
+        "name": "Musashi_Cheering For You Alone"
     }
 ]

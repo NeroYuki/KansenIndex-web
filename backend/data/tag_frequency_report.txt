@@ -1,87 +1,87 @@
 Tag Frequency Report
-Generated: 2026-06-30T18:13:29.655Z
+Generated: 2026-11-08T09:20:27.416Z
 Total unique tags: 5300
-Total tag occurrences: 656446
-Average tags per image: 44.86
+Total tag occurrences: 656168
+Average tags per image: 43.72
 
 Tags by frequency:
-1girl: 14427
-solo: 14354
-full body: 13748
+1girl: 14423
+solo: 14350
+full body: 13743
 transparent background: 12616
-looking at viewer: 11476
-long hair: 10985
-breasts: 10287
-rigging: 7317
+looking at viewer: 11471
+long hair: 10981
+breasts: 10282
+rigging: 7315
 machinery: 7296
-turret: 7256
-smile: 6209
-thighhighs: 6021
-holding: 5967
-skirt: 5721
-large breasts: 5570
-cannon: 5386
-blush: 5281
-gloves: 5227
-long sleeves: 5223
-hair ornament: 5174
-open mouth: 5149
-dress: 4851
-blue eyes: 4569
-cleavage: 4507
-standing: 4430
-bare shoulders: 4257
-very long hair: 3958
-boots: 3832
+turret: 7253
+smile: 6207
+thighhighs: 6017
+holding: 5963
+skirt: 5720
+large breasts: 5566
+cannon: 5385
+blush: 5279
+gloves: 5225
+long sleeves: 5222
+hair ornament: 5172
+open mouth: 5147
+dress: 4846
+blue eyes: 4566
+cleavage: 4504
+standing: 4428
+bare shoulders: 4254
+very long hair: 3957
+boots: 3831
 torn clothes: 3682
-high heels: 3369
-blonde hair: 3316
+high heels: 3367
+blonde hair: 3315
 hat: 3270
-black footwear: 3268
-ribbon: 3216
+black footwear: 3265
+ribbon: 3215
 shirt: 3194
 medium breasts: 3136
 pleated skirt: 3054
-short hair: 3001
-closed mouth: 2962
-red eyes: 2919
-shoes: 2902
-official alternate costume: 2880
+short hair: 3000
+closed mouth: 2961
+red eyes: 2918
+shoes: 2901
+official alternate costume: 2878
 weapon: 2832
-white background: 2760
+white background: 2757
 navel: 2742
-brown hair: 2730
+brown hair: 2728
 tachi-e: 2727
-simple background: 2673
+simple background: 2671
 black hair: 2642
 hair between eyes: 2559
-sitting: 2536
+sitting: 2535
 torpedo: 2507
 jacket: 2441
-pantyhose: 2365
+pantyhose: 2364
 black thighhighs: 2309
-black gloves: 2227
+black gloves: 2226
 damaged: 2189
-flower: 2165
-white hair: 2159
+flower: 2162
+white hair: 2157
 twintails: 2117
-bow: 2106
-white thighhighs: 2102
-thigh strap: 2020
+bow: 2105
+white thighhighs: 2098
+thigh strap: 2018
 ahoge: 1980
 socks: 1932
-purple eyes: 1931
-grey hair: 1926
-brown eyes: 1893
+purple eyes: 1930
+grey hair: 1925
+brown eyes: 1892
 white shirt: 1866
 jewelry: 1853
 yellow eyes: 1821
 hair ribbon: 1812
 underwear: 1796
-thighs: 1781
+thighs: 1780
 miniskirt: 1757
 braid: 1740
-white gloves: 1738
+white gloves: 1737
 rudder footwear: 1729
 japanese clothes: 1702
 detached sleeves: 1694
@@ -90,55 +90,55 @@ small breasts: 1657
 wide sleeves: 1630
 holding weapon: 1627
 smokestack: 1612
-white dress: 1574
+white dress: 1573
 swimsuit: 1570
 collarbone: 1533
-multicolored hair: 1526
-short sleeves: 1515
+multicolored hair: 1525
+short sleeves: 1513
 school uniform: 1512
 defeat: 1508
 sleeveless: 1496
-frills: 1496
 sandals: 1495
+frills: 1494
 animal ears: 1488
 ponytail: 1481
 black skirt: 1423
 panties: 1417
 zettai ryouiki: 1408
 anchor: 1380
-white footwear: 1373
+white footwear: 1372
 green eyes: 1341
 blue hair: 1328
 torpedo tubes: 1320
 one eye closed: 1301
 smoke: 1296
 torn thighhighs: 1293
-elbow gloves: 1277
-black pantyhose: 1268
+elbow gloves: 1276
+black pantyhose: 1267
 sailor collar: 1262
-choker: 1247
-barefoot: 1245
+choker: 1246
+barefoot: 1244
 midriff: 1234
 hairband: 1226
 military: 1173
-food: 1168
 broken: 1168
+food: 1167
 open clothes: 1166
 bikini: 1166
 kimono: 1151
-hair flower: 1151
+hair flower: 1150
 pink hair: 1149
 purple hair: 1148
 garter straps: 1116
 shorts: 1103
-ass: 1084
+ass: 1083
 headgear: 1047
 sidelocks: 1014
-black dress: 1008
+black dress: 1006
 off shoulder: 998
 white headwear: 991
 sword: 990
-feet: 978
+feet: 977
 coat: 955
 flight deck: 954
 blue skirt: 950
@@ -152,14 +152,14 @@ buttons: 875
 mecha musume: 871
 tail: 869
 toes: 865
-red hair: 865
+red hair: 864
 fingerless gloves: 863
 horns: 862
 kneehighs: 847
-thigh boots: 844
+thigh boots: 843
 bird: 843
 see-through: 832
-clothing cutout: 831
+clothing cutout: 828
 white socks: 828
 torn skirt: 828
 sash: 826
@@ -174,8 +174,8 @@ gun: 779
 skindentation: 779
 leg up: 767
 knee boots: 766
-cup: 765
 bare legs: 764
+cup: 764
 hair bow: 755
 chain: 741
 black headwear: 737
@@ -185,18 +185,18 @@ military uniform: 715
 obi: 710
 cape: 698
 fang: 692
-puffy sleeves: 686
+puffy sleeves: 685
 glasses: 680
 leotard: 673
-looking back: 670
+looking back: 669
 mole: 659
 open jacket: 649
 high heel boots: 649
 armpits: 640
 legs: 638
-parted lips: 631
+parted lips: 630
 short dress: 629
-sleeveless dress: 626
+sleeveless dress: 625
 crop top: 624
 floral print: 622
 peaked cap: 620
@@ -207,7 +207,7 @@ apron: 607
 torn pantyhose: 603
 stomach: 602
 hand on own hip: 596
-single thighhigh: 596
+single thighhigh: 595
 neckerchief: 587
 arm up: 584
 covered navel: 579
@@ -215,29 +215,29 @@ alternate costume: 574
 burnt clothes: 572
 pink eyes: 571
 black socks: 565
-streaked hair: 564
-side ponytail: 560
-hair over one eye: 560
+streaked hair: 563
 red footwear: 560
+side ponytail: 559
+hair over one eye: 559
 holding sword: 559
 fake animal ears: 556
 bowtie: 553
 red skirt: 549
 bell: 547
-outdoors: 541
 cross-laced footwear: 540
+outdoors: 540
 short shorts: 537
-sideboob: 537
+sideboob: 536
 brown footwear: 532
 sky: 526
 underboob: 524
 crossed legs: 523
 white pantyhose: 522
-chinese clothes: 514
 sheath: 513
+chinese clothes: 513
 no shoes: 512
-floating hair: 505
-red ribbon: 500
+floating hair: 504
+red ribbon: 499
 kneeling: 494
 frilled dress: 493
 petals: 492
@@ -246,7 +246,7 @@ blunt bangs: 486
 striped clothes: 481
 black jacket: 477
 white jacket: 473
-cross: 473
+cross: 471
 white panties: 470
 propeller: 466
 green hair: 464
@@ -256,24 +256,24 @@ rose: 457
 loafers: 455
 bra: 453
 lace-up boots: 452
-indoors: 452
+indoors: 451
 strapless: 448
 collared shirt: 446
 tears: 445
 watercraft: 442
-side slit: 441
+side slit: 440
 bracelet: 440
 beret: 437
 soles: 435
 torn dress: 435
 chick: 429
 umbrella: 427
-medium hair: 427
+medium hair: 426
 torn shirt: 425
 necklace: 420
 white flower: 420
 box: 420
-blue dress: 420
+blue dress: 419
 uneven legwear: 416
 orange eyes: 416
 black shorts: 410
@@ -282,24 +282,24 @@ hood: 410
 grey footwear: 408
 gradient hair: 407
 two side up: 406
-nail polish: 406
 two-tone hair: 405
-from behind: 405
 aiguillette: 405
-red dress: 403
+nail polish: 405
+from behind: 404
 hakama: 403
 double bun: 403
+red dress: 402
 mole under eye: 400
 capelet: 399
-wrist cuffs: 398
 katana: 398
+wrist cuffs: 397
 rabbit ears: 396
 bottle: 395
-cleavage cutout: 394
 wet: 394
 lying: 393
-wings: 391
-black choker: 391
+cleavage cutout: 392
+wings: 390
+black choker: 390
 single braid: 388
 absurdly long hair: 385
 holding gun: 382
@@ -310,8 +310,8 @@ hakama skirt: 376
 scarf: 371
 sheathed: 370
 one-piece swimsuit: 370
-table: 369
-china dress: 368
+table: 368
+china dress: 367
 sleeveless shirt: 364
 halterneck: 363
 black bikini: 360
@@ -324,19 +324,19 @@ maid: 347
 hand up: 346
 cat ears: 345
 epaulettes: 343
-black ribbon: 342
+black ribbon: 341
 dark skin: 340
-pelvic curtain: 339
-red bow: 336
+pelvic curtain: 337
 christmas: 336
+red bow: 335
 closed eyes: 332
 day: 332
 single glove: 331
 cloud: 331
 gift: 330
-tongue: 329
-single shoe: 329
+tongue: 328
 dark-skinned female: 328
+single shoe: 328
 red flower: 327
 teeth: 327
 hand fan: 325
@@ -344,33 +344,33 @@ zouri: 325
 wariza: 324
 mary janes: 323
 personification: 322
-tree: 319
 detached collar: 318
 brown thighhighs: 318
 pencil skirt: 318
+tree: 318
 headband: 318
-one side up: 316
 outstretched arm: 315
-plant: 313
+one side up: 315
+plant: 312
 chair: 310
 holding cup: 309
-toenails: 309
+toenails: 308
 light brown hair: 307
 open coat: 307
 puffy short sleeves: 306
 black bow: 306
 sunglasses: 304
-heart: 303
 vest: 303
+heart: 302
 tassel: 299
-lantern: 299
 yukata: 298
+lantern: 297
 huge breasts: 296
 plaid: 295
 swim ring: 295
 ship: 294
-fire: 294
 pants: 294
+fire: 293
 blue footwear: 293
 pigeon-toed: 291
 gift box: 290
@@ -382,75 +382,75 @@ white coat: 284
 orange hair: 283
 iron cross: 283
 sneakers: 281
-sweater: 280
 tongue out: 280
 jingle bell: 279
+sweater: 279
 armband: 277
 sailor hat: 276
 strapless dress: 274
 animal ear fluff: 274
 arms up: 274
 blue jacket: 273
-book: 272
 blue sailor collar: 272
+book: 271
 hakama short skirt: 271
 blue ribbon: 270
-long dress: 269
 military vehicle: 269
 mast: 269
+long dress: 268
 frilled skirt: 267
 alcohol: 266
 white bikini: 263
-pillow: 258
+pillow: 257
 aqua eyes: 253
 adapted turret: 248
 armor: 247
 cat: 244
-night: 244
 grin: 243
+night: 243
 innertube: 241
 sleeves past wrists: 241
-multiple girls: 240
-fruit: 239
+multiple girls: 239
 blue bow: 239
 santa costume: 238
+fruit: 238
 holding fan: 237
 headphones: 236
 geta: 233
 single hair bun: 233
-bridal gauntlets: 233
 black eyes: 233
 knees together feet apart: 232
+bridal gauntlets: 232
 bodysuit: 230
 arrow (projectile): 230
 window: 230
 holding umbrella: 229
-veil: 229
 eyewear on head: 228
+veil: 228
 collar: 228
 fox ears: 227
 fish: 227
-flag: 226
 mini hat: 226
+flag: 225
 blue headwear: 225
 leaning forward: 224
 drill hair: 224
-staff: 224
 semi-rimless eyewear: 223
+staff: 223
 red necktie: 223
 plaid skirt: 222
 stuffed toy: 221
 covering breasts: 221
-hand on own chest: 218
 grey thighhighs: 218
 bouquet: 218
 revealing clothes: 218
+hand on own chest: 217
 maid apron: 217
 brown pantyhose: 216
 anti-aircraft: 216
 anklet: 216
-potted plant: 216
 wedding dress: 215
+potted plant: 215
 watson cross: 213
 polearm: 212
 ascot: 210
@@ -477,9 +477,9 @@ warship: 202
 parted bangs: 201
 partially fingerless gloves: 201
 hair flaps: 201
-couch: 200
 candy: 200
 unworn headwear: 200
+couch: 199
 pointy ears: 197
 white kimono: 197
 french braid: 197
@@ -513,8 +513,8 @@ blue kimono: 183
 wine glass: 182
 red gloves: 181
 pink flower: 180
-unworn shoes: 178
 ;d: 177
+unworn shoes: 177
 unworn hat: 177
 halloween: 176
 grey skirt: 176
@@ -523,14 +523,14 @@ black bra: 175
 cat tail: 175
 halloween costume: 173
 tray: 173
-thighband pantyhose: 172
 holding bow (weapon): 172
+thighband pantyhose: 171
 black shirt: 170
 robot: 170
 oil-paper umbrella: 169
 arm support: 169
 ball: 169
-pale skin: 168
+pale skin: 167
 black necktie: 166
 clothes writing: 165
 blue flower: 165
@@ -538,11 +538,11 @@ low-tied long hair: 165
 okobo: 162
 on side: 162
 buckle: 162
-holding staff: 162
 gold trim: 161
-symbol-shaped pupils: 161
+holding staff: 161
 string bikini: 161
 blue shirt: 160
+symbol-shaped pupils: 160
 purple dress: 160
 white shorts: 159
 fur-trimmed coat: 159
@@ -561,22 +561,22 @@ sack: 153
 feathers: 153
 bucket: 153
 cherry blossoms: 152
-scrunchie: 152
 bridal veil: 151
 jacket on shoulders: 151
 shoulder bag: 151
 hair over shoulder: 151
+scrunchie: 151
 holding bouquet: 150
 yokozuwari: 150
 suspenders: 149
-halo: 149
 on back: 149
-eyepatch: 148
+eyepatch: 147
+halo: 147
 blue bikini: 147
-night sky: 147
 red headwear: 146
 armored boots: 146
 pleated dress: 146
+night sky: 146
 handbag: 145
 skirt hold: 145
 brown skirt: 145
@@ -619,12 +619,12 @@ goggles on head: 134
 frilled bikini: 134
 pom pom (clothes): 134
 towel: 134
-paper lantern: 134
 broken weapon: 134
 red jacket: 133
 rabbit: 133
 cloak: 133
 cardigan: 133
+paper lantern: 133
 cake: 133
 bodystocking: 132
 hair bell: 132
@@ -670,15 +670,15 @@ white hairband: 122
 see-through dress: 122
 black belt: 121
 ribbon-trimmed sleeves: 121
-lamp: 121
 jack-o'-lantern: 120
 candle: 120
 star print: 120
-no panties: 120
+lamp: 120
 strappy heels: 119
 starfish: 119
 single kneehigh: 119
 white sailor collar: 119
+no panties: 119
 belt buckle: 118
 over-kneehighs: 118
 black pants: 117
@@ -693,12 +693,12 @@ wristband: 114
 blue necktie: 114
 holding arrow: 114
 holding polearm: 114
-feather boa: 113
 white leotard: 112
 shawl: 112
 witch hat: 112
 blue coat: 112
 convenient censoring: 112
+feather boa: 112
 salute: 111
 pink bow: 111
 head tilt: 111
@@ -727,18 +727,18 @@ crab: 105
 white belt: 105
 vase: 105
 wet clothes: 105
-backless outfit: 105
 colored skin: 104
-leg ribbon: 104
 shoe dangle: 104
 ;o: 104
+backless outfit: 104
+leg ribbon: 103
 flip-flops: 103
-architecture: 103
 mole under mouth: 103
 rifle: 103
 short twintails: 102
 layered dress: 102
 yellow bow: 102
+architecture: 102
 grass: 102
 hat flower: 102
 animal print: 102
@@ -747,14 +747,14 @@ underbust: 101
 outstretched arms: 101
 round eyewear: 101
 fake tail: 101
-back: 101
 drinking straw: 101
 on couch: 101
 black serafuku: 101
+back: 100
 school bag: 100
 seiza: 100
-teacup: 100
 flag print: 100
+teacup: 99
 red hairband: 99
 x hair ornament: 99
 feathered wings: 98
@@ -763,26 +763,26 @@ shield: 98
 o-ring: 97
 rapier: 97
 blue thighhighs: 97
-east asian architecture: 97
 two-tone dress: 97
-one eye covered: 97
 from above: 97
-tentacles: 97
 union jack: 97
 purple footwear: 96
 yellow flower: 96
 finger to mouth: 96
-microphone: 96
 groin: 96
-black nails: 96
+east asian architecture: 96
 multiple tails: 96
 neck bell: 95
 thick eyebrows: 95
 shopping bag: 95
 antlers: 95
 zipper: 95
+microphone: 95
 bridal garter: 95
+black nails: 95
 leaf: 95
+one eye covered: 95
+tentacles: 95
 full moon: 95
 holding plate: 95
 setsubun: 95
@@ -813,7 +813,6 @@ faux figurine: 91
 aqua hair: 91
 dress shirt: 91
 shadow: 91
-turtleneck: 90
 bride: 90
 snow: 90
 top hat: 90
@@ -822,6 +821,7 @@ striped panties: 90
 light blue hair: 90
 bed: 90
 single leg pantyhose: 89
+turtleneck: 89
 sarashi: 89
 furisode: 89
 fur-trimmed cape: 89
@@ -889,7 +889,6 @@ grey gloves: 79
 scroll: 79
 blue rose: 79
 chopsticks: 79
-backless dress: 79
 on bed: 79
 adjusting eyewear: 78
 shimenawa: 78
@@ -898,6 +897,7 @@ fur-trimmed sleeves: 78
 clothes lift: 78
 sailor shirt: 78
 bandaid on face: 78
+backless dress: 78
 rock: 78
 pink ribbon: 77
 red capelet: 77
@@ -941,11 +941,11 @@ side cutout: 72
 bat (animal): 72
 fishnet thighhighs: 72
 mole on breast: 72
-scepter: 72
 helmet: 72
 highleg swimsuit: 72
 bandaid on leg: 72
 pet: 72
+scepter: 71
 brown belt: 71
 blue panties: 71
 breast pocket: 71
@@ -967,9 +967,7 @@ watch: 70
 gem: 70
 card: 70
 crown braid: 70
-confetti: 70
 black-framed eyewear: 69
-white sweater: 69
 skin fang: 69
 christmas ornaments: 69
 open book: 69
@@ -977,14 +975,15 @@ drink: 69
 tilted headwear: 69
 highleg bikini: 69
 fork: 69
+confetti: 69
 aqua bow: 69
+white sweater: 68
 demon wings: 68
 on head: 68
 baseball cap: 68
 green footwear: 68
 huge weapon: 68
 paper: 68
-fireworks: 68
 arms behind head: 67
 panties under pantyhose: 67
 adjusting clothes: 67
@@ -992,6 +991,7 @@ camisole: 67
 necktie between breasts: 67
 mug: 67
 happi: 67
+fireworks: 67
 asymmetrical bangs: 67
 masu: 67
 white sleeves: 66
@@ -1066,11 +1066,10 @@ crescent: 60
 blue neckerchief: 60
 cake slice: 60
 white scarf: 60
-speaker: 60
 white ascot: 59
 demon girl: 59
 closed umbrella: 59
-idol: 59
+speaker: 59
 hair spread out: 59
 water gun: 58
 winter clothes: 58
@@ -1083,6 +1082,7 @@ pen: 58
 grey headwear: 58
 restrained: 58
 clenched teeth: 58
+idol: 58
 blue butterfly: 58
 white wings: 57
 asymmetrical gloves: 57
@@ -1101,23 +1101,23 @@ brown headwear: 56
 adjusting headwear: 55
 snowman: 55
 headdress: 55
-holding microphone: 55
-butt crack: 55
 red shirt: 55
 kyuubi: 55
 swimsuit under clothes: 55
 copyright name: 55
-bare back: 55
 wolf tail: 55
 dragon horns: 55
 purple kimono: 54
 asymmetrical clothes: 54
 cutoffs: 54
+holding microphone: 54
+butt crack: 54
 grey dress: 54
 anchor hair ornament: 54
 striped bow: 54
 bike shorts under skirt: 54
 sports bra: 54
+bare back: 54
 tile floor: 54
 holding bottle: 54
 folded ponytail: 54
@@ -1129,7 +1129,6 @@ fur-trimmed capelet: 53
 fake antlers: 53
 unworn eyewear: 53
 covered mouth: 53
-ankle ribbon: 53
 thigh holster: 53
 lifted by self: 53
 clipboard: 53
@@ -1138,6 +1137,7 @@ mittens: 53
 forehead: 52
 popsicle: 52
 white vest: 52
+ankle ribbon: 52
 parasol: 52
 curly hair: 52
 off-shoulder shirt: 52
@@ -1187,7 +1187,6 @@ on floor: 50
 cone hair bun: 50
 torn shorts: 50
 tasuki: 50
-ribbed sweater: 49
 midriff peek: 49
 unsheathed: 49
 asymmetrical sleeves: 49
@@ -1204,6 +1203,7 @@ checkered floor: 49
 torn pants: 49
 spoon: 49
 dragon tail: 49
+ribbed sweater: 48
 fur collar: 48
 striped bikini: 48
 lace-trimmed thighhighs: 48
@@ -1220,7 +1220,6 @@ from below: 48
 belt pouch: 48
 hamaya: 48
 carpet: 48
-microphone stand: 48
 black horns: 48
 broken chain: 48
 tail ornament: 48
@@ -1234,17 +1233,18 @@ arm under breasts: 47
 floating object: 47
 tablet pc: 47
 fur-trimmed headwear: 47
+microphone stand: 47
 claws: 47
-cable: 47
 throne: 46
-3girls: 46
 asymmetrical footwear: 46
 dog: 46
 dirty: 46
 bar stool: 46
 black cat: 46
+cable: 46
 starry sky: 46
 uchiwa: 46
+3girls: 45
 ring: 45
 binoculars: 45
 lingerie: 45
@@ -1279,44 +1279,43 @@ taut clothes: 43
 inflatable toy: 43
 shoulder cutout: 43
 flats: 43
-new year: 43
 open shirt: 43
 hair tubes: 43
 arms behind back: 43
 holding hat: 43
 rubber boots: 43
 blue scarf: 42
-chinese new year: 42
 mechanical wings: 42
 dress lift: 42
 string panties: 42
+new year: 42
 ema: 42
 strap slip: 42
 embarrassed: 42
-nun: 42
 @ @: 42
 sleeves rolled up: 42
 very long sleeves: 42
 cloudy sky: 42
 yellow skirt: 42
 baseball bat: 42
-mechanical halo: 42
 open fly: 41
 purple bow: 41
 lattice: 41
+chinese new year: 41
 green ribbon: 41
-steam: 41
 paintbrush: 41
 black sleeves: 41
 handcuffs: 41
 cross earrings: 41
 tea: 41
+nun: 41
 breasts apart: 41
 fishing rod: 41
 see-through shirt: 41
 falling petals: 41
 green cape: 41
 beer: 41
+mechanical halo: 41
 sleeveless jacket: 41
 hagoita: 41
 competition swimsuit: 41
@@ -1327,6 +1326,7 @@ mouth mask: 40
 yellow footwear: 40
 syringe: 40
 lemon: 40
+steam: 40
 black capelet: 40
 wristwatch: 40
 beach chair: 40
@@ -1362,7 +1362,6 @@ water bottle: 39
 sleeve cuffs: 39
 blue hakama: 39
 menu board: 39
-book stack: 39
 logo: 39
 railing: 39
 picture frame: 39
@@ -1379,6 +1378,7 @@ sign: 38
 mountain: 38
 torn coat: 38
 swivel chair: 38
+book stack: 38
 race vehicle: 38
 orange skirt: 38
 fence: 38
@@ -1387,7 +1387,6 @@ torn bodysuit: 38
 horned headwear: 38
 purple vest: 38
 short eyebrows: 37
-black flower: 37
 frilled hairband: 37
 adjusting hair: 37
 mecha: 37
@@ -1401,6 +1400,7 @@ hair tie: 37
 top-down bottom-up: 37
 striped necktie: 37
 undershirt: 37
+black flower: 36
 :p: 36
 sideless outfit: 36
 red ascot: 36
@@ -1440,7 +1440,6 @@ ninja: 35
 curled horns: 35
 castle: 35
 seashell: 35
-bookshelf: 35
 grey coat: 35
 dog ears: 35
 bloomers: 35
@@ -1468,10 +1467,9 @@ saucer: 34
 lens flare: 34
 braided bun: 34
 disposable cup: 34
+bookshelf: 34
 controller: 34
 whale: 34
-stage lights: 34
-stage: 34
 sports car: 34
 fish (food): 34
 sleeping: 34
@@ -1492,9 +1490,10 @@ injury: 33
 jeans: 33
 guitar: 33
 axe: 33
-blue fire: 33
 single sleeve: 33
 mismatched bikini: 33
+stage lights: 33
+stage: 33
 drink can: 33
 messy hair: 33
 black wings: 33
@@ -1522,13 +1521,13 @@ treasure chest: 32
 cushion: 32
 sunlight: 32
 latex: 32
+blue fire: 32
 cityscape: 32
 sand castle: 32
 spikes: 32
 crying: 32
 aqua skirt: 32
 camouflage: 32
-turtleneck sweater: 31
 star earrings: 31
 thigh pouch: 31
 kinchaku: 31
@@ -1554,8 +1553,8 @@ sunflower: 31
 goldfish: 31
 animal on shoulder: 31
 racecar: 31
-weibo username: 31
 single knee pad: 31
+turtleneck sweater: 30
 ;p: 30
 yellow dress: 30
 grey socks: 30
@@ -1594,11 +1593,9 @@ fox: 30
 cow ears: 30
 soaking feet: 30
 glass bottle: 30
-bare tree: 30
 multiple wings: 30
 tropical drink: 30
 :t: 30
-sweater dress: 29
 bread: 29
 aviator sunglasses: 29
 waving: 29
@@ -1618,9 +1615,11 @@ shikigami: 29
 wrench: 29
 one-piece tan: 29
 paw pose: 29
+bare tree: 29
 hair on horn: 29
 submachine gun: 29
 tube top: 28
+sweater dress: 28
 ankle cuffs: 28
 feet up: 28
 shaded face: 28
@@ -1643,7 +1642,6 @@ linea alba: 28
 barrel: 28
 reflective floor: 28
 onsen: 28
-holding lantern: 28
 soda can: 28
 painting (object): 28
 column: 28
@@ -1677,8 +1675,10 @@ paw print: 27
 game controller: 27
 facing viewer: 27
 multiple swords: 27
+holding lantern: 27
 pom pom (cheerleading): 27
 skates: 27
+weibo username: 27
 green hakama: 27
 walking: 27
 layered sleeves: 27
@@ -1706,7 +1706,6 @@ whip: 26
 santa boots: 26
 monster girl: 26
 skyscraper: 26
-solo focus: 26
 shelf: 26
 orange bow: 26
 white bodysuit: 26
@@ -1742,9 +1741,9 @@ bound wrists: 25
 buruma: 25
 stretching: 25
 parfait: 25
-holding microphone stand: 25
 drum: 25
 pink bra: 25
+solo focus: 25
 coffee: 25
 doughnut: 25
 hooded capelet: 25
@@ -1770,6 +1769,7 @@ broken sword: 24
 unworn jacket: 24
 sake bottle: 24
 t-shirt: 24
+holding microphone stand: 24
 wagashi: 24
 hanging breasts: 24
 floating weapon: 24
@@ -1792,7 +1792,6 @@ hair over eyes: 24
 hanten (clothes): 24
 holding spoon: 24
 purple shirt: 24
-meme attire: 23
 half updo: 23
 rimless eyewear: 23
 stomach cutout: 23
@@ -1842,6 +1841,7 @@ cross necklace: 23
 intravenous drip: 23
 floral print kimono: 23
 flipped hair: 23
+meme attire: 22
 heart-shaped eyewear: 22
 ankleband: 22
 watermelon slice: 22
@@ -1864,7 +1864,6 @@ thong leotard: 22
 on table: 22
 hooded coat: 22
 animal costume: 22
-4girls: 22
 low neckline: 22
 no socks: 22
 forehead mark: 22
@@ -1880,7 +1879,6 @@ bright pupils: 22
 striped skirt: 22
 open kimono: 22
 chest sarashi: 22
-weibo logo: 22
 green gloves: 22
 angel: 21
 footwear bow: 21
@@ -1910,6 +1908,7 @@ black cloak: 21
 hooded cloak: 21
 yellow jacket: 21
 multicolored jacket: 21
+4girls: 21
 over shoulder: 21
 reclining: 21
 print bikini: 21
@@ -1986,6 +1985,7 @@ sundress: 20
 argyle clothes: 20
 striped kimono: 20
 onmyouji: 20
+weibo logo: 20
 red cloak: 20
 hair censor: 20
 teruterubouzu: 20
@@ -2106,7 +2106,6 @@ unworn helmet: 18
 ace (playing card): 18
 scissors: 18
 naginata: 18
-eastern dragon: 18
 haori: 18
 coconut: 18
 crossed bandaids: 18
@@ -2125,7 +2124,6 @@ orange shirt: 17
 dress bow: 17
 pirate: 17
 underwear only: 17
-chinese zodiac: 17
 twisted torso: 17
 skirt lift: 17
 cameltoe: 17
@@ -2158,6 +2156,7 @@ wetsuit: 17
 hooded cape: 17
 spade (shape): 17
 holding axe: 17
+eastern dragon: 17
 shark: 17
 net: 17
 yoga pants: 17
@@ -2184,6 +2183,7 @@ plunging neckline: 16
 ankle bow: 16
 fur coat: 16
 drawstring: 16
+chinese zodiac: 16
 policewoman: 16
 tennis uniform: 16
 blue sleeves: 16
@@ -2204,7 +2204,6 @@ forest: 16
 temari ball: 16
 school chair: 16
 dancer: 16
-black veil: 16
 shaved ice: 16
 black bag: 16
 traffic cone: 16
@@ -2262,7 +2261,6 @@ bicycle: 15
 tricorne: 15
 santa gloves: 15
 reindeer: 15
-octopus: 15
 egasumi: 15
 hydrangea: 15
 lotus: 15
@@ -2286,6 +2284,7 @@ drumsticks: 15
 sitting on desk: 15
 on desk: 15
 unworn coat: 15
+black veil: 15
 reflective water: 15
 shouji: 15
 bridge: 15
@@ -2304,7 +2303,6 @@ looking at mirror: 15
 squirrel tail: 15
 green shorts: 15
 orange footwear: 15
-black background: 15
 green socks: 15
 brown shirt: 15
 brown sailor collar: 15
@@ -2319,6 +2317,7 @@ wooden sword: 14
 blue cape: 14
 lips: 14
 grey neckerchief: 14
+octopus: 14
 unconventional maid: 14
 baseball mitt: 14
 baseball uniform: 14
@@ -2336,7 +2335,6 @@ sanshoku dango: 14
 white cardigan: 14
 bed sheet: 14
 kunai: 14
-idol clothes: 14
 chalkboard: 14
 finger gun: 14
 see-through jacket: 14
@@ -2376,6 +2374,7 @@ green coat: 14
 ammunition: 14
 vampire costume: 14
 hammer and sickle: 14
+black background: 14
 robot joints: 14
 bullet: 14
 denim skirt: 14
@@ -2407,6 +2406,7 @@ slit pupils: 13
 fins: 13
 between toes: 13
 pantyhose pull: 13
+idol clothes: 13
 clothes hanger: 13
 insect wings: 13
 partially underwater shot: 13
@@ -2460,7 +2460,6 @@ black ascot: 12
 owl: 12
 purple nails: 12
 legs together: 12
-watermark: 12
 hand on own arm: 12
 reaching: 12
 frilled choker: 12
@@ -2559,6 +2558,7 @@ grocery bag: 11
 holding hair: 11
 fishnet socks: 11
 dog tags: 11
+watermark: 11
 pendant: 11
 toe ring: 11
 fur-trimmed legwear: 11
@@ -2689,7 +2689,6 @@ slingshot swimsuit: 10
 hair tie in mouth: 10
 prison clothes: 10
 snack: 10
-glowstick: 10
 animal ear headwear: 10
 prison: 10
 autumn: 10
@@ -2798,6 +2797,7 @@ doll: 9
 holding towel: 9
 thought bubble: 9
 hand on own stomach: 9
+glowstick: 9
 see-through leotard: 9
 monster: 9
 ribbon-trimmed skirt: 9
@@ -2865,11 +2865,9 @@ oppai loli: 9
 fake facial hair: 9
 dragon wings: 9
 leg wrap: 9
-5girls: 9
 pigeon: 9
 sandwich: 9
 lime (fruit): 9
-virgin killer sweater: 9
 falling: 9
 prayer beads: 9
 origami: 9
@@ -3019,6 +3017,7 @@ holding fish: 8
 blue sarong: 8
 lightning: 8
 amusement park: 8
+5girls: 8
 bandaid on head: 8
 side-tie leotard: 8
 zzz: 8
@@ -3027,6 +3026,7 @@ multicolored eyes: 8
 two-tone swimsuit: 8
 track pants: 8
 abs: 8
+virgin killer sweater: 8
 chocolate on body: 8
 box of chocolates: 8
 naked ribbon: 8
@@ -3504,7 +3504,6 @@ white pupils: 5
 towel on head: 5
 pancake: 5
 hat with ears: 5
-concert: 5
 moonlight: 5
 mob cap: 5
 hand on glass: 5
@@ -3576,7 +3575,6 @@ brown horns: 5
 copyright notice: 5
 wooden chair: 5
 flat ass: 5
-chinese text: 5
 egyptian: 5
 ankh: 5
 cart: 5
@@ -3736,7 +3734,6 @@ smug: 4
 dudou: 4
 candy hair ornament: 4
 striped jacket: 4
-naked sweater: 4
 ribbed dress: 4
 walking on liquid: 4
 harem pants: 4
@@ -3748,6 +3745,7 @@ showering: 4
 soap censor: 4
 impossible swimsuit: 4
 raccoon: 4
+concert: 4
 joystick: 4
 tengu mask: 4
 biwa lute: 4
@@ -3817,6 +3815,7 @@ smoking: 4
 open hands: 4
 belly chain: 4
 serious: 4
+chinese text: 4
 balcony: 4
 leather belt: 4
 ankle lace-up: 4
@@ -4031,6 +4030,7 @@ sheep girl: 3
 breast suppress: 3
 pov: 3
 notice lines: 3
+naked sweater: 3
 adjusting legwear: 3
 writing: 3
 multiple boys: 3
@@ -4160,8 +4160,6 @@ accidental exposure: 3
 pink pantyhose: 3
 thinking: 3
 asymmetrical wings: 3
-dark halo: 3
-black halo: 3
 barcode: 3
 cracked skin: 3
 bow legwear: 3
@@ -4221,7 +4219,6 @@ telstar: 3
 duck: 3
 hot: 3
 throwing knife: 3
-2024: 2
 sample watermark: 2
 neon trim: 2
 carousel: 2
@@ -4538,6 +4535,8 @@ weighing scale: 2
 debris: 2
 flower earrings: 2
 single wrist cuff: 2
+dark halo: 2
+black halo: 2
 yellow coat: 2
 blue theme: 2
 hourglass: 2
@@ -4665,6 +4664,7 @@ holding pole: 2
 hat belt: 2
 chalk: 2
 bandaid on forehead: 2
+2024: 1
 listening to music: 1
 ipod: 1
 playstation portable: 1

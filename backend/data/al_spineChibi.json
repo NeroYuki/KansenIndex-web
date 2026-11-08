@@ -9762,5 +9762,337 @@
     {
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/zuozhiya_6/zuozhiya_6.skel",
         "name": "Georgia_Exalted Vibrance"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aerjiliya_4/aerjiliya_4.skel",
+        "name": "Alg\u00e9rie_The Strict Maid Isn't So Strict"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aierdeliqi_9/aierdeliqi_9.skel",
+        "name": "Eldridge_Electrifying Moon-Viewing"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aimierbeierding_5/aimierbeierding_5.skel",
+        "name": "\u00c9mile Bertin_\u00c9clat Magique"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aisaikesi_10/aisaikesi_10.skel",
+        "name": "Essex_Telepathy Training"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/aisaikesi_alter/aisaikesi_alter.skel",
+        "name": "Essex META_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/anninvwang_3/anninvwang_3.skel",
+        "name": "Queen Anne's Revenge_Seductive Wings of Dark Depravity"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/antu/antu.skel",
+        "name": "Azuchi_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/antu_2/antu_2.skel",
+        "name": "Azuchi_Testing Courage in Crimson"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/baifeng_3/baifeng_3.skel",
+        "name": "Hakuhou_Sunshower Fox Bride"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/baofengyu/baofengyu.skel",
+        "name": "Orage_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/beierfasite_g/beierfasite_g.skel",
+        "name": "Belfast_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/benningdun/benningdun.skel",
+        "name": "Bennington_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/benningdun_2/benningdun_2.skel",
+        "name": "Bennington_Sunshine Chaser"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/biaoqiang_10/biaoqiang_10.skel",
+        "name": "Javelin_PINKLOVE\u2605Heart Lancer"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/bunao_3/bunao_3.skel",
+        "name": "Indomitable_The Laid-Back Navigator"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/chaijun_6/chaijun_6.skel",
+        "name": "Cheshire_Cheshire Cat's Fairytale Maze"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changshehao/changshehao.skel",
+        "name": "Ormrinn Langi_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/changshehao_2/changshehao_2.skel",
+        "name": "Ormrinn Langi_Pure-White Predator"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/congmang/congmang.skel",
+        "name": "Hasty_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/congmang_2/congmang_2.skel",
+        "name": "Hasty_Sleepless Dollhouse"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/dashan_3/dashan_3.skel",
+        "name": "Daisen_Angel in the Devil's Mirror"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/dengken/dengken.skel",
+        "name": "Duncan_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/didui/didui.skel",
+        "name": "Hostile_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/didui_2/didui_2.skel",
+        "name": "Hostile_Coastal Vigil"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/feiteliekaer_4/feiteliekaer_4.skel",
+        "name": "Friedrich Carl_The Midnight Channel"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/fulici_3/fulici_3.skel",
+        "name": "Fritz Rumey_Verabredung in the Night Breeze"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gangyishawa_3/gangyishawa_3.skel",
+        "name": "Ganj-i-Sawai_My Innermost Self"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gaoliang/gaoliang.skel",
+        "name": "Takahashi_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gelifen/gelifen.skel",
+        "name": "Griffin_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/gelifen_2/gelifen_2.skel",
+        "name": "Griffin_Tensest Relaxation Therapy"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/guanghui_9/guanghui_9.skel",
+        "name": "Illustrious_Wandering Glow of Midnight"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/halisen/halisen.skel",
+        "name": "Harrison_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/halisen_2/halisen_2.skel",
+        "name": "Harrison_Accidental Pursuit Race"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/haorenlichade_alter/haorenlichade_alter.skel",
+        "name": "Bon Homme Richard_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hu/hu.skel",
+        "name": "Tiger_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huali/huali.skel",
+        "name": "Superb_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/huali_2/huali_2.skel",
+        "name": "Superb_Superb Dentistry"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hu_2/hu_2.skel",
+        "name": "Tiger_Maiden of the Stars"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/hu_hx/hu_hx.skel",
+        "name": "Tiger_Default_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/i14/i14.skel",
+        "name": "I-14_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/i14_2/i14_2.skel",
+        "name": "I-14_Thousand-Faced Nothingness"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/jinluhao_3/jinluhao_3.skel",
+        "name": "Golden Hind_The Pale Phantom's Smile"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kelaite/kelaite.skel",
+        "name": "Collett_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kelaite_2/kelaite_2.skel",
+        "name": "Collett_Full-Auto Maintenance"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/kunxi_4/kunxi_4.skel",
+        "name": "Quincy_Extracurricular Tutoring"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/leiyierbei/leiyierbei.skel",
+        "name": "Riyala Bey_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/leiyierbei_2/leiyierbei_2.skel",
+        "name": "Riyala Bey_Angelic Idol\u2606in Training"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/lingmin_alter/lingmin_alter.skel",
+        "name": "Soobrazitelny META_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/makesi/makesi.skel",
+        "name": "Max Immelmann_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/mile_3/mile_3.skel",
+        "name": "Miller_Miller the GOAT, Guardian of the Bridge"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/niulunbao_alter/niulunbao_alter.skel",
+        "name": "N\u00fcrnberg META_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/pulimaosi_3/pulimaosi_3.skel",
+        "name": "Plymouth_An Angelic Physical"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/qiershazhi_h/qiershazhi_h.skel",
+        "name": "Kearsarge_Wedding"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/qisheng_3/qisheng_3.skel",
+        "name": "De Zeven Provinci\u00ebn_Archangel of Wings Impure"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/sailimiye/sailimiye.skel",
+        "name": "Selimiye_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/sailimiye_2/sailimiye_2.skel",
+        "name": "Selimiye_Seer in a Bind"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/salatuojia_alter/salatuojia_alter.skel",
+        "name": "Saratoga META_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/sali/sali.skel",
+        "name": "Surrey_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/sali_2/sali_2.skel",
+        "name": "Surrey_Feverish and Disheveled"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/shengli_alter/shengli_alter.skel",
+        "name": "Victorious META_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/shi_3/shi_3.skel",
+        "name": "Lion_Alleyway Temptress"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/shuixinghao/shuixinghao.skel",
+        "name": "Merkuriy_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/shuixinghao_2/shuixinghao_2.skel",
+        "name": "Merkuriy_Envoy Angel of Love"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/sikula_h/sikula_h.skel",
+        "name": "Scylla_Wedding"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/tianjinfeng/tianjinfeng.skel",
+        "name": "Amatsukaze_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/tianjinfeng_2/tianjinfeng_2.skel",
+        "name": "Amatsukaze_The Fox Spirit Descends On Heavenly Winds"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/tiejiaohao/tiejiaohao.skel",
+        "name": "J\u00e1rnbar\u00f0inn_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/tiejiaohao_2/tiejiaohao_2.skel",
+        "name": "J\u00e1rnbar\u00f0inn_Fallen Angel Astray"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/waerpalaisuo/waerpalaisuo.skel",
+        "name": "Valpara\u00edso_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weikesibao/weikesibao.skel",
+        "name": "Vicksburg_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weikesibao_2/weikesibao_2.skel",
+        "name": "Vicksburg_Dazzling Diva of the Raceway"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/weizhang_h/weizhang_h.skel",
+        "name": "Owari_Wedding"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/wuzang_4/wuzang_4.skel",
+        "name": "Musashi_Cheering For You Alone"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xianghe_4/xianghe_4.skel",
+        "name": "Shoukaku_The Crane's Gratitude"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/xinnong_h/xinnong_h.skel",
+        "name": "Shinano_Wedding"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yinggelahan_3/yinggelahan_3.skel",
+        "name": "Ingraham_Wanderer in a Miniature World"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yonggan_g/yonggan_g.skel",
+        "name": "Hardy_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yuehanluojiesi/yuehanluojiesi.skel",
+        "name": "John Rodgers_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yuehanluojiesi_2/yuehanluojiesi_2.skel",
+        "name": "John Rodgers_Grid Girl's Interval"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yuehanluojiesi_2_hx/yuehanluojiesi_2_hx.skel",
+        "name": "John Rodgers_Grid Girl's Interval_cn"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yuekegongjue_5/yuekegongjue_5.skel",
+        "name": "Duke of York_Femme Fatale's Bewitching Veil"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/yueke_ger_4/yueke_ger_4.skel",
+        "name": "Yorck_Phantasmagoric Night Dancer"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/chibi/z11_3/z11_3.skel",
+        "name": "Z11_Cheer Up, Ms. Nurse!"
     }
 ]

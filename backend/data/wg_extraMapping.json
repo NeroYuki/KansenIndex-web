@@ -17209,5 +17209,389 @@
 			"USS Mitscher (DL-2)",
 			"DDG-35"
 		]
+	},
+	{
+		"id": 147,
+		"name": "Naka",
+		"nation": [
+			"Japan"
+		],
+		"birthday": "3/24",
+		"illust": [
+			"ericsakura"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "162.46m",
+		"displacement": "5595t",
+		"alias": "undefined"
+	},
+	{
+		"id": 648,
+		"name": "Arkhangelsk",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "4/29",
+		"illust": [
+			"Windforcelan & MKiiiiii"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "189.2m",
+		"displacement": "30450t",
+		"alias": [
+			"Архангельск (Arkhangelsk)",
+			"HMS Royal Sovereign (05)"
+		]
+	},
+	{
+		"id": 649,
+		"name": "U-177",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "10/1",
+		"illust": [
+			"六条大魔王"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "87.6m",
+		"displacement": "1800t",
+		"alias": [
+			"U-177"
+		]
+	},
+	{
+		"id": 650,
+		"name": "Martin",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "12/12",
+		"illust": [
+			"失灵方程"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "110.4m",
+		"displacement": "1920t",
+		"alias": [
+			"HMS Martin (G44)"
+		]
+	},
+	{
+		"id": 651,
+		"name": "Casabianca",
+		"nation": [
+			"France"
+		],
+		"birthday": "2/2",
+		"illust": [
+			"AKDOVE"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "92.3m",
+		"displacement": "2000t",
+		"alias": [
+			"Casabianca (Q183)"
+		]
+	},
+	{
+		"id": 652,
+		"name": "Ohio",
+		"nation": [
+			"United States"
+		],
+		"birthday": "8/28（实装日）",
+		"illust": [
+			"彗星Chloy"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "280.8m",
+		"displacement": "64240t",
+		"alias": [
+			"USS Ohio (BB-68)"
+		]
+	},
+	{
+		"id": 653,
+		"name": "Le Corse",
+		"nation": [
+			"France"
+		],
+		"birthday": "8/8",
+		"illust": [
+			"波波1加1"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "99.8m",
+		"displacement": "1508t",
+		"alias": [
+			"Le Corse (F761)"
+		]
+	},
+	{
+		"id": 654,
+		"name": "S-189",
+		"nation": [
+			"Soviet Union"
+		],
+		"birthday": "9/4",
+		"illust": [
+			"打工战士图波列夫"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "76m",
+		"displacement": "1347t",
+		"alias": [
+			"C-189"
+		]
+	},
+	{
+		"id": 655,
+		"name": "Vesikko",
+		"nation": [
+			"Finland"
+		],
+		"birthday": "5/10",
+		"illust": [
+			""
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "40.9m",
+		"displacement": "303t",
+		"alias": [
+			"FNS Vesikko"
+		]
+	},
+	{
+		"id": 656,
+		"name": "Bristol",
+		"nation": [
+			"United Kingdom"
+		],
+		"birthday": "6/30",
+		"illust": [
+			"土味基蛋"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "155m",
+		"displacement": "6300t",
+		"alias": [
+			"HMS Bristol (D23)"
+		]
+	},
+	{
+		"id": 657,
+		"name": "Coral Sea",
+		"nation": [
+			"United States"
+		],
+		"birthday": "4/2",
+		"illust": [
+			"WindforcelanMKIIIIII"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "297.8m",
+		"displacement": "45000t",
+		"alias": [
+			"USS Coral Sea (CV-43)"
+		]
+	},
+	{
+		"id": 658,
+		"name": "Melbourne",
+		"nation": [
+			"Australia"
+		],
+		"birthday": "2/28",
+		"illust": [
+			"左手王ZSW"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "214m",
+		"displacement": "15740t",
+		"alias": [
+			"HMS Majestic (R77)",
+			"HMAS Melbourne (R21)"
+		]
+	},
+	{
+		"id": 659,
+		"name": "Visby",
+		"nation": [
+			"Sweden"
+		],
+		"birthday": "10/16",
+		"illust": [
+			"失灵方程"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "98m",
+		"displacement": "1153t",
+		"alias": [
+			"HSwMS Visby (J11)"
+		]
+	},
+	{
+		"id": 660,
+		"name": "U-10",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "6/5",
+		"illust": [
+			"JERRY的打工鳄"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "44.3m",
+		"displacement": "455t",
+		"alias": [
+			"FGS U-10 (S189)"
+		]
+	},
+	{
+		"id": 1078,
+		"name": "Z24_retrofit",
+		"nation": [
+			"Germany"
+		],
+		"birthday": "3/7",
+		"illust": [
+			"15k"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "127m",
+		"displacement": "2645t（2603长吨）",
+		"alias": [
+			"Z24"
+		]
+	},
+	{
+		"id": 1226,
+		"name": "Essex_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "7/31",
+		"illust": [
+			"哈路卡",
+			"肥咕咕_",
+			"鹿咕芙芙球"
+		],
+		"voice_actor": [
+			"大原沙耶香贝尔麦坎：关智一"
+		],
+		"height": "266m",
+		"displacement": "27100t",
+		"alias": [
+			"USS Essex (CV-9)"
+		]
+	},
+	{
+		"id": 1429,
+		"name": "Maillé-Brézé_retrofit",
+		"nation": [
+			"France"
+		],
+		"birthday": "7/2",
+		"illust": [
+			"PUMP",
+			"New_Wind新风制作组"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "128.6m",
+		"displacement": "2750t",
+		"alias": [
+			"Maillé Brézé (D627)"
+		]
+	},
+	{
+		"id": 1583,
+		"name": "Francesco Caracciolo_retrofit",
+		"nation": [
+			"Italy"
+		],
+		"birthday": "5/12",
+		"illust": [
+			"人间喵喵"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "212m",
+		"displacement": "34000t",
+		"alias": [
+			"Francesco Caracciolo"
+		]
+	},
+	{
+		"id": 1589,
+		"name": "Hugh W. Hadley_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "7/16",
+		"illust": [
+			"JERRY的打工鳄"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "114.8m",
+		"displacement": "2200t",
+		"alias": [
+			"USS Hugh W. Hadley (DD-774)"
+		]
+	},
+	{
+		"id": 1602,
+		"name": "Mississippi_retrofit",
+		"nation": [
+			"United States"
+		],
+		"birthday": "1/25",
+		"illust": [
+			"-麻瓜瓜瓜-"
+		],
+		"voice_actor": [
+			""
+		],
+		"height": "190m",
+		"displacement": "32514t",
+		"alias": [
+			"USS Mississippi (BB-41",
+			"AG-128)"
+		]
 	}
 ]

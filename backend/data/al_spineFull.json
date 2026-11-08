@@ -1044,5 +1044,108 @@
         "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/zhezhi_2/zhezhi_2.skel",
         "extra_file": [],
         "name": "Origami Tobiichi_The Spirit of Allure"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/aisaikesi_10/aisaikesi_10.skel",
+        "extra_file": [],
+        "name": "Essex_Telepathy Training"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/anninvwang_3/anninvwang_3.skel",
+        "extra_file": [],
+        "name": "Queen Anne's Revenge_Seductive Wings of Dark Depravity"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/antu/antu.skel",
+        "extra_file": [],
+        "name": "Azuchi_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/antu_3/antu_3.skel",
+        "extra_file": [],
+        "name": "Azuchi_Testing Courage in Crimson"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/beierfasite_g/beierfasite_g.json",
+        "extra_file": [],
+        "name": "Belfast_Retrofit"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/fulici_3/fulici_3.skel",
+        "extra_file": [],
+        "name": "Fritz Rumey_Verabredung in the Night Breeze"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hu/hu.skel",
+        "extra_file": [],
+        "name": "Tiger_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/huali_2/huali_2.skel",
+        "extra_file": [],
+        "name": "Superb_Superb Dentistry"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/hu_2/hu_2.skel",
+        "extra_file": [],
+        "name": "Tiger_Maiden of the Stars"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/i14_2/i14_2.skel",
+        "extra_file": [],
+        "name": "I-14_Thousand-Faced Nothingness"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/jinluhao_4/jinluhao_4.skel",
+        "extra_file": [],
+        "name": "Golden Hind_The Pale Phantom's Smile"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/makesi/makesi.skel",
+        "extra_file": [],
+        "name": "Max Immelmann_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/qisheng_3/qisheng_3T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/qisheng_3/qisheng_3B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/qisheng_3/qisheng_3M.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/qisheng_3/qisheng_3M2.skel"
+        ],
+        "name": "De Zeven Provinci\u00ebn_Archangel of Wings Impure"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tianjinfeng_2/tianjinfeng_2T.skel",
+        "extra_file": [
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/tianjinfeng_2/tianjinfeng_2B.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/tianjinfeng_2/tianjinfeng_2B2.skel",
+            "./data/assets/shipgirls/Azur Lane/al_spine/full/tianjinfeng_2/tianjinfeng_2M.skel"
+        ],
+        "name": "Amatsukaze_The Fox Spirit Descends On Heavenly Winds"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/tiejiaohao_2/tiejiaohao_2.skel",
+        "extra_file": [],
+        "name": "J\u00e1rnbar\u00f0inn_Fallen Angel Astray"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/waerpalaisuo/waerpalaisuo.skel",
+        "extra_file": [],
+        "name": "Valpara\u00edso_Default"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/weikesibao_2/weikesibao_2.skel",
+        "extra_file": [],
+        "name": "Vicksburg_Dazzling Diva of the Raceway"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/xianghe_4/xianghe_4.skel",
+        "extra_file": [],
+        "name": "Shoukaku_The Crane's Gratitude"
+    },
+    {
+        "dir": "./data/assets/shipgirls/Azur Lane/al_spine/full/yueke_ger_4/yueke_ger_4.skel",
+        "extra_file": [],
+        "name": "Yorck_Phantasmagoric Night Dancer"
     }
 ]
