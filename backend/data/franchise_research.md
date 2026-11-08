@@ -426,6 +426,28 @@ sets `cg_info.as_of` to the refresh date. Counts should not be repeated in
 - Additional client-only characters seen in the cache CG bundles but not in
   the GameKee roster: Admiral Hipper, Algeria, Kersaint, Blucher, and San
   Juan. They still need playability verification.
+- Tone has two client textures: the standard `1146-Tone` is the censored
+  version and `1146-Tone_nonH` is the uncensored version. Both are kept
+  (`Tone.png` and `Tone_uncensored.png`).
+- Akari has current and initial versions; both are kept, plus the
+  `0003-Akari_skin` outfit. The current art is the larger 4340x6139 source.
+- A full client CG pass selected the highest-resolution source per
+  character/modifier (client APK/cache over GameKee over the old local file).
+  The Velvet Code top-level CG set now includes base, uncensored, retrofit,
+  and outfit art, including the client-only ships. `Ryuujo` was corrected to
+  the local spelling `Ryujo`; the old `Ryuujou` duplicate was removed.
+- 3D: 274 GLBs are now in `Velvet Code/char3d`; the regenerated mapping covers
+  411 CGs. Models were built from the APK `art/char` bundles and the cache
+  `art-char` hotfix bundles, then converted with AssetStudio CLI and FBX2glTF.
+- Voice: 240 folders and 5,584 WAVs are in `Velvet Code/voice`, using the
+  container folder names from `sound/char` bundles.
+- L2D: 169 L2D bundles were unpadded to
+  `output/vc26/l2d_bundles_unpadded` for AssetStudioModGUI's Live2D export.
+  They are not yet copied into `Velvet Code/Live2D`; the GUI export step is
+  still pending.
+- Unmapped CGs after the 3D pass are mostly characters/outfits without a
+  matching client model (for example Akari, Arromanches, Blucher, some
+  Fubuki/Taihou/Laffey outfits, and a few missing model IDs).
 
 ### Victory Belles
 

@@ -2570,7 +2570,7 @@
       }
     ],
     "cg_info": {
-      "count": 285,
+      "count": 434,
       "as_of": "2026-11-09",
       "quality": "Good",
       "variants": [
@@ -2578,9 +2578,9 @@
         "alternate outfits",
         "uncensored"
       ],
-      "notes": "Includes 22 missing ship CGs added in 2026-11 plus Akari (special character); client-bundle variants added for Gneisenau (uncensored), Z2_PL, Gangut_PB, Montpelier_SS, Chongqing_ED, and Independence_SS. JP server is closed; CN/TW servers remain active."
+      "notes": "Full v3.4.268 client CG pass: base, uncensored, retrofit, and outfit art from the APK/cache, plus the missing GameKee roster entries. Includes client-only Admiral Hipper, Algeria, Blucher, Kersaint, San Juan, Tan Yang, and Verniy. JP server is closed; CN/TW servers remain active."
     },
-    "extra_info": "3D bullet-hell naval shooter with manual dodging, six-ship fleets made up of three main and three support ships, Live2D characters, and a romance/affinity system. Reception was mixed: the 3D combat and character art were praised, but the launch suffered server and payment problems, early progression was stingy, and review-bombing damaged its reputation; later updates improved it. The Japanese server closed in 2023; the Chinese and Taiwanese versions remain active and continue to add ships and outfits, including Tone, Minneapolis, Vanguard, Jervis, Queen Elizabeth, Chongqing, Yat Sen, Aquila, Giuseppe Garibaldi, Ognevoy, Chapayev, Derfflinger, Montpelier, Gneisenau, Independence, Amatsukaze, Unicorn, Zhenhai, Camicia Nera, Z2, Eldridge, and Gangut.",
+    "extra_info": "3D bullet-hell naval shooter with manual dodging, six-ship fleets made up of three main and three support ships, Live2D characters, and a romance/affinity system. Reception was mixed: the 3D combat and character art were praised, but the launch suffered server and payment problems, early progression was stingy, and review-bombing damaged its reputation; later updates improved it. The Japanese server closed in 2023; the Chinese and Taiwanese versions remain active and continue to add ships and outfits. The 2026 client update includes Tone, Minneapolis, Vanguard, Jervis, Queen Elizabeth, Chongqing, Yat Sen, Aquila, Giuseppe Garibaldi, Ognevoy, Chapayev, Derfflinger, Montpelier, Gneisenau, Independence, Amatsukaze, Unicorn, Zhenhai, Camicia Nera, Z2, Eldridge, Gangut, Admiral Hipper, Algeria, Blucher, Kersaint, San Juan, Tan Yang, and Verniy.",
     "sources": [
       {
         "label": "Biligame - 拂晓",
