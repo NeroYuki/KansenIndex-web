@@ -3,7 +3,7 @@ const router = express.Router()
 const franchise_data = require('../data/franchise_list.json')
 
 router.get('/list_all', (req, res) => {
-    let fetch_res = franchise_data.map((val) => {return {id: val.id, name: val.name, desc: val.desc, icon_image: val.icon_image}})
+    let fetch_res = franchise_data.map((val) => {return {id: val.id, name: val.display_name || val.name, desc: val.desc, icon_image: val.icon_image}})
 
     res.status(200).send(fetch_res)
 })

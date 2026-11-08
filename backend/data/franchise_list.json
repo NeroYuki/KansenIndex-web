@@ -3,25 +3,139 @@
     "id": "c3d52a87fe68b2dfb3287913eba00da86c005d8ededaaf813b423bf874960dd2",
     "name": "Abyss Horizon",
     "display_name": "Abyss Horizon",
-    "desc": "Gacha game with some 3D element",
+    "desc": "3D naval action RPG with shipgirls",
     "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Abyss Horizon.webp",
+    "aliases": {
+      "en": [
+        "Abyss Horizon"
+      ],
+      "zh": [
+        "深渊地平线"
+      ],
+      "jp": [
+        "アビス・ホライズン"
+      ]
+    },
     "general_info": [
-      {"name": "Alternative Name", "value": "- ZH: 深渊地平线 \\n- JP: アビス・ホライズン"},
-      {"name": "Developer", "value": "MorningTec Japan Inc."},
-      {"name": "Publisher", "value": "Illusion Studios Limited"},
-      {"name": "Genre", "value": "Action role-playing game"},
-      {"name": "Engine", "value": "Unity"},
-      {"name": "Platform", "value": "Android, iOS"}
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 深渊地平线\\n- JP: アビス・ホライズン"
+      },
+      {
+        "name": "Developer",
+        "value": "重庆煜颜文化传播 (Chongqing Yuyan Culture)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: 心动网络 (X.D. Network)\\n- JP/KR: Y.Y. Global\\n- TW/HK/MO: 龙成网络 (Longcheng Network)\\n- Global: Illusion Studios"
+      },
+      {
+        "name": "Genre",
+        "value": "3D fleet action RPG"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "430 (current library; 363 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Retrofit form, alternate outfit, censored CN variants, abyssal forms"
+      },
+      {
+        "name": "CG Source",
+        "value": "EN server assets provided by cedi4155476; GameKee; Fandom"
+      }
     ],
     "release_date": [
-      { "region": "Japan", "date": "2018-06-06T00:00:00Z", "end_date": "2021-01-01T00:00:00Z"},
-      { "region": "Hongkong/Macau/Taiwan", "date": "2019-01-01T00:00:00Z", "end_date": "2020-12-01T00:00:00Z"},
-      { "region": "Korea", "date": "2020-05-01T00:00:00Z", "end_date": "2020-10-05T00:00:00Z"},
-      { "region": "Global", "date": "2019-12-25T00:00:00Z", "end_date": "2021-02-25T00:00:00Z"},
-      { "region": "Mainland China", "date": "2020-08-12T00:00:00Z", "end_date": "2021-07-02T00:00:00Z"}
+      {
+        "region": "Japan",
+        "date": "2018-06-28T00:00:00Z",
+        "end_date": "2021-02-19T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2019-01-16T00:00:00Z",
+        "end_date": "2021-01-29T00:00:00Z"
+      },
+      {
+        "region": "Korea",
+        "date": "2019-05-16T00:00:00Z",
+        "end_date": "2020-10-31T00:00:00Z"
+      },
+      {
+        "region": "Global",
+        "date": "2019-12-25T00:00:00Z",
+        "end_date": "2021-02-26T00:00:00Z"
+      },
+      {
+        "region": "Mainland China",
+        "date": "2020-07-23T00:00:00Z",
+        "end_date": "2021-07-15T00:00:00Z"
+      }
     ],
-    "extra_info": "Abyss Horizon is a 3D online anime game based on naval warfare. Feature a co-operative battle mode and AR (Augmented Reality) mode. Immediately after release it run into a legal battle with Sega who claim on the game's premise. The game survived the legal allegation after a change of operator. ",
+    "cg_info": {
+      "count": 430,
+      "reported_count": 363,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Good",
+      "variants": [
+        "retrofit form",
+        "alternate outfit",
+        "censored CN variants",
+        "abyssal forms"
+      ],
+      "notes": "Primary source is the EN server asset set; some CGs may be lost with the server closure.",
+      "breakdown": {
+        "total": 430,
+        "base": 148,
+        "damage": 0,
+        "retrofit": 41,
+        "outfit": 141,
+        "oath": 35,
+        "censored": 79,
+        "background": 0
+      }
+    },
+    "extra_info": "3D shipgirl action RPG developed by Chongqing Yuyan and published in Japan by MorningTec Japan / Y.Y. Global. The Japanese service was sued by Sega and C2 Preparat over similarities to KanColle Arcade; MorningTec withdrew and Y.Y. Global took over. All regional servers are now closed. The EN server assets are the primary CG source and include CN censored variants, retrofit forms, and abyssal forms. Some game CGs may be inaccessible because the servers are gone.\\n\\nThe local library has 430 CG files, up from 363 in the original list.",
+    "sources": [
+      {
+        "label": "GameKee 深渊地平线",
+        "url": "http://sydpx.gamekee.com/",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Abyss Horizon Fandom - List of Naval Belles",
+        "url": "https://abysshorizon.fandom.com/wiki/List_of_Naval_Belles",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "4Gamer - service end",
+        "url": "https://www.4gamer.net/games/413/G041378/20210108099",
+        "language": "jp",
+        "type": "news"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%93%E3%82%B9%E3%83%BB%E3%83%9B%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%B3",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": [
       "https://image.winudf.com/v2/image1/Y29tLmFieXNzaG9yaXpvbmx0X3NjcmVlbl8xXzE2MDI1NzI3NzZfMDM3/screen-1.jpg?fakeurl=1&type=.jpg"
     ]
@@ -29,22 +143,117 @@
   {
     "id": "db1497d4c1d2eca61a37e46a05130d9e6c27a88550dc4af9aa5d4bc4861452e4",
     "name": "Axis Senki",
-    "display_name": "Axis Senki",
-    "desc": "Military-theme gacha RPG",
-    "status":"End of Service",
+    "display_name": "Akushizu Senki",
+    "desc": "Military-themed gacha RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Akizuki Senki.jpg",
+    "aliases": {
+      "en": [
+        "Akushizu Senki",
+        "Axis Senki"
+      ],
+      "zh": [],
+      "jp": [
+        "あくしず戦姫～戦場を駆ける乙女たち～"
+      ]
+    },
     "general_info": [
-      {"name": "Alternative Name", "value": "- JP:  あくしず戦姫攻略"},
-      {"name": "Developer", "value": "Donuts Co. Ltd."},
-      {"name": "Publisher", "value": "IKAROS Publications LTD."},
-      {"name": "Genre", "value": "Role-playing game"},
-      {"name": "Engine", "value": "Unity"},
-      {"name": "Platform", "value": "Android, iOS"}
+      {
+        "name": "Alternative Name",
+        "value": "- JP: あくしず戦姫～戦場を駆ける乙女たち～\\n- EN: Akushizu Senki (historical romanization: Axis Senki)"
+      },
+      {
+        "name": "Developer",
+        "value": "Donuts Co. Ltd."
+      },
+      {
+        "name": "Publisher",
+        "value": "IKAROS Publications LTD."
+      },
+      {
+        "name": "Genre",
+        "value": "Military gacha RPG"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "338 (current library; 335 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Rarity variants, alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files; atwiki; Gamerch"
+      }
     ],
     "release_date": [
-      { "region": "Japan", "date": "2016-07-01T00:00:00Z", "end_date": "2019-10-01T00:00:00Z"}
+      {
+        "region": "Japan",
+        "date": "2017-03-28T00:00:00Z",
+        "end_date": "2018-04-27T00:00:00Z"
+      }
     ],
-    "extra_info": "Spin off games of the magazine MC☆あくしず published by IKAROS Publications LTD. ",
+    "cg_info": {
+      "count": 338,
+      "reported_count": 335,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [
+        "rarity variants",
+        "alternate outfits"
+      ],
+      "notes": "Rarity variants and alternate outfits are counted as separate CG files.",
+      "breakdown": {
+        "total": 338,
+        "base": 69,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 269,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Spin-off of the military magazine MC☆あくしず, developed by Donuts and published by IKAROS Publications. The Japanese service ran from 28 March 2017 to 27 April 2018. The local library has 338 CG files, slightly above the 335 in the original list.",
+    "sources": [
+      {
+        "label": "あくしず戦姫 キャラクター一覧 (atwiki)",
+        "url": "https://w.atwiki.jp/axissenki/pages/52.html",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "あくしず戦姫 レアリティ一覧 (atwiki)",
+        "url": "https://w.atwiki.jp/axissenki/pages/61.html",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Axis Senki Gamerch",
+        "url": "https://axis-senki.gamerch.com/",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Gamebiz - service end",
+        "url": "https://gamebiz.jp/news/204846",
+        "language": "jp",
+        "type": "news"
+      }
+    ],
     "screenshot": [
       "https://cdn.amz.appget.com/c/wp-content/uploads/2017/11/69172_screen_2.jpg",
       "https://cdn.amz.appget.com/c/wp-content/uploads/2017/11/69172_screen_3.jpg"
@@ -54,41 +263,218 @@
     "id": "db1497d4c1d2eca61a37e46a05130d9e6c27a88550dc4af9aa5d4bc4861452e5",
     "name": "Arms Armory",
     "display_name": "Arms Amory",
-    "desc": "Military-theme gacha RPG",
-    "status":"Active",
+    "desc": "Military-themed browser SRPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Arms Amory.png",
+    "aliases": {
+      "en": [
+        "Arms Amory",
+        "Arms Armory"
+      ],
+      "zh": [],
+      "jp": [
+        "アームズアーモリー"
+      ]
+    },
     "general_info": [
-      {"name": "Alternative Name", "value": "- JP:  アームズアーモリー"},
-      {"name": "Developer", "value": "MIKAGE LLC."},
-      {"name": "Publisher", "value": "EXNOA LLC."},
-      {"name": "Genre", "value": "Role-playing game"},
-      {"name": "Platform", "value": "Browser"}
+      {
+        "name": "Alternative Name",
+        "value": "- JP: アームズアーモリー\\n- EN: Arms Amory (asset folder: Arms Armory)"
+      },
+      {
+        "name": "Developer",
+        "value": "MIKAGE LLC."
+      },
+      {
+        "name": "Publisher",
+        "value": "EXNOA LLC. (DMM GAMES)"
+      },
+      {
+        "name": "Genre",
+        "value": "SRPG"
+      },
+      {
+        "name": "Platform",
+        "value": "PC browser, Android"
+      },
+      {
+        "name": "CG Count",
+        "value": "17 (current library; 17 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files; wikiru"
+      }
     ],
     "release_date": [
-      { "region": "Japan", "date": "2023-09-12T00:00:00Z"}
+      {
+        "region": "Japan",
+        "date": "2023-09-12T00:00:00Z",
+        "end_date": "2024-03-14T00:00:00Z"
+      }
     ],
-    "extra_info": "",
-    "screenshot": [
-    ]
+    "cg_info": {
+      "count": 17,
+      "reported_count": 17,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Good",
+      "variants": [],
+      "notes": "Small CG set; all 17 are in the local library.",
+      "breakdown": {
+        "total": 17,
+        "base": 17,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 0,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "DMM GAMES browser SRPG about anthropomorphized land, sea, and air weapons. Developed by MIKAGE and published by EXNOA. The service ran from 12 September 2023 to 14 March 2024. Only 17 CGs exist, matching the original count.",
+    "sources": [
+      {
+        "label": "Arms Amory wikiru - character list",
+        "url": "https://armsarmoury.wikiru.jp/?%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "OnlineGamePlanet - Arms Amory",
+        "url": "https://onlinegame-pla.net/armsarmoury",
+        "language": "jp",
+        "type": "database"
+      },
+      {
+        "label": "DMM GAMES - Arms Amory",
+        "url": "https://games.dmm.com/detail/armsarmoury",
+        "language": "jp",
+        "type": "official"
+      }
+    ],
+    "screenshot": []
   },
   {
     "id": "dd180dbb54a5113d18ce454b5617fe384e094c20795408ba3304244fe5e9bf88",
     "name": "Arpeggio of Blue Steel",
     "display_name": "Arpeggio of Blue Steel",
-    "desc": "Franchise start from a naval-theme manga",
-    "status":"End of Service",
+    "desc": "Naval manga/anime franchise; gacha game adaptation",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Aoki_Hagane.webp",
+    "aliases": {
+      "en": [
+        "Arpeggio of Blue Steel",
+        "Arpeggio of Blue Steel: Ars Nova - Re:Birth"
+      ],
+      "zh": [
+        "苍蓝钢铁的琶音"
+      ],
+      "jp": [
+        "蒼き鋼のアルペジオ",
+        "蒼き鋼のアルペジオ -アルス・ノヴァ- Re:Birth"
+      ]
+    },
     "general_info": [
-      {"name": "Alternative Name", "value": "- JP: 蒼き鋼のアルペジオ"},
-      {"name": "Publisher", "value": "DMM Games"},
-      {"name": "Genre", "value": "Role-playing game"},
-      {"name": "Engine", "value": "Unity"},
-      {"name": "Platform", "value": "Android, iOS"}
+      {
+        "name": "Alternative Name",
+        "value": "- JP: 蒼き鋼のアルペジオ -アルス・ノヴァ- Re:Birth\\n- ZH: 苍蓝钢铁的琶音"
+      },
+      {
+        "name": "Developer",
+        "value": "Gamegate, Inc."
+      },
+      {
+        "name": "Publisher",
+        "value": "Gamegate, Inc. / DMM GAMES"
+      },
+      {
+        "name": "Genre",
+        "value": "Naval strategy RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS, PC browser (DMM)"
+      },
+      {
+        "name": "CG Count",
+        "value": "34 game CGs + 23 non-game graphics (current library: 34 game CGs)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Game CGs: Good; non-game graphics: Poor - Meh"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Ars Nova gacha game assets; Fandom"
+      }
     ],
     "release_date": [
-      { "region": "Japan", "date": "2019-05-01T00:00:00Z", "end_date": "2020-01-31T00:00:00Z"}
+      {
+        "region": "Japan",
+        "date": "2019-05-15T00:00:00Z",
+        "end_date": "2020-01-31T00:00:00Z"
+      }
     ],
-    "extra_info": "This particular entries focus on The Ars Nova Re:birth game which is published by DMM games, same publisher as Kantai Collection. However the original manga has been published since November 2009 and has been adapted into an anime in 2013.",
+    "cg_info": {
+      "count": 34,
+      "reported_count": 34,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [
+        "alternate outfits"
+      ],
+      "notes": "The game server is closed; some CGs may be inaccessible. 34 game CGs are present; an additional 23 non-game graphics are poor-to-meh quality.",
+      "breakdown": {
+        "total": 34,
+        "base": 9,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 25,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      },
+      "extra_count": 23
+    },
+    "extra_info": "Re:Birth was a 3D naval strategy RPG based on the Ark Performance manga and Ars Nova anime. The mobile version launched on 15 May 2019 and the DMM PC version on 20 May 2019; both closed on 31 January 2020. The local library holds 34 game CGs, matching the original count. The separate set of 23 non-game graphics is tracked outside the game CG count and is lower quality (promotional art, screenshots, and anime graphics).",
+    "sources": [
+      {
+        "label": "Arpeggio of Blue Steel Fandom - Characters",
+        "url": "https://aokihagane.fandom.com/wiki/Category:Characters",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "OnlineGamePlanet - Re:Birth",
+        "url": "https://onlinegame-pla.net/arpeggio-re-birth",
+        "language": "jp",
+        "type": "database"
+      },
+      {
+        "label": "Gamebiz - service end",
+        "url": "https://gamebiz.jp/news/256760",
+        "language": "jp",
+        "type": "news"
+      },
+      {
+        "label": "Chinese Wikipedia - 苍蓝钢铁的琶音",
+        "url": "https://zh.wikipedia.org/wiki/%E8%92%BC%E8%97%8D%E9%8B%BC%E9%89%84%E7%9A%84%E7%90%B6%E9%9F%B3",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": [
       "https://techkalzen.com/wp-content/uploads/2020/01/arpeggio-of-blue-steel-ars-nova-rebirth-2.jpg"
     ]
@@ -108,24 +494,134 @@
     "id": "ad984e86c1464dcdeb55387298294204405fef22330e5e57ab228b8efd08f5f0",
     "name": "Azur Lane",
     "display_name": "Azur Lane",
-    "desc": "Gacha game with 2D bullet hell shooter element",
+    "desc": "Side-scrolling shoot 'em up with shipgirls",
     "status": "Active",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Azur Lane.png",
+    "aliases": {
+      "en": [
+        "Azur Lane"
+      ],
+      "zh": [
+        "碧蓝航线"
+      ],
+      "jp": [
+        "アズールレーン"
+      ]
+    },
     "general_info": [
-      {"name": "Developer", "value": "Shanghai Manjuu, Xiamen Yongshi"},
-      {"name": "Publisher", "value": "- CHN: Bilibili \\n- JP/WW: Shanghai Yostar \\n- KR: XD Global \\n- HK/MAC/TW: PWB Play"},
-      {"name": "Genre", "value": "Shoot 'em up, construction and management simulation, role-playing video game"},
-      {"name": "Engine", "value": "Unity"},
-      {"name": "Platform", "value": "Android, iOS"}
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 碧蓝航线\\n- JP: アズールレーン"
+      },
+      {
+        "name": "Developer",
+        "value": "Shanghai Manjuu, Xiamen Yongshi"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: bilibili\\n- JP/WW: Yostar\\n- KR: XD Global\\n- HK/MO/TW: PWB Play"
+      },
+      {
+        "name": "Genre",
+        "value": "Side-scrolling shoot 'em up, gacha, management simulation"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "4,328 (current library; 3,229 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Retrofit, censored CN variants, alternate outfits, backgrounds"
+      },
+      {
+        "name": "CG Source",
+        "value": "EN and CN clients; Fernando2603/AzurLane; AzurAPI"
+      }
     ],
     "release_date": [
-      { "region": "Mainland China", "date": "2017-05-27T00:00:00Z"},
-      { "region": "Japan", "date": "2017-09-14T00:00:00Z"},
-      { "region": "Korea", "date": "2018-02-27T00:00:00Z"},
-      { "region": "Global", "date": "2019-05-20T00:00:00Z"},
-      { "region": "Hongkong/Macau/Taiwan", "date": "2019-10-04T00:00:00Z"}
+      {
+        "region": "Mainland China",
+        "date": "2017-05-27T00:00:00Z"
+      },
+      {
+        "region": "Japan",
+        "date": "2017-09-14T00:00:00Z"
+      },
+      {
+        "region": "Korea",
+        "date": "2018-02-27T00:00:00Z"
+      },
+      {
+        "region": "Global",
+        "date": "2019-05-20T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2019-10-04T00:00:00Z"
+      }
     ],
-    "extra_info": "Azur Lane (Chinese: 碧蓝航线; pinyin: Bìlán Hángxiàn) is a side-scrolling shoot 'em up video game created by Chinese developers Shanghai Manjuu and Xiamen Yongshi, released in 2017 for the iOS and Android operating systems. Set in an alternate timeline of World War II, players engage in side-scrolling shooter gameplay, using female moe anthropomorphic characters based on warships from the war's major participants. Other gameplay elements, like customizing a dorm and in-game characters, are also present.\\nFirst launched in China in May and in Japan in September 2017, Azur Lane quickly became popular, especially in Japan where the player count reached five million within four months after its release. Players have voted the game among the top five on Google Play's Best Game of 2017 list for the region. Critics have attributed the game's popularity to its original and well-designed gameplay system. An English version started open beta in August 2018 and was formally released in May 2019. Later, in December 2019, the English version was expanded to Latin American region. PWB Play simultaneously released it to Hong Kong, Macau, and Taiwan in October 2019.\\nThe game has been adapted into several manga and novelizations. Azur Lane Crosswave, a 3D adaptation for PlayStation 4, was published by Compile Heart in August 2019 with mixed reception. Crosswave's English localization was released in February 2020 for PlayStation 4 and PC. A Nintendo Switch port of the game was released in Japan in September 2020, and in February 2021 in North America and in February 2021 in Europe.\\nAn anime television series adaptation by Bibury Animation Studios was announced in 2018, and was aired from October 2019 to March 2020. Funimation licensed this series for a SimulDub. An anime television series adaptation of the Azur Lane: Slow Ahead! manga by studios CANDYBOX and Yostar Pictures aired from January to March 2021. An anime adaptation of the Azur Lane Queen's Orders manga has been announced.",
+    "cg_info": {
+      "count": 4328,
+      "reported_count": 3229,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [
+        "retrofit",
+        "censored CN variants",
+        "alternate outfits",
+        "backgrounds"
+      ],
+      "notes": "Largest CG set in the library; includes EN/CN differences and backgrounds.",
+      "breakdown": {
+        "total": 4328,
+        "base": 920,
+        "damage": 0,
+        "retrofit": 138,
+        "outfit": 2703,
+        "oath": 103,
+        "censored": 390,
+        "background": 1483
+      }
+    },
+    "extra_info": "Azur Lane is a side-scrolling shoot 'em up created by Shanghai Manjuu and Xiamen Yongshi and released in 2017. It is the largest shipgirl franchise in the index. The EN and CN clients are the primary CG sources; censored CN variants and background versions are kept as separate files. The local library has 4,328 CGs, up from 3,229 in the original list.\\n\\nThe game remains active worldwide.",
+    "sources": [
+      {
+        "label": "Fernando2603/AzurLane",
+        "url": "https://github.com/Fernando2603/AzurLane",
+        "language": "en",
+        "type": "database"
+      },
+      {
+        "label": "AzurAPI",
+        "url": "https://github.com/AzurAPI/azurapi-js",
+        "language": "en",
+        "type": "database"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%AC%E3%83%BC%E3%83%B3",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Biligame - 碧蓝航线",
+        "url": "https://wiki.biligame.com/blhx/",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": [
       "https://upload.wikimedia.org/wikipedia/en/1/1d/Azur_Lane_main_screen.png",
       "https://upload.wikimedia.org/wikipedia/en/d/d4/Azur_Lane_Formation_screen.png",
@@ -136,155 +632,1312 @@
     "id": "1e2b61f631d7190caead4a9d1c60d00803e2ceb125dcdcc056f116efd2b12277",
     "name": "Battleship Bishoujo Puzzle",
     "display_name": "Battleship Bishoujo Puzzle",
-    "desc": "Gacha game with match-3 RPG gameplay",
-    "status":"Active",
+    "desc": "Match-3 puzzle RPG with shipgirls",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Puzzle girls.png",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Battleship Bishoujo Puzzle",
+        "Puzzle Girls"
+      ],
+      "zh": [
+        "宇航少女"
+      ],
+      "jp": [
+        "パズルガールズ"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: パズルガールズ\\n- ZH: 宇航少女\\n- EN: Puzzle Girls / Space Girls Fleet"
+      },
+      {
+        "name": "Developer",
+        "value": "北京草帽互娱网络科技有限公司 (Hat4Love)"
+      },
+      {
+        "name": "Publisher",
+        "value": "アイゼンクラウドゲーム (Eisen Cloud Game)"
+      },
+      {
+        "name": "Genre",
+        "value": "Match-3 puzzle RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "142 (current library; 142 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Public asset server / web datamine (DustyPirate script); Game8"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2021-07-25T00:00:00Z",
+        "end_date": "2023-12-28T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 142,
+      "reported_count": 142,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [],
+      "notes": "All 142 CGs are present.",
+      "breakdown": {
+        "total": 142,
+        "base": 111,
+        "damage": 0,
+        "retrofit": 1,
+        "outfit": 30,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Space-themed match-3 RPG with anthropomorphized ships, developed by Hat4Love and operated in Japan by Eisen Cloud Game. The Japanese service ran from 25 July 2021 to 28 December 2023. The local library has all 142 CGs, matching the original count.",
+    "sources": [
+      {
+        "label": "Game8 - Puzzle Girls",
+        "url": "https://game8.jp/puzzlegirls/391141",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BA%E3%83%AB%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA_(%E3%82%B2%E3%83%BC%E3%83%A0)",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "88b234763889f9d723e6552f50848e7c7397bf0939b3c304ae8338cad26bfd7a",
     "name": "Battleship Girl",
-    "display_name": "Battleship Girl",
-    "desc": "Manga series by ZECO, which spawn a gacha game",
-    "status":"End of Service",
+    "display_name": "Battleship Girl -鋼鉄少女-",
+    "desc": "Manga-based shipgirl training game",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Battleship Girls.png",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Battleship Girl"
+      ],
+      "zh": [
+        "钢铁少女"
+      ],
+      "jp": [
+        "Battleship Girl -鋼鉄少女-"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: Battleship Girl -鋼鉄少女-\\n- ZH: 钢铁少女"
+      },
+      {
+        "name": "Developer",
+        "value": "萌貓喵 (Moe Cat) / ZECO (original manga)"
+      },
+      {
+        "name": "Publisher",
+        "value": "萌貓喵 (Moe Cat)"
+      },
+      {
+        "name": "Genre",
+        "value": "Raising simulation"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "447 (current library; 450 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Damaged, retrofit, alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; Moegirl; Twitter archive"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Taiwan/Mainland China",
+        "date": "2016-04-01T00:00:00Z",
+        "end_date": "2018-01-10T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 447,
+      "reported_count": 450,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Good",
+      "variants": [
+        "damaged",
+        "retrofit",
+        "alternate outfits"
+      ],
+      "notes": "Some game CGs may be inaccessible because the service is closed.",
+      "breakdown": {
+        "total": 447,
+        "base": 112,
+        "damage": 218,
+        "retrofit": 190,
+        "outfit": 49,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Game adaptation of ZECO's Battleship Girl -鋼鉄少女- manga. It was released in Chinese-speaking regions in April 2016 with Japanese voices, and the service ended on 10 January 2018. The local library has 447 CGs, close to the 450 in the original list.",
+    "sources": [
+      {
+        "label": "Moegirl - 钢铁少女/舰娘一览",
+        "url": "https://zh.moegirl.org.cn/%E9%92%A2%E9%93%81%E5%B0%91%E5%A5%B3/%E8%88%B0%E5%A8%98%E4%B8%80%E8%A7%88",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Archival Twitter",
+        "url": "https://twitter.com/gXfnOZ8DC5c3h7a/media",
+        "language": "jp",
+        "type": "archive"
+      },
+      {
+        "label": "Gamersky article",
+        "url": "https://wap.gamersky.com/sygl/Content-722604.html",
+        "language": "zh",
+        "type": "news"
+      },
+      {
+        "label": "wikiwiki - BSG",
+        "url": "https://wikiwiki.jp/bsg/%E8%83%A1%EE%87%95%28%E3%83%95%E3%83%83%E3%83%89%29",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "bf69a5c3048cf278882f12b7c54de7bcdfc65ea737ca66381c64dad7b08bfefc",
     "name": "Battleship War Girl",
     "display_name": "Battleship War Girl",
-    "desc": "Gacha game with RPG element",
-    "status":"End of Service",
+    "desc": "Shipgirl card RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Battleship War Girl.png",
-    "general_info": [],
+    "aliases": {
+      "en": [
+        "Battleship War Girl"
+      ],
+      "zh": [
+        "碧海舰姬"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 碧海舰姬"
+      },
+      {
+        "name": "Developer",
+        "value": "Unknown"
+      },
+      {
+        "name": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "name": "Genre",
+        "value": "Shipgirl card RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "30 (current library; 30 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Poor - Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files; Facebook page"
+      }
+    ],
     "release_date": [],
-    "extra_info": "",
+    "cg_info": {
+      "count": 30,
+      "reported_count": 30,
+      "as_of": "2026-11-08",
+      "quality": "Poor - Okay",
+      "variants": [
+        "alternate outfits"
+      ],
+      "notes": "Some CGs may be inaccessible because the game is offline.",
+      "breakdown": {
+        "total": 30,
+        "base": 28,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 2,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Obscure Chinese shipgirl card game. Very little public documentation survives; the Facebook page is the main official trace. The game appears to have ended service, but release and shutdown dates are unconfirmed. The local library has all 30 CGs from the original list.",
+    "sources": [
+      {
+        "label": "Official Facebook page",
+        "url": "https://www.facebook.com/collection.battle/?ref=page_internal",
+        "language": "zh",
+        "type": "official"
+      },
+      {
+        "label": "9game 碧海舰姬 page",
+        "url": "https://www.9game.cn/bihaijianji/",
+        "language": "zh",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "ddc81304322eb1488468fd8208c018fda433f7d05cada4aadb7bda78036538f9",
     "name": "Black Surgenights",
     "display_name": "Black Surgenights",
-    "desc": "Gacha game with turn-based RPG gameplay",
-    "status":"End of Service",
+    "desc": "Turn-based shipgirl RPG with abyssal forms",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Black surgenight_dark.png",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Black Surgenights",
+        "Dark Boom"
+      ],
+      "zh": [
+        "黑潮：深海觉醒"
+      ],
+      "jp": [
+        "ブラック・サージナイト"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 黑潮：深海觉醒\\n- JP: ブラック・サージナイト\\n- EN: Dark Boom"
+      },
+      {
+        "name": "Developer",
+        "value": "宅極電工作室 (Zhaijidian Studio)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN/JP: bilibili\\n- TW/HK/MO/SEA: KOMOE GAME (小萌科技)"
+      },
+      {
+        "name": "Genre",
+        "value": "Turn-based strategy RPG"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "453 (current library; 424 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Abyssal form, no-rigging form, alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "JP version assets; Dark Boom wiki"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2020-10-15T00:00:00Z",
+        "end_date": "2022-09-09T00:00:00Z"
+      },
+      {
+        "region": "Southeast Asia",
+        "date": "2020-10-15T00:00:00Z",
+        "end_date": "2022-09-09T00:00:00Z"
+      },
+      {
+        "region": "Japan",
+        "date": "2021-05-20T00:00:00Z",
+        "end_date": "2022-06-30T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 453,
+      "reported_count": 424,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [
+        "abyssal form",
+        "no-rigging form",
+        "alternate outfits"
+      ],
+      "notes": "JP version assets are the primary source.",
+      "breakdown": {
+        "total": 453,
+        "base": 164,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 289,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Developed as Project:D / Abyss Front and released by bilibili as Black Surgenight. The game is known for giving every shipgirl an abyssal form and a no-rigging form. The JP service ran from 20 May 2021 to 30 June 2022; the TW/HK/MO and SEA versions closed on 9 September 2022. The local library has 453 CGs, up from 424 in the original list.",
+    "sources": [
+      {
+        "label": "Dark Boom Miraheze - Dolls",
+        "url": "https://darkboom.miraheze.org/wiki/Dolls",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B5%E3%83%BC%E3%82%B8%E3%83%8A%E3%82%A4%E3%83%88",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Chinese Wikipedia",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%BD%AE%EF%BC%9A%E6%B7%B1%E6%B5%B7%E8%A6%BA%E9%86%92",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "01ca31aacf2dd64595db9724b08e04198f252ef54948a42ac4033fd3c0c5d8c2",
     "name": "Blue Oath",
     "display_name": "Blue Oath",
-    "desc": "Gacha game with 3D 3rd person RPG gameplay",
-    "status":"Active",
+    "desc": "3D real-time naval RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Blue oath.webp",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Blue Oath"
+      ],
+      "zh": [
+        "苍蓝誓约"
+      ],
+      "jp": [
+        "蒼藍の誓い-ブルーオース"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 苍蓝誓约\\n- JP: 蒼藍の誓い-ブルーオース"
+      },
+      {
+        "name": "Developer",
+        "value": "北京巴别时代科技股份有限公司 (Babeltime)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: Babeltime\\n- JP: Zephyrus Games\\n- TW/HK/MO: Panda Games (熊猫游戏)"
+      },
+      {
+        "name": "Genre",
+        "value": "3D real-time naval RPG"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS, PC (Windows)"
+      },
+      {
+        "name": "CG Count",
+        "value": "368 (current library; 363 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Retrofit, damaged, no-rigging, alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; Blue Oath Miraheze; wikiwiki; Biligame"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Mainland China",
+        "date": "2019-07-16T00:00:00Z",
+        "end_date": "2022-03-10T00:00:00Z"
+      },
+      {
+        "region": "Japan",
+        "date": "2020-04-07T00:00:00Z",
+        "end_date": "2023-08-31T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2020-06-24T00:00:00Z",
+        "end_date": "2020-12-31T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 368,
+      "reported_count": 363,
+      "as_of": "2026-11-08",
+      "quality": "Okay - Good",
+      "variants": [
+        "retrofit",
+        "damaged",
+        "no-rigging",
+        "alternate outfits"
+      ],
+      "notes": "The local set includes damage and no-rigging variants.",
+      "breakdown": {
+        "total": 368,
+        "base": 156,
+        "damage": 151,
+        "retrofit": 14,
+        "outfit": 49,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Babeltime's 3D real-time naval RPG, released in mainland China in 2019, Japan in 2020, and TW/HK/MO in 2020. The Japanese version was published by Zephyrus and survived until 31 August 2023. The game is known for its 3D shipgirl models and Japanese voice cast. The local library has 368 CGs, up from 363 in the original list.\\n\\nThe spin-off Oath x Girls is listed separately.",
+    "sources": [
+      {
+        "label": "Blue Oath Miraheze - Senki",
+        "url": "https://blueoath.miraheze.org/wiki/Senki",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "wikiwiki - Blue Oath",
+        "url": "https://wikiwiki.jp/blueoath/%E3%83%AC%E3%82%A2%E3%83%AA%E3%83%86%E3%82%A3%E9%A0%86",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Biligame - 苍蓝誓约 战姬一览",
+        "url": "https://wiki.biligame.com/clsy/%E6%88%98%E5%A7%AC%E4%B8%80%E8%A7%88",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "2cc6a7026759d2ee627aeeed115eccfda975f4142552d10e4f17e56e58888f72",
     "name": "Codename Coastline",
-    "display_name": "Codename Coastline",
-    "desc": "Gacha game with 3D RTS gameplay element",
-    "status":"End of Service",
+    "display_name": "Codename: Coastline",
+    "desc": "Sci-fi shipgirl strategy RPG",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
+    "aliases": {
+      "en": [
+        "Codename: Coastline"
+      ],
+      "zh": [
+        "代号：海岸线"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 代号：海岸线"
+      },
+      {
+        "name": "Developer",
+        "value": "Unknown"
+      },
+      {
+        "name": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "name": "Genre",
+        "value": "Sci-fi naval strategy RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "23 (current library; 23 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Alternative variant"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files"
+      }
+    ],
     "release_date": [],
-    "extra_info": "",
+    "cg_info": {
+      "count": 23,
+      "reported_count": 23,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [
+        "alternative variant"
+      ],
+      "notes": "Release status unconfirmed; assets likely from a test build.",
+      "breakdown": {
+        "total": 23,
+        "base": 10,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 13,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Sci-fi shipgirl strategy RPG announced in 2019 with story cooperation from Kadokawa Aoba. Public release and shutdown details are poorly documented; the surviving CGs likely come from a test or development build. The local library has all 23 CGs from the original list.",
+    "sources": [
+      {
+        "label": "Gamersky - 代号：海岸线",
+        "url": "https://shouyou.gamersky.com/mobilegame/zx/79380",
+        "language": "zh",
+        "type": "database"
+      },
+      {
+        "label": "9game - 代号海岸线",
+        "url": "https://www.9game.cn/news/3166716.html",
+        "language": "zh",
+        "type": "news"
+      },
+      {
+        "label": "Ali213 - 代号：海岸线",
+        "url": "https://m.ali213.net/android/163007.html",
+        "language": "zh",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "7de316ffd5dfaf0e7ce6ed86b34de7a42d29e9abffd9fd382f73f923ed9aca43",
     "name": "Counter Arms",
     "display_name": "Counter Arms",
-    "desc": "Idle game with various anthomorphised military vehicle (including ships)",
-    "status":"Active",
+    "desc": "Idle military anthropomorphism RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Counter Arms_dark.png",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Counter Arms"
+      ],
+      "zh": [
+        "零之战线"
+      ],
+      "jp": [
+        "カウンター・アームズ -終焉武装少女-"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: カウンター・アームズ -終焉武装少女-\\n- ZH: 零之战线"
+      },
+      {
+        "name": "Developer",
+        "value": "Ujoy Games"
+      },
+      {
+        "name": "Publisher",
+        "value": "Ujoy Games"
+      },
+      {
+        "name": "Genre",
+        "value": "Idle RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "107 (current library; 107 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Rarity variants, alternate outfits, oath skins"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; official Twitter"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2021-05-13T00:00:00Z",
+        "end_date": "2023-05-30T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 107,
+      "reported_count": 107,
+      "as_of": "2026-11-08",
+      "quality": "Okay - Good",
+      "variants": [
+        "rarity variants",
+        "alternate outfits",
+        "oath skins"
+      ],
+      "notes": "All 107 CGs are present.",
+      "breakdown": {
+        "total": 107,
+        "base": 42,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 61,
+        "oath": 4,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Idle RPG about anthropomorphized military vehicles, developed and operated by Ujoy Games. The Japanese service ran from 13 May 2021 to 30 May 2023. The local library has all 107 CGs from the original list.",
+    "sources": [
+      {
+        "label": "Official Twitter",
+        "url": "https://twitter.com/CounterArms",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "OnlineGamePlanet - Counter Arms",
+        "url": "https://onlinegame-pla.net/counterarms",
+        "language": "jp",
+        "type": "database"
+      },
+      {
+        "label": "Gamebiz - service end",
+        "url": "https://gamebiz.jp/news/368353",
+        "language": "jp",
+        "type": "news"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "ae72562f0ccb077069181be50fe457e202d4df08e560180242fe094f794c7ce0",
     "name": "Deep Sea Desire",
     "display_name": "Deep Sea Desire",
-    "desc": "H-gacha game with 3D RTS gameplay element",
-    "status":"End of Service",
+    "desc": "Adult shipgirl card strategy game",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Deep Sea Desire.jpg",
-    "general_info": [],
+    "aliases": {
+      "en": [
+        "Deep Sea Desire"
+      ],
+      "zh": [
+        "深海禁欲"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 深海禁欲"
+      },
+      {
+        "name": "Developer",
+        "value": "Unknown (derived from 超次元大海战)"
+      },
+      {
+        "name": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "name": "Genre",
+        "value": "Adult shipgirl card/strategy game"
+      },
+      {
+        "name": "Platform",
+        "value": "Android"
+      },
+      {
+        "name": "CG Count",
+        "value": "11 (current library; 11 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files (incomplete)"
+      }
+    ],
     "release_date": [],
-    "extra_info": "",
+    "cg_info": {
+      "count": 11,
+      "reported_count": 11,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [],
+      "notes": "Incomplete extraction; release and service dates unconfirmed.",
+      "breakdown": {
+        "total": 11,
+        "base": 11,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 0,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Adult shipgirl game related to the defunct 超次元大海战. Public documentation is scarce and the CG set is incomplete. The local library has all 11 known CGs from the original list.",
+    "sources": [
+      {
+        "label": "Mylsj game page (existence proof)",
+        "url": "https://www.mylsj.xyz/select/game/10021",
+        "language": "zh",
+        "type": "database"
+      },
+      {
+        "label": "Gamer forum post",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=60446&snA=1819",
+        "language": "zh",
+        "type": "forum"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "001e4344fa8abc910c36b8e87f25ed5f04ab858feaeef059930debf82e882fed",
     "name": "Goddess Fleet",
     "display_name": "Goddess Fleet",
-    "desc": "Gacha card game that never leave China",
-    "status":"End of Service",
+    "desc": "Chinese shipgirl card RPG",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
+    "aliases": {
+      "en": [
+        "Goddess Fleet"
+      ],
+      "zh": [
+        "女神舰队"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 女神舰队"
+      },
+      {
+        "name": "Developer",
+        "value": "nvshenjiandui Studio"
+      },
+      {
+        "name": "Publisher",
+        "value": "nvshenjiandui Studio"
+      },
+      {
+        "name": "Genre",
+        "value": "Shipgirl card RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android"
+      },
+      {
+        "name": "CG Count",
+        "value": "40 (current library; 41 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files (incomplete)"
+      }
+    ],
     "release_date": [],
-    "extra_info": "",
+    "cg_info": {
+      "count": 40,
+      "reported_count": 41,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [],
+      "notes": "One CG missing from the local library; release date unconfirmed.",
+      "breakdown": {
+        "total": 40,
+        "base": 40,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 0,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Small Chinese shipgirl card game. The download page was updated in April 2019 and noted server problems; the game appears to have ended service. Public documentation is very limited. The local library has 40 of the 41 CGs in the original list.",
+    "sources": [
+      {
+        "label": "3839 - 女神舰队",
+        "url": "https://www.3839.com/a/96614.htm",
+        "language": "zh",
+        "type": "database"
+      },
+      {
+        "label": "3DM - 女神舰队",
+        "url": "https://shouyou.3dmgame.com/android/51450.html",
+        "language": "zh",
+        "type": "database"
+      },
+      {
+        "label": "Ali213 - 女神舰队",
+        "url": "https://m.ali213.net/android/228085.html",
+        "language": "zh",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "221beb70292cc2aac846c0d88957a11fd0c7cd453d14e2037c0b992f656f261e",
     "name": "Guardian Project",
     "display_name": "Guardian Project",
-    "desc": "Gacha game with 3D RTS gameplay element",
-    "status":"End of Service",
+    "desc": "3D real-time naval strategy RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Guardian Project.png",
+    "aliases": {
+      "en": [
+        "Guardian Project"
+      ],
+      "zh": [
+        "超次元大海战D"
+      ],
+      "jp": [
+        "ガーディアン・プロジェクト",
+        "守護プロ"
+      ]
+    },
     "general_info": [
-
+      {
+        "name": "Alternative Name",
+        "value": "- JP: ガーディアン・プロジェクト (守護プロ)\\n- ZH: 超次元大海战D"
+      },
+      {
+        "name": "Developer",
+        "value": "江苏甲子网络科技有限公司 (Jiangsu Jiazi)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: 次元游戏社\\n- JP: Willow Entertainment\\n- TW/HK/MO: 老司机游玩"
+      },
+      {
+        "name": "Genre",
+        "value": "3D real-time strategy RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "73 (current library; 70 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; wikiwiki; AppMedia"
+      }
     ],
-    "release_date": [],
-    "extra_info": "",
+    "release_date": [
+      {
+        "region": "Mainland China",
+        "date": "2019-05-16T00:00:00Z",
+        "end_date": "2020-04-08T00:00:00Z"
+      },
+      {
+        "region": "Japan",
+        "date": "2019-06-14T00:00:00Z",
+        "end_date": "2020-04-07T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2021-07-20T00:00:00Z",
+        "end_date": "2022-07-19T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 73,
+      "reported_count": 70,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Okay",
+      "variants": [],
+      "notes": "Some CGs may be inaccessible because the service is closed.",
+      "breakdown": {
+        "total": 73,
+        "base": 70,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 3,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "3D naval RTS developed by Jiangsu Jiazi. The Japanese version launched on 14 June 2019 and stopped connecting on 7 April 2020 without a shutdown announcement. The Chinese and TW/HK/MO versions also closed. The local library has 73 CGs, up from 70 in the original list.",
+    "sources": [
+      {
+        "label": "wikiwiki - Guardian Project",
+        "url": "https://wikiwiki.jp/guardian-pro/%E4%B8%80%E8%A6%A7%E8%A1%A8",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "AppMedia - Guardian Project",
+        "url": "https://appmedia.jp/guardianproject/3494986",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%E3%83%BB%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "8b50ad1d3dd7f388e58efe5de35c1bc0472afcdb1beb9e883d60cb963b573950",
     "name": "Kantai Collection",
     "display_name": "Kantai Collection",
-    "desc": "Auto-battler game with heavy emphasis on resource management",
-    "status":"Active",
+    "desc": "Naval card game and resource management",
+    "status": "Active",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Kantai Collection.png",
+    "aliases": {
+      "en": [
+        "Kantai Collection",
+        "KanColle"
+      ],
+      "zh": [
+        "舰队Collection"
+      ],
+      "jp": [
+        "艦隊これくしょん -艦これ-"
+      ]
+    },
     "general_info": [
-      {"name": "Developer", "value": "Kadokawa Games"},
-      {"name": "Publisher", "value": "DMM.com"},
-      {"name": "Platform", "value": "Browser"},
-      {"name": "Genre", "value": "Auto-battler, resource management"}
+      {
+        "name": "Alternative Name",
+        "value": "- JP: 艦隊これくしょん -艦これ-\\n- ZH: 舰队Collection\\n- EN: KanColle"
+      },
+      {
+        "name": "Developer",
+        "value": "Kadokawa Games / C2机关"
+      },
+      {
+        "name": "Publisher",
+        "value": "DMM.com (EXNOA)"
+      },
+      {
+        "name": "Genre",
+        "value": "Naval card game, resource management"
+      },
+      {
+        "name": "Platform",
+        "value": "Browser (HTML5), Android"
+      },
+      {
+        "name": "CG Count",
+        "value": "3,496 (current library; 2,881 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Retrofit, damaged, alternate outfits, seasonal"
+      },
+      {
+        "name": "CG Source",
+        "value": "Kancolle Wiki image list"
+      }
     ],
     "release_date": [
-      {"region": "Japan", "date": "2013-04-23T00:00:00Z"}
+      {
+        "region": "Japan",
+        "date": "2013-04-23T00:00:00Z"
+      }
     ],
-    "extra_info": "Kantai Collection (Japanese: 艦隊これくしょん, Hepburn: Kantai Korekushon, lit. 'Fleet Collection'), abbreviated as KanColle (艦これ, KanKore), is a Japanese free-to-play web browser game developed by Kadokawa Games and published by DMM.com.\\nThe central theme of the game is the representation of World War II warships personified as teenage girls and young adult women with personality characteristics reflecting the history of each ship. Originally, all of these were Japanese, but ships from other nations have also been added as the game has developed. Gameplay involves all aspects of naval warfare, including not only combat but also maintenance, repair, upgrading, resupply, morale, logistics and mission planning.\\nThe game was launched on April 23, 2013. As of April 2015, the game is available in Japan only and has 3 million registered players. An Android client of the original game was released in 2016. The game has developed into a much larger media franchise; various media including multiple manga series and light novels have been released, in addition to an officially licensed tabletop role-playing game. A PlayStation Vita game was released in February 2016, and an anime television series aired its first season from January to March 2015, with an animated film released in November 2016, and a second season that will premiere in November 2022.",
-    "screenshot": [
-
-    ]
+    "cg_info": {
+      "count": 3496,
+      "reported_count": 2881,
+      "as_of": "2026-11-08",
+      "quality": "Okay - Good",
+      "variants": [
+        "retrofit",
+        "damaged",
+        "alternate outfits",
+        "seasonal"
+      ],
+      "notes": "Large set with many seasonal and damaged variants.",
+      "breakdown": {
+        "total": 3496,
+        "base": 332,
+        "damage": 1715,
+        "retrofit": 1181,
+        "outfit": 2604,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Kantai Collection is a free-to-play browser game developed by Kadokawa Games and C2机关 and operated by DMM.com. It launched on 23 April 2013 and remains active in Japan. The local library has 3,496 CGs, up from 2,881 in the original list. The set includes retrofit, damaged, seasonal, and alternate-outfit art.",
+    "sources": [
+      {
+        "label": "Kancolle Wiki - Ship List (Image)",
+        "url": "https://en.kancollewiki.net/Ship_List_(Image)",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E8%89%A6%E9%9A%8A%E3%81%93%E3%82%8C%E3%81%8F%E3%81%97%E3%82%87%E3%82%93_-%E8%89%A6%E3%81%93%E3%82%8C-",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "舰娘百科 (zh.kcwiki.cn)",
+        "url": "https://zh.kcwiki.cn/wiki/",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
+    "screenshot": []
   },
   {
     "id": "5bc60113bd87f545195d01fc2fd58020da77e3c484abcd32fa9041a5dc93c783",
     "name": "Lane Girls",
     "display_name": "Lane Girls",
-    "desc": "Auto-battler gacha with 3D ship and shipgirl model",
-    "status":"End of Service",
+    "desc": "3D naval strategy and dating simulation",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Lane Girl.png",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Lane Girls",
+        "Warship Hime"
+      ],
+      "zh": [
+        "舰姬",
+        "Warship-HIME"
+      ],
+      "jp": [
+        "最終戦艦withラブリーガールズ"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 舰姬 / Warship-HIME\\n- JP: 最終戦艦withラブリーガールズ\\n- TW: 請命令！提督SAMA\\n- EN: Warship Hime / Lane Girls"
+      },
+      {
+        "name": "Developer",
+        "value": "成都金角网络科技 (Chengdu Jinjiao)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: 上海绿岸网络\\n- JP/KR: Gamepub\\n- TW/HK/MO: 科众智能 (Lunplay)\\n- SEA: 成都哆可梦"
+      },
+      {
+        "name": "Genre",
+        "value": "3D naval strategy, dating simulation"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "182 (current library; 168 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Outfits and skins"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; archived homepage; official Twitter"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Korea",
+        "date": "2017-01-18T00:00:00Z",
+        "end_date": "2019-03-15T00:00:00Z"
+      },
+      {
+        "region": "Mainland China",
+        "date": "2017-07-25T00:00:00Z",
+        "end_date": "2019-12-31T00:00:00Z"
+      },
+      {
+        "region": "Japan",
+        "date": "2017-08-22T00:00:00Z",
+        "end_date": "2019-03-28T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2017-09-19T00:00:00Z",
+        "end_date": "2020-10-31T00:00:00Z"
+      },
+      {
+        "region": "Southeast Asia",
+        "date": "2018-02-28T00:00:00Z",
+        "end_date": "2018-11-30T00:00:00Z"
+      },
+      {
+        "region": "Thailand",
+        "date": "2018-04-26T00:00:00Z",
+        "end_date": "2018-10-31T00:00:00Z"
+      },
+      {
+        "region": "Global",
+        "date": "2018-06-14T00:00:00Z",
+        "end_date": "2019-07-06T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 182,
+      "reported_count": 168,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Okay",
+      "variants": [
+        "outfits",
+        "skins"
+      ],
+      "notes": "All regional servers are closed; some CGs may be inaccessible.",
+      "breakdown": {
+        "total": 182,
+        "base": 61,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 121,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "3D shipgirl game where ships transform between ship and girl forms in battle. It was released under different titles in each region: 舰姬 in mainland China, 最終戦艦withラブリーガールズ in Japan, 請命令！提督SAMA in TW/HK/MO, and Girls Fleet in Korea. All regional servers are now closed. The local library has 182 CGs, up from 168 in the original list.\\n\\nThe game is sometimes confused with Battleship War Girl (碧海舰姬); they are separate titles.",
+    "sources": [
+      {
+        "label": "Archived homepage",
+        "url": "https://web.archive.org/web/20181120080121/http://enjj.yahgame.com/",
+        "language": "en",
+        "type": "archive"
+      },
+      {
+        "label": "Official Twitter",
+        "url": "https://twitter.com/LSenkan/media",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E7%B5%82%E6%88%A6%E8%89%A6with%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Chinese Wikipedia",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%B0%E5%A7%AC",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
@@ -292,11 +1945,9 @@
     "name": "Maiden Fleet",
     "display_name": "Maiden Fleet",
     "desc": "",
-    "status":"End of Service",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [
-
-    ],
+    "general_info": [],
     "release_date": [],
     "extra_info": "",
     "screenshot": []
@@ -305,164 +1956,1412 @@
     "id": "43ca14c3746d852305548ea55f3afd7157e1bdadf400596bc3e8ece16914bba5",
     "name": "Mirage of Steelblue",
     "display_name": "Mirage of Steelblue",
-    "desc": "Warship Girl's spin off game",
-    "status":"End of Service",
+    "desc": "Warship Girls R spin-off",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Mirage of Steelblue"
+      ],
+      "zh": [
+        "苍青幻影"
+      ],
+      "jp": [
+        "蒼青のミラージュ"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 苍青幻影\\n- JP: 蒼青のミラージュ"
+      },
+      {
+        "name": "Developer",
+        "value": "Moe Fantasy (Japan)"
+      },
+      {
+        "name": "Publisher",
+        "value": "Moe Fantasy (Japan)"
+      },
+      {
+        "name": "Genre",
+        "value": "Naval strategy RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "45 (43 + 2 previously unlabeled; current library: 45)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Damaged variant"
+      },
+      {
+        "name": "CG Source",
+        "value": "Mist Wiki; game assets and promotional materials"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2018-09-08T00:00:00Z",
+        "end_date": "2020-03-15T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 45,
+      "reported_count": 43,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [
+        "damaged"
+      ],
+      "notes": "Two formerly unlabeled CGs are now included.",
+      "breakdown": {
+        "total": 45,
+        "base": 20,
+        "damage": 22,
+        "retrofit": 0,
+        "outfit": 5,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      },
+      "unlabeled_count": 2
+    },
+    "extra_info": "Spin-off of Warship Girls R, developed and operated by Moe Fantasy's Japanese branch. It ran from 8 September 2018 to 15 March 2020. Only shipgirls exclusive to this game are included in the index; they may later be merged into the Warship Girls R repository. The original list had 43 CGs plus 2 unlabeled; the local library now has 45.",
+    "sources": [
+      {
+        "label": "Mist Wiki - 舰娘图鉴",
+        "url": "http://mist.wiki/w/%E8%88%B0%E5%A8%98%E5%9B%BE%E9%89%B4",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E8%92%BC%E9%9D%92%E3%81%AE%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "a8ac433d309e9713672d664a0b1698eb14f1d753f90ff91d859405b36aa2dc6d",
     "name": "Moe Moe World War II",
     "display_name": "Moe Moe World War II",
-    "desc": "Console visual novel-esque game feature various anthropomorphised military vehicle (including ships)",
-    "status":"Released",
+    "desc": "Military anthropomorphism strategy game",
+    "status": "Released",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Moe moe ww2 3.jpg",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Moe Moe World War II"
+      ],
+      "zh": [
+        "萌萌2次大战（略）"
+      ],
+      "jp": [
+        "萌え萌え2次大戦(略)"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: 萌え萌え2次大戦（略）\\n- ZH: 萌萌2次大战（略）"
+      },
+      {
+        "name": "Developer",
+        "value": "SystemSoft Alpha"
+      },
+      {
+        "name": "Publisher",
+        "value": "SystemSoft Alpha"
+      },
+      {
+        "name": "Genre",
+        "value": "Strategy simulation + adventure"
+      },
+      {
+        "name": "Platform",
+        "value": "PC (Windows), PlayStation 2, PlayStation Portable, i-mode, Nintendo DS, Xbox 360"
+      },
+      {
+        "name": "CG Count",
+        "value": "34 (current library; 34 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Poor - Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; official site; news articles"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2007-12-21T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 34,
+      "reported_count": 34,
+      "as_of": "2026-11-08",
+      "quality": "Poor - Okay",
+      "variants": [],
+      "notes": "All 34 CGs are present.",
+      "breakdown": {
+        "total": 34,
+        "base": 21,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 13,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Console/PC military anthropomorphism strategy series by SystemSoft Alpha. The first game launched on PC in December 2007, followed by PS2/PSP ports in 2008 and a sequel in 2009. It is not a live-service game. The local library has all 34 CGs from the original list.",
+    "sources": [
+      {
+        "label": "Official site (Moe Moe UDX)",
+        "url": "https://www.ss-beta.co.jp/products/moesen_udx/char.html",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "Gamer news article",
+        "url": "https://www.gamer.ne.jp/game/1000053059/news/",
+        "language": "jp",
+        "type": "news"
+      },
+      {
+        "label": "Komica wiki",
+        "url": "https://wiki.komica.org/%E8%90%8C%E3%81%88%E8%90%8C%E3%81%882%E6%AC%A1%E5%A4%A7%E6%88%A6%EF%BC%88%E7%95%A5%EF%BC%89",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Moegirl - 萌萌2次大战",
+        "url": "https://zh.moegirl.org.cn/%E8%90%8C%E8%90%8C2%E6%AC%A1%E5%A4%A7%E6%88%98%E7%95%A5%E7%B3%BB%E5%88%97",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "a8ac433d309e9713672d664a0b1698eb14f1d753f90ff91d859405b36aa2dc6e",
     "name": "Monster Strike",
     "display_name": "Monster Strike",
-    "desc": "All-start gacha game with 2D action RPG gameplay",
+    "desc": "Physics-based action RPG",
     "status": "Active",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Monster Strike.png",
+    "aliases": {
+      "en": [
+        "Monster Strike"
+      ],
+      "zh": [
+        "怪物弹珠"
+      ],
+      "jp": [
+        "モンスターストライク"
+      ]
+    },
     "general_info": [
-      {"name": "Alternative Name", "value": "- JP:  モンスターストライク"},
-      {"name": "Developer", "value": "MIXI, Inc."},
-      {"name": "Publisher", "value": " MIXI Inc, XFLAG"},
-      {"name": "Genre", "value": "Role-playing game"},
-      {"name": "Platform", "value": "Android, iOS"}
+      {
+        "name": "Alternative Name",
+        "value": "- JP: モンスターストライク\\n- ZH: 怪物弹珠"
+      },
+      {
+        "name": "Developer",
+        "value": "MIXI, Inc. (XFLAG)"
+      },
+      {
+        "name": "Publisher",
+        "value": "MIXI, Inc."
+      },
+      {
+        "name": "Genre",
+        "value": "Physics-based action RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "17 (current library; 17 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Monst AppBank; Famitsu wiki"
+      }
     ],
     "release_date": [
-      { "region": "Japan", "date": "2013-08-08T00:00:00Z"},
-      { "region": "Global", "date": "2014-10-20T00:00:00Z"}
+      {
+        "region": "Japan",
+        "date": "2013-08-08T00:00:00Z"
+      },
+      {
+        "region": "Global",
+        "date": "2014-10-20T00:00:00Z"
+      }
     ],
-    "extra_info": "",
-    "screenshot": [
-    ]
+    "cg_info": {
+      "count": 17,
+      "reported_count": 17,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Good",
+      "variants": [],
+      "notes": "Only ship-themed monsters are indexed.",
+      "breakdown": {
+        "total": 17,
+        "base": 10,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 7,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Monster Strike is a physics-based action RPG by MIXI. Only the ship-themed monsters are included in this shipgirl index; the local library has all 17 CGs from the original list.",
+    "sources": [
+      {
+        "label": "Monst AppBank",
+        "url": "https://monst.appbank.net",
+        "language": "jp",
+        "type": "database"
+      },
+      {
+        "label": "Famitsu Monster Strike wiki",
+        "url": "https://wiki.famitsu.com/monsterstrike",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
+    "screenshot": []
+  },
+  {
+    "id": "30e3e7dc9dbc7a0df8b54f6a94f11768c8ac638855ddfad4de04e915d44bf13e",
+    "name": "Rick G Earth",
+    "display_name": "Rick G Earth",
+    "desc": "Military anthropomorphism strategy SLG",
+    "status": "Active",
+    "icon_image": "",
+    "aliases": {
+      "en": [
+        "Rick G Earth"
+      ],
+      "zh": [],
+      "jp": [
+        "りっく☆じあ〜す"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: りっく☆じあ〜す"
+      },
+      {
+        "name": "Developer",
+        "value": "Zoo Corporation (株式会社ズー)"
+      },
+      {
+        "name": "Publisher",
+        "value": "Zoo Corporation / DMM GAMES"
+      },
+      {
+        "name": "Genre",
+        "value": "Raising strategy SLG"
+      },
+      {
+        "name": "Platform",
+        "value": "PC browser, Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "12 (current library; 12 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Damaged variants"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2016-02-24T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 12,
+      "reported_count": 12,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [
+        "damaged"
+      ],
+      "notes": "Only ship-related CGs are indexed; the game has many non-ship units.",
+      "breakdown": {
+        "total": 12,
+        "base": 0,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 12,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Military anthropomorphism strategy game about Japan Ground Self-Defense Force equipment. It launched on 24 February 2016 and remains active; the DMM GAMES version started on 27 July 2023. Only the 12 ship-related CGs are included in this index.",
+    "sources": [
+      {
+        "label": "Official site",
+        "url": "https://rickg.earth/",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "DMM GAMES page",
+        "url": "https://games.dmm.com/detail/rickg_earth",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "Pixiv Encyclopedia",
+        "url": "https://dic.pixiv.net/a/%E3%82%8A%E3%81%A3%E3%81%8F%E2%98%86%E3%81%98%E3%81%82%E3%80%9C%E3%81%99",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
+    "screenshot": []
   },
   {
     "id": "e2e484832cf78ea408660cb2a860c3aa678c681584cfdcddd87b0c976d987229",
     "name": "Shipgirls Collection",
-    "display_name": "Shipgirls Collection",
-    "desc": "Gacha card game that try to cash in on Kantai Collection's success",
-    "status":"End of Service",
+    "display_name": "Shipgirl Collection",
+    "desc": "Taiwanese shipgirl card game",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Shipgirl Collection"
+      ],
+      "zh": [
+        "舰娘收藏"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 舰娘收藏\\n- EN: Shipgirl Collection (asset folder: Shipgirls Collection)"
+      },
+      {
+        "name": "Developer",
+        "value": "JWJ APP Inc."
+      },
+      {
+        "name": "Publisher",
+        "value": "JWJ APP Inc."
+      },
+      {
+        "name": "Genre",
+        "value": "Card game"
+      },
+      {
+        "name": "Platform",
+        "value": "Android"
+      },
+      {
+        "name": "CG Count",
+        "value": "100 labeled + 589 unlabeled (current library: 100 labeled)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Damaged variant"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files; kcapp.swiki labeling"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Taiwan",
+        "date": "2015-01-01T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 100,
+      "reported_count": 100,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [
+        "damaged"
+      ],
+      "notes": "Some CGs may be inaccessible because the service is closed.",
+      "breakdown": {
+        "total": 100,
+        "base": 49,
+        "damage": 50,
+        "retrofit": 0,
+        "outfit": 2,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      },
+      "unlabeled_count": 589
+    },
+    "extra_info": "Android-only KanColle clone by Taiwan's JWJ APP Inc., formerly known as 超姬战舰 and 海上的波妞. It launched in 2015. The index contains 100 labeled CGs, with 589 additional unlabeled CGs still to be identified. The local library has the 100 labeled files from the original list.",
+    "sources": [
+      {
+        "label": "Chinese Wikipedia",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%B0%E5%A8%98%E6%94%B6%E8%97%8F",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "KCApp swiki - 舰娘",
+        "url": "https://kcapp.swiki.jp/index.php?%E8%89%A6%E5%A8%98",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "c0f5c0eef74bee397b02f537a18dede0d30b0f65ff85dbde26620b9476248d9d",
     "name": "Shipgirls GO",
     "display_name": "Shipgirls GO",
-    "desc": "",
-    "status":"End of Service",
+    "desc": "Chinese shipgirl card game",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Shipgirls GO"
+      ],
+      "zh": [
+        "舰姬GO",
+        "舰娘出击"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 舰姬GO / 舰娘出击\\n- Also known as: 舰娘一番, 舰姬天使, 萌娘爆破"
+      },
+      {
+        "name": "Developer",
+        "value": "北京卓越晨星科技有限公司"
+      },
+      {
+        "name": "Publisher",
+        "value": "北京卓越晨星科技有限公司"
+      },
+      {
+        "name": "Genre",
+        "value": "Card game"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "178 (current library; 179 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Damaged variant"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files; k73 proof"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Mainland China",
+        "date": "2015-07-01T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 178,
+      "reported_count": 179,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [
+        "damaged"
+      ],
+      "notes": "Some CGs may be inaccessible because the service is closed.",
+      "breakdown": {
+        "total": 178,
+        "base": 71,
+        "damage": 71,
+        "retrofit": 0,
+        "outfit": 36,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Chinese shipgirl card game originally released as 舰娘出击 / 舰姬GO in 2015. It was later renamed 舰娘一番, 舰姬天使, and 萌娘爆破. The service ended. The local library has 178 CGs, one fewer than the 179 in the original list.",
+    "sources": [
+      {
+        "label": "Moegirl - 舰娘出击",
+        "url": "https://mzh.moegirl.org.cn/%E8%88%B0%E5%A8%98%E5%87%BA%E5%87%BB",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Ali213 - 舰娘出击",
+        "url": "https://m.ali213.net/jncj",
+        "language": "zh",
+        "type": "database"
+      },
+      {
+        "label": "K73 - existence proof",
+        "url": "http://www.k73.com/down/android/80097.html",
+        "language": "zh",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "86284bb718bb686a1f200f2a525c51b2c8df4be89323935fbe63dab2018ea189",
     "name": "Shoujo Heiki",
     "display_name": "Shoujo Heiki",
-    "desc": "A cancelled multi-media project that feature anthropomorphised warship as idols",
-    "status": "Cancelled",
+    "desc": "Cancelled shipgirl idol project",
+    "status": "Unreleased",
     "icon_image": "",
-    "general_info": [],
+    "aliases": {
+      "en": [
+        "Shoujo Heiki"
+      ],
+      "zh": [],
+      "jp": [
+        "少女兵器大戦"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: 少女兵器大戦"
+      },
+      {
+        "name": "Developer",
+        "value": "Up-Land (アップランド)"
+      },
+      {
+        "name": "Publisher",
+        "value": "Up-Land"
+      },
+      {
+        "name": "Genre",
+        "value": "Story-complete RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "7 (current library; 7 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Poor"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Official Twitter"
+      }
+    ],
     "release_date": [],
-    "extra_info": "",
+    "cg_info": {
+      "count": 7,
+      "reported_count": 7,
+      "as_of": "2026-11-08",
+      "quality": "Poor",
+      "variants": [],
+      "notes": "Vaporware; only official Twitter art survives.",
+      "breakdown": {
+        "total": 7,
+        "base": 7,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 0,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Cancelled mobile RPG about anthropomorphized weapons. Up-Land announced it for summer 2018 and opened pre-registration, but the game was never released. Only seven CGs survive through the official Twitter.",
+    "sources": [
+      {
+        "label": "Official Twitter",
+        "url": "https://twitter.com/shojoheiki",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "Gamebiz - pre-registration",
+        "url": "https://gamebiz.jp/news/147829",
+        "language": "jp",
+        "type": "news"
+      },
+      {
+        "label": "AppMedia - release info",
+        "url": "https://appmedia.jp/newgame/1107411",
+        "language": "jp",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "88e11197c6cffa26028164dae3d158a77618310ed257c4e5151bf5b276a5138c",
     "name": "Tales of Abyss",
-    "display_name": "Tales of Abyss",
-    "desc": "Auto-battler spin off of Blue Oath",
-    "status":"Active",
+    "display_name": "Oath x Girls",
+    "desc": "Blue Oath spin-off idle RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Oath x Girl.png",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Oath x Girls",
+        "Tales of Abbysus",
+        "Tales of Abyss"
+      ],
+      "zh": [
+        "誓约少女",
+        "茶之恋姬"
+      ],
+      "jp": [
+        "オース×ガールズ",
+        "誓約少女 〜祝砲の元に集いし戦姫たち〜",
+        "茶の戀姬"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- JP: オース×ガールズ / 誓約少女 〜祝砲の元に集いし戦姫たち〜\\n- ZH: 誓约少女\\n- EN: Oath x Girls"
+      },
+      {
+        "name": "Developer",
+        "value": "北京巴别时代科技股份有限公司 (Babeltime)"
+      },
+      {
+        "name": "Publisher",
+        "value": "Hong Kong Babeltime Technology"
+      },
+      {
+        "name": "Genre",
+        "value": "Idle strategy RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "65 (current library; 64 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "None confirmed"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; official Twitter"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2022-10-26T00:00:00Z",
+        "end_date": "2024-02-28T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2023-05-24T00:00:00Z",
+        "end_date": "2024-02-29T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 65,
+      "reported_count": 64,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [],
+      "notes": "Internal folder name is Tales of Abyss; display title is Oath x Girls.",
+      "breakdown": {
+        "total": 65,
+        "base": 64,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 1,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Blue Oath IP spin-off with idle battle mechanics. It was announced under the working title Oath x Girls (オース×ガールズ) and released in Japan as 誓約少女 〜祝砲の元に集いし戦姫たち〜 on 26 October 2022; the Japanese service ended on 28 February 2024. The TW/HK/MO version was retitled 茶の戀姬 (Tea no Koi Hime) and changed to tea-personification content; it ended on 29 February 2024. The English title was Tales of Abbysus. The local library has 65 CGs, up from 64 in the original list.\\n\\nThe asset folder is still named Tales of Abyss, so the internal name is kept for compatibility.",
+    "sources": [
+      {
+        "label": "Official Twitter",
+        "url": "https://twitter.com/oathgirls",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "4Gamer - release",
+        "url": "https://www.4gamer.net/games/665/G066519/20221026097",
+        "language": "jp",
+        "type": "news"
+      },
+      {
+        "label": "OnlineGamePlanet - 誓約少女",
+        "url": "https://onlinegame-pla.net/keiyaku-shojo",
+        "language": "jp",
+        "type": "database"
+      },
+      {
+        "label": "Pixiv Encyclopedia - 誓約少女",
+        "url": "https://dic.pixiv.net/a/%E8%AA%93%E7%B4%84%E5%B0%91%E5%A5%B3",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia - 誓約少女",
+        "url": "https://ja.wikipedia.org/wiki/%E8%AA%93%E7%B4%84%E5%B0%91%E5%A5%B3_%E3%80%9C%E7%A5%9D%E7%A0%B2%E3%81%AE%E5%85%83%E3%81%AB%E9%9B%86%E3%81%84%E3%81%97%E6%88%A6%E5%A7%AB%E3%81%9F%E3%81%A1%E3%80%9C",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "2ad0119f16e69febbbd4b1c86515e2a1bc66a19c279f7dde93b4ed1f1ac7ae3f",
     "name": "The Cute Warship",
     "display_name": "The Cute Warship",
-    "desc": "Unknown shipgirl game that never leave China",
-    "status":"End of Service",
+    "desc": "Chinese shipgirl card game",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "The Cute Warship"
+      ],
+      "zh": [
+        "舰娘萌萌哒"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 舰娘萌萌哒"
+      },
+      {
+        "name": "Developer",
+        "value": "Unknown"
+      },
+      {
+        "name": "Publisher",
+        "value": "Unknown"
+      },
+      {
+        "name": "Genre",
+        "value": "Real-time naval card game"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "170 + 3 unlabeled (current library: 170)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Okay"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Improved forms, damaged variant"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Mainland China",
+        "date": "2015-11-26T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 170,
+      "reported_count": 170,
+      "as_of": "2026-11-08",
+      "quality": "Okay",
+      "variants": [
+        "improved forms",
+        "damaged"
+      ],
+      "notes": "Some CGs may be inaccessible because the service is closed.",
+      "breakdown": {
+        "total": 170,
+        "base": 64,
+        "damage": 55,
+        "retrofit": 51,
+        "outfit": 0,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      },
+      "unlabeled_count": 3
+    },
+    "extra_info": "Chinese shipgirl game that opened testing on 26 November 2015. It features improved forms and damaged variants. The local library has 170 CGs plus 3 unlabeled files. The service has ended.",
+    "sources": [
+      {
+        "label": "Baidu Baike - 舰娘萌萌哒",
+        "url": "https://baike.baidu.com/item/%E8%88%B0%E5%A8%98%E8%90%8C%E8%90%8C%E5%93%92/17783455",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "4399 - open test",
+        "url": "https://news.4399.com/gonglue/jnmmd/zixun/m/577008.html",
+        "language": "zh",
+        "type": "news"
+      },
+      {
+        "label": "17173 album",
+        "url": "https://newgame.17173.com/album-list-4040844.html",
+        "language": "zh",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "3b22c4d799cfb9791110b04398fc5423c97381bd725f0cdd0f6692ad4c2d8b89",
     "name": "Velvet Code",
     "display_name": "Velvet Code",
-    "desc": "Gacha game with 3D bullet hell shooter element",
-    "status":"Active",
+    "desc": "3D bullet-hell naval shooter",
+    "status": "Active",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Velvet Code.jpg",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Velvet Code"
+      ],
+      "zh": [
+        "拂晓：胜利之刻",
+        "拂晓"
+      ],
+      "jp": [
+        "ヴェルヴェットコード"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 拂晓：胜利之刻 / 拂晓\\n- JP: ヴェルヴェットコード"
+      },
+      {
+        "name": "Developer",
+        "value": "上海久游网 (Shanghai 9You)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: 广州天梯互娱 → 上海久游网\\n- JP: 唯数娱乐 (GameHours)\\n- TW/HK/MO: 汇创纪"
+      },
+      {
+        "name": "Genre",
+        "value": "3D bullet-hell naval shooter"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "255 (current library; 193 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Retrofit, alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; Biligame; official homepage"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Japan",
+        "date": "2022-02-16T00:00:00Z",
+        "end_date": "2023-06-28T00:00:00Z"
+      },
+      {
+        "region": "Mainland China",
+        "date": "2023-03-16T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2023-06-01T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 255,
+      "reported_count": 193,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [
+        "retrofit",
+        "alternate outfits"
+      ],
+      "notes": "JP server is closed; CN/TW servers remain active.",
+      "breakdown": {
+        "total": 255,
+        "base": 142,
+        "damage": 0,
+        "retrofit": 19,
+        "outfit": 94,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "3D shipgirl bullet-hell game developed by Shanghai 9You. The Japanese version launched on 16 February 2022 and ended on 28 June 2023; the mainland China and TW/HK/MO versions launched in 2023 and remain active. The local library has 255 CGs, up from 193 in the original list.",
+    "sources": [
+      {
+        "label": "Biligame - 拂晓",
+        "url": "https://wiki.biligame.com/fxslzk/%E9%A6%96%E9%A1%B5",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Official homepage",
+        "url": "https://vc.gamehours.jp/",
+        "language": "jp",
+        "type": "official"
+      },
+      {
+        "label": "Chinese Wikipedia",
+        "url": "https://zh.wikipedia.org/wiki/%E6%8B%82%E6%99%93%EF%BC%9A%E5%8B%9D%E5%88%A9%E4%B9%8B%E5%88%BB",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "766e656899f6bbc4bafa3ad36d1c704a540b84c459f39d74243b3c75d12d7e6e",
     "name": "Victory Belles",
     "display_name": "Victory Belles",
-    "desc": "Work-in-progress crowd funded auto-battler game",
-    "status":"Work in Progress",
+    "desc": "Turn-based shipgirl strategy RPG",
+    "status": "End of Service",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Victory Belles.webp",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Victory Belles"
+      ],
+      "zh": [
+        "胜利佳丽",
+        "胜利少女"
+      ],
+      "jp": [
+        "Victory Belles"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 胜利佳丽 / 胜利少女\\n- EN: Victory Belles"
+      },
+      {
+        "name": "Developer",
+        "value": "Black Chicken Studios"
+      },
+      {
+        "name": "Publisher",
+        "value": "Black Chicken Studios"
+      },
+      {
+        "name": "Genre",
+        "value": "Turn-based strategy RPG"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "260 (current library; 159 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Cached game assets; Victory Belles Wiki; Fandom"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Global",
+        "date": "2023-02-22T00:00:00Z",
+        "end_date": "2025-10-01T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 260,
+      "reported_count": 159,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Good",
+      "variants": [
+        "outfits"
+      ],
+      "notes": "Service ended 2025-10-01; assets were preserved from the cached client.",
+      "breakdown": {
+        "total": 260,
+        "base": 196,
+        "damage": 0,
+        "retrofit": 0,
+        "outfit": 64,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "Kickstarter-funded WW2 shipgirl game by Black Chicken Studios. It raised funding in May 2016 and finally released worldwide on 22 February 2023. The service ended on 1 October 2025 after the publisher backed out. The local library has 260 CGs, up from 159 in the original list.",
+    "sources": [
+      {
+        "label": "Official site",
+        "url": "https://victorybellesgame.com/",
+        "language": "en",
+        "type": "official"
+      },
+      {
+        "label": "Victory Belles Wiki",
+        "url": "http://www.victorybelleswiki.com/index.php/Belles",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "Victory Belles Fandom",
+        "url": "https://victorybelles.fandom.com/wiki/Category:Belles",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/Victory_Belles",
+        "language": "jp",
+        "type": "wiki"
+      },
+      {
+        "label": "Chinese Wikipedia - 胜利佳丽",
+        "url": "https://zh.wikipedia.org/wiki/%E8%83%9C%E5%88%A9%E4%BD%B3%E4%B8%BD",
+        "language": "zh",
+        "type": "wiki"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "796689da91d6666d8bec5d7dd9e70ca35ee8abb34746e31fde464c5468cd05ac",
     "name": "Warship Collection",
     "display_name": "Warship Collection",
-    "desc": "5v5 MOBA game with various 3D shipgirl models",
-    "status":"End of Service",
+    "desc": "6v6 shipgirl MOBA",
+    "status": "End of Service",
     "icon_image": "",
-    "general_info": [],
-    "release_date": [],
-    "extra_info": "",
+    "aliases": {
+      "en": [
+        "Warship Collection"
+      ],
+      "zh": [
+        "舰姬收藏"
+      ],
+      "jp": []
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 舰姬收藏"
+      },
+      {
+        "name": "Developer",
+        "value": "上海跳跃网络科技有限公司 (Shanghai Tiaoyue)"
+      },
+      {
+        "name": "Publisher",
+        "value": "上海跳跃网络科技有限公司"
+      },
+      {
+        "name": "Genre",
+        "value": "MOBA"
+      },
+      {
+        "name": "Platform",
+        "value": "PC browser"
+      },
+      {
+        "name": "CG Count",
+        "value": "31 (current library; 31 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Meh - Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Damaged, alternate outfits"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game asset files; 17173 album"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Mainland China",
+        "date": "2017-09-28T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 31,
+      "reported_count": 31,
+      "as_of": "2026-11-08",
+      "quality": "Meh - Good",
+      "variants": [
+        "damaged",
+        "alternate outfits"
+      ],
+      "notes": "Some CGs may be inaccessible because the service is closed.",
+      "breakdown": {
+        "total": 31,
+        "base": 15,
+        "damage": 9,
+        "retrofit": 0,
+        "outfit": 7,
+        "oath": 0,
+        "censored": 0,
+        "background": 0
+      }
+    },
+    "extra_info": "6v6 browser MOBA with shipgirls, developed by Shanghai Tiaoyue. It entered game libraries in September 2017 and is now offline. The local library has all 31 CGs from the original list.",
+    "sources": [
+      {
+        "label": "17173 game page",
+        "url": "https://game.yeyou.com/info-54209.html",
+        "language": "zh",
+        "type": "database"
+      },
+      {
+        "label": "17173 album",
+        "url": "https://newgame.17173.com/game-info-1000666.html",
+        "language": "zh",
+        "type": "database"
+      }
+    ],
     "screenshot": []
   },
   {
     "id": "a3fc2c05b18c281ccc9763fb862541400f2456e8343e0c496a48df353fdcfac7",
     "name": "Warship Girls R",
     "display_name": "Warship Girls R",
-    "desc": "Gacha auto-battler game",
-    "status":"Active",
+    "desc": "Naval card game and auto-battler",
+    "status": "Active",
     "icon_image": "/data/assets/shipgirls/Franchise logo/Warship Girl R.jpg",
+    "aliases": {
+      "en": [
+        "Warship Girls R"
+      ],
+      "zh": [
+        "战舰少女R"
+      ],
+      "jp": [
+        "戦艦少女R"
+      ]
+    },
     "general_info": [
-      {"name": "Alternative Name", "value": "- ZH: 战舰少女R"},
-      {"name": "Developer", "value": "株式会社moe fantasy"},
-      {"name": "Genre", "value": "Gacha Auto-Battler"},
-      {"name": "Platform", "value": "Android, iOS"},
-      {"name": "Engine", "value": "Unity"}
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 战舰少女R\\n- JP: 戦艦少女R\\n- EN: Warship Girls R"
+      },
+      {
+        "name": "Developer",
+        "value": "上海幻萌网络科技有限公司 (Moe Fantasy)"
+      },
+      {
+        "name": "Publisher",
+        "value": "- CN: 上海尽游网络 / 幻萌网络\\n- JP: 幻萌网络\\n- TW/HK/MO: 幻萌网络"
+      },
+      {
+        "name": "Genre",
+        "value": "Naval card game, auto-battler"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Count",
+        "value": "3,216 (current library; 2,661 in the original list)"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Retrofit, damaged, alternate outfits, censored variants"
+      },
+      {
+        "name": "CG Source",
+        "value": "Zjsnr Wiki; Fandom"
+      }
     ],
     "release_date": [
-      {"region": "Mainland China", "date": "2014-09-01T00:00:00Z"},
-      {"region": "Japan", "date": "2016-10-01T00:00:00Z"},
-      {"region": "Global", "date": "2018-07-26T00:00:00Z", "end_date": "2020-08-01T00:00:00Z"}
+      {
+        "region": "Mainland China",
+        "date": "2014-09-23T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan",
+        "date": "2015-07-27T00:00:00Z",
+        "end_date": "2015-11-12T00:00:00Z"
+      },
+      {
+        "region": "Thailand",
+        "date": "2016-02-22T00:00:00Z",
+        "end_date": "2017-08-14T00:00:00Z"
+      },
+      {
+        "region": "Japan",
+        "date": "2016-10-24T00:00:00Z"
+      },
+      {
+        "region": "Hongkong/Macau/Taiwan (2nd)",
+        "date": "2018-08-13T00:00:00Z",
+        "end_date": "2021-08-31T00:00:00Z"
+      },
+      {
+        "region": "Global",
+        "date": "2018-12-18T00:00:00Z",
+        "end_date": "2021-08-31T00:00:00Z"
+      }
     ],
-    "extra_info": "",
+    "cg_info": {
+      "count": 3216,
+      "reported_count": 2661,
+      "as_of": "2026-11-08",
+      "quality": "Good",
+      "variants": [
+        "retrofit",
+        "damaged",
+        "alternate outfits",
+        "censored variants"
+      ],
+      "notes": "Still active in CN/JP; large retrofit and damage set.",
+      "breakdown": {
+        "total": 3216,
+        "base": 662,
+        "damage": 1508,
+        "retrofit": 529,
+        "outfit": 1264,
+        "oath": 0,
+        "censored": 193,
+        "background": 0
+      }
+    },
+    "extra_info": "Long-running Chinese shipgirl game developed by Moe Fantasy. The mainland China and Japanese servers remain active; the TW/HK/MO, Global, and Thai servers have closed. The local library has 3,216 CGs, up from 2,661 in the original list.",
+    "sources": [
+      {
+        "label": "Zjsnr Wiki",
+        "url": "https://www.zjsnrwiki.com/wiki/%E9%A6%96%E9%A1%B5",
+        "language": "zh",
+        "type": "wiki"
+      },
+      {
+        "label": "Warship Girls Fandom",
+        "url": "https://warship-girls.fandom.com/wiki/List_of_Warship_Girls",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3R",
+        "language": "jp",
+        "type": "wiki"
+      }
+    ],
     "screenshot": [
       "https://pm1.narvii.com/6699/3542e85901e9d83ef6c4299d4b0799fda7480110_hq.jpg",
       "https://pm1.narvii.com/6699/8ffbc70b4bd126ae59650ab0cb9d463de3d66d2d_hq.jpg"
