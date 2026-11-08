@@ -442,8 +442,9 @@ sets `cg_info.as_of` to the refresh date. Counts should not be repeated in
 - Voice: 240 folders and 5,584 WAVs are in `Velvet Code/voice`, using the
   container folder names from `sound/char` bundles.
 - L2D: 169 L2D bundles were unpadded to
-  `output/vc26/l2d_bundles_unpadded` for AssetStudioModGUI's Live2D export.
-  They are not yet copied into `Velvet Code/Live2D`; the GUI export step is
+  `output/vc26/l2d_bundles_unpadded` and copied to
+  `Velvet Code/Live2D_bundles_unpadded` for AssetStudioModGUI's Live2D export.
+  They are not yet exported into `Velvet Code/Live2D`; the GUI export step is
   still pending.
 - Unmapped CGs after the 3D pass are mostly characters/outfits without a
   matching client model (for example Akari, Arromanches, Blucher, some
