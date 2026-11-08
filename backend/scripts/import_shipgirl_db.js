@@ -17,6 +17,7 @@ dotenv.config({ path: path.join(__dirname, '..', '.env') })
 const DB_NAME = 'kansen_index'
 const COLLECTION = 'shipgirl'
 const JSON_PATH = path.join(__dirname, '..', 'data', 'shipgirl_list_db_new.json')
+const BACKUP_DIR = path.join(__dirname, '..', 'data', 'backups')
 const APPLY = process.argv.includes('--apply')
 const CHUNK_SIZE = 500
 
@@ -69,12 +70,14 @@ async function main() {
         }
 
         const backupName = `${COLLECTION}_backup_${timestamp()}`
-        console.log(`\nBacking up to ${backupName} ...`)
-        await db.collection(COLLECTION).aggregate([{ $out: backupName }]).toArray()
-        const backupCount = await db.collection(backupName).countDocuments()
-        console.log('backup docs:', backupCount)
-        if (backupCount !== before.count) {
-            throw new Error(`backup count mismatch: ${backupCount} !== ${before.count}`)
+        const backupPath = path.join(BACKUP_DIR, `${backupName}.json`)
+        console.log(`\nBacking up to ${backupPath} ...`)
+        fs.mkdirSync(BACKUP_DIR, { recursive: true })
+        const backupDocs = await db.collection(COLLECTION).find({}).toArray()
+        fs.writeFileSync(backupPath, JSON.stringify(backupDocs, null, 2))
+        console.log('backup docs:', backupDocs.length, 'bytes:', fs.statSync(backupPath).size)
+        if (backupDocs.length !== before.count) {
+            throw new Error(`backup count mismatch: ${backupDocs.length} !== ${before.count}`)
         }
 
         console.log('Clearing collection ...')
@@ -99,7 +102,7 @@ async function main() {
         if (after.count !== docs.length) {
             throw new Error(`post-import count mismatch: ${after.count} !== ${docs.length}`)
         }
-        console.log(`\nDone. Backup collection: ${backupName}`)
+        console.log(`\nDone. Backup file: ${backupPath}`)
     }
     finally {
         await client.close()

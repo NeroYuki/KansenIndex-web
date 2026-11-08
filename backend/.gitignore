@@ -128,6 +128,8 @@ dist
 
 data/assets/*
 data/thumbs/*
+data/backups/
+data/*.bak
 data/shipgirl_list_db_new.json
 data/shipgirl_list_db_old.json
 ws
