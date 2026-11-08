@@ -85,23 +85,45 @@ export function GET_random(query) {
     })
 }
 
-export function POST_submission(data) {
-    return new Promise(async (resolve, reject) => {
-        let option = {
+const SUBMISSION_MAX_SIZE_MESSAGE = 'The selected file is too large. Maximum allowed size is 100 MiB (about 100 MB).'
+
+function isHtmlResponse(text) {
+    return /^\s*<!doctype\s+html/i.test(text) || /<html[\s>]/i.test(text)
+}
+
+function getSubmissionErrorMessage(status, responseText) {
+    const text = (responseText || '').trim()
+
+    if (status === 413) return SUBMISSION_MAX_SIZE_MESSAGE
+    if (text && !isHtmlResponse(text)) return text
+    if (status === 429) return 'Too many submission attempts. Please wait a moment and try again.'
+    if (status === 503) return 'The submission service is temporarily unavailable. Please try again later.'
+    return `Submission failed (HTTP ${status}). Please try again.`
+}
+
+export async function POST_submission(data) {
+    let res
+    try {
+        res = await fetch('/api/shipgirl/submission', {
             method: "POST",
             body: data
-        }
-        fetch('/api/shipgirl/submission', option)
-            .then(async (res) => {
-                if (!res.ok) {
-                    reject(await res.text())
-                }
-                else {
-                    resolve(await res.json())
-                }
-            })
-            .catch(e => reject("error when fetch"))
-    })
+        })
+    }
+    catch (e) {
+        throw new Error('Could not reach the server. Please check your connection and try again.')
+    }
+
+    if (!res.ok) {
+        const responseText = await res.text().catch(() => '')
+        throw new Error(getSubmissionErrorMessage(res.status, responseText))
+    }
+
+    try {
+        return await res.json()
+    }
+    catch (e) {
+        throw new Error('Unexpected response from the server. Please try again.')
+    }
 }
 
 export function POST_getFav(char, folder) {
