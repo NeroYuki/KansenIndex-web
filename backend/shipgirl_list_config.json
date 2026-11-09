@@ -350,5 +350,42 @@
 
         ],
         "fullspinemapping": "./data/toa_spineMapping.json"
+    },
+    {
+        "name": "ETE Chronicles",
+        "optionName": "ete",
+        "allowAlt": false,
+        "allowSilhouette": false,
+        "baseArtSuffix": "",
+        "alias": [
+            {"originalName": "Asagiri", "value": ["Suzuran"]},
+            {"originalName": "Avenger", "value": ["Obsidian"]},
+            {"originalName": "Barrier", "value": ["Halite"]},
+            {"originalName": "Borealis", "value": ["Icicle"]},
+            {"originalName": "Caesar", "value": ["Louise"]},
+            {"originalName": "Covenant", "value": ["Ruler"]},
+            {"originalName": "Drakeagle", "value": ["Chisha"]},
+            {"originalName": "Frost Demon", "value": ["Crocell"]},
+            {"originalName": "Habakkuk", "value": ["Crocell"]},
+            {"originalName": "Hessen", "value": ["Lens"]},
+            {"originalName": "Hinata", "value": ["Mukuge"]},
+            {"originalName": "Izumo Prototype", "value": ["Stikka"]},
+            {"originalName": "Jinmu", "value": ["Mukuge"]},
+            {"originalName": "Kaspian Mk.III", "value": ["Icicle"]},
+            {"originalName": "Kingslayer", "value": ["Bratz"]},
+            {"originalName": "Kirishima", "value": ["Yukiwari"]},
+            {"originalName": "Meteor-X", "value": ["Obsidian"]},
+            {"originalName": "Nikitama", "value": ["Stikka"]},
+            {"originalName": "Rhine", "value": ["Ruler"]},
+            {"originalName": "Seablade", "value": ["Chisha"]},
+            {"originalName": "Tornado IDS", "value": ["Candela"]},
+            {"originalName": "Twilight Blaze", "value": ["Qiqiao"]},
+            {"originalName": "Wyrm", "value": ["Celesilver"]},
+            {"originalName": "Yu-Heng", "value": ["Qiqiao"]},
+            {"originalName": "Zumwalt", "value": ["Bratz"]}
+        ],
+        "voicemapping": "./data/ete_voiceMapping.json",
+        "m3dmapping": "./data/ete_m3dMapping.json",
+        "extramapping": "./data/ete_extraMapping.json"
     }
 ]

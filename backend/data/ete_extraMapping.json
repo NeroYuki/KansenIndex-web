@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Avenger.png",
+        "alias": [
+            "Obsidian"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Meteor-X.png",
+        "alias": [
+            "Obsidian"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Caesar.png",
+        "alias": [
+            "Louise"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Barrier.png",
+        "alias": [
+            "Halite"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Zumwalt.png",
+        "alias": [
+            "Bratz"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Kingslayer.png",
+        "alias": [
+            "Bratz"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Kaspian Mk.III.png",
+        "alias": [
+            "Icicle"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Borealis.png",
+        "alias": [
+            "Icicle"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Seablade.png",
+        "alias": [
+            "Chisha"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Drakeagle.png",
+        "alias": [
+            "Chisha"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Yu-Heng.png",
+        "alias": [
+            "Qiqiao"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Twilight Blaze.png",
+        "alias": [
+            "Qiqiao"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Kirishima.png",
+        "alias": [
+            "Yukiwari"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Hinata.png",
+        "alias": [
+            "Mukuge"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Jinmu.png",
+        "alias": [
+            "Mukuge"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Asagiri.png",
+        "alias": [
+            "Suzuran"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Izumo Prototype.png",
+        "alias": [
+            "Stikka"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Nikitama.png",
+        "alias": [
+            "Stikka"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Wyrm.png",
+        "alias": [
+            "Celesilver"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Habakkuk.png",
+        "alias": [
+            "Crocell"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Frost Demon.png",
+        "alias": [
+            "Crocell"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Rhine.png",
+        "alias": [
+            "Ruler"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Covenant.png",
+        "alias": [
+            "Ruler"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Hessen.png",
+        "alias": [
+            "Lens"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    },
+    {
+        "name": "Tornado IDS.png",
+        "alias": [
+            "Candela"
+        ],
+        "nation": [
+            "ETE"
+        ],
+        "ship_type": "Naval"
+    }
+]

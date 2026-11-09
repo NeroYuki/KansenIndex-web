@@ -1,0 +1,102 @@
+[
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Avenger/Avenger.fbx",
+        "name": "Avenger.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Meteor-X/Meteor-X.fbx",
+        "name": "Meteor-X.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Caesar/Caesar.fbx",
+        "name": "Caesar.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Barrier/Barrier.fbx",
+        "name": "Barrier.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Zumwalt/Zumwalt.fbx",
+        "name": "Zumwalt.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Kingslayer/Kingslayer.fbx",
+        "name": "Kingslayer.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Kaspian Mk.III/Kaspian Mk.III.fbx",
+        "name": "Kaspian Mk.III.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Borealis/Borealis.fbx",
+        "name": "Borealis.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Seablade/Seablade.fbx",
+        "name": "Seablade.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Drakeagle/Drakeagle.fbx",
+        "name": "Drakeagle.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Yu-Heng/Yu-Heng.fbx",
+        "name": "Yu-Heng.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Twilight Blaze/Twilight Blaze.fbx",
+        "name": "Twilight Blaze.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Kirishima/Kirishima.fbx",
+        "name": "Kirishima.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Hinata/Hinata.fbx",
+        "name": "Hinata.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Jinmu/Jinmu.fbx",
+        "name": "Jinmu.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Asagiri/Asagiri.fbx",
+        "name": "Asagiri.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Izumo Prototype/Izumo Prototype.fbx",
+        "name": "Izumo Prototype.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Nikitama/Nikitama.fbx",
+        "name": "Nikitama.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Wyrm/Wyrm.fbx",
+        "name": "Wyrm.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Habakkuk/Habakkuk.fbx",
+        "name": "Habakkuk.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Frost Demon/Frost Demon.fbx",
+        "name": "Frost Demon.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Rhine/Rhine.fbx",
+        "name": "Rhine.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Covenant/Covenant.fbx",
+        "name": "Covenant.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Hessen/Hessen.fbx",
+        "name": "Hessen.png"
+    },
+    {
+        "dir": "./data/assets/shipgirls/ETE Chronicles/char3d/Tornado IDS/Tornado IDS.fbx",
+        "name": "Tornado IDS.png"
+    }
+]
