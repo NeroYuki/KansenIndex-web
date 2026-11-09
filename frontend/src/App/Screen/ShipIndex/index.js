@@ -111,6 +111,7 @@ export const ShipIndex = () => {
         "Codename Coastline",
         "Counter Arms",
         "Deep Sea Desire",
+        "ETE Chronicles",
         "Goddess Fleet",
         "Guardian Project",
         "Kantai Collection",

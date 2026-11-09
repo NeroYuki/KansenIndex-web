@@ -1280,6 +1280,104 @@
     "screenshot": []
   },
   {
+    "id": "93dac0b01eaa4f214dbb077b09b73b4dd920bbf07c865243939bf6b97fa5a672",
+    "name": "ETE Chronicles",
+    "display_name": "E.T.E. Chronicle",
+    "desc": "3D mecha musume action RPG",
+    "status": "Active",
+    "icon_image": "/data/assets/shipgirls/ETE Chronicles/Texture2D/Avenger.png",
+    "aliases": {
+      "en": [
+        "ETE Chronicle",
+        "E.T.E. Chronicle"
+      ],
+      "zh": [
+        "艾塔纪元"
+      ],
+      "jp": [
+        "エタクロニクル"
+      ]
+    },
+    "general_info": [
+      {
+        "name": "Alternative Name",
+        "value": "- ZH: 艾塔纪元\\n- JP: エタクロニクル\\n- EN: E.T.E. Chronicle"
+      },
+      {
+        "name": "Developer",
+        "value": "CHENS GLOBAL LIMITED / E.T.E Studio"
+      },
+      {
+        "name": "Publisher",
+        "value": "CHENS GLOBAL LIMITED"
+      },
+      {
+        "name": "Genre",
+        "value": "3D mecha musume action RPG"
+      },
+      {
+        "name": "Engine",
+        "value": "Unity (2019.4 / 2022.3)"
+      },
+      {
+        "name": "Platform",
+        "value": "Android, iOS"
+      },
+      {
+        "name": "CG Quality",
+        "value": "Good"
+      },
+      {
+        "name": "CG Variants",
+        "value": "Naval unit illustrations, full 3D units, 3D chibi models, voice"
+      },
+      {
+        "name": "CG Source",
+        "value": "Game assets; FairyGUI MechaAndDriver atlases; E.T.E Chronicle Fandom"
+      }
+    ],
+    "release_date": [
+      {
+        "region": "Global",
+        "date": "2025-03-13T00:00:00Z"
+      }
+    ],
+    "cg_info": {
+      "count": 25,
+      "as_of": "2026-11-09",
+      "quality": "Good",
+      "variants": [
+        "naval unit illustrations",
+        "full 3D models",
+        "chibi models",
+        "voice"
+      ],
+      "notes": "25 Naval-class shipgirl-related units are indexed. The 47 Ground/Aerial mecha units are archived separately under ETE Chronicles/non_shipgirl_auxiliary and are not part of the shipgirl index."
+    },
+    "extra_info": "Mecha musume RPG where surgically modified Syncer girls pilot E.T.E. mecha. The indexed set covers the 25 Naval-class units; Ground and Aerial units are archived separately. Assets include full 3D unit models, driver models, 3D chibi models, and voice clips. No Live2D or Spine assets are present.",
+    "sources": [
+      {
+        "label": "Official site",
+        "url": "https://etechronicle-en.chens.ltd/",
+        "language": "en",
+        "type": "official"
+      },
+      {
+        "label": "E.T.E Chronicle Fandom",
+        "url": "https://etechronicle.fandom.com/wiki/Etechronicle_Wiki",
+        "language": "en",
+        "type": "wiki"
+      },
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.en.chens.ete2024",
+        "language": "en",
+        "type": "official"
+      }
+    ],
+    "screenshot": []
+  },
+  {
     "id": "001e4344fa8abc910c36b8e87f25ed5f04ab858feaeef059930debf82e882fed",
     "name": "Goddess Fleet",
     "display_name": "Goddess Fleet",
